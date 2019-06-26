@@ -1,8 +1,6 @@
-# MCS Topics
+# Math Debrief
 
-- name: mcs-topics
-- repo: https://github.com/mandober/mcs-topics
-- desc: Heap of math and CS notes.
-- date: 2K'10s
+- name: `debrief.math`
+- repo: https://github.com/mandober/debrief.math
+- desc: Math by bullet point.
 
-A heap of notes about misc math, math.lo, math.cs, today on a heap tomorrow never knows
