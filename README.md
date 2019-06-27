@@ -1,6 +1,5 @@
 # Math Debrief
 
-- name: `debrief.math`
-- repo: https://github.com/mandober/debrief.math
-- desc: Math by bullet point.
-
+- repo: `debrief.math`
+- desc: Notes about discrete mathematics.
+- link: https://github.com/mandober/debrief.math
