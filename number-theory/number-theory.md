@@ -1,0 +1,111 @@
+# Number Theory
+
+**Number theory** is a branch of *pure mathematics* that primarily studies the properties of integers, especially prime numbers, and the properties of other number-theoretic objects made out of integers (e.g. rational numbers), or defined as generalizations of the integers (e.g. algebraic integers).
+
+Integers can be considered per se, or as solutions to equations (Diophantine geometry).
+
+Questions in number theory are often best understood through the study of *analytical objects* (for example, the Riemann zeta function) that encode properties of the integers, primes or other number-theoretic objects in some fashion (*analytic number theory*).
+
+One may also study real numbers in relation to rational numbers, for example, as approximated by the latter (Diophantine approximation).
+
+
+
+---
+__Lagrange's four-square theorem__ states that every natural number can be represented as the sum of 4 integer squares. The theorem was proven by Joseph Louis Lagrange in 1770.
+
+$$s=a^2 + b^2 + c^2 + d^2$$
+
+For example:
+
+$$
+3 = 1^2 + 1^2 + 1^2 + 0^2 \\
+44 = 6^2 + 2^2 + 2^2 \\
+53 = 7^2 + 2^2
+$$
+
+squares:  1  2  3  4  5  6  7  8   9  10  11
+n^2   = { 1, 4, 9,16,25,36,49,64, 81,100,121 s
+n^2+1 = { 2, 5,10,17,26,37,50,65, 82,101,122 s+1
+n^2+4 = { 5, 8,13,20,29,40,53,68, 85,104,125 s+4
+n^2+9 = {10,13,18,25,34,45,58,73, 90,109,130 s+9
+n^2+16= {17,20,25,32,41,52,65,80, 97,116,137 s+16
+n^2+25= {26,29,34,41,50,61,74,89,106,125,145 s+25
+n^2+36= {37,40,45,52,61,72,
+
+0  = {0,0,0,0} = {0}
+1  = {1,0,0,0} = {1}          1
+2  = {1,1,0,0} = {1+1}        2
+3  = {1,1,1,0} = {1+1+1}      3
+4  = {1,1,1,1} = {1+1+1+1}    4
+
+4  = {2,0,0,0} = {4}          1
+5  = {2,1,0,0} = {4+1}        2
+6  = {2,1,1,0} = {4+1+1}      3
+7  = {2,1,1,1} = {4+1+1+1}    4 ++
+8  = {2,2,0,0} = {4+4}        2
+9  = {2,2,1,0} = {4+4+1}
+10 = {2,2,1,1} = {4+4+1+1}
+12 = {2,2,2,0} = {4+4+4}      3
+13 = {2,2,2,1} = {4+4+4+1}
+16 = {2,2,2,2} = {4+4+4+4}
+
+
+9  = {3,0,0,0} = {9}          1
+10 = {3,1,0,0} = {9+1}        2
+11 = {3,1,1,0} = {9+1+1}      3
+12 = {3,1,1,1} = {9+1+1+1}
+13 = {3,2,0,0} = {9+4}        2
+14 = {3,2,1,0} = {9+4+1}      3
+15 = {3,2,1,1} = {9+4+1+1}    4
+17 = {3,2,2,0} = {9+4+4}
+18 = {3,2,2,1} = {9+4+4+1}
+18 = {3,3,0,0} = {9+9}
+19 = {3,3,1,0} = {9+9+1}
+20 = {3,3,1,1} = {9+9+1+1}
+22 = {3,3,2,0} = {9+9+4}
+23 = {3,3,2,1} = {9+9+4+1}    4
+26 = {3,3,2,2} = {9+9+4+4}
+27 = {3,3,3,0} = {9+9+9}
+28 = {3,3,3,1} = {9+9+9+1}    4
+31 = {3,3,3,2} = {9+9+9+4}    4
+36 = {3,3,3,3} = {9+9+9+9}
+47 = {5,3,3,2} = {25+9+9+4}   4
+39 = {6,1,1,1} = {36+1+1+1}   4
+71 = {6,5,3,1} = {36+25+9+1}  4
+55 = {7,2,1,1} = {49+4+1+1}   4
+60 = {7,3,1,1} = {49+9+1+1}   4
+63 = {7,3,2,1} = {49+9+4+1}   4
+
+                           4^1               4^1               112
+n=4^a(8b+7)={7 15 23 28 31 39 47 55 60 63 71|79 87 92 95 103 111 119 124 127
+              +8 +8 +5 +3 +8 +8 +8 +5 +3 +8 +8 +8 +5 +3 +8  +8  +8  +5  +3
+
+
+4^a x (8 x b + 7)
+4^0 x (8 x 0 + 7) = 1 x (0 + 7) = 7
+4^0 x (8 x 1 + 7) = 1 x (8 + 7) = 15
+4^0 x (8 x 2 + 7) = 1 x (16+ 7) = 23
+4^1 x (8 x 0 + 7) = 4 x (7)     = 28
+
+8 x b + 7
+8 x 0 + 7 = 7
+8 x 1 + 7 = 15 = 8 x 2 - 1
+8 x 2 + 7 = 23 = 8 x 3 - 1
+8 x 3 + 7 = 31 = 8 x 4 - 1
+8 x 4 + 7 = 39
+8 x 5 + 7 = 47
+8 x 6 + 7 = 55
+8 x 7 + 7 = 63
+8 x 8 + 7 = 71
+
+
+
+
+
+
+
+---
+https://en.wikipedia.org/wiki/Analytic_number_theory
+https://en.wikipedia.org/wiki/Complex_analysis
+
+https://en.wikipedia.org/wiki/Number_theory

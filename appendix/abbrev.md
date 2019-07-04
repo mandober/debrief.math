@@ -1,4 +1,4 @@
-# Mathematical Logic: Abbreviations
+# MATH: ABBREVIATIONS
 
 <!-- TOC -->
 
@@ -186,4 +186,3 @@ Universal Turing machine
 
 ## ZST
 Zero-sized type
-
