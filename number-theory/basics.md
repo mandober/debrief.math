@@ -16,8 +16,6 @@
 [nsys]: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Positional_notation_glossary-en.svg/800px-Positional_notation_glossary-en.svg.png?1543607123569
 
 
-
-
 **Combinatorics** studies the problems concerning counting and ordering, such as partitioning and enumerations.
 
 **Arithmetic** is a branch of mathematics that consists of the study of numbers, especially the properties of the traditional operations on them (addition, subtraction, multiplication, division). Arithmetic is an elementary part of number theory, and number theory is considered to be one of the top-level divisions of modern mathematics, along with algebra, geometry, and analysis. The terms arithmetic and higher arithmetic were used until the beginning of the 20th century as synonyms for number theory and are sometimes still used to refer to a wider part of number theory.
@@ -52,5 +50,3 @@ It is said that rational numbers are like the starts in the night sky, but the i
 Cantor also showed that a powerset of any infinite set repr a bigger inf than the original set.
 
 infinite num of infinities that have diff sizes
-
-
