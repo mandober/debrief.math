@@ -1,5 +1,7 @@
 # Probability
 
+Probability theory › Probability
+
 Probability is a measure quantifying the likelihood that events will occur.
 
 Probability quantifies as a number between 0 and 1, where, loosely speaking,[note 1] 0 indicates impossibility and 1 indicates certainty.

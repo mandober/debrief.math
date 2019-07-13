@@ -72,19 +72,18 @@ C(52,5)
 
 ### How many distinct full-house hands
 
-Full house is 3 of a kind + pair (3+2 or 2+3)
-
-1. There's 13 strength levels: 2-10,J,Q,K,A    
+Full house is 3 of a kind and a pair
+- 13 ranks: 2-10,J,Q,K,A    
 - Choose denominaton: C(13,1) = 13
-2. For each denomination choose 3 of a kind out of 4 of a kind
+- For each denomination choose 3 of a kind out of 4 of a kind
 - 4-choose-3, C(4,3) = 4
-* The number of ways tochoose 3 of a kind: 13*4=52
-3. There's 12 strength levels remaining
+- The number of ways tochoose 3 of a kind: 13*4=52
+- 12 ranks remaining
 - C(12,1) = 12
-4. Choose a pair
+- Choose a pair
 - C(4,2) = 6
 - remaining pairs: 12*6=72
-* *Total number of distinct full-house hands*: 52*72 = 3744
+- *Total number of distinct full-house hands*: 52*72 = 3744
 
 
 ### What is the probability of being delt a fullhouse

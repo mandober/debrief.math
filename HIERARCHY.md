@@ -1,21 +1,27 @@
-# MATHEMATICS HIERARCHY
-
-Mathematics
+# MATH › TOPICS -> HIERARCHY
 
 
-PART I: Foundations
+PART I: Introduction
 
-## Math fundamentals
-  - mathematical notions
-    - Primitive
-    - mathematical object
-    - mathematical structure
-    - Mathematical method
+## Basic concepts
+  - Mathematical notion
+  - Mathematical primitive
+  - Mathematical object
+  - Mathematical structure
+  - Mathematical method
   - Rigorous argumentation
-  - Axioms
-  - Hilbert's Problems
+  - Axiom
 
-## Math branches
+## Foundations
+  - The foundations of mathematics
+  - Metamathematics
+  - Hilbert's problems
+  - Logicism
+  - Constructive mathematics
+  - Intuitionism
+  - Gedel's theorems
+
+## Branches
   - Foundations of Mathematics
   - Discrete math
   - Applied Mathematics
@@ -28,6 +34,9 @@ PART I: Foundations
   - Information Theory
   - Constructive Mathematics
   - Computer Science
+
+
+PART II: Elementaries
 
 ## Counting Theory
   - Counting Theory
@@ -59,6 +68,10 @@ PART I: Foundations
     - Rationals
     - Reals
     - Complex numbers
+
+## Arithmetic
+  - Arithmetic
+  - Arithmetic operations
 
 
 PART II: Sets
@@ -155,8 +168,19 @@ PART II: Sets
 PART III: Mathematical Logic
 
 ## Mathematical Logic
-  - Logical System
-    - Logical Argument
+  - Logic
+    - Propositions 
+    - Implication 
+    - Converse, contrapositive, biconditional 
+    - Complex statements 
+    - Logical Equivalence 
+    - Negating propositions 
+    - Predicates and Variables 
+    - quantifiers 
+    - Notation 
+    - Negating statements with quantifiers 
+    - Binding and scope 
+    * Logical Argument
       - Proposition, Atom, Formula, Hypotesis
       - Colorally, Axiom, Theorem, Lemma
       - Declarative statement
@@ -338,12 +362,22 @@ PART III: Mathematical Logic
   - Truth value
   - Validity
 
+## Proof theory
+  - Proving a universal statement 
+  - Direct proof 
+  - Proving existential statements 
+  - Disproving a universal statement 
+  - Disproving an existential statement 
+  - proof methods 
+  - Proof by cases 
+  - Proof by contrapositive
+
 
 PART IV: Algebra
 
-## Arithmetic
-
 ## Algebra
+  - Elementary Algebra
+  - Abstract Algebra
 
 ## Abstract Algebra
 
@@ -405,9 +439,6 @@ PART IV: Algebra
       - Simplification Using Algebraic Functions
       - Karnaugh Maps
       - Simplification Using K-map
-
-
-PART IV: Algebra
 
 ## Graph theory
   - Trees
@@ -482,6 +513,3 @@ PART VI: Category Theory
   - Monads
   - Kan Extensions
   - Theorems of Category Theory
-
-
-
