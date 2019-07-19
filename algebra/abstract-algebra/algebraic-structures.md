@@ -1,32 +1,21 @@
 # Algebraic structures
 
-An *algebraic structure*, a structure on a *carrier* set, is a set of finitary operations on that underlying set.
+An **algebraic structure** is a structure on a set; it is a set of finitary operations on the carrier (underlying) set. A set with an additional structure is called an **algebra**. More complex structures (vector spaces, modules, algebras, etc.) may be defined by introducing multiple operations, different underlying sets or via axioms. **Abstract algebra** studies the properties of algebraic structures. **Universal algebra** is the formalization of the general theory of algebraic structures. Different classes of non/algebraic objects, and relations between them, are studied in terms of the *category theory*.
 
-A set with an additional structure is also called an *algebra*.
-
-More complex structures (e.g. vector spaces, modules, algebras) can be defined by introducing multiple operations, different underlying sets or defining axioms.
+Some algebraic structures with one or more operations (usually binary ops such as addition, multiplication, etc.) that obey a particular set of laws (such as associativity, closure, identity, inverse, etc.), have friendly names (e.g. group, field, ring, etc.).
 
 
-
-The properties of specific algebraic structures are studied in **abstract algebra**. The general theory of algebraic structures has been formalized in **universal algebra**. The language of **category theory** is used to express and study relationships between different classes of algebraic and non-algebraic objects.
-
-Some algebraic structures with one or more operations that obey a particular set of laws, have names.
 
 
 ## List of Algebraic Structures
-
-Complex algebraic structures:
-- vector spaces
-- modules
-- algebras
 
 
 <details><summary>List of Algebraic Structures</summary><br>
 
 * **Group-like**
   - Group
-  - Abelian group
-  - Semigroup
+  - Abelian group (group + commutativity)
+  - Semigroup (group - closure)
   - Monoid
   - Rack and quandle
   - Quasigroup and loop
@@ -63,12 +52,72 @@ Complex algebraic structures:
 
 
 
+
+Algebraic structure |id |in |ops|clo|ass|com|op2 
+--------------------|---|---|---|---|---|---|----
+Commutative group   | + | + |   | + | + | + |
+Group               | + | + | 1 | + | + |   | binop
+Semigroup           |   |   |   | + | + |   |
+Monoid              | + |   | 1 | + | + |   |
+Groupoid            | + | + |   |   | + |   |
+Quasigroup          |   | + |   | + |   |   |
+Inverse Semigroup   |   | + |   | + | + |   |
+Semigroupoid        |   |   |   |   | + |   |
+Loop                | + | + |   | + |   |   |
+Magma               |   |   |   | + |   |   |
+Category            |   |   |   |   | + |   |
+Field               |   |   | 4 |   | + |   | + - ÷ ×
+
+
+
+- `id`entity: has identity element
+- `in`vertibility: elements have inverse
+- `ops` number of operations
+- `op2` operations details, arity, etc.
+- `clo`osure: $$m,n \in A \to (m \cross n) \in A$$
+- `ass`ociativity
+- `com`mutativity
+
+
+**monoid** 
+- op: 1 binary
+- op prop: associative
+- elements: identity
+
+**group**
+- $$group = \{x_{(id,inv)} \in X, Binop_{(cl,as)}\}$$
+- operation: 1 binary with closure, associativity
+- elements : identity and inverse
+- (group = commutative group - commutativity)
+
+
+* Abelian or **Commutative group**
+* Group + commutativity = commutative group
+
+a group is a set equipped with 
+1 binary operation (that combines any two elements to form a third element)
+group axioms: closure, associativity, identity, invertibility
+
+
+**field**:
+- is a set 
+- on which addition, subtraction, multiplication, division are defined
+- and behave as the corresponding operations on rational and real numbers
+- field is a fundamental algebraic structure
+
+a **ring** is one of the fundamental algebraic structures used in abstract algebra. It consists of a set equipped with two binary operations that generalize the arithmetic operations of addition and multiplication. Through this generalization, theorems from arithmetic are extended to non-numerical objects such as polynomials, series, matrices and functions.
+
+an **algebra** (algebra over a field) is a vector space equipped with a bilinear product. Thus, an algebra is an algebraic structure, which consists of a set, together with operations of multiplication, addition, and scalar multiplication by elements of the underlying field, and satisfies the axioms implied by "vector space" and "bilinear".
+
+
+
 ## Group
 A group is an algebraic structure consisting of a set of elements equipped with an operation that combines any 2 elements to form a new group element, satisfying all 4 group axioms:
 1. Closure
 1. Associativity
 1. Identity
 1. Invertibility
+
 
 ## Abelian group
 Abelian or a commutative group is a group that also satifies the axiom of commutativity, so the result of applying the group operation to two group elements does not depend on the application order. Abelian groups generalize the arithmetic of addition of integers.
@@ -143,3 +192,10 @@ Semigroupoids generalize semigroups in the same way that small categories genera
 Groupoid (Brandt `groupoi`, virtual group) generalizes the notion of group in several equivalent ways. A groupoid can be seen as:
 - Group with a partial function replacing the binary operation
 - Category in which every morphism is invertible.
+
+## monoid
+In abstract algebra, a branch of mathematics, a monoid is an algebraic structure with a single associative binary operation and an identity element.
+
+
+## commutative monoid
+monoid with 

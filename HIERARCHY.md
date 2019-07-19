@@ -1,16 +1,26 @@
 # MATH › TOPICS -> HIERARCHY
 
 
-PART I: Introduction
+* Fundamentals
+* Mathematical Logic
+* Sets
+* Number theory
+* Algebra
+
+
+-------------------------------------------------------------------------------
+PART I: FUNDAMENTALS
+-------------------------------------------------------------------------------
 
 ## Basic concepts
-  - Mathematical notion
-  - Mathematical primitive
-  - Mathematical object
-  - Mathematical structure
+  - Mathematical notion, concept, idea
+  - Mathematical primitives
+  - Mathematical objects
+  - Mathematical structures
   - Mathematical method
   - Rigorous argumentation
   - Axiom
+  - Axiomatic system
 
 ## Foundations
   - The foundations of mathematics
@@ -19,7 +29,7 @@ PART I: Introduction
   - Logicism
   - Constructive mathematics
   - Intuitionism
-  - Gedel's theorems
+  - Gödel's theorems
 
 ## Branches
   - Foundations of Mathematics
@@ -36,45 +46,9 @@ PART I: Introduction
   - Computer Science
 
 
-PART II: Elementaries
-
-## Counting Theory
-  - Counting Theory
-  - Counting Principles
-    - Fundamental counting rules
-    - The Rules of Sum and Product
-    - Pascal's Identity
-    - Pigeonhole Principle
-    - The Inclusion-Exclusion principle
-  * Permutations
-  * Combinatorics
-  * Probability
-    - Probability Axioms
-    - Properties of Probability
-    - Conditional Probability
-    - Bayes' Theorem
-
-## Number theory
-  - number theory
-  - number
-  - numeral
-  - digit
-  - numeral system
-  - radix 
-  - properties of numbers
-  * Sets of numbers
-    - Naturals
-    - Integers
-    - Rationals
-    - Reals
-    - Complex numbers
-
-## Arithmetic
-  - Arithmetic
-  - Arithmetic operations
-
-
-PART II: Sets
+-------------------------------------------------------------------------------
+PART II: SETS
+-------------------------------------------------------------------------------
 
 ## Sets
   - Set
@@ -165,7 +139,45 @@ PART II: Sets
   - Bijective
 
 
-PART III: Mathematical Logic
+-------------------------------------------------------------------------------
+PART III: NUMBER THEORY
+-------------------------------------------------------------------------------
+
+## Counting Theory
+  - Counting Theory
+  - Counting Principles
+    - Fundamental counting rules
+    - The Rules of Sum and Product
+    - Pascal's Identity
+    - Pigeonhole Principle
+    - The Inclusion-Exclusion principle
+  * Permutations
+  * Combinatorics
+  * Probability
+    - Probability Axioms
+    - Properties of Probability
+    - Conditional Probability
+    - Bayes' Theorem
+
+## Number theory
+  - number theory
+  - number
+  - numeral
+  - digit
+  - numeral system
+  - radix 
+  - properties of numbers
+  - fundamental number sets
+
+## Arithmetic
+  - Arithmetic
+  - Arithmetic operations
+
+
+
+-------------------------------------------------------------------------------
+PART III: MATHEMATICAL LOGIC
+-------------------------------------------------------------------------------
 
 ## Mathematical Logic
   - Logic
@@ -371,9 +383,21 @@ PART III: Mathematical Logic
   - proof methods 
   - Proof by cases 
   - Proof by contrapositive
+  - Formal verification
+  - Automated theorem proving
+  * Proof theory
+    - Formal proof
+    - Deductive system
+    - Formal system
+    - Theorem
+    - Logical consequence
+    - Rule of inference
+    - Syntax
 
 
-PART IV: Algebra
+-------------------------------------------------------------------------------
+PART IV: ALGEBRA
+-------------------------------------------------------------------------------
 
 ## Algebra
   - Elementary Algebra
@@ -440,36 +464,10 @@ PART IV: Algebra
       - Karnaugh Maps
       - Simplification Using K-map
 
-## Graph theory
-  - Trees
-  - Graphs
 
-## Proof theory
-  - Formal verification
-  - Automated theorem proving
-  * Proof theory
-    - Formal proof
-    - Deductive system
-    - Formal system
-    - Theorem
-    - Logical consequence
-    - Rule of inference
-    - Syntax
-
-## Statistics Theory
-  - theoretical statistics
-  - computational statistics
-  - statistical inference
-  - regression
-  - time series
-  - multivariate analysis
-  - data analysis
-  - Markov chain
-  - Monte Carlo simulation
-
-
-
-PART V: Type Theory (Theory of Computation)
+-------------------------------------------------------------------------------
+PART V: Theory of Computation
+-------------------------------------------------------------------------------
 
 ## Lambda Calculi
   - Lambda Calculus
@@ -483,6 +481,31 @@ PART V: Type Theory (Theory of Computation)
   - System F
   - The Simply Typed Lambda Calculus
 
+## Graph theory
+  - Trees
+  - Graphs
+
+
+-------------------------------------------------------------------------------
+PART V: Statistics
+-------------------------------------------------------------------------------
+
+## Statistics
+  - theoretical statistics
+  - computational statistics
+  - statistical inference
+  - regression
+  - time series
+  - multivariate analysis
+  - data analysis
+  - Markov chain
+  - Monte Carlo simulation
+
+
+-------------------------------------------------------------------------------
+PART V: Type theory and Category theory
+-------------------------------------------------------------------------------
+
 ## Type Theory
   - Path to Type Theory
   - Halting Problem
@@ -493,9 +516,6 @@ PART V: Type Theory (Theory of Computation)
   - Types of Type Systems
   - Constructive Type theory
   - Substructural Type Systems
-
-
-PART VI: Category Theory
 
 ## Category Theory
   - Category

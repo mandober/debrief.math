@@ -1,0 +1,16 @@
+# FUNCTIONS: WIKI
+
+https://en.wikipedia.org/wiki/List_of_mathematical_functions
+
+https://en.wikipedia.org/wiki/Function_(mathematics)
+https://en.wikipedia.org/wiki/Differentiable_function
+https://en.wikipedia.org/wiki/Function_space
+https://en.wikipedia.org/wiki/Domain_of_a_function
+https://en.wikipedia.org/wiki/Codomain
+https://en.wikipedia.org/wiki/Functional_(mathematics)
+https://en.wikipedia.org/wiki/%CE%9C-recursive_function
+https://en.wikipedia.org/wiki/Functional_analysis
+https://en.wikipedia.org/wiki/Higher-order_function
+
+https://en.wikipedia.org/wiki/Typed_lambda_calculus
+https://en.wikipedia.org/wiki/Measure_(mathematics)

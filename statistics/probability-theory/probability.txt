@@ -1,0 +1,46 @@
+Mx: isMale(x)
+Fx: isFemale(x)
+Gx = isGraduate(x)
+∨ ∧ →
+x e X, |X| = 6, X = {4m, 2f}
+==========================================
+`Mx = 0.66`
+`Fx = 0.33`
+==========================================
+    1 in 4 m has G
+if m, then G: `Mx → Gx = 0.25`
+
+    1 in 2 f has G
+if f, then G: `Fx → Gx = 0.50`
+==========================================
+Probability of having G: `Gx = 0.33`
+    0.66 * 0.25 = 0.165     Mx * (Mx → Gx)
+  + 0.33 * 0.50 = 0.165     Fx * (Fx → Gx)
+  =               0.33
+==========================================
+Probability of being m AND having G:
+    Mx = 0.66
+    Mx → Gx = 0.25
+    `Mx ∧ Gx = 0.66 * 0.25 = 0.1666`
+
+Probability of having G AND being m:
+    Gx = 0.33
+    Mx = 0.66
+    `Gx → Mx = 0.33 * 0.66 = 0.50`
+==========================================
+Probability of being f AND having G:
+    Fx = 0.33
+    Fx → Gx = 0.50
+    `Fx ∧ Gx = 0.33 * 0.50 = 0.1666`
+
+Probability of having G AND being f:
+    Gx = 0.33
+    Fx = 0.33
+    `Gx → Fx = 0.33 * 0.66 = 0.50`
+
+
+             P(X=1 ∧ Y=1)   1
+P(X=1|Y=1) = ------------ = -
+                P(Y=1)      2
+
+
