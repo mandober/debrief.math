@@ -14,9 +14,9 @@ https://en.wikipedia.org/wiki/Successor_function
 - Classification
   - recursive function
   - primitive recursive function (PRF)
-  
-  
-  
+
+
+
 **Successor function**, $$S$$, is a *primitive recursive function*.
 Successor is used in the *Peano axioms* which define the natural numbers. Successor is used to define all natural numbers and addition. 
 

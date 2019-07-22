@@ -21,29 +21,28 @@ PART I: FUNDAMENTALS
   - Rigorous argumentation
   - Axiom
   - Axiomatic system
+  * Branches
+    - The foundations of mathematics
+    - Discrete math
+    - Applied Mathematics
+    - Logicism
+    - Metamathematics
+    - Algebra
+    - Calculus
+    - Analysis
+    - Coding Theory
+    - Information Theory
+    - Constructive Mathematics
+    - Computer Science
 
 ## Foundations
-  - The foundations of mathematics
+  - Foundations of Mathematics
   - Metamathematics
   - Hilbert's problems
   - Logicism
   - Constructive mathematics
   - Intuitionism
   - Gödel's theorems
-
-## Branches
-  - Foundations of Mathematics
-  - Discrete math
-  - Applied Mathematics
-  - Logicism
-  - Metamathematics
-  - Algebra
-  - Calculus
-  - Analysis
-  - Coding Theory
-  - Information Theory
-  - Constructive Mathematics
-  - Computer Science
 
 
 -------------------------------------------------------------------------------
@@ -110,6 +109,7 @@ PART II: SETS
     - Equivalence relation
     - Partial equality
     - Partial equivalence relation
+
 
 ## Order Theory
   - Total order
@@ -468,6 +468,14 @@ PART IV: ALGEBRA
 -------------------------------------------------------------------------------
 PART V: Theory of Computation
 -------------------------------------------------------------------------------
+(here in MATH or in CS?)
+
+### Theory of Computation
+- Formal language
+- Automata theory
+- Computability Theory
+  - Halting Problem
+
 
 ## Lambda Calculi
   - Lambda Calculus
@@ -505,10 +513,10 @@ PART V: Statistics
 -------------------------------------------------------------------------------
 PART V: Type theory and Category theory
 -------------------------------------------------------------------------------
+(here in MATH or in CS?)
 
 ## Type Theory
   - Path to Type Theory
-  - Halting Problem
   - Sequent Calculus
   - Linear Logic
   - Linear Types

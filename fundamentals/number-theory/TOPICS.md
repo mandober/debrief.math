@@ -1,2 +1,0 @@
-# Math › Arithmetic › TOPICS
-
