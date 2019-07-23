@@ -1,4 +1,4 @@
-# Theory of Computation
+# MATH › THEORY OF COMPUTATION › TERMS
 
 
 * Theory of Computation

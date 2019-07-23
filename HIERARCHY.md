@@ -468,7 +468,7 @@ PART IV: ALGEBRA
 -------------------------------------------------------------------------------
 PART V: Theory of Computation
 -------------------------------------------------------------------------------
-(here in MATH or in CS?)
+(HIC AVT CS? HIC? CERTVS? NON, HIBERENT TU! NOLI TANGERE TABVLAS MEOS!
 
 ### Theory of Computation
 - Formal language
@@ -513,7 +513,8 @@ PART V: Statistics
 -------------------------------------------------------------------------------
 PART V: Type theory and Category theory
 -------------------------------------------------------------------------------
-(here in MATH or in CS?)
+(here? or in CS? maybe split? split how? split HOW? SPLIT H-O-W?!)    
+(╯°□°）╯︵ ┻━┻
 
 ## Type Theory
   - Path to Type Theory

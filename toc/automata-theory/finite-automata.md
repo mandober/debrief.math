@@ -1,2 +1,0 @@
-# Finite Automata
-

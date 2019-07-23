@@ -1,2 +1,0 @@
-# Deterministic Finite Automata
-

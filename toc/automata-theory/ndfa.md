@@ -1,2 +1,0 @@
-# Nondeterministic Finite Automata
-
