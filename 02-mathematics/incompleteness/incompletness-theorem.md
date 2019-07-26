@@ -1,4 +1,4 @@
-# Godel's Incompleteness Theorem
+# Gödel's Incompleteness Theorem
 
 In 1900, in Paris, the International Congress of Mathematicians gathered in a mood of hope and fear. The edifice of maths was grand and ornate but its foundations had been shaken. They were deemed to be inconsistent and possibly paradoxical.
 

@@ -1,8 +1,11 @@
 # SUMMARY
 
 
-Math
-- Basics
-- Sets
-- Mathematical logic
-- Category theory
+PART I: FUNDAMENTALS
+
+* Fundamentals
+  - Math Primer
+  - Sets
+  - Mathematical logic
+  - Number theory
+* Numbers

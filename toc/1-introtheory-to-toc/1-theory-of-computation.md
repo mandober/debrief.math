@@ -1,48 +1,44 @@
-# MATH › TOC › THEORY OF COMPUTATION » Theory of Computation
+# Theory of Computation
 
+Theory of Computation (ToC) studies decidability and tractability of computing problems within different models of computation, it analyses the solutions to these problems, particularly taking interest in algorithms' efficiency andtheir space and time complexity.
 
-CS > Theoretical CS > Theory of Computation (ToC)
+The central question:    
+_**What are the fundamental capabilities and limitations of computers?**_
 
-
-In theoretical computer science, the theory of computation is the branch that deals with whether and how efficiently problems can be solved on a model of computation, using an algorithm.
-
-The field of Theory of Computation is divided into 3 major branches:
-- Complexity Theory
-- Computability Theory
+Theory of Computation is a field of Mathematics and Theoretical CS, sub divided into 3 branches:
 - Automata Theory
+- Computability Theory
+- Complexity Theory 
 
 
-In theoretical computer science and mathematics, the theory of computation is the branch that deals with how efficiently problems can be solved on a model of computation, using an algorithm. The field is divided into three major branches: automata theory and languages, computability theory, and computational complexity theory, which are linked by the question: "What are the fundamental capabilities and limitations of computers?".
-
-
-* Theory of Computation
+**Divisions**
+* Automata Theory
+  * Finite State Machines
+    - Deterministic Finite Automata
+    - Non-deterministic Finite Automata
+    - Conversion of NFA to DFA and their equivalence
+    - Mealy Machine
+    - Moore Machine
+  * Formal Language
+    - Regular Expression
+    - Context Free Languages
+  * Turing Machine
+* Computability Theory (Recursion theory)
   - Computation by abstract devices
-    - Analysis of algorithms and problem complexity
-      - Numerical Algorithms and Problems
-      - Nonnumerical Algorithms and Problems
-      - Tradeoffs between Complexity Measures
-
-Topics of ToC include:
-- Decidability
-- Tractability
-- Finite State Machines
-  - Deterministic Finite Automata
-  - Non-deterministic Finite Automata
-  - Conversion of NFA to DFA and their equivalence
-  - Mealy Machine and Moore Machine
-  - Regular Expression
-- Context Free Languages
-- Turing Machine
+  - Decidability
+  - Tractability
+* Complexity Theory
+  - Analysis of algorithms
+    - Numerical algorithms
+    - Non-numerical algorithms
+  - Complexity of algorithms
+  - Tradeoffs between complexity measures
 
 
 ---
 
-Theory of Computation (ToC), a branch of Theoretical Computer Science, studies decidability and tractability of computing problems within various models of computation, it analyses the solutions to those problems i.e. algorithms, particularly their space and time complexity. The goal of ToC is to develop formal mathematical models of computation that reflect real-world computers.
 
-Theory of Computation is often divided into 3 areas:
-1. Complexity theory
-2. Computability theory
-3. Automata theory
+The goal of ToC is to develop formal mathematical models of computation that reflect real-world computers.
 
 
 

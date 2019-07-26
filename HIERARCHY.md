@@ -1,39 +1,51 @@
-# MATH › TOPICS -> HIERARCHY
+# MATH › HIERARCHY
 
 
-* Fundamentals
-* Mathematical Logic
-* Sets
-* Number theory
-* Algebra
+Top levels:
+- The Foundations of Mathematics
+- Mathematical Logic
+- Sets
+- Number theory
+- Algebra
+- Calculus
+
+- Type theory
+- Category theory
 
 
 -------------------------------------------------------------------------------
-PART I: FUNDAMENTALS
+PART I
 -------------------------------------------------------------------------------
 
-## Basic concepts
-  - Mathematical notion, concept, idea
+## Sciences
+  - Hierarchy of Sciences
+  - Branches of Science
+
+## Mathematics
+  - Rigorous argumentation
+  - Axioms
+  - Axiomatic system
   - Mathematical primitives
+
+## Concepts in Mathematics
+  - Mathematical notion, concept, idea
   - Mathematical objects
   - Mathematical structures
   - Mathematical method
-  - Rigorous argumentation
-  - Axiom
-  - Axiomatic system
-  * Branches
-    - The foundations of mathematics
-    - Discrete math
-    - Applied Mathematics
-    - Logicism
-    - Metamathematics
-    - Algebra
-    - Calculus
-    - Analysis
-    - Coding Theory
-    - Information Theory
-    - Constructive Mathematics
-    - Computer Science
+
+## Fields of Mathematics
+  - The Foundations of Mathematics
+  - Discrete math
+  - Applied Mathematics
+  - Logicism
+  - Metamathematics
+  - Algebra
+  - Calculus
+  - Analysis
+  - Coding Theory
+  - Information Theory
+  - Constructive Mathematics
+  - Computer Science
 
 ## Foundations
   - Foundations of Mathematics
