@@ -1,13 +1,27 @@
-# Recursion theory
-
-The recursion theory *is*, either deprecated or obsolete name for, the computability theory, and these are the notes from the book titled: `"Computability Theory - An Introduction to Recursion Theory"`, which is an attempt at (recursive) humor, one should hope.
-
-## An Introduction to Recursion Theory
+# Computability Theory - An Introduction to Recursion Theory
+by Herbert B. Enderton, 2010, ISBN: 9780123849588
 
 - Computability Theory, CT
 - Recursion Theory, RT
 
-The set of *computable partial functions*, also called *recursive partial functions*, deals with the concept of computability. Mathematically, computability theory has arisen from the concept of algorithm. As it become clear that some algorithms perform significantly better then others, and that a class of other, albeit being correct, are too complex in their space and/or time demands that they had no practical use. One branch of computability will always be dedicated to the classification and ranking of algorithms according to their complexity and efficiency.
+## Foreword
+
+The study of the class of computable partial functions (recursive partial functions) stands at the intersection of three fields: mathematics, theoretical computer science, and philosophy.
+
+* Mathematically, computability theory originates from the concept of an algorithm. It leads to a classification of functions according their inherent complexity.
+
+* For the computer scientist, computability theory shows that quite apart from practical matters of running time and memory space, there is a purely theoretical limit to what computer programs can do. This is an important fact, and leads to the questions: Where is the limit? What is on this side of the limit, and what lies beyond it?
+
+* Computability is relevant to the philosophy of mathematics and, in particular, to the questions: What is a proof? Does every true sentence have a proof Computability theory is not an ancient branch of mathematics; it started in 1936. In that year, Alonzo Church, Alan Turing, and Emil Post each published fundamental papers that characterized the class of computable partial functions. Church’s article introduced what is now called “Church’s thesis” (or the Church–Turing thesis), to be discussed in Chapter 1. Turing’s article introduced what are now called “Turing machines.” (1936 was also the year in which The Journal of Symbolic Logic began publication, under the leadership of Alonzo Church and others. Finally, it was also the year in which I was born.)
+
+
+
+
+## An Introduction to Recursion Theory
+
+The set of *computable partial functions*, also called *recursive partial functions*, deals with the concept of computability. 
+
+Mathematically, computability theory has arisen from the concept of algorithm. As it become clear that some algorithms perform significantly better then others, and that a class of other, albeit being correct, are too complex in their space and/or time demands that they had no practical use. One branch of computability will always be dedicated to the classification and ranking of algorithms according to their complexity and efficiency.
 
 Computability theory have also revealed the existence of a purely theoretical limit of computation, which meant that some things are just not computable despite technological advancement.
 

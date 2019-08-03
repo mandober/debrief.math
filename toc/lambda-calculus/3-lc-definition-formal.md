@@ -1,4 +1,4 @@
-# Introduction
+# Lambda Calculus: Formal Definition
 
 Formal introduction:
 

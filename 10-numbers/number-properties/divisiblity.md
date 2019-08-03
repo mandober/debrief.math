@@ -1,7 +1,9 @@
-# Divisiblity
+# Divisibility
 
 
-Divisiblity := If `a` and `b` are ints, then `a` divides `b` if `b = a*n` for some int `n`. `a` is called a *factor* or *divisor* of `b`. `b` is called a *multiple* of `a`.
+https://en.wikipedia.org/wiki/Divisibility_rule
+
+Divisibility := If `a` and `b` are ints, then `a` divides `b` if `b = a*n` for some int `n`. `a` is called a *factor* or *divisor* of `b`. `b` is called a *multiple* of `a`.
 
 - shorthand `a divides b` is `a | b` i.e. `divisor | multiple`
 - (ab e Z AND b=a*n) . a | b

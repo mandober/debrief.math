@@ -99,9 +99,7 @@ This machine was the creation of Alan Turing in 1963 by, he used it to prove pro
 Back to the computational theory,This theory is approached through three main fields:
 
 1- Automata theory
-
 2- Computability theory
-
 3- Computational complexity theory
 
 

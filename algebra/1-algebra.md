@@ -1,5 +1,6 @@
 # Algebra
 
+https://en.wikipedia.org/wiki/Algebra
 
 ## άλγεβρα
 Algebra, in its most general form, is the study of mathematical symbols and the rules for manipulating these symbols; it is a reoccurring subject in math, as it includes everything from equation solving to the study of the higher mathematical abstractions.
@@ -46,8 +47,3 @@ Algebra is also used extensively in
 - 11-Number theory
 - 14-Algebraic geometry
 
-
----
-https://en.wikipedia.org/wiki/Algebra
-https://en.wikipedia.org/wiki/Elementary_algebra
-https://en.wikipedia.org/wiki/Abstract_algebra

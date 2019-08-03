@@ -1,6 +1,12 @@
 # Algebraic structures
 
-An **algebraic structure** is a structure on a set; it is a set of finitary operations on the carrier (underlying) set. A set with an additional structure is called an **algebra**. More complex structures (vector spaces, modules, algebras, etc.) may be defined by introducing multiple operations, different underlying sets or via axioms. **Abstract algebra** studies the properties of algebraic structures. **Universal algebra** is the formalization of the general theory of algebraic structures. Different classes of non/algebraic objects, and relations between them, are studied in terms of the *category theory*.
+An **algebraic structure** is a structure on a set; it is a set of finitary operations on the carrier (underlying) set.
+
+A set with an additional structure is called an **algebra**. More complex structures (vector spaces, modules, algebras, etc.) may be defined by introducing multiple operations or different underlying sets, as well as via axioms.
+
+**Abstract algebra** studies the properties of algebraic structures. 
+
+**Universal algebra** is the formalization of the general theory of algebraic structures. Different classes of non/algebraic objects, and relations between them, are studied in terms of the *category theory*.
 
 Some algebraic structures with one or more operations (usually binary ops such as addition, multiplication, etc.) that obey a particular set of laws (such as associativity, closure, identity, inverse, etc.), have friendly names (e.g. group, field, ring, etc.).
 
@@ -65,6 +71,7 @@ Inverse Semigroup   |   | + |   | + | + |   |
 Semigroupoid        |   |   |   |   | + |   |
 Loop                | + | + |   | + |   |   |
 Magma               |   |   |   | + |   |   |
+
 Category            |   |   |   |   | + |   |
 Field               |   |   | 4 |   | + |   | + - ÷ ×
 

@@ -1,8 +1,7 @@
 # LC Examples
 
-**Example 1**
 
-lazy evaluation:
+**Example: lazy evaluation**
 
 $$
 (\lambda x.x)(\ (\lambda y.(\lambda z.z))(\lambda x.x)\ )\\

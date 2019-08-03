@@ -1,10 +1,25 @@
-# Lambda Calculus
+# Lambda Calculus: Introduction
 
-Lambda Calculus is a prototype programming languages invented by Alonzo Church in the 1930's.
+Lambda calculus, stylized as λ-calculus, is a *formal system*[^1] in *mathematical logic* for expressing *computation*, and in that aspect it is equivalent to a Turing machine.
 
-Lambda Calculus is a *higher-order* language: it provides a systematic syntax for operators whose input and output values may be other operators.
+Lambda Calculus is a prototype programming languages invented by Alonzo Church[^2] in the 1930's, a functional language based on function abstraction and function application, using parameter binding and substitution.
 
-Lambda Calculus is a functional language with notation for function application and abstraction.
+Lambda Calculus is a higher-order language: it provides a systematic syntax for functions whose input and output values are other functions.
+
+Lambda Calculus offers alternative approach to the representation of natural numbers. Majority of the set theories define, e.g. number 3, as the property that all sets containing 3 elements have in common; other set theories (e.g. stratified) define number 3 as the set that contains all sets with 3 elements. Set theories are built around the concept of a set as the most primitive notion, but, in Lambda Calculus a function plays that role.
+
+In fact, only functions exist in Lambda Calculus. Everything else (boolean constants, numbers, data structures, etc.) has to be defined from scratch. This process begins by defining a function abstraction (i.e. a function definition) then, somewhat arbitrarily, assigning a meaning to it.
+
+
+
+
+
+
+Lambda Calculus defines natural numbers in terms of functions (of course, since there's nothing else), that is, number 3 is represented as applying a function 3 times to its argument. Akin to other definitions of natural numbers, number zero is stated as an axiom and the successor function, that produces the subsequent natural numbers, is defined. So a number n is an n-fold of successor function to the zero argument.
+
+
+
+Lambda calculus consists of constructing lambda terms and performing reduction operations on them. 
 
 
 
@@ -61,6 +76,8 @@ There are 3 kinds of **λ-expressions**:
 
 
 
+
+
 ## Abstraction
 A lambda function is an abstraction over a lambda expression:    
 $$\quad \ \lambda x.e$$    
@@ -75,6 +92,7 @@ $$
 $$
 
 - Greek letter lambda introduces a name used for abstraction.
+
 - taht name is function's bound variable (here $$x$$) and it represents a  formal parameter similar to function declarations in PL.
 - The dot separates the name (formal parameter) from the function's body.
 - function's body is an expression in which abstraction with that name (actual parameter) takes place.
@@ -281,3 +299,10 @@ $$
 $$
 
 </details><br>
+
+
+
+
+[^1]: **Formal system** is a framework where one starts with the given axioms (start position) and, following a set of inference rules, one tries to infer theorems (end position). These rules, called *the logical calculus of the formal system*, are formalizations of the human thought process, at least its most mechanical, automated subprocess (when a certain proposition inevitably leads to a valid conclusion).
+
+[^2]: **Alonzo Church** (1903-1995) was an American logician and mathematician who made major contributions to *mathematical logic* and *the foundations of theoretical computer science*. He is best known for *Lambda Calculus*, *Frege–Church ontology*, *Church–Rosser theorem*, and *proving the undecidability of the Entscheidungsproblem* in 1936, when he and Alan Turing independently showed that a general solution to the *Entscheidungsproblem* is impossible, assuming that the intuitive notion of "effectively calculable" is captured by the functions computable by a Turing machine, or equivalently, by those expressible in the lambda calculus. This assumption is now known as the *Church–Turing thesis*.

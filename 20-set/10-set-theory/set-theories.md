@@ -5,12 +5,9 @@ https://en.wikipedia.org/wiki/Naive_set_theory
 https://www.wikiwand.com/en/Axiom_schema
 
 
-The set theory was initiated by Georg Cantor at the end of the XIX century set.
+The set theory was initiated by Georg Cantor at the end of the XIX century set. **Naive set theory** is the approach to set theory that was originally developed at the end of the 19th century, where sets were treated as collections.
 
-Naive set theory is the original set theory developed by mathematicians at the end of the 19th century, treating sets simply as collections of things.
-
-
-Axiomatic set theory is a rigorous axiomatic theory developed in response to the discovery of serious flaws (such as Russell's paradox) in naive set theory. It treats sets as "whatever satisfies the axioms", and the notion of collections of things serves only as motivation for the axioms.
+**Axiomatic set theory** is a rigorous axiomatic theory developed in response to the discovery of serious flaws (such as Russell's paradox) in naive set theory. It treats sets as "whatever satisfies the axioms", and the notion of collections of things serves only as motivation for the axioms.
 
 Internal set theory is an axiomatic extension of set theory that supports a logically consistent identification of unlimited (enormously large) and infinitesimal elements within the real numbers.
 

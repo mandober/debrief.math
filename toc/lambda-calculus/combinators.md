@@ -1,4 +1,4 @@
-# Combinators
+# Combinators in Lambda calculus
 
 Combinators are lambda abstractions without free variables i.e. closed lambda expressions.
 
