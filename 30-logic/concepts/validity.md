@@ -6,9 +6,9 @@ Satisfiability and validity are related to each other in a manner exactly analog
 - **valid** if it is true under every interpretation.
 - **invalid** if some such interpretation makes the formula false.
 
+
 https://www.wikiwand.com/en/Square_of_opposition
 
-sat-and-validity.md
 
 
 ## Validity

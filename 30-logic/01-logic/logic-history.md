@@ -1,19 +1,32 @@
 # History of logic
 
+Logic has been studied as part of the philosophy since ancient times. Since the middle of XIX century, math has found the interest in logic as well, giving rise to the new math branch called mathematical logic. In more recent times, logic became a subject of study in computer science, linguistics, and other cognitive sciences.
+
+The word comes from the Ancient Greek `λογική` [logikḗ] logic.
+
 
 ## Quick timeline
 
-**BCE**   
-Formal logics developed in ancient times in India, China, and Greece. Aristotel, considered as a father of logic, had developed the first formalized methods, known as syllogistic logic. Greek methods, particularly Aristotelian logic found wide application and acceptance in the next millennias. The Stoics, especially Chrysippus, initiated the development of predicate logic.
+BCE
+- Formal logics developed in ancient times in India, China, Greece.
+- Aristotle, father of logic, developed the first formalized logic method, syllogistic logic, that has found wide acceptance in the next millennias.
+- The Stoics with Chrysippus initiated the development of predicate logic.
 
-**Middle Ages**    
-Christian and Islamic philosophers such as Boethius and William of Ockham further developed Aristotle's logic in the Middle Ages, reaching a high point in the mid-XIV, with Jean Buridan. The period between the XIV and the beginning of the XIX century was a dark age for logic. The Middle Ages excluded logic, for which logic later retaliates by exluding the middle.
+Middle Ages
+- Christian and Islamic philosophers further developed Aristotle's logic,
+- which peaked in the mid-XIV with Jean Buridan.
+- from XIV to the beginning of XIX century, the study of logic halted.
+- The Middle Ages have excluded logic, for which classical logic later retaliated by excluding the middle.
 
-**XIX**    
-Logic revived in the mid-XIX century, developing into a rigorous and formal discipline which took as its exemplar the exact method of proof used in mathematics, dating back to Euclid. The development of the modern logic during this period by the likes of Boole, Frege, Russell, Peano is the most significant in the 2000 years' history of logic, and it is arguably one of the most important and remarkable events in human intellectual history.
+XIX
+- Logic was revived in the mid-XIX century
+- From then on it was developing into a formal discipline based on rigorous argumentation that was used in mathematics, dating back to Euclid.
+- The development of the modern logic with Boole, Frege, Russell, Peano et al., was the most flourishing period of not only logic but of human intellectual endeavour in general.
 
-**XX**    
-Progress in mathematical logic in the first few decades of the XX century, particularly arising from the work of Gödel and Tarski, had a significant impact on analytic philosophy and philosophical logic, particularly from the 1950s onwards, in subjects such as modal logic, temporal logic, deontic logic, and relevance logic.
+XX
+- ML progressed at the start of XX century due to work of Gödel and Tarski.
+- ML had a significant impact on analytic philosophy and philosophical logic.
+- new logics: modal, temporal, deontic, relevance, etc.
 
 
 ## Western logic

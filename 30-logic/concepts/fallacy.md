@@ -1,0 +1,3 @@
+# Fallacy
+
+A fallacy is the use of invalid or otherwise faulty reasoning, or "wrong moves" in the construction of an argument. A fallacious argument may be deceptive by appearing to be better than it really is. Some fallacies are committed intentionally to manipulate or persuade by deception, while others are committed unintentionally due to carelessness or ignorance. The soundness of legal arguments depends on the context in which the arguments are made.

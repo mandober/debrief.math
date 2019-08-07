@@ -1,28 +1,9 @@
 # Mathematical Logic
 
-Mathematics › Discrete mathematics » Mathematical logic
+Mathematics › Logic › Mathematical logic
 
-## Logic
+Mathematics » Discrete Mathematics » Mathematical Logic
 
-Logic is concerned with the most general laws of truth, and includes
-- classification of arguments
-- systematic exposition of the logical form
-- study of inference, fallacies, paradoxes, etc.
-
-Logic is the systematic study of the valid forms of inference.
-
-Valid inference is the one where there's a specific relation of logical support between the inference's assumptions and conclusion.
-
-> Logic evaluates arguments    
-> in order to develop methods     
-> that allow us to distinguish     
-> the good from the bad arguments,     
-> and to classify    
-> correct ways of reasoning    
-> and drawing of conclusions.
-
-
-## Math logic
 
 Mathematical logic, emerging as a new math field in XIX century, similarly to other math branches, studies and builds theorems about a system of objects, only here the objects are the theorems themselves and the system is the entire mathematics.
 

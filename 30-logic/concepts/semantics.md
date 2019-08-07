@@ -1,5 +1,6 @@
 # Semantics of logic
 
+
 The validity of an argument depends upon the meaning or semantics of the sentences that make it up.
 
 Aristotle's "Organon", especially "On Interpretation", gives a cursory outline of semantics which the scholastic logicians, particularly in the XIII and XIV century, developed into a complex and sophisticated theory, called __Supposition Theory__.

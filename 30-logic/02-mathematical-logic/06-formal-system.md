@@ -1,5 +1,12 @@
 # Formalism
 
+---
+
+**Formal system** is a mathematical framework consisting of symbols (that make an alphabet), a set of axioms (the first principles) and a set of inference rules. Any theory is based on a small (the smallest the more elegant) set of axioms that are statements that don't require proof. If the axioms were to require proof, then there would be statements in the proof itself that would require proof, and the situation would quickly diverge into infinite regression (and eventually the question of the prime mover). In order to cut this "vicious circle" we are allowed to state a set axioms that are taken for granted within that formal system. Then, using the inference rules, we can derive (useful) theorems that pertain to that formal system. This is like saying that despite the fact there we cannot define some concepts, we're not gonna give up; instead, we'll try to describe them appealing to intuition. If you should accept them, then you can rest assured that the derived theorems are solid (within that specific system). If you should not accept them, you're free to fork the effort into an alternative theory based on another set of axioms. It's like having a lot of contingency plans in the face of the unknown. For example, classical logic has the principle of excluded middle: something is either true or false and there is no other (middle) option. Intuitionistic logic does not agree, so it develops its theorems without that axiom.
+
+
+---
+
 In foundations of mathematics, philosophy of mathematics, and philosophy of logic, formalism is a theory that holds that statements of mathematics and logic can be considered to be statements about the consequences of certain string manipulation rules.
 
 For example, Euclidean geometry can be considered a game whose play consists in moving around certain strings of symbols called axioms according to a set of rules called "rules of inference" to generate new strings. In playing this game one can "prove" that the Pythagorean theorem is valid because the string representing the Pythagorean theorem can be constructed using only the stated rules.
