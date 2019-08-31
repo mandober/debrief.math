@@ -1,2 +1,0 @@
-# Theorems of Category Theory
-

@@ -14,8 +14,6 @@ https://en.wikipedia.org/wiki/Tuple
 
 A set containing two elements may be referred to as an **unordered pair**.
 
-A set $$X$$ is called an __ordered pair__ if $$X = \{\{x\},\{x,y\}\}$$ for some $$x,y$$. It is common to abbreviate the right hand expression by writing an ordered pair as  $$\langle x,y \rangle$$ or even $$(x,y)$$.
-
 
 An ordered pair is a pair of objects, $$(a,b)$$, where the object $$a$$ is called the __first entry__, the object $$b$$ is the __second entry__ of the pair. Unlike unordered pairs (i.e. sets with two elements), an ordered pair is affected by the order of its two elements, so $$(a,b)\neq (b,a)$$. 
 
@@ -34,5 +32,3 @@ as A × B = {(a, b) : a ∈ A, b ∈ B}
 So, the × operation pairs the elements of A with the elements of B in such a way that the elements of A appear as first components, and the elements of B appear as second components.
 
 It is also possible to define Cartesian products for more than two factors, in which case we would not have a pair i.e. 2-tuple, but 3-tuple. Even so, all the n-tuples can be represented by an ordered pair (recursively), e.g. an 4-tuple, $$(a,b,c,d)$$, can be represented as $$(a,(b,(c,d)))$$.
-
-

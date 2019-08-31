@@ -1,3 +1,1 @@
-# math.tt
-
-Type Theory
+# Type Theory

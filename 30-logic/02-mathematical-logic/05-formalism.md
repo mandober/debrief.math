@@ -7,7 +7,6 @@ By formalization we understand the faithful representation or simulation of the 
 At its core, mathematical logic deals with mathematical concepts expressed using formal logical systems. These systems, though they differ in many details, share the common property of considering only expressions in a fixed formal language. The systems of propositional logic and first-order logic are the most widely studied today, because of their applicability to foundations of mathematics and because of their desirable proof-theoretic properties. Stronger classical logics such as second-order logic or infinitary logic are also studied, along with nonclassical logics such as intuitionistic logic.
 
 
-
 ## Formal language
 https://www.wikiwand.com/en/Formal_language
 
@@ -39,4 +38,3 @@ To develop a formal symbolic logic, we transform a certain, sufficiently large, 
 The best strategy is to start by finding the smallest sentences that cannot be decomposed further, called **atomic sentences**. Then, we can assign symbols to stand in for these atomic sentences, allowing us to compose compound sentences using the logical connectives.
 
 > Atomic sentence is a sentence that has no parts that are themselves sentences.
-

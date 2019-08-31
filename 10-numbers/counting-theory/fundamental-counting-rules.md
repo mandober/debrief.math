@@ -27,9 +27,9 @@ If $$S_1,\dots , S_n$$ are disjoint sets, then $$|S_1| + \dots +|S_n| = |S_1\cup
 
 
 ## Rule of product
-**The rule of product** or *multiplication principle* states that if there are $$x$$ ways of doing something and $$y$$ ways of doing another thing, then there are $$x · y$$ ways of performing both actions.
+**The rule of product** or *multiplication principle* states that if there are $$x$$ ways of doing something and $$y$$ ways of doing another thing, then there are $$x \cdot y$$ ways of performing both actions.
 
-Generally, if there are $$x_1, x_2, \dots , x_n$$ number of ways of performing $$n$$ number of independent events separately, then the total number of unique ways, by which all of them can be performed together, will be the product: $$x_1 · x_2 · x_3 · (\dots ) · x_n$$.
+Generally, if there are $$x_1, x_2, \dots , x_n$$ number of ways of performing $$n$$ number of independent events separately, then the total number of unique ways, by which all of them can be performed together, will be the product: $$x_1 \cdot x_2 \cdot x_3 \cdot (\dots ) \cdot x_n$$.
 
 In terms of set theory:    
 the cardinality of the cross-product     

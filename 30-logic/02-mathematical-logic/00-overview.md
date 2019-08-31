@@ -1,16 +1,9 @@
 # Mathematical Logic
 
-Mathematical logic is a *formal system*[^1].
+Mathematical logic is a formal system so it axioms and inference rules: by repeatedly applying the inference rules to the axioms (and to the previously derived theorems), new theorems can be one derived within the system.
 
-> A formal system has axioms and inference rules: by repeatedly applying the inference rules to the axioms (and to the previously derived theorems), one derives new theorems within the system.
+For example, the definition of the natural numbers by *Peano axioms*: zero is a natural number; each natural number has a successor, which is also a natural number. So, starting with 0 and repeatedly applying the successor function we can generate a list of natural numbers (the new theorem).
 
-For example, Peano's theorem about natural numbers begins with axioms:
-1. 0 : Nat
-2. n' : Nat -> n : Nat
-3. S(0) = 1
-4. S(x) = 0 -> x is not Nat
-
-Mathematical logic studies and builds theorems about a system of objects; the objects being the theorems themselves and the system is the entire mathematics.
 
 
 ## Logic system

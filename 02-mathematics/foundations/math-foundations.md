@@ -13,10 +13,17 @@
   - Inference rules
   - Rigorous argumentation
 
+---
 
-- math studies quantity, structure, space, change.
-- word origin: Greek μάθημα |máthēma| (knowledge, study, learning)
-- main branches: pure and applied
+Math foundations candidates:
+- set theories
+  - ZF set theory
+  - BG set theory
+- type theories
+  - *Typed λ-calculus* (Alonzo Church)
+  - *Intuitionistic type theory* (Per Martin-Löf)
+
+
 
 
 ## Math development

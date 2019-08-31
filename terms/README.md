@@ -1,5 +1,6 @@
-# Essential terms in mathematics
+# Math Essentials
 
+expressiveness vs provability
 iff
 function
 set, number
@@ -8,4 +9,3 @@ axiom
 theorem, theory, lemma
 conjecture
 inference rules
-

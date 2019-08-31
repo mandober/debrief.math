@@ -1,12 +1,24 @@
 # Mathematics
 
-Mathematics studies
-- quantity (number theory)
-- relations (algebra)
-- change (calculus)
-- space (geometry)
-- structure
+Main branches:
+- Pure Mathematics
+- Applied Mathematics
 
-It evolved through the use of abstraction and logical reasoning, from counting, calculation, measurement and the systematic study of the shapes and motions of physical objects.
+Math studies
+- *quantity* in Number Theory
+- *relations* in Algebra
+- *change* in Calculus
+- *space* in Geometry
 
-Mathematicians explore such concepts, aiming to formulate new conjectures and establish their truth by rigorous deduction from appropriately chosen axioms and definitions.
+- structures
+
+
+
+
+Mathematics developed through the use of abstraction and logical reasoning.
+
+Mathematicians investigate new concepts trying to formulate conjectures (still not dis/proven theorem) and establish their truth by rigorous deduction from a set of fundamental axioms and previously defined theorems within a certain formal system.
+
+
+
+The word "mathematics" has origins in ancient Greek `μάθημα` |máthēma| (knowledge, study, learning).
