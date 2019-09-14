@@ -1,12 +1,9 @@
-# Group
+# Groups
 
-Math › Algebra › Abstract algebra › Algebraic structures › Groups
+Math › Algebra › Abstract algebra › Algebraic structures › Group
 
 https://en.wikipedia.org/wiki/Group_(mathematics)
-
-Presented here are the basic notions of groups in mathematics. 
-Group theory is a more advanced treatment of groups.
-
+https://en.wikipedia.org/wiki/List_of_group_theory_topics
 
 ## Group
 - set of elements

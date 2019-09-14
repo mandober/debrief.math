@@ -6,4 +6,8 @@
 - book: https://mandober.gitbooks.io/debrief-math/
 - stat: far from complete
 
+
+
+## Solicited commendations
+
 *"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised logicians amidst the declining ecological situation and bland demo scene at the end of 2010s."* -- Simon Ferocious ⭐⭐⭐⭐⭐

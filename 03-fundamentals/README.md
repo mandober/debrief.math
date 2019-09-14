@@ -1,6 +1,8 @@
 # Mathematics: Generality
 
 # Mathematics
+Math development
+
   - Mathematics
   - Metamathematics
   - Philosophy of mathematics
@@ -26,3 +28,26 @@
   - Mathematical object
   - Mathematical structure
   - Mathematical axiom
+
+
+
+* Math intro
+  - math intro, overview
+  - classification
+    - subject matters
+    - major areas (sufficiently separated)
+    - discrete vs continuous
+    - pure vs applied
+    - classification (areas, fields, disciplines, branches, divisions)
+  - mathematical method
+    - Euclid, proof, rigorous argumentation
+
+
+* Mathematical concepts/notions
+  - Mathematical primitive
+  - Mathematical object
+  - Mathematical structure
+  - Mathematical axiom
+
+- History of mathematics
+  - Math hierarchy

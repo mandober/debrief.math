@@ -2,11 +2,23 @@
 
 The concept of function was formalized in terms of sets and set theory, at the end of the XIX century.
 
-Ingredients:
-- sets
-- ordered pair
-- Cartesian product
-- relation
+## Related terms
+- set
+- Cartesian product (set)
+- ordered pair (set)
+- relation (set)
+- function (set)
+
+## Related Hierarchy
+
+sets › cross product › ordered pairs » relations » functions
+
+Dot (cross) product A x B
+All relations
+
+
+There are sets. There are operations on sets. One of these operations is called the Cartesian (dot, cross) product and it pairs each and every element of one set with each and every elements of another set. The cross product is a relation between sets. The cross product is the total relation - it is unique as is its opposite, the empty relation.
+
 
 
 The term pairwise refers to taking all unordered 2-subsets of a given set. For example, the pairwise products of the set {a,b,c} are ab, ac, and bc.

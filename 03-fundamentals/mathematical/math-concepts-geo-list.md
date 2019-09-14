@@ -2,7 +2,6 @@
 
 
 
-
 ## List of mathematical concepts named after locations
 
 https://en.wikipedia.org/wiki/List_of_mathematical_concepts_named_after_places
