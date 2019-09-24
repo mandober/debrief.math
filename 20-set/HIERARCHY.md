@@ -2,8 +2,8 @@ path: math › set
 parent: math
 level: set
 prev: (math logic? math pimer? math fundamentals?)
-next: ? math logic
-proper-node: possibly (but sets do include big subjects: relations, functions)
+next: ?
+proper-node: possibly (but sets include big subjects: relations, functions)
 
 ---
 

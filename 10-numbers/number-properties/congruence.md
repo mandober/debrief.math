@@ -8,20 +8,28 @@ For a positive integer $$n$$,
 two integers $$a$$ and $$b$$ 
 are said to be congruent modulo $$n$$, 
 if their difference is an integer multiple of $$n$$,
-i.e. if there is an integer $$k$$ such that $$a−b=kn$$, 
-denoted by   
+i.e. if there is an integer $$k$$ such that $$a − b = kn$$, denoted    
 $$a \equiv b \pmod n$$
 
-The number $$n$$ is called the modulus of the congruence.   
-The congruence relation may be rewritten as  
-$$a=kn+b$$
+The number $$n$$ is called the **modulus of the congruence**.
 
-explicitly showing its relationship with Euclidean division. However, b need not be the remainder of the division of a by n. More precisely, what the statement a ≡ b mod n asserts is that a and b have the same remainder when divided by n. That is   
-$$a=pn+r,\ \ b=qn+r$$
+The congruence relation may be rewritten as: $$a=kn+b$$ which explicitly shows its relationship with Euclidean division. However, $$b$$ need not be the remainder of the division of $$a$$ by $$n$$.
 
-where $$0\le r\lt n$$ is the common remainder. Subtracting these two expressions, we recover the previous relation: $$a-b=kn$$, by setting $$k = p − q$$
+$$a \equiv b \pmod n$$     
+asserts that $$a$$ and $$b$$ have the same remainder $$r$$ when divided by $$n$$, with    
+$$0\le r\lt n$$
 
+$$
+\frac{a}{n}=(p,r)\ \to (a=np+r) \to (r=a-np) \\
+\frac{b}{n}=(q,r)\ \to (b=nq+r) \to (r=b-nq) \\
+a - np = b - nq \\
+a - b = np - nq \\
+a - b = n(p - q) \\
+(\text{let } k=p-q) \\
+a - b = nk
+$$
 
+Letting $$k=p-q$$ recovers the previously stated relation, $$a−b=kn$$
 
 ---
 

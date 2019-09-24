@@ -1,14 +1,21 @@
 # Boolean algebra
 
-https://www.wikiwand.com/en/Boolean_algebra
-https://www.wikiwand.com/en/Boolean_algebra_(structure)
-https://www.wikiwand.com/en/Boolean_ring
+Boolean algebra, introduced by George Boole in 1847, is a branch of algebra in which the values of the variables are the truth values, `True` and `False`.
+
+Boolean algebra was fundamental in the development of computers and other digital electronics. It is used in programming languages, as well as in set theory and statistics.
 
 
-Boolean algebra, introduced by George Boole in 1847, is a branch of algebra in which the values of the variables are the truth values true and false. It was fundamental in the development of digital electronics; it is available in all programming languages. It is also used in set theory and statistics.
+Unlike elementary algebra where variables range over numbers and the prime operations are addition and multiplication, 
 
-The main operations of Boolean algebra:
-- conjunction, $$\land$$ (analogous to )
+
+the main operations of Boolean algebra are the conjunction and denoted as ∧, the disjunction or denoted as ∨, and the negation not denoted as ¬. 
+
+It is thus a formalism for describing logical operations in the same way that elementary algebra describes numerical operations.
+
+
+
+The main operation of Boolean algebra:
+- conjunction: $$\land$$
 
 Instead of algebra where the values of variables are numbers with basic operations of addition and multiplication, 
 the main operations of Boolean algebra are the 
@@ -61,4 +68,3 @@ a ∧ 0 = a ∨ 0 = 0
 **de morgan**    
 ¬(a ∧ b) = ¬a ∨ ¬b
 ¬(a ∨ b) = ¬a ∧ ¬b
-

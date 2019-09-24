@@ -1,7 +1,7 @@
-# SETS: TERMS 
+# Set: Terms
 
 sets
-  set member, set element
+  set member/element
   set properties
   set membership
   membership relation
@@ -31,6 +31,8 @@ Cartesian product
   set partitioning
   Bell Numbers
   set covering
+
+
 # SETS › TERMS
 
 absolute difference
