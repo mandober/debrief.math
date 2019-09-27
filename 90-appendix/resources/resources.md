@@ -58,15 +58,3 @@ https://en.wikipedia.org/wiki/Elementary_function
 [Functions and mappings](https://en.wikipedia.org/wiki/Category:Functions_and_mappings)
 
 [Möbius–Kantor graph](https://en.wikipedia.org/wiki/M%C3%B6bius%E2%80%93Kantor_graph)
-
-
-
-## LINKS
-
-https://www.apronus.com/math/goedel.htm
-http://eqworld.ipmnet.ru/en/auxiliary/aux-specfunc.htm
-http://www.special-functions.com/
-
-Discrete Mathematics
-https://www.tutorialspoint.com/discrete_mathematics/
-Tutorial about the fundamental concepts of Sets, Relations and Functions; Mathematical Logic; Group theory; Counting Theory; Probability; Mathematical Induction and Recurrence Relations; Graph Theory and Trees; Boolean Algebra.

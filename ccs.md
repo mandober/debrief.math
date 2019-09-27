@@ -1,6 +1,6 @@
 # Math Classification
 
-- 00-xx: General
+00-xx: General
   - 00-0X: General reference
   - 00Axx: General topics
   - 00A05: General mathematics
@@ -12,14 +12,14 @@
   - 00A72: General methods of simulation
   - 00A73: Dimensional analysis
 
-- 01-xx: History
+01-xx: History
   - 01Axx: History of mathematics and mathematicians
   - 01A72: Schools of mathematics
   - 01A73: Universities
   - 01A74: Other institutions and academies
 
-- 03-xx: Mathematical logic and foundations
-  - 03Bxx: **General logic**
+03-xx: **Mathematical logic and foundations**
+  * 03Bxx: **General logic**
     - Classical logic
       - 03B30: Foundations of classical theories
       - 03B05: Classical propositional logic
@@ -27,15 +27,15 @@
       - 03B20: Subsystems of classical logic
     - 03B15: Higher-order logic
     - 03Bzz: Intuitionistic logic
-    - type theory
+      (type theory)
     - 03B22: Abstract deductive systems
     - 03B25: Decidability of theories
-    - sets of sentences
+      (sets of sentences)
     - reverse mathematics
     - 03B35: Mechanization of proofs
-    - logical operations
+      (logical operations)
     - 03B40: Combinatory logic
-    - lambda-calculus
+      (lambda-calculus)
     - 03B42: Logic of knowledge and belief
     - 03B44: Temporal logic
     - 03B45: Modal logic
@@ -47,7 +47,7 @@
       - BCK logic
       - BCI logic
     - 03B48: Probability
-    - inductive logic
+      (inductive logic)
     - 03B50: Many-valued logic
     - 03B52: Fuzzy logic
     - logic of vagueness
@@ -118,7 +118,7 @@
     - 03E10: Ordinal and cardinal numbers
     - 03E15: Descriptive set theory
     - 03E17: Cardinal characteristics of the continuum
-    - 03E20: Other classical set theory (including functions, relations, and set algebra)
+    - 03E20: *Other classical set theory (including functions, relations, and set algebra)*
     - 03E25: Axiom of choice and related propositions
     - 03E30: Axiomatics of classical set theory and its fragments
     - 03E35: Consistency and independence results
@@ -167,8 +167,7 @@
     - 03H10: Other applications of nonstandard models
     - 03H15: Nonstandard models of arithmetic
 
-
-* 05-xx: Combinatorics
+05-xx: Combinatorics
   * 05-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
     05-01: Instructional exposition (textbooks, tutorial papers, etc.)
     05-02: Research exposition (monographs, survey articles)
@@ -192,7 +191,7 @@
     05B07: Triple systems
     05B10: Difference sets (number-theoretic, group-theoretic, etc.)
     05B15: Orthogonal arrays, Latin squares, Room squares
-    05B20: Matrices (incidence, Hadamard, etc.)
+    05B20: *Matrices* (incidence, Hadamard, etc.)
     05B25: Finite geometries
     05B30: Other designs, configurations
     05B35: Matroids, geometric lattices
@@ -200,7 +199,7 @@
     05B45: Tessellation and tiling problems
     05B50: Polyominoes
     05B99: None of the above, but in this section
-  * 05Cxx: Graph theory
+  * 05Cxx: **Graph theory**
     05C05: Trees
     05C07: Degree sequences
     05C10: Topological graph theory, imbedding
@@ -245,14 +244,14 @@
     05E35: Orthogonal polynomials
     05E99: None of the above, but in this section
 
-* 06-xx: Order, lattices, ordered algebraic structures
+06-xx: Order, lattices, ordered algebraic structures
   * 06-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
     06-01: Instructional exposition (textbooks, tutorial papers, etc.)
     06-02: Research exposition (monographs, survey articles)
     06-03: Historical (must also be assigned at least one classification number from Section 01)
     06-04: Explicit machine computation and programs (not the theory of computation or programming)
     06-06: Proceedings, conferences, collections, etc.
-  * 06Axx: Ordered sets
+  * 06Axx: **Ordered sets**
     06A05: Total order
     06A06: Partial order, general
     06A07: Combinatorics of partially ordered sets
@@ -288,7 +287,7 @@
     06D50: Lattices and duality
     06D72: Fuzzy lattices (soft algebras) and related topics
     06D99: None of the above, but in this section
-  * 06Exx: Boolean algebras (Boolean rings)
+  * 06Exx: **Boolean algebras (Boolean rings)**
     06E05: Structure theory
     06E10: Chain conditions, complete algebras
     06E15: Stone space and related constructions
@@ -307,15 +306,15 @@
     06F35: BCK-algebras, BCI-algebras
     06F99: None of the above, but in this section
 
-* 08-xx: General algebraic systems
+08-xx: General algebraic systems
   * 08-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
     08-01: Instructional exposition (textbooks, tutorial papers, etc.)
     08-02: Research exposition (monographs, survey articles)
     08-03: Historical (must also be assigned at least one classification number from Section 01)
     08-04: Explicit machine computation and programs (not the theory of computation or programming)
     08-06: Proceedings, conferences, collections, etc.
-  * 08Axx: Algebraic structures
-    08A02: Relational systems, laws of composition
+  * 08Axx: **Algebraic structures**
+    08A02: Relational systems, laws of *composition*
     08A05: Structure theory
     08A30: Subalgebras, congruence relations
     08A35: Automorphisms, endomorphisms
@@ -345,7 +344,7 @@
     08C15: Quasivarieties
     08C99: None of the above, but in this section
 
-11-xx: Number theory
+11-xx: **Number theory**
   11-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
     11-01: Instructional exposition (textbooks, tutorial papers, etc.)
     11-02: Research exposition (monographs, survey articles)
@@ -363,7 +362,7 @@
     11A63: Radix representation; digital problems
     11A67: Other representations
     11A99: None of the above, but in this section
-  11Bxx: Sequences and sets
+  11Bxx: *Sequences and sets*
     11B05: Density, gaps, topology
     11B13: Additive bases
     11B25: Arithmetic progressions
@@ -620,7 +619,7 @@
     11U09: `Model theory`
     11U10: Nonstandard arithmetic
     11U99: None of the above, but in this section
-  11Yxx: Computational number theory
+  11Yxx: *Computational number theory*
     11Y05: Factorization
     11Y11: Primality
     11Y16: Algorithms; complexity
@@ -634,7 +633,7 @@
     11Y99: None of the above, but in this section
   11Z05: Miscellaneous applications of number theory
 
-12-xx: Field theory and polynomials
+12-xx: **Field theory** and polynomials
   12-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
     12-01: Instructional exposition (textbooks, tutorial papers, etc.)
     12-02: Research exposition (monographs, survey articles)
@@ -1144,14 +1143,14 @@
   16Z05: Computational aspects of associative rings
 
 17-xx: Nonassociative rings and algebras
-  17-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 17-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   17-01: Instructional exposition (textbooks, tutorial papers, etc.)
   17-02: Research exposition (monographs, survey articles)
   17-03: Historical (must also be assigned at least one classification number from Section 01)
   17-04: Explicit machine computation and programs (not the theory of computation or programming)
   17-06: Proceedings, conferences, collections, etc.
   17-08: Computational methods
-  17Axx: General nonassociative rings
+* 17Axx: General nonassociative rings
   17A01: General theory
   17A05: Power-associative rings
   17A15: Noncommutative Jordan algebras
@@ -1170,7 +1169,7 @@
   17A75: Composition algebras
   17A80: Valued algebras
   17A99: None of the above, but in this section
-  17Bxx: Lie algebras and Lie superalgebras
+* 17Bxx: Lie algebras and Lie superalgebras
   17B01: Identities, free Lie (super)algebras
   17B05: Structure theory
   17B10: Representations, algebraic theory (weights)
@@ -1198,7 +1197,7 @@
   17B80: Applications to integrable systems
   17B81: Applications to physics
   17B99: None of the above, but in this section
-  17Cxx: Jordan algebras (algebras, triples and pairs)
+* 17Cxx: Jordan algebras (algebras, triples and pairs)
   17C05: Identities and free Jordan structures
   17C10: Structure theory
   17C17: Radicals
@@ -1215,7 +1214,7 @@
   17C70: Super structures
   17C90: Applications to physics
   17C99: None of the above, but in this section
-  17Dxx: Other nonassociative rings and algebras
+* 17Dxx: Other nonassociative rings and algebras
   17D05: Alternative rings
   17D10: Malcev (Maltsev) rings and algebras
   17D15: Right alternative rings
@@ -1224,14 +1223,14 @@
   17D92: Genetic algebras
   17D99: None of the above, but in this section
 
-18-xx: Category theory; homological algebra
-  18-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+18-xx: **Category theory; homological algebra**
+* 18-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   18-01: Instructional exposition (textbooks, tutorial papers, etc.)
   18-02: Research exposition (monographs, survey articles)
   18-03: Historical (must also be assigned at least one classification number from Section 01)
   18-04: Explicit machine computation and programs (not the theory of computation or programming)
   18-06: Proceedings, conferences, collections, etc.
-  18Axx: General theory of categories and functors
+* 18Axx: General theory of categories and functors
   18A05: Definitions, generalizations
   18A10: Graphs, diagram schemes, precategories
   18A15: Foundations, relations to logic and deductive systems
@@ -1244,7 +1243,7 @@
   18A35: Categories admitting limits (complete categories), functors preserving limits, completions
   18A40: Adjoint functors (universal constructions, reflective subcategories, Kan extensions, etc.)
   18A99: None of the above, but in this section
-  18Bxx: Special categories
+* 18Bxx: Special categories
   18B05: Category of sets, characterizations
   18B10: Category of relations, additive relations
   18B15: Embedding theorems, universal categories
@@ -1254,7 +1253,7 @@
   18B35: Preorders, orders and lattices (viewed as categories)
   18B40: Groupoids, semigroupoids, semigroups, groups (viewed as categories)
   18B99: None of the above, but in this section
-  18Cxx: Categories and theories
+* 18Cxx: Categories and theories
   18C05: Equational categories
   18C10: Theories (e.g. algebraic theories), structure, and semantics
   18C15: Triples (= standard construction, monad or triad), algebras for a triple, homology and derived functors for triples
@@ -1263,7 +1262,7 @@
   18C35: Accessible and locally presentable categories
   18C50: Categorical semantics of formal languages
   18C99: None of the above, but in this section
-  18Dxx: Categories with structure
+* 18Dxx: Categories with structure
   18D05: Double categories, $$2$$-categories, bicategories and generalizations
   18D10: Monoidal categories (= multiplicative categories), symmetric monoidal categories, braided categories
   18D15: Closed categories (closed monoidal and Cartesian closed categories, etc.)
@@ -1273,7 +1272,7 @@
   18D35: Structured objects in a category (group objects, etc.)
   18D50: Operads
   18D99: None of the above, but in this section
-  18Exx: Abelian categories
+* 18Exx: Abelian categories
   18E05: Preadditive, additive categories
   18E10: Exact categories, abelian categories
   18E15: Grothendieck categories
@@ -1283,7 +1282,7 @@
   18E35: Localization of categories
   18E40: Torsion theories, radicals
   18E99: None of the above, but in this section
-  18Fxx: Categories and geometry
+* 18Fxx: Categories and geometry
   18F05: Local categories and functors
   18F10: Grothendieck topologies
   18F15: Abstract manifolds and fiber bundles
@@ -1291,7 +1290,7 @@
   18F25: Algebraic $$K$$-theory and $$L$$-theory
   18F30: Grothendieck groups
   18F99: None of the above, but in this section
-  18Gxx: Homological algebra
+* 18Gxx: Homological algebra
   18G05: Projectives and injectives
   18G10: Resolutions; derived functors
   18G15: Ext and Tor, generalizations, K�nneth formula
@@ -1306,32 +1305,32 @@
   18G99: None of the above, but in this section
 
 19-xx: $$K$$-theory
-  19-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 19-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   19-01: Instructional exposition (textbooks, tutorial papers, etc.)
   19-02: Research exposition (monographs, survey articles)
   19-03: Historical (must also be assigned at least one classification number from Section 01)
   19-04: Explicit machine computation and programs (not the theory of computation or programming)
   19-06: Proceedings, conferences, collections, etc.
-  19Axx: Grothendieck groups and $$K_0$$
+* 19Axx: Grothendieck groups and $$K_0$$
   19A13: Stability for projective modules
   19A15: Efficient generation
   19A22: Frobenius induction, Burnside and representation rings
   19A31: $$K_0$$ of group rings and orders
   19A49: $$K_0$$ of other rings
   19A99: None of the above, but in this section
-  19Bxx: Whitehead groups and $$K_1$$
+* 19Bxx: Whitehead groups and $$K_1$$
   19B10: Stable range conditions
   19B14: Stability for linear groups
   19B28: $$K_1$$ of group rings and orders
   19B37: Congruence subgroup problems
   19B99: None of the above, but in this section
-  19Cxx: Steinberg groups and $$K_2$$
+* 19Cxx: Steinberg groups and $$K_2$$
   19C09: Central extensions and Schur multipliers
   19C20: Symbols, presentations and stability of $$K_2$$
   19C30: $$K_2$$ and the Brauer group
   19C40: Excision for $$K_2$$
   19C99: None of the above, but in this section
-  19Dxx: Higher algebraic $$K$$-theory
+* 19Dxx: Higher algebraic $$K$$-theory
   19D06: $$Q$$- and plus-constructions
   19D10: Algebraic $$K$$-theory of spaces
   19D23: Symmetric monoidal categories
@@ -1341,57 +1340,56 @@
   19D50: Computations of higher $$K$$-theory of rings
   19D55: $$K$$-theory and homology; cyclic homology and cohomology
   19D99: None of the above, but in this section
-  19Exx: $$K$$-theory in geometry
+* 19Exx: $$K$$-theory in geometry
   19E08: $$K$$-theory of schemes
   19E15: Algebraic cycles and motivic cohomology
   19E20: Relations with cohomology theories
   19E99: None of the above, but in this section
-  19Fxx: K-theory in number theory
+* 19Fxx: K-theory in number theory
   19F05: Generalized class field theory
   19F15: Symbols and arithmetic
   19F27: �tale cohomology, higher regulators, zeta and $$L$$-functions
   19F99: None of the above, but in this section
-  19Gxx: K-theory of forms
+* 19Gxx: K-theory of forms
   19G05: Stability for quadratic modules
   19G12: Witt groups of rings
   19G24: $$L$$-theory of group rings
   19G38: Hermitian $$K$$-theory, relations with $$K$$-theory of rings
   19G99: None of the above, but in this section
-  19Jxx: Obstructions from topology
+* 19Jxx: Obstructions from topology
   19J05: Finiteness and other obstructions in $$K_0$$
   19J10: Whitehead (and related) torsion
   19J25: Surgery obstructions
   19J35: Obstructions to group actions
   19J99: None of the above, but in this section
-  19Kxx: K-theory and operator algebras
+* 19Kxx: K-theory and operator algebras
   19K14: $$K_0$$ as an ordered group, traces
   19K33: EXT and $$K$$-homology
   19K35: Kasparov theory ($$KK$$-theory)
   19K56: Index theory
   19K99: None of the above, but in this section
-  19Lxx: Topological $$K$$-theory
+* 19Lxx: Topological $$K$$-theory
   19L10: Riemann-Roch theorems, Chern characters
   19L20: $$J$$-homomorphism, Adams operations
   19L41: Connective $$K$$-theory, cobordism
   19L47: Equivariant $$K$$-theory
   19L64: Computations, geometric applications
   19L99: None of the above, but in this section
-  19M05: Miscellaneous applications of $$K$$-theory
+* 19M05: Miscellaneous applications of $$K$$-theory
 
-20-xx: Group theory and generalizations
-  20-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+20-xx: **Group theory** and generalizations
+* 20-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   20-01: Instructional exposition (textbooks, tutorial papers, etc.)
   20-02: Research exposition (monographs, survey articles)
   20-03: Historical (must also be assigned at least one classification number from Section 01)
   20-04: Explicit machine computation and programs (not the theory of computation or programming)
   20-06: Proceedings, conferences, collections, etc.
-  20Axx: Foundations
+* 20Axx: Foundations
   20A05: Axiomatics and elementary properties
   20A10: Metamathematical considerations
   20A15: Applications of logic to group theory
   20A99: None of the above, but in this section
-  
-20Bxx: Permutation groups
+* 20Bxx: Permutation groups
   20B05: General theory for finite groups
   20B07: General theory for infinite groups
   20B10: Characterization theorems
@@ -1543,10 +1541,9 @@
   20N20: Hypergroups
   20N25: Fuzzy groups
   20N99: None of the above, but in this section
+* 20P05: Probabilistic methods in group theory
 
-20P05: Probabilistic methods in group theory
-
-22-xx: Topological groups, Lie groups
+* 22-xx: Topological groups, Lie groups
   22-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   22-01: Instructional exposition (textbooks, tutorial papers, etc.)
   22-02: Research exposition (monographs, survey articles)
@@ -1609,13 +1606,13 @@
   22F50: Groups as automorphisms of other structures
 
 26-xx: Real functions
-  26-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 26-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   26-01: Instructional exposition (textbooks, tutorial papers, etc.)
   26-02: Research exposition (monographs, survey articles)
   26-03: Historical (must also be assigned at least one classification number from Section 01)
   26-04: Explicit machine computation and programs (not the theory of computation or programming)
   26-06: Proceedings, conferences, collections, etc.
-  26Axx: Functions of one variable
+* 26Axx: *Functions of one variable*
   26A03: Foundations: limits and generalizations, elementary topology of the line
   26A06: One-variable calculus
   26A09: Elementary functions
@@ -1636,7 +1633,7 @@
   26A48: Monotonic functions, generalizations
   26A51: Convexity, generalizations
   26A99: None of the above, but in this section
-  26Bxx: Functions of several variables
+* 26Bxx: Functions of several variables
   26B05: Continuity and differentiation questions
   26B10: Implicit function theorems, Jacobians, transformations with several variables
   26B12: Calculus of vector functions
@@ -1647,19 +1644,19 @@
   26B35: Special properties of functions of several variables, H�lder conditions, etc.
   26B40: Representation and superposition of functions
   26B99: None of the above, but in this section
-  26Cxx: Polynomials, rational functions
+* 26Cxx: Polynomials, rational functions
   26C05: Polynomials: analytic properties, etc.
   26C10: Polynomials: location of zeros
   26C15: Rational functions
   26C99: None of the above, but in this section
-  26Dxx: Inequalities
+* 26Dxx: Inequalities
   26D05: Inequalities for trigonometric functions and polynomials
   26D07: Inequalities involving other types of functions
   26D10: Inequalities involving derivatives and differential and integral operators
   26D15: Inequalities for sums, series and integrals
   26D20: Other analytical inequalities
   26D99: None of the above, but in this section
-  26Exx: Miscellaneous topics
+* 26Exx: Miscellaneous topics
   26E05: Real-analytic functions
   26E10: $$C^\infty$$-functions, quasi-analytic functions
   26E15: Calculus of functions on infinite-dimensional spaces
@@ -1673,13 +1670,13 @@
   26E99: None of the above, but in this section
 
 28-xx: Measure and integration
-  28-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 28-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   28-01: Instructional exposition (textbooks, tutorial papers, etc.)
   28-02: Research exposition (monographs, survey articles)
   28-03: Historical (must also be assigned at least one classification number from Section 01)
   28-04: Explicit machine computation and programs (not the theory of computation or programming)
   28-06: Proceedings, conferences, collections, etc.
-  28Axx: Classical measure theory
+* 28Axx: Classical measure theory
   28A05: Classes of sets (Borel fields, $$\sigma$$-rings, etc.), measurable sets, Suslin sets, analytic sets
   28A10: Real- or complex-valued set functions
   28A12: Contents, measures, outer measures, capacities
@@ -1695,43 +1692,42 @@
   28A78: Hausdorff and packing measures
   28A80: Fractals
   28A99: None of the above, but in this section
-  28Bxx: Set functions, measures and integrals with values in abstract spaces
+* 28Bxx: Set functions, measures and integrals with values in abstract spaces
   28B05: Vector-valued set functions, measures and integrals
   28B10: Group- or semigroup-valued set functions, measures and integrals
   28B15: Set functions, measures and integrals with values in ordered spaces
   28B20: Set-valued set functions and measures; integration of set-valued functions; measurable selections
   28B99: None of the above, but in this section
-  28Cxx: Set functions and measures on spaces with additional structure
+* 28Cxx: Set functions and measures on spaces with additional structure
   28C05: Integration theory via linear functionals (Radon measures, Daniell integrals, etc.), representing set functions and measures
   28C10: Set functions and measures on topological groups, Haar measures, invariant measures
   28C15: Set functions and measures on topological spaces (regularity of measures, etc.)
   28C20: Set functions and measures and integrals in infinite-dimensional spaces (Wiener measure, Gaussian measure, etc.)
   28C99: None of the above, but in this section
-  28Dxx: Measure-theoretic ergodic theory
+* 28Dxx: Measure-theoretic ergodic theory
   28D05: Measure-preserving transformations
   28D10: One-parameter continuous families of measure-preserving transformations
   28D15: General groups of measure-preserving transformations
   28D20: Entropy and other invariants
   28D99: None of the above, but in this section
-  28Exx: Miscellaneous topics in measure theory
+* 28Exx: Miscellaneous topics in measure theory
   28E05: Nonstandard measure theory
   28E10: Fuzzy measure theory
   28E15: Other connections with logic and set theory
   28E99: None of the above, but in this section
 
 30-xx: Functions of a complex variable
-  30-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 30-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   30-01: Instructional exposition (textbooks, tutorial papers, etc.)
   30-02: Research exposition (monographs, survey articles)
   30-03: Historical (must also be assigned at least one classification number from Section 01)
   30-04: Explicit machine computation and programs (not the theory of computation or programming)
   30-06: Proceedings, conferences, collections, etc.
-  30Axx: General properties
+* 30Axx: General properties
   30A05: Monogenic properties of complex functions (including polygenic and areolar monogenic functions)
   30A10: Inequalities in the complex domain
   30A99: None of the above, but in this section
-
-  30Bxx: Series expansions
+* 30Bxx: Series expansions
   30B10: Power series (including lacunary series)
   30B20: Random power series
   30B30: Boundary behavior of power series, over-convergence
@@ -1740,8 +1736,7 @@
   30B60: Completeness problems, closure of a system of functions
   30B70: Continued fractions
   30B99: None of the above, but in this section
-
-  30Cxx: Geometric function theory
+* 30Cxx: Geometric function theory
   30C10: Polynomials
   30C15: Zeros of polynomials, rational functions, and other analytic functions (e.g. zeros of functions with bounded Dirichlet integral)
   30C20: Conformal mappings of special domains
@@ -1759,8 +1754,7 @@
   30C80: Maximum principle; Schwarz's lemma, Lindel�f principle, analogues and generalizations; subordination
   30C85: Capacity and harmonic measure in the complex plane
   30C99: None of the above, but in this section
-
-  30Dxx: Entire and meromorphic functions, and related topics
+* 30Dxx: Entire and meromorphic functions, and related topics
   30D05: Functional equations in the complex domain, iteration and composition of analytic functions
   30D10: Representations of entire functions by series and integrals
   30D15: Special classes of entire functions and growth estimates
@@ -1773,16 +1767,14 @@
   30D55: $${H]^p$$-classes
   30D60: Quasi-analytic and other classes of functions
   30D99: None of the above, but in this section
-
-  30Exx: Miscellaneous topics of analysis in the complex domain
+* 30Exx: Miscellaneous topics of analysis in the complex domain
   30E05: Moment problems, interpolation problems
   30E10: Approximation in the complex domain
   30E15: Asymptotic representations in the complex domain
   30E20: Integration, integrals of Cauchy type, integral representations of analytic functions
   30E25: Boundary value problems
   30E99: None of the above, but in this section
-
-  30Fxx: Riemann surfaces
+* 30Fxx: Riemann surfaces
   30F10: Compact Riemann surfaces and uniformization
   30F15: Harmonic functions on Riemann surfaces
   30F20: Classification theory of Riemann surfaces
@@ -1794,8 +1786,7 @@
   30F50: Klein surfaces
   30F60: Teichm�ller theory
   30F99: None of the above, but in this section
-
-  30Gxx: Generalized function theory
+* 30Gxx: Generalized function theory
   30G06: Non-Archimedean function theory; nonstandard function theory
   30G12: Finely holomorphic functions and topological function theory
   30G20: Generalizations of Bers or Vekua type (pseudoanalytic, $$p$$-analytic, etc.)
@@ -1803,18 +1794,16 @@
   30G30: Other generalizations of analytic functions (including abstract-valued functions)
   30G35: Functions of hypercomplex variables and generalized variables
   30G99: None of the above, but in this section
-
-  30H05: Spaces and algebras of analytic functions
+* 30H05: Spaces and algebras of analytic functions
 
 31-xx: Potential theory
-  31-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 31-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   31-01: Instructional exposition (textbooks, tutorial papers, etc.)
   31-02: Research exposition (monographs, survey articles)
   31-03: Historical (must also be assigned at least one classification number from Section 01)
   31-04: Explicit machine computation and programs (not the theory of computation or programming)
   31-06: Proceedings, conferences, collections, etc.
-
-  31Axx: Two-dimensional theory
+* 31Axx: Two-dimensional theory
   31A05: Harmonic, subharmonic, superharmonic functions
   31A10: Integral representations, integral operators, integral equations methods
   31A15: Potentials and capacity, harmonic measure, extremal length
@@ -1823,8 +1812,7 @@
   31A30: Biharmonic, polyharmonic functions and equations, Poisson's equation
   31A35: Connections with differential equations
   31A99: None of the above, but in this section
-
-  31Bxx: Higher-dimensional theory
+* 31Bxx: Higher-dimensional theory
   31B05: Harmonic, subharmonic, superharmonic functions
   31B10: Integral representations, integral operators, integral equations methods
   31B15: Potentials and capacities, extremal length
@@ -1833,8 +1821,7 @@
   31B30: Biharmonic and polyharmonic equations and functions
   31B35: Connections with differential equations
   31B99: None of the above, but in this section
-
-  31Cxx: Other generalizations
+* 31Cxx: Other generalizations
   31C05: Harmonic, subharmonic, superharmonic functions
   31C10: Pluriharmonic and plurisubharmonic functions
   31C12: Potential theory on Riemannian manifolds
@@ -1845,18 +1832,16 @@
   31C40: Fine potential theory
   31C45: Other generalizations (nonlinear potential theory, etc.)
   31C99: None of the above, but in this section
-
-  31D05: Axiomatic potential theory
+* 31D05: Axiomatic potential theory
 
 32-xx: Several complex variables and analytic spaces
-  32-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 32-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   32-01: Instructional exposition (textbooks, tutorial papers, etc.)
   32-02: Research exposition (monographs, survey articles)
   32-03: Historical (must also be assigned at least one classification number from Section 01)
   32-04: Explicit machine computation and programs (not the theory of computation or programming)
   32-06: Proceedings, conferences, collections, etc.
-
-  32Axx: Holomorphic functions of several complex variables
+* 32Axx: Holomorphic functions of several complex variables
   32A05: Power series, series of functions
   32A07: Special domains (Reinhardt, Hartogs, circular, tube)
   32A10: Holomorphic functions
@@ -1883,16 +1868,14 @@
   32A65: Banach algebra techniques
   32A70: Functional analysis techniques
   32A99: None of the above, but in this section
-
-  32Bxx: Local analytic geometry
+* 32Bxx: Local analytic geometry
   32B05: Analytic algebras and generalizations, preparation theorems
   32B10: Germs of analytic sets, local parametrization
   32B15: Analytic subsets of affine space
   32B20: Semi-analytic sets and subanalytic sets
   32B25: Triangulation and related questions
   32B99: None of the above, but in this section
-
-  32Cxx: Analytic spaces
+* 32Cxx: Analytic spaces
   32C05: Real-analytic manifolds, real-analytic spaces
   32C07: Real-analytic sets, complex Nash functions
   32C09: Embedding of real analytic manifolds
@@ -1910,16 +1893,14 @@
   32C55: The Levi problem in complex spaces; generalizations
   32C81: Applications to physics
   32C99: None of the above, but in this section
-
-  32Dxx: Analytic continuation
+* 32Dxx: Analytic continuation
   32D05: Domains of holomorphy
   32D10: Envelopes of holomorphy
   32D15: Continuation of analytic objects
   32D20: Removable singularities
   32D26: Riemann domains
   32D99: None of the above, but in this section
-
-  32Exx: Holomorphic convexity
+* 32Exx: Holomorphic convexity
   32E05: Holomorphically convex complex spaces, reduction theory
   32E10: Stein spaces, Stein manifolds
   32E20: Polynomial convexity
@@ -1927,8 +1908,7 @@
   32E35: Global boundary behavior of holomorphic functions
   32E40: The Levi problem
   32E99: None of the above, but in this section
-
-  32Fxx: Geometric convexity
+* 32Fxx: Geometric convexity
   32F10: $$q$$-convexity, $$q$$-concavity
   32F17: Other notions of convexity
   32F18: Finite-type conditions
@@ -1936,8 +1916,7 @@
   32F32: Analytical consequences of geometric convexity (vanishing theorems, etc.)
   32F45: Invariant metrics and pseudodistances
   32F99: None of the above, but in this section
-
-  32Gxx: Deformations of analytic structures
+* 32Gxx: Deformations of analytic structures
   32G05: Deformations of complex structures
   32G07: Deformations of special (e.g. CR) structures
   32G08: Deformations of fiber bundles
@@ -1948,8 +1927,7 @@
   32G34: Moduli and deformations for ordinary differential equations (e.g. Khnizhnik-Zamolodchikov equation)
   32G81: Applications to physics
   32G99: None of the above, but in this section
-
-  32Hxx: Holomorphic mappings and correspondences
+* 32Hxx: Holomorphic mappings and correspondences
   32H02: Holomorphic mappings, (holomorphic) embeddings and related questions
   32H04: Meromorphic mappings
   32H12: Boundary uniqueness of mappings
@@ -1959,8 +1937,7 @@
   32H40: Boundary regularity of mappings
   32H50: Iteration problems
   32H99: None of the above, but in this section
-
-  32Jxx: Compact analytic spaces
+* 32Jxx: Compact analytic spaces
   32J05: Compactification of analytic spaces
   32J10: Algebraic dependence theorems
   32J15: Compact surfaces
@@ -1970,14 +1947,12 @@
   32J27: Compact K�hler manifolds: generalizations, classification
   32J81: Applications to physics
   32J99: None of the above, but in this section
-
-  32Kxx: Generalizations of analytic spaces (should also be assigned at least one other classification number from Section 32 describing the type of problem)
+* 32Kxx: Generalizations of analytic spaces (should also be assigned at least one other classification number from Section 32 describing the type of problem)
   32K05: Banach analytic spaces
   32K07: Formal and graded complex spaces
   32K15: Differentiable functions on analytic spaces, differentiable spaces
   32K99: None of the above, but in this section
-
-  32Lxx: Holomorphic fiber spaces
+* 32Lxx: Holomorphic fiber spaces
   32L05: Holomorphic bundles and generalizations
   32L10: Sheaves and cohomology of sections of holomorphic vector bundles, general results
   32L15: Bundle convexity
@@ -1985,8 +1960,7 @@
   32L25: Twistor theory, double fibrations
   32L81: Applications to physics
   32L99: None of the above, but in this section
-
-  32Mxx: Complex spaces with a group of automorphisms
+* 32Mxx: Complex spaces with a group of automorphisms
   32M05: Complex Lie groups, automorphism groups acting on complex spaces
   32M10: Homogeneous complex manifolds
   32M12: Almost homogeneous manifolds and spaces
@@ -1994,14 +1968,12 @@
   32M17: Automorphism groups of $${\bf C]^n$$ and affine manifolds
   32M25: Complex vector fields
   32M99: None of the above, but in this section
-
-  32Nxx: Automorphic functions
+* 32Nxx: Automorphic functions
   32N05: General theory of automorphic functions of several complex variables
   32N10: Automorphic forms
   32N15: Automorphic functions in symmetric domains
   32N99: None of the above, but in this section
-
-  32P05: Non-Archimedean complex analysis (should also be assigned at least one other classification number from Section 32 describing the type of problem)
+* 32P05: Non-Archimedean complex analysis (should also be assigned at least one other classification number from Section 32 describing the type of problem)
   32Qxx: Complex manifolds
   32Q05: Negative curvature manifolds
   32Q10: Positive curvature manifolds
@@ -2018,8 +1990,7 @@
   32Q60: Almost complex manifolds
   32Q65: Pseudoholomorphic curves
   32Q99: None of the above, but in this section
-
-  32Sxx: Singularities
+* 32Sxx: Singularities
   32S05: Local singularities
   32S10: Invariants of analytic local rings
   32S15: Equisingularity (topological and analytic)
@@ -2036,8 +2007,7 @@
   32S65: Singularities of holomorphic vector fields and foliations
   32S70: Other operations on singularities
   32S99: None of the above, but in this section
-
-  32Txx: Pseudoconvex domains
+* 32Txx: Pseudoconvex domains
   32T05: Domains of holomorphy
   32T15: Strongly pseudoconvex domains
   32T20: Worm domains
@@ -2046,8 +2016,7 @@
   32T35: Exhaustion functions
   32T40: Peak functions
   32T99: None of the above, but in this section
-
-  32Uxx: Pluripotential theory
+* 32Uxx: Pluripotential theory
   32U05: Plurisubharmonic functions and generalizations
   32U10: Plurisubharmonic exhaustion functions
   32U15: General pluripotential theory
@@ -2079,20 +2048,19 @@
   32W99: None of the above, but in this section
 
 33-xx: Special functions (33-XX deals with the properties of functions as functions)
-  33-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
-  33-01: Instructional exposition (textbooks, tutorial papers, etc.)
-  33-02: Research exposition (monographs, survey articles)
-  33-03: Historical (must also be assigned at least one classification number from Section 01)
-  33-04: Explicit machine computation and programs (not the theory of computation or programming)
-  33-06: Proceedings, conferences, collections, etc.
-  33Bxx: Elementary classical functions
-  33B10: Exponential and trigonometric functions
-  33B15: Gamma, beta and polygamma functions
-  33B20: Incomplete beta and gamma functions (error functions, probability integral, Fresnel integrals)
-  33B30: Higher logarithm functions
-  33B99: None of the above, but in this section
-
-  33Cxx: Hypergeometric functions
+* 33-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+    33-01: Instructional exposition (textbooks, tutorial papers, etc.)
+    33-02: Research exposition (monographs, survey articles)
+    33-03: Historical (must also be assigned at least one classification number from Section 01)
+    33-04: Explicit machine computation and programs (not the theory of computation or programming)
+    33-06: Proceedings, conferences, collections, etc.
+    33Bxx: Elementary classical functions
+    33B10: Exponential and trigonometric functions
+    33B15: Gamma, beta and polygamma functions
+    33B20: Incomplete beta and gamma functions (error functions, probability integral, Fresnel integrals)
+    33B30: Higher logarithm functions
+    33B99: None of the above, but in this section
+* 33Cxx: Hypergeometric functions
   33C05: Classical hypergeometric functions, $$_2F_1$$
   33C10: Bessel and Airy functions, cylinder functions, $$_0F_1$$
   33C15: Confluent hypergeometric functions, Whittaker functions, $$_1F_1$$
@@ -2110,8 +2078,7 @@
   33C80: Connections with groups and algebras, and related topics
   33C90: Applications
   33C99: None of the above, but in this section
-
-  33Dxx: Basic hypergeometric functions
+* 33Dxx: Basic hypergeometric functions
   33D05: $$q$$-gamma functions, $$q$$-beta functions and integrals
   33D15: Basic hypergeometric functions in one variable, $${]_r\phi_s$$
   33D45: Basic orthogonal polynomials and functions (Askey-Wilson polynomials, etc.)
@@ -2124,8 +2091,7 @@
   33D80: Connections with quantum groups, Chevalley groups, $$p$$-adic groups, Hecke algebras, and related topics
   33D90: Applications
   33D99: None of the above, but in this section
-
-  33Exx: Other special functions
+* 33Exx: Other special functions
   33E05: Elliptic functions and integrals
   33E10: Lam�, Mathieu, and spheroidal wave functions
   33E12: Mittag-Leffler functions and generalizations
@@ -2135,8 +2101,7 @@
   33E30: Other functions coming from differential, difference and integral equations
   33E50: Special functions in characteristic $$p$$ (gamma functions, etc.)
   33E99: None of the above, but in this section
-
-  33Fxx: Computational aspects
+* 33Fxx: Computational aspects
   33F05: Numerical approximation
   33F10: Symbolic computation (Gosper and Zeilberger algorithms, etc.)
   33F99: None of the above, but in this section
@@ -2683,13 +2648,13 @@
   37N99: None of the above, but in this section
 
 39-xx: Difference and functional equations
-  39-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 39-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   39-01: Instructional exposition (textbooks, tutorial papers, etc.)
   39-02: Research exposition (monographs, survey articles)
   39-03: Historical (must also be assigned at least one classification number from Section 01)
   39-04: Explicit machine computation and programs (not the theory of computation or programming)
   39-06: Proceedings, conferences, collections, etc.
-  39Axx: Difference equations
+* 39Axx: Difference equations
   39A05: General
   39A10: Difference equations, additive
   39A11: Stability and asymptotics of difference equations; oscillatory and periodic solutions, etc.
@@ -2698,9 +2663,7 @@
   39A20: Multiplicative and other generalized difference equations, e.g. of Lyness type
   39A70: Difference operators
   39A99: None of the above, but in this section
-
-
-  39Bxx: Functional equations and inequalities
+* 39Bxx: Functional equations and inequalities
   39B05: General
   39B12: Iteration theory, iterative and composite equations
   39B22: Equations for real functions
@@ -2714,13 +2677,13 @@
   39B99: None of the above, but in this section
 
 40-xx: Sequences, series, summability
-  40-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 40-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   40-01: Instructional exposition (textbooks, tutorial papers, etc.)
   40-02: Research exposition (monographs, survey articles)
   40-03: Historical (must also be assigned at least one classification number from Section 01)
   40-04: Explicit machine computation and programs (not the theory of computation or programming)
   40-06: Proceedings, conferences, collections, etc.
-  40Axx: Convergence and divergence of infinite limiting processes
+* 40Axx: Convergence and divergence of infinite limiting processes
   40A05: Convergence and divergence of series and sequences
   40A10: Convergence and divergence of integrals
   40A15: Convergence and divergence of continued fractions
@@ -2728,17 +2691,13 @@
   40A25: Approximation to limiting values (summation of series, etc.)
   40A30: Convergence and divergence of series and sequences of functions
   40A99: None of the above, but in this section
-
-
-  40B05: Multiple sequences and series {(should also be assigned at least one other classification number in this section)]
-  40Cxx: General summability methods
+* 40B05: Multiple sequences and series {(should also be assigned at least one other classification number in this section)]
+* 40Cxx: General summability methods
   40C05: Matrix methods
   40C10: Integral methods
   40C15: Function-theoretic methods (including power series methods and semicontinuous methods)
   40C99: None of the above, but in this section
-
-
-  40Dxx: Direct theorems on summability
+* 40Dxx: Direct theorems on summability
   40D05: General theorems
   40D09: Structure of summability fields
   40D10: Tauberian constants and oscillation limits
@@ -2746,25 +2705,19 @@
   40D20: Summability and bounded fields of methods
   40D25: Inclusion and equivalence theorems
   40D99: None of the above, but in this section
-
-
-  40Exx: Inversion theorems
+* 40Exx: Inversion theorems
   40E05: Tauberian theorems, general
   40E10: Growth estimates
   40E15: Lacunary inversion theorems
   40E20: Tauberian constants
   40E99: None of the above, but in this section
-
-
-  40F05: Absolute and strong summability
-  40Gxx: Special methods of summability
+* 40F05: Absolute and strong summability
+* 40Gxx: Special methods of summability
   40G05: Ces�ro, Euler, N�rlund and Hausdorff methods
   40G10: Abel, Borel and power series methods
   40G99: None of the above, but in this section
-
-
-  40H05: Functional analytic methods in summability
-  40J05: Summability in abstract structures
+* 40H05: Functional analytic methods in summability
+* 40J05: Summability in abstract structures
 
 41-xx: Approximations and expansions
   41-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
@@ -2887,13 +2840,13 @@
   43A99: Miscellaneous topics
 
 44-xx: Integral transforms, operational calculus
-  44-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 44-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   44-01: Instructional exposition (textbooks, tutorial papers, etc.)
   44-02: Research exposition (monographs, survey articles)
   44-03: Historical (must also be assigned at least one classification number from Section 01)
   44-04: Explicit machine computation and programs (not the theory of computation or programming)
   44-06: Proceedings, conferences, collections, etc.
-  44A05: General transforms
+* 44A05: General transforms
   44A10: Laplace transform
   44A12: Radon transform
   44A15: Special transforms (Legendre, Hilbert, etc.)
@@ -2907,23 +2860,21 @@
   44A99: Miscellaneous topics
 
 45-xx: Integral equations
-  45-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 45-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   45-01: Instructional exposition (textbooks, tutorial papers, etc.)
   45-02: Research exposition (monographs, survey articles)
   45-03: Historical (must also be assigned at least one classification number from Section 01)
   45-04: Explicit machine computation and programs (not the theory of computation or programming)
   45-06: Proceedings, conferences, collections, etc.
-  45A05: Linear integral equations
-  45B05: Fredholm integral equations
-  45C05: Eigenvalue problems
-  45D05: Volterra integral equations
-  45Exx: Singular integral equations
+* 45A05: Linear integral equations
+* 45B05: Fredholm integral equations
+* 45C05: Eigenvalue problems
+* 45D05: Volterra integral equations
+* 45Exx: Singular integral equations
   45E05: Integral equations with kernels of Cauchy type
   45E10: Integral equations of the convolution type (Abel, Picard, Toeplitz and Wiener-Hopf type)
   45E99: None of the above, but in this section
-
-
-  45Fxx: Systems of linear integral equations
+* 45Fxx: Systems of linear integral equations
   45F05: Systems of nonsingular linear integral equations
   45F10: Dual, triple, etc., integral and series equations
   45F15: Systems of singular linear integral equations
@@ -2958,7 +2909,7 @@
   46-03: Historical (must also be assigned at least one classification number from Section 01)
   46-04: Explicit machine computation and programs (not the theory of computation or programming)
   46-06: Proceedings, conferences, collections, etc.
-  46Axx: Topological linear spaces and related structures
+* 46Axx: Topological linear spaces and related structures
   46A03: General theory of locally convex spaces
   46A04: Locally convex Fr�chet spaces and (DF)-spaces
   46A08: Barrelled spaces, bornological spaces
@@ -2982,9 +2933,7 @@
   46A70: Saks spaces and their duals (strict topologies, mixed topologies, two-norm spaces, co-Saks spaces, etc.)
   46A80: Modular spaces
   46A99: None of the above, but in this section
-
-
-  46Bxx: Normed linear spaces and Banach spaces; Banach lattices
+* 46Bxx: Normed linear spaces and Banach spaces; Banach lattices
   46B03: Isomorphic theory (including renorming) of Banach spaces
   46B04: Isometric theory of Banach spaces
   46B07: Local theory of Banach spaces
@@ -3003,18 +2952,14 @@
   46B50: Compactness in Banach (or normed) spaces
   46B70: Interpolation between normed linear spaces
   46B99: None of the above, but in this section
-
-
-  46Cxx: Inner product spaces and their generalizations, Hilbert spaces
+* 46Cxx: Inner product spaces and their generalizations, Hilbert spaces
   46C05: Hilbert and pre-Hilbert spaces: geometry and topology (including spaces with semidefinite inner product)
   46C07: Hilbert subspaces (= operator ranges); complementation (Aronszajn, de Branges, etc.)
   46C15: Characterizations of Hilbert spaces
   46C20: Spaces with indefinite inner product (Krein spaces, Pontryagin spaces, etc.)
   46C50: Generalizations of inner products (semi-inner products, partial inner products, etc.)
   46C99: None of the above, but in this section
-
-
-  46Exx: Linear function spaces and their duals
+* 46Exx: Linear function spaces and their duals
   46E05: Lattices of continuous, differentiable or analytic functions
   46E10: Topological linear spaces of continuous, differentiable or analytic functions
   46E15: Banach spaces of continuous, differentiable or analytic functions
@@ -3028,9 +2973,7 @@
   46E40: Spaces of vector- and operator-valued functions
   46E50: Spaces of differentiable or holomorphic functions on infinite-dimensional spaces
   46E99: None of the above, but in this section
-
-
-  46Fxx: Distributions, generalized functions, distribution spaces
+* 46Fxx: Distributions, generalized functions, distribution spaces
   46F05: Topological linear spaces of test functions, distributions and ultradistributions
   46F10: Operations with distributions
   46F12: Integral transforms in distribution spaces
@@ -3039,9 +2982,7 @@
   46F25: Distributions on infinite-dimensional spaces
   46F30: Generalized functions for nonlinear analysis (Rosinger, Colombeau, nonstandard, etc.)
   46F99: None of the above, but in this section
-
-
-  46Gxx: Measures, integration, derivative, holomorphy (all involving infinite-dimensional spaces)
+* 46Gxx: Measures, integration, derivative, holomorphy (all involving infinite-dimensional spaces)
   46G05: Derivatives
   46G10: Vector-valued measures and integration
   46G12: Measures and integration on abstract linear spaces
@@ -3049,9 +2990,7 @@
   46G20: Infinite-dimensional holomorphy
   46G25: (Spaces of) multilinear mappings, polynomials
   46G99: None of the above, but in this section
-
-
-  46Hxx: Topological algebras, normed rings and algebras, Banach algebras
+* 46Hxx: Topological algebras, normed rings and algebras, Banach algebras
   46H05: General theory of topological algebras
   46H10: Ideals and subalgebras
   46H15: Representations of topological algebras
@@ -3062,9 +3001,7 @@
   46H40: Automatic continuity
   46H70: Nonassociative topological algebras
   46H99: None of the above, but in this section
-
-
-  46Jxx: Commutative Banach algebras and commutative topological algebras
+* 46Jxx: Commutative Banach algebras and commutative topological algebras
   46J05: General theory of commutative topological algebras
   46J10: Banach algebras of continuous functions, function algebras
   46J15: Banach algebras of differentiable or analytic functions, $${H]^p$$-spaces
@@ -3074,18 +3011,14 @@
   46J40: Structure, classification of commutative topological algebras
   46J45: Radical Banach algebras
   46J99: None of the above, but in this section
-
-
-  46Kxx: Topological (rings and) algebras with an involution
+* 46Kxx: Topological (rings and) algebras with an involution
   46K05: General theory of topological algebras with involution
   46K10: Representations of topological algebras with involution
   46K15: Hilbert algebras
   46K50: Nonselfadjoint (sub)algebras in algebras with involution
   46K70: Nonassociative topological algebras with an involution
   46K99: None of the above, but in this section
-
-
-  46Lxx: Selfadjoint operator algebras ($$C^*$$-algebras, von Neumann ($$W$$*-) algebras, etc.)
+* 46Lxx: Selfadjoint operator algebras ($$C^*$$-algebras, von Neumann ($$W$$*-) algebras, etc.)
   46L05: General theory of $$C^*$$-algebras
   46L06: Tensor products of $$C^*$$-algebras
   46L07: Operator spaces and completely bounded maps
@@ -3111,9 +3044,7 @@
   46L87: Noncommutative differential geometry
   46L89: Other "noncommutative" mathematics based on $$C^*$$-algebra theory
   46L99: None of the above, but in this section
-
-
-  46Mxx: Methods of category theory in functional analysis
+* 46Mxx: Methods of category theory in functional analysis
   46M05: Tensor products
   46M07: Ultraproducts
   46M10: Projective and injective objects
@@ -3123,9 +3054,7 @@
   46M35: Abstract interpolation of topological vector spaces
   46M40: Inductive and projective limits
   46M99: None of the above, but in this section
-
-
-  46Nxx: Miscellaneous applications of functional analysis
+* 46Nxx: Miscellaneous applications of functional analysis
   46N10: Applications in optimization, convex analysis, mathematical programming, economics
   46N20: Applications to differential and integral equations
   46N30: Applications in probability theory and statistics
@@ -3134,9 +3063,7 @@
   46N55: Applications in statistical physics
   46N60: Applications in biology and other sciences
   46N99: None of the above, but in this section
-
-
-  46Sxx: Other (nonclassical) types of functional analysis
+* 46Sxx: Other (nonclassical) types of functional analysis
   46S10: Functional analysis over fields other than <B>R</B> or <B>C</B> or the quaternions; non-Archimedean functional analysis
   46S20: Nonstandard functional analysis
   46S30: Constructive functional analysis
@@ -3144,9 +3071,7 @@
   46S50: Functional analysis in probabilistic metric linear spaces
   46S60: Functional analysis on superspaces (supermanifolds) or graded spaces
   46S99: None of the above, but in this section
-
-
-  46Txx: Nonlinear functional analysis
+* 46Txx: Nonlinear functional analysis
   46T05: Infinite-dimensional manifolds
   46T10: Manifolds of mappings
   46T12: Measure (Gaussian, cylindrical, etc.) and integrals (Feynman, path, Fresnel, etc.) on manifolds
@@ -3156,14 +3081,13 @@
   46T99: None of the above, but in this section
 
 47-xx: Operator theory
-  47-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 47-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   47-01: Instructional exposition (textbooks, tutorial papers, etc.)
   47-02: Research exposition (monographs, survey articles)
   47-03: Historical (must also be assigned at least one classification number from Section 01)
   47-04: Explicit machine computation and programs (not the theory of computation or programming)
   47-06: Proceedings, conferences, collections, etc.
-
-  47Axx: General theory of linear operators
+* 47Axx: General theory of linear operators
   47A05: General (adjoints, conjugates, products, inverses, domains, ranges, etc.)
   47A06: Linear relations (multivalued linear operators)
   47A07: Forms (bilinear, sesquilinear, multilinear)
@@ -3200,8 +3124,6 @@
   47A75: Eigenvalue problems
   47A80: Tensor products of operators
   47A99: None of the above, but in this section
-
-
   47Bxx: Special classes of linear operators
   47B06: Riesz operators; eigenvalue distributions; approximation numbers, $$s$$-numbers, Kolmogorov numbers, entropy numbers, etc. of operators
   47B07: Operators defined by compactness properties
@@ -3227,15 +3149,11 @@
   47B65: Positive operators and order-bounded operators
   47B80: Random operators
   47B99: None of the above, but in this section
-
-
   47Cxx: Individual linear operators as elements of algebraic systems
   47C05: Operators in algebras
   47C10: Operators in $$^*$$-algebras
   47C15: Operators in $$C^*$$- or von Neumann algebras
   47C99: None of the above, but in this section
-
-
   47Dxx: Groups and semigroups of linear operators, their generalizations and applications
   47D03: Groups and semigroups of linear operators
   47D06: One-parameter semigroups and linear evolution equations
@@ -3245,8 +3163,6 @@
   47D60: $$C$$-semigroups
   47D62: Integrated semigroups
   47D99: None of the above, but in this section
-
-
   47E05: Ordinary differential operators
   47F05: Partial differential operators
   47Gxx: Integral, integro-differential, and pseudodifferential operators
@@ -3254,8 +3170,6 @@
   47G20: Integro-differential operators
   47G30: Pseudodifferential operators
   47G99: None of the above, but in this section
-
-
   47Hxx: Nonlinear operators and their properties
   47H04: Set-valued operators
   47H05: Monotone operators (with respect to duality)
@@ -3271,8 +3185,6 @@
   47H50: Potential operators
   47H60: Multilinear and polynomial operators
   47H99: None of the above, but in this section
-
-
   47Jxx: Equations and inequalities involving nonlinear operators
   47J05: Equations involving nonlinear operators (general)
   47J06: Nonlinear ill-posed problems
@@ -3285,8 +3197,6 @@
   47J35: Nonlinear evolution equations
   47J40: Equations with hysteresis operators
   47J99: None of the above, but in this section
-
-
   47Lxx: Linear spaces and algebras of operators
   47L05: Linear spaces of operators
   47L07: Convex sets and cones of operators
@@ -4233,30 +4143,26 @@
 
   58Z05: Applications to physics
 
-60-xx: Probability theory and stochastic processes
-  60-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+60-xx: **Probability theory and stochastic processes**
+* 60-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   60-01: Instructional exposition (textbooks, tutorial papers, etc.)
   60-02: Research exposition (monographs, survey articles)
   60-03: Historical (must also be assigned at least one classification number from Section 01)
   60-04: Explicit machine computation and programs (not the theory of computation or programming)
   60-06: Proceedings, conferences, collections, etc.
   60-08: Computational methods (not classified at a more specific level)
-  60Axx: Foundations of probability theory
+* 60Axx: Foundations of probability theory
   60A05: Axioms; other general questions
   60A10: Probabilistic measure theory
   60A99: None of the above, but in this section
-
-
-  60Bxx: Probability theory on algebraic and topological structures
+* 60Bxx: Probability theory on algebraic and topological structures
   60B05: Probability measures on topological spaces
   60B10: Convergence of probability measures
   60B11: Probability theory on linear topological spaces
   60B12: Limit theorems for vector-valued random variables (infinite-dimensional case)
   60B15: Probability measures on groups, Fourier transforms, factorization
   60B99: None of the above, but in this section
-
-
-  60C05: Combinatorial probability
+* 60C05: Combinatorial probability
   60D05: Geometric probability, stochastic geometry, random sets
   60Exx: Distribution theory
   60E05: Distributions: general theory
@@ -4264,9 +4170,7 @@
   60E10: Characteristic functions; other transforms
   60E15: Inequalities; stochastic orderings
   60E99: None of the above, but in this section
-
-
-  60Fxx: Limit theorems
+* 60Fxx: Limit theorems
   60F05: Central limit and other weak theorems
   60F10: Large deviations
   60F15: Strong theorems
@@ -4274,9 +4178,7 @@
   60F20: Zero-one laws
   60F25: $$L^p$$-limit theorems
   60F99: None of the above, but in this section
-
-
-  60Gxx: Stochastic processes
+* 60Gxx: Stochastic processes
   60G05: Foundations of stochastic processes
   60G07: General theory of processes
   60G09: Exchangeability
@@ -4302,9 +4204,7 @@
   60G60: Random fields
   60G70: Extreme value theory; extremal processes
   60G99: None of the above, but in this section
-
-
-  60Hxx: Stochastic analysis
+* 60Hxx: Stochastic analysis
   60H05: Stochastic integrals
   60H07: Stochastic calculus of variations and the Malliavin calculus
   60H10: Stochastic ordinary differential equations
@@ -4315,9 +4215,7 @@
   60H35: Computational methods for stochastic equations
   60H40: White noise theory
   60H99: None of the above, but in this section
-
-
-  60Jxx: Markov processes
+* 60Jxx: Markov processes
   60J05: Markov processes with discrete parameter
   60J10: Markov chains with discrete parameter
   60J20: Applications of discrete Markov processes (social mobility, learning theory, industrial processes, etc.)
@@ -4337,9 +4235,7 @@
   60J80: Branching processes (Galton-Watson, birth-and-death, etc.)
   60J85: Applications of branching processes
   60J99: None of the above, but in this section
-
-
-  60Kxx: Special processes
+* 60Kxx: Special processes
   60K05: Renewal theory
   60K10: Applications (reliability, demand theory, etc.)
   60K15: Markov renewal processes, semi-Markov processes
@@ -4351,8 +4247,8 @@
   60K40: Other physical applications of random processes
   60K99: None of the above, but in this section
 
-62-xx: Statistics
-  62-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+62-xx: **Statistics**
+* 62-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   62-01: Instructional exposition (textbooks, tutorial papers, etc.)
   62-02: Research exposition (monographs, survey articles)
   62-03: Historical (must also be assigned at least one classification number from Section 01)
@@ -4360,15 +4256,13 @@
   62-06: Proceedings, conferences, collections, etc.
   62-07: Data analysis
   62-09: Graphical methods
-  62A01: Foundational and philosophical topics
-  62Bxx: Sufficiency and information
+* 62A01: Foundational and philosophical topics
+* 62Bxx: Sufficiency and information
   62B05: Sufficient statistics and fields
   62B10: Information-theoretic topics
   62B15: Theory of statistical experiments
   62B99: None of the above, but in this section
-
-
-  62Cxx: Decision theory
+* 62Cxx: Decision theory
   62C05: General considerations
   62C07: Complete class results
   62C10: Bayesian problems; characterization of Bayes procedures
@@ -4377,18 +4271,14 @@
   62C20: Minimax procedures
   62C25: Compound decision problems
   62C99: None of the above, but in this section
-
-
-  62D05: Sampling theory, sample surveys
-  62Exx: Distribution theory
+* 62D05: Sampling theory, sample surveys
+* 62Exx: Distribution theory
   62E10: Characterization and structure theory
   62E15: Exact distribution theory
   62E17: Approximations to distributions (nonasymptotic)
   62E20: Asymptotic distribution theory
   62E99: None of the above, but in this section
-
-
-  62Fxx: Parametric inference
+* 62Fxx: Parametric inference
   62F03: Hypothesis testing
   62F05: Asymptotic properties of tests
   62F07: Ranking and selection
@@ -4400,9 +4290,7 @@
   62F35: Robustness and adaptive procedures
   62F40: Bootstrap, jackknife and other resampling methods
   62F99: None of the above, but in this section
-
-
-  62Gxx: Nonparametric inference
+* 62Gxx: Nonparametric inference
   62G05: Estimation
   62G07: Density estimation
   62G08: Nonparametric regression
@@ -4414,9 +4302,7 @@
   62G32: Statistics of extreme values; tail inference
   62G35: Robustness
   62G99: None of the above, but in this section
-
-
-  62Hxx: Multivariate analysis
+* 62Hxx: Multivariate analysis
   62H05: Characterization and structure theory
   62H10: Distribution of statistics
   62H11: Directional data; spatial statistics
@@ -4428,9 +4314,7 @@
   62H30: Classification and discrimination; cluster analysis
   62H35: Image analysis
   62H99: None of the above, but in this section
-
-
-  62Jxx: Linear inference, regression
+* 62Jxx: Linear inference, regression
   62J02: General nonlinear regression
   62J05: Linear regression
   62J07: Ridge regression; shrinkage estimators
@@ -4439,25 +4323,21 @@
   62J15: Paired and multiple comparisons
   62J20: Diagnostics
   62J99: None of the above, but in this section
-
-  62Kxx: Design of experiments
+* 62Kxx: Design of experiments
   62K05: Optimal designs
   62K10: Block designs
   62K15: Factorial designs
   62K20: Response surface designs
   62K25: Robust parameter designs
   62K99: None of the above, but in this section
-
-
-  62Lxx: Sequential methods
+* 62Lxx: Sequential methods
   62L05: Sequential design
   62L10: Sequential analysis
   62L12: Sequential estimation
   62L15: Optimal stopping
   62L20: Stochastic approximation
   62L99: None of the above, but in this section
-
-  62Mxx: Inference from stochastic processes
+* 62Mxx: Inference from stochastic processes
   62M02: Markov processes: hypothesis testing
   62M05: Markov processes: estimation
   62M07: Non-Markovian processes: hypothesis testing
@@ -4469,17 +4349,13 @@
   62M40: Random fields; image analysis
   62M45: Neural nets and related approaches
   62M99: None of the above, but in this section
-
-
-  62Nxx: Survival analysis and censored data
+* 62Nxx: Survival analysis and censored data
   62N01: Censored data models
   62N02: Estimation
   62N03: Testing
   62N05: Reliability and life testing
   62N99: None of the above, but in this section
-
-
-  62Pxx: Applications
+* 62Pxx: Applications
   62P05: Applications to actuarial sciences and financial mathematics
   62P10: Applications to biology and medical sciences
   62P12: Applications to environmental and related topics
@@ -4489,26 +4365,23 @@
   62P30: Applications in engineering and industry
   62P35: Applications to physics
   62P99: None of the above, but in this section
-
-  62Q05: Statistical tables
+* 62Q05: Statistical tables
 
 65-xx: Numerical analysis
-  65-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+* 65-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
   65-01: Instructional exposition (textbooks, tutorial papers, etc.)
   65-02: Research exposition (monographs, survey articles)
   65-03: Historical (must also be assigned at least one classification number from Section 01)
   65-04: Explicit machine computation and programs (not the theory of computation or programming)
   65-05: Experimental papers
   65-06: Proceedings, conferences, collections, etc.
-  65A05: Tables
-  65Bxx: Acceleration of convergence
+* 65A05: Tables
+* 65Bxx: Acceleration of convergence
   65B05: Extrapolation to the limit, deferred corrections
   65B10: Summation of series
   65B15: Euler-Maclaurin formula
   65B99: None of the above, but in this section
-
-
-  65Cxx: Probabilistic methods, simulation and stochastic differential equations
+* 65Cxx: Probabilistic methods, simulation and stochastic differential equations
   65C05: Monte Carlo methods
   65C10: Random number generation
   65C20: Models, numerical methods
@@ -4518,9 +4391,7 @@
   65C50: Other computational problems in probability
   65C60: Computational problems in statistics
   65C99: None of the above, but in this section
-
-
-  65Dxx: Numerical approximation and computational geometry {Primarily algorithms; for theory, see 41-XX and 68Uxx]
+* 65Dxx: Numerical approximation and computational geometry {Primarily algorithms; for theory, see 41-XX and 68Uxx]
   65D05: Interpolation
   65D07: Splines
   65D10: Smoothing, curve fitting
@@ -4532,9 +4403,7 @@
   65D30: Numerical integration
   65D32: Quadrature and cubature formulas
   65D99: None of the above, but in this section
-
-
-  65E05: Numerical methods in complex analysis (potential theory, etc.)
+* 65E05: Numerical methods in complex analysis (potential theory, etc.)
   65Fxx: Numerical linear algebra
   65F05: Direct methods for linear systems and matrix inversion
   65F10: Iterative methods for linear systems
@@ -4548,40 +4417,30 @@
   65F40: Determinants
   65F50: Sparse matrices
   65F99: None of the above, but in this section
-
-
-  65Gxx: Error analysis and interval analysis
+* 65Gxx: Error analysis and interval analysis
   65G20: Algorithms with automatic result verification
   65G30: Interval and finite arithmetic
   65G40: General methods in interval analysis
   65G50: Roundoff error
   65G99: None of the above, but in this section
-
-
-  65Hxx: Nonlinear algebraic or transcendental equations
+* 65Hxx: Nonlinear algebraic or transcendental equations
   65H05: Single equations
   65H10: Systems of equations
   65H17: Eigenvalues, eigenvectors
   65H20: Global methods, including homotopy approaches
   65H99: None of the above, but in this section
-
-
-  65Jxx: Numerical analysis in abstract spaces
+* 65Jxx: Numerical analysis in abstract spaces
   65J05: General theory
   65J10: Equations with linear operators (do not use 65Fxx)
   65J15: Equations with nonlinear operators (do not use 65Hxx)
   65J20: Improperly posed problems; regularization
   65J22: Inverse problems
   65J99: None of the above, but in this section
-
-
-  65Kxx: Mathematical programming, optimization and variational techniques
+* 65Kxx: Mathematical programming, optimization and variational techniques
   65K05: Mathematical programming {Algorithms; for theory see 90Cxx]
   65K10: Optimization and variational techniques
   65K99: None of the above, but in this section
-
-
-  65Lxx: Ordinary differential equations
+* 65Lxx: Ordinary differential equations
   65L05: Initial value problems
   65L06: Multistep, Runge-Kutta and extrapolation methods
   65L07: Numerical investigation of stability of solutions
@@ -4596,9 +4455,7 @@
   65L70: Error bounds
   65L80: Methods for differential-algebraic equations
   65L99: None of the above, but in this section
-
-
-  65Mxx: Partial differential equations, initial value and time-dependent initial-boundary value problems
+* 65Mxx: Partial differential equations, initial value and time-dependent initial-boundary value problems
   65M06: Finite difference methods
   65M12: Stability and convergence of numerical methods
   65M15: Error bounds
@@ -4611,9 +4468,7 @@
   65M60: Finite elements, Rayleigh-Ritz and Galerkin methods, finite methods
   65M70: Spectral, collocation and related methods
   65M99: None of the above, but in this section
-
-
-  65Nxx: Partial differential equations, boundary value problems
+* 65Nxx: Partial differential equations, boundary value problems
   65N06: Finite difference methods
   65N12: Stability and convergence of numerical methods
   65N15: Error bounds
@@ -4628,59 +4483,50 @@
   65N50: Mesh generation and refinement
   65N55: Multigrid methods; domain decomposition
   65N99: None of the above, but in this section
-
-
-  65Pxx: Numerical problems in dynamical systems
+* 65Pxx: Numerical problems in dynamical systems
   65P10: Hamiltonian systems including symplectic integrators
   65P20: Numerical chaos
   65P30: Bifurcation problems
   65P40: Nonlinear stabilities
   65P99: None of the above, but in this section
-
-
-  65Q05: Difference and functional equations, recurrence relations
+* 65Q05: Difference and functional equations, recurrence relations
   65Rxx: Integral equations, integral transforms
   65R10: Integral transforms
   65R20: Integral equations
   65R30: Improperly posed problems
   65R32: Inverse problems
   65R99: None of the above, but in this section
-
-
-  65S05: Graphical methods
+* 65S05: Graphical methods
   65Txx: Numerical methods in Fourier analysis
   65T40: Trigonometric approximation and interpolation
   65T50: Discrete and fast Fourier transforms
   65T60: Wavelets
   65T99: None of the above, but in this section
-
-
-  65Yxx: Computer aspects of numerical algorithms
+* 65Yxx: Computer aspects of numerical algorithms
   65Y05: Parallel computation
   65Y10: Algorithms for specific classes of architectures
   65Y15: Packaged methods
   65Y20: Complexity and performance of numerical algorithms
   65Y99: None of the above, but in this section
+* 65Z05: Applications to physics
 
-  65Z05: Applications to physics
-
-68-xx: Computer science
-  68-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
-    68-01: Instructional exposition (textbooks, tutorial papers, etc.)
-    68-02: Research exposition (monographs, survey articles)
-    68-03: Historical (must also be assigned at least one classification number from Section 01)
-    68-04: Explicit machine computation and programs (not the theory of computation or programming)
-    68-06: Proceedings, conferences, collections, etc.
-  68Mxx: Computer system organization
-    68M01: General
-    68M07: Mathematical problems of computer architecture
-    68M10: Network design and communication
-    68M12: Network protocols
-    68M14: Distributed systems
-    68M15: Reliability, testing and fault tolerance
-    68M20: Performance evaluation; queueing; scheduling
-    68M99: None of the above, but in this section
-  68Nxx: Software
+68-xx: **Computer science**
+* 68-00: General reference works (handbooks, dictionaries, bibliographies, etc.)
+  68-01: Instructional exposition (textbooks, tutorial papers, etc.)
+  68-02: Research exposition (monographs, survey articles)
+  68-03: Historical (must also be assigned at least one classification number from Section 01)
+  68-04: Explicit machine computation and programs (not the theory of computation or programming)
+  68-06: Proceedings, conferences, collections, etc.
+* 68Mxx: *Computer system organization*
+  68M01: General
+  68M07: Mathematical problems of computer architecture
+  68M10: Network design and communication
+  68M12: Network protocols
+  68M14: Distributed systems
+  68M15: Reliability, testing and fault tolerance
+  68M20: Performance evaluation; queueing; scheduling
+  68M99: None of the above, but in this section
+* 68Nxx: *Software*
     68N01: General
     68N15: Programming languages
     68N17: Logic programming
@@ -4690,7 +4536,7 @@
     68N25: Operating systems
     68N30: Mathematical aspects of software engineering (specification, verification, metrics, requirements, etc.)
     68N99: None of the above, but in this section
-  68Pxx: Theory of data
+* 68Pxx: *Theory of data*
     68P01: General
     68P05: Data structures
     68P10: Searching and sorting
@@ -4699,7 +4545,7 @@
     68P25: Data encryption
     68P30: Coding and information theory (compaction, compression, models of communication, encoding schemes, etc.)
     68P99: None of the above, but in this section
-  68Qxx: Theory of computing
+* 68Qxx: *Theory of computing*
     68Q01: General
     68Q05: Models of computation (Turing machines, etc.)
     68Q10: Modes of computation (nondeterministic, parallel, interactive, probabilistic, etc.)
@@ -4718,13 +4564,13 @@
     68Q80: Cellular automata
     68Q85: Models and methods for concurrent and distributed computing (process algebras, bisimulation, transition nets, etc.)
     68Q99: None of the above, but in this section
-  68Rxx: Discrete mathematics in relation to computer science
+* 68Rxx: *Discrete mathematics in relation to computer science*
     68R01: General
     68R05: Combinatorics
     68R10: Graph theory
     68R15: Combinatorics on words
     68R99: None of the above, but in this section
-  68Txx: Artificial intelligence
+* 68Txx: *Artificial intelligence*
     68T01: General
     68T05: Learning and adaptive systems
     68T10: Pattern recognition, speech recognition
@@ -4738,7 +4584,7 @@
     68T45: Machine vision and scene understanding
     68T50: Natural language processing
     68T99: None of the above, but in this section
-  68Uxx: Computing methodologies and applications
+* 68Uxx: *Computing methodologies and applications*
     68U01: General
     68U05: Computer graphics; computational geometry
     68U07: Computer-aided design
@@ -4747,7 +4593,7 @@
     68U20: Simulation
     68U35: Information systems (hypertext navigation, interfaces, decision support, etc.)
     68U99: None of the above, but in this section
-  68Wxx: Algorithms
+* 68Wxx: *Algorithms*
     68W01: General
     68W05: Nonnumerical algorithms
     68W10: Parallel algorithms

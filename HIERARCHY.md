@@ -1,14 +1,21 @@
 # MATH › HIERARCHY
 
 
-Top levels:
-- The Foundations of Mathematics
+## Top levels
+
+* 03-mf (Math Fundamentals)
+  - (About math fields)
+  - (About discrete math)
+  * The Foundations of Mathematics
+  * Formal system
+  * Incompleteness
+
+
 - Mathematical Logic
 - Sets
 - Number theory
 - Algebra
 - Calculus
-
 - Type theory
 - Category theory
 
@@ -17,9 +24,6 @@ Top levels:
 PART I
 ----------------------------------------------------------------------------
 
-## Sciences
-  - Hierarchy of Sciences
-  - Branches of Science
 
 ## Mathematics
   - Rigorous argumentation
