@@ -1,10 +1,5 @@
 # Relations
 
-- A relation $$R$$ from set $$X$$  (the set of departure) to set $$Y$$ (the set of destination or codomain), where $$x \in X$$ and $$y \in Y$$, is denoted as $$(x,y) \in R$$ or $$xRy$$ (x is R-related to y).
-- If the sets are equal, the Cartesian product, $$X\times X$$, is denoted by $$X^2$$ and a relation is $$xRx$$
-- **A relation is a subset** of the Cartesian product, $$R \subseteq X\times Y$$
-- **A relation is an element** of the powerset of the Cartesian product of sets, $$R \in \mathcal{P}(X\times Y)$$
-- Total number of relations of an n-element set with itself is $$|\mathcal{P}(X^2)| = 2^{n^2}$$
 
 
 
@@ -51,4 +46,3 @@ $$$
 - between these two extremes are all other relations, some of which have a name, being more popular then others. The most popular ones, come with a name and a special symbol attached.
 
 __Less than__ (LT, `<`) relation is formed by the subset of all pairs lying above the diagonal, and __greater than__ (GT, `>`) by the subset of all pairs below the diagonal. The union of these two with identity relation form __less than or equal to__ (LE, `<=`) and __greater than or equal to__ (GE, `>=`) relations, respectively.
-

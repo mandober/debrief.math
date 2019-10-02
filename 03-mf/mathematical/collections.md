@@ -20,6 +20,8 @@ or List D        = [a, b, c]
 
 ## Multiset
 
+https://en.wikipedia.org/wiki/Multiset
+
 A multiset (bag, mset) is a modification of the concept of a set that, unlike a set, allows for multiple instances for each of its elements.
 
 D.Knuth lists other names that were proposed or used for this concept, including: list, bunch, bag, heap, sample, weighted set, collection, suite.

@@ -1,3 +1,5 @@
+# Order theory
+
 Order theory investigates the intuitive notion of order using binary relations. It provides a formal framework for describing statements such as "this is less than that" or "this precedes that".
 
 
@@ -164,4 +166,3 @@ https://en.wikipedia.org/wiki/List_of_order_theory_topics
 https://en.wikipedia.org/wiki/Completeness_(order_theory)
 https://en.wikipedia.org/wiki/Distributivity_(order_theory)
 https://en.wikipedia.org/wiki/Limit-preserving_function_(order_theory)
-
