@@ -1,6 +1,8 @@
 # Introduction to Category Theory
 
-Category theory is the source of new ideas in programming, especially suitable for functional programming languages, with Haskell as the most prominent among the languages to recognize the importance and practicality of concepts that originated in category theory, such as functors, applicatives and, particularly, monads.
+Category theory is the source of new programming ideas, particularly well exploited by Haskell as the most prominent among the languages to recognize the importance and practicality of concepts therein.
+
+Concepts that originated in category theory include functors, applicatives, monads, as well as many prefixed constructs like comonads, bifunctors, etc.
 
 These concepts have endowed the language with new capabilities, such as the ability to abstract over a certain behavior or computation.
 
@@ -12,3 +14,6 @@ It's analysis followed by synthesis that gives us means to tackle some very comp
 
 > To understand something complex, destructure it to study its constituting parts, then compose them back together. (pro tip: animate with electricity)   
 -- Victor F.
+
+
+In category theory, the concept of an element, or a point, generalizes the more usual set theoretic concept of an element of a set to an object of any category. This idea often allows restating of definitions or properties of morphisms (such as monomorphism or product) given by a universal property in more familiar terms, by stating their relation to elements. Some very general theorems, such as Yoneda's lemma and the Mitchell embedding theorem, are of great utility for this, by allowing one to work in a context where these translations are valid. This approach to category theory, in particular the use of the Yoneda lemma in this way, is due to Grothendieck, and is often called the method of the functor of points.

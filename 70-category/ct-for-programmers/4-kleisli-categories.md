@@ -189,6 +189,83 @@ A good library writer should be able to identify the bare minimum of constraints
 ## Writer in Haskell
 <!-- #region Writer in Haskell -->
 
+We first had normal, easily composable fns:
+
+```hs
+f :: a -> b
+g :: b -> c
+g . f = g $ f x
+```
+
+Then we had each fn log its name when accessed. Fns would still take original args, but they would return an extra arg for log (a `String`). Now, these fns are not composable.
+
+In order to compose them, we'll consider unary fns that now return a pair made of any type, `a`, and a `String` (logger), i.e. `(a, String)`. We'll alias this pair as `Writer` (1). Morphisms are now fns (2) from an arbitrary type to a `Writer` type.
+
+We'll declare the composition (3) op as an infix, called "fish". The fish, `>=>`, is a fn of 2 args, with each arg being a fn and returning a fn:
+- arg1   `:: (a -> Writer b)`
+- arg2   `:: (b -> Writer c)`
+- result `:: (a -> Writer c)`
+
+
+```hs
+-- (1)
+type Writer a = (a, String)
+
+-- (2): mx :: a -> Writer b
+
+-- (3)
+(>=>) :: (a -> Writer b) -> (b -> Writer c) -> (a -> Writer c)
+m1 >=> m2 = -- (4)
+  \x ->
+    let (y, s1) = m1 x -- (5)
+        (z, s2) = m2 y -- (6)
+    in  (z, s1 ++ s2)  -- (7)
+
+-- (8)
+return :: a -> Writer a
+return x = (x, "")
+
+-- (9)
+upCase :: String -> Writer String
+upCase s = (map toUpper s, "upCase ")
+
+toWords :: String -> Writer [String]
+toWords s = (words s, "toWords ")
+
+-- (10)
+process :: String -> Writer [String]
+process = upCase >=> toWords
+```
+
+The definition of the fish infix operator (4) takes 2 args `m1` and `m2` and returns a lambda function of arg `x`.
+
+The `let` expression allows declaring auxiliary vars. The result of `m1 x` (5), which is some type and a String, is pattern matched against the pair `(y, s1)`, so `y` is now the result of the first fn and `s1` is a logging detail.
+
+The result of `m2 y`, where `y` was bound in the previous expr, is matched (6) against the pair `(z, s2)`. So `z` becomes the result of fn composition, while `s2` is this fn's logging string.
+
+The overall value of the let expression (7) is specified in its `in` clause: it's a pair whose first component is `z` (the result of fn composition), while the second is the concatenation of logs i.e. strings `s1` and `s2` appended.
+
+The identity morphism for this category is called `return` (8).
+
+Then, we have 2 examples of embellished functions `upCase` and `toWords` (9).
+
+Finally (10), the composition of the two functions is accomplished with
+the help of the fish operator.
+
+
+<!-- #endregion -->
+
+
+## Kleisli Categories
+<!-- #region Kleisli Categories -->
+
+That was an example of a *Kleisli category* which is a category based on a monad.
+
+A Kleisli category has as objects the types of the underlying programming language.
+
+Morphisms from type 𝐴 to type 𝐵 are functions that go from 𝐴 to a type derived from 𝐵 using the particular embellishment.
+
+Each Kleisli category defines its own way of composing such morphisms, as well as the identity morphisms with respect to that composition. (the imprecise term "embellishment" corresponds to the notion of an endofunctor in a category).
 
 
 

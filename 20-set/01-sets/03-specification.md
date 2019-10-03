@@ -1,5 +1,19 @@
 # Set notation
 
+<!-- TOC -->
+
+- [Denoting a set as an object](#denoting-a-set-as-an-object)
+- [Extensional and intensional definition](#extensional-and-intensional-definition)
+  - [Intensional definition](#intensional-definition)
+  - [Extensional definition](#extensional-definition)
+  - [Axiom of Extensionality](#axiom-of-extensionality)
+- [Set-builder notation](#set-builder-notation)
+- [Definition by predicate](#definition-by-predicate)
+- [Indexed sets](#indexed-sets)
+
+<!-- /TOC -->
+
+
 - Extensional definition
   - Roster notation
 - Intensional (semantic) definition
@@ -77,6 +91,7 @@ If and only if, *iff*:
 
 
 ## Set-builder notation
+
 Another form of extensional definition is **set-builder notation**, also called the **set comprehension**. It is a compact notation to describe a set, with the general sytax lookin like: $$X=\{exp:rule\}$$, with the colon, ":", (or sometimes, a pipe symbol, "|") standing for abstraction and being read as "_such that_".
 
 For example: $$A=\{x:x \in \mathbb{Z}, 2^x<32\}$$    
@@ -93,7 +108,6 @@ Elements of a set can be specified by a predicate i.e. in terms of a property (o
 Whether an object $$x$$ possesses a certain property $$P$$ is either true or false (in terms of classical logic), so it can be a subject of the propositional function $$P(x)$$.
 
 A set can be specified by a predicate function; $$S=\{x:P(x)\}$$, means that $$S$$ is a set to whom each $$x$$, which possesses a certain property $$P$$, belongs; taht is, each $$x$$ for which $$P(x)$$ is true.
-
 
 
 

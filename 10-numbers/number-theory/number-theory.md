@@ -13,3 +13,10 @@ Number theory is a branch of math concerned with the behavior of integers. It ha
 
 
 Randomization is an important technique for creating fast algorithms for storing and retrieving objects (hash tables), testing whether two objects are the same (two files), and similar. 
+
+---
+Number theory is a branch of math concerned with the behavior of integers. It has important applications in cryptography and in the design of randomized algorithms.
+
+Randomization is an important technique for creating fast algorithms for storing and retrieving objects (hash tables), testing whether two objects are the same (two files), and similar. 
+
+Much of the underlying theory depends on divisiblity and primality.

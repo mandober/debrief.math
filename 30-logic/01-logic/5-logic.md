@@ -19,8 +19,7 @@ Logic evaluates arguments in order to develop methods that allow us to distingui
 Logic attempts to codify what counts as legit means by which to draw conclusions from given assumptions.
 
 
-
-
+Yo soy un disco quebrado → Yo tengo chicle en cerebro
 
 
 ---

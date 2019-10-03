@@ -1,8 +1,9 @@
 # Sets
 
 1. Sets
-  - Introduction
-  - Properties
-  - Specification
-  - Cardinality
-  - Summary
+  - Introduction to sets
+  - Set Properties
+  - Set Specification
+  - Set Membership
+  - Set Cardinality
+  - Sets: Summary

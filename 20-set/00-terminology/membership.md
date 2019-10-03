@@ -1,5 +1,4 @@
 # Set membership
-math.dm.st.sets.memb
 
 - Membership relation
 - Set membership
@@ -14,15 +13,6 @@ math.dm.st.sets.memb
 - proper subset
 - proper superset
 
-
-## Set membership
-An element, or member, of a set is any one of the distinct objects that make up that set. The elements of a set can be anything, including other sets, since a (newly defined) set is an object in its own right. The objects belonging to a set are called (its) **elements** or **members**.
-
-Set theory builds upon a fundamental binary relation between an object and a set - **membership relation**. The relation "_is an element of_", also called **set membership**, is denoted by the symbol "$$\in$$" (modified Greek letter epsylon: $$\epsilon$$).
-
-Notation that an object $$x$$ is a member of a set $$X$$ is written as $$x\in X$$ and read "_x is an element of A_", "_x belongs to A_", or similarly. If $$y$$ is not a member of $$X$$, this is denoted by $$y\in X$$, and read "_y does not belong to X_".
-
-Once a set has been formed, it is an object in its own right, different from any of its elements. A set containing a single element is not the same as that element alone: $$x\neq \{x\}$$.
 
 
 ## Subset
@@ -69,4 +59,3 @@ then: \\
 \quad \{1,2\}   \subseteq A \\
 \quad \{1,2,3\} \subseteq A \\
 $$
-

@@ -1,5 +1,9 @@
 # Axiom of choice
 
+The most controversial axiom of all time, 2008
+https://infinityplusonemath.wordpress.com/2018/07/17/the-most-controversial-axiom-of-all-time/
+
+
 **The axiom of choice (AC)**, is an axiom of set theory equivalent to the statement that the Cartesian product of a collection of non-empty sets is non-empty.
 
 Informally put, the axiom of choice says that given any collection of bins, each containing at least one object, it is possible to make a selection of exactly one object from each bin, even if the collection is infinite.
@@ -29,6 +33,3 @@ Given axioms 1–8, there are many statements provably equivalent to axiom 9, th
 _Let X be a set whose members are all non-empty. Then there exists a function f from X to the union of the members of X, called a "choice function", such that for all Y ∈ X one has f(Y) ∈ Y_.
 
 Since the existence of a choice function when X is a finite set is easily proved from axioms 1–8, AC only matters for certain infinite sets. AC is characterized as nonconstructive because it asserts the existence of a choice set but says nothing about how the choice set is to be "constructed". Much research has sought to characterize the definability (or lack thereof) of certain sets whose existence AC asserts.
-
-
-

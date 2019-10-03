@@ -1,6 +1,5 @@
 # Logic Indices
 
-
 * Logical reasoning
   - Deduction
   - Induction

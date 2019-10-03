@@ -3,12 +3,10 @@
 <!-- TOC -->
 
 - [Russell's paradox](#russells-paradox)
-- [Set Theories](#set-theories)
 
 <!-- /TOC -->
 
-
-Sets are considered the foundation of mathematics. Concretely, **Zermelo-Fraenkel set theory** (ZF) is currently accepted by majority of mathematicians as the axiomatization system best fitted to serve as the foundation of all mathematics. Being a foundation means that the entirety of mathematics can be derived from it.
+Sets are considered the foundation of all mathematics. Concretely, **Zermelo-Fraenkel set theory** (ZF) is currently accepted by majority of mathematicians as the axiomatization system best fitted to serve as the math foundation. This means that the entirety of mathematics can be derived from it.
 
 Sets are ubiquitous in mathematics, they occur in many math branches, and they are extensively used in logic and, by extension, in CS.
 
@@ -39,15 +37,9 @@ Now, we just need to determine where does the $$R$$ itself belongs:
 - if $$R$$ is not a member of $$R$$, then his definition dictates that it must contain itself (because it has the required property).
 - if $$R$$ is a member of $$R$$, then it contradicts its own definition (because it doesn't have the required property).
 
-This paradox, like many others, emerges in connection with self-reference; "whenever there's a self-reference, a paradox lurks near by". 
+This paradox, like many others, emerges in connection with self-reference; "whenever there's a self-reference, a paradox lurks near by".
 
 This paradox have been a forking point that spawned many set theories with different strategies on how to avoid it. A consistent system must impose restrictions on the set inclusion rules. The restriction of regulations about what can constitute a set, made way for the *axiomatic set theory* i.e. *class theory*.
-
-## Set Theories
-
-A **naïve set theory** is an informal approach to set theory, in which the notion of a set is a primitive concept (no proof required). It assumes that sets exist, particularly the universal set, despite the fact that such a broad assumption is ridden with paradoxes. However, it is still regarded a useful tool for introduction of the general concepts about sets.
-
-An **axiomatic set theory** is a formal system based on a set of axioms. The notion of set is either taken as a primitive or it is explicitly introduced by an axiom (no proof required in either case). The axioms constrain the rules for set construction and prescribe acceptable behavior. Other set-related notions are also introduced via axioms in a similar manner (the existence of the empty set, infinite sets, etc.). ZF set theory is an axiomatic system.
 
 
 [^1]: _"Unter einer **Menge** verstehen wir jede Zusammenfassung *M* von bestimmten wohlunterschiedenen Objekten *m* unserer Anschauung oder unseres Denkens (welche die **Elemente** von *M* genannt werden) zu einem Ganzen."_   

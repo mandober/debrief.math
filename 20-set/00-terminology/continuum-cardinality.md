@@ -1,57 +1,17 @@
-<!-- TOC -->
-
-- [Set equivalence](#set-equivalence)
-- [Bijection](#bijection)
-- [Countable set](#countable-set)
-- [Cardinality of infinity](#cardinality-of-infinity)
-- [Comparing sets](#comparing-sets)
-- [Equivalence](#equivalence)
-- [Cardinal numbers](#cardinal-numbers)
-
-<!-- /TOC -->
+# Cardinality of continuum
 
 
+The cardinality of the natural numbers is denoted aleph-null, $$\aleph_{0}$$, while the cardinality of the real numbers is denoted by $$\mathfrak{c}$$, also referred to as the **cardinality of the continuum**.
 
-# Set cardinality
+Cantor showed, using the **diagonal argument**, that $$\mathfrak{c} > \aleph_{0}$$.
 
-- Cardinality
-- Infinite and finite set
-- Set equality
-- Set equivalence
-- Enumerable and inenumerable set
+We can show that $$\mathfrak{c} = 2^{\aleph_{0}}$$ i.e. the cardinality of the powerset of $$\mathbb{N}$$.
 
+The **continuum hypothesis** says that $$\aleph_1 = 2^{\aleph_0}$$, i.e. 
+$$2^{\aleph_0}$$ is the smallest cardinal number bigger than 
+$$\aleph_0$$, i.e. there is no set whose cardinality is strictly between that of the integers and that of the real numbers.
 
-
-
-## Set equivalence
-
-Two sets are equal, $$X=Y$$, iff they have identical elements, or formally, if they are subsets of each other. However, two sets are **equivalent** iff they have the same cardinality. **Set equivalence** is denoted as $$X\simeq Y$$ or $$X\sim Y$$. **Set inequivalence** is denoted as $$X\not\simeq{Y}$$ or $$X\not\sim Y$$.
-
-To see if two sets, $$X$$ and $$Y$$, have the same cardinality, you don't need to count their elements - you can just couple their elements: pairing each element $$x$$ of the set $$X$$ with an element $$y$$ of a set $$Y$$ so that every element belongs to exactly one pair, $$(x,y)$$.
-
-If no unpaired element remains, such pairing of elements from two sets is called **one-to-one** (1-1) or **correspondence**.
-
-
-## Bijection
-
-Sets $$X$$ and $$Y$$ are equivalent iff they have the same cardinality, that is, if there exists a **bijection function**, $$f:X\to Y$$, from the elements of $$X$$ to those of $$Y$$.
-
-Bijection is a function (and all functions are relations) that associates each element of $$X$$ to exactly one element of $$Y$$, such that all elements of $$Y$$ are associated.
-
-
-## Countable set
-
-Georg Cantor introduced the term countable set, contrasting sets that are countable with those that are uncountable. Today, countable sets form the foundation of a branch of mathematics called discrete mathematics.
-
-> A countable set is a set with the same cardinality as some subset of the set of natural numbers.
-
-A countable set is either countably finite or countably infinite set. Whether finite or infinite, the elements of a countable set can always be counted one at a time and, although the counting may never finish, every element of the set is associated with a unique natural number.
-
-A set $$S$$ is **countable** if there exists an injective function $$f$$ from $$S$$ to the set of natural numbers, $$\mathbb N$$.
-
-If such injective function is also surjective (and thus bijective), then the set $$S$$ is called **countably infinite**.
-
-> A set is countably infinite if it has one-to-one correspondence with the set of natural numbers.
+The continuum hypothesis is independent of ZFC, that is, it is impossible to prove the continuum hypothesis or its negation from ZFC (provided ZFC is consistent).
 
 
 ## Cardinality of infinity
@@ -95,6 +55,21 @@ $$1, 2 ,\frac{1}{2}, \frac{1}{3}, 3, 4, \frac{3}{2}, \frac{2}{3}, \frac{1}{4}, \
 ```
 
 
+## Countable set
+
+Georg Cantor introduced the term countable set, contrasting sets that are countable with those that are uncountable. Today, countable sets form the foundation of a branch of mathematics called discrete mathematics.
+
+> A countable set is a set with the same cardinality as some subset of the set of natural numbers.
+
+A countable set is either countably finite or countably infinite set. Whether finite or infinite, the elements of a countable set can always be counted one at a time and, although the counting may never finish, every element of the set is associated with a unique natural number.
+
+A set $$S$$ is **countable** if there exists an injective function $$f$$ from $$S$$ to the set of natural numbers, $$\mathbb N$$.
+
+If such injective function is also surjective (and thus bijective), then the set $$S$$ is called **countably infinite**.
+
+> A set is countably infinite if it has one-to-one correspondence with the set of natural numbers.
+
+
 ## Comparing sets
 
 While the cardinality of a finite set is just the count of its elements, extending this notion to infinite sets starts by defining the notion of comparison between arbitrary, possibly infinite, sets.
@@ -113,25 +88,6 @@ If $$|A| \le |B|$$ and $$|B| \le |A|$$ then $$|A| = |B|$$
 
 The axiom of choice is equivalent to the statement that $$|A| \le |B|$$ and $$|B| \le |A|$$ for every $$A, B$$.
 
-
-## Equivalence
-
-The study of cardinality is often called **equinumerosity** (equalness-of-number); the terms equipollence (equalness-of-strength) and equipotence (equalness-of-power) are also used.
-
-The statement that two sets are equinumerous is denoted:
-$$A\approx B$$ or $$A\sim B$$ or $$|A|=|B|$$.
-
-
-Equinumerosity has the characteristic properties of an equivalence relation i.e. reflexivity, symmetry and transitivity.
-
-**Reflexivity**   
-Given a set A, the identity function on A is a bijection from A to itself, showing that every set A is equinumerous to itself: A ~ A.
-
-**Symmetry**    
-For every bijection between two sets A and B there exists an inverse function which is a bijection between B and A, implying that if a set A is equinumerous to a set B then B is also equinumerous to A: A ~ B implies B ~ A.
-
-**Transitivity**    
-Given three sets A, B and C with two bijections f : A → B and g : B → C, the composition g ∘ f of these bijections is a bijection from A to C, so if A and B are equinumerous and B and C are equinumerous then A and C are equinumerous: A ~ B and B ~ C together imply A ~ C.
 
 
 ## Cardinal numbers
