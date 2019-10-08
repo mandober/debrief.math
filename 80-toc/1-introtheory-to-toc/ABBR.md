@@ -1,1 +1,0 @@
-# MATH › THEORY OF COMPUTATION › Abbreviations

@@ -1,40 +1,72 @@
 # Boolean algebra
 
-Boolean algebra, introduced by George Boole in 1847, is a branch of algebra in which the values of the variables are the truth values, `True` and `False`.
+https://en.wikipedia.org/wiki/Boolean_algebra
 
-Boolean algebra was fundamental in the development of computers and other digital electronics. It is used in programming languages, as well as in set theory and statistics.
+Boolean algebra is a branch of algebra in which the values of variables are the truth values, *true* (1) and *false* (0).
 
+The main operations in Boolean algebra:
+- negation: *not*, ¬, latex: $$\lnot$$
+- conjunction: *and*, ∧, latex: $$\land$$
+- disjunction: *or*, ∨, latex: $$\lor$$
 
-Unlike elementary algebra where variables range over numbers and the prime operations are addition and multiplication, 
-
-
-the main operations of Boolean algebra are the conjunction and denoted as ∧, the disjunction or denoted as ∨, and the negation not denoted as ¬. 
-
-It is thus a formalism for describing logical operations in the same way that elementary algebra describes numerical operations.
-
+Boolean algebra is a formalism for describing logical relations in the same way that elementary algebra describes numerical relations.
 
 
-The main operation of Boolean algebra:
-- conjunction: $$\land$$
+## History
 
-Instead of algebra where the values of variables are numbers with basic operations of addition and multiplication, 
-the main operations of Boolean algebra are the 
-- conjunction and denoted as ∧, the 
-- disjunction or denoted as ∨, and the 
-- negation not denoted as ¬.
+Boolean algebra was introduced by **George Boole** in 1847, in his book "The Mathematical Analysis of Logic", and further developed in his 1854 book "An Investigation of the Laws of Thought". Boolean algebra is fundamental in the development of digital electronics. It is available in all programming languages. It is also used in set theory and statistics.
 
-It is thus a formalism for describing logical relations in the same way that elementary algebra describes numeric relations.
+Boole's algebra predated the modern developments in abstract algebra and mathematical logic, however, it is seen as connected to the origins of both fields.
+
+In an abstract setting, Boolean algebra was perfected in the late XIX century by Jevons, Schröder, Huntington, and others, until it reached the modern conception of an abstract *mathematical structure*. For example, the empirical observation that one can manipulate expressions in the *algebra of sets* by translating them into expressions in Boole's algebra is explained in modern terms by saying that *the algebra of sets is a Boolean algebra*. In fact, M. H. Stone proved in 1936 that every Boolean algebra is isomorphic to a field of sets.
+
+Logic sentences that can be expressed in *classical propositional calculus* have an equivalent expression in Boolean algebra. Thus, Boolean logic is sometimes used to denote propositional calculus performed in this way. But Boolean algebra is not sufficient to capture logic formulas using quantifiers, like those from first order logic.
+
+Although the development of mathematical logic did not follow Boole's program, the connection between his algebra and logic was later put on firm ground in the setting of *algebraic logic*, which also studies the algebraic systems of many other logics.
+
+**Boolean SATisfiability problem (SAT)** is the problem of determining whether the variables of a given Boolean, propositional, formula can be assigned in such a way as to make the formula evaluate to true. SAT is of importance to theoretical CS, being the first problem shown to be *NP-complete*.
+
+## Values
+
+In Boolean algebra elementary expressions denote the truth values *false* and *true*, represented with the bits 0 and 1, respectively. This set is often denoted by $$\mathbb{B} = \{0,1\}$$.
+
+Now we need to find appropriate algebra operations that correspond to the behavior of Boolean values under the operations of NOT and either one of AND, OR and XOR.
+
+- Multiplication correspons to AND operation perfectly: $$p ∧ q = pq$$
+- Addition almost corresponds to OR and XOR, except of course for the case when both variables are true, then it corresponds to neither.
+  - $$1 + 1 = 2$$, addition
+  - $$1 ∨ 1 = 1$$, OR
+  - $$1 ⊕ 1 = 0$$, XOR
+  - $$1 ⨢ 1 = 1$$, saturated (upper-bounded) addition corresponds to OR
+  - $$1+1=2 ≡ 0 \pmod 2$$, integer arithmetic modulo 2, `⨧`, corresponds to XOR
+
+a | b | ∧ | ∨ | ⊕
+--|---|---|---|---
+0 | 0 | 0 | 0 | 0
+0 | 1 | 0 | 1 | 1
+1 | 0 | 0 | 1 | 1
+1 | 1 | 1 | 1 | 0
+
+a | b | ⨯ | ⨢| ⨧
+--|---|---|---|---
+0 | 0 | 0 | 0 | 0
+0 | 1 | 0 | 1 | 1
+1 | 0 | 0 | 1 | 1
+1 | 1 | 1 | 1 | 0
 
 
-Boolean algebra is a 6-tuple $$(A, \land, \lor, \lnot, \bot, \top)$$:
-- set $$A$$ equipped with operations,
+
+## Boolean algebra as a tuple
+
+Boolean algebra is a 6-tuple $$(B, \land, \lor, \lnot, \bot, \top)$$:
+- the set $$B=\{0,1\}$$, equipped with operations:
 - **join** (and) binary operator, $$\land$$
 - **meet** (or) binary operator, $$\lor$$
 - **complement** (not) unary operator, $$\lnot$$
 - **bottom** (least) element, $$\bot$$ (or $$0$$)
 - **top** (greatest) element, $$\top$$ (or $$1$$)
 
-such that $$\forall (a,b,c) \in A$$ these axioms hold:
+such that $$\forall (a,b,c) \in B$$ these axioms hold
 - associativity : a ∨ (b ∨ c) = (a ∨ b) ∨ c, a ∧ (b ∧ c) = (a ∧ b) ∧ c
 - commutativity : a ∨ b = b ∨ a, a ∧ b = b ∧ a
 - distributivity: a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c), a ∧ (b∨c) = (a∧b) ∨ (a∧c)

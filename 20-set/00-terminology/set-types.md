@@ -1,5 +1,13 @@
 # Set Types
 
+Sets:
+- *pure set*: a set containing scalars only
+- *empty set*: pretty vacant
+- *higher-order set*: a set containing set(s)
+- *mixed set*:a set known to contain at least one scalar AND at least one set
+- *universal set*: set containing everything, the universe
+
+
 Types:
 - Ordered pair or pair
 - Powerset

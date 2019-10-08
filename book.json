@@ -1,0 +1,8 @@
+{
+  "title": "Math Debrief",
+  "description": "Math notes",
+  "author": "Ilic Ivan <ilicivan@zoho.com>",
+  "plugins": [
+    "mathjax"
+  ]
+}

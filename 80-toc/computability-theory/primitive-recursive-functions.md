@@ -2,12 +2,15 @@
 
 https://en.wikipedia.org/wiki/Primitive_recursive_function
 
+In computability theory, **Primitive Recursive Function** (PRF) is a function that can be computed by a program using *bounded loops*.
 
-In computability theory, **Primitive Recursive** (PR) is a function that can be computed by a program in which the loops are bounded; that is, the number of times to go through the loop can be determined before entering the loop.
+**Bounded loops** are a programming language construct where the number of times needed to go through the loop can be determined before entering the loop). Some loops, like "for" loop, are always *upper bounded*, the number of times through the loop is known before entering the loop.
 
-Unbounded loops (e.g. `while`, `do while`, etc.) are those programming language constructs where the number of iterations through the loop is not known in advance, but it is determined by some condition inside the loop. On the other hand, loops like a `for` loop are always (upper) bounded i.e. the number of times to loop is known before entering the loop.
+**Unbounded loops** (e.g. "while", "do while", etc.) are a programming language construct where the number of iterations through the loop is not known in advance, but it is determined by a condition inside the loop.
 
-Primitive recursive functions (PRF) form a strict subset of those general *recursive functions* that are also *total functions*.
+Primitive recursive functions are a *proper subset* of *general recursive functions* that are also *total functions*.
+
+
 
 Most computable functions are PRF:
 - addition
@@ -18,33 +21,39 @@ Most computable functions are PRF:
 - factorial
 - nth prime function
 
-To show that a computable function is PRF, it is sufficient to show that its computational complexity is upper bounded by a PRF of the input size, `n`.
 
-The set of PRF is known as `PR` in computational complexity theory.
+## Primitive recursion
 
+In complexity theory, the set of primitive recursive function is denoted by $$PR$$.
 
-## Definition
+> To show that a computable function is primitive recursive, it is sufficient to show that its computational complexity is upper bounded by a primitive recursive function of the input size, $$n$$.
 
-$$
-PR: \mathbb{N^n} \to \mathbb{N}; \quad \mathbb{N} = \{0, 1, 2, \dots \}
-$$
+Primitive recursive functions are the $$n$$-ary **number-theoretic functions**, which are the functions where the set of the natural numbers (including zero) is both the domain and the codomain:
 
-PRF are the *number-theoretic functions* (used in the number theory), which are functions from the natural numbers to the natural numbers. They are $$n$$*-ary* i.e. they take $$n$$ arguments, where $$n \in \mathbb{N}$$.
+$$PR: \mathbb{N^n} \to \mathbb{N}$$
 
 
-The basic PR functions are given by 3 axioms:
-
-1. **Constant function**:    
-  The 0-ary (nullary) constant function $$zero$$ is primitive recursive.    
-  $$zero^0 = 0 \land zero \in PR$$
-
-2. **Successor function**:    
-  The 1-ary successor function S, which returns the successor of its argument (see Peano postulates), is primitive recursive. That is, S(k) = k + 1.
-
-3. **Projection function**:     
-  For every n≥1 and each i with 1≤i≤n, the n-ary projection function Pin, which returns its i-th argument, is primitive recursive.
+Primitive recursion is defined by the three axioms, by these three primitive recursive functions:
+1. Zero function, $$zero$$, $$Z^n$$
+2. Successor function, $$succ$$, $$S^n$$
+3. Projection function, $$proj$$, $$\pi^n_i$$
 
 
+### Zero function
+- The zero is a constant function (always returns zero, regardless of input)
+- The zero is an nullary function, $$Z$$
+- The zero is a primitive recursive function, $$Z \in PR$$
+
+### Successor function
+- The successor function
+- The successor is a unary function, $$S^n$$
+
+The 1-ary successor function S, which returns the successor of its argument (see Peano postulates), is primitive recursive. That is, S(k) = k + 1.
+
+### Projection function
+For every n≥1 and each i with 1≤i≤n, the n-ary projection function Pin, which returns its i-th argument, is primitive recursive.
+
+$$\pi^n_i$$
 
 
 More complex primitive recursive functions can be obtained by applying the operations given by these axioms:
