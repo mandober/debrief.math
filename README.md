@@ -1,7 +1,7 @@
 # Math Debrief
 
 - repo: `debrief.math`
-- desc: math notes situation
+- desc: math notes 🐀👜-ery
 - stat: uncompletable
 - github
   - repo:
@@ -14,11 +14,39 @@
 - gitbook v.2
   - view: https://app.gitbook.com/@mandober/s/cskb/
   - read: https://mandober.gitbook.io/cskb/
-  - view?: https://app.gitbook.com/@debrief/s/debriefing/@activity
-  - read?: https://debrief.gitbook.io/debriefing/
+  - view? https://app.gitbook.com/@debrief/s/math-debrief/
+  - read? https://debrief.gitbook.io/math-debrief/
+
+
+## Solicited commendations 
+
+*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised programmers amidst the declining interests in denotational semantics and overall program correctness in the midst of the artificial age."* -- Simon Ferocious 👁‍👁‍👁‍👁‍👁‍
+
+
+🏳‍ 🦨 🐓 👄
+
+
+## Test rendering
+
+
+> Use `{% math %} ... {% endmath %}` tags:
+
+{% math %} \sum_{i=2}^n n_{i-1} + n_{i-2} {% endmath %}
+
+> Use `$$` tag for inline layout:
+
+When $$\sum_{i=2}^n n_{i-1} + n_{i-2}$$
+
+> Use `$$$` tag for block layout:
+
+$$$
+\sum_{i=2}^n n_{i-1} + n_{i-2}
+$$$
+
+> Alt. use `$$\displaystyle ... $$` for display layout:
+
+$$\displaystyle \sum_{i=2}^n n_{i-1} + n_{i-2}$$
 
 
 
-## Solicited commendations
-
-*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised programmers amidst the declining interests in denotational semantics and overall program correctness in the midst of the artificial age."* -- Simon Ferocious ⭐⭐⭐⭐⭐
+🚌 🚏 🐀 👜 ha-ha charade you are!
