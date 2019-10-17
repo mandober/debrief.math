@@ -1,11 +1,15 @@
-## Set relations
+## Set interactions
 
 https://en.wikipedia.org/wiki/Subset
 
+Two sets, A and B, may interact (or be related) in several ways:
 
-Two sets, A and B, may interact or be related in several ways:
-* Disjoint sets: A and B do not interact, they're not related in any way; they are completely disjoint (non-overlapping) from one another.
 
+## Disjoint sets
+
+A and B do not interact, they are not related in any way; they are completely disjoint (non-overlapping) from one another.
+
+![Disjoint sets](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Disjunkte_Mengen.svg/320px-Disjunkte_Mengen.svg.png)
 
 
 Sets $$x$$ and $$y$$ may interact or be related in several ways:

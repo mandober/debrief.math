@@ -7,3 +7,12 @@
   - [Set specification](01-sets/03-specification.md)
   - [Set membership](01-sets/04-membership.md)
   - [Set cardinality](01-sets/05-cardinality.md)
+
+
+
+## Lists
+
+- List: types of set
+- List: the fundamental sets
+- List: axioms in set theory
+- List: set theories

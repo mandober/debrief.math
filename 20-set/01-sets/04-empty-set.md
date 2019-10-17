@@ -12,6 +12,24 @@ The empty set contains no elements, nevertheless it is regarded as a mathematica
 
 
 
+## The empty set
+
+* There is only one empty set (hence *the* empty set).
+* The empty set is subset of every set
+* The empty set is a member of a set's powerset.
+* The empty set is not a member of a set's partition.
+
+
+> The empty set is a subset of every set
+
+$$
+\varnothing \subseteq S           \\ 
+\varnothing \subseteq \varnothing \\ 
+\varnothing \subseteq \mathcal{U} \\
+$$
+
+
+
 
 
 ---
