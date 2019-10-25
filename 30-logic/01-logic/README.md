@@ -1,9 +1,5 @@
 # Logic
 
-Math › Logic › Logic
-- [Logic](./1-logic.md)
-- [Logical reasoning](./2-logical-reasoning.md)
-- [Brief history of logic](./3-logic-history.md)
 
 
 

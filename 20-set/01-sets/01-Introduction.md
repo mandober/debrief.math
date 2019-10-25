@@ -6,15 +6,21 @@
 
 <!-- /TOC -->
 
-Sets are considered the foundation of all mathematics. Concretely, **Zermelo-Fraenkel set theory** (ZF) is currently accepted by majority of mathematicians as the axiomatization system best fitted to serve as the math foundation. This means that the entirety of mathematics can be derived from it.
+Sets are ubiquitous in mathematics, they occur in many math branches and they are extensively used in logic and, by extension, in CS. In fact, sets are designated as the foundation of all mathematics; concretely, **Zermelo-Fraenkel set theory** (ZF) is accepted by majority of mathematicians as the axiomatization system best fitted to serve as the math foundation. This means that the entirety of mathematics can be derived from ZF set theory.
 
-Sets are ubiquitous in mathematics, they occur in many math branches, and they are extensively used in logic and, by extension, in CS.
 
-Sets were introduced by the German mathematician Georg Cantor (1845-1918). His work in 1874-1884 is the origin of set theory.
+Sets were introduced by the German mathematician Georg Cantor (1845-1918). His work in 1874-1884 marks the origin of the set theory. Cantor introduced the concept of set with:
 
-> A set is a gathering together into a whole of definite distinct objects of our perception or thought, called the set elements[^1].
+> A set is a gathering together into a whole of definite distinct objects of our perception or thought, called the elements[^1].
 
-Initially, a naive (non-axiomatic) set theory was developed that treated sets as collections of objects. There were no special requirements and all kinds of objects could be gather together to form a set.
+
+Initially, a naive (non-axiomatic) set theory was developed that treated sets as collections of any objects, posing no restriction as to what can constitute a set. This liberal position allowed anything and everything to form a set. And once formed a set was considered a separate mathematical object in its own right.
+
+
+
+
+
+
 
 **The axiom of comprehension** states that given any property, there is a set of all the objects with that property. This position allows anything and everything to constitute a set.
 
@@ -42,5 +48,5 @@ This paradox, like many others, emerges in connection with self-reference; "when
 This paradox have been a forking point that spawned many set theories with different strategies on how to avoid it. A consistent system must impose restrictions on the set inclusion rules. The restriction of regulations about what can constitute a set, made way for the *axiomatic set theory* i.e. *class theory*.
 
 
-[^1]: _"Unter einer **Menge** verstehen wir jede Zusammenfassung *M* von bestimmten wohlunterschiedenen Objekten *m* unserer Anschauung oder unseres Denkens (welche die **Elemente** von *M* genannt werden) zu einem Ganzen."_   
-By a set we mean any collection M of certain well-differentiated objects of our intuition or our thinking (which are named the elements of M) into a whole.
+[^1]: "Unter einer *Menge* verstehen wir jede Zusammenfassung `M` von bestimmten wohlunterschiedenen Objekten `m` unserer Anschauung oder unseres Denkens (welche die *Elemente* von `M` genannt werden) zu einem Ganzen."  
+"By a set we mean any collection `M` of certain well-differentiated objects `m` of our intuition or our thinking (which are named the elements of `M`) into a whole."

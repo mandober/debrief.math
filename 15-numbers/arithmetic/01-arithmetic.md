@@ -8,12 +8,6 @@ Besides the 4 basic operations, arithmetic also includes many other operations (
 
 A mathematical object that supports all 4 basic arithmetic operations, with respect to a set of axioms, is called a *field*.
 
-The 4 traditional basic operations:
-- addition
-- subtraction
-- multiplication
-- division
-
 The word arithmetic comes from the Greek `αριθμητική`, which is a compound of `ἀριθμός` (number) and `τέχνη, -τική` (art, skill, craft).
 
 

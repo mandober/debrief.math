@@ -1,21 +1,34 @@
-# Math Debrief: Hierarchy
+# Math: Hierarchy
 
 
-Coarse:
-- Primer (elements, general intro)
-- The foundations of Math
-- Math logic
-- Set, Relation, Order, Function
-- Proof theory
-- Type Theory
-- Category Theory
-- Theory of Computation
+> Top levels
 
-Number theory
-Graph Theory
-Algebra
-Calculus
-Statistics
+## General
+
+## The foundations of Mathematics
+
+## Math logic
+
+## Set, Relation, Order, Function
+
+## Proof theory
+
+## Type Theory
+
+## Category Theory
+
+## Theory of Computation
+
+## Number Theory
+  - Divisibility, the Fundamental Theorem of Number Theory
+
+## Graph Theory
+
+## Algebra
+
+## Calculus
+
+## Statistics
 
 
 -------------------------------------------------------------------------

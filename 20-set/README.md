@@ -6,7 +6,7 @@
   - [Set properties](01-sets/02-properties.md)
   - [Set specification](01-sets/03-specification.md)
   - [Set membership](01-sets/04-membership.md)
-  - [Set cardinality](01-sets/05-cardinality.md)
+  - [Set cardinality](01-sets/06-cardinality.md)
 
 
 

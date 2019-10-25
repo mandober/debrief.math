@@ -1,5 +1,36 @@
 # Areas of mathematics
 
+Mathematical Logic
+Discrete Mathematics
+  Elementary
+  Computational Mathematics
+  Probability
+  Combinatorics
+  Graph Theory
+  Number Theory
+  Algorithms and Data Structures
+Algebra
+  Linear Algebra
+  Computer Algebra
+Analysis
+  Continued fractions
+  Dynamical Systems
+  Differential Equations
+  Functional Analysis
+  Fuzzy Logic and Applications
+  Numerical Analysis
+  Mathematical Optimization
+  Operations Research
+Applied Mathematics
+  Automatic Control Theory
+  Game Theory
+  Operator Theory
+  Optimal control
+Geometry and Topology
+Mathematical Lectures
+Mathematical Statistics
+
+
 https://en.wikipedia.org/wiki/Areas_of_mathematics
 
 
