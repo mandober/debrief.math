@@ -1,34 +1,68 @@
 # Math Debrief
 
-- repo: `debrief.math`
-- desc: math notes 🐀👜-ery
-- stat: uncompletable
-
+debrief.math
+- name: math debrief
+- desc: math 💼
+- repo:
+  - name: debrief.math
+  - link: https://github.com/mandober/debrief.math
 - github
   - repo: https://github.com/mandober/debrief.math
-
-- gitbook legacy
+- ~~gitbook legacy~~
   - read: https://mandober.gitbooks.io/debrief-math/
-  - details: https://legacy.gitbook.com/book/mandober/debrief-math
-  - remote repo: https://git.gitbook.com/mandober/debrief-math.git
-
+  - view: https://legacy.gitbook.com/book/mandober/debrief-math
+  - remo: https://git.gitbook.com/mandober/debrief-math.git
 - gitbook v2
   - space: https://mandober.gitbook.io/math-debrief/
 
 
 
-## Solicited commendations 
+## Solicited commendations
 
-*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised programmers amidst the declining interests in denotational semantics and overall program correctness in the midst of the artificial age."* -- Simon Ferocious 🪑🪑🪑🪑🪑
+*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised programmers amidst the declining interests in denotational semantics and overall program correctness, smack in the middle of the bug ridden digital age."* -- Simon Ferocious 🪑🪑🪑🪑🪑
+
+*"Demotivating caveat: emptor, the more you learn, the less you know."* -- Kunning Druger 🪑
+
+*"Excursively general in finicky ways so weary it maketh me with hands of delusions groggy mountain time actual zulu niner."* -- Danom 🪑🪑🪑
 
 
 
-## Test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Test rendering
 
 <details>
-<summary>rendering</summary>
+<summary>Rendering details...</summary>
 
-🚌 🚏 🐀 👜 ha-ha charade you are!
+🚌🚏🐀👜, ha-ha, charade you are!
 
 
 <kbd>Ctrl+F4</kbd>
@@ -60,9 +94,6 @@ Information
 Warning note
 {% endhint %}
 
-<details>
-<summary>Emoji</summary>
-
 ⭐⭐⭐⭐⭐  
 🩺🩺🩺🩺       
 🎲🎲🎲🎲       
@@ -76,12 +107,5 @@ Warning note
 🔰🔰🔰🔰🔰  
 ┗|｀O′|┛  
 🪑🪑🪑🪑🪑  
-
-Ħ ɤ ɣ ʩ ħ ʝ ɯ ɷ ɲ ʠ ʊ ʌ
-ɶ œ Œ ɘ
-ʃ ʅ ʆ
-ʀ ʁ ɽ ɿ
-ŧ ʦ ʨ ʧ ţ ʇ Ŧ Ţ
-ɮ ʪ ʓ ʐ ʑ ʒ
 
 </details>

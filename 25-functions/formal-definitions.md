@@ -23,9 +23,9 @@ There is the empty set, denoted by $$\varnothing = \{\}$$. There is only one emp
 
 A non-empty set contains elements - it is the membership relation, $$a \in A$$.
 
-All elements of set A: $$\forall a. a \in A$$
+All elements of set A: $$\forall a : a \in A$$
 
-All elements of set B: $$\forall b. b \in B$$
+All elements of set B: $$\forall b : b \in B$$
 
 
 ## cross product

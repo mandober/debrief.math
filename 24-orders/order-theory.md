@@ -1,6 +1,71 @@
 # Order theory
 
-Order theory investigates the intuitive notion of order using binary relations. It provides a formal framework for describing statements such as "this is less than that" or "this precedes that".
+- https://en.wikipedia.org/wiki/Order_theory
+- https://en.wikipedia.org/wiki/Order_theory_glossary
+- https://en.wikipedia.org/wiki/Outline_of_order_theory
+- https://en.wikipedia.org/wiki/List_of_order_structures_in_mathematics
+- [Glossary of order theory](https://en.wikipedia.org/wiki/Glossary_of_order_theory)
+- [List of order theory topics](https://en.wikipedia.org/wiki/List_of_order_theory_topics)
+
+
+* Background and motivation
+* Basic definitions
+  * Partially ordered sets
+  * Visualizing a poset
+  * Special elements within an order
+  * Duality
+  * Constructing new orders
+* Functions between orders
+* Special types of orders
+* Subsets of ordered sets
+* Related mathematical areas
+    * Universal algebra
+    * Topology
+    * Category theory
+
+---
+
+> Order theory is a branch of mathematics which investigates the notion of order using binary relations.
+
+
+The notion of order is very general, extending beyond contexts that have an intuitive feel of sequence or relative quantity. In some contexts orders may capture notions of *containment* or *specialization*; abstractly, these types of orders are a *subset relation* (e.g. "Some people are impolite.").
+
+**Total order**: each element in a set can be compared to any other element.
+
+**Partial order**: a set has at least one element incomparable to any other.
+
+
+A total order is an order on a set where any pair of set elements are comparable. One of the more fundamental examples is the set of natural numbers under the LT, LE, GT, GE relations. In programming languages, integers form the total order under these same relations.
+
+A partial order is an order on a set that lacks complete compatibility between its elements - it has at least one element that cannot be compared to others. An example is a set/type of floating point numbers; some values, such as `NaN` and `Infinity`, are incomparable to other floating values and even to itself (under the usual ordering relations like LT, LE, GT, GE). Also, the *subset order* on a parent set (of animals): two child subsets (dogs, birds) are not comparable to each other. Though the set of birds and the set of dogs are both subsets of the set of animals, neither the birds nor the dogs constitutes a subset of the other.
+
+*Order theory* captures the intuition of orders in a general setting. This is achieved by specifying properties that a relation such as LE must have to be a mathematical order. One can derive numerous theorems in the general setting without focusing on the details of any particular order.
+
+
+
+---
+
+https://en.wikipedia.org/wiki/Order_theory
+https://en.wikipedia.org/wiki/List_of_order_structures_in_mathematics
+https://en.wikipedia.org/wiki/Mathematical_structure
+
+https://en.wikipedia.org/wiki/Binary_relation
+https://en.wikipedia.org/wiki/Operation_(mathematics)
+https://en.wikipedia.org/wiki/Monotonic_function
+https://en.wikipedia.org/wiki/Reflexive_relation
+https://en.wikipedia.org/wiki/Equivalence_relation
+https://en.wikipedia.org/wiki/Metric_(mathematics)
+https://en.wikipedia.org/wiki/Map_(mathematics)
+https://en.wikipedia.org/wiki/Category_theory
+https://en.wikipedia.org/wiki/Category_(mathematics)
+
+https://ncatlab.org/nlab/show/category+theory#videos
+https://ncatlab.org/nlab/show/category
+https://www.youtube.com/watch?v=caSOTjr1z18
+
+
+---
+
 
 
 - We denote a preorder by `s < t` "_s is strictly less than t_" to mean `s ≤ t ∧ s ≠ t`.

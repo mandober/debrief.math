@@ -1,24 +1,54 @@
+# Equivalence relation
+
+https://en.wikipedia.org/wiki/Equivalence_relation
+
+> An **equivalence relation** is a binary relation that is at the same time reflexive, symmetric and transitive.
+
+A given binary relation $$\sim$$ on a set $$X$$ is said to be an equivalence relation iff it is reflexive, symmetric and transitive.
+
+That is, $$\forall a, b, c \in X$$:
+* reflexivity: $$\forall a : a \sim a$$
+* symmetry: $$\forall a,b : (a \sim b) \to (b \sim a)$$
+* transitivity, $$\forall a,b,c :(a \sim b \land b \sim c) \to (a \sim c)$$
+
+A set $$X$$ together with the relation $$\sim$$ is called a *setoid*.
+
+As a consequence of these 3 properties an equivalence relation provides a _partition_ of a set into _equivalence classes_. Two elements of the given set are equivalent to each other iff they belong to the same equivalence class.
+
+The *equivalence class* of $$a$$ under $$\sim$$, denoted $$[a]$$, is defined as: $$[a] = \{b \in X | a \sim b \}$$. For example, if $$X$$ is the set of all cars, and $$\sim$$ is the equivalence relation *has-the-same-color-as*, then one particular *equivalence class* consists of all green cars.
 
 
-> An equivalence relation is a binary relation that is at the same time reflexive, symmetric and transitive.
 
-As a consequence of these properties an equivalence relation provides a _partition_ of a set into __equivalence classes__.
+## The relation is-equal-to
 
-Notation: two elements `a` and `b` of a set are equivalent with respect to an equivalence relation `R`: `a ~ b` and `a ≡ b`, which are used when `R` is the obvious relation being referenced, and variations of `a ~R b`, `a ≡R b` or `a R b` otherwise.
-
-Definition: A given binary relation `~` on a set `X` is said to be an equivalence relation if and only if it is reflexive, symmetric and transitive. 
-
-That is, for all `a`, `b` and `c` in `X`:
-- Reflexivity: `a ~ a`
-- Symmetry: `a ~ b` if and only if `b ~ a`
-- Transitivity: if `a ~ b` and `b ~ c` then `a ~ c`
-`X` together with the relation `~` is called a setoid. The equivalence class of `a` under `~`, denoted `[a]`, is defined as: 
-`[a] = {b ∈ X | a ~ b }`
+The relation *is-equal-to* (=), is the canonical example of an equivalence relation, where $$\forall a, b, c$$:
+* reflexivity: $$a = a$$
+* symmetry: if $$a = b$$ then $$b = a$$
+* transitivity: if $$a = b$$ and $$b = c$$ then $$a = c$$
 
 
+## Example #1
 
-A relation is an **equivalence relation** if it is reflexive, symmetric, and transitive.
+The relation $$R$$ is defined by the set of the ordered pairs,   
+$$R=\{(1,1),(2,2),(3,3),(1,2),(2,1),(2,3),(3,2),(1,3),(3,1)\}$$,    
+on the set $$A=\{1,2,3\}$$.    
+Is $$R$$ an equivalence relation?
 
-Example
-The relation R={(1,1),(2,2),(3,3),(1,2),(2,1),(2,3),(3,2),(1,3),(3,1)} on set A={1,2,3} is an equivalence relation since it is reflexive, symmetric, and transitive.
+Reflexivity:
+- $$a \sim a$$
+- it needs to have 3 ordered pairs $$(x,x)$$ to be reflexive, which it does:
+- $$\{(1,1),(2,2),(3,3)\}$$
 
+Symmetry:
+- if $$a \sim b$$ then $$b \sim a$$
+- if it has a pair $$(x,y)$$ then it must also have a pair $$(x,y)$$
+- $$\{(1,2),(2,1)\}$$
+- $$\{(2,3),(3,2)\}$$
+- $$\{(1,3),(3,1)\}$$
+
+Transitivity:
+- if $$a \sim b$$ and $$b \sim c$$ then $$a \sim c$$
+- if there's a pair $$(x,y)$$ and $$(y,z)$$ then there must be $$(x,z)$$
+- if $$\{(1,2),(2,3)\}$$ then $$\{(1,3)\}$$: it does have it
+
+All 3 properties hold so $$R$$ an equivalence relation.
