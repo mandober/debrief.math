@@ -1,111 +1,16 @@
 # Math Debrief
 
-debrief.math
-- name: math debrief
-- desc: math 💼
-- repo:
-  - name: debrief.math
-  - link: https://github.com/mandober/debrief.math
-- github
-  - repo: https://github.com/mandober/debrief.math
-- ~~gitbook legacy~~
-  - read: https://mandober.gitbooks.io/debrief-math/
-  - view: https://legacy.gitbook.com/book/mandober/debrief-math
-  - remo: https://git.gitbook.com/mandober/debrief-math.git
-- gitbook v2
-  - space: https://mandober.gitbook.io/math-debrief/
+- name: `debrief.math`
+- desc: lo-fi math notes
+- repo: https://github.com/mandober/debrief.math
+- book: https://mandober.gitbook.io/math-debrief/
+
+~~gitbook legacy~~
+- ~~read: https://mandober.gitbooks.io/debrief-math/~~
+- ~~view: https://legacy.gitbook.com/book/mandober/debrief-math~~
+- ~~mote: https://git.gitbook.com/mandober/debrief-math.git~~
 
 
+##### autobot review
 
-## Solicited commendations
-
-*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised programmers amidst the declining interests in denotational semantics and overall program correctness, smack in the middle of the bug ridden digital age."* -- Simon Ferocious 🪑🪑🪑🪑🪑
-
-*"Demotivating caveat: emptor, the more you learn, the less you know."* -- Kunning Druger 🪑
-
-*"Excursively general in finicky ways so weary it maketh me with hands of delusions groggy mountain time actual zulu niner."* -- Danom 🪑🪑🪑
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Test rendering
-
-<details>
-<summary>Rendering details...</summary>
-
-🚌🚏🐀👜, ha-ha, charade you are!
-
-
-<kbd>Ctrl+F4</kbd>
-
-> Use `{% math %} ... {% endmath %}` tags:
-
-{% math %} \sum_{i=2}^n n_{i-1} + n_{i-2} {% endmath %}
-
-> Use `$$` tag for inline layout:
-
-When $$\sum_{i=2}^n n_{i-1} + n_{i-2}$$
-
-> Use `$$$` tag for block layout:
-
-$$$
-\sum_{i=2}^n n_{i-1} + n_{i-2}
-$$$
-
-> Alt. use `$$\displaystyle ... $$` for display layout:
-
-$$\displaystyle \sum_{i=2}^n n_{i-1} + n_{i-2}$$
-
-
-{% hint style='info' %}
-Information
-{% endhint %}
-
-{% hint style='warning' %}
-Warning note
-{% endhint %}
-
-⭐⭐⭐⭐⭐  
-🩺🩺🩺🩺       
-🎲🎲🎲🎲       
-📯📯📯📯       
-👁‍👁‍👁‍      
-🧦🧦        
-🧬🧬🧬        
-🧴🧴🧴  
-ಠಿ_ಠ  
-💤💤💤💤  
-🔰🔰🔰🔰🔰  
-┗|｀O′|┛  
-🪑🪑🪑🪑🪑  
-
-</details>
+*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, isolation, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised devs amidst the declining interests in denotational semantics and overall program correctness, smack in the middle of these bug ridden times. Sign o' the times"* -- Simon Ferocious 🪑🪑🪑🪑🪑
