@@ -97,7 +97,7 @@ For example, the preimage of $$\{4,9\}$$ under the square function is the set $$
 
 ## Injective
 
-An **injective** or **one-to-one** function, or **injection**, is a function that preserves distinctness: it never maps distinct elements of its domain to the same element of its codomain; every element of the function's codomain is the image of at most one element of its domain.
+An **injective** or **one-to-one** function, or **injection**, is a function that *preserves distinctness*: it never maps distinct elements of its domain to the same element of its codomain; every element of the function's codomain is the image of at most one element of its domain.
 
 
 A function $$f:X\to Y$$ is **injective** or **one-to-one** if for every $$x \in X$$, there exists **at most one** $$y \in Y$$ such that $$f(x)=y$$. A function $$f$$ is injective if $$x\neq y$$ implies $$f(x)\neq f(y)$$.
@@ -108,8 +108,7 @@ The function $$f : X\to Y$$ is injective if $$f(x_1)\neq f(x_2)$$ for any two di
 
 
 ## Surjective
-A function f from a set X to a set Y is surjective (or onto), or a surjection, if for every element y in the codomain Y of f there is at least one element x in the domain X of f such that f(x) = y. The function f may map one or more elements of X to the same element of Y, so y need not be unique.
-
+A function f from a set X to a set Y is surjective (or onto), or a surjection, if for every element y in the codomain Y of f there is at least one element x in the domain X of f such that f(x) = y. The function f may map one or more elements of X to the same element of Y, so `y` may not be unique.
 
 A function f:A→B is surjective (onto) if the image of f equals its range.
 

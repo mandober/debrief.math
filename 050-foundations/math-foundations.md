@@ -1,4 +1,7 @@
-# The Foundations of Mathematics
+# Foundations of Mathematics
+
+https://en.wikipedia.org/wiki/Foundations_of_mathematics
+
 
 - Mathematics
   - Pure mathematics
@@ -13,7 +16,7 @@
   - Inference rules
   - Rigorous argumentation
 
----
+
 
 Math foundations candidates:
 - set theories
@@ -65,6 +68,25 @@ Hilbert's challenge was in response to the **foundational crisis of mathematics*
 
 The search for theory that will serve as the foundations of all math settled down during the XX century, putting forward a ZF set theory. Recently, the commotion started again as the *Category theory* began to draw support as the new contender for the title. Still, to this day the winner is undecided (undecidability as leitmotif).
 
+---
+
+**Foundational paradoxes**
+
+If the goal of *mathematical ontology* is taken to be the *internal consistency of mathematics*, it is more important that mathematical objects be definable in some uniform way, e.g. as sets, regardless of actual practice, in order to lay bare the essence of its paradoxes.
+
+This has been the viewpoint taken by *foundations of mathematics*, which has traditionally accorded the management of paradoxes a higher priority than the faithful reflection of the details of mathematical practice as a justification for defining mathematical objects to be sets.
+
+Much of the tension created by this foundational identification of mathematical objects with sets can be relieved without unduly compromising the goals of foundations by allowing two kinds of objects into the *mathematical universe*, *sets* and *relations*, without requiring that either be considered merely an instance of the other.
+
+These form the basis of *model theory* as the domain of discourse of predicate logic. From this viewpoint, mathematical objects are entities satisfying the axioms of a formal theory expressed in the language of predicate logic.
+
+**Category theory**
+
+A variant of this approach replaces relations with operations, the basis of universal algebra. In this variant the axioms often take the form of equations, or implications between equations.
+
+A more abstract variant is category theory, which abstracts sets as objects and the operations thereon as morphisms between those objects. At this level of abstraction mathematical objects reduce to mere vertices of a graph whose edges as the morphisms abstract the ways in which those objects can transform and whose structure is encoded in the composition law for morphisms. Categories may arise as the models of some axiomatic theory and the homomorphisms between them (in which case they are usually concrete, meaning equipped with a faithful forgetful functor to the category Set or more generally to a suitable topos), or they may be constructed from other more primitive categories, or they may be studied as abstract objects in their own right without regard for their provenance.
+
+---
 
 
 ## Informal description prevents infinite regression

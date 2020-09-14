@@ -1,3 +1,0 @@
-# Automata theory
-
-

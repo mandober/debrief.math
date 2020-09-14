@@ -1,15 +1,14 @@
-bell-number.md
-
----
-
 # Bell Number
 
-Bell numbers give the count of the number of ways to partition a set. They are denoted by Bn where n is the cardinality of the set.
+**A Bell number** indicates the number of ways to *partition a set*.
 
-Example −
+It is denoted by Bn where n is the cardinality of the set.
 
-Let S={1,2,3}, n=|S|=3
-The alternate partitions are −
+Example:
+
+Let S={1,2,3}, n = |S| = 3
+
+The partitions are
 
 1. ∅,{1,2,3}
 2. {1},{2,3}
@@ -17,4 +16,4 @@ The alternate partitions are −
 4. {1,3},{2}
 5. {1},{2},{3}
 
-Hence B3=5
+hence, B3 = 5

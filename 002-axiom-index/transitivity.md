@@ -1,0 +1,6 @@
+# Transitivity
+
+
+
+- transitive
+- antitransitive

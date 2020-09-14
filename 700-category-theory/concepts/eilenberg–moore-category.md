@@ -1,1 +1,0 @@
-# Eilenberg–Moore category

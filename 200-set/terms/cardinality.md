@@ -1,6 +1,10 @@
 # Cardinality
 
-- Cardinality of a set $$X$$ is the number of elements it contains, denoted by $$|X|$$.
+**Cardinality** is the number of elements a set contains in case of finite sets. With infinite sets, cardinality is a notion of the size of the particular infinity of some set; for example, the smallest infinity is that of natural numbers, denoted by ℵ₀
+
+
+
+
 - This number is referred to as the cardinal number, $$\mathfrak{c}$$.
 - Countable set has its elements in a 1-1 correspondence with $$\mathbb{N}$$
 - Two sets are equal iff they contain the same elements.
@@ -10,6 +14,9 @@
 - Cardinality of a power set of a set $$X$$ is $$2^{|X|}$$.
 - Cardinality of a power set of an empty set is: $$\mathcal{P}(\varnothing)=1$$.
 - Cardinality of a set $$X$$ is equivalent to $$\mathbb{N}$$ if there is a bijective function, $$f:\mathbb{N} \mapsto X$$, mapping elements in $$\mathbb{N}$$ to the elements in $$X$$
+
+
+
 
 
 ## Cardinalities
