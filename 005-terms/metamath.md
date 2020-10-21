@@ -1,3 +1,0 @@
-# Metamathematics
-
-μϵταματηϵματικς
