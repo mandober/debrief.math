@@ -1,1 +1,0 @@
-# Quasigroup and loop

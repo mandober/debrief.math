@@ -1,46 +1,66 @@
-# Number theory: primer
+# Number Theory: primer in numbers
 
-## Terms
+<!-- #region terms -->
+<details>
 
-number
-mathematical object
-mathematical primitive
-axiom
-abstract object
-mathematical abstraction
-mathematical notion (concept, idea)
-mathematical representation
+<summary>Terms</summary>
 
-numeral
-numeral system
-a numeral set
-positional numeral system
-non-positional numeral system
-the set of numerals:
-- positional numeral system: decimal (decimal numeral set), binary, octal
-- other numeral systems: roman numerals
-digit
-bit
-amount, quantity
-enumeration, counting
+- number
+- mathematical object
+- mathematical primitive
+- axiom
+- abstract object
+- mathematical abstraction
+- mathematical notion
+- mathematical concept
+- mathematical representation
+- numeral
+- numeral system
+- positional numeral system
+- non-positional numeral system
+- place value
+- number base, radix
+- radix
+- zero as placeholder
+- decimal number representation
+- binary number representation
+- octal number representation
+- hexadecimal number representation
+- base32 number representation
+- base64 number representation
+- roman numerals
+- greek numerals
+- digit
+- bit
+- binary digit
+- amount
+- quantity
+- enumeration
+- counting
+- labelling
+- fundamental sets of numbers
 
-the fundamental sets of numbers
+</details>
+<!-- #endregion terms -->
 
 
 ## Number
 
 Number is...
-- an abstract mathematical object
-- an expression of a quantity
-- an abstract representation of a certain quantity
-- an arithmetical value
+- a concept, an idea
+- an abstract object without physical manifestation
+- mathematical concept
+- abstract mathematical object
+- expression of quantity
+- abstract representation of quantity
+- arithmetical value
   expressed in some way (word, symbol)
   representing a particular quantity
 
 
-- one defininition of numbers (at least ℕ) is in terms of sets
+- defininition of numbers is in terms of sets (as is everything else assuming set theory as the FOM)
 - Peano's axioms define `ℕ` - the set of the natural numbers, stating that:
-  - the number zero exists! ∃n.n=0
+  - the number zero exists, ∃n.n=0
     - error: variable `n` ranges over as-of-yet undefined set ℕ
     - error: `=` symbol not found
   - the number zero is a natural number, 0 ∈ ℕ

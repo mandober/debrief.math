@@ -1,1 +1,1 @@
-# Number theory
+# Number Theory

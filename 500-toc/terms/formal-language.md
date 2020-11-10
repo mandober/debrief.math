@@ -2,7 +2,8 @@
 
 https://en.wikipedia.org/wiki/Formal_language
 
-
+- formal language
+- formal language theory
 - symbols
 - alphabet
 - strings
@@ -14,11 +15,64 @@ https://en.wikipedia.org/wiki/Formal_language
   + set of formation rules
 
 
-**Formal language** is a set of strings of symbols from an alphabet, along with a set of rules. In other words, a formal language consists of strings, which are composed of symbols in that language's alphabet, called words or formulas and are well-formed according to a particular set of rules.
+## Formal language
 
-**Alphabet** of a formal language, denoted by $$\Sigma$$, is a set of symbols from which the strings of the language may be formed.
+Symbols are the most basic element of a language, formal or natural. A symbol may be spoken or written, although the latter is usually meant more often, especially with formal languages, since they only have a written form.
 
-**String** is a finite sequence made out of concatenated symbols (glyphs, tokens, letters). 
+There's a sort of a feedback loop relation between a language and the symbols that make up the language's alphabet. A naisant language in
+
+
+
+
+
+Since the set of concievable symbols is infinite, each language recognizes just a finite subset of symbols, called the alphabet of the language. So, each (at least, written) language is identified by its alphabet (which is a set of recognized symbols together with an ordering), by its strings (which are the valid concatenations of symbols from its alphabet; valid according to that particular language), and by its dictionary (which is a set of all possible valid strings of language), and by a set of (other) syntactic, grammatic and semantic rules.
+
+
+
+
+Joining togher
+
+Each formal language
+
+
+On the atomic level, there is a plethora of symbols 
+
+(characters, glyphs, letters) 
+
+A formal language has
+- symbols (characters, glyphs, letters) as the most basic units
+- a set of symbols together with an order is the alphabet of the language
+- strings are concatenating symbols
+- strings are formed by concatenating symbols according to the lang rules
+
+- Set of finite strings of atomic symbols
+- Set of symbols is called the alphabet
+- Strings of symbols are written one symbol after another
+- Empty string is denoted by ""
+- Some strings belong to a particular language, the others (if any) do not
+- The strings that belong to the language are sometimes called "words"
+
+
+symbols (characters, glyphs)
+↓
+symbols that comprise an alphabet of a formal lang
+↓
+alphabet of a formal lang is a set of its symbols and an ordering
+↓
+strings of a formal lang are comprised of symbols from the alphabet of the language, formed according to the language rules. 
+
+
+
+
+An **alphabet** is a set of symbols from which the strings of the language may be formed. An alphabet of a formal language is denoted by Σ.
+
+A **string** is a finite sequence consisting of concatenated symbols.
+
+A **string of a formal language** is composed of symbols which are that language's alphabet.
+
+A **formal language** is a set of strings (of symbols) from an alphabet, along with a set of rules. In other words, a formal language consists of strings, which are composed of symbols in that language's alphabet, called words or formulas and are well-formed according to a particular set of rules.
+
+
 
 **Well-formed formulas** (wff) or well-formed **words** (or just words in less formal settings), are the well-formed strings built from the well-drawn symbols of an well-defined alphabet.
 
@@ -47,12 +101,3 @@ In *computer science*, formal languages are used among others as the basis for d
 In *computational complexity theory*, decision problems are typically defined as formal languages, and complexity classes are defined as the sets of the formal languages that can be parsed by machines with limited computational power.
 
 In *logic* and the *foundations of mathematics*, formal languages are used to represent the syntax of axiomatic systems. *Mathematical formalism* is the philosophy that all of mathematics can be reduced to the syntactic manipulation of formal languages in this way.
-
-
-## Formal language
-- Set of finite strings of atomic symbols
-- Set of symbols is called the alphabet
-- Strings of symbols are written one symbol after another
-- Empty string is denoted by ""
-- Some strings belong to a particular language, the others (if any) do not
-- The strings that belong to the language are sometimes called "words"

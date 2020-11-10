@@ -39,3 +39,25 @@ Classes of automata:
     - Deterministic Finite State Machines
 - Context-Free Grammars
 - Turing machines
+
+
+## Hierarchy in terms of powers
+
+The following is an incomplete hierarchy in terms of powers of different types of virtual machines. The hierarchy reflects the nested categories of languages the machines are able to accept
+
+(DFA ≡ NFA) ⊂ DPDA-I ⊂ NPDA-I ⊂ LBA ⊂
+(DPDA-II ≡ NPDA-II ≡ DTM ≡ NTM ≡ PTM ≡ MTM ≡ MDTM)
+
+
+' Deterministic Finite Automaton (DFA)
+= Nondeterministic Finite Automaton (NFA)
+⊂ Deterministic Push Down Automaton (DPDA-I) with 1 push-down store
+⊂ Nondeterministic Push Down Automaton (NPDA-I) with 1 push-down store
+⊂ Linear Bounded Automaton (LBA)
+⊂ Deterministic Push Down Automaton (DPDA-II) with 2 push-down stores
+= Nondeterministic Push Down Automaton (NPDA-II) with 2 push-down stores
+= Deterministic Turing Machine (DTM)
+= Nondeterministic Turing Machine (NTM)
+= Probabilistic Turing Machine (PTM)
+= Multitape Turing Machine (MTM)
+= Multidimensional Turing Machine (MDTM)

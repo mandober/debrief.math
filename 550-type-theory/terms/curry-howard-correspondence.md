@@ -1,5 +1,7 @@
 # Curry-Howard correspondence
 
+https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence
+
 The Curry-Howard correspondence is the interpretation of mathematical proofs as programs and logical formulae as types in a programming language.
 
 The idea starting in 1934 with Haskell Curry and it was finalized in 1969 with William Alvin Howard. It connects the "computational component" of many type theories to the derivations in logics.
@@ -26,6 +28,19 @@ $$Id_A$$            | equality $$=$$        | $$\{x:x\mid x \in A\}$$          |
 
 Comparing points of view on type-theoretic operations
 
+Types              | Logic                | Sets            | Homotopy
+-------------------|----------------------|-----------------|-------------------
+A                  | Proposition          | Set             | Space
+a:A                | proof                | element         | point
+B(x)               | predicate            | family of sets  | fibration
+b(x):B(x)          | conditional proof    | family of elems | section
+0,1                | ⊥ ⊤                  | ∅, {∅}          | ∅,*
+A + B              | $$A\lor B$$          | disjoint union  | coproduct
+A × B              | $$A\land B$$         | set of pairs    | product space
+A → B              | $$A\to B$$           | set of functions| function space
+$$\sum_{x:A}B(x)$$ | $$\exists_{x:A}B(x)$$| disjoint sum    | total space
+$$\prod_{x:A}B(x)$$| $$\forall{x:A}B(x)$$ | product         | space of sections
+Idₐ                | equality =           | {x : x·x ∈ A}   | path space $$A^I$$
 
 
 ## Practical Curry-Howard Isomorphism
