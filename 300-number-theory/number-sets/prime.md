@@ -1,13 +1,21 @@
 # Prime numbers
 
-> A prime number is a natural number dividible by 1 and itself.
+* A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
+
+* A prime number is a natural number only divisible by 1 and itself.
+
+* ∀m,n ∈ ℕ. m ∤ n -> n ∈ ℙ    for n > 1, m ∉ {0,1,n}
+
+* Sieve of Eratosthenes https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+
+The sieve of Eratosthenes starts with a sieve of numbers, all unmarked. It starts by skipping 2 but then marking all 2k numbers > 2 (to be discarded). Then it finds the first unmarked number (3) and marks all 3k numbers > 3.
+
+It repeatedly finds the first unmarked number p (next prime number), then marks p² and all the multiples of p that are larger then p² as composite. After marking the multiples of 2, 3, 5, 7, all primes up to the square root of the table size have been processed.
 
 
-> Mersenne numbers have the form 2ᵏ−1 and some are prime.
+* Primality is a polarizing property of numbers: a number is either prime or composite. Primality is about number factorization, whether a number n can be expressed as multiplication k*m (with 1 < k, m < n). If a number is expressed in a tally-mark format (a set of bars or "sticks", e.g. |||||| = 6), then it composite if the bars cannot be clustered in equally-sized groups. Therefore, to see whether a number is prime, convert it into a set of tally marks, then check if the tally marks can be clustered into equal groups of 2, if not, check for groups of 3, then 4, 5, etc., up to √n floored. This primality check may be implemented as a regex.
 
-* They got the name after the French theologian and mathematician Marin Mersenne (1588-1648)
-
-* By the end of the XVI century, the highest Mersenne prime was 524,287 which equals 2¹⁹−1. At the start of the XXI century, 2⁴²¹¹²⁶⁰⁹−1 was the highest, containing approximately 13 million digits!
+* *Mersenne numbers* have the form 2ᵏ−1 and those that are prime are called **Mersenne primes**. By the end of the XVI century, the highest Mersenne prime was 2¹⁹−1 (524,287). At the start of the XXI century, 2⁴²¹¹²⁶⁰⁹−1 was the highest, containing approximately 13 million digits.
 
 * The *prime factorisation* of the integers is a central point of study in number theory and can be visualised with Ulam spiral.
 
@@ -15,4 +23,38 @@
 
 * Prime number distribution: The German mathematician Carl Gauss had proved (at the age of 14) that as x → ∞, the function π(x), which estimates the number of primes up to x, is given by `π(x) ~ x/ln x`.
 
-* A perfect number equals the sum of its factors (e.g. 6=1×2×3). This sequence begins with: 6, 28, 496, 8128, 33550336. Euclid had proved that if m is prime, and of the form 2ᵏ−1, then m(m+1)/2 is an even perfect number.
+* **Proper factors** of a number are its divisors save for the number itself. For example, PF(6) = {1,2,3}. In relation to the sum of its proper divisors, a number is either:
+- **perfect**, n == PF(n)
+- **abundant**, n < PF(n), 12 since PF(12) = {1,2,3,4,6} and their sum is 16
+- **deficient**, n > PF(n), e.g. any prime p since p > 1
+
+
+Euclid proved that 2ⁿ⁻¹(2ⁿ-1) is an even perfect number when 2ⁿ-1 is a Mersenne prime. These are now called Euclid numbers. Euler had proved that all even perfect numbers have this form, for n ∈ ℙ.
+
+The sequence of perfect numbers begins with (6, 28, 496,...)
+
+n | 2ⁿ⁻¹ | 2ⁿ-1 | 2ⁿ⁻¹(2ⁿ-1) | 2ⁿ-1
+--|------|------|------------|----------
+1 | 1    | 1    |   1        | 
+2 | 2    | 3    |   6        | 3 = 2ⁿ-1 is Mersenne prime, n ∈ ℙ
+3 | 4    | 7    |  28        | 7 = 2ⁿ-1 is Mersenne prime, n ∈ ℙ
+4 | 8    | 15   | 120        | 
+
+
+
+* A **perfect number** equals the sum of its proper factors (e.g. 6=1+2+3). This sequence begins with: 6, 28, 496, 8128, 33550336. Euclid had proved that if `m` is a Mersenne prime, then `m(m+1)/2` is an even perfect number.
+
+* **Twin primes** are a pair of primes that differ by 2.
+
+* A **coprime** numbers are a pair of numbers that have no common factors.
+
+* **Wilson's theorem**: iff `n` is prime then `(n-1)!+1` is a multiple of `n`:
+
+    `(n-1)! ≡ -1 (mod n)`
+
+* **Goldbach's Conjecture**: every even number (>= 6) can be written as the sum of two odd prime numbers. Goldbach also conjectured that all odd numbers are the sum of three odd primes. **Vinogradov's theorem** shows this to be true, in general (save for finitely many odd numbers).
+
+
+
+
+https://www.mathsisfun.com/numbers/prime-numbers-advanced.html

@@ -1,3 +1,0 @@
-# Math › Calculus › TERMS
-
-## Derivative

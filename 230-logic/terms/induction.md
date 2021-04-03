@@ -1,29 +1,49 @@
-# Mathematical induction
+# Induction
+
+https://en.wikipedia.org/wiki/Induction
 
 
-## Principle of Induction
+Math
+- *Mathematical induction*, a method of proof in mathematics
+- *Structural induction*, generalization of mathematical induction
+- *Noetherian induction*, generalization of mathematical induction
+- *Strong induction* is a variant of mathematical induction
+- *Inductive set* in set theory
+- *Inductive reasoning* (logic) infers from particular to the general case
+- *Transfinite induction* is a kind of mathematical induction
+- *Epsilon-induction* is a kind of transfinite induction
+- *Backward induction* in game theory and economics
+- *Statistical induction*, aka statistical inference
+- *Parabolic induction*, a method of constructing group representations
+- *Induced representation*, in representation theory (group theory)
 
-Let $$P(n)$$ be a statement about the positive integer $$n$$ (here, $$P$$ is a predicate).     
-In order to show that $$P(n)$$ is true for all positive integers (i.e. for $$n$$), it is sufficient to show:
-1. $$P(1)$$
-2. $$P(n) \to P(n+1)$$
+Computing
+- *Grammar induction*, in machine learning
+- *Inductive probability*
+- *Inductive programming*
+- *Inductive bias*
+- *Rule induction*, in machine learning
+- *Word-sense induction*, in natural language processing
+- *Coinduction*, a technique for proving properties of interacting objects
 
-meaning, show that $$P(1)$$ holds (show that the predicate holds for integer 1); and that, if $$P(n)$$ holds for an integer $$n$$, then show it also holds for the successor of that integer.    
-
-The latter expression, $$\alpha \to \omega$$, is the "if...then" implication: if $$\alpha$$ (holds), then $$\omega$$ (holds).
 
 
-### Example
-
-Prove that the sum of odd integers yields squares.
-
-Conjecture: $$1+3+5+\dots + (2n−1) = n^2$$
-
-Proof by induction:
-1. $$P(1)$$ holds because $$1 = 1^2$$
-2. We assume $$P(n)$$ holds, then we need to show $$P(n+1)$$ holds as well
-
-The idea is to start with the formula $$P(n)$$,     
-then to add the next odd number, $$2(n+1)−1$$ to both sides,    
-then to try to transform the equation into $$P(n+1)$$
-
+https://en.wikipedia.org/wiki/Inductive_reasoning
+https://en.wikipedia.org/wiki/Backward_induction
+https://en.wikipedia.org/wiki/Epsilon-induction
+https://en.wikipedia.org/wiki/Grammar_induction
+https://en.wikipedia.org/wiki/Induced_representation
+https://en.wikipedia.org/wiki/Inductive_bias
+https://en.wikipedia.org/wiki/Inductive_probability
+https://en.wikipedia.org/wiki/Inductive_programming
+https://en.wikipedia.org/wiki/Inductive_set
+https://en.wikipedia.org/wiki/Mathematical_induction
+https://en.wikipedia.org/wiki/Parabolic_induction
+https://en.wikipedia.org/wiki/Rule_induction
+https://en.wikipedia.org/wiki/Statistical_inference
+https://en.wikipedia.org/wiki/Strong_induction
+https://en.wikipedia.org/wiki/Structural_induction
+https://en.wikipedia.org/wiki/Transfinite_induction
+https://en.wikipedia.org/wiki/Word-sense_induction
+https://en.wikipedia.org/wiki/Noetherian_induction
+https://en.wikipedia.org/wiki/Coinduction

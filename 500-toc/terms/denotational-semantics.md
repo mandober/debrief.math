@@ -2,6 +2,9 @@
 
 https://en.wikipedia.org/wiki/Denotational_semantics
 
+math :: theory of computation :: terms
+
+
 Denotational semantics is a method to formalize a PL semantics (the meaning of a PL). Using denotations, which are mathematical objects, we give mathematical meaning to expressions in a PL. We can reason about expressions abstractly when each expression represents a conceptual meaning. In practice, denotations are described using some form of math notation, formalizable into a denotational metalanguage. For instance, denotational semantics of FPL often translates the language to *domain theory*.
 
 

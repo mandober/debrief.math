@@ -1,6 +1,16 @@
 # Eta conversion
 
-https://www.google.com/search?newwindow=1&sxsrf=ALeKk03VDtRIFu0OlX2pk1sORCuasM--BQ%3A1599605332965&ei=VApYX_a2OsS3kwWviqmwDg&q=eta+conversion+lambda+calculus&oq=eta+conversion+lambda+calculus&gs_lcp=CgZwc3ktYWIQAzICCAAyCAgAEAgQChAeOgQIABBHOgYIABAHEB46CggAEAgQBxAKEB5Q6XNYqn1gkIEBaABwAngAgAF1iAG_A5IBAzAuNJgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwj2sJud0trrAhXE26QKHS9FCuYQ4dUDCA0&uact=5
+**η-conversion** (eta conversion) refers to two related process:
 
+**η-reduction** reduces the lambda expression by applying a lambda abstraction on an argument: (λa.a)x ≡ x
 
-https://sookocheff.com/post/fp/eta-conversion/
+**η-abstraction** is the reverse process where a free variable is enclosed in a binding lambda abstraction: x ≡ (λa.a)x
+
+For example, the following two values are equivalent under η-conversion:   
+`(λx.x) a <=> a`
+
+Converting from the first to the second would constitute an eta reduction, and moving from the second to the first would be an eta abstraction. The term "eta conversion" can refer to either process.
+
+Extensive use of η-reduction leads to *point-free* style of programming.
+
+https://wiki.haskell.org/Eta_conversion

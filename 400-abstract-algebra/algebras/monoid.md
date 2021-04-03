@@ -2,7 +2,14 @@
 
 https://en.wikipedia.org/wiki/Monoid
 
-A monoid is an algebraic structure closed under
+In abstract algebra, a **monoid** is an algebraic structure M = (S, •, ε)
+
+
+a set endowed with an associative binary operation that has an identity element.
+
+
+A monoid is an algebraic structure M = (S, •, ε)
+closed under
 - a single *associative* binary operation and
 - an *identity* element
 
@@ -52,3 +59,24 @@ More generally, in category theory, the morphisms of an object to itself form a 
 In CS, the set of strings built from a given set of characters is a **free monoid**.
 
 *Transition monoids* and *syntactic monoids* are used in describing finite-state machines. *Trace monoids* and *history monoids* provide a foundation for process calculi and concurrent computing. In theoretical CS, the study of monoids is fundamental for automata theory (Krohn–Rhodes theory), and formal language theory (star height problem).
+
+
+
+## Ref
+https://en.wikipedia.org/wiki/Monoid
+https://en.wikipedia.org/wiki/Identity_element
+https://en.wikipedia.org/wiki/Binary_operation
+https://en.wikipedia.org/wiki/Associative
+https://en.wikipedia.org/wiki/Associative_property
+https://en.wikipedia.org/wiki/Trace_monoid
+https://en.wikipedia.org/wiki/History_monoid
+
+
+https://en.wikipedia.org/wiki/Semigroup_action
+https://en.wikipedia.org/wiki/Prefix_sum
+
+https://www.youtube.com/watch?v=qOoQOJcjD2E&list=PLg8ZEeSiXsjgoQJzRcq60GjK0UrkMsA3-
+
+
+## Related
+https://en.wikipedia.org/wiki/Monoid_(category_theory)

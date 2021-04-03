@@ -1,11 +1,11 @@
 # Kleisli category
 
+https://bartoszmilewski.com/2014/12/23/kleisli-categories/
 https://ncatlab.org/nlab/show/Kleisli+category
 https://en.wikipedia.org/wiki/Kleisli_category
 
-**Kleisli category** is a category naturally associated to any monad `T`. It is equivalent to the category of free *`T`-algebras*.
+* Kleisli category is a category naturally associated to any monad T
 
-The Kleisli category is one of two extremal solutions to the question: 
-*Does every monad arise from an adjunction?*
+* Kleisli category is equivalent to the category of free T-algebras
 
-The other extremal solution is the *Eilenberg–Moore category*. 
+* The Kleisli category is one of two extremal solutions to the question: does every monad arise from an adjunction? The other extremal solution is the Eilenberg-Moore category.

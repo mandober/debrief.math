@@ -136,6 +136,8 @@ Given three sets A, B and C with two bijections f : A → B and g : B → C, the
 
 ## Cardinal numbers
 
+Cardinal numbers
+
 Apart from the functional definition (given above), another way to define cardinality is to define it as a specific object.
 
 The relation of having the same cardinality is called equinumerosity, and this is an equivalence relation on the class of all sets.

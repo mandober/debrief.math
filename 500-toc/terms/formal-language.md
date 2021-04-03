@@ -17,12 +17,32 @@ https://en.wikipedia.org/wiki/Formal_language
 
 ## Formal language
 
+https://en.wikipedia.org/wiki/Formal_language
+
+In mathematics, computer science, and linguistics, a *formal language* consists of *words* whose *letters* are taken from an *alphabet* and are *well-formed* according to a specific *set of rules*.
+
+* An *alphabet* of a formal language is a *set of symbols* (letters).
+* *Symbols* are joined to produce *strings* or *words* but not all are valid.
+* *Well-formed formulas (words)* is a set of valid words belonging to a lang.
+* Not all well-formed formulas are meaningful (area of semantics)
+* A formal language is often defined by means of a formal grammar
+* A *formal grammar* may be a regular grammar or context-free grammar
+* A *context-free grammar* is a set of formation rules for lang words
+
+
+
+
+
+
+
+
+
+
+---
+
 Symbols are the most basic element of a language, formal or natural. A symbol may be spoken or written, although the latter is usually meant more often, especially with formal languages, since they only have a written form.
 
 There's a sort of a feedback loop relation between a language and the symbols that make up the language's alphabet. A naisant language in
-
-
-
 
 
 Since the set of concievable symbols is infinite, each language recognizes just a finite subset of symbols, called the alphabet of the language. So, each (at least, written) language is identified by its alphabet (which is a set of recognized symbols together with an ordering), by its strings (which are the valid concatenations of symbols from its alphabet; valid according to that particular language), and by its dictionary (which is a set of all possible valid strings of language), and by a set of (other) syntactic, grammatic and semantic rules.

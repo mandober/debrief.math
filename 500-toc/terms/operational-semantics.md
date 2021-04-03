@@ -1,5 +1,7 @@
 # Operational semantics
 
+math :: theory of computation :: terms
+
 **Operational semantics**, whereby the execution of the language is described directly (rather than by translation).
 
 Operational semantics loosely corresponds to interpretation, although again the "implementation language" of the interpreter is generally a mathematical formalism.

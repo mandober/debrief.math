@@ -1,23 +1,19 @@
 # Terminal Object
 
-**The terminal object** in a category is the one with one unique incoming arrow from any other object in that category.
+* `A -> B -> C -> D` (id and transitive arrows elided)
+* `A -> B` => object `A` is *more initial* than object `B`
+* `C -> D` => object `D` is *more terminal* than object `C`
 
+If we now reverse the principle for ranking objects (from the one we used to rank initial objects) and say that an object `D` is *"more terminal"* than an object `C` if there is an arrow `C -> D`.
 
-The object `𝑎` is "more terminal" than object `𝑏` if there is a morphism `𝑏 -> 𝑎`.
+> **The terminal object** is the object with one and only one morphism coming to it from any object in the category. The terminal object is unique, up to isomorphism.
 
+Examples
+- In a poset, the terminal object (if it exists) is the largest object.
+- In the category of sets, the terminal object is a singleton.
+- In the Hask category, unit type is the terminal object as there is one and only one pure function from any type to the unit type, so all the conditions for the terminal object are satisfied.
 
-
+```hs
+unit :: a -> ()
+unit _ = ()
 ```
-    b
-    ↓
-c → a ← c
-    ↑
-    d
-
-(a is the terminal object)
-```
-
-
-## Comparing objects
-
-For we have no other means to compare trwo objects but arrows, we say that an object `a` is "better" then an object `b` if there is a unique arrow from `b` to `a`. Also, `a` is the "best" object if there are unique arrows from other objects in the category to `a`, e.g. `c -> a`, `d -> a`, etc. Then, `a` is the terminal object.

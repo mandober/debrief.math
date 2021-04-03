@@ -1,6 +1,21 @@
-# Set cardinality
+# Cardinality
 
-**Cardinality** is the number of elements in a set.
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Supplemental_Modules_for_Discrete_Math/Additional_Discrete_Topics_(Dean)/Infinite_Sets_and_Cardinality
+
+https://primes.utm.edu/glossary/page.php?sort=Infinite
+
+https://www.britannica.com/science/set-theory/Operations-on-sets
+
+https://www.probabilitycourse.com/chapter1/1_2_2_set_operations.php
+
+https://www.cs.sfu.ca/~ggbaker/zju/math/set-oper.html
+
+- **Cardinality** is the number of elements in a set
+- finite sets: cardinality is denoted by a normal cardinal number
+- infinite sets: cardinality is denoted a transcendetal cardinal number
+- instead of a single infinity, set theory has discovered infinity of infinities, through the work of Georg Cantor, forever linking set theory as the field of mathematics that deals with infinities.
+- to obtain the cardinality of an infinite set S, we search for an injective function, i.e. a 1-to-1 mapping between S and ℕ; if we find such correspondance, then the infinity of S is enumerable (countably infinite set).
+
 
 Finite sets
 - cardinality of a finite set is established by enumerating its elements

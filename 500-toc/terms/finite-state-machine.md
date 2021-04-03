@@ -29,7 +29,7 @@ FSM is defined by a 5-tuple consisting of an alphabet (a set of symbols), a set 
   - e.g. $$F=\{S_1\}$$
   - an ending state is outlined by an extra circle (double circle)
 - The state-transition function, $$\delta$$
-  - $$\delta :S\times \Sigma \rightarrow S$$
+  - $$\delta :Q\times \Sigma \rightarrow S$$
   - a Cartesian product of the set of states and the alphabet
   - $$\delta$$ function takes a state and an input symbol and returns a state to transition to
   - the state to transition to may be the same state (remain in that state)

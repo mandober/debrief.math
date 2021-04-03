@@ -1,4 +1,4 @@
-# Object in a category
+# Objects in a category
 
 https://ncatlab.org/nlab/show/object
 

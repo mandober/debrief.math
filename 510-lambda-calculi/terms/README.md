@@ -1,14 +1,43 @@
-# Lambda Calculi
+# Lambda Calculus
 
+* Introduction to lambda calculus
+  - [Lambda calculus](./lambda-calculus.md)
+  - [Lambda terms](./lambda-terms.md)
+  - [Alonzo Church](./alonzo-church.md)
 
-- [Lambda Calculi](λ-calculi.md)
-- [Lambda Cube](λ-cube.md)
-- [Simply-typed Lambda Calculus](simply-typed-λ-calculus.md)
-- [Typed Lambda Calculi](typed-λ-calculi.md)
-- [Untyped Lambda Calculus](untyped-λ-calculus.md)
+* Definition
+  - function abstraction
+  - function application
+      - [Substitution](./substitution.md)
+      - [α-conversion](./alpha-conversion.md)
+      - [β-reduction](./beta-reduction.md)
+      - [η-conversion](./eta-conversion.md)
+      - [δ-reduction](./delta-reduction.md)
+      - ξ-equality
+      - [de Bruijn indexing](./de-bruijn-indexing.md)
+  - Forms of lambda terms
+      - Redex
+      - Beta normal form
+      - Normal form
+      - WHNF
 
+* [Encoding schemes](./encoding-schemes.md)
+  - [Church encoding](church-encoding.md)
+    - [Church Booleans](church-booleans.md)
+    - [Church numerals](church-numerals.md)
+    - [Church pair](./church-pair.md)
+    - [List](church-data-structures.md)
+  - [Scott encoding](scott-encoding.md)
+  - [Mogensen-Scott encoding](mogensen-scott-encoding.md)
+  - [Parigot encoding](parigot-encoding.md)
+  - [Alternative encoding](./encoding-alternatives.md)
 
-https://sookocheff.com/post/fp/introducing-lambda-calculus/
-https://sookocheff.com/post/fp/evaluating-lambda-expressions/
-https://sookocheff.com/post/fp/typed-lambda-calculus/
-https://sookocheff.com/post/fp/representing-pairs-and-lists-in-lambda-calculus/
+* Misc
+  - [Fixed-point combinator](./fixed-point-combinator.md)
+  - [de Bruijn notation](./de-bruijn-notation.md)
+  - [Deductive lambda calculus](./deductive-lambda-calculus.md)
+  - [let-expression](./let-expression.md)
+  - [Lambda lifting](./lambda-lifting.md)
+
+* [Lambda cube](./lambda-cube.md)
+  - [Simply-typed lambda calculus](./simply-typed-lc.md)

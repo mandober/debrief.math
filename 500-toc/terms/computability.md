@@ -1,5 +1,8 @@
 # Computability
 
+https://en.wikipedia.org/wiki/Computability
+
+Definitions of Computable
 https://www.csee.umbc.edu/~squire/reference/computable.shtml
 
 
@@ -27,7 +30,7 @@ https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis
 
 Church-Turing Thesis, AKA
 - Computability Thesis
-- Church–Turing conjecture
+- Church-Turing conjecture
 - Church's (hypo)thesis/conjecture on computability
 - Turing's thesis
 

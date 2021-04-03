@@ -1,5 +1,7 @@
 # Formal semantics
 
+math :: theory of computation :: terms
+
 **Formal semantics** describes concepts and provides us with technics to build mathematical models of programming languages upon which we can conduct various analysis, using them as a focal point in reasoning about programs' behaviour.
 
 The semantics of PL is often divided into 3 sections:

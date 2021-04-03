@@ -1,29 +1,46 @@
 # Curry-Howard correspondence
 
-https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence
+https://en.wikipedia.org/wiki/Curry-Howard_correspondence
 
-The Curry-Howard correspondence is the interpretation of mathematical proofs as programs and logical formulae as types in a programming language.
+## CH introduction
+
+* In programming language theory and proof theory, the Curry-Howard correspondence(CH), also referred to as isomorphism or equivalence, is the *relation between mathematical proofs and computer programs*.
+
+* **The Curry-Howard correspondence** is the interpretation of mathematical *proofs-as-programs* and logical *propositions-as-types* in a programming language.
+
+* It is the link between logic and computation, a generalization of the syntactic analogy between systems of formal logic and computational calculi.
+
+* It is usually attributed to by `Haskell Curry` and `W. A. Howard`, although the idea is related to the *operational interpretation* of intuitionistic logic given in various formulations by `L.E.J. Brouwer`, `Arend Heyting` and `Andrey Kolmogorov`, viz. *BHK interpretation*, and `S. Kleene`, viz. *Realizability*.
+
+* The CH relation has been extended to include category theory as the three-way *Curry-Howard-Lambek correspondence* (CHL).
+
+## CH references
+
+- [Programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory)
+- [Proof theory](https://en.wikipedia.org/wiki/Proof_theory)
+- [Computer programs](https://en.wikipedia.org/wiki/Computer_program)
+- [Mathematical proofs](https://en.wikipedia.org/wiki/Mathematical_proof)
+- [Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
+- [Brouwer-Heyting-Kolmogorov interpretation](https://en.wikipedia.org/wiki/Brouwer%E2%80%93Heyting%E2%80%93Kolmogorov_interpretation)
+- [Realizability](https://en.wikipedia.org/wiki/Realizability)
+- [Category theory](https://en.wikipedia.org/wiki/Category_theory)
+
+- [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry)
+- [William Alvin Howard](https://en.wikipedia.org/wiki/William_Alvin_Howard)
+- [L. E. J. Brouwer](https://en.wikipedia.org/wiki/L._E._J._Brouwer)
+- [Arend Heyting](https://en.wikipedia.org/wiki/Arend_Heyting)
+- [Andrey Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)
+- [Stephen Kleene](https://en.wikipedia.org/wiki/Stephen_Kleene)
+
+
+---
 
 The idea starting in 1934 with Haskell Curry and it was finalized in 1969 with William Alvin Howard. It connects the "computational component" of many type theories to the derivations in logics.
 
-Howard showed that the *Typed Lambda Calculus* corresponded to Intuitionistic Natural Deduction (natural deduction without the law of excluded middle).
+Howard showed that the typed lambda calculus corresponded to intuitionistic natural deduction (natural deduction without LEM).
 
 The connection between types and logic lead to a lot of subsequent research to find new type theories for existing logics and new logics for existing type theories.
 
-
-Types               | Logic                 | Sets                             | Homotopy
---------------------|-----------------------|----------------------------------|-------------------
-$$A$$               | Proposition           | Set                              | Space
-$$a:A$$             | proof                 | element                          | point
-$$B(x)$$            | predicate             | family of sets                   | fibration
-$$b(x):B(x)$$       | conditional proof     | family of elements               | section
-$$0,1$$             | $$\bot\ \top$$        | $$\varnothing, \{\varnothing\}$$ | $$\varnothing, \ast$$
-$$A + B$$           | $$A\lor B$$           | disjoint union                   | coproduct
-$$A\times B$$       | $$A\land B$$          | set of pairs                     | product space
-$$A\to B$$          | $$A\to B$$            | set of functions                 | function space
-$$\sum_{x:A}B(x)$$  | $$\exists_{x:A}B(x)$$ | disjoint sum                     | total space
-$$\prod_{x:A}B(x)$$ | $$\forall{x:A}B(x)$$  | product                          | space of sections
-$$Id_A$$            | equality $$=$$        | $$\{x:x\mid x \in A\}$$          | path space $$A^I$$
 
 
 Comparing points of view on type-theoretic operations
@@ -40,7 +57,7 @@ A × B              | $$A\land B$$         | set of pairs    | product space
 A → B              | $$A\to B$$           | set of functions| function space
 $$\sum_{x:A}B(x)$$ | $$\exists_{x:A}B(x)$$| disjoint sum    | total space
 $$\prod_{x:A}B(x)$$| $$\forall{x:A}B(x)$$ | product         | space of sections
-Idₐ                | equality =           | {x : x·x ∈ A}   | path space $$A^I$$
+Idₐ                | equality =           | {x : x·x ∈ A}   | path space Aⁱ
 
 
 ## Practical Curry-Howard Isomorphism
@@ -213,7 +230,8 @@ No man → no problem
 
 __*"Stop making sense"*__
 
-```
+
+```txt
 The shaman said: "You must stop making sense to understand it."
 p = Stop making sense
 q = to understand it
@@ -274,8 +292,25 @@ Disjunction
 - Types: sum types
 
 
----
+
+## The Curry-Howard isomorphism: Latex table
+
+Types               | Logic                 | Sets                             | Homotopy
+--------------------|-----------------------|----------------------------------|-------------------
+$$A$$               | Proposition           | Set                              | Space
+$$a:A$$             | proof                 | element                          | point
+$$B(x)$$            | predicate             | family of sets                   | fibration
+$$b(x):B(x)$$       | conditional proof     | family of elements               | section
+$$0,1$$             | $$\bot\ \top$$        | $$\varnothing, \{\varnothing\}$$ | $$\varnothing, \ast$$
+$$A + B$$           | $$A\lor B$$           | disjoint union                   | coproduct
+$$A\times B$$       | $$A\land B$$          | set of pairs                     | product space
+$$A\to B$$          | $$A\to B$$            | set of functions                 | function space
+$$\sum_{x:A}B(x)$$  | $$\exists_{x:A}B(x)$$ | disjoint sum                     | total space
+$$\prod_{x:A}B(x)$$ | $$\forall{x:A}B(x)$$  | product                          | space of sections
+$$Id_A$$            | equality $$=$$        | $$\{x:x\mid x \in A\}$$          | path space $$A^I$$
+
+
+## References
 
 https://en.wikipedia.org/wiki/Principle_of_explosion
-
 https://rationalwiki.org/wiki/Principle_of_explosion

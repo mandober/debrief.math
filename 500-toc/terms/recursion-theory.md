@@ -27,7 +27,7 @@ CT also studies the nature of mathematical proof. The issue, that especially hau
 
 Computability, as a very young theory, emerged in 1936. when Alonzo Church, Alan Turing and Emil Post each published fundamental papers that characterized the class of computable partial functions.
 
-Church’s article introduced what is now called *Church–Turing thesis*. Turing's article introduced what are now *Turing machines*.
+Church’s article introduced what is now called *Church-Turing thesis*. Turing's article introduced what are now *Turing machines*.
 
 
 ## 1. The Computability Concept

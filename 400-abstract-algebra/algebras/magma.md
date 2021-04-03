@@ -2,9 +2,9 @@
 
 Magma is a basic kind of algebraic structure, consisting of a set equipped with a single binary operation which must be closed over the set.
 
-A magma is a set M matched with an operation, •, that sends any two elements a, b ∈ M to another element, a • b.
+A magma is a set `M` matched with an operation, `•`, that sends any two elements `a,b ∈ M` to another element, `a • b ∈ M`.
 
-The symbol, •, is a general placeholder for a properly defined operation. To qualify as a magma, the set and operation (M, •) must satisfy the following requirement (known as the magma or closure axiom):
+The symbol, `•`, is a general placeholder for a properly defined operation. To qualify as a magma, the set and operation (M, •) must satisfy the following requirement (known as the magma or closure axiom):
 
 For all $$a, b$$ in $$M$$, the result of the operation $$a \cdot b$$ is also in $$M$$; in mathematical notation: 
 

@@ -1,5 +1,8 @@
 # Semantics of logic
 
+https://en.wikipedia.org/wiki/Semantics_of_logic
+
+math :: logic :: terms
 
 The validity of an argument depends upon the meaning or semantics of the sentences that make it up.
 
