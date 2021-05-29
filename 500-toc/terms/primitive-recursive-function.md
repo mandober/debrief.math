@@ -2,13 +2,18 @@
 
 https://en.wikipedia.org/wiki/Primitive_recursive_function
 
-* In computability theory, *primitive recursive functions* (PRFs) are, informally,those functions that can be computed by a program restricted to only use bounded loops - loops where the number of iterations through the loops is known in advance (e.g. for-loop, but not while-loop).
+Computability theory
 
-* Primitive recursive functions form a strict subset of *general recursive functions* (GRF) that are also total functions, `PRF ⊂ GRF`. GRFs are those functions that use unbounded loops, and thus can compute everything a TM can.
+**Primitive recursive functions** are functions that can be computed by a program restricted to the use of bounded looping constructs, and thus PRF functions always terminate.
 
-* Most *computable functions* studied in number theory, and, generally in math, are primitive recursive including addition, division, factorial.
+**General recursive functions** are functions that can be computed by a program free to use unbounded loops (so GRFs may diverge); thus, a GRF can compute everything a TM can.
 
-* To show that a computable function is primitive recursive, it suffices to show that its computational complexity is bounded from above by a primitive recursive function of the input size, i.e. by `n`. It follows that it is difficult to devise a computable function that is not primitive recursive, however they exists (for example the famous Ackermann function).
+`PRF ⊂ GRF` - PRFs form a proper subset of those GRFs that are total.
+
+Most number-theoretic computable functions definable using recursion on one variable are PRF (e.g. addition, mult, exp, truncated subtraction, division, factorial).
+
+To show that a computable function is primitive recursive, it suffices to show that its computational complexity is bounded from above by a primitive recursive function of the input size, i.e. by `n`. Although it's difficult to devise a computable function that is not PRF, they do exists (e.g. Ackermann function).
+
 
 * The set of primitive recursive functions is known as `PR` in computational complexity theory.
 

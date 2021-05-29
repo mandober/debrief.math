@@ -5,6 +5,28 @@ https://ncatlab.org/nlab/show/category
 https://ncatlab.org/nlab/show/category+theory
 
 
+A category consists of
+- a collection of objects
+- a collection of morphisms between those objects
+- each object `A` must have an identity arrow `1ᴀ`
+
+Some authors define/enhance the identity arrow by stating that:
+
+...such that for all morphisms `f : A → B` it holds that `f ◦ 1ᴀ = f`.
+
+...such that for each object `A` there exists an identity morphism `1ᴀ` such that for all morphisms `f : A → B` we have `f ◦ 1ᴀ = f = 1ʙ ◦ f`
+
+But what about a category that has no arrows between its objects [?] Perhaps then `A = B` and `f = 1ᴀ`? Do we need the condition at all?
+
+
+* We write `f : A → B` for a morphism `f` going from object `A` to `B`.
+
+* Morphisms are closed under composition: if there is a morphism `f : A → B` and a morphism `g : B → C`, then there must be a morphism obtained by the composition, `g ◦ f : A → C`.
+
+* As always, composition (of arrows) is associative: `f ◦ (g ◦ h) = (f ◦ g) ◦ h`
+
+
+
 ## Definition
 
 A category is a collection of objects together with morphisms connecting these objects.
@@ -12,13 +34,13 @@ A category is a collection of objects together with morphisms connecting these o
 A category `C` is given by a collection `C₀` of objects and a collection `C₁` of arrows, which have the following structure:
 - each arrow has an object as source and target, `f: A -> B`
 - identity: each object has identity arrow, `1ₐ` or `Iₐ`
-- transitivity: if there is an arrow `a -> b` and an arrow `b -> c` then there must be an arrow `a -> c`
+- transitivity axiom: if there is an arrow `a -> b` and an arrow `b -> c` then there must be an arrow `a -> c`
 
 ## Examples of categories
 
-- Ordered categories: sets and relations (relations as arrows)
-- Category of sets and functions (functions as arrows)
-- Hask category quasi-categery of Haskell types (function as arrows)
+- Ordered categories: sets and relations
+- Category of sets and functions
+- `Hask` quasi-category of Haskell types and functions
 
 ---
 

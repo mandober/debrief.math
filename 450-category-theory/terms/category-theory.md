@@ -25,21 +25,6 @@ Category theory
         Foundations
 
 
-
-## Category Theory
-
-    Higher Category Theory 🟠
-                          /  \
-                         /    \
-                        /      \
-Dependent Type Theory 🔵-------🟢 Homotopy Type Theory
-
-
-Category theory has been around for about half a century now, invented in the 1940's by Eilenberg and MacLane. Eilenberg was an algebraic topologist and MacLane was an algebraist. They realized that they were doing the same calculations in different areas of mathematics, which led them to develop category theory.
-
-Category theory is really about building bridges between different areas of mathematics.
-
-
 ## Category theory introduction
 
 Category
@@ -50,8 +35,7 @@ Category
 Arrows are composable:
 - f :: a -> b,
 - g :: b -> c,
-- g ○ f :: a -> c (always exists!)
-- Composition is associative
+- g ∘ f :: a -> c (exists if the previous two exist)
 
 Identity arrows (always exist!):
 - ida :: a -> a,
@@ -101,17 +85,6 @@ Using universal construction, we fix the objects `a` and `b` in the attempt to f
 
 Category theory formalizes *mathematical structure* and its concepts in terms of a *labeled directed graph* called a **category**, whose nodes are called **objects**, and whose labelled directed edges are called **arrows** or **morphisms**.
 
-
 A category has two basic properties:
 * the ability to compose the arrows associatively
 * the existence of an identity arrow for each object
-
-The language of category theory has been used to formalize concepts of other high-level abstractions such as sets, rings, and groups.
-
-Informally, category theory is a general theory of functions.
-
-In category theory, morphisms obey conditions specific to category theory itself.
-
-Category theory has practical applications in programming language theory, for example the usage of monads in functional programming.
-
-Category theory may be used as an axiomatic foundation for mathematics (as an alternative to set theory and other proposed foundations).

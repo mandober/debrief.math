@@ -6,13 +6,13 @@ Computable functions are the formalized analogue of algorithms, such that a func
 
 Particular models of computability that give rise to the set of computable functions are the *Turing-computable functions* and the *μ-recursive functions*.
 
-According to the *Church–Turing thesis*, computable functions are exactly the functions that can be calculated using a mechanical calculation device given unlimited amounts of time and storage space.
+According to the *Church-Turing thesis*, computable functions are exactly the functions that can be calculated using a mechanical calculation device given unlimited amounts of time and storage space.
 
 Equivalently, this thesis states that a function is computable iff it has an algorithm, which here means a sequence of steps that a person with unlimited amount of time on their hands, paper and pencils, could follow.
 
 
 
-https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis
+https://en.wikipedia.org/wiki/Church-Turing_thesis
 https://en.wikipedia.org/wiki/Church%27s_thesis_(constructive_mathematics)
 https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)
 https://en.wikipedia.org/wiki/Effective_method

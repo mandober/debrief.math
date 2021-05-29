@@ -11,6 +11,11 @@
 - ~~mote: https://git.gitbook.com/mandober/debrief-math.git~~
 
 
-##### autobot review
+## Reviews (positive-biased preset)
 
-*"Endorsement of a particularly sensational, violent concept of mathematics that reflects the pervasive sense of embittered anger, isolation, confusion, restlessness, sexual frustration and social alienation which is being felt by a generation of disenfranchised devs amidst the declining interests in denotational semantics and overall program correctness, smack in the middle of these bug ridden times. Sign o' the times"* -- Simon Ferocious 🪑🪑🪑🪑🪑
+*"Endorsement of a particularly sensational, violent concept of mathematics that provokes and reflects the pervasive sense of embittered anger, confusing restlessness, socio-sexual frustration or otherwise derived alienation endured by a generation of disenfranchised devs, amidst the declining interests in denotational semantics and overall program correctness, smack the bug-ridden sigh of our times."* -- Simon Ferocious 🪑🪑🪑🪑
+
+_"The lure of imaginary totality is momentarily frozen before the dialectic of desire fastens the screws loose without symbolic chains. An almost language-free communication of ideas that was previously though impossible."_ 
+-- Hugh Mann 🪑🪑
+
+_"C'est un espace trop chiffré, n'est-ce pas?"_ -- S. Panza 🪑

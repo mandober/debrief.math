@@ -1,5 +1,8 @@
 # Domain
 
+https://en.wikipedia.org/wiki/Domain
+
+
 The **domain** is the source set in operations or relations on two sets.
 
 Given two sets `A` and `B`, where `∀a ∈ A` and `∀b ∈ B`, set `A` is the domain:
