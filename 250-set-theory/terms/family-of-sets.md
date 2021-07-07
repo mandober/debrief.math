@@ -22,3 +22,15 @@ Properties:
 - Any family of subsets of S is itself a subset of the power set 𝓟(S) if it has no repeated members.
 - Any family of sets without repetitions is a subclass of the proper class V of all sets (the universe).
 - *Hall's marriage theorem*, due to Philip Hall, gives necessary and sufficient conditions for a finite family of non-empty sets (repetitions allowed) to have a system of distinct representatives.
+
+## Families
+
+(from "Naive Set Theory" by Halamos 1960)
+
+Suppose a function `f : I → X`; then    
+an element of the domain `I` is called an *index*,    
+and the set `I` is called the *index set*,    
+the range of the function is called an *indexed set*,    
+the function itself is called a *family*,    
+and the value of the function `f` at an index `i`   
+is called a *term of the family* and denoted by `fᵢ`.

@@ -1,4 +1,4 @@
-# CT : Fundamentals
+# Category Theory Fundamentals
 
 Category theory fundamentals
 - [Category theory](./category-theory.md)

@@ -4,7 +4,6 @@
 
 Category theory was developed in the 1940's by *Eilenberg* and *MacLane*. Eilenberg was an algebraic topologist and MacLane was an algebraist. They both realized that they were doing the same calculations in different areas of mathematics, which led them to lay the foundations of category theory.
 
-
 Broadly, category theory is a convenient and powerful conceptual framework and a formal language for studying and discussing structures and systems of structures. The language of category theory has been used to formalize concepts of other high-level abstractions such as sets, rings, and groups.
 
 Category theory allows us to formulate definitions and theories of concepts, to analyze the coherence of existing formulations, to discover and exploit relations with other fields, to deal with abstraction and representation independence, to formulate conjectures and research directions, to unify concepts.
@@ -30,8 +29,8 @@ Despite this, we can still infer many facts about a category and its objects jus
 
 The three fundamental concepts at the heart of category theory are
 - *category* with its objects and arrows
-- *functor* - mapping between categories
-- *natural transformation* - mapping between functors
+- *functor* is a mapping between categories
+- *natural transformation* is a mapping between functors
 
 ## Intro
 

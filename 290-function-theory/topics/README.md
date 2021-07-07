@@ -1,6 +1,17 @@
 # Function Theory
 
 
+* Division of functions (by properties)
+  - by injectivity
+  - by origin
+
+* Division of functions by properties: injectivity
+  - [Injection (one-to-one)](./injection.md)
+  - [Surjection (onto)](./surjection.md)
+  - [Bijection (one-to-one correspondence)](./bijection.md)
+
+
+
 
 * Function: Elementary properties
   - domain
@@ -22,10 +33,6 @@
   - as a graph
   - as a rule (procedure)
 
-* Types of functions
-  - injective, one-to-one
-  - surjective, onto
-  - bijective, one-to-one correspondence
 
 * Function properties
   - fixpoint

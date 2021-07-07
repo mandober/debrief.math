@@ -1,15 +1,12 @@
 # Groups
 
-
 **Group** is a set equipped with a binary operation, obeying the axioms of
 - Totality
 - Identity
-- Invertibility
+- Invertability
 - Associativity
 
-
-A group is not a set but a tuple `(S, ⋆)`, where `S` is a set of elements and `⋆` is a binary operation. A qualify as a group it must obey the group axioms.
-
+A group is (not a set but) a tuple `(S, ⋆)`, where `S` is a set of elements and `⋆` is a binary operation. To qualify as a group a candidate structure must also obey a set of group axioms.
 
 ## Group axioms
 
@@ -52,7 +49,7 @@ https://en.wikipedia.org/wiki/List_of_group_theory_topics
 
 
 
-| structures        | C | A | I | N |
+| structures        | C | A | Id| N |
 |-------------------|---|---|---|---|
 | Semigroupoid      |   | + |   |   |
 | Small category    |   | + | + |   |
@@ -69,7 +66,7 @@ https://en.wikipedia.org/wiki/List_of_group_theory_topics
 Abelian group: Commutative group
 
 
-| structures        | C | A | I | N |
+| structures        | C | Ad| Id| N |
 |-------------------|---|---|---|---|
 | Magma             | + |   |   |   |
 | Semigroup         | + | + |   |   |

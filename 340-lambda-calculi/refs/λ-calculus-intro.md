@@ -1,6 +1,7 @@
 # Lambda Calculus: Introduction
 
-Lambda calculus, stylized as λ-calculus, is a *formal system*[^1] in *mathematical logic* for expressing *computation*, and in that aspect it is equivalent to a Turing machine.
+Lambda calculus, λ-calculus, is a *formal system*[^1] in *mathematical logic* for expressing *computation*, and in that aspect it is equivalent to a Turing machine.
+
 
 Lambda Calculus is a prototype programming languages invented by Alonzo Church[^2] in the 1930's, a functional language based on function abstraction and function application, using parameter binding and substitution.
 
@@ -24,6 +25,7 @@ Lambda calculus consists of constructing lambda terms and performing reduction o
 
 
 ## Informal introduction
+
 Lamda calculus has only 3 kinds of expressions: variables, abstraction (i.e. function definition) and function application.
 
 * **Variables**:   
@@ -125,10 +127,11 @@ let f x y = x + y;;
 
 
 ## Variables
-Variables that are named in abstraction are bound: $$\lambda x.xyx$$     
-here, the $$x$$ is bound, while the $$y$$ is a free variable.
+
+Variables that are named in an abstraction are considered bound; e.g. `λx.xyx` is a lambda expression in which the variable `x` occurs bound, while the variable `y` occurs free.
 
 If a bound parameter does not appear in the body of a function, it just gets thrown away.
+
 
 $$
 (\lambda x.yz)a\\

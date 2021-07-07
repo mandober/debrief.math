@@ -1,13 +1,15 @@
 # SUMMARY
 
-Mathematics, Maθ: Parts (top-level)
-    I Elements
-   II Discrete
-  III MaθLogic
-   IV Abstract
-    V ThOfComp
-   VI Addition
-      OtherMaθ
+Parts
+- Part 1: Math Foundations I
+- Part 2: Discrete Math    II
+- Part 3: Math Logic       III
+- Part 4: Abstract Math    IV
+- Part 5: Indices
+- Part 6: Appendices
+
+
+---
 
 Contents (second-level)
 1. Enums (collections, listings, indices)

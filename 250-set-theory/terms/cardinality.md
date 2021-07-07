@@ -74,8 +74,8 @@ Cardinality of a set S, denoted by |S|, is the number of elements of the set. Th
 |X|=|Y| denotes two sets X and Y having same cardinality.
 It occurs when the number of elements in X is exactly equal to the number of elements in Y. In this case, there exists a __bijective__ function `f` from X to Y.
 
-|X|≤|Y| denotes that set X’s cardinality is less than or equal to set Y’s cardinality. It occurs when number of elements in X is less than or equal to that of Y. Here, there exists an __injective__ function ‘f’ from X to Y.
+|X|≤|Y| denotes that set X's cardinality is less than or equal to set Y's cardinality. It occurs when number of elements in X is less than or equal to that of Y. Here, there exists an __injective__ function 'f' from X to Y.
 
-|X|<|Y| denotes that set X’s cardinality is less than set Y’s cardinality. It occurs when number of elements in X is less than that of Y. Here, the function ‘f’ from X to Y is _injective function but not bijective_.
+|X|<|Y| denotes that set X's cardinality is less than set Y's cardinality. It occurs when number of elements in X is less than that of Y. Here, the function 'f' from X to Y is _injective function but not bijective_.
 
 If |X|≤|Y| and |X|≥|Y| then |X|=|Y|. The sets X and Y are commonly referred as _equivalent_ sets.

@@ -2,17 +2,20 @@
 
 https://en.wikipedia.org/wiki/Axiom_of_extensionality
 
+`∀x.(x ∈ A ⟺ x ∈ B) ⟺ A = B`
 
-The Axiom of Extensionality
-- ∀x . (x ∈ A ⟺ x ∈ B) ⟺ A = B
-- AKA. The Axiom of Extension
-- AKA. The Axiom of Extent
-- defines sets (as objects determined by their elements)
-- defines set equality (sets are equal if they have the same elements)
+`∀A∀B. (∀x. x ∈ A -> X ∈ B) -> A = B`
+
+The Axiom of Extension (Extensionality, Extent)
+- `∀x . (x ∈ A ⟺ x ∈ B) ⟺ A = B`
+- defines sets
+- defines sets as objects determined by their elements
+- defines set equality: sets are equal if they have the same elements
 
 
+**The axiom of extensionality** is an axiom of ZF set theory that states that two sets are equal (are the same set) if they contain the same elements:
 
-**The axiom of extensionality** is an axiom of Zermelo–Fraenkel set theory that states that two sets are equal (they are the same set) if they contain the same elements, formally:
+∀A∀B. (∀x. x ∈ A -> X ∈ B) -> A = B
 
 > $$\forall A\,\forall B\,(\forall X\,(X\in A\Rightarrow X\in B)\to A=B)$$
 

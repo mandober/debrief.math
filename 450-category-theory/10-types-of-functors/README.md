@@ -1,1 +1,0 @@
-# CT : Types of Functors
