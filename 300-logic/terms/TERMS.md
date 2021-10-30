@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/Propositional_variable
 
 [Abductive reasoning](./abductive-reasoning.md)
 [Affine logic](./affine-logic.md)
-[Argument](./argument.md)
+[Argument](../305-basic-concepts/argument.md)
 [BHK interpretation](./bhk-interpretation.md)
 [Bunched logic](./bunched-logic.md)
 [Categorical proposition](./categorical-proposition.md)
@@ -60,7 +60,7 @@ https://en.wikipedia.org/wiki/Propositional_variable
 [Substructural logics](./substructural-logics.md)
 [Syllogistic logic](./syllogistic-logic.md)
 [Tautology](./tautology.md)
-[Truth-function](./truth-function.md)
+[Truth-function](../305-basic-concepts/truth-function.md)
 [Term](./term.md)
 [Unification](./unification.md)
 [Validity](./validity.md)

@@ -1,1 +1,1 @@
-# Type Theory: Glossary
+# Type Theory: GLOSSARY

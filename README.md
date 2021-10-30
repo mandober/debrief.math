@@ -1,15 +1,14 @@
 # Math Debrief
 
 - name: `debrief.math`
-- desc: lo-fi math notes
 - repo: https://github.com/mandober/debrief.math
-- book: https://mandober.gitbook.io/math-debrief/
+- book: https://mandober.gitbook.io/math-debrief/ (out of sync)
+- desc: lo-fi math notes
 
 ### About
 
-A collection of notes about CS-related mathematical topics including the foundations of mathematics, set theory, relation theory, order theory, function theory, graph theory, mathematical logic, proof theory, lambda calculi, type theory, abstract algebra, category theory.
+A collection of notes about math, largely from Wikipedia, a copypasta pile of articles intended never to be looked at again. Covering the topics that include the foundations of mathematics, set theory, relation theory, order theory, domain theory, function theory, graph theory, mathematical logic, proof theory, lambda calculi, type theory, abstract algebra, category theory. Fields that are part of both math and CS, primarily, the theory of computation, along with its subfields, lack a permanent settlement (biased towards debrief.math).
 
-Beside discrete math, other areas of mathematics are sporadically covered, while others, primarily the theory of computation, are currently split between debrief.math and debrief.cs.
 
 ### Topics
 
@@ -30,7 +29,7 @@ Beside discrete math, other areas of mathematics are sporadically covered, while
 
 ### Biased endorsements
 
-*"Endorsement of a particularly sensational, violent concept of mathematics that provokes and reflects the pervasive sense of embittered anger, confusing restlessness, socio-sexual frustration or otherwise derived alienation endured by a generation of disenfranchised devs, amidst the declining interests in denotational semantics and overall program correctness, smack the bug-ridden sigh of our times."* -- Simon Ferocious 🚌🚏🐀👜
+*"Endorsement of a particularly sensational, violent concept of mathematics that provokes and reflects the pervasive sense of embittered anger, confusing restlessness, socio-sexual frustration or otherwise derived alienation endured by a generation of disenfranchised devs, amidst the declining interests in denotational semantics and overall program correctness, smack right in the bug-ridden sigh of our times."* -- Simon Ferocious 🚌🚏🐀👜
 
 _"An almost language-free communication of ideas previously though improbable. The lure of imaginary is momentarily frozen before the dialectic of desire plugs the leaks of abstraction setting in motion the entirety of implied events."_-- Phineas Gage 👨‍🚒👨‍🚒
 
@@ -48,8 +47,6 @@ The debrief series:
 - js
 - tech, apps, shell, linux, web
 - linguistics, sci, research
-
-### ~~Frobnicated~~
-
+- ~~frobnicated~~
 - hierarchy and hierarchical issues
-- ~~certain~~ topics bleed across the realms
+- ~~certain~~ topic bleed across realms

@@ -2,6 +2,7 @@
 
 https://en.wikipedia.org/wiki/First-order_logic
 
+
 **First-order logic (FOL)** uses quantified variables over non-logical objects, and allows the use of sentences that contain variables. This distinguishes it from propositional logic, which does not use quantifiers or relations.
 
 **Zeroth-order logic** is FOL without variables or quantifiers. Some authors use this phrase as a synonym for propositional calculus, but others define it as an extended propositional logic by adding constants, operations and relations on non-Boolean values. Every zeroth-order language in this broader sense is complete and compact.

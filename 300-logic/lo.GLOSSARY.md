@@ -2,16 +2,19 @@
 
 <!-- TOC -->
 
+- [Absoluteness](#absoluteness)
 - [Accident](#accident)
-- [Analytic-synthetic distinction](#analyticsynthetic-distinction)
+- [Analytic-synthetic distinction](#analytic-synthetic-distinction)
 - [Argumentation theory](#argumentation-theory)
 - [Axiology](#axiology)
 - [Axiom](#axiom)
 - [Conjecture](#conjecture)
+- [Constants symbols](#constants-symbols)
 - [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
 - [Essence](#essence)
 - [Extensionality](#extensionality)
+- [Extremal](#extremal)
 - [Fallacy](#fallacy)
 - [First-order logic](#first-order-logic)
 - [Formal logic](#formal-logic)
@@ -35,6 +38,7 @@
 - [Philosophical logic](#philosophical-logic)
 - [Philosophy of logic](#philosophy-of-logic)
 - [Predicate](#predicate)
+- [Predicate symbol](#predicate-symbol)
 - [Premise](#premise)
 - [Primitive notion](#primitive-notion)
 - [Proof by exhaustion](#proof-by-exhaustion)
@@ -48,16 +52,20 @@
 - [Theorem](#theorem)
 - [Truth Value](#truth-value)
 - [Validity](#validity)
+- [Variable symbols](#variable-symbols)
 - [Weakening](#weakening)
 
 <!-- /TOC -->
 
 
+## Absoluteness
+[mathematical-logic], a formula is said to be **absolute** if it has the same truth value in each class of structures/models.
+
 ## Accident
-In philosophy, *essence* is the property that makes an entity what it fundamentally is, which it has by necessity, without which it loses its identity. Essence is contrasted with **accident** - a property that the entity has contingently, without which it still retains its identity.
+[philosophy] Accident is a property that the entity has contingently, without which it still retains its identity. Accident is contrasted with essence, which is the property that makes an entity fundamentally what it is, which it has by necessity, without which it loses its identity. 
 
 ## Analytic-synthetic distinction
-The analytic-synthetic distinction (**dichotomy**) is a semantic distinction, used primarily in philosophy to distinguish propositions into two types: analytic propositions and synthetic propositions. **Analytic propositions** are true by virtue of their meaning, while **synthetic propositions** are true by how their meaning relates to the world.
+[philosophy] The analytic-synthetic dichotomy is a semantic distinction, used primarily in philosophy to distinguish propositions into two types: analytic propositions and synthetic propositions. Analytic propositions are true by virtue of their meaning, while synthetic propositions are true by how their meaning relates to the world.
 
 ## Argumentation theory
 Argumentation theory is the interdisciplinary study of how conclusions can be reached through logical reasoning i.e. claims based, soundly or not, on premises. It includes the arts and sciences of civil debate, dialogue, conversation, and persuasion.
@@ -66,13 +74,13 @@ Argumentation theory is the interdisciplinary study of how conclusions can be re
 Axiology is the philosophical study of value. It is either the collective term for ethics and aesthetics, philosophical fields that depend crucially on notions of worth, or the foundation for these fields, and thus similar to value theory and meta-ethics.
 
 ## Axiom
-An axiom or **postulate** is a statement that is taken to be true that serves as an initial premise or starting point for further reasoning and arguments. In classical logics, an axiom is an evident and well-established statement that needs no further proof. In modern logics, an axiom is a premise for reasoning.
+An axiom or postulate is a statement that is taken to be true that serves as an initial premise or starting point for further reasoning and arguments. In classical logics, an axiom is an evident and well-established statement that needs no further proof. In modern logics, an axiom is a premise for reasoning.
 
 ## Conjecture
 An unproved statement that is believed true is called a conjecture. To be considered a conjecture, a statement must usually be proposed publicly, at which point the name of the proponent may be attached to the conjecture, as with Goldbach's conjecture. Other famous conjectures include the Collatz conjecture and the Riemann hypothesis. On the other hand, Fermat's Last Theorem has always been known by that name, even before it was proved; it was never known as "Fermat's conjecture".
 
 ## Constants symbols
-are strings that will be interpreted as representing objects
+Constants symbols are strings that are interpreted as representing objects.
 
 ## Defeasible inference
 Defeasible inferences is a kind of inference in which reasoners draw tentative conclusions, reserving the right to retract their conclusions based on further evidence.
@@ -81,10 +89,10 @@ Defeasible inferences is a kind of inference in which reasoners draw tentative c
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
 
 ## Essence
-In philosophy, **essence** is the property that makes an entity what it fundamentally is, which it has by necessity, without which it loses its identity. Essence is contrasted with *accident* - a property that the entity has contingently, without which it still retains its identity.
+[philosophy] Essence is the property that makes an entity what it fundamentally is, which it has by necessity, without which it loses its identity. Essence is contrasted with accident, which is a property that the entity has contingently, without which it still retains its identity.
 
 ## Extensionality
-Extensionality refers to principles that judge objects to be equal if they have the same external properties, as opposed to **intensionality**, which is concerned with whether the internal definitions of objects are the same. There are many predicates that are intensionally different but extensionally identical. For example, the expressions, 2+4 and 2*3, are extensionally equal (from outside), but intensionality different (from within).
+Extensionality refers to principles that judge objects to be equal if they have the same external properties, as opposed to intensionality, which is concerned with whether the internal definitions of objects are the same. There are many predicates that are intensionally different but extensionally identical. For example, the expressions, 2+4 and 2*3, are extensionally equal (from outside), but intensionality different (from within).
 
 ## Extremal
 The clause in a recursive definition that specifies that no items other than those generated by the stated rules fall within the definition; e.g. "0 is an natural number; if n is a natural number, then S(n) is a natural number, and nothing else is a natural number".
@@ -146,22 +154,24 @@ In logic, necessity and sufficiency are terms used to describe an implicational 
 Non-classical logics (and sometimes alternative logics) are formal systems that differ in a significant way from standard logical systems such as propositional and predicate logic. There are several ways in which this is done, including by way of extensions, deviations, and variations.
 
 ## Noumenon
-In metaphysics, the **noumenon** is a posited object or event that exists independently of human sense or perception. The term noumenon is generally used in relation to the term *phenomenon*, which refers to anything that can be apprehended by, or is an object of, the senses.
+[philosophy] Noumenon is a posited object or event that exists independently of human sense or perception. Noumenon is contrasted with phenomenon, which refers to anything that can be apprehended by (or is an object of) the senses.
 
 ## Phenomenon
-In metaphysics, the *noumenon* is a posited object or event that exists independently of human sense or perception. The term noumenon is generally used in relation to the term **phenomenon**, which refers to anything that can be apprehended by, or is an object of, the senses.
+[philosophy] The term "phenomenon" refers to anything that can be apprehended by (or is an object of) the senses. Phenomenon is contrasted with noumenon, which is a posited object or event that exists independently of human sense or perception.
 
 ## Philosophical logic
-Philosophical logic refers to those areas of philosophy in which recognized methods of logic have traditionally been used to solve or advance the discussion of philosophical problems. Among these, Sybil Wolfram highlights the study of argument, meaning, and truth, while Colin McGinn presents identity, existence, predication, necessity and truth as the main topics of his book on the subject.Philosophical logic also addresses extensions and alternatives to traditional, "classical" logic known as "non-classical" logics.
+[philosophy] Philosophical logic refers to those areas of philosophy in which recognized methods of logic have traditionally been used to solve or advance the discussion of philosophical problems. Among these are the study of argument, meaning, and truth, but also of identity, existence, predication, necessity and truth. Philosophical logic also addresses extensions and alternatives to traditional classical logics, known as non-classical logics.
 
 ## Philosophy of logic
 Following the developments in formal logic with symbolic logic in the late nineteenth century and mathematical logic in the twentieth, topics traditionally treated by logic not being part of formal logic have tended to be termed either philosophy of logic or philosophical logic if no longer simply logic. Compared to the history of logic the demarcation between philosophy of logic and philosophical logic is of recent coinage and not always entirely clear.
 
 ## Predicate
-A predicate takes an entity (or entities) in the *domain of discourse* as input and maps it to a truth value, outputing either True or False. A predicate is a statement that may be true or false depending on the values of its variables. If a predicate `P` means "is a member of set `S`", then, when used in the set builder notation, it can indicate set membership such that `P(x)` is true if `x` belongs to that set `S`. The types of predicates that take a single input (here `x`) are also called *properties*; the polyadic predicates are called *(polyadic) relations*, most commonly, they are binary and called *(binary) relations*.
+A predicate is a statement that takes argument variables, which range over the elements of the domain of discourse, and maps them to a truth value. In the case there are two such input variables, such a predicate is called a (binary) predicate or a (binary) relation. A unary predicate is often called a property. Predicates of larger arity may also be called relations.
 
-## Predicate symbols
-Predicates are represented by a predicate symbol (single capital letter) and they are used to denote properties of objects and relationships among them. Each predicate has an associated arity. Unary predicates represent positive or nagative properties of objects. For example, φ(x) could stand to mean that an object x is an odd number; i.e. x has a property of being odd. Polyadic predicates represent relations between objects. For example, if F stands for a function, we can denote it by F(x,y).
+If a predicate `P` marks the property "is divisible by 2", then `P(x)` is a statement of one variable `x`. However, the DOD must be specified so we know what individuals this variable ranges over. For example, if used inside a set builder notation like `𝔼 = { x | ∀x ∈ ℕ. P(x) }`, it indicates that a natural number `x` belongs to the set `𝔼` if `P(x)` holds.
+
+## Predicate symbol
+Predicates are represented by a predicate symbol used to denote properties of objects and relations between them. Each predicate has an associated arity. Unary predicates represent positive or negative properties of objects. For example, `φ(x)` could mean that an object `x` is an odd number, i.e. `x` has a property of being odd. Polyadic predicates represent relations between objects, possibly denoted by `R(x,y)`, or `xRy` for binary relations. Common binary relations frequently have own dedicated infix symbol, e.g. `x <= y`.
 
 ## Premise
 A premise is a statement that an argument claims will induce or justify a conclusion. A premise is an assumption that something is true.

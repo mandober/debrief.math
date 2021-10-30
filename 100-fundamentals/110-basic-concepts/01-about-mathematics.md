@@ -1,0 +1,23 @@
+# About Mathematics
+
+* Mathematics investigates abstract concepts like quantity, space, change, along with structures like relations and orders, and it also studies logical reasoning and computation.
+
+* The term "mathematics" comes from the Ancient Greek `μάθημα` (máthēma), meaning knowledge, study, learning. The word "arithmetic" is also rooted in Ancient Greek's `αριθμητική` (arithmetiki), a compound of `ἀριθμός` (arithmos) number, and `τέχνη, -τική` (tehne, -tiki) meaning art, skill, craft. Math began as a study of numbers and for a long time, it was primarily concerned with geometry and numbers.
+
+* While other sciences describe various aspects of the objective reality, mathematics plays out on a different stage, in the mind; it is the only possibly stage for exercising mathematics since mathematical objects do not exist in nature. Numbers and geometrical objects (and later many other mathematical objects as well) are not the things that can be found in the objective reality. No one ever has even seen a number 5 or an absolutely perfect circle, let alone proved their existence. Yet people take them for granted, a commonplace, and talk about them like it's nobody's business. These ideals owe their unwordly perfection to the belief alone; in fact, their entire existence depends on our belief, which is the point mathematics shares with religion (therefore, mathematics is a religion).
+
+* Unlike other sciences, that deal with questions around "what is" and "what was", mathematics is only interested in "__what must be__" (es muss sein). It would be surprising to discover a non-carbon-based lifeform, but it would be something else entirely to discover a non-π-based circle (in the Euclidean plane).
+
+* Speaking of the Euclidean plane, one of the factors that initiated the late XIX century's movement to axiomatize all of mathematics, was the discovery of other geometries. Before that discovery, there was only one geometry, now called Euclidean, that was established by Euclid in the IV century BCE, in his book "Elemenets", which was used as the main textbook for geometry classes in academias across Europe, for the next two millenia (and it is the all time's second most published book). "Elements" are the prime example of rigourous mathematical axiomatization: Euclid starts by declaring his 5 axioms, and then proceeded to derive numerous theorems concerning geometry based solely on these 5 axioms. With that, Euclid had established *the mathematical method*, the methodology used to buid a mathematical theory, practiced still today.
+
+
+(It was his fifth axiom, about parallel lines, that other mathematicians picked on only to eventually reveal other kinds of geometries)
+
+
+When the concern to axiomatize mathematics was raised in the late XIX century, many areas (of modern math that then existed), paricularly the number theory, which was practically the focal point of mathematical investigation, were already deeply established, so the process of axiomatization was reversed and needed to work its way backwards, from the existing body of knowledge, *back to the first principles*.
+
+As in any theory, it was particularly *important to come up with the most basic notion pertaining to mathematics*. Although the concept of a number seems a likely winner for the prestiguous role of the most basic mathematical notion, the candidate coming from the newly invented set theory was deemed a better one. After all, sets are more abstract then numbers, and it this case that is the advantage. However, it seems there will always be issues to address, regardless of which notion is considered the most basic mathematical primitive.
+
+Geometry is based around the notion of a *dimensionless point*, used as a basic building block for the higher-dimension objects. A line is a set of points. A line is considered a 1-dimansional object; but the question of where does that dimension came from (considering that a line is just a set of dimensionless points) has exiled a line into primitives.
+
+The *process of axiomatization* normally starts with a blank slate, sort to speak. The most fundamental notion, central to the theory that is about to be built, must be properly identified, since this is the notion that axioms, determined in the next step, are to support. Having more than one central notion is possible, but it's prefered to keep things simple and single. After identifying the central concept and declaring the set of axioms, all the other notions pertaining to a theory are derived from there, until the entire theory is constructed. Only the primitives and the axioms get a pass, all the other concepts must be rigourously argumented for.

@@ -1,8 +1,6 @@
 # Substitution
 
 
----
-
 ## Rewrite rules 
 
 The rewrite rules of the lambda calculus depend on the notion of substitution of an expression `e1` for all free occurrences of an identifier `x` in an expression `e2`, which we denote by `[e1/x]e2`, meaning all bound `x`'s are to be replaced with `e1` in the body `e2` (from whose view `x`'s are free).
@@ -18,12 +16,23 @@ The 1. rule says that an expr consisting solely of x has exactly that x as the f
 
 We say that `x` is free in `e` iff `x ∈ fv(e)`.
 
-The substitution `[e1/x]e2` is then defined inductively by:
 
-1. [e/xᵢ]xⱼ = e     (if i = j)
-  - this is the form for the identity function
-  - (λx.x)e ~~> e
-  - (λxᵢ.xⱼ)e ~~> e
+**The substitution `[e1/x]e2` or `[x ⟼ e1]e2` is defined inductively by**
+
+1. `[e/xᵢ]xⱼ = e` (if i = j)
+  - since the subscripts of var `x` are the same, the `x` is the same variable, 
+    so this can be simplified to `[x ⟼ e]x = e`
+  - this is a term that repr an application of `f` to an arg `e`, `(λx . x) e`
+  - it consists of 
+    - a lambda abstraction, `f`, the term on the left, i.e. `(λx.x)`
+    - an argument, `e`, the term to the right of `f`
+  - the crucial property of this form is that the expression representing the body of this lambda is the same as its formal parameter (e.g. `λx.x`), that is, *both the abstraction's formal param and its body are the same variable*.
+  - this means that any arg `e`, to which this abstaction is applied, will produce the same argument `e` as the result.
+  - in fact, in this form, the abstraction on the left must be an identity function, like `λx.x`, α-equivalent to any other identity function, `λz.z`.
+  - the term repr the argument in this form can be any exp, and that same exp will be returned as the result of beta reduction.
+  - `(λx.x)e` ~> `e`
+  - `(λxᵢ.xⱼ)e` ~> `e`
+
 
 2. [e/xᵢ]xⱼ = xⱼ    (if i ≠ j)
   - this is the form for a function that discards its parameter
@@ -46,6 +55,48 @@ The substitution `[e1/x]e2` is then defined inductively by:
 
 ---
 
+The process of substituting the arg `A` for free occurrences of the parameter `p` in the body `B` is denoted by `B[p := A]` or `[p ⟼ A]B` or `[p/A]B`, and it is defined recursively as follows:
+
+1. `[p ⟼ A]p` ≡ `A` (eta reduction)     e.g. `(λp.p)a` ~> `[p ⟼ a]p` ~> `p`
+2. `[p ⟼ B]a` ≡ `B` (dropped param/arg) e.g. `(λp.b)a` ~> `[p ⟼ a]b` ~> `b`
+
+
+3. `[p ⟼ A](M N)` ≡ `([p ⟼ A]M [p ⟼ A]N)`
+
+
+```
+(λp. (λq. (p q) (λr. p q r))) a b c | [p ⟼ a](λq. (p q) (λr. p q r))
+~> (λq. (a q) (λr. a q r)) c        | [q ⟼ b]((a q) (λr. a q r))
+~> (a b) (λr. a b r) c              | [r ⟼ c](a b r)
+~> (a b) (a b c)
+```
+
+
+4. `[x ⟼ N](λy . M)` ≡ `[x ⟼ N](λy . M)`
+
+
+---
+
+
+**η-conversion**
+eta-reduction reduces a term to its point-free form.
+
+```hs
+f x y = g x y
+≡ f x = g x
+  ≡ f = g
+```
+
+- going forward and reducing this redex, we get an *eta-reduction*:   
+  `(λx.x) e` ≡ `e`
+- going backward and expanding this redex, we get an *eta-expansion*, 
+  which is a way to bind a free variable:   
+  `e` ≡ `λe. (λx.x) e`
+
+
+Simulation in the call-by-need lambda-calculus with letrec
+
+----
 
 
 The fundamental issue with locally named binders is the problem of *name capture*, that is, handling the issue when a substitution conflicts with the names of free variables, presenting the risk of erraneous name capture.

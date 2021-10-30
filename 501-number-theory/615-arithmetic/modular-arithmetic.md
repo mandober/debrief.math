@@ -1,6 +1,58 @@
 # Modular arithmetic
 
-* The essence of modular arithmetic is the congruence relation, which is an equivalence relation, that relates two integers with the same property - they have the same remainder when divided by the a certain modulus.
+https://en.wikipedia.org/wiki/Modular_arithmetic
+
+## Terms
+
+modular arithmetic
+modulus
+wrap-around operation, wrap-around addition
+congruence relation
+
+
+## Modular arithmetic
+
+Modular Arithmetic (MA) is a special system of integer arithmetic, where integers exhibit the wrap-around behavior after reaching a certain value, called *modulus*.
+
+The modern approach to MA was developed by Carl Friedrich Gauss in his book "Disquisitiones Arithmeticae" from 1801.
+
+An example of MA, familiar to everone is the 24-hour clock, where the hours wrap around after reaching 23. Addition in this system also wraps around, such that if it's 19 o'clock, then 8 hours later is 3 o'clock, for 27 ≡ 3 (mod 12).
+
+The essence of modular arithmetic is the *congruence relation*, which is an *equivalence relation*, that relates two integers with the same property: they have the same remainder when divided by the same modulus.
+
+The congruence relation is denoted by `a ≡ b (mod m)` 
+meaning that `a` is congruent to `b` modulo `m`.
+
+
+```
+all vars are integers, ∀_ ∈ ℤ
+=============
+a ≡ b (mod m)
+=============
+if m > 1 => m | (a - b)
+         => ∃k. km = a - b
+a = bk + m
+b = ak + m
+
+a - m = bk
+b - m = ak
+
+r = a / m = b / m
+
+km = a - b
+k = (a - b) / m
+```
+
+`a ≡ b (mod m)`, where `∀_ ∈ ℤ`, means:
+* `a / m = r = b / m`
+  a and b have the same remainder, r, when divided by m
+* a = kb + m
+  a - m = kb
+* b = ka + m
+  b - m = ab
+* a = km + b
+* km = a - b
+* a ≡ b (mod m) => m|(a − b)
 
 
 - (∀m ∈ ℤ. m > 1). (∀ab ∈ ℤ). `a ≡ b (mod m) => m|(a − b)`
@@ -8,14 +60,10 @@
 - congruence relation: `a ≡ b (mod n)`"a is congruent to b modulo m"
 - congruence relation: `a = kn + b` alt notation for congruence relation
 - a (mod n)
-- 5 (mod 7) ≠ 5 (mod 6) ...are they different types?
+- 5 (mod 7) ≠ 5 (mod 6) [...aren't-they-different-types?]
 
 
 ## Modular arithmetic
-
-https://en.wikipedia.org/wiki/Modular_arithmetic
-
-*Modular arithmetic* is a system of arithmetic for integers where they "wrap around" (wrt the supported operations) after reaching a certain value, called the *modulus*.
 
 Given a modulus `m`, where `m ∈ ℤ ∧ m > 1`, two integers `a` and `b` are said to be **congruent modulo m** if `m` is a divisor of their difference, i.e. if there exists an integer `k` such that `a − b = kn`, denoted:
 

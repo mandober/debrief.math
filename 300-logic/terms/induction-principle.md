@@ -6,7 +6,6 @@ Let P(n) be a statement about the natural number n, where P is a predicate and n
 2. P(n) -> P(n+1)
 
 
-
 ## Example: Sum of odd integers yields squares
 
 Conjecture: 1 + 3 + 5 + ... + (2ⁿ−1) = n²

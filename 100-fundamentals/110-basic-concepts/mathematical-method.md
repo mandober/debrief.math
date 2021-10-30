@@ -1,0 +1,53 @@
+## List of mathematics-based methods
+
+https://en.wikipedia.org/wiki/List_of_mathematics-based_methods
+
+- Adams' method (differential equations)
+- Akra-Bazzi method (asymptotic analysis)
+- Bisection method (root finding)
+- Brent's method (root finding)
+- Condorcet method (voting systems)
+- Coombs' method (voting systems)
+- Copeland's method (voting systems)
+- Crank-Nicolson method (numerical analysis)
+- D'Hondt method (voting systems)
+- D21 - Janeček method (voting system)
+- Discrete element method (numerical analysis)
+- Domain decomposition method (numerical analysis)
+- Epidemiological methods
+- Euler's forward method
+- Explicit and implicit methods (numerical analysis)
+- Finite difference method (numerical analysis)
+- Finite element method (numerical analysis)
+- Finite volume method (numerical analysis)
+- Highest averages method (voting systems)
+- Method of exhaustion
+- Method of infinite descent (number theory)
+- Information bottleneck method
+- Inverse chain rule method (calculus)
+- Inverse transform sampling method (probability)
+- Iterative method (numerical analysis)
+- Jacobi method (linear algebra)
+- Largest remainder method (voting systems)
+- Level-set method
+- Linear combination of atomic orbitals molecular orbital method (molecular orbitals)
+- Method of characteristics
+- Least squares method (optimization, statistics)
+- Maximum likelihood method (statistics)
+- Method of complements (arithmetic)
+- Method of moving frames (differential geometry)
+- Method of successive substitution (number theory)
+- Monte Carlo method (computational physics, simulation)
+- Newton's method (numerical analysis)
+- Pemdas method (order of operation)
+- Perturbation methods (functional analysis, quantum theory)
+- Probabilistic method (combinatorics)
+- Romberg's method (numerical analysis)
+- Runge-Kutta method (numerical analysis)
+- Sainte-Laguë method (voting systems)
+- Schulze method (voting systems)
+- Sequential Monte Carlo method
+- Simplex method
+- Spectral method (numerical analysis)
+- Variational methods (mathematical analysis, differential equations)
+- Welch's method

@@ -1,16 +1,12 @@
 # Category Theory: Definitions
 
-category
-functor
-natural transformation
 
-===============================================================================
 Programming with Categories (DRAFT) - Fong, Bartosz, Spivak 2020
 
 A category is a network of composable relationships.
 
 (Definition)
-A category C consists of four constituents:
+> A category C consists of four constituents:
 (i) a set Ob"C", elements of which are called objects of C;
 (ii) for every pair of objects c; d 2 Ob"C" a set C"c; d", elements of which are called
 morphisms from c to d and often denoted f : c ! d;

@@ -1,1 +1,0 @@
-# Lambda Calculus: Basic concepts
