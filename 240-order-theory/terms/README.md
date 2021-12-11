@@ -10,9 +10,9 @@ Order theory
   - [Partial order](./partial-order.md)
 
 * Types of structures with orders
-  - [Ordered set](./ordered-set.md)
+  - [Ordered set](types-of-ordered-sets.md)
   - [Partially ordered set, Poset](./poset.md)
 
 * Indexes
-  - [List of order structures](../list-of-order-structures.md)
-  - [List of order theory topics](../list-of-order-theory-topics.md)
+  - [List of order structures](list-of-order-structures.md)
+  - [List of order theory topics](list-of-order-theory-topics.md)

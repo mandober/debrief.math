@@ -7,6 +7,7 @@
 
 
 
+
 ## Fundamental set properties
 
 The most fundamental properties of a set are in terms of ordering and uniqueness: elements in a set are **unordered** (their order is immaterial), and the elements are **unique** (multiple instances of the same element are treated as a single object).

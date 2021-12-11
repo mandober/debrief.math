@@ -5,6 +5,9 @@
 - section-name: mathematical logic
 - meta-path:`math/300-logic`
 
+
+https://en.wikiversity.org/wiki/Logic_Live
+
 ## Rationale
 
 As a math discipline, Mathematical Logic, should be introduced at the earliest occasion since it is needed for any other topic. On the other hand, it's not needed in its entirety (e.g. to go over the set theory), but one the previous hand, it is strictly forbidden to split the section. Perhaps, a "logic primer" of sorts, as a page in the set theory

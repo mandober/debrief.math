@@ -2,33 +2,40 @@
 
 https://en.wikipedia.org/wiki/Axiom_of_extensionality
 
+* `∀x.(x ∈ A ⟺ x ∈ B) ⟺ A = B`
+* `∀A∀B.(∀x. x ∈ A -> X ∈ B) -> A = B`
+
+**The Axiom of extensionality** (extension or extent):
+
 `∀x.(x ∈ A ⟺ x ∈ B) ⟺ A = B`
 
-`∀A∀B. (∀x. x ∈ A -> X ∈ B) -> A = B`
-
-The Axiom of Extension (Extensionality, Extent)
-- `∀x . (x ∈ A ⟺ x ∈ B) ⟺ A = B`
-- defines sets
-- defines sets as objects determined by their elements
-- defines set equality: sets are equal if they have the same elements
+1. defines sets
+2. (defines sets) as objects determined by their elements
+3. defines the equality of sets: sets are equal if they have the same elements
 
 
 **The axiom of extensionality** is an axiom of ZF set theory that states that two sets are equal (are the same set) if they contain the same elements:
 
-∀A∀B. (∀x. x ∈ A -> X ∈ B) -> A = B
+`∀A∀B. ∀x(x ∈ A -> X ∈ B)) -> A = B`
 
-> $$\forall A\,\forall B\,(\forall X\,(X\in A\Rightarrow X\in B)\to A=B)$$
+Given any set `A` and any set `B`, 
+if for every set `X` holds that 
+`X` is a member of `A` iff 
+`X` is a member of `B` 
+(i.e. `A` and `B` have the same elements) 
+then `A` is equal to `B`.
 
-Given any set $$A$$ and any set $$B$$, if for every set $$X$$ holds that $$X$$ is a member of $$A$$ iff $$X$$ is a member of $$B$$ (i.e. $$A$$ and $$B$$ have the same elements) then $$A$$ is equal to $$B$$. It is not essential that $$X$$ here is a set, but in ZF everything is.
+It is not essential that `X` here is a set, but in ZF everything is.
+
 
 The converse, follows from the substitution property of equality:
-$$\forall A\,\forall B\,(A=B\to \forall X\,(X\in A\Rightarrow X\in B))$$
+
+`∀A∀B. (A = B -> ∀x(x ∈ A -> X ∈ B))`
+
+The clause in parentheses states that `A` and `B` have precisely the same elements, thus the axiom is stating that two sets are equal iff they have precisely the same members. From that it follows that a set is uniquely determined by its elements.
 
 
-The clause in parentheses states that $$A$$ and $$B$$ have precisely the same elements, thus the axiom is stating that two sets are equal iff they have precisely the same members. From that it follows that a set is uniquely determined by its elements.
-
-
-The axiom of extensionality can be used with any statement of the form $$\exists A\,\forall X\,(X\in A\Rightarrow P(X)\,)$$, where $$P$$ is any unary predicate that does not mention $$A$$, to define a unique set $$A$$ whose members are precisely the sets satisfying the predicate $$P$$. We can then introduce a new symbol for $$A$$; it's in this way that definitions in ordinary mathematics ultimately work when their statements are reduced to purely set-theoretic terms.
+The axiom of extensionality can be used with any statement of the form `\exists A\,\forall X\,(X\in A\Rightarrow P(X)\,)`, where `P` is any unary predicate that does not mention `A`, to define a unique set `A` whose members are precisely the sets satisfying the predicate `P`. We can then introduce a new symbol for `A`; it's in this way that definitions in ordinary mathematics ultimately work when their statements are reduced to purely set-theoretic terms.
 
 
 ## Modifications of the axiom of extension

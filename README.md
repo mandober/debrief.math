@@ -4,6 +4,7 @@
 - repo: https://github.com/mandober/debrief.math
 - book: https://mandober.gitbook.io/math-debrief/ (out of sync)
 - desc: lo-fi math notes
+- auth: 🚌🚏 🐀👜
 
 ### About
 
@@ -29,11 +30,13 @@ A collection of notes about math, largely from Wikipedia, a copypasta pile of ar
 
 ### Biased endorsements
 
-*"Endorsement of a particularly sensational, violent concept of mathematics that provokes and reflects the pervasive sense of embittered anger, confusing restlessness, socio-sexual frustration or otherwise derived alienation endured by a generation of disenfranchised devs, amidst the declining interests in denotational semantics and overall program correctness, smack right in the bug-ridden sigh of our times."* -- Simon Ferocious 🚌🚏🐀👜
+* *"Endorsement of a particularly sensational, violent concept of mathematics that provokes and reflects the pervasive sense of embittered anger, confusing restlessness, socio-sexual frustration or otherwise derived alienation endured by a generation of disenfranchised devs, amidst the declining interests in denotational semantics and overall program correctness, smack right in the bug-ridden sigh of our times."* -- Simon Ferocious
 
-_"An almost language-free communication of ideas previously though improbable. The lure of imaginary is momentarily frozen before the dialectic of desire plugs the leaks of abstraction setting in motion the entirety of implied events."_-- Phineas Gage 👨‍🚒👨‍🚒
+* _"An almost language-free communication of ideas previously though improbable. The lure of imaginary is momentarily frozen before the dialectic of desire plugs the leaks of abstraction setting in motion the entirety of implied events."_-- Phineas Gage 👨‍🚒👨‍🚒
 
-_"C'est un espace trop chiffré, n'est-ce pas?"_ -- Abraham Surd 🪑🪑🪑
+* _"C'est un espace trop chiffré, n'est-ce pas?"_ -- Abraham Surd 🪑🪑🪑
+
+* _"Huius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet."_ -- The F Monk
 
 
 ### Related

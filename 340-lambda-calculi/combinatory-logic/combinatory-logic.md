@@ -41,7 +41,8 @@ The third combinator is S, which is a generalized version of application:
 `S` applies `x` to `y` after first substituting `z` into each of them; i.e. `x` is applied to `y` inside the environment `z`).
 
 In pseudo LC (with S instead of λ):
-```
+
+```js
 (λfgx.fx(gx))a b z    [a/f]fx(gx)
  (λgx.ax(gx))b z      [b/g]ax(gx)
   (λx.ax(bx))z        [z/x]ax(bx)
@@ -52,7 +53,7 @@ It's like having a fn `λfg.fg`, but before applying f to g, you want to apply b
 
 Given `S` and `K`, we can build `I`:
 
-```
+```js
 CL:         vs  LC    /S: λfga.fa(ga)/, /K: λab.a/
 ((S K K) x  |   SKKx = (S     ) K    ) K    ) x
 (S K K x)   |   (((λfgh.fh(gh)) λab.a) λmn.m) x

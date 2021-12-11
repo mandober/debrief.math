@@ -1,5 +1,7 @@
 # Binary relations
 
+⊰ ⨟ ⨾ ⊱ ⫴ ⫻ ☂ ⛱ Ꝕ ꝕ 🗪 ❏ ★ Ʀ
+
 $$
 \begin{align}
 & reflexivity    & \forall & x   . & & xRx          \\
@@ -58,7 +60,6 @@ $$Rxy$$ or $$xRy$$ denotes a **homogeneous** relation when $$X = Y$$ and a **het
 
 
 
-
 Binary relations (all relations are transitive and reflexive)
 
 Relation | Sy | vS | Cx | Wf | Jn | Mt
@@ -87,7 +88,6 @@ Legend:
 ## Reference
 
 https://en.wikipedia.org/wiki/Binary_relation
-
 https://en.wikipedia.org/wiki/Lattice_(order)
 https://en.wikipedia.org/wiki/Finitary_relation
 https://en.wikipedia.org/wiki/Heterogeneous_relation

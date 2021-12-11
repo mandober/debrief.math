@@ -1,10 +1,12 @@
 # Lambda Calculus: OUTLINE
 
+λ-calculus: descriptions
+λI-calculus
+
 * Syntax of lambda calculus
   - variables
   - lambda abstraction
   - lambda application
-
 
 * Introduction to lambda calculus
   - Lambda calculus
@@ -26,10 +28,19 @@
       - Beta normal form
       - Normal form
       - WHNF
+* confluence
+  - ground confluence
+  - local confluence
+  - Church-Rosser property
+  - semi-confluence
+  - strong confluence
+
 
 ## Category:Lambda_calculus
 
 https://en.wikipedia.org/wiki/Category:Lambda_calculus
+
+https://en.wikipedia.org/wiki/Apply
 
 Lambda calculus
 Anonymous function
@@ -84,58 +95,141 @@ Untyped lambda calculus
 Η-conversion
 
 
+# LC Topics
+
+* Lambda calculus: people
+  - Alonzo Church
+  - Steven Kleene
+  - Rosser
+  - Haskell Curry
+
+* Lambda calculus
+  - AKA: λ-calculus, untyped λ-calculus
+  - formalism in math logic
+
+* Introduction to λ-calculus
+  - Lambda Calculus
+    - Combinatory logic
+  - LC as a formal mathematical logic
+  - LC as a model of computation
+    - universal model of computation
+    - Church-Turing thesis
+  - LC as a FPL
+
+* Definition of λ-calculus
+  - function abstraction
+  - function application
+  - variables
+
+* Elements of λ-calculus
+  - formal notation
+    - de Bruijn notation
+    - de Bruijn indexing
+  - lambda expression
+  - lambda term
+    - reducible term (redex)
+    - open term
+    - closed term (combinator)
+  - Lambda forms
+    - normal form, NF
+    - weak-head normal form, WHNF
 
 
-https://en.wikipedia.org/wiki/Lambda_calculus
-https://en.wikipedia.org/wiki/Anonymous_function
-https://en.wikipedia.org/wiki/Applicative_computing_systems
-https://en.wikipedia.org/wiki/Apply
-https://en.wikipedia.org/wiki/B,_C,_K,_W_system
-https://en.wikipedia.org/wiki/Beta_normal_form
+* LC axioms
+  - α-conversion
+  - β-reduction
+  - η-conversion
+λ-calculus
+α-conversion
+β-reduction
+η-conversion
+η-reduction
+η-expansion
 
-https://en.wikipedia.org/wiki/Bohm_tree
 
-https://en.wikipedia.org/wiki/Calculus_of_constructions
-https://en.wikipedia.org/wiki/Call-by-push-value
-https://en.wikipedia.org/wiki/Cartesian_closed_category
-https://en.wikipedia.org/wiki/Church_encoding
-https://en.wikipedia.org/wiki/Church-Rosser_theorem
-https://en.wikipedia.org/wiki/Combinatory_logic
-https://en.wikipedia.org/wiki/Currying
-https://en.wikipedia.org/wiki/De_Bruijn_index
-https://en.wikipedia.org/wiki/De_Bruijn_notation
-https://en.wikipedia.org/wiki/Deductive_lambda_calculus
-https://en.wikipedia.org/wiki/Director_string
-https://en.wikipedia.org/wiki/Divergence_(computer_science)
-https://en.wikipedia.org/wiki/Explicit_substitution
-https://en.wikipedia.org/wiki/Fixed-point_combinator
-https://en.wikipedia.org/wiki/Higher-order_function
-https://en.wikipedia.org/wiki/Hindley-Milner_type_system
-https://en.wikipedia.org/wiki/Intersection_type_discipline
-https://en.wikipedia.org/wiki/Kleene-Rosser_paradox
-https://en.wikipedia.org/wiki/Knights_of_the_Lambda_Calculus
-https://en.wikipedia.org/wiki/Krivine_machine
-https://en.wikipedia.org/wiki/Lambda_calculus_definition
-https://en.wikipedia.org/wiki/Lambda_cube
-https://en.wikipedia.org/wiki/Lambda_lifting
-https://en.wikipedia.org/wiki/Lambda-mu_calculus
-https://en.wikipedia.org/wiki/Let_expression
-https://en.wikipedia.org/wiki/Mogensen-Scott_encoding
-https://en.wikipedia.org/wiki/Montague_grammar
-https://en.wikipedia.org/wiki/Normalisation_by_evaluation
-https://en.wikipedia.org/wiki/Normalization_property_(abstract_rewriting)
-https://en.wikipedia.org/wiki/Pattern_calculus
-https://en.wikipedia.org/wiki/Pure_type_system
-https://en.wikipedia.org/wiki/Reduction_strategy
-https://en.wikipedia.org/wiki/Rho_calculus
-https://en.wikipedia.org/wiki/Scott-Curry_theorem
-https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus
-https://en.wikipedia.org/wiki/SKI_combinator_calculus
-https://en.wikipedia.org/wiki/Supercombinator
-https://en.wikipedia.org/wiki/System_F
-https://en.wikipedia.org/wiki/System_F-sub
-https://en.wikipedia.org/wiki/System_U
-https://en.wikipedia.org/wiki/Type_inhabitation
-https://en.wikipedia.org/wiki/Typed_lambda_calculus
-https://en.wikipedia.org/wiki/Untyped_lambda_calculus
-https://en.wikipedia.org/wiki/%CE%97-conversion
+
+* Lambda variables
+  - bound variables
+  - free variables
+  - binding occurence of variables
+  - applied occurence of variables
+
+* LC operations
+  - name binding
+    - variable binding
+    - binder
+    - binding context
+    - binder scope
+    - defining occurance, binding occurence
+    - applied occurence
+  - variable substitution
+    - Reduction
+    - Capture-avoiding substitution, name capture
+    - fresh variable, fresh name
+    - α-conversion, renaming of free variables
+    - de Bruijn indexing
+
+* Evaluation
+  - Order of evaluation
+    - normal
+    - applicative
+
+* Techniques
+  - Named constants
+  - Recursion
+  - fixed point combinators
+  - Standard terms
+  - Abstraction elimination
+  - lambda lifting
+  - lambda dropping
+
+* Type systems
+  - untyped λ-calculus
+  - simply-typed λ-calculus
+  - typed λ-calculi
+
+* Variations and extensions
+  - let-expressions
+  - Typed Lambda Calculi
+  - λI-calculus
+  - λ→
+  - PCF
+  - ρ-calculus, integrates rewriting and lambda calculus
+
+* Encoding schemes
+  - Common Encoding schemes
+    - Church encoding
+      - Church Boleans
+      - Church numerals
+      - Church pair
+    - Scott encoding
+    - Mogensen-Scott encoding
+    - Parigot encoding
+  - Encoding logic
+  - Encoding predicates
+  - Encoding numbers
+  - Encoding arithmetic
+  - Encoding datatypes
+    - Encoding pairs
+    - Encoding lists
+
+* MISC
+  - denotational semantics
+  - Church-Turing thesis
+  - Church-Rosser theorem
+  - confluence property
+  - Standardization Theorem
+  - Curry-Howard isomorphism
+  - weak and strong normalization
+  - type inference
+  - canonym (canonical names)
+  - complete partial orders
+  - Computable functions and lambda calculus
+  - Undecidability of equivalence, ξ-conversion
+  - Semantics
+  - relation to combinatorial logic
+    - relation to SKI combinators
+  - fixpoint operator
+  - Deductive lambda calculus
+  - Kleene-Rosser paradox
+  - Curry paradox

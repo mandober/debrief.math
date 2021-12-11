@@ -34,3 +34,6 @@ Restriction · Composition · λ · Inverse
 
 * Generalizations  
 Partial · Multivalued · Implicit
+
+History of the function concept
+https://en.wikipedia.org/wiki/History_of_the_function_concept

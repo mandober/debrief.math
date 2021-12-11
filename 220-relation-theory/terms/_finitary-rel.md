@@ -51,14 +51,4 @@ The second definition makes use of an idiom that is common in mathematics, stipu
 
 In the case of a relation L over k sets, there are k + 1 things to specify, namely, the k sets plus a subset of their Cartesian product. In the idiom, this is expressed by saying that L is a (k + 1)-tuple.
 
-
-
-
-
-
-
-
-
----
-
 https://en.wikipedia.org/wiki/Finitary_relation
