@@ -114,3 +114,6 @@ Part Three
 
 PDF version
 * [pdf version](https://github.com/hmemcpy/milewski-ctfp-pdf/)
+
+* FP jargon
+https://github.com/hemanth/functional-programming-jargon

@@ -1,6 +1,12 @@
 # Complexity Theory
 
+
+Computational Complexity
+https://en.wikipedia.org/wiki/Computational_complexity
+
 Computational Complexity Theory
+https://en.wikipedia.org/wiki/Computational_complexity_theory
+
 
 ## Complexity theory
 

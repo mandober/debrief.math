@@ -11,14 +11,11 @@ Functors are one of the fundamental elements of category theory. Functors allow 
 
 A functor (also called "morphism of categories") is a mapping between categories, `F ∶ 𝒞 → 𝒟` : not only it maps objects in `𝒞` to objects in `𝒟`, but it also maps morphisms in `𝒞` to morphisms in `𝒟`.
 
-The *identity functor* maps a category, `𝒞`, back to itself, `Fɪᴅ : 𝒞 → 𝒞` by mapping each object in `𝒞` to itself, and each arrow in `𝒞` to itself.
+The *identity functor* maps a category, `𝒞`, back to itself, `1ꜰ : 𝒞 → 𝒞` by mapping each object in `𝒞` to itself, and each arrow in `𝒞` to itself.
 
-
-A functor `F` maps between categories `𝒞` and `𝒟` using its two component morphisms, one for mapping objects and the other for mapping arrows:
-
-* component morphism `Fₒ` that maps each object `a` in `𝒞` to an object `F a` in `𝒟` with signature `Fₒ : a → F a`
-
-* component morphism `Fₘ` that assigns to each arrow `f : a → b` in `𝒞`, an arrow `F f : F a → F b` in `𝒟` such that `F (g ◦ f) = F g ◦ F f` and `F 1ᴀ = 1ꜰₐ`
+A functor `F` maps between categories `𝒞` and `𝒟` using its two component morphisms: one for mapping objects and the other for mapping arrows:
+- component morphism `Fₒ` that maps each object `a` in `𝒞` to an object `F a` in `𝒟` with signature `Fₒ : a → F a`
+- component morphism `Fₘ` that assigns to each arrow `f : a → b` in `𝒞`, an arrow `F f : F a → F b` in `𝒟` such that `F (g ◦ f) = F g ◦ F f` and `1ₐ = 1ꜰₐ`
 
 ===============================================================================
 
@@ -32,11 +29,11 @@ to each object `a` in `𝒞`
   an object `Fₒ a` in `𝒟`, and 
 to each morphism `f ∶ a → b` in `𝒞` 
   a morphism `Fₘ f ∶ Fₒ a → Fₒ b` in `𝒟`, 
-such that, for all objects `a` in `𝒞`, 
-  `Fₒ (idᴀ) = idꜰᴀ`, 
-and, for all morphisms 
-  `f ∶ a → b` and `g ∶ b → c` in `𝒞`, 
-  `Fₘ (g ∘ f) = Fₘ (g) ∘ Fₘ (f)`.
+such that
+  forall objects `a` in 𝒞: `Fₒ(1ₐ) = 1ꜰₐ`
+and
+  forall morphisms `f ∶ a → b` and `g ∶ b → c` in `𝒞`:
+  `Fₘ (g ∘ f) = Fₘ (g) ∘ Fₘ (f)`
 
 </fieldset>
 

@@ -2,9 +2,9 @@
 
 https://en.wikipedia.org/wiki/Transitive_closure
 
-> Transitive closure of a binary relation `R` on a set `X` is the smallest relation on `X` that contains `R` and is transitive.
+Transitive closure of a binary relation `R` on a set `X` is the smallest relation on `X` that contains `R` and is transitive.
 
-For finite sets, "smallest" can be taken in its usual sense, of having the fewest related pairs. For infinite sets, it is *the unique minimal transitive superset* of `R`.
+> For finite sets, "smallest" can be taken in its usual sense, of having the fewest related pairs. For infinite sets, it is *the unique minimal transitive superset* of `R`.
 
 For example, if X is a set of airports and xRy means "there is a direct flight from airport x to airport y" (for x and y in X), then the transitive closure of R on X is the relation R+ such that x R+ y means "it is possible to fly from x to y in one or more flights". Informally, the transitive closure gives you the set of all places you can get to from any starting place.
 

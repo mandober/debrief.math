@@ -2,6 +2,9 @@
 
 https://en.wikipedia.org/wiki/Theory_of_computation
 
+Theoretical computer science emerged primarily from the work of Alan Turing and Alonzo Church in 1936, although many others, such as Russell, Hilbert, Boole, were important precursors. Turing and Church introduced formal computational models (the Turing machine and lambda calculus), showed that some well-stated computational problems have no solution, and demonstrated the existence of universal computing machines, machines capable of simulating every other machine of their type.
+
+
 ## Introduction
 
 **Theory of computation** (TOC) tries to find out what computing problems can be solved using a particular model of computation and a particular algorithm. For the solved subset of computing problems, TOC measures the efficiency of solution in terms of time and space complexity. For a subset of problems with only approximate solutions, TOC analyzes the degree of solution's precision.

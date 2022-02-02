@@ -1,0 +1,5 @@
+# My :: Logic
+
+**Propositional logic** (SL) has propositional variables (p, q, r, etc.) that range over the domain of discorse (DOD) which is usually fixed in advance, although the range may be restricted per variable. The DOD is also specified to be a nonempty set of individuals. SL ismos tly concerned with combining the atomic statements (connective-free statements) into the compound statements using logical connectives. SL doesn't support quantification, which may be understood as all variables being implicitly universally quantified. The main type of statements in SL is a well-formed formula (wff). Wffs are the subject to inference rules, but the set of all the applicable transformations depends on whether the logic admits classical or intuitionistic approach.
+
+**Zeroth-order logic** is first-order logic without variables or quantifiers. Some authors use the phrase "zeroth-order logic" as a synonym for the propositional logic, but an alternative definition extends propositional logic by adding constants, operations, and relations on non-Boolean values.

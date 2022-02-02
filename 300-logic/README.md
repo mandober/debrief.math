@@ -1,12 +1,5 @@
 # Logic
 
-- debrief: math
-- section: logic
-- section-name: mathematical logic
-- meta-path:`math/300-logic`
-
-
-https://en.wikiversity.org/wiki/Logic_Live
 
 ## Rationale
 

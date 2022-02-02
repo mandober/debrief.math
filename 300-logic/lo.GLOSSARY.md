@@ -3,25 +3,26 @@
 <!-- TOC -->
 
 - [Absoluteness](#absoluteness)
-- [Accident](#accident)
-- [Analytic-synthetic distinction](#analytic-synthetic-distinction)
 - [Argumentation theory](#argumentation-theory)
-- [Axiology](#axiology)
 - [Axiom](#axiom)
+- [Collation](#collation)
 - [Conjecture](#conjecture)
 - [Constants symbols](#constants-symbols)
 - [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
-- [Essence](#essence)
+- [Description](#description)
+- [Definite description](#definite-description)
 - [Extensionality](#extensionality)
 - [Extremal](#extremal)
 - [Fallacy](#fallacy)
 - [First-order logic](#first-order-logic)
 - [Formal logic](#formal-logic)
+- [Formula](#formula)
 - [Fuzzy logic](#fuzzy-logic)
 - [iff](#iff)
 - [Informal logic](#informal-logic)
 - [Laws of Thought](#laws-of-thought)
+- [Logic](#logic)
 - [Logical Connectives](#logical-connectives)
 - [Logical Consequence](#logical-consequence)
 - [Logical Form](#logical-form)
@@ -33,54 +34,49 @@
 - [Naïve theory](#naïve-theory)
 - [Necessity and sufficiency](#necessity-and-sufficiency)
 - [Non-classical logic](#non-classical-logic)
-- [Noumenon](#noumenon)
-- [Phenomenon](#phenomenon)
-- [Philosophical logic](#philosophical-logic)
 - [Philosophy of logic](#philosophy-of-logic)
 - [Predicate](#predicate)
 - [Predicate symbol](#predicate-symbol)
 - [Premise](#premise)
+- [Prenex normal form](#prenex-normal-form)
 - [Primitive notion](#primitive-notion)
+- [Primitive symbol](#primitive-symbol)
 - [Proof by exhaustion](#proof-by-exhaustion)
 - [Propositional logic](#propositional-logic)
 - [Second-order Logic](#second-order-logic)
 - [Statement](#statement)
-- [Strict Conditional](#strict-conditional)
+- [Strict conditional](#strict-conditional)
 - [Substitution](#substitution)
 - [Syllogisms](#syllogisms)
-- [Symbolic Logic](#symbolic-logic)
+- [Symbolic logic](#symbolic-logic)
 - [Theorem](#theorem)
-- [Truth Value](#truth-value)
+- [Truth value](#truth-value)
+- [Universal-existential normal form](#universal-existential-normal-form)
 - [Validity](#validity)
 - [Variable symbols](#variable-symbols)
 - [Weakening](#weakening)
+- [Well-formed formula](#well-formed-formula)
 
 <!-- /TOC -->
 
 
 ## Absoluteness
-[mathematical-logic], a formula is said to be **absolute** if it has the same truth value in each class of structures/models.
-
-## Accident
-[philosophy] Accident is a property that the entity has contingently, without which it still retains its identity. Accident is contrasted with essence, which is the property that makes an entity fundamentally what it is, which it has by necessity, without which it loses its identity. 
-
-## Analytic-synthetic distinction
-[philosophy] The analytic-synthetic dichotomy is a semantic distinction, used primarily in philosophy to distinguish propositions into two types: analytic propositions and synthetic propositions. Analytic propositions are true by virtue of their meaning, while synthetic propositions are true by how their meaning relates to the world.
+A formula is said to be absolute if it has the same truth value in each class of structures/models.
 
 ## Argumentation theory
-Argumentation theory is the interdisciplinary study of how conclusions can be reached through logical reasoning i.e. claims based, soundly or not, on premises. It includes the arts and sciences of civil debate, dialogue, conversation, and persuasion.
-
-## Axiology
-Axiology is the philosophical study of value. It is either the collective term for ethics and aesthetics, philosophical fields that depend crucially on notions of worth, or the foundation for these fields, and thus similar to value theory and meta-ethics.
+Argumentation theory, or argumentation, is the interdisciplinary study of how conclusions can be reached from premises through logical reasoning. It includes debate, dialogue, conversation, persuasion. It studies inference and procedural rules in artificial and real world settings.
 
 ## Axiom
 An axiom or postulate is a statement that is taken to be true that serves as an initial premise or starting point for further reasoning and arguments. In classical logics, an axiom is an evident and well-established statement that needs no further proof. In modern logics, an axiom is a premise for reasoning.
+
+## Collation
+Collation is a generalization of a word (string of symbols from an alphabet) as a means to present information in a structured manner. A collation is a structured alignment with certain placeholders that underpins the construction of a formal language. These placeholders may then be replaced by elements of an alphabet (symbols) of the language. A collation in the alphabet is one where all placeholders are replaced by symbols from that alphabet.
 
 ## Conjecture
 An unproved statement that is believed true is called a conjecture. To be considered a conjecture, a statement must usually be proposed publicly, at which point the name of the proponent may be attached to the conjecture, as with Goldbach's conjecture. Other famous conjectures include the Collatz conjecture and the Riemann hypothesis. On the other hand, Fermat's Last Theorem has always been known by that name, even before it was proved; it was never known as "Fermat's conjecture".
 
 ## Constants symbols
-Constants symbols are strings that are interpreted as representing objects.
+Logical constants (constant symbols) are strings of symbols that (are interpreted to) represent objects.
 
 ## Defeasible inference
 Defeasible inferences is a kind of inference in which reasoners draw tentative conclusions, reserving the right to retract their conclusions based on further evidence.
@@ -88,23 +84,29 @@ Defeasible inferences is a kind of inference in which reasoners draw tentative c
 ## Defeasible reasoning
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
 
-## Essence
-[philosophy] Essence is the property that makes an entity what it fundamentally is, which it has by necessity, without which it loses its identity. Essence is contrasted with accident, which is a property that the entity has contingently, without which it still retains its identity.
+## Description
+Description is the pattern of narrative development that aims to invoke a certain sentiment. A description of something (of an object, person, event, etc.) is an account presenting characteristics and aspects of the thing being described, in sufficient detail so that the audience can form a mental picture, impression, or develop an understanding of it. Description is one of the 4 rhetorical modes, along with exposition, argumentation and narration.
+
+## Definite description
+A definite description is a denoting phrase in the form "the X", where X is a noun-phrase or a singular common noun. The definite description is proper if X applies to a unique individual or object. For example, "the first man in space" and "the 42nd President of the USA", are both proper descriptions, as opposed to, e.g. "the person in space" and "the Senator from Ohio", which are improper because the noun phrase X applies to more than one thing; the definite descriptions "the first man on Mars" and "the Senator from some Country" are improper because X doesn't apply to anything. Improper descriptions raise some difficult questions about the law of excluded middle, denotation, modality, and mental content.
 
 ## Extensionality
 Extensionality refers to principles that judge objects to be equal if they have the same external properties, as opposed to intensionality, which is concerned with whether the internal definitions of objects are the same. There are many predicates that are intensionally different but extensionally identical. For example, the expressions, 2+4 and 2*3, are extensionally equal (from outside), but intensionality different (from within).
 
 ## Extremal
-The clause in a recursive definition that specifies that no items other than those generated by the stated rules fall within the definition; e.g. "0 is an natural number; if n is a natural number, then S(n) is a natural number, and nothing else is a natural number".
+The last clause of a structurally inductive definition that specifies that nothing else, apart from the rules just stated, falls within the definition. For example, following a series of clauses that define wffs (such as, "if `p` and `q` are wffs, then so is `p ⋀ q`") the last clause usually proclaims that "no other formula is a wffs".
 
 ## Fallacy
-In reasoning to argue a claim, a fallacy is reasoning that is evaluated as logically incorrect and that undermines the logical validity of the argument and permits its recognition as unsound.
+A fallacy is a logically incorrect way of reasoning, that undermines the legal arguments in order to paint them as logically invalid and unsound. A fallacy is the use of faulty metods of reasoning whether by accident or deliberately. A fallacious argument may deceive by appearing to be better than it really is. Fallacies are often committed intentionally to manipulate or persuade by deception.
 
 ## First-order logic
 While propositional logic deals with simple declarative propositions, first-order logic additionally covers predicates and quantification. Predicate logic uses quantified variables over objects and allows the use of sentences that contain variables, so rather than propositions such as "Socrates is a man" one can have expressions in the form "there exists X such that X is Socrates and X is a man" and "there exists" is a quantifier while "X" is a variable. This distinguishes it from propositional logic, which does not use quantifiers or relations. In first-order theories, predicates are often associated with sets.
 
 ## Formal logic
 Formal logic is the study of inference with purely formal content. An inference possesses a purely formal content if it can be expressed as a particular application of a wholly abstract rule i.e. a rule that is not about any particular thing or property.
+
+## Formula
+The symbols of a formal language comprise its alphabet, and the combinations of the symbols produce formulas. However, since most such productions are gobbledygook, the formal grammar specifies how to recognize and build only the well-formed statements, i.e. the well-formed formulas.
 
 ## Fuzzy logic
 Fuzzy logic is a form of many-valued logic in which the truth values of variables may be any real number between 0 and 1. It is employed to handle the concept of partial truth, where the truth value may range between completely true and completely false. By contrast, in Boolean logic, the truth values of variables may only be the integer values 0 or 1.
@@ -117,6 +119,9 @@ Informal logic is the study of natural language arguments. The study of fallacie
 
 ## Laws of Thought
 Laws of thought are the 3 fundamental laws, *the law of identity*, *the law of non-contradiction* and *the law of excluded middle*, often considered as the basis of rational discourse itself. These rules have been known and accepted in logic for centuries, until the modern logicians placed them under detailed scrutiny, which resulted in inventions of new kinds of logic that exercised strict control regarding the three fundamental laws.
+
+## Logic
+Logic is the study of rules of inference that allow deriving a conclusion from premises.
 
 ## Logical Connectives
 Logical connectives (logical operators) are symbols or words used to connect sentences in a grammatically valid way, such that the value of the compound sentence produced depends only on that of the original sentences and on the meaning of the connective. Logical connectives include negation (¬), conjunction (∧), inclusive disjunction (∨), exclusive disjunction (⊕), biconditional (⇔), implication (⇒), NAND (↑), NOR (↓), sometimes even parentheses.
@@ -153,15 +158,6 @@ In logic, necessity and sufficiency are terms used to describe an implicational 
 ## Non-classical logic
 Non-classical logics (and sometimes alternative logics) are formal systems that differ in a significant way from standard logical systems such as propositional and predicate logic. There are several ways in which this is done, including by way of extensions, deviations, and variations.
 
-## Noumenon
-[philosophy] Noumenon is a posited object or event that exists independently of human sense or perception. Noumenon is contrasted with phenomenon, which refers to anything that can be apprehended by (or is an object of) the senses.
-
-## Phenomenon
-[philosophy] The term "phenomenon" refers to anything that can be apprehended by (or is an object of) the senses. Phenomenon is contrasted with noumenon, which is a posited object or event that exists independently of human sense or perception.
-
-## Philosophical logic
-[philosophy] Philosophical logic refers to those areas of philosophy in which recognized methods of logic have traditionally been used to solve or advance the discussion of philosophical problems. Among these are the study of argument, meaning, and truth, but also of identity, existence, predication, necessity and truth. Philosophical logic also addresses extensions and alternatives to traditional classical logics, known as non-classical logics.
-
 ## Philosophy of logic
 Following the developments in formal logic with symbolic logic in the late nineteenth century and mathematical logic in the twentieth, topics traditionally treated by logic not being part of formal logic have tended to be termed either philosophy of logic or philosophical logic if no longer simply logic. Compared to the history of logic the demarcation between philosophy of logic and philosophical logic is of recent coinage and not always entirely clear.
 
@@ -176,8 +172,14 @@ Predicates are represented by a predicate symbol used to denote properties of ob
 ## Premise
 A premise is a statement that an argument claims will induce or justify a conclusion. A premise is an assumption that something is true.
 
+## Prenex normal form
+A formula of the predicate calculus is in prenex normal form if it is written as a string of quantifiers and bound variables, called the prefix, followed by a quantifier-free part, called the matrix.
+
 ## Primitive notion
 In mathematics, a primitive notion is an undefined concept, not defined in terms of previously defined concepts, to be taken for granted. It lacks a proof, and in that regard it's analogous to an axiom of a formal system (axioms don't require proof). Sometimes the primitive notions cannot be avoided because we need to start somewhere lest regress into downward spiral of definitions, forever defining concept in terms of previously defined concept, which also need definition in terms of previous ones, and so on, ad nauseum. Sometimes a concept just doesn't have a formal definition (e.g. "set").
+
+## Primitive symbol
+Primitive symbols comprise the alphabet of a formal language. The "primitive" qualifier is sometimes used in order to distinguish them from other symbols, which are either syntactical abbreviations or symbols defined in terms of the primitive ones.
 
 ## Proof by exhaustion
 Proof by exhaustion (aka proof by cases, proof by case analysis, complete induction, brute force method) is a method of mathematical proof in which the statement to be proved is split into a finite number of cases or sets of equivalent cases and each type of case is checked to see if the proposition in question holds. This is a method of direct proof.
@@ -194,7 +196,7 @@ Second-order logic is an extension of first-order logic, which itself is an exte
 ## Statement
 In logic, the term statement is variously understood to mean either: (a) a meaningful declarative sentence that is true or false, or (b) the assertion that is made by a true or false declarative sentence.In the latter case, a statement is distinct from a sentence in that a sentence is only one formulation of a statement, whereas there may be many other formulations expressing the same statement.
 
-## Strict Conditional
+## Strict conditional
 In logic, a strict conditional (strict implication) is a conditional governed by a modal operator, that is, a logical connective of modal logic. It is logically equivalent to the material conditional of classical logic, combined with the necessity operator from modal logic.
 
 ## Substitution
@@ -203,14 +205,17 @@ Substitution is a fundamental concept in logic. A substitution is a syntactic tr
 ## Syllogisms
 A syllogism is a kind of logical argument where a quantified statement of a specific form (the conclusion) is inferred from two other quantified statements (the premises). It is a logical argument where one starts with premises and reaches a conclusion. A syllogism is a kind of logical argument that applies deductive reasoning to arrive at a conclusion based on two or more propositions that are asserted or assumed to be true. In its earliest form, defined by Aristotle, from the combination of a general statement (the major premise) and a specific statement (the minor premise), a conclusion is deduced.
 
-## Symbolic Logic
+## Symbolic logic
 Symbolic logic is the study of symbolic abstractions that capture the formal features of logical inference. It is often divided into two main branches, propositional and predicate logic.
 
 ## Theorem
 A theorem is a statement that has been proven on the basis of previously established statements (other theorems) and generally accepted statements (axioms). It is a logical consequence of the axioms.
 
-## Truth Value
+## Truth value
 Truth or logical value is a value indicating the relation of a proposition to truth. A proposition has a truth value if it can be evaluated to true or false.
+
+## Universal-existential normal form
+It is a special case of the prenex normal form where every universal quantifier precedes any existential quantifier.
 
 ## Validity
 In logic, an argument is valid iff it takes a form that makes it impossible for the premises to be true and the conclusion nevertheless to be false. It is not required that a valid argument have premises that are actually true, but to have premises that, if they were true, would guarantee the truth of the argument's conclusion.
@@ -220,3 +225,10 @@ Variables are used as placeholders for quantifying over objects.
 
 ## Weakening
 The weakening rule, one of the structural rules that operate directly on the structure of a deduction system, states that the hypotheses or conclusion of a sequent may be extended with additional members and still remain valid.
+
+## Well-formed formula
+Let `F` be a formal language whose alphabet is `A`. A well-formed formula (WFF) is a collation in `A` which can be built by using the rules of formation of the formal grammar of `F`. That is, a collation in `A` is a well-formed formula in `F` iff it has a parsing sequence in `F`.
+
+Less formally, a formal language's alphabet consists of symbols, and they are combined to build formulas. However, since most such productions are gobbledygook, the formal grammar decides which of these are well-formed and thus called well-formed formulas.
+
+Semantically, WFFs are symbolic representations of logical statements. For example, in math, the two most universal types of logical formula are propositional formulas and first-order formulas.

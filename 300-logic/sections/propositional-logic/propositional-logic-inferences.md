@@ -1,0 +1,33 @@
+# Propositional logic: Inference Rules
+
+* Rules of inference in propositional calculus
+  - Implication
+    - introduction
+    - elimination, modus ponens
+  - Biconditional
+    - introduction
+    - elimination
+  - Conjunction
+    - introduction
+    - elimination
+  - Disjunction
+    - introduction
+    - elimination
+  - Disjunctive syllogism
+  - Hypothetical syllogism
+  - Constructive dilemma
+  - Destructive dilemma
+  - Absorption
+  - modus tollens
+  - modus ponendo tollens
+  - Negation introduction
+  - Rules of replacement
+    - Associativity
+    - Commutativity
+    - Distributivity
+    - Double negation
+    - De Morgan's laws
+    - Transposition
+    - Material implication
+    - Exportation
+    - Tautology

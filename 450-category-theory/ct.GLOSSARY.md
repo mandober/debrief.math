@@ -1,1 +1,1 @@
-# CT GLOSSARY
+# Category Theory: GLOSSARY
