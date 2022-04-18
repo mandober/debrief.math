@@ -1,0 +1,28 @@
+# Math symbols :: Blackboard letters
+
+- 𝔸   The set of algebraic numbers
+- 𝔹   The Boolean domain
+- ℂ   The set of complex numbers
+- 𝔻
+- 𝔼
+- 𝔽
+- 𝔾
+- ℍ   The set of heptonions
+- 𝕀   The set of imagenary numbers
+- 𝕁
+- 𝕂
+- 𝕃
+- 𝕄
+- ℕ   The set of natural numbers
+- 𝕆   The set of octonions
+- ℙ   The set of prime numbers
+- ℚ   The set of rational numbers
+- ℝ   The set of real numbers
+- 𝕊
+- 𝕋
+- 𝕌
+- 𝕍
+- 𝕎  The set of whole numbers
+- 𝕏
+- 𝕐
+- ℤ   The set of integers

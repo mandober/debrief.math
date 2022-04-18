@@ -1,12 +1,12 @@
 # Category
 
-A category, `𝒞`, consists of these components:
-- collection of objects, `Obj(𝒞)`, merely the anchors for the arrows
-- collection of arrows, `Arr(𝒞)`, the true elements of a category
-- binary operation of composition of arrows, `∘`
-- axiom of *identity*, id element wrt composition, each object has id arrow
-- axiom of *associativity* wrt the arrow composition
-- axiom of *transitive closure*
+A category, `𝒞`, consists of these components and axioms:
+- collection of objects, Obj(𝒞), merely anchors for the arrows
+- collection of arrows, Arr(𝒞), the true elements of a category
+- one binary operation, composition of arrows, denoted by `∘`
+- axiom of identity (id element wrt composition, each object has id arrow)
+- axiom of associativity (wrt the arrow composition)
+- axiom of transitive closure
 
 ## Components
 
@@ -20,8 +20,6 @@ Arrows
 - an arbitrary arrow in a category `𝒞` may be denoted by `f ∈ 𝒜𝓇𝓇(𝒞)`
 
 Objects are very simple elements in a category; they are just anchors for the various arrows in a category. Arrows are the main element sof interest; they are the elements with structure that follows from their most elementary role, to relate different objects by connecting them. So in order to fulfill its basic role, there must be at least one object acting as an anchor for an arrow. Arrows depend on objects, that is, the condition for an arrow to exist is the existence of an (at least) one object which then acts as its both source and target anchor.
-
-
 
 ## The axioms
 

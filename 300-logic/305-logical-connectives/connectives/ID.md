@@ -1,0 +1,74 @@
+# Logic ∷ Logical Connectives
+
+https://en.wikipedia.org/wiki/Truth_function
+https://en.wikipedia.org/wiki/Logical_connective
+https://en.wikipedia.org/wiki/Boolean_function
+
+
+- Identifiers
+  - names
+    - primary name
+    - short name
+    - alternative names
+    - logic gate name
+  - codes
+    - bin16 code
+    - hex16 code
+- notation
+  - shorthands
+    - 3 letter abbreviation (logic gate)
+  - Polish notation
+    - Łukasiewicz's prefix notation
+  - Symbolic
+    - primary symbol
+    - alternatives
+    - all ASCII symbols
+      - single character
+      - multi-character
+    - all Unicode symbols
+      - normalized
+      - abnormal (alignment screwed)
+- properties
+  - arguments
+    - arity
+    - truth-functional?
+    - depends on both arguments?
+    - scales to 3 args keeping the same result?
+      - Xor³ may be interpreted as both (T + T + T) ⟼ T or F
+      - `(T + T) + T` = `F + T` = `T`
+      - but `T + T + T` may also mean `F` if all equal args ⟼ `F`
+    - scales to n args keeping the same result?
+  - fixity
+    - precedence level
+    - association direction: left (defualt) | right
+  - associative
+  - symmetric
+  - commutative
+  - distributive
+  - identity
+  - cancellative
+  - absorbing
+  - domination
+  - idempotent
+  - involution
+  - truth-value preserving
+    - truth-preserving
+    - falsity-preserving
+  - monotonicity
+  - duality
+    - with other connective
+  - self-duality
+    - self dual connective
+- normal forms
+  - nnf
+  - cnf
+  - dnf
+  - inf
+  - Zhergin polynomial
+  - Boolean function
+  - modular aritmetic `(mod 2)`
+- correspondence
+  - equivalent expresions
+  - expressable as
+    - in terms of set operations
+    - in terms of aritmetic

@@ -1,5 +1,7 @@
 # Endomorphism
 
+https://en.wikipedia.org/wiki/Endomorphism
+
 A morphism `f: A → A`, that is, a morphism with identical source and target objects, is an **endomorphism** of object `A`.
 
 An endomorphism that is also an isomorphism, is an automorphism.

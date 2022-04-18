@@ -31,6 +31,10 @@ Toplevel section "math in general" and its subsections [which?]
 * Outline of mathematics
 https://en.wikipedia.org/wiki/Outline_of_mathematics
 
+https://www.wikiwand.com/en/List_of_mathematical_symbols_by_subject
+https://www.wikiwand.com/en/List_of_mathematical_symbols
+
+
 ## Nature of mathematics
 
 * Definitions of mathematics

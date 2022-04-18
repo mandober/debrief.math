@@ -1,29 +1,22 @@
 # Product
 
-## Before introducing the product
+## Prologue
 
-Product in CT is somewhat related to products from arithmetic. So, in arithmetic, e.g. 6 = 2 * 3, means that 2 and 3 are factors of 6, either 2 or 3 factorizes 6. Similarly, in 6 = x * 3 and with x restricted to ℕ domain, there may be a nat that factorizes 6, or there may not be. If it exists, then it must satisfy the given equation.
+Product in CT is somewhat related to products from arithmetic. So, in arithmetic, `6 = 2 * 3`, means that 2 and 3 are factors of 6, each one factorizes it. Similarly, in `6 = x * 3` and with x restricted to ℕ domain, there may be a nat that factorizes 6, or there may not be. If it exists, then it must satisfy the given equation.
 
-If we know that a category `C` has a product object, `P`, then we know there will be two crucial arrows, both emerging from the product object but each going to some other, distinct, object, `f: P -> A` and `g: P -> B` in the category.
-
-So, in the entire category, which may have a gazillion objects and arrows, we are looking for a pattern involving 3 objects and 2 arrows; such that two arrows emerge from the same object, `P`, and then one arrow goes to an object `A` and the other arrows goes to an object `B` (and all 3 objects are distinct).
-
-
-
+If we know that a category `C` has a product object, `x`, then we know there will be two crucial arrows, called *projections*, outbound from `x`, each ending at a different inbound object, `f : x -> a` and `g : x -> b`. The entire category may be a haystack of objects and arrows, but we need to find a needle represented by the pattern involving 3 distinct objects and 2 distinct arrows.
 
 ```
-         P'
-         o
-        /↑\
-       / | \
+         x'
+        /↑\           f' : x' -> a
+       / | \          g' : x' -> b
       /  |  \
-   f'/   |   \g'
-    /    |    \
+   f'/   |   \ g'       f = m . f'
+    /  m |    \         g = m . g'
    /     |     \
-  /      |      \
- ↙   f   |   g   ↘
-o <----- o -----> o
-A        P        B
+  /      |      \     f : x -> a
+ ↙   f   |   g   ↘    g : x -> b
+a <----- x -----> b
 ```
 
 

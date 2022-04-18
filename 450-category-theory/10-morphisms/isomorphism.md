@@ -1,5 +1,7 @@
 # Isomorphism
 
+https://en.wikipedia.org/wiki/Isomorphism
+
 Almost universally in mathematics, one regards two objects of the same category to be the same when they are isomorphic, in a precise categorical sense.
 
 (definition) An **isomorphism** in a category is a morphism `f : X → Y` for which there exists a morphism `g: Y → X` so that `g ∘ f = 1x` and `f ∘ g = 1ʏ`.

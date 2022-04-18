@@ -1,0 +1,21 @@
+# Math symbols
+
+- `1`   identity function
+- `𝔸`   The set of algebraic numbers
+- `𝔹`   The Boolean domain
+- `ℂ`   The set of complex numbers
+- `𝓕`   The space of function, field
+- `ℍ`   The set of heptonions
+- `𝕀`   The set of imagenary numbers
+- `I`   identity function
+- `ℕ`   The set of natural numbers
+- `𝕆`   The set of octonions
+- `ℙ`   The set of prime numbers
+- `P`   probability
+- `𝓟`   The powerset
+- `Σ`   n-ary sum, context (type theory), setof symbols (finite automata)
+- `ℚ`   The set of rational numbers
+- `ℝ`   The set of real numbers
+- `R`   relation
+- `𝕎`  The set of whole numbers
+- `ℤ`   The set of integers

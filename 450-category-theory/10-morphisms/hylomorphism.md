@@ -1,4 +1,5 @@
 # Hylomorphism
+
 https://en.wikipedia.org/wiki/Hylomorphism_(computer_science)
 
 A *hylomorphism* is the composition of an anamorphism followed by a catamorphism. In FP, it is used for deforestation.

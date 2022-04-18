@@ -4,6 +4,8 @@ https://en.wikipedia.org/wiki/Relational_algebra
 
 (not to be confused with Relation algebra)
 
+
+
 In database theory, relational algebra is a theory that uses algebraic structures with a well-founded semantics for modeling data, and defining queries on it.
 
 The theory was introduced by Edgar F. Codd in his paper "A Relational Model of Data for Large Shared Data Banks" from 1970. *Codd's theorem*, a result proven in his seminal work on the relational model, equates the expressive power of relational algebra and relational calculus. Codd received the Turing Award in 1981.

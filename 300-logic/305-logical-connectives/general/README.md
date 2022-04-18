@@ -1,0 +1,1 @@
+# Logic ∷ Connectives ∷ Properties

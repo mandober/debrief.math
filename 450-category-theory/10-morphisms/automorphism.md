@@ -1,5 +1,7 @@
 # Automorphism
 
+https://en.wikipedia.org/wiki/Automorphism
+
 An endomorphism, which is a morphism whose domain and codomain are the same, that, additionally, is also an isomorphism as well, is an **automorphism**.
 
 

@@ -1,0 +1,80 @@
+# Theorems
+
+A relation is a set of ordered pairs.
+- A homogeneous relation implies all ordered pairs are from the same set.
+  x,y ∈ A -> ∀((x,y) ∈ R) 
+  ∀(x,y)
+  ∀x∀y
+  ∀p ( p = (x,y) , x,y ∈ A )
+
+- A heterogeneous relation implies all ordered pairs are from different sets.
+
+
+Let `R` be a relation on a set `A`.
+- The empty (null) rel, `E`, is the empty set/rel on A, as `∅ ⊆ A²`
+- The universal rel, `U`, is a total rel on A equal to A², `U = A²`
+- The identity rel, `I`, is the set `{(a,a) | ∀a ∈ A}` and `I ⊆ A²`
+
+If `A = _` and `R = _`, then R on A is …
+- if `A = ∅`
+  - then it has only the null rel, `R = ∅`
+- if `A ≠ ∅`
+  - and `R = ∅`, then R on A is _
+  - and `R ≠ ∅`, then R on A is _
+- if `A = ∅`
+- if `A ≠ ∅`
+- if `A ≠ ∅ ⋀ A = ∞`
+- if `A ≠ ∅ ⋀ A ≠ ∞`
+
+
+
+If `A` is the empty set, `A = ∅`, then a rel _ on `A` is
+- `E` is REFLEXIVE (vacuously)
+- `E` is IRREFLEXIVE (vacuously)
+- `E` is SYMMETRIC (vacuously)
+- `E` is TRANSITIVE (vacuously)
+- `U` is REFLEXIVE
+
+If `A` is a non-empty set, `A ≠ ∅`, then a rel `R` on `A` is
+- `E` is NOT REFLEXIVE
+- `E` is SYMMETRIC (vacuously)
+- `E` is TRANSITIVE (vacuously)
+- `U` is REFLEXIVE
+
+
+If `A = {1}` and `R = {(1,1)}`, then R on A is
+- reflexive
+- NOT irreflexive
+- symmetric
+- antisymmetric
+- NOT asymmetric
+- transitive
+- NOT intransitive
+
+
+
+set A       | relation      | Notes
+------------|---------------|----------------------------------------------
+A = ∅       | E = ∅         | E on A is refl, symm, trans (vacuously true)
+A ≠ ∅       | E = ∅         | E on A is irrefl, symm, trans (vacuously true)
+A ≠ ∅       | E = ∅         | E on A not refl since A is nonempty
+
+
+
+If `A` is a non-empty set (A ≠ ∅) prove that
+1. the empty relation `E` is not reflexive on `A`
+2. the empty relation `E` is symmetric for every set `A`
+3. the empty relation `E` is transitive for every set `A`
+
+1. A relation `R` is reflexive iff `∀a(a ∈ A -> aRa)`, i.e. if each element of `A` is related to itself. `A`, being nonempty, has at least one element, call it `x`. Thus, the ordered pair `(x,x)` must be in `R`. However, `R` is empty, so reflexivity fails.
+
+
+* Being a reflexive relation is an *extrinsic property*: it connects the relation with an external set. On the other hand, being symmetric and transitive are *intrinsic properties* that depend only on the ordered pairs in the relation.
+
+* The empty set has only the empty rel
+
+* Symmetric and anti-symmetric relations are not opposite - a relation R can be both or neither.
+* A relation is asymmetric iff it is both irreflexive and antisymmetric.
+
+
+* Some relations emphasize directionality (left, right), some rels have a weak and strong variants (asymm vs antisymm), usually wrt to the case when `a = b`

@@ -1,5 +1,28 @@
 # Graphs theory
 
+* Graph theory
+  - Graph
+  - Graph models
+  - Types of graphs
+  - Representation of graphs
+  - Planar vs. non-planar graph
+  - Isomorphism
+  - Homomorphism
+  - Euler graphs
+  - Hamiltonian graphs
+  - Graph coloring
+  - Graph traversal
+  * Trees
+    - Properties
+    - Centers and Bi-Centers of a Tree
+    - Labeled Trees
+    - Unlabeled Trees
+    - Rooted Tree
+    - Binary Search Tree
+    - Spanning Trees
+    - Kruskal's Algorithm
+    - Prim's Algorithm
+
 
 * List of graph theory topics
 https://en.wikipedia.org/wiki/List_of_graph_theory_topics

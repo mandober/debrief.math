@@ -1,4 +1,56 @@
-# Set Theory: Hierarchy
+# Set Theory ∷ Hierarchy
+
+* Sets (general)
+  - set is a primitive
+  - sets in general
+  - sets are objects
+
+* Sets and similar collections
+  - set
+  - sets as containers
+  - sets as collections
+  - sets as elements, objects
+  - primitive collections
+    - essential properties of collections
+    - ordering
+      - ordered collection
+      - unordered collection
+    - uniqueness
+      - unique elements in collection
+      - nonunique elements in collection
+      - multiplicity
+    - set
+    - class
+    - conglomerate
+    - multiset
+
+* Sets (elements)
+  - the empty set, `∃S (∀x (x ∉ S) → S = ∅)`
+  - nonempty set,  `∃S (∃x (x ∈ S) ⋀ S ≠ ∅)`
+  - inhabited set
+    - in classical math: `inhabited S ⟺ S = ∅`
+    - in constructive math:
+      - `A empty -------> ∀x(x ∉ A)`
+      - `A nonempty --> ¬(∀x(x ∉ A))`
+          ¬(∀x(x ∉ A))
+        = ¬(∀x(¬(x ∈ A))
+        = ¬(∀x(x ∉ A))
+        = ¬∀x(¬(x ∉ A))
+        =  ∃x(¬¬(x ∉ A))
+        =  ∃x(x ∉ A)
+      - A is nonempty if A is not empty
+      - nonempty A -> A ≠ ∅
+
+
+
+* Set notation
+  - Specifications of sets
+  - intensional representation
+    - natural language
+  - extensional representation
+    - roster
+    - set-builder notation
+
 
 
 * Algebras wrt sets
@@ -27,13 +79,6 @@
   - implementation of mathematics in set theory
   - set theoretical implementation of ℕ
   - set theory as the FOM
-
-* Specifications of sets
-  - intensional representation
-    - natural language
-  - extensional representation
-    - roster
-    - set-builder notation
 
   * Set cardinality
     - Finite sets
@@ -181,3 +226,15 @@
     - unordered collection
     - uniqueness of elements
     - enumerable and innumerable sets
+
+
+
+```js
+  ¬(∀x(x ∉ A))
+= ¬(∀x(¬(x ∈ A))
+
+= ¬(∀x(x ∉ A))
+= ¬∀x(¬(x ∉ A))
+=  ∃x(¬¬(x ∉ A))
+=  ∃x(x ∉ A)
+```

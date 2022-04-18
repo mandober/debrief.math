@@ -1,0 +1,26 @@
+# Logic :: Logical Connectives :: Table
+
+CHR  | Name              | P | ASCII               | Unicode
+-----|-------------------|---|---------------------|-----------
+TRU  | TRUE              |   | 1                   | 
+FLS  | FALSE             |   | 0                   | 
+TAU  | Taultology        |   |                     | ⟙ ⊤
+CNT  | Contradiction     |   |                     | ⟘ ⟂ ⊥
+NOT  | Negation          | N | ~ - ! p̅ q̅           | ¬
+AND  | Conjunction       | K | ^ &                 | ∧ ⋀ ⋃ ∪ ∙ ⨯
+NAND | Sheffer stroke    |   | ¦                   | ↑
+OR   | Disjunction       | A | v V ¦               | ∨ ⋁ ⋂ ∩
+NOR  | Pierce arrow      |   |                     | ↓
+XOR  | Exclusive or      | D | +                   | ⨁ ⊕
+XNOR | Negated xor       |   |                     | ⨂ ⊗
+IMP  | Implication       | C | -> =>               | → ⊃ ⇒ ⟶ ⟹
+NIMP | Non-implication   |   |                     | ⇏ ⊅ ⇸ ⤃
+NCON | Non-converse      |   |                     | ⇍ ⊄ ⇷ ⤂
+CON  | Converse          |   | <-                  | ← ⊂ ⇐ ⟵ ⟸
+IFF  | Biconditional     | E | <=> <->             | ⟺ ⟷ ≡ ⇔
+NIFF | Non-Biconditional |   |                     | ⇎ ⤄
+
+
+Notes:
+- P column lists Polish notation due to Jan Łukasiewicz
+- `¦` represents ASCII pipe chr (`|`)

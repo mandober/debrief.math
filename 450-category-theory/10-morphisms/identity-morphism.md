@@ -1,5 +1,6 @@
 # Identity morphism
 
+
 A category may have a lot of arrows, evan a small category such as a monoid with all the arrows going from the only object back to itself. We don't know which one of all these arrows is the identity morphism, but we can probe for it by composing different arrows. The identity arrow is gonna be the one that when composed with any other arrow, `f`, gives back that arrow right back. That is exactly what the identity axiom wrt the composition is saying.
 
 Generally, it is expressed with any arrow `f` between two objects `A` and `B`:

@@ -1,4 +1,5 @@
 # Catamorphism
+
 https://en.wikipedia.org/wiki/Catamorphism
 
 The concept of catamorphism (Greek: κατά "downwards") denotes the unique homomorphism from an *initial algebra* into some other algebra.

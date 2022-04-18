@@ -27,3 +27,7 @@ Solving a problem computationally requires
 - modeling the world
 - devising an algorithm
 - determining its efficiency and correctness
+
+
+* discrete_mathematics Tutorial
+https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_quick_guide.htm

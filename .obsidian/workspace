@@ -1,0 +1,128 @@
+{
+  "main": {
+    "id": "535903d3fdb7c810",
+    "type": "split",
+    "children": [
+      {
+        "id": "188356244916c960",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0858a118dbed059",
+    "type": "split",
+    "children": [
+      {
+        "id": "d560a1561f884943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bd708e17be26ac9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "791590732d273e3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338
+  },
+  "right": {
+    "id": "815e6e00a225e759",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9f751897dcab6b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7059dee2f840a033",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "52b283ca0f308847",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "844bcd0a4e02cafe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bed124245b47a563",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242,
+    "collapsed": true
+  },
+  "active": "188356244916c960",
+  "lastOpenFiles": [
+    "300-logic/xpages/a-unified-semantics-for-the-logical-operators.md",
+    "300-logic/sections/phylosophical-logic/a-priori-and-a-posteriori.md",
+    "300-logic/304-basic-concepts/proposition.md",
+    "300-logic/sections/phylosophical-logic/1.md",
+    "300-logic/pages/formal-system.md",
+    "300-logic/pages/PAGES.md",
+    "300-logic/pages/inference.md",
+    "300-logic/pages/rule-of-inference.md",
+    "300-logic/pages/formal-proof.md",
+    "300-logic/pages/axiomatic-system.md"
+  ]
+}

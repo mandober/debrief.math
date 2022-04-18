@@ -1,0 +1,32 @@
+# Types of relations :: Other
+
+* Types of relations: other
+  - Euclidean
+    - left Euclidean
+    - right Euclidean
+  - Totality
+    - left-total
+    - right-total
+  - Uniquness
+    - left-unique
+    - right-unique
+  - Correspondence
+    - one to one
+    - one to many
+    - many to one
+    - many to many
+  - Functional
+    - injective
+    - surjective
+    - bijective
+  - serial
+  - set-like
+  - dense
+  - extensional
+  - well-founded
+  - connected
+  - semi-connected
+  - membership relation
+  - inclusion relation
+  - incidence relation
+  - dichotomous relation

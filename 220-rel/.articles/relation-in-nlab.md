@@ -1,0 +1,292 @@
+---
+downloaded:       2021-12-11
+page-url:         https://ncatlab.org/nlab/show/relation
+page-title:       relation in nLab
+article-title:    relation in nLab
+---
+# relation in nLab
+
+relation, internal relation
+Relations
+
+### Context
+
+#### Relations
+
+__[relation][1]__, [internal relation][2]
+
+__[Rel][3]__, [bicategory of relations][4], [allegory][5]
+
+-   [reflexive][6], [irreflexive][7]
+    
+-   [symmetric][8], [antisymmetric][9] [asymmetric][10]
+    
+-   [transitive][11], [comparison][12];
+    
+-   left and right [euclidean][13];
+    
+-   [total][14], [connected][15]
+    
+-   [extensional][16], [well-founded][17] relations.
+    
+-   [functional relations][18],
+    
+-   [entire relations][19],
+    
+-   [equivalence relations][20], [congruence][21]
+    
+-   [apartness relations][22]
+    
+-   [simple graph][23]
+    
+
+-   [2-congruence][24]
+    
+-   [(n,r)-congruence][25]
+    
+
+## 1\. Idea
+
+A *relation* is the extension of a *[predicate][26]*. That is, if you have a statement whose [truth value][27] may depend on some [variables][28], then you get a relation that consists of those instantiations of the variables that make the statement [true][29]. Equivalently, you can think of a relation as a [function][30] whose [target][31] is the set of truth values.
+
+## 2\. Definitions
+
+### General case
+
+### Special cases
+
+A __nullary relation__ is a relation on the empty family of sets. This is the same as a [truth value][32].
+
+A __unary relation on AA__ is a relation on the singleton family (A)(A). This is the same as a [subset][33] of AA.
+
+A __binary relation on AA and BB__ is a relation on the family (A,B)(A,B), that is a subset of A×BA \\times B. This is also called a __relation from AA to BB__, especially in the context of the 22\-category [Rel][34] described below, or sometimes called a __heterogenous relation__.
+
+A __binary relation on AA__ is a relation on (A,A)(A,A), that is a relation from AA to itself. This is sometimes called a __homogenous relation__ on AA, simply a __relation on AA__, or just an __endorelation__ with its set implicit as a property if not explicitly mentioned.
+
+An __nn\-ary relation__ on AA is a relation on a family of nn copies of AA, that is a subset of A nA^n.
+
+For a binary relation, one often uses a symbol such as ∼\\sim and writes a∼ba \\sim b instead of (a,b)∈∼(a,b) \\in \\sim. Actually, even when a relation is given by a letter such as RR, one often sees aRba R b instead of (a,b)∈R(a,b) \\in R, although now that does not look so good.
+
+## 3\. Morphisms
+
+If AA and BB are each sets equipped with a relation, then what makes a [function][35] f:A→Bf: A \\to B a *morphism* of sets so equipped?
+
+There are really two ways to do this, shown below. (We will write these as if each set is equipped with a binary relation ∼\\sim, but any fixed arity would work.)
+
+-   ff __preserves__ the relation if x∼y⇒f(x)∼f(y)x \\sim y \\;\\Rightarrow\\; f(x) \\sim f(y) always;
+-   *f* __reflects__ the relation if x∼y⇐f(x)∼f(y)x \\sim y \\;\\Leftarrow\\; f(x) \\sim f(y) always.
+
+Now, if ff is a [bijection][36], then it preserves the relation if and only if its inverse reflects it, so clearly an [isomorphism][37] of relation-equipped sets should do both. What about a mere morphism?
+
+In general, it's more natural to require only preservation; these are the morphisms you get if you consider a set with a relation as a models of a [finite-limit theory][38] or a simply [directed graph][39].
+
+But in some contexts, particularly when dealing only with [irreflexive relation][40]s, we instead require (only) that a morphism reflect the relation. Sometimes an even stricter condition is imposed, as for [well-order][41]s. But even in these cases, the definition of isomorphism comes out the same.
+
+## 4\. Binary relations
+
+Binary relations are especially widely used.
+
+### Kinds of binary relations
+
+Special kinds of relations from AA to BB include:
+
+-   [functional relations][42],
+-   [entire relations][43],
+-   one-to-one relation[?][44]s,
+-   onto relation[?][45]s.
+
+Combinations of the above properties of binary relations produce:
+
+-   [functions][46],
+-   [partial functions][47],
+-   [injections][48],
+-   [surjections][49],
+-   [bijections][50].
+
+Special kinds of binary relations on AA (so from AA to itself) additionally include:
+
+-   [reflexive][51] and [irreflexive][52] relations;
+-   [symmetric][53], [antisymmetric][54], and [asymmetric][55] relations;
+-   [transitive relations][56] and comparisons[?][57];
+-   left and right [euclidean relations][58];
+-   [total][59] and [connected][60] relations;
+-   [extensional][61] and [well-founded][62] relations.
+
+Combinations of the above properties of binary relations produce:
+
+-   [equivalence relations][63],
+-   [partial equivalence relations][64],
+-   [apartness relations][65],
+-   the various kinds of [orders][66] (which see).
+
+### Properties
+
+Every binary endorelation RR has an [equivalence relation][67] ∼ R\\sim\_R generated by RR.
+
+### Binary relations as a coalgebra
+
+By [currying][68] the binary relation R:𝒫(X×X)≅X×X→ΩR: \\mathcal{P}(X \\times X) \\cong X \\times X \\rightarrow \\Omega, one gets a [coalgebra][69] θ:X→(X→Ω)≅X→𝒫(X)\\theta: X \\rightarrow (X \\rightarrow \\Omega) \\cong X \\rightarrow \\mathcal{P}(X) for the [powerset][70] [endofunctor][71] on [Set][72].
+
+### The 22\-poset of binary relations
+
+Binary relations form a 22\-[category][73] (in fact a 22\-[poset][74]) [Rel][75], which is the basic example of an [allegory][76].
+
+The [objects][77] are [sets][78], the [morphisms][79] from AA to BB are the binary relations on AA and BB, and there is a [2-morphism][80] from RR to SS (both from AA to BB) if RR implies SS (that is, when (a,b)∈R(a,b) \\in R, then (a,b)∈S(a,b) \\in S).
+
+The interesting definition is [composition][81]
+
+Defintion 4.1. If RR is a relation from AA to BB and SS is a relation from BB to CC, then their *composite relation* – written S∘RS \\circ R or R;SR;S – from AA to CC is defined as follows:
+
+(a,c)∈R;S⇔∃b:B,(a,b)∈R∧(b,c)∈S.(a,c) \\in R;S \\;\\Leftrightarrow\\; \\exists b: B,\\; (a,b) \\in R \\;\\wedge\\; (b,c) \\in S.
+
+The identity morphism is given by [equality][82].
+
+The special properties of the kinds of binary relations listed earlier can all be described in terms internal to [Rel][83]; most of them make sense in any [allegory][84]. Irreflexive and asymmetric relations are most useful if the allegory's [hom-poset][85]s have [bottom][86] elements, and linear relations require this. Comparisons require the hom-posets to have finite [unions][87], and well-founded relations require some sort of higher-order structure.
+
+As a [function][88] may be seen as a functional, entire relation, so the category [Set][89] of sets and functions is a [subcategory][90] of [Rel][91] (in fact a [replete][92] and locally [full][93] sub-22\-category).
+
+### The quasitopos of endorelations
+
+Endorelations on sets are the objects of the [quasitopos][94] __EndoRelEndoRel__ or __BinBin__. It is a [reflective subcategory][95] of [Quiv][96] the [presheaf topos][97] of quivers and its morphisms are quiver morphisms. Endorelations are the [separated presheaves][98] for the [double negation topology][99] on QuivQuiv. “Separated” here translates to a quiver having at most one arc between pairs of verticies. The [reflector][100] Quiv→EndoRelQuiv \\to EndoRel collapses parallel arcs together. Such quivers might also be called __singular__ or __simple__ though sometimes “simple” also means “no loops”.
+
+#### Relation closures as reflexive subcategories of EndoRelEndoRel
+
+All of the sub-types of endorelations with positive conditions ([reflexive][101], [symmetric][102], [transitive][103], and left and right [euclidean][104]) and their combinations have an associated [closure][105] that can produce one from an arbitrary relation. Such a closure [completes][106] a relation by adding the least number of arcs such that the conditions are satisfied. Within EndoRelEndoRel these closures are reflectors that produce reflective subcategories. For example the __symmetric closure__ sym:EndoRel→EndoSymsym: EndoRel \\to EndoSym will (possibly) enlarge a quiver that contains any arc v a→v bv\_a \\to v\_b to one that also contains v b→v av\_b \\to v\_a. The __transitive and reflexive closure__ transRef:EndoRel→EndoTransReftransRef: EndoRel \\to EndoTransRef produces a category which is isomorphic to [PreOrd][107] though its objects are the underlying quivers of the preorders which are the objects of PreOrdPreOrd.
+
+In addition to being reflective, the categories from the *symmetric*, *reflexive*, and *symmetric and reflexive* closures are also quasitoposes that can be [directly defined][108] through double negation separation. The *symmetric and reflexive* closure ([SimpGph][109]) is also a [Grothendieck quasitopos][110]. On the other hand PreOrdPreOrd is not a quasitopos because it is not a [regular category][111].
+
+## 5\. Generalisation
+
+Most of the preceding makes sense in any [category][112] with enough [products][113]; giving rise to [internal relations][114], for instance *[congruences][115]* in the case of internal equivalence relations.
+
+Probably the trickiest bit is the definition of [composition][116] of binary relations, so not every category with [finite products][117] has an [allegory][118] of relations. In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [regular][119]. It can then be recovered from this allegory by looking at the functional entire relations.
+
+-   [graph][120]
+    
+-   [logical relation][121]
+    
+
+Last revised on June 10, 2021 at 14:49:25. See the [history][122] of this page for a list of all contributions to it.
+
+[1]: https://ncatlab.org/nlab/show/relation
+[2]: https://ncatlab.org/nlab/show/internal+relation
+[3]: https://ncatlab.org/nlab/show/Rel
+[4]: https://ncatlab.org/nlab/show/bicategory+of+relations
+[5]: https://ncatlab.org/nlab/show/allegory
+[6]: https://ncatlab.org/nlab/show/reflexive+relation
+[7]: https://ncatlab.org/nlab/show/irreflexive+relation
+[8]: https://ncatlab.org/nlab/show/symmetric+relation
+[9]: https://ncatlab.org/nlab/show/antisymmetric+relation
+[10]: https://ncatlab.org/nlab/show/asymmetric+relation
+[11]: https://ncatlab.org/nlab/show/transitive+relation
+[12]: https://ncatlab.org/nlab/show/comparison
+[13]: https://ncatlab.org/nlab/show/euclidean+relation
+[14]: https://ncatlab.org/nlab/show/total+relation
+[15]: https://ncatlab.org/nlab/show/connected+relation
+[16]: https://ncatlab.org/nlab/show/extensional+relation
+[17]: https://ncatlab.org/nlab/show/well-founded+relation
+[18]: https://ncatlab.org/nlab/show/functional+relations
+[19]: https://ncatlab.org/nlab/show/entire+relations
+[20]: https://ncatlab.org/nlab/show/equivalence+relations
+[21]: https://ncatlab.org/nlab/show/congruence
+[22]: https://ncatlab.org/nlab/show/apartness+relations
+[23]: https://ncatlab.org/nlab/show/simple+graph
+[24]: https://ncatlab.org/nlab/show/2-congruence
+[25]: https://ncatlab.org/nlab/show/%28n%2Cr%29-congruence
+[26]: https://ncatlab.org/nlab/show/predicate
+[27]: https://ncatlab.org/nlab/show/truth+value
+[28]: https://ncatlab.org/nlab/show/variables
+[29]: https://ncatlab.org/nlab/show/true
+[30]: https://ncatlab.org/nlab/show/function
+[31]: https://ncatlab.org/nlab/show/target
+[32]: https://ncatlab.org/nlab/show/truth+value
+[33]: https://ncatlab.org/nlab/show/subset
+[34]: https://ncatlab.org/nlab/show/Rel
+[35]: https://ncatlab.org/nlab/show/function
+[36]: https://ncatlab.org/nlab/show/bijection
+[37]: https://ncatlab.org/nlab/show/isomorphism
+[38]: https://ncatlab.org/nlab/show/algebraic+theory
+[39]: https://ncatlab.org/nlab/show/directed+graph
+[40]: https://ncatlab.org/nlab/show/irreflexive+relation
+[41]: https://ncatlab.org/nlab/show/well-order
+[42]: https://ncatlab.org/nlab/show/functional+relations
+[43]: https://ncatlab.org/nlab/show/entire+relations
+[44]: https://ncatlab.org/nlab/new/one-to-one+relation
+[45]: https://ncatlab.org/nlab/new/onto+relation
+[46]: https://ncatlab.org/nlab/show/functions
+[47]: https://ncatlab.org/nlab/show/partial+functions
+[48]: https://ncatlab.org/nlab/show/injections
+[49]: https://ncatlab.org/nlab/show/surjections
+[50]: https://ncatlab.org/nlab/show/bijections
+[51]: https://ncatlab.org/nlab/show/reflexive+relation
+[52]: https://ncatlab.org/nlab/show/irreflexive+relation
+[53]: https://ncatlab.org/nlab/show/symmetric+relation
+[54]: https://ncatlab.org/nlab/show/antisymmetric+relation
+[55]: https://ncatlab.org/nlab/show/asymmetric+relation
+[56]: https://ncatlab.org/nlab/show/transitive+relations
+[57]: https://ncatlab.org/nlab/new/comparisons
+[58]: https://ncatlab.org/nlab/show/euclidean+relations
+[59]: https://ncatlab.org/nlab/show/total+relation
+[60]: https://ncatlab.org/nlab/show/connected+relation
+[61]: https://ncatlab.org/nlab/show/extensional+relation
+[62]: https://ncatlab.org/nlab/show/well-founded+relation
+[63]: https://ncatlab.org/nlab/show/equivalence+relations
+[64]: https://ncatlab.org/nlab/show/partial+equivalence+relations
+[65]: https://ncatlab.org/nlab/show/apartness+relations
+[66]: https://ncatlab.org/nlab/show/orders
+[67]: https://ncatlab.org/nlab/show/equivalence+relation
+[68]: https://ncatlab.org/nlab/show/currying
+[69]: https://ncatlab.org/nlab/show/coalgebra+for+an+endofunctor
+[70]: https://ncatlab.org/nlab/show/powerset
+[71]: https://ncatlab.org/nlab/show/endofunctor
+[72]: https://ncatlab.org/nlab/show/Set
+[73]: https://ncatlab.org/nlab/show/2-category
+[74]: https://ncatlab.org/nlab/show/2-poset
+[75]: https://ncatlab.org/nlab/show/Rel
+[76]: https://ncatlab.org/nlab/show/allegory
+[77]: https://ncatlab.org/nlab/show/objects
+[78]: https://ncatlab.org/nlab/show/sets
+[79]: https://ncatlab.org/nlab/show/morphisms
+[80]: https://ncatlab.org/nlab/show/2-morphism
+[81]: https://ncatlab.org/nlab/show/composition
+[82]: https://ncatlab.org/nlab/show/equality
+[83]: https://ncatlab.org/nlab/show/Rel
+[84]: https://ncatlab.org/nlab/show/allegory
+[85]: https://ncatlab.org/nlab/show/hom-object
+[86]: https://ncatlab.org/nlab/show/bottom
+[87]: https://ncatlab.org/nlab/show/union
+[88]: https://ncatlab.org/nlab/show/function
+[89]: https://ncatlab.org/nlab/show/Set
+[90]: https://ncatlab.org/nlab/show/subcategory
+[91]: https://ncatlab.org/nlab/show/Rel
+[92]: https://ncatlab.org/nlab/show/replete+subcategory
+[93]: https://ncatlab.org/nlab/show/full+subcategory
+[94]: https://ncatlab.org/nlab/show/quasitopos
+[95]: https://ncatlab.org/nlab/show/reflective+subcategory
+[96]: https://ncatlab.org/nlab/show/Quiv
+[97]: https://ncatlab.org/nlab/show/category+of+presheaves
+[98]: https://ncatlab.org/nlab/show/separated+presheaf
+[99]: https://ncatlab.org/nlab/show/double+negation#in_topos_theory
+[100]: https://ncatlab.org/nlab/show/reflective+subcategory
+[101]: https://ncatlab.org/nlab/show/reflexive+relation
+[102]: https://ncatlab.org/nlab/show/symmetric+relation
+[103]: https://ncatlab.org/nlab/show/transitive+relations
+[104]: https://ncatlab.org/nlab/show/euclidean+relations
+[105]: https://ncatlab.org/nlab/show/Moore+closure
+[106]: https://ncatlab.org/nlab/show/completion
+[107]: https://ncatlab.org/nlab/show/preorder
+[108]: https://ncatlab.org/nlab/show/quasitopos#exampsep
+[109]: https://ncatlab.org/nlab/show/category+of+simple+graphs
+[110]: https://ncatlab.org/nlab/show/quasitopos
+[111]: https://ncatlab.org/nlab/show/regular+category
+[112]: https://ncatlab.org/nlab/show/category
+[113]: https://ncatlab.org/nlab/show/products
+[114]: https://ncatlab.org/nlab/show/internal+relation
+[115]: https://ncatlab.org/nlab/show/congruences
+[116]: https://ncatlab.org/nlab/show/composition
+[117]: https://ncatlab.org/nlab/show/finite+products
+[118]: https://ncatlab.org/nlab/show/allegory
+[119]: https://ncatlab.org/nlab/show/regular+category
+[120]: https://ncatlab.org/nlab/show/graph
+[121]: https://ncatlab.org/nlab/show/logical+relation
+[122]: https://ncatlab.org/nlab/history/relation

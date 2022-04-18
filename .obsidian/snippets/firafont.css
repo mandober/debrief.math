@@ -1,0 +1,20 @@
+:root {
+  /***************************************/
+  /*    FONTS RELATED                    */
+  /***************************************/
+
+  /** Font face **/
+  --default-font: 'Fira Code', 'Segoe UI', Roboto, Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+
+  /** Font size **/
+  --default-font-size: 18px;
+
+  /** Main text font weight **/
+  --body-font-weight: 450;
+
+  /** Font family for hash-tags **/
+  --tag-font-family: 'Fira Code', 'OperatorMonoSSmLig-Book', 'Helvetica Neue', 'Helvetica', Arial, sans-serif !important;
+
+  /** Font specially for codes **/
+  --code-mono-font: 'Consolas', 'Fira Code', 'OperatorMonoSSmLig-Book';
+}
