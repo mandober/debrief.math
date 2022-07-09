@@ -3,18 +3,18 @@
 * Algebra
   - Elementary Algebra
   - Abstract Algebra
+  - Universal Algebra
   - Linear Algebra
   - Multilinear Algebra
-  - Universal Algebra
 
 * Elementary Algebra
   - Arithmetics
 
 * Algebraic structure
-  - mathematical structure
-  - algebra
+  - mathematical structure (set + ops + axioms)
+  - an algebra
   - algebraic structure
-  - carrier set, underlying set, endowed set
+  - carrier / underlying / endowed set
   - set of operations
   - set of upheld axioms
 

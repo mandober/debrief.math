@@ -1,27 +1,69 @@
 # Equality
 
-https://en.wikipedia.org/wiki/Equality_(mathematics)
+* https://en.wikipedia.org/wiki/Equality_(mathematics)
+* https://ncatlab.org/nlab/show/equality
+* https://www.math.fsu.edu/~ealdrov/teaching/2020-21/fall/MAS5932/agda/simplethms-1.html
 
-In mathematics, the **equality** is a *relation* between two mathematical objects asserting they are actually the same object (have the same value).
+Terminology
+- equality
+- equivalence relation
+- propositional equality
+- definitional equality
+- isomorphism
+- iff
+- extensionality
+- extensional equality
+- intensional equality
+- supervenience
+- substitutivity
+- substitution property of equality
+- Leibnitz law of equality
+- identity of indiscernibles
+- indiscernibility of identicals
 
-Normally, mathematical expressions relate variables that stand for mathematical objects, but there is always a possibility (unless stressed otherwise) that two distinct variables actually denote the same mathematical object. Usually, it takes some amount of work, in the form of various transformations applied to the expression, to make that revelation. Because of that an expression involving literal values, like `4 = 4`, appears trivially true, while the truth value of an expression like `a = b` may not be revealed so easily, possibly depending on many other expressions.
 
-The equality relation, between A and B is denoted `A = B` (A equals B). The symbol is called the "equals sign". Two objects that are not equal are said to be *distinct*.
+**Equality** is a relation between two mathematical objects (variables, expressions) that asserts that they represent the same object (have the same value).
 
-## Examples
+Equality almost always appears in mathematical expressions that use variables, such as `a` and `b` to represent mathematical objects. The two variables may refer to two distinct objects, but they may also refer to the same object (aliases). If we determine the latter is the case, we may denote that fact by writing `a = b`.
 
-* Two distinct variables `x` and `y` may represent either two distinct objects, but possibly also the same one, the fact denoted by `x = y` (these variables are then called *aliases*). Once this equality relation is established, we can use either variable to denote that object (from there on).
+The equality in an equation with literal values such as `4 = 4` appears trivially true. However, solving an equation that involves free variables, such as `a = b`, may not be so easily discovered due to the dependencies these variables may have on other expressions.
 
-* The identity (equation) `(x + 1)² = x² + 2x + 1` means that the two expressions, on each side of the equals sign, have the same value for any number `x`. Also be interpreted as saying that the two sides of the equals sign represent the same function, `f(x) = (x + 1)²` and `g(x) = x² + 2x + 1`, then `f = g` i.e. `f(x) = g(x)` (although showing the equality of function is very problematic in general). Strictly, this equation should be accompanied with a signature that specifies the domain (domain of discurse) the variables, particularly `x`, range over; the specific domain (ℕ, ℤ, ℚ, ℝ) usually has a decisive influence on the result of an expression (equation), or even on its well-formedness (e.g. changing the domain may produce a division-by-zero error).
+It usually takes some work in the form of various transformations applied to the expressions on both sides of the equals sign to resolve it. For example, the identity equation, `(x + 1)² = x² + 2x + 1`, means that the two expressions have the same value for any number `x` (or that they represent the same function), which may be determined by applying appropriate transformations.
 
-* `{ x | P(x) } = { x | Q(x) } ⟺ (P(x) ⟺ Q(x))`. This assertion means that if the elements satisfying the property P(x) are the same as the elements satisfying Q(x), then the two (uses of the set-builder) notations define the same set. This property, that two sets that have the same elements are equal, is called the *axiom of extensionality*, `∀a ∀b (∀x (x ∈ a ⟺ x ∈ b) ⟺ (a = b)`.
+The assertion `{x|Px} = {x|Qx}` ⟺ `Px ⟺ Qx` means that if the elements satisfying the property `P(x)` are the same as those satisfying `Q(x)`, then the two uses of the set-builder notations define the same set. This property, that two sets that have the same elements are equal, is called the *axiom of extensionality*, `∀a ∀b (∀x (x ∈ a ⟺ x ∈ b) ⟺ (a = b)`.
 
 
-## Properties
+## Contents
 
-**Substitution property of equality** or **the Leibnitz law** (the Leibnitz law of equality) states that, for any two objects `a` and `b` and any well-formed expression `F(x)`, if `a = b` then `F(a) = F(b)`.
+- Basic properties
+- Equality as predicate
+- Identities
+- Equations
+- Congruences
+- Approximate equality
+- Relation with equivalence and isomorphism
+- Logical definitions
+- Equality in set theory
+  - Set equality based on first-order logic with equality
+  - Set equality based on first-order logic without equality
 
-`∀φ ∀a ∀b (a = b --> φ(a) = φ(b))` (second-order formula)
+
+## Basic Properties
+
+**Substitution property of equality** or **the Leibnitz law of equality**:
+
+for all objects `a` and `b` and any function `F(x)`,    
+
+`∀a∀b((a = b) -> F(a) = F(b))`
+
+`∀F(Fx ⇔ Fy) -> x = y`
+
+The Leibnitz law formalizes the substitution property of equality: A[T/x] is the result of substituting the term `T` for the free var `x` in the term `A`:
+- substitution: if A = B is a theorem, then C[A/x] = C[B/x] is a theorem
+- generality:   if A = B is a theorem, then A[C/x] = B[C/x] is a theorem
+
+
+
 
 Some specific examples follow.
 

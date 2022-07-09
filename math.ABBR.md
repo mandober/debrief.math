@@ -1,12 +1,15 @@
-# Math: Abbreviations
+# Math :: Abbreviations
 
 <!-- TOC -->
 
-- [λC](#λc)
+- [ADT](#adt)
 - [AC](#ac)
+- [BHK interpretation](#bhk-interpretation)
+- [CHI](#chi)
 - [CoC](#coc)
 - [CIC](#cic)
 - [CL](#cl)
+- [IL](#il)
 - [LC](#lc)
 - [LEM](#lem)
 - [EFQ](#efq)
@@ -18,24 +21,32 @@
 - [LNC](#lnc)
 - [PA](#pa)
 - [PER](#per)
+- [PL](#pl)
 - [PRF](#prf)
 - [Poset](#poset)
 - [SOL](#sol)
 - [STLC](#stlc)
 - [TM](#tm)
+- [Toset](#toset)
 - [UTM](#utm)
-- [Z-](#z-)
 - [ZF](#zf)
 - [ZFC](#zfc)
 
 <!-- /TOC -->
 
 
-## λC
-Lambda Calculus
+## ADT
+1. Abstract data type
+2. Algebraic data type
 
 ## AC
 Axiom of Choice
+
+## BHK interpretation
+Brouwer-Heyting-Kolmogorov interpretation of intuitionistic logic
+
+## CHI
+Curry-Howard isomorphism (correspondence, equivalence)
 
 ## CoC
 The Calculus of Constructions
@@ -44,28 +55,31 @@ The Calculus of Constructions
 The Calculus of Inductive Constructions
 
 ## CL
-Combinational logic
+Combinational logic (Classic logic is never abbreviated)
+
+## IL
+Intuitionistic logic
 
 ## LC
 Lambda Calculus
 
 ## LEM
-Law of Excluded Middle, in latin "tertium non datur".
+Law of Excluded Middle (Latin: tertium non datur)
 
 ## EFQ
-Latin "ex falso quodlibet", i.e. the principle of explosion.
+The Principle of Explosion (Latin: ex falso quodlibet)
 
 ## FOL
 First-order Logic
 
 ## GLB
-Greatest lower bound (infimum)
+Greatest lower bound, infimum
 
 ## HOL
 Higher-order logic
 
 ## LUB
-Least upper bound (supremum)
+Least upper bound, supremum
 
 ## NBG
 Von Neumann-Bernays-Gödel set theory
@@ -79,6 +93,9 @@ The Law of Non-Contradiction
 
 ## PER
 Partial Equivalence Relation
+
+## PL
+Programming language
 
 ## PRF
 Primitive Recursive Function
@@ -95,11 +112,11 @@ Simply-Typed Lambda Calculus
 ## TM
 Turing Machine
 
+## Toset
+Totally ordered set
+
 ## UTM
 Universal Turing Machine
-
-## Z-
-Zermelo set theory
 
 ## ZF
 Zermelo-Fraenkel set theory (without the axiom of choice)

@@ -1,5 +1,7 @@
 # Glossary of Relation theory
 
+⊰ ⨟ ⨾ ⊱ ⫴ ⫻ ☂ ⛱ Ꝕ ꝕ 🗪 ❏ ★ Ʀ
+
 ## Aliorelative relation
 see Irreflexive relation
 
@@ -32,8 +34,6 @@ A homogeneous binary relation `R` on a set `X` is reflexive if it relates every 
 
 ## Equivalence relation
 Equivalence relation is actually defined by simultaneous presence of 3 properties (or relations): reflexivity, symmetry and transitivity.
-
-⊰ ⨟ ⨾ ⊱ ⫴ ⫻ ☂ ⛱ Ꝕ ꝕ 🗪 ❏ ★ Ʀ
 
 ## Irreflexive relation
 An irreflexive relation R on a set A, `∀a ∈ A. (a,a) ∉ R`.

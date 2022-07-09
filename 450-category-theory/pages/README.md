@@ -9,7 +9,7 @@
 - [zero object](./zero-object.md)
 - [exponential object](./exponential-object.md)
 - [category theory](./category-theory.md)
-- [category](./category.md)
+- [category](category-nlab.md)
 - [morphism](./morphism.md)
 - [homomorphism](./homomorphism.md)
 - [isomorphism](./isomorphism.md)

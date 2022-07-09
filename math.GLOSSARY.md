@@ -25,6 +25,7 @@
 - [Argumentation theory](#argumentation-theory)
 - [Axiology](#axiology)
 - [Axiom](#axiom)
+- [Canonical](#canonical)
 - [Church-Turing thesis](#church-turing-thesis)
 - [Class](#class)
 - [Conjecture](#conjecture)
@@ -165,6 +166,9 @@ Axiology is the philosophical study of value. It is either the collective term f
 
 ## Axiom
 An axiom or **postulate** is a statement that is taken to be true that serves as an initial premise or starting point for further reasoning and arguments. In classical logics, an axiom is an evident and well-established statement that needs no further proof. In modern logics, an axiom is a premise for reasoning.
+
+## Canonical
+The term "canonical" refers to a particular selection, from of a number of possible choices (of views, denotations, approaches, etc.), that is selected as the standard presentation of some mathematical object. This convention allows that mathematical object to be uniquely identified.
 
 ## Church-Turing thesis
 In computability theory, the Church-Turing thesis is a hypothesis about the nature of computable functions. It states that a function on the natural numbers is computable by a man following an algorithm, ignoring resource limitations, iff it is computable by a Turing machine.

@@ -1,3 +1,0 @@
-
-
-https://mathforyou.net/en/

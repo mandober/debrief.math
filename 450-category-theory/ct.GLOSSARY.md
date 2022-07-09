@@ -1,10 +1,10 @@
 # Category Theory: GLOSSARY
 
 ## Arrow
-see morphism
+see Morphism
 
 ## Category
-A category consists of a collection of things and binary relationships (or transitions) between them, such that these relationships can be combined and identified i.e. they include the identity relationship.
+Broadly, a category consists of a collection of entities and binary relations (or transitions) between them (starting with objects and arrows), such that these relations can be composed and identified, and they include the identity relation. More precisely, a category consists of objects and arrows between those objects such that all object have an identity arrow, and arrows may be composed (provided their domain and codomain agree). That is, we can consider the set of arrows as the carrier set and composition as the attached binary operation; then identity arrows are units of composition (identity property), and composition is associative (property of associativity), transitive (property of transitivity), and closed over the carrier set (closure property).
 
 ## Coterminal object
 see initial object
@@ -12,17 +12,20 @@ see initial object
 ## Final object
 see terminal object
 
+## Functoriality
+Functoriality means that something is a functor. When someone asks about the functoriality of some construction, they're asking whether or not it can be upgraded to a functor.
+
 ## Homset
-For all objects `x` and `y` in a category, there is a set called hom-set, `hom(x,y)`, whose elements are morphisms from `x` to `y`.
+For all objects `a` and `b` in a category `C`, there is a set called hom-set, `homᴄ(a,b)` or `C(a,b)` whose elements are all arrows from `a` to `b`. If we consider only a single object `a`, then a homset is the set of all arrows from `a` to `a` which includes at least the identity arrow on `a`, `1ₐ`.
 
 ## Initial object
-An initial object (coterminal, universal) in a category `C` is an object `I` in C such that for every object `X` in C there exists precisely one morphism `I -> X`. The dual notion is that of the terminal object.
+An initial object (coterminal object, universal object) in a category `C` is an object `i` in `C` such that for every object `x` in C there exists precisely one morphism `i -> x`. Initial and terminal objects are duals.
 
 ## Isomorphism
-An isomorphism is an invertible morphism, hence a morphism with an inverse morphism. It is a generalization of the concept of bijective functions.
+An isomorphism is an invertible morphism, hence a morphism with an inverse morphism. It is a generalization of bijective functions. An isomorphism between objects `a` and `b` consists of two arrows, `to : a -> b` and `from : b -> a` that convert between these two objects.
 
 ## Morphism
-A morphism is a directed arrow (representing a relation) between two objects. A morphism is an element of a hom-set.
+A morphism or arrow is a directed connection (representing a relation) between two objects. There are morphisms in a category between its objects, but there are also arrows between categories, even between arrows, in fact arrows are possible between any two entities, or even on one entity.
 
 ## Null object
 see zero object

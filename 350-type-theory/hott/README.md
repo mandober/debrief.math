@@ -1,1 +1,0 @@
-# Homotopy type theory

@@ -1,35 +1,45 @@
-# 510 Lambda Calculi
-
-
-* Lambda Calculi
-  - untyped lambda calculus, `λ`
-  - typed lambda calculi
-    - simply typed lambda calculi, `λ→`
+# Lambda Calculi
 
 * Lambda Calculus
-  - untyped lambda calculus
-  - definition
-    - function abstraction
-    - function application
-      - variable binding
-      - variable substitution
-  - reductions
-    - α-conversion
-      - α-conversion
-    - β-reduction
-      - redex
-      - normal form
-      - weak head normal form
-      - β-normal form
-    - η-conversion
-  - concepts
-    - bound vars
-    - free vars
-  - evaluation
-    - normal
-    - applicative
-  - encoding schemes
-
-
-* Typed lambda calculi
-  - Simply typed lambda calculi, `λ→`
+  - initial formalism, everything else is based on
+  - syntax
+    - definition of lambda calculus
+      - var
+      - abs
+      - app
+    - syntactical entities
+      - lambda form
+        - lambda abstraction definition
+        - lambda head
+        - lambdabody
+      - lambda expression
+      - lambda term
+      - lambda app
+      - lambda abstraction
+      - lambda var
+      - var binding
+        - var lambda binder
+        - binding
+        - formal parameters vs actual params, args
+        - param occurrences
+          - variable's binding occurrence
+          - variable's applied occurrences
+  - semantics of lambda calculus
+* Lambda Calculi
+  - untyped λ-calculi
+    - original lambda calculus
+    - versions of lambda calculus
+  - typed λ-calculi
+    - simply-typed lambda calculus
+    - typing a la Church
+    - typing a la Curry
+  - lambda cube
+    - organization of typed featurefull calculi
+    - axes of orthogonal features
+      - x-axis: types that can bind terms; dependent types
+      - y-axis: terms that can bind types; polymorphism
+      - z-axis: types that can bind types; type operators
+    - lambda cube calculi
+      - System F
+      - System Fω
+      - System ΠFω

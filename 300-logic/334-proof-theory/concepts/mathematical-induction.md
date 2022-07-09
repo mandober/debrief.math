@@ -3,10 +3,72 @@
 - https://en.wikipedia.org/wiki/Mathematical_induction
 - https://en.wikipedia.org/wiki/Axiom_of_induction
 
+**Mathematical induction** is a proof technique that allows us to prove that a predicate `P`, as a statement `P(n)`, holds for all natural numbers `n`.
 
-**Mathematical induction** is a mathematical proof technique used to prove that a statement `P(n)` holds for every natural number `n`; that is, the overall statement is a sequence of infinitely many cases, `P(0), P(1), P(2), P(3), …`.
+Analytically, the overall statement to prove is a sequence of infinitely many cases, since it needs to hold for each and every natural number, of which there is an infinite number: P(0), P(1), P(2), P(3), …, P(n), P(S n), …
 
-Informal metaphors help to explain this: induction is a method of proof we use to prove that we can climb as high as we like on a ladder, by proving that we can climb onto the bottom rung (the base case), and that from each rung we can climb up to the next one (the inductive case).
+Proving `P` for all naturals, `∀n(n ∈ ℕ -> P n)`, by proving each individual case is a reach, so an informal metaphor was devised: induction is a method of proof we use to prove that we can climb an infinite ladder arbitrarily high, by proving that we can climb onto the bottom rung (the base case), and that from each rung we can reach the next one (the inductive case).
+
+
+
+<!-- #region natf-->
+
+<details><summary>Formation and elimination</summary>
+
+First, let's consider the two main Peano axioms that describe `ℕ`
+1. `0 ∈ ℕ`
+2. `n ∈ ℕ -> S n ∈ ℕ`
+
+We can express them as inference rules
+
+```
+                    n : ℕ
+------ (1)         -------- (2)
+0 : ℕ              S n : ℕ
+```
+
+These two describe the set of the natural numbers, ℕ, by saying how its elements are formed. In fact, the formation is a left to right, top to bottom, reading of the inference rules. That is, to form ℕ, at the very beginning you only get one - the first elements called zero; you can't use the second rule to procude more naturals at his point because you have none. That is, at the current time tick, you only have your first natural. But at the next tick, you can produce another, its succesor, by sticking `S` in front of a natual; since we only have the nat zero so far, we apply `S` to it and get its successor, another natural, `S 0`. And so on.
+
+However, at the same time these two rules can be read in the opposite direction, and under that reading they serve us natural number detectors, i.e. we use them to prove that an `n` is a natural. For example, to prove that 2 is a natural, `S S 0 ∈ ℕ`, we proceed from the bottom up:
+
+```
+------ 1          ------ 1
+    0             0 : ℕ
+
+    0             n : ℕ
+------ 2         ------- (2)
+  S 0            S n : ℕ
+
+  S 0             n : ℕ
+------ 2         -------- (2)
+S S 0            S n : ℕ
+```
+
+This checking procedure involes what's called pattern matching in FPLs: we match an unknown value against a pattern - usually a set of patterns arranged in order of priority. Looking at the two inference rules, we see that in the case of ℕ, we have two patterns, one for each case (base and recursive case).
+
+Since the base case only deals with a single specific natural number, the pattern to match zero successfully has the same shape as the value itself, `0`.
+
+This is a literal pattern, which are used when you need to match a very specific value (shape of value): only the value `0` can successfuly match the pattern `0`. Patterns like `0` are refutable - their opposite is an irrefutable pattern, like `x`, which will match (and bind) any value whatsoever.
+
+So, the first inference rule deals with a single, highly specific, natural number, while the second inference rules deals with the rest. Thes two rules correspond to the two shapes of natural numbers: a natural either has the shape `0` or a shape `S x`. In other words, a natural is either 0 or a successor of 0.
+
+These two patterns, `0` and `S x`, will match (capture) any natural number, allowing us to process it. We often "process" a natural number by extracting the information it conveys and discarding the number itself right after. This imagenery is to ease you into the name for this procedure - elimination. A natural number is formed according to the *formation rules*; it is passed around to convey some information; eventually, it is discarded using the *elimination rules*.
+
+</details>
+
+<!-- #endregion -->
+
+
+Rather then performing infinitly many individual proofs, we instead start by proving that `P` holds in the simplest case (the base case), which here means proving it holds for the initial element, `P 0`. In the general case, we need to prove that P holds for any number, `P n`. We do that by assuming that, if `P` holds for some number `m`, than it holds for its successor, `P (S m)`.
+
+Finally, uniting the two cases, 
+*if* P holds for 0, `P 0`, 
+and, assuming that, 
+  if P holds for some nummber `n`, 
+  then it holds for its successor, `P (S n)`, 
+*then* P holds for all numbers, `P n`
+
+
 
 **Proof by induction** is a proof method consisting of two cases:
 

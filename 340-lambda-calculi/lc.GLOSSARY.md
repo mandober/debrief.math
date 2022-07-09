@@ -1,14 +1,81 @@
-# Lambda Calculus: GLOSSARY
+# Lambda Calculi :: Glossary
+
+<!-- TOC -->
+
+- [α-conversion](#α-conversion)
+- [α-equivalence](#α-equivalence)
+- [β-reduction](#β-reduction)
+- [η-conversion](#η-conversion)
+- [δ-expansion](#δ-expansion)
+- [ξ-rule](#ξ-rule)
+- [Application occurrence of a variable](#application-occurrence-of-a-variable)
+- [Beta reduction](#beta-reduction)
+- [Binary Lambda Calculus](#binary-lambda-calculus)
+- [Bound variable](#bound-variable)
+- [Binding occurrence](#binding-occurrence)
+- [Call-by-need](#call-by-need)
+- [Church's Thesis](#churchs-thesis)
+- [Combinators](#combinators)
+- [Computation](#computation)
+- [De Bruijn indexing](#de-bruijn-indexing)
+- [De Bruijn notation](#de-bruijn-notation)
+- [Effectively computable](#effectively-computable)
+- [Eta conversion](#eta-conversion)
+- [Free variable](#free-variable)
+- [Formal system](#formal-system)
+- [Functions](#functions)
+- [Lambda abstraction](#lambda-abstraction)
+- [Lambda application](#lambda-application)
+- [Lambda calculi](#lambda-calculi)
+- [Lambda calculus](#lambda-calculus)
+- [Lambda expression](#lambda-expression)
+- [Lambda term](#lambda-term)
+- [Name capture](#name-capture)
+- [Normal form](#normal-form)
+- [Redex](#redex)
+- [Reduction strategy](#reduction-strategy)
+- [Evaluation](#evaluation)
+- [Rho calculus](#rho-calculus)
+- [Substitution](#substitution)
+
+<!-- /TOC -->
+
+## α-conversion
+The α-conversion, one the 3 fundamental operations of LC, renames free variables in order to avoid name-capturing substitutions. An implementation of LC needs to maintain a pool of names for fresh variables for this purpose. This rule is a conversion because renaming a free variable is a reversable, if futile, process.
+
+## α-equivalence
+The α-equivalence rule formalizes the fact that names of bound variables are insignificant, thus making two instances of the same abstraction (with only the names of the formal parameters changed) equivalent. That is, α lambda abstraction `λx.x` is the same as `λz.z` or `λ παραμ . παραμ` (the latter uses multi-character names for params). Bound variables are also called formal or dummy parameters. De Bruijn notation completely dispenses with names, replacing them with indices. This concepts is exactly the same as the one from PLs where a function definition has formal parameters declared as a list of names.
+
+## β-reduction
+The β-reduction, one the 3 fundamental operations of LC, describes application, that is, the way a lambda term is applyied to another lambda term, `M N`. The term `M` better be a lambda abstraction, so it may be denoted more precisely as `λx.B`, where `x` is a formal paramater, and `B` stands for a lambda term that is the abstraction's body (which usually contains at least one occurence of the variable `x`). So, the form of application is `(λx.B) N`, with a lambda term `N` as the argument. The β-reduction prescribes the exact mechanics of reducing this term (this application), which must deal with the reduction strategy (eager, lazy), avoiding name-capturing, and similar. Considering this example `(λx.ax(yx)) y` and the normal order reduction strategy, the β-reduction proceeds by passing the term `y` unevaluated into the abstraction, where the formal parameter `x` binds it, `x ⟼ y`. Before performing the substitution of `x` by `y` in the body `ax(yx)`, the free variable `y` (in the body) needs to be renamed (into `z`) to avoid a name capture (incorrect replacement would result in the expression `ay(yy)`). After the renaming, the lambda expression is `(λx.ax(zx)) y`. Then the substitution, `[x ⟼ y]ax(zx)`, is performed, resulting in the final expression `ay(zy)`.
+
+The essence of β-reduction is always the same, but due to the problem of name capturing, its specific forms vary. This rule is a reduction because β-reduction is non-reversable.
+
+## η-conversion
+The η-conversion rule establishes equality `λx.Tx` <=> `T`. The term `λx.Tx` means that `T` is expecting an arg `x`, that will be passed to it by the enclosing lambda abstraction. But `T` can very well await on that arg by itself - there's no need to scaffold the lambda abstraction around it, just to serve his lazyass the argument. In FP, the style heavy in η-reductions is called the point-free style. The opposite approach, heavy in η-expansions is called the point-full style. This rule is a conversion because this process is reversable in both directions, as η-expansion and η-contraction.
+
+```hs
+add :: a -> a -> a
+add x y = x + y
+
+plus :: a -> a -> a
+plus x y = add x y  -- point-full
+plus x   = add x    -- point-less
+plus     = add      -- point-free
+```
 
 
-## Alpha conversion
-The `α-conversion` is one the 3 fundamental operations of λ-calculus that renames free variables in order to avoid name capturing while performing substitution.
+## δ-expansion
+The δ-expansion rule is related to the expansion of syntactic abbreviations (macros). It is maintaining some sort of hygene and minds the name shadowing or some shit like that.
+
+## ξ-rule
+ξ-rule (zeta rule) states that equations should be preserved under binders. 
+It fails to be sound for the usual interpretation of LC.
 
 ## Application occurrence of a variable
 An occurrence of a variable in the body of a function that bound it (in its head, which is the binding context).
 
 ## Beta reduction
-β-reduction is the process of function application via variable substitution that avoids name capturing.
 
 ## Binary Lambda Calculus
 Some consider BLC as the most concise PL ever known to man. BLC was developed to make Algorithmic Information Theory, the theory of smallest programs, more concrete. It starts with the simplest model of computation, the λ-calculus, and adds the minimum amount of machinery to enable binary input and output.
@@ -65,9 +132,11 @@ Lambda abstraction is analogous to a function definition. The term `λx.B` defin
 ## Lambda application
 Lambda application is the act of applying a lambda term `M` to another lambda term `N`, denoted by juxtaposition as `MN`. The term `M` is assumed to be an abstaction, having the form `λx.B`, and the term `N` is the argument. The application continues with substitution that avoids name capture.
 
+## Lambda calculi
+The collection of all calculi based on the original Church's work is called lambda calculi. However, the singular form, lambda calculus, is also often used to name this collection, particularly when the distinction between a particular version and the entire collection is clear.
+
 ## Lambda calculus
 λ-calculus (LC) is a formal system in mathematical logic, invented by Alonzo Church in the 1930's, for expressing computation and exploring the problems of effectively computable functions. The two mechanisms of λ-calculus are abstraction, which is a way to define a function, and β-reduction that defines function application.
-https://en.wikipedia.org/wiki/Lambda_calculus
 
 ## Lambda expression
 A lambda expression is any number of lambda terms arranged in the syntactically allowed way. The root (topmost) lambda term of a lambda expression is usually an application.
@@ -81,6 +150,9 @@ The process of applying a function to an argument means substituting all the app
 ## Normal form
 In abstract rewriting, an object is in normal form if it cannot be rewritten any further, i.e. it is irreducible. Depending on the rewriting system, an object may rewrite to several normal forms or none at all. Many properties of rewriting systems relate to normal forms.
 
+## Redex
+Redex is a reducable lambda term.
+
 ## Reduction strategy
 In rewriting, a reduction strategy (rewriting strategy) strategy is a relation specifying a *rewrite* for each object or term, compatible with a given *reduction relation*. Some authors use this term as a synonym for *evaluation strategy*, while others reserve the latter phrase for evaluation that results in some notion of value.
 
@@ -92,18 +164,3 @@ Invented as a general means to uniformly integrate rewriting and lambda calculus
 
 ## Substitution
 Substitution is part of the process of applying a function to an argument: the argument is first bound by a formal parameter, then all the application occurrences of that parameter (in the function's body) are replaced with the value of the argument. If an abstraction is applied to a lambda expression `N` acting as an argument, e.g. `(λp.B) N`, the substitution can be be denoted as the let-expresion `let p = N in B`, but more commonly as `[p:=N]B`. [pop-fact] every author has a prefered format for denoting substitution; punchline: they are all distinct.
-
-## α-equivalence
-The α-equivalence rule states that names of bound variables are insignificant. Thus, they are called formal parameters or even "dummy" variables.
-
-## β-reduction
-The β-reduction specifies how a redex (reducable lambda term) is reduced, i.e. the way a lambda abstraction is applied to an argument, which itself is another abstraction. In fact, there β-reduction operation itself is fixed (it is always the same), it just states that the formal parameter binds the argument such that its applied occurrences in the body are replaced by the value of the argument, minding the name capture.
-
-## η-conversion
-The η-conversion rule establishes equality `λx.Tx` <=> `T`. The term `λx.Tx` means that `T` is awaiting to be served an argument `x` by the enclosing lambda abstraction. But, `T` can very well await on args all by itself, there's no need to engage the abstraction to serve him as some kind of proxy. In FPLs, this corresponds to the point-free style.
-
-## δ-expansion
-The δ-expansion rule is related to the expansion of syntactic abbreviations (macros). It is maintaining some sort of hygene and minds the name shadowing or some shit like that.
-
-## ξ-rule
-ξ-rule states that equations should be preserved under binders. It fails to be sound for the usual interpretation.

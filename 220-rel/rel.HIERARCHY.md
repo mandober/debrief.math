@@ -1,12 +1,12 @@
-# Relation theory ∷ Hierarchy
+# Relation theory :: Hierarchy
 
 * Relations (general)
-  - Concept of relation
-  - Representation
-  - Notation
-  - Presentation
-  - Definition
-  - relation in terms of…
+  - Concept of relations
+  - Representation of relations
+  - Notation of relations
+  - Presentation of relations
+  - Definition of relations
+  - Relations in terms of
     - associations
     - ordered pairs
     - tuples
@@ -42,6 +42,8 @@
     - k-ary for some fixed integer k
     - n-ary for some arbitrary integer n
   * by properties
+    - refl
+    - symm
 
 
 * Relation types

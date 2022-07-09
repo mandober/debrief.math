@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Absoluteness](#absoluteness)
+- [Ancestral logic](#ancestral-logic)
 - [Argumentation theory](#argumentation-theory)
 - [Aristotelian logic](#aristotelian-logic)
 - [Axiom](#axiom)
@@ -18,6 +19,8 @@
 - [Description](#description)
 - [Definite description](#definite-description)
 - [Determiner](#determiner)
+- [Elementary theory](#elementary-theory)
+- [Equiconsistent](#equiconsistent)
 - [Extension](#extension)
 - [Extensionality](#extensionality)
 - [Extremal clause](#extremal-clause)
@@ -92,6 +95,9 @@
 ## Absoluteness
 Absoluteness is a property of a formula. A formula is said to be absolute if it has the same truth value in each class of structures/models.
 
+## Ancestral logic
+Ancestral logic is the extension of FOL with a transitive closure operation (the transitive closure of a binary relation R on a set X is the smallest relation on X that contains R and is transitive).
+
 ## Argumentation theory
 Argumentation theory, or argumentation, is the interdisciplinary study of how conclusions can be reached from premises through logical reasoning. It includes debate, dialogue, conversation, persuasion. It studies inference and procedural rules in artificial and real world settings.
 
@@ -109,6 +115,14 @@ see Biconditional
 
 ## Boolean function
 A Boolean function is a function whose arguments and result assume values from the Boolean domain, i.e. a two-element set, usually, `{T,F}` or `{0,1}`. Unary `f: 𝔹 → 𝔹`, binary `g: 𝔹 ⨯ 𝔹 → 𝔹` or `g: 𝔹² → 𝔹` or `g: 𝔹 → 𝔹 → 𝔹`, and in general `h: 𝔹ⁿ → 𝔹`.
+
+## Boolean logic
+
+## Boolean algebra
+Propositional logic may be reinterpreted from a viewpoint of algebra, in which case the system is called Boolean algebra (BA). Boolean algebra is an algebraic system on the Boolean domain, `𝔹 = {0, 1}`. A logical statement (a proposition) in propositional logic is regarded as an expression in Boolean algebra. Applications of inference rules to derive a theorem in logic are similar to transformations or manipulations of expressions in algebra. In BA, we can manipulate logical statements as algebraic expressions systematically.
+
+## Boolean logic vs Propositional logic
+
 
 ## Closed-world assumption
 Closed-world assumption is a view that pressuposes that a statement that is true is also known to be true, and a statement not known to be true is false.
@@ -139,6 +153,9 @@ A determiner is a word, phrase or affix that occurs together with a noun phrase 
 
 ## Elementary theory
 In mathematical logic, an elementary theory is a theory that involves axioms using only finitary first-order logic, without reference to set theory or using any axioms which have consistency strength equal to set theory.
+
+## Equiconsistent
+In mathematical logic, two theories are equiconsistent if the consistency of one theory implies the consistency of the other theory, and vice versa. In this case, they are, roughly speaking, "as consistent as each other".
 
 ## Extension
 The extension of a predicate (a truth-valued function) is the set of tuples of values that, used as arguments, satisfy the predicate. Such a set of tuples is a relation.

@@ -1,5 +1,23 @@
 # Hierarchy
 
+- Lambda calculi
+  - general
+  - LC and logic
+  - LC and computation
+  - LC and the type system
+  - type system a la Church, extensional, type checking
+  - type system a la Curry, intensional, type inference/reconstruction
+
+- Lambda calculus
+  - general
+  - history
+  - introduction
+  - Curry's paradox
+
+- STLC
+  - introduction of types
+
+
 * Encodings
   * encoding technics
     - encoding logic

@@ -1,4 +1,7 @@
-# Relations ∷ notations
+# Relations ∷ Notations
+
+
+
 
 Image of a relation is a subset of the relation's codomain
 - Image of a relation , `Im(G) = { b | (a,b) ∈ G, a ∈ A, b ∈ B }`

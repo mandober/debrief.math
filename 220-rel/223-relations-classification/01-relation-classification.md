@@ -1,6 +1,12 @@
-# Classifications of relations
+# Relations :: Classifications of relations
 
-Relations may be classified according to several factors:
+Relations may be classified according to numerous factors. Some factors have to do with the related objects (relations on sets, relations on functions, relations on relations, etc.), the interinsic properties of relations (reflexivity, symmetry, etc.), arity of relations, etc.
+
+In set theory based math everything is a set anyway, so we might say that all relations are on sets.
+
+Classification factors
+
+
 - involved sets
   - distinct sets
   - number of sets
