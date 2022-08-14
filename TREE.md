@@ -1,16 +1,7 @@
 Folder PATH listing for volume DATA
 Volume serial number is C0000100 8C1E:2D59
+
 T:.
-├───.meta
-├───.obsidian
-│   ├───plugins
-│   │   ├───cm-editor-syntax-highlight-obsidian
-│   │   ├───obsidian-admonition
-│   │   ├───obsidian-minimal-settings
-│   │   └───tag-wrangler
-│   ├───snippets
-│   └───themes
-├───.vscode
 ├───011-math-appendix
 │   ├───math-formulas
 │   ├───math-hierarchies

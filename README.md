@@ -46,6 +46,7 @@ Topics include: the foundations of mathematics, set theory, relation theory, ord
 
 * _"Huius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet."_ -- F-Monk
 
+* *...a pre-eminently peerless stinker* -- drich
 
 -----------------------------------------------------------------------------
 

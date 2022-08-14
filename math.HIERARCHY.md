@@ -1,16 +1,28 @@
-# Mathematics ∷ Hierarchy
-
-* *domains*
-  - math
-  - cs
-  - pls
-  - tech
-  - ling
-  - misc
-  - meta
+# Mathematics :: Hierarchy
 
 -------------------------------------------------------------------------------
-* *top levels*
+PROLOGUE: Top level domains
+-------------------------------------------------------------------------------
+- Theory
+  - 1. Mathematics, math
+  - 2. Computer Science, cs
+    - Proglang
+      - Proglang Theory
+      - Proglang Features
+      - Proglang Design
+      - Proglang Impl
+      - Proglang Tradeoffs
+- Praxis
+  - Software
+  - 4. Apps
+  - 5. Prog Langs
+  - 6. Tech
+  - 7. Console, CLI
+    - Shells
+    - Terminals
+
+-------------------------------------------------------------------------------
+* Top levels
   - math in general
   - discrete math
   - math logic
@@ -209,14 +221,14 @@ PART II: DM
   - Naïve set theory
   - Axiomatic set theory
     - General set theory
-    - Zermelo–Fraenkel set theory
+    - Zermelo-Fraenkel set theory
       - ZF/ZFC
       - ZFC axioms
       - Axiom of choice
-    - Kripke–Platek set theory
-    - Von Neumann–Bernays–Gödel set theory
-    - Morse–Kelley set theory
-    - Tarski–Grothendieck set theory
+    - Kripke-Platek set theory
+    - Von Neumann-Bernays-Gödel set theory
+    - Morse-Kelley set theory
+    - Tarski-Grothendieck set theory
 
 ## Relations
   - Set Relations
@@ -425,7 +437,7 @@ PART III: MATHEMATICAL LOGIC
           - Consistency and completeness
           - Extensions by definitions
           - Interpretations
-          - Herbrand–Skolem theory
+          - Herbrand-Skolem theory
           - Craig's interpolation lemma
       - Incompleteness theorem
           - Number-theoretic functions and predicates

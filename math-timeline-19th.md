@@ -1,0 +1,61 @@
+# math :: Timeline :: XIX
+
+https://en.wikipedia.org/wiki/Timeline_of_mathematics#19th_century
+
+## XIX century
+
+- 1801 Disquisitiones Arithmeticae, Carl Friedrich Gauss's number theory treatise, is published in Latin.
+- 1805 Adrien-Marie Legendre introduces the method of least squares for fitting a curve to a given set of observations.
+- 1806 Louis Poinsot discovers the two remaining Kepler-Poinsot polyhedra.
+- 1806 Jean-Robert Argand publishes proof of the Fundamental theorem of algebra and the Argand diagram.
+- 1807 Joseph Fourier announces his discoveries about the trigonometric decomposition of functions.
+- 1811 Carl Friedrich Gauss discusses the meaning of integrals with complex limits and briefly examines the dependence of such integrals on the chosen path of integration.
+- 1815 Siméon Denis Poisson carries out integrations along paths in the complex plane.
+- 1817 Bernard Bolzano presents the intermediate value theorem-a continuous function that is negative at one point and positive at another point must be zero for at least one point in between. Bolzano gives a first formal (ε, δ)-definition of limit.
+- 1821 Augustin-Louis Cauchy publishes Cours d'Analyse which purportedly contains an erroneous "proof" that the pointwise limit of continuous functions is continuous.
+- 1822 Augustin-Louis Cauchy presents the Cauchy integral theorem for integration around the boundary of a rectangle in the complex plane.
+- 1822 Irisawa Shintarō Hiroatsu analyzes Soddy's hexlet in a Sangaku.
+- 1823 Sophie Germain's Theorem is published in the second edition of Adrien-Marie Legendre's Essai sur la théorie des nombres
+- 1824 Niels Henrik Abel partially proves the Abel-Ruffini theorem that the general quintic or higher equations cannot be solved by a general formula involving only arithmetical operations and roots.
+- 1825 Augustin-Louis Cauchy presents the Cauchy integral theorem for general integration paths-he assumes the function being integrated has a continuous derivative, and he introduces the theory of residues in complex analysis.
+- 1825 Peter Gustav Lejeune Dirichlet and Adrien-Marie Legendre prove Fermat's Last Theorem for n = 5.
+- 1825 André-Marie Ampère discovers Stokes' theorem.
+- 1826 Niels Henrik Abel gives counterexamples to Augustin-Louis Cauchy's purported 'proof' that the pointwise limit of continuous functions is continuous.
+- 1828 George Green proves Green's theorem.
+- 1829 János Bolyai, Gauss, and Lobachevsky invent hyperbolic non-Euclidean geometry.
+- 1831 Mikhail Vasilievich Ostrogradsky rediscovers and gives the first proof of the divergence theorem earlier described by Lagrange, Gauss and Green.
+- 1832 Évariste Galois presents a general condition for the solvability of algebraic equations, thereby essentially founding group theory and Galois theory.
+- 1832 Lejeune Dirichlet proves Fermat's Last Theorem for n = 14.
+- 1835 Lejeune Dirichlet proves Dirichlet's theorem about prime numbers in arithmetical progressions.
+- 1837 Pierre Wantzel proves that doubling the cube and trisecting the angle are impossible with only a compass and straightedge, as well as the full completion of the problem of constructability of regular polygons.
+- 1837 Peter Gustav Lejeune Dirichlet develops Analytic number theory.
+- 1838 First mention of uniform convergence in a paper by Christoph Gudermann; later formalized by Karl Weierstrass. Uniform convergence is required to fix Augustin-Louis Cauchy erroneous "proof" that the pointwise limit of continuous functions is continuous from Cauchy's 1821 Cours d'Analyse.
+- 1841 Karl Weierstrass discovers but does not publish the Laurent expansion theorem.
+- 1843 Pierre-Alphonse Laurent discovers and presents the Laurent expansion theorem.
+- 1843 William Hamilton discovers the calculus of quaternions and deduces that they are non-commutative.
+- 1844 Hermann Grassmann publishes his Ausdehnungslehre, from which linear algebra is later developed.
+- 1847 George Boole formalizes symbolic logic in The Mathematical Analysis of Logic, defining what is now called Boolean algebra.
+- 1849 George Gabriel Stokes shows that solitary waves can arise from a combination of periodic waves.
+- 1850 Victor Alexandre Puiseux distinguishes between poles and branch points and introduces the concept of essential singular points.
+- 1850 George Gabriel Stokes rediscovers and proves Stokes' theorem.
+- 1854 Bernhard Riemann introduces Riemannian geometry.
+- 1854 Arthur Cayley shows that quaternions can be used to represent rotations in four-dimensional space.
+- 1858 August Ferdinand Möbius invents the Möbius strip.
+- 1858 Charles Hermite solves the general quintic equation by means of elliptic and modular functions.
+- 1859 Bernhard Riemann formulates the Riemann hypothesis, which has strong implications about the distribution of prime numbers.
+- 1868 Eugenio Beltrami demonstrates independence of Euclid's parallel postulate from the other axioms of Euclidean geometry.
+- 1870 Felix Klein constructs an analytic geometry for Lobachevski's geometry thereby establishing its self-consistency and the logical independence of Euclid's fifth postulate.
+- 1872 Richard Dedekind invents what is now called the Dedekind Cut for defining irrational numbers, and now used for defining surreal numbers.
+- 1873 Charles Hermite proves that e is transcendental.
+- 1873 Georg Frobenius presents his method for finding series solutions to linear differential equations with regular singular points.
+- 1874 *Georg Cantor* proves that the set of all real numbers is uncountably infinite but the set of all real algebraic numbers is countably infinite. His proof does not use his diagonal argument, which he published in 1891.
+- 1882 Ferdinand von Lindemann proves that π is transcendental and that therefore the circle cannot be squared with a compass and straightedge.
+- 1882 Felix Klein invents the Klein bottle.
+- 1895 Diederik Korteweg and Gustav de Vries derive the Korteweg-de Vries equation to describe the development of long solitary water waves in a canal of rectangular cross section.
+- 1895 *Georg Cantor* publishes a book about set theory containing the arithmetic of infinite cardinal numbers and the continuum hypothesis.
+- 1895 Henri Poincaré publishes paper "Analysis Situs" which started modern topology.
+- 1896 Jacques Hadamard and Charles Jean de la Vallée-Poussin independently prove the prime number theorem.
+- 1896 Hermann Minkowski presents Geometry of numbers.
+- 1899 *Georg Cantor* discovers a contradiction in his set theory.
+- 1899 David *Hilbert* presents a set of self-consistent geometric axioms in Foundations of Geometry.
+- 1900 David *Hilbert* states his list of 23 problems, which show where some further mathematical work is needed.

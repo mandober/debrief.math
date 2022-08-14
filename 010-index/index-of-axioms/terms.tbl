@@ -1,0 +1,31 @@
+# Table of terms
+
+Kind
+- `P` Property
+- `A` Axiom
+- `I` Identity
+- `R` Relation
+
+- L Law
+- P Principle        N
+- _ Law / Principle  M
+
+- P Postulate    P
+- T Theory
+- θ Theorem
+- C Conjunction
+- L Lemma        M
+
+
+
+Nr|Name           | Nick  | Kind     | Formula
+--|---------------|-------|----------|--------------------------------------
+1 | Associativity | assoc | A P      | ∀abc. a∙(b∙c) = (a∙b)∙c
+
+
+op₁ = ★ ⨁ ⨦ + ⨥ ∙ ✱ ✻
+op₂ = ✪ ⨂ ⨱ ⨯ ⨰ ⨀ ❉ ✼
+op₃ = ⍟          ○ ❂ ❋
+
+asterisks
+a ⁎ b ∗ c ⊛ d ✢

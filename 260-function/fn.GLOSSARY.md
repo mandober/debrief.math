@@ -1,5 +1,10 @@
 # Function Theory :: GLOSSARY
 
+## Boolean function
+A function whose both domain and codomain are Boolean set, `f : 𝔹ⁿ → 𝔹`. In logic, they are called truth or logical functions.
+
+## Boolean-valued function
+A function with a Boolean codomain, `f : a → 𝔹` (where `a` is a type variable, i.e. any type).
 
 ## Brouwer's fixpoint theorem
 Brouwer's fixpoint theorem says that any continuous function from a closed ball into itself in Euclidean space must have a fixpoint.

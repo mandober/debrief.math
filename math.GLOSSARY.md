@@ -1,5 +1,7 @@
 # GLOSSARY
 
+https://mathworld.wolfram.com/topics/Terminology.html
+
 <!-- TOC -->
 
 - [Abel Prize](#abel-prize)
@@ -91,6 +93,11 @@
 - [Universal Turing machine](#universal-turing-machine)
 - [Validity](#validity)
 - [Weakening](#weakening)
+- [Well-defined](#well-defined)
+- [Well-defined recursion](#well-defined-recursion)
+- [Well-defined expression](#well-defined-expression)
+- [Well-defined function](#well-defined-function)
+- [Well-defined relation](#well-defined-relation)
 
 <!-- /TOC -->
 
@@ -392,5 +399,21 @@ In logic, an argument is valid iff it takes a form that makes it impossible for 
 
 ## Weakening
 The weakening rule, one of the structural rules that operate directly on the structure of a deduction system, states that the hypotheses or conclusion of a sequent may be extended with additional members and still remain valid.
+
+## Well-defined
+The adjective "well-defined" has as many meanings as there are nouns it complements. Some of the uses include: well-defined recursion, well-defined expressions, well-defined functions, well-defined relations.
+
+## Well-defined recursion
+Recursion is well-defined if the recursive argument keeps getting structurally "smaller" on every iteration. 
+
+## Well-defined expression
+An expression is well-defined if its definition assigns it a unique interpretation or value. Otherwise it is called ambiguous.
+
+## Well-defined function
+A function is well defined if it gives the same result when the representation of the input is changed without changing the value of the input.
+
+## Well-defined relation
+If `~` is an equivalence relation on `X`, and `P(x)` is a property of elements of `X`, such that whenever `x ~ y`, `P(x)` is true if `P(y)` is true, then the property `P` is said to be well-defined (or a class invariant) under the relation `~`.
+
 
 <!-- #endregion -->

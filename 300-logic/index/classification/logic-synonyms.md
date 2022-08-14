@@ -1,25 +1,31 @@
 # Logic :: Logic Systems :: Synonyms
 
-* Synonyms
-  * Term logic
-    - Term logic
-    - Traditional logic
-    - Syllogistic logic
-    - Aristotelian logic
-    - Aristotle's logic
-  * Propositional logic
-    - propositional logic
-    - propositional calculus
-    - sentential logic
-    - sentential calculus
-    - (near) zeroth-order logic
-  * Predicate logic
-    - predicate logic
-    - quantification logic
-    - (near) first-order logic
-  * Formal logic
-    - formal logic
-    - symbolic logic
-    - mathematical logic
-    - (near) classical logic
-    - (near) modern logic
+* group 1
+  identical terms
+    - ≡ Aristotelian logic
+    - ≡ Aristotle's logic
+  synonyms
+    - ≡ term logic
+    - ≡ traditional logic
+    - ≡ syllogistic logic
+  near synonym
+    - modern logic
+
+* group 2
+  - ≡ propositional logic
+  - ≡ propositional calculus
+  - ≡ sentential logic
+  - ≡ sentential calculus
+  - zeroth-order logic
+
+* group 3
+  - Predicate logic
+  - quantification logic
+  - first-order logic
+
+* group 4: near synonyms
+  - formal logic
+  - mathematical logic
+  - symbolic logic
+  - classical logic
+  - modern logic

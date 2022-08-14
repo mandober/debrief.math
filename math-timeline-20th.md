@@ -1,0 +1,80 @@
+# math :: Timeline :: XX
+
+https://en.wikipedia.org/wiki/Timeline_of_mathematics#20th_century
+
+- 1900 *David Hilbert* states his list of 23 problems, which show where some further mathematical work is needed.
+- 1901 Élie Cartan develops the exterior derivative.
+- 1901 Henri Lebesgue publishes on Lebesgue integration.
+- 1903 Carle David Tolmé Runge presents a fast Fourier transform algorithm
+- 1903 Edmund Georg Hermann Landau gives considerably simpler proof of the prime number theorem.
+- 1908 *Ernst Zermelo* axiomizes set theory, thus avoiding Cantor's contradictions.
+- 1908 Josip Plemelj solves the Riemann problem about the existence of a differential equation with a given monodromic group and uses Sokhotsky Plemelj formulae.
+- 1912 Luitzen Egbertus Jan Brouwer presents the Brouwer fixed-point theorem.
+- 1912 Josip Plemelj publishes simplified proof for the Fermat's Last Theorem for exponent n = 5.
+- 1915 Emmy Noether proves her symmetry theorem, which shows that every symmetry in physics has a corresponding conservation law.
+- 1916 Srinivasa Ramanujan introduces Ramanujan conjecture. This conjecture is later generalized by Hans Petersson.
+- 1919 Viggo Brun defines Brun's constant B2 for twin primes.
+- 1921 Emmy Noether introduces the first general definition of a commutative ring.
+- 1928 John von Neumann begins devising the principles of game theory and proves the minimax theorem.
+- 1929 Emmy Noether introduces the first general representation theory of groups and algebras.
+- 1930 Casimir Kuratowski shows that the three-cottage problem has no solution.
+- 1930 *Alonzo Church* introduces *lambda calculus*.
+- 1931 *Kurt Gödel* proves his incompleteness theorem, which shows that every axiomatic system for mathematics is either incomplete or inconsistent.
+- 1931 Georges de Rham develops theorems in cohomology and characteristic classes.
+- 1933 Karol Borsuk and Stanislaw Ulam present the Borsuk-Ulam antipodal-point theorem.
+- 1933 Andrey Nikolaevich Kolmogorov publishes his book Basic notions of the calculus of probability (Grundbegriffe der Wahrscheinlichkeitsrechnung), which contains an axiomatization of probability based on measure theory.
+- 1938 Tadeusz Banachiewicz introduces LU decomposition.
+- 1940 *Kurt Gödel* shows that neither the continuum hypothesis nor the axiom of choice can be disproven from the standard axioms of set theory.
+- 1942 G.C. Danielson and Cornelius Lanczos develop a fast Fourier transform algorithm.
+- 1943 Kenneth Levenberg proposes a method for nonlinear least squares fitting.
+- 1945 Stephen Cole Kleene introduces realizability.
+- 1945 Saunders Mac Lane and Samuel Eilenberg start *category theory*.
+- 1945 Norman Steenrod and Samuel Eilenberg give the Eilenberg-Steenrod axioms for (co-)homology.
+- 1946 Jean Leray introduces the Spectral sequence.
+- 1948 John von Neumann mathematically studies self-reproducing machines.
+- 1948 Atle Selberg and Paul Erdős prove independently in an elementary way the prime number theorem.
+- 1949 John Wrench and L.R. Smith compute π to 2,037 decimal places using ENIAC.
+- 1949 Claude Shannon develops notion of *Information Theory*.
+- 1950 Stanisław Ulam and John von Neumann present cellular automata dynamical systems.
+- 1953 Nicholas Metropolis introduces the idea of thermodynamic simulated annealing algorithms.
+- 1955 H. S. M. Coxeter et al. publish the complete list of uniform polyhedron.
+- 1955 Enrico Fermi, John Pasta, Stanisław Ulam, and Mary Tsingou numerically study a nonlinear spring model of heat conduction and discover solitary wave type behavior.
+- 1956 Noam Chomsky describes a hierarchy of formal languages.
+- 1956 John Milnor discovers the existence of an Exotic sphere in seven dimensions, inaugurating the field of differential topology.
+- 1957 Kiyosi Itô develops Itô calculus.
+- 1957 Stephen Smale provides the existence proof for crease-free sphere eversion.
+- 1958 Alexander Grothendieck's proof of the Grothendieck-Riemann-Roch theorem is published.
+- 1959 Kenkichi Iwasawa creates Iwasawa theory.
+- 1960 C. A. R. Hoare invents the quicksort algorithm.
+- 1960 Irving S. Reed and Gustave Solomon present the Reed-Solomon error-correcting code.
+- 1961 Daniel Shanks and John Wrench compute π to 100,000 decimal places using an inverse-tangent identity and an IBM-7090 computer.
+- 1961 John G. F. Francis and Vera Kublanovskaya independently develop the QR algorithm to calculate the eigenvalues and eigenvectors of a matrix.
+- 1961 Stephen Smale proves the Poincaré conjecture for all dimensions greater than or equal to 5.
+- 1962 Donald Marquardt proposes the Levenberg-Marquardt nonlinear least squares fitting algorithm.
+- 1963 Paul Cohen uses his technique of forcing to show that neither the continuum hypothesis nor the axiom of choice can be proven from the standard axioms of set theory.
+- 1963 Martin Kruskal and Norman Zabusky analytically study the Fermi-Pasta-Ulam-Tsingou heat conduction problem in the continuum limit and find that the KdV equation governs this system.
+- 1963 meteorologist and mathematician Edward Norton Lorenz published solutions for a simplified mathematical model of atmospheric turbulence generally known as chaotic behaviour and strange attractors or Lorenz Attractor also the Butterfly Effect.
+- 1965 Iranian mathematician Lotfi Asker Zadeh founded fuzzy set theory as an extension of the classical notion of set and he founded the field of Fuzzy Mathematics.
+- 1965 Martin Kruskal and Norman Zabusky numerically study colliding solitary waves in plasmas and find that they do not disperse after collisions.
+- 1965 James Cooley and John Tukey present an influential fast Fourier transform algorithm.
+- 1966 E. J. Putzer presents two methods for computing the exponential of a matrix in terms of a polynomial in that matrix.
+- 1966 Abraham Robinson presents non-standard analysis.
+- 1967 Robert Langlands formulates the influential Langlands program of conjectures relating number theory and representation theory.
+- 1968 Michael Atiyah and Isadore Singer prove the Atiyah-Singer index theorem about the index of elliptic operators.
+- 1973 Lotfi Zadeh founded the field of fuzzy logic.
+- 1974 Pierre Deligne solves the last and deepest of the Weil conjectures, completing the program of Grothendieck.
+- 1975 Benoît Mandelbrot publishes Les objets fractals, forme, hasard et dimension.
+- 1976 Kenneth Appel and Wolfgang Haken use a computer to prove the Four color theorem.
+- 1981 Richard Feynman gives an influential talk "Simulating Physics with Computers" (in 1980 Yuri Manin proposed the same idea about quantum computations in "Computable and Uncomputable" (in Russian)).
+- 1983 Gerd Faltings proves the Mordell conjecture and thereby shows that there are only finitely many whole number solutions for each exponent of Fermat's Last Theorem.
+- 1985 Louis de Branges de Bourcia proves the Bieberbach conjecture.
+- 1986 Ken Ribet proves Ribet's theorem.
+- 1987 Yasumasa Kanada, David Bailey, Jonathan Borwein, and Peter Borwein use iterative modular equation approximations to elliptic integrals and a NEC SX-2 supercomputer to compute π to 134 million decimal places.
+- 1991 Alain Connes and John W. Lott develop non-commutative geometry.
+- 1992 David Deutsch and Richard Jozsa develop the Deutsch-Jozsa algorithm, one of the first examples of a quantum algorithm that is exponentially faster than any possible deterministic classical algorithm.
+- 1994 Andrew Wiles proves part of the Taniyama-Shimura conjecture and thereby proves Fermat's Last Theorem.
+- 1994 Peter Shor formulates Shor's algorithm, a quantum algorithm for integer factorization.
+- 1995 Simon Plouffe discovers Bailey-Borwein-Plouffe formula capable of finding the nth binary digit of π.
+- 1998 Thomas Callister Hales (almost certainly) proves the Kepler conjecture.
+- 1999 the full Taniyama-Shimura conjecture is proven.
+- 2000 the Clay Mathematics Institute proposes the seven Millennium Prize Problems of unsolved important classic mathematical questions.

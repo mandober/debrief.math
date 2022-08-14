@@ -1,31 +1,18 @@
-debrief-name:     math-debrief
-debrief-repo:     debrief.math
-debrief-addr:     https://github.com/mandober/debrief.math
-debrief-desc:     mathematics
-debrief-root:     /math/
-section-code:     100
-section-dir:      100-fundamentals
-section-path:     /math/100-fundamentals
-section-title:    Mathematical fundamentals
----
-# section: Mathematics in general
+# Math :: General
 
-* Mathematics in general
-  - About Mathematics
-  - History of Mathematics
-  - Mathematical Fundamentals
+* Mathematics: General
+  - about mathematics
+  - history of mathematics
+  - mathematical fundamentals
   - Elements of Mathematics
-  - Philosophy of mathematics
-  - Schools of Mathematics
-  - The Foundations of Mathematics
-  - Mathematical Lists
-  - Areas of Mathematics
+  - philosophy of mathematics
+  - schools of mathematics
+  - the foundations of mathematics
+  - mathematical indices and lists
+    - areas of mathematics
 
 
-## Subsections
-
-Mathematics in general
-* Elements of mathematics
+* Elements of Mathematics
   general concepts
   mathematical objects 
   mathematical statements

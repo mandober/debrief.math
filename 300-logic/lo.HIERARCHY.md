@@ -1,6 +1,6 @@
 # Logic ∷ Hierarchy
 
-* Reasoning
+* Logical Reasoning
   - Logical reasoning
   - Deductive reasoning
   - Inductive reasoning
@@ -45,18 +45,18 @@
   - sentential logic
   - quantificational logic
 
-* Systems of logic (list)
-  * Basic
-    - sentential logic
-    - quantified logic
-    - predicate logic
+* Systems of logic
+  * by subjects of abstraction
+    - propositional, sentential (abstracts over sentences)
+    - quantified logics         (abstracts over sentence parts)
+    - predicate logic           (vars range over the DoD)
   * by order
     - zeroth-order logic
-    - first-order logic
+    - first-order logic  (vars range over the DoD)
       - first-order logic with identity
-    - second-order logic
-    - higher-order logic
-  * by truth values
+    - second-order logic (vars range over: individuals, predicates)
+    - higher-order logic (+individuals, +predicates, +2nd ord predicates)
+  * by the number of truth values
     - bivalent
     - 2-valued logic
     - 3-valued logic

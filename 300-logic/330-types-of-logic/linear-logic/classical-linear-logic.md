@@ -15,7 +15,7 @@ The language of Classical Linear Logic (CLL) is defined inductively:
 
 ```
 A := p
-   | p^⊥ (⊥ is superscripted) in further text p⊥ ≡ p'
+   | pᗮ (⊥ is superscripted) in further text p⊥ ≡ p'
    | A ⊗ A
    | A ⊕ A
    | A & A
@@ -25,7 +25,7 @@ A := p
    | 1 | 0 | ⊤ | ⊥
 ```
 
-- `p` and `p'` range over logical atoms
+- `p` and `pᗮ` range over logical atoms
 - connectives `&`, `⊕`, `⊤`, `0` are called *additives*
 - connectives `⊗`, `⅋`, `1`, `⊥` are called *multiplicatives*
 - connectives `!` and `?` are called *exponentials*
