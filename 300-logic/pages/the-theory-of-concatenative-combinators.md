@@ -1,20 +1,19 @@
 ---
 downloaded:       2021-11-13
-author:           
 page-url:         http://tunes.org/~iepos/joy.html
-page-title:       The Theory of Concatenative Combinators
-article-title:    The Theory of Concatenative Combinators
-article-length:   32039
-article-created:  {Date-Creation-yyyymmdd}
-article-modified: {Date-Revision-yyyymmdd}
-desc:             {description}
 ---
 # The Theory of Concatenative Combinators
+(Completed June 2002. Updated Feb 2007)
 
-The inspiration for this theory comes from the programming language Joy, designed by Manfred von Thun. It would be very helpful if the reader is basically familiar with Joy. In Joy, data is manipulated through a stack (there are no variables); in this way, it is similar to the programming language FORTH. However, Joy goes one step further and permits (and actively encourages) pushing programs themselves onto the stack, which can then be manipulated just like ordinary data.
-The inspiration for this theory comes from the programming language [Joy][1], designed by Manfred von Thun. It would be very helpful if the reader is basically familiar with Joy. In Joy, data is manipulated through a stack (there are no variables); in this way, it is similar to the programming language FORTH. However, Joy goes one step further and permits (and actively encourages) pushing programs themselves onto the stack, which can then be manipulated just like ordinary data.
+This article attempts to outline, in informal terms, *a new theory of combinators*, related to the theory of *Combinatory Logic* pioneered by Moses Schonfinkel, Haskell Curry, and others in the 1930s. Although not essential, an understanding of the classical theory of combinators may be helpful.
 
-In fact, the theory here is basically a subset of Joy in which programs are the *only* kind of data (i.e., numbers, string literals, and other kinds of data are not part of the theory here). To someone unfamiliar with combinatory logic, it might seem that no useful computations could be done without numbers, but it will soon be seen that numeric data can be simulated using concatenative combinators, just as they could using classical combinators.
+This topic is one which no doubt ought to be subjected to the rigor of modern mathematics; there are many theorems from classical combinatory logic (e.g. Church-Rosser) which we conjecture have analogues here. However, what follows is only a rough, but hopefully, friendly, introduction to the subject.
+
+~ ~ ~
+
+The inspiration for this theory comes from the programming language [Joy][1], designed by Manfred von Thun. In Joy, data is manipulated through a stack (there are no variables); in this way, it is similar to the programming language `Forth`. However, Joy goes one step further and permits (and actively encourages) pushing programs themselves onto the stack, which can then be manipulated just like ordinary data.
+
+In fact, the theory here is basically a subset of Joy in which programs are the only kind of data (i.e. numbers, string literals, and other kinds of data are not part of the theory here). To someone unfamiliar with combinatory logic, it might seem that no useful computations could be done without numbers, but it will soon be seen that numeric data can be simulated using concatenative combinators, just as they could using classical combinators.
 
 Now, we'd like to introduce some fundamental combinators. Later in the article, we'll more precisely define what we mean by "combinator", but for now, roughly speaking, a combinator is a program that duplicates, destroys, rearranges, or restructures items on the stack. Perhaps the most famous combinators are "swap", "dup", and "zap" (aka "pop" or "drop"). We can express the behavior of these combinators by giving a rewrite rule for each one:
 

@@ -5,8 +5,8 @@ For expressing propositional logic, we need types (sets) that are available in m
 `∀x ∈ A. B(x)` corr. to `Πx ∈ A. B(x)` = { `λx.b(x)` | x ∈ A, b(x) ∈ B(x) }
 `∃x ∈ A. B(x)` corr. to `Σx ∈ A. B(x)` = { `⟨a,b⟩`   | a ∈ A,    b ∈ B(a) }
 
-<fieldset>
-<legend>existential quantifier</legend>
+
+## Existential quantifier
 
 Heyting's explanation of the **existential quantifier** is the following: 
 A proof of `∃x ∈ A. B(x)` consists of a construction of an element `a` in the set `A` together with a proof of `B(a)`.
@@ -19,11 +19,8 @@ The set corresponding to this is the *disjoint union of a family of sets*, denot
 
 `∃x ∈ A. B(x)` corr. to Σx∈A.B(x) = { ⟨a,b⟩ | a ∈ A, b ∈ B(a) }
 
-</fieldset>
-<br>
 
-<fieldset>
-<legend>Universal quantifier</legend>
+## Universal quantifier
 
 For the **universal quantifier**, a proof of `∀x ∈ A. B(x)` is a function (program) which to each element `a` in the set `A` gives a proof of `B(a)`.
 

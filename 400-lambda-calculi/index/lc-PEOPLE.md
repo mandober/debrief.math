@@ -28,3 +28,20 @@
 - L. E. J. Brouwer
 - Arend Heyting
 - Andrey Kolmogorov
+
+M. Abadi
+L. Cardelli
+G. D. Plotkin
+H. Barendregt
+W. Dekkers
+R. Statman
+W. Gross
+A. Piperno
+S. Guerrini
+Adolfo Piperno
+Stefano Guerrini
+Zena Ariola
+Matthias Felleisen
+John Maraist
+Martin Odersky
+Philip Wadler

@@ -1,0 +1,62 @@
+# Encodings
+
+```hs
+-- | Booleans
+TRUE        := λ a b . a
+FALSE       := λ a b . b
+
+-- Conditional
+COND        := λ b t e . b t e
+IFTHENELSE  := λ p a b . p a b
+-- or just use a Boolean itself
+
+-- Logical connectives
+NOT         := λ p . p FALSE TRUE
+
+AND         := λ a b . a b FALSE
+AND2        := λ a b . a b a                              -- UNTYPABLE!
+AND3        := λ a b . b a b                              -- UNTYPABLE!
+
+OR          := λ a b . a TRUE b
+OR2         := λ a b . a b b                              -- UNTYPABLE!
+OR3         := λ a b . a a b                              -- UNTYPABLE!
+
+IMPLY       := λ a b . a b TRUE                           -- (→)
+NEGREVIMPLY := λ a b . a FALSE b                          -- (⇍)
+XOR         := λ a b . a (y FALSE TRUE) (b TRUE FALSE)    -- (⊕)
+
+-- | Arithemtic
+
+ISZERO      := λ n . n (λ x . FALSE) TRUE
+LE          := λ m n . ISZERO (MONUS m n)
+EQ          := λ m n . (LE m n) (LE n m)   -- since  x = y ≡ x<=y ⋀ y<=x
+
+ZERO = 0    := λ a b . b
+SUCC        := λ n f x . f (n f x)
+SUCC2       := λ n f x . n f (f x)
+
+PRED1       := λ n . n (λ g . λ k . ISZERO (g 1) k (ADD (g k) 1)) (λ v . 0) 0
+
+ADD         := λm.λn.λf.λx.m f (n f x)
+ADD2        := λm.λn.m SUCC n
+
+MUL         := λm.λn.λf.m (n f)
+MUL2        := λm.λn.m (ADD n) 0
+
+POW         := λ m . λ n . n m
+POW2        := λ m . λ n . λ s . λz . n m (s z)
+
+MONUS = SUB := λ m n . n PRED m
+
+PAIR        := λ x y f . f x y
+FIRST       := λ p . p TRUE
+SECOND      := λ p . p FALSE
+
+PRED2       := λ n f x . n (λ g . λ h . h (g f)) (λ u . x) (λ u . u)
+
+NIL         := λ x . TRUE         -- end-of-the-list value, empty list ctor
+NULL        := λ p . p (λ x y . FALSE) -- isEmpty list predicate
+
+Φ           := λ x . PAIR (SECOND x) (SUCC (SECOND x))
+PRED3       := λ n . FIRST (n Φ (PAIR 0 0))
+```

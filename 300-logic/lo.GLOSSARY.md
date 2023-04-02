@@ -6,19 +6,24 @@
 - [Ancestral logic](#ancestral-logic)
 - [Argumentation theory](#argumentation-theory)
 - [Aristotelian logic](#aristotelian-logic)
+- [Assumption](#assumption)
 - [Axiom](#axiom)
 - [Biconditional](#biconditional)
 - [Bijection](#bijection)
 - [Boolean function](#boolean-function)
+- [Boolean logic](#boolean-logic)
+- [Boolean algebra](#boolean-algebra)
+- [Boolean logic vs Propositional logic](#boolean-logic-vs-propositional-logic)
+- [Bound variable](#bound-variable)
+- [Binding occurrence](#binding-occurrence)
+- [Free variable](#free-variable)
 - [Closed-world assumption](#closed-world-assumption)
 - [Collation](#collation)
 - [Conjecture](#conjecture)
 - [Constants symbols](#constants-symbols)
+- [Deductive system](#deductive-system)
 - [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
-- [Description](#description)
-- [Definite description](#definite-description)
-- [Determiner](#determiner)
 - [Elementary theory](#elementary-theory)
 - [Equiconsistent](#equiconsistent)
 - [Extension](#extension)
@@ -26,11 +31,14 @@
 - [Extremal clause](#extremal-clause)
 - [Fallacy](#fallacy)
 - [First-order logic](#first-order-logic)
+- [Formal language](#formal-language)
 - [Formal logic](#formal-logic)
+- [Formal system](#formal-system)
 - [Formula](#formula)
 - [Truth-functional](#truth-functional)
 - [Fuzzy logic](#fuzzy-logic)
 - [Higher-order logic](#higher-order-logic)
+- [Identity of indiscernibles](#identity-of-indiscernibles)
 - [iff](#iff)
 - [Immediate inference](#immediate-inference)
 - [Informal logic](#informal-logic)
@@ -49,8 +57,10 @@
 - [Metatheorem](#metatheorem)
 - [Monotonicity](#monotonicity)
 - [Naïve theory](#naïve-theory)
+- [Natural deduction](#natural-deduction)
 - [Necessity and sufficiency](#necessity-and-sufficiency)
 - [Non-classical logic](#non-classical-logic)
+- [Occurrence typing](#occurrence-typing)
 - [Ontological commitment](#ontological-commitment)
 - [Open-world assumption](#open-world-assumption)
 - [Philosophy of logic](#philosophy-of-logic)
@@ -62,6 +72,9 @@
 - [Primitive symbol](#primitive-symbol)
 - [Principle of bivalence](#principle-of-bivalence)
 - [Proof by exhaustion](#proof-by-exhaustion)
+- [Proof calculus](#proof-calculus)
+- [Proof system](#proof-system)
+- [Propositions](#propositions)
 - [Propositional logic](#propositional-logic)
 - [Proposition](#proposition)
 - [Rule of inference](#rule-of-inference)
@@ -78,16 +91,13 @@
 - [Traditional logic](#traditional-logic)
 - [Truth value](#truth-value)
 - [Unique name assumption](#unique-name-assumption)
+- [Universally valid](#universally-valid)
 - [Universal-existential normal form](#universal-existential-normal-form)
 - [Validity](#validity)
 - [Variable symbols](#variable-symbols)
+- [Variable occurrences](#variable-occurrences)
 - [Weakening](#weakening)
 - [Well-formed formula](#well-formed-formula)
-- [Bound variable](#bound-variable)
-- [Free variable](#free-variable)
-- [Variable occurrences](#variable-occurrences)
-- [Binding occurrence](#binding-occurrence)
-- [Occurrence typing](#occurrence-typing)
 
 <!-- /TOC -->
 
@@ -104,8 +114,11 @@ Argumentation theory, or argumentation, is the interdisciplinary study of how co
 ## Aristotelian logic
 see Term logic
 
+## Assumption
+initial premise
+
 ## Axiom
-An axiom or postulate is a statement that is taken to be true that serves as an initial premise or starting point for further reasoning and arguments. In classical logics, an axiom is an evident and well-established statement that needs no further proof. In modern logics, an axiom is a premise for reasoning.
+An axiom or postulate is a statement considered to always be true  that serves as an initial premise or starting point for further reasoning and arguments. In classical logics, an axiom is an evident and well-established statement. In modern logics, an axiom is a premise for reasoning.
 
 ## Biconditional
 Biconditional (bidirectional implication, bijection) is a logical connective, symbolized by `⟺` or `<->`, and usually read "if and only if", that marks two logical formulas as being logically equivalent, symbolically `p ⟺ q`. Two formulas are logically equivalent if they imply each other, `p ⟺ q ≡ (p → q) ⋀ (q → p)`. Here, `⟺` denotes logical equality, while `≡` denotes syntactic equality (although they are frequently used interchangeably).
@@ -117,12 +130,75 @@ see Biconditional
 A Boolean function is a function whose arguments and result assume values from the Boolean domain, i.e. a two-element set, usually, `{T,F}` or `{0,1}`. Unary `f: 𝔹 → 𝔹`, binary `g: 𝔹 ⨯ 𝔹 → 𝔹` or `g: 𝔹² → 𝔹` or `g: 𝔹 → 𝔹 → 𝔹`, and in general `h: 𝔹ⁿ → 𝔹`.
 
 ## Boolean logic
+Boolean algebra is the branch of algebra where values of variables are the truth values 'true' and 'false' and the operators are logical connectives. Boolean algebra is a formal way of describing logical operations, in the same way that elementary algebra describes numerical operations. Boolean algebra was introduced by George Boole in 1847.
 
 ## Boolean algebra
 Propositional logic may be reinterpreted from a viewpoint of algebra, in which case the system is called Boolean algebra (BA). Boolean algebra is an algebraic system on the Boolean domain, `𝔹 = {0, 1}`. A logical statement (a proposition) in propositional logic is regarded as an expression in Boolean algebra. Applications of inference rules to derive a theorem in logic are similar to transformations or manipulations of expressions in algebra. In BA, we can manipulate logical statements as algebraic expressions systematically.
 
 ## Boolean logic vs Propositional logic
 
+
+## Bound variable
+A bound variable has all of its application occurrences in the scope that is visible (accessible) from its binding occurrence (i.e. from its binding site).
+
+A bound variable `x` has all of its application occurrences under the scope of `x`'s binding site.
+
+## Binding occurrence
+A variable's binding occurrence is the appearance of a variable inside a binding context. For example, the quantification context in predicate logic, `∃xPx`, or the λ-binder in lambda calculus, `(λxf.fxx)`. Usually, an identifier (the name of a variable) debuts in a binding context within an expression. In λ-calculus, an identifier's (variable's) binding occurrence serves to declare a formal parameter (by stating a new name i.e. identifier in the bonding context). Later, when the enclosing function, `λxf.fxx`, gets applied to an argument like `λzwv.zv(wv)`, the parameter `x` will bind that argument, `x := `λzwv.zv(wv)`. From there on, any occurrence of the parameter `x` may be replaced with the bound argument:
+
+```
+FUN := (λxf.fxx)
+ARG := (λzwv.zv(wv))
+
+(FUN)(ARG)
+= (λxf.fxx)(λzwv.zv(wv))
+
+
+
+┌─ binding_occurrence_of_x
+│
+│          applied_occurrences_of_x
+│    ┌        ┌─┬───┴────╮
+│    │        │ │        │
+└────┤        ↓ ↓  ┌─────┴─arg─┐
+=  (λx. λf. f x x) (λzwv.zv(wv))
+   ┌─────┘    ↓ ↓
+   │          │ └───────────┐
+   │    ┌─────┴─────┐ ┌─────┴─────┐
+= λf. f (λzwv.zv(wv)) (λzwv.zv(wv))
+```
+
+─  ┌ ┬ ┐  ├ │ ┼ ┤  └ ┴ ┘
+
+╭╮ ╭╮ ╭╮ ╭╮
+╰╯ ╰╯ ╰╯ ╰╯
+╭────────╮
+│          ─┼─┼─
+╰────────╯
+
+
+
+
+(λx. λf. f x x) (λz. λw. λv. z v (w v)
+where the expression `(λz. λw. λv. z v (w v)` is an argument, 
+
+the `x` parameter binds the corresponding (identified by position) argument. That means that, e.g. the parameter `x`
+
+
+
+is the first appearance of a variable (variable's name) in an expression. All other occurrences of the identifier are applied occurrence
+
+
+like a declaration of the name of variable that will be later used (and identified by that name) in 
+
+binds a variable to 
+
+## Free variable
+A free variable is a variable that has only an application occurrence without a corresponding binding occurence anywhere within its scope.
+
+An application occurrence of a variable is called free if it is not scoped under the variable's binding occurence .
+
+has all of its application occurrences in the same scope as its binding occurrence.
 
 ## Closed-world assumption
 Closed-world assumption is a view that pressuposes that a statement that is true is also known to be true, and a statement not known to be true is false.
@@ -136,20 +212,14 @@ An unproved statement that is believed true is called a conjecture. To be consid
 ## Constants symbols
 Logical constants (constant symbols) are strings of symbols that (are interpreted to) represent objects.
 
+## Deductive system
+A deductive system for a logic, aka a *deductive apparatus* or *a logic*, is a set of logical axioms (or axiom schemata) and inference rules that are used to derive theorems within that system, and that determine which sequences of formulas constitute valid proofs.
+
 ## Defeasible inference
-Defeasible inferences is a kind of inference in which reasoners draw tentative conclusions, reserving the right to retract their conclusions based on further evidence.
+Defeasible inference is a kind of inference in which reasoners draw tentative conclusions, reserving the right to retract their conclusions based on further evidence.
 
 ## Defeasible reasoning
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
-
-## Description
-Description is the pattern of narrative development that aims to invoke a certain sentiment. A description of something (of an object, person, event, etc.) is an account presenting characteristics and aspects of the thing being described, in sufficient detail so that the audience can form a mental picture, impression, or develop an understanding of it. Description is one of the 4 rhetorical modes, along with exposition, argumentation and narration.
-
-## Definite description
-A definite description is a denoting phrase in the form "the X", where X is a noun-phrase or a singular common noun. The definite description is proper if X applies to a unique individual or object. For example, "the first man in space" and "the 42nd President of the USA", are both proper descriptions, as opposed to, e.g. "the person in space" and "the Senator from Ohio", which are improper because the noun phrase X applies to more than one thing; the definite descriptions "the first man on Mars" and "the Senator from some Country" are improper because X doesn't apply to anything. Improper descriptions raise some difficult questions about the law of excluded middle, denotation, modality, and mental content.
-
-## Determiner
-A determiner is a word, phrase or affix that occurs together with a noun phrase and serves to express the reference of that noun phrase in the context. That is, a determiner may indicate whether the noun is referring to a definite or indefinite element of a class, to a closer or more distant element, to an element belonging to a specified person or thing, to a particular number or quantity, etc. Common kinds of determiners in English include definite (the) and indefinite articles (a/an), demonstratives (this, that), possessives (my, their), cardinal numerals, quantifiers (many, both, all, no), distributives (each, any), interrogatives (which).
 
 ## Elementary theory
 In mathematical logic, an elementary theory is a theory that involves axioms using only finitary first-order logic, without reference to set theory or using any axioms which have consistency strength equal to set theory.
@@ -172,20 +242,29 @@ A fallacy is a logically incorrect way of reasoning, that undermines the legal a
 ## First-order logic
 Predicate logic uses quantified variables over objects and allows the use of sentences that contain variables. This distinguishes it from propositional logic, which does not use quantifiers or relations. In first-order theories, predicates are often associated with sets.
 
+## Formal language
+A formal language is a language that is defined by a formal system. Like languages in linguistics, formal languages generally have two aspects, syntax and semantics (sometimes also the third aspect, pragmatics). The syntax of a language is what the language looks like; formally, it is the set of possible expressions that are valid statements in the language. The semantics of a language defines the meaning of the statements of the language.
+
 ## Formal logic
 Formal logic is the study of inference with purely formal content. An inference possesses a purely formal content if it can be expressed as a particular application of a wholly abstract rule i.e. a rule that is not about any particular thing or property.
+
+## Formal system
+A formal system is an abstract structure used for inferring theorems, starting from the set of axioms and according to a set of inference rules. This set of inference rules is the logical calculus of the formal system. A formal system may represent a well-defined system of abstract thought. There are various formal systems. For example, Hilbert-style calculi are characterized by favoring axioms over the rules of inference, as contrasted by sequent calculi. The term *formalism* is sometimes used as a near synonym for formal system, but it also refers to a style of notation (e.g. Fitch notation or Fitch formalism).
 
 ## Formula
 The symbols of a formal language comprise its alphabet, and the combinations of the symbols produce formulas. However, since most such productions are gobbledygook, the formal grammar specifies how to recognize and build only the well-formed statements, i.e. the well-formed formulas.
 
 ## Truth-functional
-A logical connective is truth-functional if the truth-value of a compound sentence is a function of the truth-value of its sub-sentences. A class of connectives is truth-functional if each of its members is.
+A logical connective is truth-functional if the truth value of a compound sentence is a function of the truth-value of its sub-sentences; i.e. if the truth value of the compound sentence can be determined from its atoms. A class of connectives is truth-functional if each of its members is.
 
 ## Fuzzy logic
 Fuzzy logic is a form of many-valued logic in which the truth values of variables may be any real number between 0 and 1. It is employed to handle the concept of partial truth, where the truth value may range between completely true and completely false. By contrast, in Boolean logic, the truth values of variables may only be the integer values 0 or 1.
 
 ## Higher-order logic
 In HOL, quantification is also allowed over other language entities besides variables; second-order logic allows quantification over predicates. HOL allows quantification over variables, predicates, functions, relations, then over the sets of these entities, then over the sets of sets of these entities, and so on.
+
+## Identity of indiscernibles
+Leibniz's notion of equality: given any `x` and `y`, `x = y` iff given any predicate `P`, `P(x)` = `P(y)`, `∀xy(x ≡ y ⇔ ∀P(Px ≡ Py))`.
 
 ## iff
 see Biconditional
@@ -238,16 +317,28 @@ Metalogic is the study of the metatheory of logic. Whereas logic studies how log
 A metatheorem is a statement about a formal system proven in a metalanguage. Unlike theorems proved within a given formal system, a metatheorem is proved within a metatheory, and may reference concepts that are present in the metatheory but not the object theory.
 
 ## Monotonicity
-Having the property of never increasing (or never decreasing) as the values of independent variables change. For example, a monotonic function is a function between ordered sets that preserves (or reverses) the given order: for a monotonically increasing function it holds that whenever `x <= y`, then so is `f x <= f y`; but for a monotonically decreasing function whenever `x <= y` then `f x >= f y` (it reverses the order). A logical connective is monotonic if flipping one input, with the other input remaining the same, also flips the result.
+Monotonicity is a property of relations (and functions) that relates
+
+Having the property of never increasing or never decreasing as the values of independent variables change.
+
+For example, a monotonic function between ordered sets can preserve (or reverse) the given order; for a *monotonically increasing* function it holds that whenever `x <= y`, then so is `f x <= f y`; but for a *monotonically decreasing* function whenever `x <= y` then `f x >= f y` (it reverses the order).
+
+A *logical connective is monotonic* if flipping one input, with the other input remaining the same, also flips the result.
 
 ## Naïve theory
 A theory qualified with the adjective "naïve" is an unformalized theory, presented using natural language.
+
+## Natural deduction
+In logic and proof theory, natural deduction is a kind of *proof calculus* in which logical reasoning is expressed by inference rules, closely related to the "natural" way of reasoning. In contrast to Hilbert-style systems that use axioms as much as possible to express the logical laws of deductive reasoning, natural deduction favors inference rules over axioms (even if an axiom is just an inference rule without assumptions).
 
 ## Necessity and sufficiency
 In logic, necessity and sufficiency are terms used to describe an implicational relationship between statements. The assertion that one statement is a necessary and sufficient condition of another means that the former statement is true if and only if the latter is true.
 
 ## Non-classical logic
 Non-classical logics (and sometimes alternative logics) are formal systems that differ in a significant way from standard logical systems such as propositional and predicate logic. There are several ways in which this is done, including by way of extensions, deviations, and variations.
+
+## Occurrence typing
+Occurrence typing is a typing discipline that assigns to an occurrence of a variable a subtype, derived from the declared type based on the predicates encountered prior to that variable occurrence.
 
 ## Ontological commitment
 An ontological commitment of a language are objects postulated to exist by that language. This need not be "real existence", but only an existence in the universe of discourse. For example, legal systems use terms like "legal persons" to descibe collective entities that have rights; so, the legal doctrine has an ontological commitment to non-singular individuals.
@@ -284,7 +375,13 @@ The principle of bivalence says that a proposition has exactly one truth value, 
 ## Proof by exhaustion
 Proof by exhaustion (aka proof by cases, proof by case analysis, complete induction, brute force method) is a method of mathematical proof in which the statement to be proved is split into a finite number of cases or sets of equivalent cases and each type of case is checked to see if the proposition in question holds. This is a method of direct proof.
 
-# Propositions
+## Proof calculus
+In mathematical logic, a proof calculus or a proof system is built to prove statements. Usually a given proof calculus encompasses more than a single particular formal system, since many proof calculi are under-determined and can be used for radically different logics. For example, a paradigmatic case is the sequent calculus, which can be used to express the consequence relations of both intuitionistic logic and relevance logic. Thus, loosely speaking, a proof calculus is a template or design pattern, characterized by a certain style of formal inference, that may be specialized to produce specific formal systems, namely by specifying the actual inference rules for such a system. There is no consensus among logicians on how best to define the term.
+
+## Proof system
+In mathematical logic, a proof calculus or a proof system is built to prove statements. A proof system includes these components: *Language* - the set of formulas admitted by the system (e.g propositional logic or FOL); *Rules of inference* - list of rules that can be employed to prove theorems from axioms and theorems; *Axioms* - formulas in the language assumed to be valid. All theorems are derived from axioms.
+
+## Propositions
 Propositions are declarative sentences that have a truth value.
 
 ## Propositional logic
@@ -335,6 +432,9 @@ A truth value of a proposition is something that is up for discussion. A truth v
 ## Unique name assumption
 Unique name assumption is a simplifying assumption made in some ontology languages and description logics. In logics with the unique name assumption, different names always refer to different entities in the world.
 
+## Universally valid
+Valid in every structure that satisfies a particular set of axioms.
+
 ## Universal-existential normal form
 It is a special case of the prenex normal form where every universal quantifier precedes any existential quantifier.
 
@@ -343,6 +443,16 @@ In logic, an argument is valid iff it takes a form that makes it impossible for 
 
 ## Variable symbols
 Variables are used as placeholders for quantifying over objects.
+
+## Variable occurrences
+A variable, or more precisely, an identifier that identifies it (label, identifier, variable name) can appear any number of times within an expression. Here, however, expressions are taken to be somewhat more orderly constructs that appear as functions or abstractions in lambda calculus, or as logical expressions (formulas, sentences) in predicate logic. In fact, in predicate logic, a sentence is a formula without free variables - such formulas collect all the interest. 
+
+
+Predicate logic has quantifiers, lambda calculus has lambda-binders, and both serve a similar purpose - they are places intended for parameter declaration. Sometimes, the term "variable" is taken as the most general "container" that includes "parameters". Then, the term "parameter" is used to refer only to *local variables*, i.e. variables that are local to a function or a logical expression.
+
+has 2 types of "occurrences" in an expression. Any variable has at most one *binding occurence*
+
+An occurrence of a variable is any appearance of the varaible following its binding occurrence.
 
 ## Weakening
 The weakening rule, one of the structural rules that operate directly on the structure of a deduction system, states that the hypotheses or conclusion of a sequent may be extended with additional members and still remain valid.
@@ -373,88 +483,3 @@ binder (of a variable)
 - bound variable
 
 - free variable
-
-
-## Bound variable
-A bound variable has all of its application occurrences in the scope that is visible (accessible) from its binding occurrence (i.e. from its binding site).
-
-A bound variable `x` has all of its application occurrences under the scope of `x`'s binding site.
-
-
-## Free variable
-A free variable is a variable that has only an application occurrence without a corresponding binding occurence anywhere within its scope.
-
-An application occurrence of a variable is called free if it is not scoped under the variable's binding occurence .
-
-has all of its application occurrences in the same scope as its binding occurrence.
-
-
-## Variable occurrences
-A variable, or more precisely, an identifier that identifies it (label, identifier, variable name) can appear any number of times within an expression. Here, however, expressions are taken to be somewhat more orderly constructs that appear as functions or abstractions in lambda calculus, or as logical expressions (formulas, sentences) in predicate logic. In fact, in predicate logic, a sentence is a formula without free variables - such formulas collect all the interest. 
-
-
-Predicate logic has quantifiers, lambda calculus has lambda-binders, and both serve a similar purpose - they are places intended for parameter declaration. Sometimes, the term "variable" is taken as the most general "container" that includes "parameters". Then, the term "parameter" is used to refer only to *local variables*, i.e. variables that are local to a function or a logical expression.
-
-
-
-
-
-has 2 types of "occurrences" in an expression. Any variable has at most one *binding occurence*
-
-
-
-An occurrence of a variable is any appearance of the varaible following its binding occurrence.
-
-## Binding occurrence
-A variable's binding occurrence is the appearance of a variable inside a binding context. For example, the quantification context in predicate logic, `∃xPx`, or the λ-binder in lambda calculus, `(λxf.fxx)`. Usually, an identifier (the name of a variable) debuts in a binding context within an expression. In λ-calculus, an identifier's (variable's) binding occurrence serves to declare a formal parameter (by stating a new name i.e. identifier in the bonding context). Later, when the enclosing function, `λxf.fxx`, gets applied to an argument like `λzwv.zv(wv)`, the parameter `x` will bind that argument, `x := `λzwv.zv(wv)`. From there on, any occurrence of the parameter `x` may be replaced with the bound argument:
-
-```
-FUN := (λxf.fxx)
-ARG := (λzwv.zv(wv))
-
-(FUN)(ARG)
-= (λxf.fxx)(λzwv.zv(wv))
-
-
-
-┌─ binding_occurrence_of_x
-│
-│          applied_occurrences_of_x
-│    ┌        ┌─┬───┴────╮
-│    │        │ │        │
-└────┤        ↓ ↓  ┌─────┴─arg─┐
-=  (λx. λf. f x x) (λzwv.zv(wv))
-   ┌─────┘    ↓ ↓
-   │          │ └───────────┐
-   │    ┌─────┴─────┐ ┌─────┴─────┐
-= λf. f (λzwv.zv(wv)) (λzwv.zv(wv))
-```
-
-─  ┌ ┬ ┐  ├ │ ┼ ┤  └ ┴ ┘
-
-╭╮ ╭╮ ╭╮ ╭╮
-╰╯ ╰╯ ╰╯ ╰╯
-╭────────╮
-│          ─┼─┼─
-╰────────╯
-
-
-
-
-(λx. λf. f x x) (λz. λw. λv. z v (w v)
-where the expression `(λz. λw. λv. z v (w v)` is an argument, 
-
-the `x` parameter binds the corresponding (identified by position) argument. That means that, e.g. the parameter `x`
-
-
-
-is the first appearance of a variable (variable's name) in an expression. All other occurrences of the identifier are applied occurrence
-
-
-like a declaration of the name of variable that will be later used (and identified by that name) in 
-
-binds a variable to 
-
-
-## Occurrence typing
-Occurrence typing is a typing discipline that assigns to an occurrence of a variable a subtype, derived from the declared type based on the predicates encountered prior to that variable occurrence.

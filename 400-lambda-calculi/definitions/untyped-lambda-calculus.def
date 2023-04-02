@@ -1,0 +1,81 @@
+# Untyped lambda calculus
+
+
+## Syntax
+
+Syntax of untyped lambda calculus extended with ground types `Nat` and `Bool`.
+
+```hs
+base types, B
+
+  B := Bool | Nat
+
+types, τ
+
+  τ := Bool
+     | Nat
+     | τ → τ
+
+values, v
+
+  v := True
+     | False
+     | Zero | Succ <nat>
+
+expressions, e
+
+  e := True
+     | False
+     | Zero
+     | Succ e
+     | Pred e
+     | IsZero e
+     | if e₁ then e₂ else e₃
+
+context, Γ
+
+  Γ := ∅
+     | Γ, x : τ
+```
+
+
+## Small step evaluation
+
+```hs
+     e₁ -> e₂
+------------------- E∙Succ
+succ e₁ -> succ e₂
+
+
+     e₁ -> e₂
+------------------- E∙Pred
+pred e₁ -> pred e₂
+
+------------------- E∙PredZero
+pred 0 -> 0
+
+------------------- E∙PredSucc
+pred (succ n) -> n
+
+
+       e₁ -> e₂
+----------------------- E∙IsZero
+iszero e₁ -> iszero e₂
+
+------------------------- E∙IsZeroZero
+iszero 0 -> True
+
+------------------------- E∙IsZeroSucc
+iszero (succ n) -> False
+
+
+e₁ -> e₁'
+------------------------------------------------- E∙If
+if e₁ then e₂ else e₃ -> if e₁' then e₂ else e₃
+
+------------------------------------------------- E∙IfTrue
+if True then e₂ else e₃ -> e₂
+
+------------------------------------------------- E∙IfFalse
+if False then e₂ else e₃ -> e₃
+```

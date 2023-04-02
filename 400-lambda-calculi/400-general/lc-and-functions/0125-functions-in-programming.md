@@ -1,0 +1,3 @@
+# Lambda calculus :: Functions in programming
+
+Having originated in mathematics, functions have spread to computer science as soon as programming languages became a thing. The departure from their native setting has brought on heavy mutations, such that "functions", as present across the programming languages of today, don't even justify the name. Many new species have developed, incapable of interbreeding across the clusters and with their ancestors on the mathematical side. Some have undegone mutations so severe they don't even answer to the name "function" anymore, changing their names into procedure, routine, subroutine, subprogram, block, insisting on the pronouns like `fun`, `fn`, `func`, `def`, `defn` and some such.

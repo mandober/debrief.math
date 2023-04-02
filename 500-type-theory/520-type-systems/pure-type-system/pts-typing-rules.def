@@ -1,0 +1,57 @@
+# Pure type system :: Typing rules
+
+Typing rules (6):
+http://www.rbjones.com/rbjpub/logic/cl/tlc004.htm
+
+
+(𝓢,𝓐,𝓡)
+- 𝓢   Sorts,  a set of sorts,  `S`
+- 𝓐  Axioms, a set of axioms, `S ⨯ S`
+- 𝓡  Rules,  a set of rules,  `S ⨯ S ⨯ S`
+
+Rules = Ax, Vr, Wk, Ap, Ab, Pi, Cv
+
+```hs
+Grammar, T := ★ | ◻ | V | T T | λ Vᵀ T | Π Vᵀ T
+
+constants: c
+sorts: s s₂ s₃
+axiom: ★ : ◻
+
+         Γ |-
+Axiom ---------------- if (c,s) ∈ A     (s,s₂) ∈ A      Axiom |- ★ : ◻
+       Γ |- c : s
+-- ie. Γ |- ★ : ◻
+
+
+
+          Γ |- A : s
+Var   ----------------- if x is fresh
+       Γ, x : A |- x : A
+
+
+            Γ |- B : C    Γ |- A : s
+Weakening ------------------------- if x is fresh
+            Γ, x : A |- B : C
+
+
+     Γ |- F : (Π x : A. B) : s    Γ |- C : A
+App -----------------------------------
+         Γ |- F C  :  (B[x := C])
+
+
+
+           Γ, x : A |- b : B    Γ |- (Π x : A. B) : s
+Abs (Lam) ---------------------------------------
+             Γ |- (λ x : A. b)  :  (Π x : A. B)
+
+
+            Γ |- A : s    Γ, x : A |- B : s₂
+Abs (Pi)  -------------------------------- if (s, s₂, s₃) ∈ R
+                Γ |- (Π x : A.B) : s₃
+
+
+            Γ |- A : B    Γ |- B' : s
+Conversion ------------------------- if B =ᵦ B'
+                  Γ |- A : B'
+```

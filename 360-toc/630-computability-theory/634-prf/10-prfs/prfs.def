@@ -1,0 +1,63 @@
+# Index of PRFs
+
+## Initial PRFs
+
+```hs
+-- SUCCESSOR
+-- σ or S
+succ x = x + 1
+---------------------------
+-- CONSTANT
+-- Cᵏₙ
+const k n x̅ᵏ = n
+-- Z = Cᵏ₀
+zero k x̅ᵏ = const k 0 x̅ = 0
+zero k    = const k 0
+---------------------------
+-- PROJECTION
+-- πᵏᵢ or projᵏᵢ or Pᵏᵢ
+proj k i x̅ = xᵢ
+-- id or I
+id x = proj 1 1 x
+id   = proj 1 1 = proj¹₁
+```
+
+## Arithemtic
+
+```hs
+-- ==================================================================
+-- ADDITION = ρ(id, S ∘ P³₂)
+-- ==================================================================
+-- base case:
+add m    0  =   m   -- normal form
+add m    0  = f m   -- PR form
+-- to return m, f must be equal to id, f = id
+-- rec case:
+add m (S n) = S (add m n)       -- normal form
+add m (S n) = g  m (add m n) n  -- PR form
+-- g has 3 args: m, add m n, n
+-- but needs to conform to S (add m n)
+-- thus, g is the composition of S (the succ matches the initial S)
+-- and it only needs the middle arg (add m n) which it gets with π³₂
+-- thus g = S ∘ P³₂
+-- solution:
+add = ρ(id, S ∘ P³₂)
+
+-- ==================================================================
+-- PREDECESSOR
+-- ==================================================================
+-- normal form:
+pred    0  = 0
+pred (S y) = y
+-- PR form:
+-- pred in terms of pred'
+pred x = pred' (Z x, Id x)
+  where
+  -- precursor predecessor pred'
+  pred' x    0  = Z x                  -- = 0
+  pred' x (S y) = P³₂ x y (pred' x y)  -- = y
+  -- solution:
+  pred' = ρ(Z, P³₂)
+
+
+```

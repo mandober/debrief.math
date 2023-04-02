@@ -2,6 +2,24 @@
 
 ⊰ ⨟ ⨾ ⊱ ⫴ ⫻ ☂ ⛱ Ꝕ ꝕ 🗪 ❏ ★ Ʀ
 
+## PER
+Partial Equivalence Relation
+
+## Poset
+Partially ordered set
+
+## Toset
+Totally ordered set
+
+## GLB
+Greatest lower bound, infimum
+
+## LUB
+Least upper bound, supremum
+
+
+
+
 ## Aliorelative relation
 see Irreflexive relation
 

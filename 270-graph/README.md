@@ -1,5 +1,11 @@
 # Graphs theory
 
+https://mathigon.org/course/graph-theory/introduction
+https://mathworld.wolfram.com/Graph.html
+
+https://en.wikipedia.org/wiki/List_of_graph_theory_topics
+https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms
+
 * Graph theory
   - Graph
   - Graph models

@@ -1,0 +1,98 @@
+# Essential mathematical topics
+
+
+
+Essential mathematical topics:
+- set theory
+  - sets
+  - general set theory
+  - Russell's paradox
+  - relations
+    - relations in general
+    - hetero and homo
+    - binary, n-ary relations
+    - equivalence relation
+      - reflexivity
+      - symmetry
+      - transitivity
+  - orders
+    - partial
+    - total
+    - preorder
+  - functions
+    - functions as special relations
+    - functions as procedures, functions by rules
+- logic
+  - classical logic
+  - propositional logic
+    - basics
+    - connectives
+  - predicate logic
+    - second-order logic
+    - inference rules
+    - quantified logic
+      - universal quantifier
+      - existentiual quantifier
+      - quantifier introduction and elimination
+      - Skolemization, reverse Skolemization
+- FOM
+  - intuitionistic logic
+  - finitist math school
+  - constructive math school
+    - Brouwer
+    - intuitionistic math school
+    - constructible witnesses and proofs
+  - attempt to formalize math, 1900's, Hilbert
+  - crisis in the foundations of math
+  - Logicism, Russell and Whitehead, Principia
+  - Goedel's incompleteness theorems
+  - computable functions
+  - Turing: halting problem
+  - Goedel: primitive recursive functions, System T
+  - Church-Turing thesis
+  - Kleen: primitive recursion
+- number theory
+  - number sets
+  - prime numbers
+  - fundamental theorem of arithmetics
+  - combinatorics
+  - permutations
+  - binamial theorem
+  - Pascal's triangle
+- lambda calculus
+  - λ-calculus basics
+  - typed λ-calculi
+  - λ-cube
+  - PTS
+  - System F
+- type theory
+  - basics: judgements, rules
+  - BHK interpretation, Brouwer-Heyting-Kolmogorov interpretation
+  - Curry-Howard isomorphism
+  - PLT: synatax, statics, dynamics
+  - typing rules
+  - type inference
+  - Hindley-Milner type system
+  - Algorithm W
+  - polymorphism
+  - type ctors (type functions)
+  - dependent types
+  - Haskell
+  - Agda, Idris
+  - Coq
+- abstract algebra
+  - algebraic structures
+  - Boolean algebra
+  - Heyting algebra
+  - group theory
+    - magma
+    - semigroup
+    - monoid
+    - group
+    - Abelian group
+  - ring theory
+  - field theory
+- category theory
+
+
+...and that's enough as the foundation

@@ -1,4 +1,4 @@
-# Graph terminology
+# Graphs :: GLOSSARY
 
 https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms
 
@@ -6,7 +6,7 @@ https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms
 
 - [Acyclic graph](#acyclic-graph)
 - [Acyclic coloring](#acyclic-coloring)
-- [Adjecency](#adjecency)
+- [Adjacency](#adjacency)
 - [Adjacency matrix](#adjacency-matrix)
 - [Arborescence](#arborescence)
 - [Arc](#arc)
@@ -26,27 +26,37 @@ https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms
 - [Bridgeless graph](#bridgeless-graph)
 - [Butterfly graph](#butterfly-graph)
 - [Butterfly network](#butterfly-network)
-- [Cactus](#cactus)
+- [Cactus graph](#cactus-graph)
 - [Chord](#chord)
 - [Circuit](#circuit)
 - [Clique](#clique)
+- [Closed trail](#closed-trail)
+- [Closed walk](#closed-walk)
 - [Complete graph](#complete-graph)
 - [Connected graph](#connected-graph)
+- [Cost](#cost)
 - [Cycle](#cycle)
 - [Cycle graph](#cycle-graph)
 - [Cycle space](#cycle-space)
 - [Digon](#digon)
 - [Directed acyclic graph](#directed-acyclic-graph)
 - [Degree](#degree)
+- [Directed path](#directed-path)
+- [Distance](#distance)
+- [Eccentricity](#eccentricity)
 - [Edge](#edge)
 - [Empty graph](#empty-graph)
+- [Endpoint](#endpoint)
 - [Eulerian graph](#eulerian-graph)
 - [Euler tour](#euler-tour)
 - [Euler circuit](#euler-circuit)
+- [Finite walk](#finite-walk)
 - [Girth of a graph](#girth-of-a-graph)
 - [Graph](#graph)
 - [Homomorphism degree](#homomorphism-degree)
 - [Forest](#forest)
+- [Incidence](#incidence)
+- [Infinite walk](#infinite-walk)
 - [Induced graph](#induced-graph)
 - [Inverted arrow](#inverted-arrow)
 - [k-cycle](#k-cycle)
@@ -55,14 +65,18 @@ https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms
 - [Neighbor](#neighbor)
 - [Neighborhood](#neighborhood)
 - [Null graph](#null-graph)
+- [Open walk](#open-walk)
 - [Order of a graph](#order-of-a-graph)
 - [Path](#path)
 - [Path graph](#path-graph)
 - [Peripheral cycle](#peripheral-cycle)
 - [Planar graph](#planar-graph)
 - [Predecessor (vertex)](#predecessor-vertex)
+- [Ray](#ray)
 - [Quiver](#quiver)
 - [Rooted tree](#rooted-tree)
+- [Semi-infinite walk](#semi-infinite-walk)
+- [Simple path](#simple-path)
 - [Simple cycle](#simple-cycle)
 - [Size](#size)
 - [Sparse graph](#sparse-graph)
@@ -80,18 +94,22 @@ https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms
 - [Tree](#tree)
 - [Triangle](#triangle)
 - [Walk](#walk)
+- [Weight](#weight)
+- [Weighted graph](#weighted-graph)
 
 <!-- /TOC -->
 
 ## Acyclic graph
-A graph is acyclic if it has no cycles. An undirected acyclic graph is also called a forest.
+A graph is acyclic if it has no cycles. 
+An undirected acyclic graph is also called a *forest*.
 
 ## Acyclic coloring
 An acyclic coloring of an undirected graph is a *proper coloring* in which every two color classes induce a forest.
 
-## Adjecency
-1. The relation between two vertices that are both endpoints of the same edge.
-2. The relation between two distinct edges that share an endpoint.
+## Adjacency
+Adjacency is a relation between two vertices or between two edges.
+1. Two vertices are adjacent if they are the endpoints of the same edge.
+2. Two edges are adjacent if they share an endpoint.
 
 ## Adjacency matrix
 An adjacency matrix is a way to represent a graph, where rows (indexed by `i`) and columns (indexed by `j`) are both indexed by vertices. A cell[i][j] contains a `1` if the vertices `i` and `j` are adjacent, otherwise a `0`.
@@ -152,8 +170,8 @@ The butterfly graph has 5 vertices and 6 edges; it is formed by 2 triangles that
 ## Butterfly network
 The butterfly network is a graph used as a network architecture in distributed computing, closely related to the *cube-connected cycles*.
 
-## Cactus
-A cactus graph (cactus, cactus tree, Husimi tree) is a connected graph in which each edge belongs to at most one cycle. Its blocks are cycles or single edges. If, in addition, each vertex belongs to at most two blocks, then it is called a *Christmas cactus*.
+## Cactus graph
+A cactus graph (cactus, cactus tree, Husimi tree) is a connected graph in which each edge belongs to at most one *cycle*. Its blocks are cycles or single edges. If, in addition, each vertex belongs to at most two blocks, then it is called a *Christmas cactus*.
 
 ## Chord
 A chord is a one-edge bridge. 
@@ -164,11 +182,20 @@ A circuit is a closed trail.
 ## Clique
 A clique is a set of mutually adjacent vertices.
 
+## Closed trail
+see Tour
+
+## Closed walk
+A walk is a sequence of edges which joins a sequence of vertices. In a closed walk the first and last vertices are the same.
+
 ## Complete graph
 1. A complete graph is one in which every two vertices are adjacent: all edges that could exist are present.
 
 ## Connected graph
 A graph is connected if it has a path between each pair of vertices.
+
+## Cost
+see Weight
 
 ## Cycle
 A cycle is a non-empty path from a node to itself. A cycle may either refer to a closed walk (i.e. a tour), or, more specifically, to a simple cycle. In either case, the choice of the first vertex is usually considered unimportant: *cyclic permutations* of the walk produce the same cycle. Important special cases of cycles include Hamiltonian cycles, induced cycles, peripheral cycles.
@@ -203,6 +230,9 @@ An edge has two vertices to which it is attached, called its endpoints. A line i
 ## Empty graph
 A graph with no edges, composed entirely of one or more vertices.
 
+## Endpoint
+Endpoints are vertices of an edge. Every edge `e = (v₁,v₂)` in a graph `G = (E,V)` has two endpoints, `v₁` and `v₂`; we say that the vertices `v₁` and `v₂` are incident to the edge `e`.
+
 ## Eulerian graph
 A graph that has an Euler tour.
 
@@ -211,6 +241,9 @@ A Euler tour or circuit is a tour that traverses all the edges of a graph.
 
 ## Euler circuit
 A Euler circuit or tour is a tour that traverses all the edges of a graph.
+
+## Finite walk
+A finite walk is an finite sequence of edges, as opposed to an infinite walk that has no first or last vertex.
 
 ## Girth of a graph
 The girth of a graph is the length of its shortest cycle.
@@ -223,6 +256,12 @@ The homomorphism degree of a graph, or its *Hadwiger number*, is the order of th
 
 ## Forest
 A forest is an undirected graph without cycles (a disjoint union of unrooted trees), or a directed graph formed as a disjoint union of rooted trees.
+
+## Incidence
+An incidence in a graph is a vertex-edge pair such that the vertex is an endpoint of the edge.
+
+## Infinite walk
+An infinite walk is an infinite sequence of edges but with no first or last vertex.
 
 ## Induced graph
 `G[S]` is the induced subgraph of a graph `G` for vertex subset `S`. An induced subgraph (full subgraph) of a graph is a subgraph formed from a subset of vertices, and from all of the edges whose endpoints belong to the vertex subset. Special cases include *induced paths* - induced subgraphs that are paths, and *induced cycles* - induced subgraphs that are cycles.
@@ -248,11 +287,14 @@ The *open neighborhood* of a vertex `v` is the subgraph induced by all vertices 
 ## Null graph
 May refer either to the order-zero graph; alternatively, an edgeless graph or an empty graph.
 
+## Open walk
+A walk is a sequence of edges which joins a sequence of vertices. In an open walk the first and last vertices are distinct.
+
 ## Order of a graph
 The order of a graph is the number of its vertices.
 
 ## Path
-A path is a sequence of *adjacent* vertices and edges (from a starting to an endpoint node).
+A path is a sequence of *adjacent* vertices and edges (a sequence from the first to the last node). This is the same as a walk, so some authors further require that all the edges are distinct.
 
 ## Path graph
 A path graph (linear graph) on 3 vertices: `o-------o-------o`. Its vertices are linearly distributed along a path.
@@ -266,11 +308,20 @@ In graph theory, a planar graph is a graph that can be embedded in the plane; it
 ## Predecessor (vertex)
 A vertex coming before a given vertex in a directed path.
 
+## Ray
+see semi-infinite walk
+
 ## Quiver
 A quiver is a directed graph where loops and multiple arrows between two vertices are allowed, i.e. a multidigraph. They are commonly used in representation theory: a representation `V` of a quiver assigns a vector space `V(x)` to each vertex `x` of the quiver and a linear map `V(a)` to each arrow `a`.
 
 ## Rooted tree
 A rooted tree has a designated root node, where every edge either points away from the root node (*out-tree*, *arborescence*), or towards the root node (*in-tree*, *anti-arborescene*).
+
+## Semi-infinite walk
+A semi-infinite walk, or a ray, is walk with the first vertex but without the last one.
+
+## Simple path
+Some authors do not require that all vertices of a path be distinct; they use the term "simple path" for a path with all distinct vertices.
 
 ## Simple cycle
 A simple cycle is a closed walk without repeated vertices, and consequently, edges.
@@ -312,7 +363,7 @@ A topological ordering of nodes tells you how to process the nodes of a graph (e
 A tour (closed trail) is a walk that starts and ends at the same vertex and has no repeated edges.
 
 ## Trail
-A trail is a walk in which all edges are distinct.
+A trail is a walk in which all edges are distinct. A *path* is a trail in which all vertices (and therefore also all edges) are distinct.
 
 ## Tree
 A tree is undirected graph with no cycles. Equivalently, a tree is a connected graph with `n` nodes and `n - 1` edges.
@@ -321,10 +372,10 @@ A tree is undirected graph with no cycles. Equivalently, a tree is a connected g
 A 3-cycle is a triangle.
 
 ## Walk
-A walk (chain) is a sequence of edges which joins a sequence of vertices. In an *open walk* the first and last vertices are distinct; in a *closed walk*, they are the same.
+A walk (chain) is a sequence of edges which joins a sequence of vertices. In an open walk the first and last vertices are distinct; in a closed walk, they are the same. An infinite walk is a sequence of edges but with no first or last vertex. A semi-infinite walk (ray) has a first vertex but no last vertex. A trail is a walk in which all edges are distinct. A path is a trail in which all vertices (and therefore also all edges) are distinct.
 
 ## Weight
-A generic term for (usually) numerical value assigned (as a label) to vertices or edges, representing some cost (bias) that influences graph traversal. For example, while unweighted graph may be concerned with finding the shortest path between two points, a weighted graph may be concerned with finding the cheapest path instead. The *weight of a subgraph* is the sum of the weights of the vertices or edges within that subgraph.
+A generic term for (usually) numerical value assigned to vertices or edges, representing some bias (cost) that influences graph traversal. For example, while *unweighted graph* may be concerned with finding the shortest path between two points, a weighted graph may be concerned with finding the cheapest path instead. The *weight of a graph* is the sum of the weights of the vertices or edges within that graph.The *weight of a subgraph* is the sum of the weights of the vertices or edges within that subgraph.
 
 ## Weighted graph
 A graph whose vertices or edges have been assigned weights; more specifically, a *vertex-weighted* graph has weights on its vertices, and an *edge-weighted* graph has weights on its edges.

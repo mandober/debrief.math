@@ -1,0 +1,46 @@
+# Language of logic
+
+- Language aspects
+  - object language
+  - meta language
+- Language parts
+  - syntax
+  - semantics
+  - pragmatics
+- Syntax
+  - logical symbols
+  - logical constants
+  - formulas
+  - wffs
+  - alphabet
+  - expressions
+  - grammar
+    - non-logical symbols
+      - =
+    - logical symbols
+    - constants
+      - nullary constants
+        - Τ, ⟘
+      - unary constants
+        - NOT
+      - binary constants
+        - connectives (AND, OR, →)
+    - variables
+    - quantifiers
+      - ∀
+      - ∃
+  - sentences
+    - tautology (truth, verum)
+    - contradiction (falsum)
+    - contingency
+- Semantics
+  - truth tables
+  - truth-assignment function
+  - valuation function
+  - evaluation function
+  - truth-functional semantics
+  - validity
+  - satisfiability
+  - completeness
+  - compactness
+  - soundness

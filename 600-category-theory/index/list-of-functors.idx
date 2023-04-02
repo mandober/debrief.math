@@ -1,0 +1,33 @@
+# Category theory :: Index :: Functors
+
+
+
+- by variance
+  - covariant functor, or just functor
+  - contravariant functor
+  - profunctor (1 x covariant, 1 x contravariant)
+
+- bifunctor (2 x covariant)
+  - covariant functor
+  - contravariant functor
+- profunctor
+
+- special functors
+
+- by relation to trajections
+  - faithful functor (injective)
+  - full functor (surjective)
+  - full faithful functor (bijective)
+- endofunctor, identity functor
+- constant functor
+- endofunctor, a functor from a category to itself
+- identity functor
+- full functor
+- faithful functor
+- forgetful functor
+
+
+- constant functor
+- power-set functor
+- dual-set functor
+- monad: endofunctor with some additional structure

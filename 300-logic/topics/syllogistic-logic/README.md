@@ -1,0 +1,1 @@
+# Logic :: Topics :: Syllogistic logic

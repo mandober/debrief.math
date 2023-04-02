@@ -1,0 +1,53 @@
+# Catalog of lambda terms
+
+I := λa.a
+K := λab.a
+KI := λab.b
+
+ω := λa.aa
+Ω := ωω = (λa.aa)(λa.aa)
+
+Y := λf.(λx.f(xx))(λx.f(xx))
+Y := λf. (λx. f (x x)) (λx. f (x x))
+
+Z := λf. (λx. f (x x))
+         (λx. f (x x))
+
+0 := λfx.x
+1 := λfx.f x
+2 := λfx.f (f x)
+3 := λfx.f (f (f x))
+
+
+succ := λn. λs. λz. s (n s z)
+pred := λn. λs. λz. n (λg. λh. h (g s)) (λu.z) (λu.u)
+
+
+Fn  | Arith | Definition   | Identity         | Lambda exp
+----|-------|--------------|------------------|---------------
+succ| n + 1 | λnfx.f(nfx)  | fⁿᐩ¹ x = f(fⁿ x)  | λnfx.f(nfx), …
+add | n + m | λmnfx.mf(nfx)| fⁿᐩ¹ x = f(fⁿ x)  | λnfx.f(nfx), …
+mul | n ⨯ m | λmnfx.m(nf)x | fⁿᐩ¹ x = f(fⁿ x)  | λnfx.f(nfx), …
+pow | n ^ m | λmnfx.(mn)fx | fⁿᐩ¹ x = f(fⁿ x)  | λnfx.f(nfx), …
+
+
+## Successor
+
+suc := λnfx.f(nfx)
+
+= f (n f x)
+= f (fⁿ x)          one more app of `succ` after `n` app of `succ`
+
+
+= fⁿᐩ¹ x
+
+
+
+pre := λnλfx.n(λgh.h(gf))(λu.x)(λu.u)
+
+add := λmnfx.mf(nfx)
+mul := λmnfx.m(nf)x
+exp := λmnfx.(nm)fx
+
+λmnfx.m fⁿ x =
+λmnfx.m fⁿ x =

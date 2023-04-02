@@ -8,6 +8,7 @@
 - [Computational equality](#computational-equality)
 - [Constructive mathematics](#constructive-mathematics)
 - [Constructive type theory](#constructive-type-theory)
+- [Curry-Howard isomorphism](#curry-howard-isomorphism)
 - [Definitional equality](#definitional-equality)
 - [Empty type](#empty-type)
 - [Equality](#equality)
@@ -21,6 +22,7 @@
 - [Intuitionistic Type Theory](#intuitionistic-type-theory)
 - [Identity type](#identity-type)
 - [Judgemental equality](#judgemental-equality)
+- [Lambda abstraction](#lambda-abstraction)
 - [Law of Excluded Middle](#law-of-excluded-middle)
 - [Law of non-contradiction](#law-of-non-contradiction)
 - [Martin-Löf type theory](#martin-löf-type-theory)
@@ -46,6 +48,7 @@
 
 <!-- /TOC -->
 
+
 ## Abstract data type
 An abstract data type (ADT) is a type whose implementation details are hidden. The type may in fact be implemented directly as another type, but this fact is not exposed. What is exposed, is an interface, i.e. a set of vetted operations made available to the users to create and manipulate the values of the type.
 
@@ -65,6 +68,9 @@ Constructive mathematics is a school of math that considers constructibility of 
 In constructive mathematics the proofs come with algorithms of how to produce what is claimed, and in that way it has a computational content which is inherited by the type theories based on it.
 
 If we make certain assumptions about logic and programming, then we can define a system which is simultaneously a logic and a programming language, and in which propositions and types are identical. Such system is a Constructive Type Theory, based primarily on the work of Per Martin-Lof, and thus also called Martin-Löf Type Theory.
+
+## Curry-Howard isomorphism
+The Curry-Howard isomorphism associates a term in the simply typed lambda calculus with each natural deduction proof in intuitionistic propositional logic.
 
 ## Definitional equality
 A definitional, or judgemental, equality holds by definition. For example, a term is definitionally equal to the equation (usually, one in a set of equations) used to define it; that is, it is definitionally equal to the left-hand side of that equation. During the course of a proof, such equality is justified by citing that equation. However, such two terms may take the form of various expressions that are not obviously equal, at least not until they are both reduced into their canonical forms.
@@ -130,11 +136,10 @@ See Martin-Löf type theory
 See Propositional equality
 
 ## Judgemental equality
-When two terms compute to the same term they are computationally or judgementally equal. 
+When two terms compute to the same term they are computationally or judgementally equal. For example, `x + (1 + 4)` and `x + (4 + 1)` are judgementally equal since they both compute to `x + 5`. Judgemental equality is synonymous with the definitional equality.
 
-For example, `x + (1 + 4)` and `x + (4 + 1)` are judgementally equal since they both compute to `x + 5`. 
-
-Judgemental equality is synonymous with the definitional equality.
+## Lambda abstraction
+A lambda abstraction is an expression or a term. A closed lambda abstraction (without free variables) denotes a function. However, an open lambda abstraction is not a function - it is an expression that denotes a function in much the same way that an integer expression denotes an integer. In particular, since an open lambda abstraction contains free variables, it may denote different functions for different values of those free variables. For example, `λy. x + y` denotes an identity function when `x = 0`, but the successor function when `x = 1`.
 
 ## Law of Excluded Middle
 The law of the excluded middle (LEM), `P ∨ ¬P`, states that a proposition is either true or false. That is, is claims there is no other (middle) option. Intuitionistic (constructive) math does not recognize LEM.

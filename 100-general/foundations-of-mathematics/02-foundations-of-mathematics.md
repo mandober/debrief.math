@@ -10,31 +10,29 @@ https://en.wikipedia.org/wiki/Foundations_of_mathematics
 - axiomatization of mathematics
 
 
-The foundations of mathematics is the study of the *philosophical, logical and algorithmic basis of mathematics*.
+The foundations of mathematics is the study of the philosophical, logical and algorithmic basis of mathematics. More broadly, it is an investigation of what underlies the philosophical theories concerning the nature of mathematics.
 
-More broadly, it is an investigation of *what underlies the philosophical theories concerning the nature of mathematics*.
-
-The Foundations of Mathematics (FOM) is a mathematical field whose origin is tied to the early XXth century's events, when mathematics was plagued with inconsistencies discovered in geometry and the recently established set theory.
+The *Foundations of Mathematics* (FOM) is a mathematical field that originated from the events of the early XXth century that plagued mathematics was paradoxes and inconsistencies, particularly in geometry and set theory.
 
 
 
-of mathematics primarily concerned with 
+Mathematics is primarily concerned with 
 the study of the fundamental mathematical concepts 
+(number, set, function, geometrical figure) 
 and the way they compose and form hierarchies 
-of more complex structures and concepts, 
+of more complex structures and concepts 
 especially those important structures 
 that form the *language of mathematics* 
 and are also called *metamathematical concepts*, 
+(formulas, theories, and especially models that give 
+meaning to formulas, definitions, proofs, algorithms), 
 with an eye to the philosophical aspects 
 and the unity of mathematics.
 
 
-(formulas, theories, and especially models that give 
-meaning to formulas, definitions, proofs, algorithms) 
 
-
-The study of the *basic mathematical concepts* (set, function, geometrical figure, number, etc.) 
-and how they form hierarchies of more complex structures and concepts,
+The study of the *basic mathematical concepts* 
+ and how they form hierarchies of more complex structures and concepts,
 
 especially the fundamentally important structures that form the *language of mathematics* (formulas, theories and their models giving a meaning to formulas, definitions, proofs, algorithms) 
 also called *meta-mathematical concepts*, 
@@ -66,7 +64,7 @@ Mathematics has started from counting, calculation and measurement, and further 
 
 Mathematics developed at a relatively slow pace until the Renaissance, when mathematical innovations interacting with new scientific discoveries led to a rapid increase in the rate of mathematical discovery.
 
-Since the pioneering work of Giuseppe Peano (1858–1932), David Hilbert (1862–1943), and others, on *axiomatic systems* in the late 19th century, it has become customary to view **mathematical method** as establishing truth by *rigorous deduction* from appropriately chosen *axioms* and *definitions*.
+Since the pioneering work of Giuseppe Peano (1858-1932), David Hilbert (1862-1943), and others, on *axiomatic systems* in the late 19th century, it has become customary to view **mathematical method** as establishing truth by *rigorous deduction* from appropriately chosen *axioms* and *definitions*.
 
 > *Mathematical method*, championed by the ancient Greeks, is used to discover new truths and logically organize existing body of knowledge through the use of *rigorous deduction* that stems from appropriately chosen *axioms* and *definitions*.
 

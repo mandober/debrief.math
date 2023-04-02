@@ -1,6 +1,8 @@
-# Lambda Calculi
+# 400 :: Lambda Calculi
 
-This section, `340-lambda-calculi`, starts with a general introduction of lambda calculus, circumstances, rationale and historical background. Since the untyped LC is the foundation of all other extensions of LC, it is thoroughly examined, particularly empasizing the factors that contributing the most to the further classification of this system, which include: approaches to avoid name capture substitution, reduction strategies (order of reduction, call by …), extensions of the basic rules (δ-rule, ζ-rule, ϵ-rule, …), lamba lifting and dropping, methodologies for implementing variable binding (naive, HOAS, PHOAS, De Bruijn indices, De Bruijn levels, locally nameless, …).
+This section, `340-lambda-calculus`, starts with a general introduction of lambda calculus, circumstances, rationale and historical background.
+
+Since the untyped LC is the foundation of all other extensions of LC, it is thoroughly examined, particularly empasizing the factors that contributing the most to the further classification of this system, which include: approaches to avoid name capture substitution, reduction strategies (order of reduction, call by …), extensions of the basic rules (δ-rule, ζ-rule, ϵ-rule, …), lamba lifting and dropping, methodologies for implementing variable binding (naive, HOAS, PHOAS, De Bruijn indices, De Bruijn levels, locally nameless, …).
 
 The other logical part of the section deals with typed λ-calculi, exploring numerous typing features and extensions.
 

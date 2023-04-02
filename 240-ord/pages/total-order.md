@@ -9,9 +9,9 @@ A total order is a binary relation `<=` on a set `S` with axioms:
 1. Reflexivity,       `∀a(a ∈ S -> a <= a)`
 2. Transitivity,      `∀a,b,c ∈ S. (a <= b ⋀ b <= c) -> a <= c`
 3. Antisymmetry,      `∀a,b ∈ S. (a <= b ⋀ b <= a) -> a = b`
-4. Strong-connected¹, `∀a,b ∈ S. (a <= b) ⋁ (b <= a)`
-
-(¹ strong-connected is a relation previously known as total)
+4. Strongly-connected¹, `∀a,b ∈ S. (a <= b) ⋁ (b <= a)`
+s
+(¹ strongly-connected relation was previously called a total relation)
 
 A total order is also called linear order, simple order, connex, or full order.
 

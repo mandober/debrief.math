@@ -1,9 +1,68 @@
 # Number of relations on a set
 
-* Strictly, we can't ask for the total number of possible relations on a set, no more than we can ask for the number of distinct functions on a set. What we can ask for is the number of distinct k-ary functions or k-place relations on a set. However, loosely, both of these have a conventional default for the `k` value, which is 1 for functions and 2 for relations.
+Number of relations on a set A of 3 elements, n = 3
 
-* Binary or 2-place relations are the most common, probably because an association between two things seems the most natural relation of all. The number 2 (in a 2-place relation) is also the ideal number of participants that allows us to represent such relations with an infix symbol placed between the operands, `x𝓡y` ≡ `(x,y) ∈ 𝓡`, e.g. `x ≠ y`, `x <= y`, `x ∉ y`, `x ⊆ y`, etc.
+512 relations = 2⁹
+------------------------------- of which
+ 64 functions
+ ------------------------------------- of which
+ 27 total functions (3³)
+ 37 partial functions (64 - 3³)
+ ----------------------------------------- of which (partial functions)
+  1 empty relation, ∅ (no cols)
+ 36 non-empty relations
+ --------------------------------------------------------- of which
+  9 (1-element relations, 3 ⨯ col1, 3 ⨯ col2, 3 ⨯ col3)
+  9 (2-element relations, col1 & col2)
+  9 (2-element relations, col1 & col3)
+  9 (2-element relations, col2 & col3)
 
-* The notion of arity primarily has to do with relations and functions. With relations, the arity specifies the number of components in a tuple, i.e. an n-tuple or an n-ary tuple, whch is an ordered collection of elements; that is, the arity indicates the number of "places" in a relation, such that a 2-place relation has 2 components in the 2-tuple, which makes it a pair, `(a,b)`.
 
-* With functions, the arity specifies the number of values a function takes in, i.e. the number of input parameters, which must coincide with the number of actual parameters (i.e. arguments) supplied to the function when it is invoked. The default of k = 1 means that, by deafult, we talk about unary functions. However, if we consider this: that, by default, relations have k = 1, and functions have k = 1, we see that these two notions are actually the same. A binary relation (k = 2) and a unary function (k = 1) actually represent the same relation. It's only that the notion of arity with functions is only associated with its input values, while a relation applies the same concept to an input and output value. For example, considering a Boolean set, the set of ordered pairs `{(0,0),(1,1)}` could represent a *__unary__ function* (identity), or a *__binary__ relation*.
+## Details
+
+```
+Let A = {a,b,c}
+
+        col1   col2   col3
+     ⎛ (a,a), (b,a), (c,a) ⎞
+A² = ⎨ (a,b), (b,b), (c,b) ⎬
+     ⎝ (a,c), (b,c), (c,c) ⎠
+
+* Each relation is an elem of the powerset of A². So 2⁹ = 512 relations.
+* For a relation to be a function (partial or total), it can only contain at most 1 element (ordered pair) from the 3 columns.
+- of 9-choose-0 (= 1), all are partial functions
+  - ∅ is a partial function (9-choose-0)
+- of 9-choose-1 (= 9), all are partial functions
+  - There are 9 1-element partial fns (1 elem from each column) 9-choose-1
+- of 9-choose-2 (= 36), 27 (3⨯9) are partial fns, 9 are relations
+  - There are 9 2-element partial functions (1 elem from col1, 1 elem from col2)
+  - There are 9 2-element partial functions (1 elem from col1, 1 elem from col3)
+  - There are 9 2-element partial functions (1 elem from col1, 1 elem from col3)
+- all other groups with k > 3 are relations
+* a total function must always contain exactly 3 elements (ord pairs).
+  - Thus, there are 27 (= 3³) unary functions on the set A².
+* the number of all functions (partial or total) is 64
+  - There are 37 partial and 27 total functions.
+
+
+⎛ n ⎞      ⎛ 9 ⎞
+⎝ k ⎠ i.e. ⎝ k ⎠
+
+9th row of Pascal's triangle
+
+k=9
+⎲ ⎛ 9 ⎞
+⎳ ⎝ k ⎠ = 1 + 9 + 36 + 84 + 126 + 126 + 84 + 36 + 9 + 1 = 512
+k=0
+
+
+                                 relations
+                       ┌────────────┴─────────────────────┐
+  1     9    36    84    126   126   84    36     9     1
+⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞ ⎛ 9 ⎞
+⎝ 0 ⎠ ⎝ 1 ⎠ ⎝ 2 ⎠ ⎝ 3 ⎠ ⎝ 4 ⎠ ⎝ 5 ⎠ ⎝ 6 ⎠ ⎝ 7 ⎠ ⎝ 8 ⎠ ⎝ 9 ⎠
+└────┬──────────┘ └─┬─┘
+partial          total functions
+functions
+
+```

@@ -1,4 +1,81 @@
-# Number of functions on two sets
+# Number of functions
+
+## Number of functions on the small domains
+
+A function `f` is a mapping between two sets `A` and `B`, denoted `f : A -> B`. The set `A` is called the *domain* of the function, and it is the set, a variable ranging over it, takes its values from. If `A` has only one element, then there are as much functions from `A` to `B` as there are elements in `B`. Each of these functions can only send that single element of `A` to a single element of `B` - so there are as much distinct functions as there are elements in B.
+
+If `B` is the same set as `A`, then there is only one such function possible:
+
+```hs
+f : A -> B
+f(a) -> b
+
+A,B = {★}
+f(★) = ★
+★ ⟼ ★
+```
+
+It takes that single element `★ ∈ A` and maps it to the only element of B, which is also `★ ∈ B`.
+
+`f = { (a,   b)  | a ∈ A,    b ∈ B }` 
+`f = { (a, f(a)) | a ∈ A, f(a) ∈ B }`
+
+so `f₁ = { (★, f(★)) }`
+
+
+
+
+
+
+## Number of Boolean functions
+
+To consider the total number of functions in general, it's best to star small and consider only the functions on the Boolean domain, `𝔹 = {0, 1}`.
+
+A variable `p` ranging over `𝔹` takes each of the two Boolean values ('true' or 'false'), so `p = 1` or `p = 0`. Thus, the number of Boolean functions with a single variable (i.e. the number of unary Boolean functions) is 4.
+
+
+p | T |id | ¬ | F |
+--|---|---|---|---|
+0 | 1 | 0 | 1 | 0 |
+1 | 1 | 1 | 0 | 0 |
+
+
+This is because the domain of a unary Boolean function, `f : 𝔹 -> 𝔹`, has 2 elements, and the codomain, being the same, also has 2 elements.
+
+```
+f : 𝔹 -> 𝔹
+f : {0,1} -> {0,1}
+
+f₀ = p ⟼ 1
+f₁ = p ⟼ p
+f₂ = p ⟼ ¬p
+f₄ = p ⟼ 0
+```
+
+
+
+
+
+
+In general, there are `mⁿ` functions from A to B, `f : A -> B`, 
+
+
+let's start simple, with a finite set `a` that has `n` elements. 
+
+We are intereseted in the total number of unary, `k = 1`, functions, with `fᵏ` being a `k`-ary function.
+
+`f¹ : a -> a`, so `|f¹| = nⁿ`
+
+If `f` is a k-ary Boolean function, `fᵏ : 𝔹ᵏ -> 𝔹`, returning a single Boolean value (either 'true' or 'false'), then there are:
+- `2¹ = 2` nullary Boolean functions, `f⁰ : 𝔹⁰ -> 𝔹` = `f⁰ : () -> 𝔹`
+- `2² = 4` unary   Boolean functions, `f¹ : 𝔹¹ -> 𝔹` = `f¹ : 𝔹 -> 𝔹`
+- `2⁰ = 1` binary  Boolean functions, `f¹ : 𝔹² -> 𝔹` = `f² : 𝔹 ⨯ 𝔹 -> 𝔹`
+
+
+
+
+
+## Number of functions on two sets
 
 Given a set `A` with `n` elements, 
 and a set `B` with `m` elements, 

@@ -4,6 +4,7 @@ https://en.wikipedia.org/wiki/Glossary_of_order_theory
 
 <!-- TOC -->
 
+- [Acyclic relation](#acyclic-relation)
 - [Antichain](#antichain)
 - [Chain](#chain)
 - [Complete chain](#complete-chain)
@@ -22,6 +23,9 @@ https://en.wikipedia.org/wiki/Glossary_of_order_theory
 - [Weak order](#weak-order)
 
 <!-- /TOC -->
+
+## Acyclic relation
+A binary relation is acyclic if it contains no "cycles"; or, equivalently, its transitive closure is antisymmetric.
 
 ## Antichain
 An antichain is a poset in which no two elements are comparable. In other words, the order relation of an antichain is just the identity relation.

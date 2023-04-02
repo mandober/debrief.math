@@ -1,11 +1,12 @@
-# Set Theory ∷ Hierarchy
+# Set Theory :: Hierarchy
 
-* Sets (general)
-  - set is a primitive
-  - sets in general
-  - sets are objects
+* Sets - general
+  - the notion of a set
+  - set is a primitive object
+  - sets are mathematical objects
 
-* Sets and similar collections
+
+* Collections
   - set
   - sets as containers
   - sets as collections
@@ -238,3 +239,34 @@
 =  ∃x(¬¬(x ∉ A))
 =  ∃x(x ∉ A)
 ```
+
+
+
+
+
+
+the Axiom of Extension
+the Axiom of Specification
+unordered pairs
+unions and intersections
+complements and powers
+unordered pairs
+relations
+functions
+families
+inverses and composites
+numbers
+the Peano Axioms
+arithmetic
+order
+the Axiom of Choice
+Zorn's Lemma
+well ordering
+transfinite recursion
+ordinal numbers
+sets of ordinal numbers
+ordinal arithmetic
+the Schröder-Bernstein Theorem
+countable sets
+cardinal arithmetic
+cardinal numbers

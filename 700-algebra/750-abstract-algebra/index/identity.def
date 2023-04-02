@@ -1,0 +1,68 @@
+# Identity
+
+The Axiom of (total) Identity:
+
+`∀ a ∈ S. ∃ ϵ ∈ S. ϵ ⨀ a = a = a ⨀ ϵ`
+
+```js
+∀ a ∈ S.
+  !∃ ϵ ∈ S.
+    ϵ ⨀ a = a = a ⨀ ϵ
+```
+
+* Left identity:
+
+`∀ a ∈ S. ∃ ϵ ∈ S. ϵ ⨀ a = a`
+
+* Right identity:
+
+`∀ a ∈ S. ∃ ϵ ∈ S. a ⨀ ϵ = a`
+
+* Total (left and right) identity:
+
+`∀ a ∈ S. ∃ ϵ ∈ S. ϵ ⨀ a = a = a ⨀ ϵ`
+
+
+## Additional properties
+
+Combining an element with its inverse gives back the identity element:
+
+`∃ā ∈ S. ∀a ∈ S. !∃ϵ ∈ S. a ⨀ ā = ϵ = ā ⨀ a`
+
+```js
+A₁ = (ℕ, 0, +):
+  -1 +   1  = 0 // left inverse
+   1 + (-1) = 0 // right inverse
+```
+
+## Examples
+
+```js
+// an algebara: 𝒜 = (Σ, ℰ𝓁, 𝒪𝓅) = (S, E, O)
+
+ℰ𝓁 ∙ 𝒪𝓅
+
+𝒮∙𝒟∙𝒫∙𝒪∙𝒜∙ℛ∙ℰ
+
+// an algebara: A = (S, D{0,1}, {+, -, inv})
+
+// an algebara: A = (S, 1, ⨀)
+
+A₁ = (𝔹 = {⟙, ⟘}, 1 = ⟙, ⋁):
+  ∀p ∈ 𝔹. p ⋁ ⟙ = ⋁ = ⟙ ⋁ p
+
+A₁ = (𝔹, ⟘, ⋀):
+  0 + x = x = x + 0
+
+A₁ = (ℕ, 0, +):
+  0 + x = x = x + 0
+
+A₂ = (ℕ, 1, ⨯):
+  1 ⨯ x = x = x ⨯ 1
+
+A₃ = ([S], 1 = "", ++):
+  "" ++ x = x = x ++ ""
+
+A₄ = (⨍, 1 = id, ∘):
+  1 ∘ ⨍ = ⨍ = ⨍ ∘ 1
+```

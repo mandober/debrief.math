@@ -1,0 +1,51 @@
+# Kinds of Recursion
+
+- Recursion
+  - Kinds of Recursion
+    - direct recursion
+    - well-defined recursion
+    - anonymous recursion
+    - arm's-length recursion
+    - bar recursion
+    - course-of-values recursion
+    - double recursion
+    - continuation
+    - generative recursion
+    - mutual recursion
+    - fold, folding
+    - recursor
+    - left recursion (grammars, compilers)
+    - fixed point, fixpoint
+    - fixed-point combinator
+    - recursive definition
+    - recursive data type
+
+
+- Dual notions
+  - recursion
+  - co-recursion
+  - iteration
+  - co-iteration
+  - induction
+  - co-induction
+
+Computable functions
+  - Primitive recursive function
+  - General recursive function
+  - primitive recursive functions
+  - partial recursive functions
+  - general recursive functions
+
+
+recursion theory
+  Kleene's recursion theorem
+  quine
+  the recursion theorem
+  alpha recursion theory
+
+induction
+  mathematical induction
+  recurrence relation
+  structural induction
+  well-defined induction
+  coinduction

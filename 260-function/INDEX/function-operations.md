@@ -1,6 +1,7 @@
 # Function operations
 
 composition
+inverse
 flip
 curry
 uncurry

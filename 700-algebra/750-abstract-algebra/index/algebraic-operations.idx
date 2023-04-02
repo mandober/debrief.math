@@ -1,0 +1,20 @@
+# Algebraic operations
+
+- additive operation
+- multiplicative operation
+- closure operator
+  - in star semiring, closed semiring: `a⃰ = 1 + a + a⃰`
+- class operator
+- composition
+  - in function-space algebra, `(ℱ, id, ∘)`
+- concatenation
+  - algebra on lists, list monoid: `([S], [], ++)`
+  - algebra on strings, string monoid: `(S, "", ++)`
+- in algebraic graphs
+  - overlay `+`
+  - connect `∙`
+  - decomposition property: `x∙y∙z = x∙y + x∙z + y∙z`
+- Boolean algebra
+  - meet, ⋀, ∙
+  - join, ⋁, +
+- complement operation

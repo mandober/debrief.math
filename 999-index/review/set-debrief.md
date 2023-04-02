@@ -1,0 +1,5 @@
+# Mathematics :: Debriefs :: Set
+
+A **set** is a *collection* of *mathematical objects*. A set is an undefined *mathematical concept*. Thus, the notion of sets is either introduced as a *mathematical primitive* or as an *axiom* asserting their existentence. However, even the form of such *assertion* is tricky to formulate; it needs to be succinct, yet to cover many situations, especially those nasty edge cases (catch-all eventualities) that induce paradoxes. Sets seem to elide both the attempts to describe them and to define them. Therefore, it's not surprising that a quick scan of the index of the axiom of some popular set theories reveals no statements along the line of "sets exist" or "fiat sets!".
+
+there are no axioms that assert the existance of sets in general, in the wild; but, there is The Axiom of the Empty Set, which states that "the empty set exists". However, by itself it is hardly sufficient to institute sets as collections capable of gathering objects together and what-not.

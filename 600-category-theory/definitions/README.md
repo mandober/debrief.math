@@ -1,0 +1,55 @@
+# Category theory :: Definitions
+
+- [category](./category.def.md)
+- [category extras](./category-extra.def.md)
+- [objects](./objects.def.md)
+- [morphisms](./morphisms.def.md)
+- [isomorphism](./isomorphism.def.md)
+
+
+- category
+  - object, abstract set, `∀c ∈ Ob(ℂ)`
+  - morphism, arrow, Ar(ℂ)
+  - identity arrows, 1ˣ
+  - composition of arrows
+  - transitive closure
+  - the law of identity
+  - the law of associativity
+- categories
+  - locally small category
+  - large category
+  - discrete categories
+  - important categories
+    - Set
+    - product category
+    - Cat
+    - 2-category
+- morphisms
+  - homset
+  - monomorphism
+  - epimorphism
+  - isomorphism
+- functors
+  - functor (covariant)
+  - contravariant functor
+  - identity functor
+  - endofunctor
+  - bifunctor
+  - profunctor
+- natural transformations
+  - natural transformation
+  - components of a natural transformation
+  - identity natural transformation
+  - natural isomorphism
+- objects
+  - initial object
+  - terminal object
+  - exponential object
+  - pair object
+- categorical constructions
+  - universal property
+  - universal construction
+  - product
+  - coproduct
+  - exponential object
+- adjunctions

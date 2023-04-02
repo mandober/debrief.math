@@ -1,6 +1,11 @@
 
-## 01-04-2022
+https://en.wikipedia.org/wiki/Proof_calculus
+https://en.wikipedia.org/wiki/Natural_deduction
 
+
+
+
+## 01-04-2022
 
 https://en.wikipedia.org/wiki/Ordered_pair
 https://en.wikipedia.org/wiki/Dependent_type

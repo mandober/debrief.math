@@ -1,0 +1,30 @@
+# Library
+
+```hs
+(
+ -- params bind items to names
+ λ TRUE.
+  λ FALSE.
+   λ NOT.
+    λ AND.
+     λ OR.
+      λ IFTHENELSE.
+       λ ISZERO.
+
+
+
+ -- args define items
+ (λab.a)                -- TRUE
+  (λab.b)                -- FALSE
+   (λp.p FALSE TRUE)      -- NOT
+    (λp.λq.p q p)          -- AND
+     (λp.λq.p p q)          -- OR
+      (λp.λa.λb.p a b)       -- IFTHENELSE
+       (λn.n (λx.FALSE) TRUE) -- ISZERO
+        (λx y f. f x y)        -- PAIR
+         (λp. p (λx.λy.FALSE))  -- NULL
+          (λp. p (λa b. a))      -- FIRST
+           (λp. p (λa b. b))      -- SECOND
+            (λx. (λa b. a))        -- NIL
+)
+```

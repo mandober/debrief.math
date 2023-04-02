@@ -4,6 +4,7 @@
 
 - [AC](#ac)
 - [ANF](#anf)
+- [CHI](#chi)
 - [CIC](#cic)
 - [CoC](#coc)
 - [CSP](#csp)
@@ -14,10 +15,9 @@
 - [GCD](#gcd)
 - [HoTT](#hott)
 - [ITT](#itt)
-- [LCM](#lcm)
+- [IPL](#ipl)
 - [LEM](#lem)
 - [LNC](#lnc)
-- [LUB](#lub)
 - [MLTT](#mltt)
 - [OTT](#ott)
 - [QTT](#qtt)
@@ -35,6 +35,9 @@ The Axiom of Choice
 
 ## ANF
 A-normal form
+
+## CHI
+Curry-Howard isomorphism
 
 ## CIC
 Calculus of Inductive Constructions
@@ -67,17 +70,14 @@ Homotopy type theory
 1. Intensional type theory
 2. Intuitionistic type theory
 
-## LCM
-Least Common Multiple
+## IPL
+Intuitionistic Propositional Logic
 
 ## LEM
 The law of the excluded middle, `P ∨ ¬P`
 
 ## LNC
 The law of non-contradiction, `¬(P ∧ ¬P)`
-
-## LUB
-Least Upper Bound
 
 ## MLTT
 Martin-Löf type theory
@@ -92,7 +92,7 @@ Quantative Type Theory
 Type Theory
 
 ## UF
-Univalent foundations of mathematics
+Univalent Foundations of mathematics
 
 ## UIP
 Uniqueness of Identity Proofs

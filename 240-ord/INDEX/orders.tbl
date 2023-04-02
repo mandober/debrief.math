@@ -1,0 +1,30 @@
+# Order theory :: Table of orders
+
+
+order                 | s | n | a | c | w | j | m | r | i |
+----------------------|---|---|---|---|---|---|---|---|---|
+Preorder (Quasiorder) |   |   |   |   |   |   |   | 1 |   |
+Partial order         |   | 1 |   |   |   |   |   | 1 |   |
+Total preorder        |   |   |   | 1 |   |   |   | 1 |   |
+Total order           |   | 1 |   | 1 |   |   |   | 1 |   |
+Prewellordering       |   |   |   | 1 | 1 |   |   | 1 |   |
+Well-quasi-ordering   |   |   |   |   | 1 |   |   | 1 |   |
+Well-ordering         |   | 1 |   | 1 | 1 |   |   | 1 |   |
+Lattice               |   | 1 |   |   |   | 1 | 1 | 1 |   |
+Join-semilattice      |   | 1 |   |   |   | 1 |   | 1 |   |
+Meet-semilattice      |   | 1 |   |   |   |   | 1 | 1 |   |
+Strict partial order  |   |   | 1 |   |   |   |   |   | 1 |
+Strict weak order     |   |   | 1 |   |   |   |   |   | 1 |
+Strict total order    |   |   | 1 | 1 |   |   |   |   | 1 |
+Equivalence relation  | 1 |   | 1 | 1 |   |   |   | 1 |   |
+
+
+- s       symmetric
+- n   antisymmetric
+- a      asymmetric
+- c   connected
+- w   well-founded
+- j   has joins
+- m   has meets
+- r     reflexive
+- i   irreflexive

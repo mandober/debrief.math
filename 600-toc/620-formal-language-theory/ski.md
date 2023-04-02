@@ -1,1 +1,0 @@
-# SKI combinator calculus

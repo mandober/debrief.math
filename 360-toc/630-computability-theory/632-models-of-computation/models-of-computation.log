@@ -1,0 +1,162 @@
+# Models of computation
+
+Name                              | Inventor                             | Year
+----------------------------------|--------------------------------------|-------
+Lambda calculus                   | Alonzo Church                        | 1935
+Recursive functions               | Stephen Kleene                       | 1935
+Turing machine                    | Alan Turing                          | 1936
+Finite combinatory processes      | Emil Post                            | 1936
+Post system                       | Emil Post                            | 1943
+Markov algorithms                 | Andrei Andreivich Markov             | 1940's
+Wang machine                      | Hao Wang                             | 1957
+Register machines                 | Abraham Robinson, Calvin Elgot       | 1960's
+Random Access Machines            | Steven Cook, Robert Rechow           | 1970's
+
+
+
+## Index
+
+Abstract machine
+Abstract state machine
+Actor model
+Agent-based model
+Algorithm characterizations
+Alternating Turing machine
+Applicative computing systems
+Applicative computing systems
+Augmented marked graph
+Automata
+Behavior tree (artificial intelligence, robotics and control)
+Billiard-ball computer
+Binomial options pricing model
+Blum-Shub-Smale machine
+Bulk synchronous parallel
+Cache-oblivious algorithm
+Cache-oblivious distribution sort
+CARDboard Illustrative Aid to Computation
+Categorical abstract machine
+Cell-probe model
+Channel system (computer science)
+Chaos computing
+CIP-Tool
+Combinatory logic
+Communicating finite-state machine
+Communicating X-Machine
+Complexity and Real Computation
+Computation oracles
+Computational model
+Computing with Memory
+Counter automaton
+Counter-machine model
+Dataflow
+Decision field theory
+Decision tree model
+Denotational semantics
+Denotational semantics
+Description number
+Deterministic pushdown automaton
+Discrete system
+Distributed stream processing
+DNA computing
+Effective fragment potential method
+Embedded pushdown automaton
+Event-driven finite-state machine
+Evolution in Variable Environment
+Extended finite-state machine
+External memory algorithm
+Finite combinatory processes
+FRACTRAN
+Funnelsort
+Interaction nets
+Kahn process networks
+Korn-Kreer-Lenssen model
+Krivine machine
+Lambda calculus
+Lambda calculus
+Lattice model (finance)
+Lazy linear hybrid automaton
+Linear bounded automaton
+LogP machine
+Markov algorithm
+Markov algorithms
+MATSim
+Mealy machine
+Membrane computing
+Multi-tape Turing machine
+NAR 1
+NAR 2
+Nested stack automaton
+Nets within Nets
+Oblivious RAM
+One-instruction set computer
+One-way quantum computer
+P system
+P′′
+Parallel external memory
+Parallel RAM
+Parasitic computing
+Peptide computing
+Persistence
+Persistence (computer science)
+Petri net
+Petri nets
+Post canonical system
+Post system
+Post-Turing machine
+Probabilistic Turing machine
+Process calculi
+Pushdown automaton
+Quantum capacity
+Quantum circuit
+Quantum computing
+Quantum computing
+Quantum volume
+Queue automaton
+Random Access Machines
+Random Access Machines
+Realization (systems)
+Recursive functions
+Register machine
+Register machines
+Register machines
+Reo Coordination Language
+Reversible computing
+Reversible computing
+Robertson-Webb query model
+Scott information system
+SECD machine
+Shape Modeling International
+Stack machine
+Stack machines
+State (computer science)
+State diagram
+State space
+Stochastic computing
+Stochastic Petri net
+Stream processing
+Stream X-Machine
+Structured program theorem
+SXM (computational model)
+Tag system
+Thread automaton
+Time loop logic
+Topological quantum computer
+Transdichotomous model
+Transition system
+Transition systems
+Tree stack automaton
+Trinomial tree
+Turing machine
+Turing machine
+Turing machine equivalents
+Turmite
+UML state machine
+Unbounded nondeterminism
+Unidirectional Data Flow (computer science)
+Vector addition system
+Virtual finite-state machine
+Wang machine
+WDR paper computer
+Word RAM
+X-machine
+Zeno machine

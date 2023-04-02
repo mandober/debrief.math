@@ -1,16 +1,33 @@
-# Logic Indices
+# Logic :: Index
 
 * Logical reasoning
   - Deduction
   - Induction
   - Abduction
 
-* Structural rules
-  - Monotonicity of entailment, weakening
-  - Idempotency of entailment, contraction
-  - Exchange
-  - The cut rule
-  - De Morgan duality
+- Truth-functional logic
+- Natural deduction
+- Sequent calculus
+- Prpositional logic
+
+
+* Rules
+  * Type of rules
+    - Derivability
+    - Admissibility
+    - Elimability
+    - Invertability
+  * Structural rules
+    - Weakening, monotonicity of entailment
+    - Contraction, idempotency of entailment
+    - Exchange
+    - The cut rule
+
+* Inference
+  - Derivability, derived rule
+  - Admissibility, Admissible rule
+  - Discharged assumption
+  - Conditional proof assumption, `CPA`
 
 * Properties
   - Satisfiability
@@ -24,6 +41,7 @@
   - Defeasibility
   - Substitution
 
+
 * Logical connectives
   - negation
   - conjunction
@@ -34,18 +52,50 @@
   - Pierce's arrow
   - XOR
 
+## Laws
 
-* Principles
-  - Law of identity, `ID`, $$\forall x: x=x$$     
-    $${p\land\top\equiv p},\ {p\lor\bot\equiv p}$$
-  - Law of non-contradiction, `NC`: $$\lnot(p\land \lnot p)$$
-  - Law of excluded middle, `EM`, _Tertium non datur_, `TND`: $$p\lor \lnot p$$    
-    $$\top\equiv\lnot\lnot\top\equiv\lnot\bot, \quad \bot\equiv\lnot\lnot\bot\equiv\lnot\top$$
-  - Principle of explosion, _Ex falso quodlibet_, `EFQ`     
-    $$\forall p \forall q : (p\land \lnot p) \vdash q$$
-  - Principles of bivalence: $$\top\lor\bot$$, not both, not neither
-  - Independence of premise, Kreisel–Putnam rule, `KPR`
-  - Negation as failure, `NAF`
+- Laws
+  - Law of Identity
+    - __ID__
+    - `∀p. p = p`
+    - `p ∧ ⊤ ≡ p`
+    - `p ∨ ⊥ ≡ p`
+  - Law of Assumption ?
+    - `p → p ≡ ⊤`
+    - `p ∨ ⊤ ≡ ⊤`
+    - `p ∧ ⊥ ≡ ⊥`
+  - Law of Excluded Middle
+    - __LEM__
+    - Tertium non datur
+    - `p ∨ ¬p`
+  - Law of Non-Contradiction
+    - __LNC__
+    - induced by LEM
+    - `¬(p ∧ ¬p)`
+  - Law of double-negation
+    - __LDN__
+    - induced by LEM
+    - `⊤ ≡ ¬¬⊤`
+    - `⊤ ≡ ¬⊥`
+    - `⊥ ≡ ¬⊤`
+
+## Principles
+
+- Principles
+  - Principle of explosion
+    - Ex falso quodlibet, Ex falsum quidlibet
+    - EFQ
+    - `∀pq. p ∧ ¬p ⊢ q`
+  - Principles of bivalence
+    - `⊤ ∨ ⊥`
+    - a proposition is either true or false, not both, not neither
+
+  - Independence of premise
+    - Kreisel-Putnam rule
+    - KPR
+  - Negation as failure
+    - NAF
+
 
 * Rules
   - Commutativity
@@ -62,8 +112,8 @@
     - Negation of conjunction: $$\neg (p\land q) \vdash (\neg p \lor \neg q)$$
     - negation of disjunction: $$\neg (p\lor q)\vdash (\neg p\land \neg q)$$
   - Material implication: $$p\to q \equiv \lnot p\lor q\ _{(MI)}$$
-  - Idempotency
   - Domination laws: $${p\lor\top\equiv \top},\ {p\land\bot\equiv \bot}$$
+  - Idempotency
   - Negation laws
   - Double negation
   - Transposition
@@ -72,15 +122,10 @@
   - Tautology
   - Negation introduction
 
-* Inference
-  - Derivability, derived rule
-  - Admissibility, Admissible rule
-  - Discharged assumption
-  - Conditional proof assumption, `CPA`
-
 * Inference rules
-
-  * **Negations**
+  - Reiteration, Copy, `CPY` 
+  - _Modus ponendo tollens_, `MPT`
+  - **Negations**
     - Negation
       - not-introduction, _Reductio ad absurdum_, $$p\to q, p\to\neg q \vdash\neg p\ _{(\lnot i)}$$
       - not-elimination, Noncontradiction, $$\neg p\vdash p\to r\ _{(\lnot e)}$$
@@ -90,15 +135,13 @@
     - De Morgan's laws
       - Negation of conjunction: $$\neg (p\land q) \vdash (\neg p \lor \neg q)\ _{(DM)}$$
       - Negation of disjunction: $$\neg (p\lor q)\vdash (\neg p\land \neg q)\ _{(DM)}$$
-
-  * **Conjunction**
+  - **Conjunction**
     - and-introduction, Adjunction: $$p,q\vdash p\land q\ _{\land i}$$
     - and-elimination, Simplification: $$p\land q\vdash p\ _{(\land e_1)}$$ and $$p\land q\vdash q\ _{(\land e_2)}$$
     - Commutativity: $$p\land q \vdash q \land p$$
     - Associativity: $$p\land (q\land r) \vdash (p\land q)$$
     - De Morgan's law: $$\neg p \land \neg q \vdash \neg (p\lor q) \ _{(DM)}$$
-
-  * **Disjunction**
+  - **Disjunction**
     - or-introduction: $$p\vdash p\lor q\ _{(\lor i)}$$
     - or-elimination: $$p\lor q,p\to r,q\to r \vdash r\ _{(\lor e)}$$
     - Disjunctive syllogism, `DS`: $$p\lor q,\lnot q\vdash p\ _{(DS)}$$
@@ -106,8 +149,7 @@
     - Associativity: $$p\lor (q\lor r) \vdash (p\lor q)$$
     - De Morgan's law: $$\neg p \lor \neg q \vdash \neg (p\land q) \ _{(DM)}$$
     - Material implication: $$\lnot p\lor q \vdash p\to q\ _{(MI)}$$
-
-  * **Implication**
+  - **Implication**
     - _Modus ponens_, `MP`, $$p\to q, p \vdash q\ _{(MP)}$$
     - _Modus tollens_, `MT`, $$p\to q,\lnot q \vdash\lnot p\ _{(MT)}$$
     - Material implication: $$p\to q \vdash \lnot p\lor q\ _{(MI)}$$
@@ -116,26 +158,21 @@
       $$(p \vdash q) \vdash p\to q\ _{(\to i)}$$
     - Reflexivity: $$p \vdash p\to p$$
     - Absorption: $$p\to q \vdash p\to (p \to q)$$
-
-  * **Biconditional**
+  - **Biconditional**
     - iff-introduction: $$p\to q, q\to p \vdash p\leftrightarrow q\ _{(\leftrightarrow i)}$$
     - iff-elimination: $$p\leftrightarrow q\vdash p\to q,q\to p\ \ _{(\leftrightarrow e)}$$
-
-  * **Universal quantifier**
+  - **Universal quantifier**
     - ∀-introduction, Generalization, `GEN`
     - ∀-elimination
     - De Morgan's: $$\forall x P(x) \equiv \neg (\exists x\,\neg P(x))$$
-
-  * **Existential quantifier**
+  - **Existential quantifier**
     - ∃-introduction
     - ∃-elimination
     - De Morgan's: $$\exists x P(x)\equiv \neg (\forall x\,\neg P(x))$$
+  - Deduction theorem
+  - Constructive dilemma
+  - Destructive dilemma
 
-* Reiteration, Copy, `CPY` 
-* _Modus ponendo tollens_, `MPT`
-* Deduction theorem
-- Constructive dilemma
-- Destructive dilemma
 
 
 ---

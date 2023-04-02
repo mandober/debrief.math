@@ -1,0 +1,94 @@
+# Substitution
+
+- Substitution is employed as part of β-reduction
+- Substitution is denoted `(λx.B)A` -->ᵦ [x⟼A]B
+  or in various other conventions as:
+  [x⟼A]B, [x:=A]B, B[x:=A], [x/A]B, [A/x]B, …
+- `(λx.B)A -->ᵦ [x⟼A]B` means binding the arg A to the param x and thus 
+  replacing all bound occurrences of x in B with A, while avoiding name capture.
+- Substitution is also employed to denote α-conversion which is used to avoid 
+  name capture.
+- `[x⟼y]B` means replacing the binding occurrence of the param x 
+  as well as all its bound occurrences in B with y; e.g. `λx.x =α= λy.y`
+
+```
+(λx.λy.x)(λx.y)     we cannot reduce this application by
+[x:=λx.y](λy.x)     naively substituting x for arg (λx.y) in body λy.x
+λy.λx.y         ✘   because it will result in name capture of y
+
+                    Again,
+(λx.λy.x)(λx.y)     to reduce this exp, we first realize that the SUBST RULE 5
+[x:=λx.y](λy.x)     has a condition which is not met for this subst.
+  x = x
+  A = λx.y
+  M = λy.x
+
+SUSBT RULE 5:
+  [x:=A](λy.M) = λy.(M[x:=A])           if x ≠ y ⋀ y ∉ fv(A)
+
+So, x ≠ y holds, BUT does y ∉ fv(A) hold? i.e. is y free in arg (λx.y)?
+  y ∉ fv(A)       Var y IS NOT among the free vars in the arg A?
+  y ∉ fv(λx.y)    This statement does not hold because:
+  y ∈ fv(λx.y)    Var y IS among the free vars in the arg A.
+  y ∈ fv(λx.y)    i.e. Var y occurs free is the arg (λx.y)
+
+We cannot use this rule as is, first we must rename Var y to y' in A:
+  [y:=y']A
+  [y:=y'](λx.y) --> (λx.y')
+  (λx.λy.x)(λx.y) =α= (λx.λy.x)(λx.y')
+
+Now we restart the β-reduction with the renamed exp:
+  (λx.λy.x)(λx.y') -->ᵦ
+  [x:=λx.y'](λy.x) -->ᵦ
+  λy.λx.y'                ✔
+```
+
+
+
+
+Substitution rules (5):
+
+```hs
+-- FORM           RESULT              CONDITION                RULE NAME
+
+-- Var
+[x:=A] x       =  A                since x = x                -- SUSBT RULE 1
+[x:=A] y       =  y                   if x ≠ y                -- SUSBT RULE 2
+
+-- App
+[x:=A] (M N)   =  [x:=A]M ([x:=A]N)                           -- SUSBT RULE 3
+
+-- Abs
+[x:=A] (λx.M)  =  λx.M                                        -- SUSBT RULE 4
+[x:=A] (λy.M)  =  λy.(M[x:=A])  if x ≠ y ⋀ y ∉ FV(A)          -- SUSBT RULE 5
+
+if  y ∈ FV(A)  -->  rename y to y' until  y' ∈ FV(A)  then apply rule 5
+```
+
+
+
+
+
+(λx.x)a -->> [x:=a]x -->> a
+(λx.y)a -->> [x:=a]y -->> y
+(λx.a)a -->> a
+(λx.a)x -->> a
+
+
+
+
+
+```hs
+[x:=N]x      = N                      since x = x
+[x:=N]y      = y                      since x ≠ y
+[x:=N](λx.M) = λx.M                   since x = x
+[x:=N](λy.M) = λy.(M[x:=N])           since x ≠ y ⋀ if y ∉ fv(N)
+[x:=N](A B)  = (A[x:=N]) (B[x:=N])
+```
+
+Substitution:
+-       x [x:=N] ≡ N        (if x = y)
+-       y [x:=N] ≡ y        (if x ≠ y)
+- (M₁ M₂) [x:=N] ≡ (M₁[x:=N]) (M₂[x:=N])
+-  (λx.M) [x:=N] ≡ λx.M
+-  (λy.M) [x:=N] ≡ λy.(M[x:=N]), if `x ≠ y` and `y ∉ FV(N)`

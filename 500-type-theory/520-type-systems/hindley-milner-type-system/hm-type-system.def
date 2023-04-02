@@ -1,0 +1,92 @@
+# The Hindley-Milner type system
+
+## Declarative Rule System
+
+```hs
+x : σ ∈ Γ
+----------- [Var]
+Γ |- x : σ
+
+Γ |- e₁ : τ -> τ'    Γ |- e₂ : τ
+--------------------------------- [App]
+Γ |- e₁ e₂ : τ'
+
+Γ, x : τ |- e : τ'
+----------------------- [Abs]
+Γ |- λ x . e : τ -> τ'
+
+Γ, x : σ |- e₁ : τ    Γ |- e₂ : σ
+---------------------------------- [Let]
+Γ |- let x = e₂ in e₁ : τ
+
+Γ |- e : σ'    σ' ⊑ σ
+----------------------- [Inst]
+Γ |- e : σ
+
+Γ |- e : σ    α ∉ Free (Γ)
+--------------------------- [Gen]
+Γ |- e : ∀ α . σ
+```
+
+
+
+## Syntax and Grammar
+
+```hs
+terms:
+  e := x                      variable
+     | e₁ e₂                  application
+     | λ x . e                abstraction
+     | let x = e₁ in e₂       let-binding
+
+monotypes:
+  τ := α                     type variable
+     | C τ … τ               type application
+     | τ -> τ                type abstraction
+
+polytypes:
+  σ := τ
+     | forall α. σ            type schema
+```
+
+## Context and Typing
+
+```
+Value Context    Γ := ϵ
+                    | Γ, x : σ
+Typing context     := Γ |- e : σ
+```
+
+## Free type variables
+
+```
+free(α)         = {α}
+free(C τ₁ … τₙ) = ⋃ [i=1..n] free(τᵢ)
+free(Γ)        = ⋃ [x:σ ∈ Γ] free(σ)
+
+free(∀α.σ)      = free(σ) - {α}
+fee(Γ |- e : σ) = free(σ) - free(Γ)
+```
+
+* Specialization rule
+
+```
+τ' = { αᵢ ⟼ τᵢ } τ     βᵢ ∉ free(∀α₁ … ∀αₙ . τ)
+-------------------------------------------------
+        ∀α₁ … ∀αₙ . τ ⊑ ∀β₁ … ∀βₘ . τ'
+```
+## The Syntax of Rules
+
+```
+Predicate  := σ ⊑ σ'
+            | α ∉ free(Γ)
+            | x : α ∈ Γ
+
+Judgement  := Typing
+Premise    := Judgement | Predicate
+Conclusion := Judgement
+
+              Premise …
+Rule       := ----------- [Name]
+              Conclusion
+```

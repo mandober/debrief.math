@@ -1,18 +1,10 @@
----
-downloaded:       2022-01-22
-page-url:         https://plato.stanford.edu/entries/mathematics-inconsistent/
-page-title:       Inconsistent Mathematics (Stanford Encyclopedia of Philosophy)
-article-title:    Inconsistent Mathematics
----
-# Inconsistent Mathematics (Stanford Encyclopedia of Philosophy)
+# Inconsistent Mathematics
 
-Inconsistent mathematics is the study of the mathematical theories
-that result when classical mathematical axioms are asserted within the
-framework of a (non-classical) logic which can tolerate the presence
-of a contradiction without turning every sentence into a theorem.
-Inconsistent mathematics is the study of the mathematical theories that result when classical mathematical axioms are asserted within the framework of a (non-classical) logic which can tolerate the presence of a contradiction without turning every sentence into a theorem.
+https://plato.stanford.edu/entries/mathematics-inconsistent/
 
-## 1\. Foundations of Mathematics
+**Inconsistent mathematics** is the study of the mathematical theories that result when classical mathematical axioms are asserted within the framework of a (non-classical) logic which can tolerate the presence of a contradiction without turning every sentence into a theorem.
+
+## 1. Foundations of Mathematics
 
 Inconsistent Mathematics began historically with foundational considerations. Set-theoretic paradoxes noted by Russell and others led to attempts to produce a consistent set theory as a foundation for mathematics. But, as is well known, set theories such as ZF, NBG and the like were in various ways ad hoc. Hence, a number of people including da Costa (1974), Brady (1971, 1989), Priest, Routley, & Norman (1989, pp. 152, 498), considered it preferable to retain the full power of the natural comprehension principle (every predicate determines a set), and tolerate a degree of inconsistency in set theory. Brady, in particular, has extended, streamlined and simplified these results on naive set theory in his book (2006); for a clear account see also Restall’s review (2007).
 

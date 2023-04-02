@@ -1,0 +1,51 @@
+# Properties of algebras
+
+- Fundamental properties
+  - closure (totality)
+  - associativity
+  - identity
+    - identity element
+  - inversion
+    - inverse element
+    - invertability
+    - involution
+  - distributivity
+  - commutativity
+
+- Common properties
+  - idempotence
+  - cencellativity
+  - absorption
+    - Absorption law:
+      `a + (a * b) = a`
+      `a * (a + b) = a`
+      `b'+(a b')=b'`
+  - annihilation
+    - zero element
+  - domination
+    - in Boolean algebra
+      - a * 0 = 0
+      - a + 1 = 1
+  - De Morgan's Laws:
+    `(a * b)' <=> a' + b'`
+    `(a + b)' <=> a' * b'`
+
+- Relational properties
+  - reflexivity
+  - transitivity
+  - symmetry
+  - asymmetry
+  - antisymmetry
+  - dichotomy
+  - trichotomy
+
+- Frequent properties
+  - homomorphism, `F (f ∘ g) = F f ∘ F g`
+
+- Infrequent properties
+  - closure operator
+    - in star semiring, closed semiring
+      - `a⃰ = 1 + a + a⃰`
+  - decomposition
+    - in algebraic graphs: `+` (overlay) and `∙` (connect)
+    - `xyz = xy + xz + yz`

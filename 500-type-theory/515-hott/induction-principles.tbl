@@ -1,0 +1,262 @@
+# Induction principles
+
+Data type can be
+- defined as a GADT (using `data`)
+- defined as a record (only if single data ctor, free `η`-rule)
+- non-universe polymorphic, `τ : Type`
+- universe polymorphic, `τ : 𝓤`, `τ : {𝒿 : Level} → A → 𝓤 𝒿`
+- dependent elimination rule
+- non-dependent elimination rule
+
+Data types with induction principles
+- 𝟘 type
+- 𝟙 type
+- 𝔹 type
+- ℕ type
+- List types
+- Sigma types, `Σ`
+- Identity types, `≡`
+
+
+<!-- TOC -->
+
+- [0-type](#0-type)
+- [1-type](#1-type)
+- [2-type](#2-type)
+- [Naturals](#naturals)
+- [Ordinal type](#ordinal-type)
+- [List](#list)
+- [Pair](#pair)
+- [Sigma type](#sigma-type)
+- [Identity type](#identity-type)
+
+<!-- /TOC -->
+
+## 0-type
+
+```agda hs
+-- 𝟘-intro
+data 𝟘 : Type where
+
+𝟘-elim : {R : 𝟘 → Type}
+       ----------------
+       → (x : 𝟘) → R x
+𝟘-elim ()
+
+
+-- 𝟘-intro (universe polymorphic)
+data 𝟘 : 𝓤 where
+
+𝟘-elim : {R : 𝟘 → 𝓤}
+       ----------------
+       → (x : 𝟘) → R x
+𝟘-elim ()
+```
+
+## 1-type
+
+```agda hs
+-- | 1-type as a GADT
+data 𝟙 : Type where
+  ★ : 𝟙
+
+𝟙-elim : {R : 𝟙 → Type}
+       → R ★
+       ----------------
+       → (x : 𝟙) → R x
+𝟙-elim a ★ = a
+
+-- ----------------------------------------------------------------------------
+-- | 1-type as a record
+record 𝟙 : Type where
+  constructor ★
+
+-- | 𝟙-elim dependent
+𝟙-elim : {A : 𝟙 → Type}
+       → A ★
+       ----------------
+       → (x : 𝟙) → A x
+𝟙-elim a ★ = a
+
+-- ----------------------------------------------------------------------------
+-- | 𝟙-elim non-dependent
+𝟙-nondep-elim : {A : Type}
+              ------------
+              → A → 𝟙 → A
+𝟙-nondep-elim {A} = 𝟙-elim {λ _ → A}
+
+
+
+-- ----------------------------------------------------------------------------
+-- | 1-type GADT universe polymorphic
+data 𝟙 : 𝓤 where
+  ★ : 𝟙
+
+-- | 1-type as a record universe polymorphic
+record 𝟙 : 𝓤 where
+  constructor ★
+```
+
+
+## 2-type
+
+```agda hs
+data 𝟚 : Type where
+  tt ff : 𝟚
+
+𝟚-elim : {R : 𝟚 → Type}
+       → R tt
+       → R ff
+       ---------------
+       → (b : 𝟚) → R b
+𝟚-elim f g tt = f
+𝟚-elim f g ff = g
+```
+
+## Naturals
+
+```agda hs
+data ℕ : Set where
+  zero : ℕ
+  succ : ℕ → ℕ
+
+ℕ-elim : {R : ℕ → Type}
+       →                  R zero
+       → ((k : ℕ) → R k → R (succ k))
+       ------------------------------
+       → (n : ℕ) → R n
+ℕ-elim f g zero     = f
+ℕ-elim f g (succ n) = g n (ℕ-elim f g n)
+```
+
+## Ordinal type
+
+```agda hs
+-- Brouwer ordinals
+data Ord : Set where
+  zeroOrd : Ord
+  sucOrd  : Ord → Ord
+  limOrd  : (Nat → Ord) → Ord
+
+ord-elim : {P : Ord → Set}
+         →                                             P zeroOrd
+         → ((o : Ord)                    → P o      →  P (sucOrd o))
+         → ((h : Nat → Ord) → ((n : Nat) → P (h n)) →  P (limOrd h))
+         -----------------------------------------------------------
+         → (o : Ord) → P o
+ord-elim z f g zeroOrd    = z
+ord-elim z f g (sucOrd o) = f o (ord-elim z f g o)
+ord-elim {P} z f g (limOrd h) = g h (\n → ord-elim z f g (h n))
+```
+
+## List
+
+```agda hs
+data List (A : Type) : Type where
+  []   : List A
+  _::_ : A → List A → List A
+
+List-elim : {X : Type
+            {R : List X → Type}
+          →                                 R []
+          → ((x : X) (xs : List X) → R xs → R (x :: xs))
+          -----------------------------------------------
+          → (xs : List X) → R xs
+List-elim f g []        = f
+List-elim f g (x :: xs) = g x xs (List-elim f g xs)
+```
+
+## Pair
+
+```agda hs
+record Pair (A B : Type) : Type where
+  constructor
+    _⨯_
+  field
+    fst : A
+    snd : B
+
+Pair-elim : {A B : Type}
+            {P : Pair A B → Type}
+          → ((x : A) (y : B) → P (x ⨯ y))
+          ------------------------------------
+          → (p : Pair A B) → P p
+Pair-elim f (x ⨯ y) = f x y
+```
+
+## Sigma type
+
+```agda hs
+-- | Σ as GADT
+data Σ {A : Type} (B : A → Type) : Type where
+  _,_ : (x : A) (y : B x) → Σ {A} B
+
+-- | projection 1
+π₁ : {A : Type} {B : A → Type} → Σ B → A
+π₁ (x , y) = x
+
+-- | projection 2
+π₂ : {A : Type} {B : A → Type} → (z : Σ B) → B (π₁ z)
+π₂ (x , y) = y
+
+-- | Σ recursor is the same no matter how Σ is defined
+Σ-elim : {A : Type }
+         {B : A → Type}
+         {R : (Σ {A} (λ x → B x)) → Type}  -- or: {R : (Σ x ⦂ A , B x) → Type}
+       → ((x : A) (y : B x) → R (x , y))
+         ---------------------------------
+       → (z : (Σ {A} (λ x → B x)))         -- or: (z : Σ x ⦂ A , B x)
+       → R z
+Σ-elim f (x , y) = f x y
+
+
+-- | Σ as a record
+record Σ {A : Type } (B : A → Type) : Type where
+  constructor _,_
+  field
+    π₁ : A
+    π₂ : B π₁
+
+-- | Σ syntax sugar helper
+Sigma : (A : Type) (B : A → Type) → Type
+Sigma A B = Σ {A} B
+
+-- | Σ syntax sugar
+syntax Sigma A (λ x → b) = Σ x ⦂ A , b
+```
+
+## Identity type
+
+```agda hs
+-- | Identity (as GADT, no sure if record definition possible?)
+data _≡_ {A : Type} : A → A → Type where
+  refl : {a : A} → a ≡ a
+
+-- | Identity elimination
+≡-elim : {X : Type}
+         {A : (x : X) → (y : X) → x ≡ y → Type}
+        → ((x : X) → A x x (refl x))
+        ----------------------------------------
+        → (x : X)
+        → (y : X)
+        → (p : x ≡ y)
+        → A x y p
+≡-elim f x x (refl x) = f x
+
+
+-- ----------------------------------------------------------------------------
+-- | Identity - universe polymorphic
+data _≡_ {n : Level} {A : 𝓤 n} : A → A → 𝓤 n where
+  refl : (a : A) → a ≡ a
+
+-- | Identity (universe polymorphic) dependent elimination
+≡-elim : {i : Level}
+         {A : 𝓤 i}
+         {P : ((x : A) → (y : A) → x ≡ y → 𝓤 i)}
+       → ((x : A) → P x x (refl x))
+         -------------------------------------
+       → (x y : A)
+       → (p : x ≡ y)
+       → P x y p
+≡-elim f x .x (refl .x) = f x
+```

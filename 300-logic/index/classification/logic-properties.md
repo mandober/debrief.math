@@ -20,6 +20,9 @@
     - properties of classical logic
     - properties of intuitionistic logic
 
+**contractivity**:     `A → (A → B) ===> A → B`
+**non-contractivity**: `A → (A → B) =/=> A → B`
+
 
   * Properties of logic connectives
     * Properties of conjunction
@@ -105,6 +108,7 @@
   - absoluteness
   - admissibility
   - completeness
+  - compactness
   - consistency
   - decidability
     - semidecidability

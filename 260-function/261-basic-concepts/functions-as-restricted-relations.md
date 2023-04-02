@@ -1,1 +1,0 @@
-# Functions as restricted relations

@@ -1,0 +1,58 @@
+# Fundamental number sets
+
+Number sets and related notions:
+- Whole numbers, 𝕎 = {0,1,2,3,…}
+- Counting numbers, 𝕎ᐩ = {1,2,3,…} = 𝕎 ∖ {0}
+- zero, 0
+- Natural numbers
+  - in math: ℕ = {1,2,3,…}
+    - ℕ = ℕᐩ = 𝕎 = {1,2,3…}
+  - in CS: ℕ = {0,1,2,3,…}
+    - ℕ = {0} ⋃ ℕᐩ = {0} ⋃ 𝕎ᐩ = {0,1,2,3…}
+  - Representation of naturals numbers
+    - repdigit
+      - {[], [x], [xx], [xxx], …}
+    - tally counting system, 𒐕 𒐖 𒐈, 𒐘, 𒐊, …
+    - Unary representation
+      - using Peano axioms, {Z, S Z, S (S Z), …}
+    - Binary representation
+      - {0, 1, 10, 11, …}
+      - {O, I, I O, I I, …}
+
+  - Cardinal
+  - Ordinal
+  - Natural number operations
+    - successor
+    - predecessor
+- Integers
+  - integers, `ℤ = {…,-3,-2,-1,0,1,2,3,…}`
+    - `ℤ = ℕᐩ ⋃ {0} ⋃ -ℕᐩ`
+  - non-negative integers, `ℤᐩ = {0,1,2,3,…}`
+  - non-positive integers, `ℤ⁻ = {…,-3,-2,-1,0}`
+  - Parity
+    - even
+    - odd
+  - Composition
+    - prime
+    - composite
+    - non-prime and non-composite (0, 1)
+  - Signedness
+    - positive
+    - zero
+    - negative
+    - negative, positive, zero
+    - non-negative (zero, positive)
+    - non-positive (zero, negative)
+  - Integer operations
+    - division
+- Rational numbers
+  - Irrational
+- Real numbers
+  - Transcendental
+- Complex numbers
+  - Imaginary number
+  - Algebraic number
+  - Irrational number
+  - Transcendental number
+  - Constructible number
+  - Computable number

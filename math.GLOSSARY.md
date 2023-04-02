@@ -1,9 +1,20 @@
 # GLOSSARY
 
+https://en.wikipedia.org/wiki/Glossary_of_philosophy
+https://en.wikipedia.org/wiki/Glossary_of_order_theory
+https://en.wikipedia.org/wiki/Glossary_of_computer_science
+https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+https://en.wikipedia.org/wiki/Glossary_of_electrical_and_electronics_engineering
 https://mathworld.wolfram.com/topics/Terminology.html
 
 <!-- TOC -->
 
+- [Trinitarianism](#trinitarianism)
+- [BHK interpretation](#bhk-interpretation)
+- [CHI](#chi)
+- [Order in logic](#order-in-logic)
+- [ZOL](#zol)
+- [FOL](#fol)
 - [Abel Prize](#abel-prize)
 - [Abel's test](#abels-test)
 - [Absolute value](#absolute-value)
@@ -34,18 +45,23 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [Dedekindian](#dedekindian)
 - [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
+- [Definition](#definition)
+- [Description](#description)
 - [Entscheidungsproblem](#entscheidungsproblem)
 - [Equiconsistent](#equiconsistent)
 - [Essence](#essence)
+- [Expression](#expression)
 - [Extensionality](#extensionality)
 - [Fallacy](#fallacy)
 - [First-order logic](#first-order-logic)
 - [Formal logic](#formal-logic)
 - [Fuzzy logic](#fuzzy-logic)
+- [Grammar](#grammar)
 - [Generalization](#generalization)
 - [iff](#iff)
 - [Independence](#independence)
 - [Informal logic](#informal-logic)
+- [Inference rules](#inference-rules)
 - [Laws of Thought](#laws-of-thought)
 - [Linear Type System](#linear-type-system)
 - [Logical Connectives](#logical-connectives)
@@ -56,15 +72,19 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [Logical Truth](#logical-truth)
 - [Magnitude](#magnitude)
 - [Mathematical logic](#mathematical-logic)
+- [Mathematical notation](#mathematical-notation)
 - [Mathematical object](#mathematical-object)
 - [Metalogic](#metalogic)
 - [Metamathematics](#metamathematics)
+- [Metatheory](#metatheory)
 - [Metatheorem](#metatheorem)
+- [Metavariable](#metavariable)
 - [Naïve theory](#naïve-theory)
 - [Necessity and sufficiency](#necessity-and-sufficiency)
 - [Non-classical logic](#non-classical-logic)
 - [Noumenon](#noumenon)
 - [Ordered type system](#ordered-type-system)
+- [Object language](#object-language)
 - [Phenomenon](#phenomenon)
 - [Philosophical logic](#philosophical-logic)
 - [Philosophy of logic](#philosophy-of-logic)
@@ -72,8 +92,11 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [Predicate](#predicate)
 - [Premise](#premise)
 - [Primitive notion](#primitive-notion)
+- [Primitive recursion](#primitive-recursion)
+- [Primitive recursive functions](#primitive-recursive-functions)
 - [Proof by exhaustion](#proof-by-exhaustion)
 - [Proper class](#proper-class)
+- [Propositions](#propositions)
 - [Propositional logic](#propositional-logic)
 - [Reductionism](#reductionism)
 - [Relevant type system](#relevant-type-system)
@@ -86,12 +109,14 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [Symbolic Logic](#symbolic-logic)
 - [Syntax](#syntax)
 - [Synthetic proposition](#synthetic-proposition)
+- [Term](#term)
 - [Theorem](#theorem)
 - [Truth Value](#truth-value)
 - [Turing Completeness](#turing-completeness)
 - [Turing Machine](#turing-machine)
 - [Universal Turing machine](#universal-turing-machine)
 - [Validity](#validity)
+- [Value](#value)
 - [Weakening](#weakening)
 - [Well-defined](#well-defined)
 - [Well-defined recursion](#well-defined-recursion)
@@ -101,11 +126,31 @@ https://mathworld.wolfram.com/topics/Terminology.html
 
 <!-- /TOC -->
 
+## Trinitarianism
+Trinitarianism is the correspondence between each of these: logic, type theory, category theory. Related terms: BHK interpretation, Curry-Howard isomorphism, propositions as types, proofs as programs.
+
+## BHK interpretation
+Brower-Hayting-Kolmogorov interpretation of intuitionistic logic. TL/DR: conjunction is a pair of proofs, disjunction is a disjoint tagged union (so it specifies which proof it holds), implication as a function that converts proofs.
+
+## CHI
+Curry-Howard isomorphism, aka propositions-as-types or proofs-as-programs. Crucial view for dependent type theories.
+
+## Order in logic
+- FOL: for all elements
+- SOL: for all predicates (properties, relations)
+- HOL: for all …
+
+## ZOL
+Zeroth-order logic: vars range over shit.
+
+## FOL
+In FOL, "first-order" means that variables range only over the individuals that comprise the doamin of discorse (individuals make the first order or sort). In SOL, vars range over properties as well.
+
 
 <!-- #region a b c d -->
 
 ## Abel Prize
-Abel Prize, award granted annually for research in mathematics, in commemoration of the 19th-century Norwegian mathematician Niels Henrik Abel. The Niels Henrik Abel Memorial Fund was established in 2002, and it is administered by the Norwegian Ministry of Education and Research.
+Abel Prize, award granted annually for research in mathematics, in commemoration of the XIX century Norwegian mathematician Niels Henrik Abel. The Niels Henrik Abel Memorial Fund was established in 2002, and it is administered by the Norwegian Ministry of Education and Research.
 
 ## Abel's test
 In mathematical analysis, Abel's test is used for determining if an infinite series converges to some finite value. The test is named for the Norwegian mathematician Niels Henrik Abel (1802-29).
@@ -195,6 +240,15 @@ Defeasible inferences is a kind of inference in which reasoners draw tentative c
 ## Defeasible reasoning
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
 
+## Definition
+A definition is a statement that attaches a meaning to a term (or a phrase). The term being defined is called a *definiendum*, while the statement that defines theterm is called a *definiens*. A pair of definiendum and definiens is called a definition. 
+*Intensional definitions* try to give the sense of a term (functions are intensionally equal if their definitions are; functions are extensionally equal if they return the same output for every same input). 
+*Extensional definitions* try to list the objects that a term describes (e.g. set equality is extensional: two sets are equal if they have the same elements).
+*Ostensive definitions* convey the meaning of a term by pointing out examples.
+
+## Description
+Description is the pattern of narrative development that aims to make a thing vivid. It is among the 4 rhetorical modes (modes of discourse): description, exposition, argumentation, narration.
+
 <!-- #endregion -->
 
 <!-- #region e f g h i -->
@@ -207,6 +261,9 @@ Two theories are equiconsistent if the consistency of one theory implies the con
 
 ## Essence
 In philosophy, **essence** is the property that makes an entity what it fundamentally is, which it has by necessity, without which it loses its identity. Essence is contrasted with *accident* - a property that the entity has contingently, without which it still retains its identity.
+
+## Expression
+An expression of some particular language is any arbitrary but legal statement expressed by abiding to the grammar of that language. For example, in LC, any arbitrary statement is an expression, but also a term. More generally, a term is usually only one of the small set of initial forms used to define a language, while an expression is any arbitrary statement in that language.
 
 ## Extensionality
 Extensionality refers to principles that judge objects to be equal if they have the same external properties, as opposed to **intensionality**, which is concerned with whether the internal definitions of objects are the same. There are many predicates that are intensionaly different but extensionally identical. For example, the expressions, 2+4 and 2*3, are extensionally equal (from outside), but intensionality different (from within).
@@ -223,6 +280,9 @@ Formal logic is the study of inference with purely formal content. An inference 
 ## Fuzzy logic
 Fuzzy logic is a form of many-valued logic in which the truth values of variables may be any real number between 0 and 1. It is employed to handle the concept of partial truth, where the truth value may range between completely true and completely false. By contrast, in Boolean logic, the truth values of variables may only be the integer values 0 or 1.
 
+## Grammar
+The grammar of a language can be presented on several ways (BNF notation, inference rules, generating listing, etc.), and its can be specified by induction over the terms of that language.
+
 ## Generalization
 A generalization is the formulation of general concepts from specific instances by abstracting common properties. Generalizations posit the existence of a domain or set of elements, as well as one or more common characteristics shared by those elements (thus creating a conceptual model). As such, they are the essential basis of all valid deductive inferences. The process of verification is necessary to determine whether a generalization holds true for any given situation.
 
@@ -234,6 +294,9 @@ In mathematical logic, independence is the unprovability of a sentence from othe
 
 ## Informal logic
 Informal logic is the study of natural language arguments. The study of fallacies is an important branch of informal logic. Since much informal argument is not strictly speaking deductive, on some conceptions of logic, informal logic is not logic at all.
+
+## Inference rules
+One way to define a langauge is to specify its grammar with inference rules. A rule of inference consists of the premise, writen above the *inference line*, and a conslusion, writen below it. Rules without a premise are also called *axioms*. When a rule of inference mentions metavariables then it is actually called a *rule schemas* (schemata). Formally, each schema represents an infinite set of *concete rules* obtained by replacing each metavariable consistently with all phrases from the appropriate *syntactic category* of the language under definition.
 
 <!-- #endregion -->
 
@@ -271,7 +334,7 @@ In mathematics, magnitude is the size of a mathematical object, a property which
 ## Mathematical logic
 Mathematical logic is an extension of symbolic logic into other areas, in particular to the study of model theory, proof theory, set theory, and computability (recursion) theory.
 
-# Mathematical notation
+## Mathematical notation
 Mathematical notation is a system of symbolic representations of mathematical objects and ideas. Mathematical notations are used in mathematics, the physical sciences, engineering, and economics. Mathematical notations include relatively simple symbolic representations, such as the numbers 0, 1 and 2; function symbols such as sin; operator symbols such as "+"; conceptual symbols such as lim and dy/dx; equations and variables; and complex diagrammatic notations such as Penrose graphical notation and Coxeter-Dynkin diagrams.
 
 ## Mathematical object
@@ -283,8 +346,14 @@ Metalogic is the study of the metatheory of logic. Whereas logic studies how log
 ## Metamathematics
 Metamathematics is the study of mathematics itself using mathematical methods. This study produces metatheories, which are mathematical theories about other mathematical theories.
 
+## Metatheory
+Metatheory is the collection of true statements that we can make about some particular logical system, and, by extension, the study of such statements.
+
 ## Metatheorem
 A metatheorem is a statement about a formal system proven in a metalanguage. Unlike theorems proved within a given formal system, a metatheorem is proved within a metatheory, and may reference concepts that are present in the metatheory but not the object theory.
+
+## Metavariable
+An object language under definition can be discussed only in another language, called metalanguage. Metavariable is a variable belonging to the metalanguage that is used to range over the arbitrary terms of the object language.
 
 <!-- #endregion -->
 
@@ -304,6 +373,9 @@ In metaphysics, the **noumenon** is a posited object or event that exists indepe
 
 ## Ordered type system
 Ordered type systems discard exchange, contraction, and weakening: every variable is used exactly once in the order it was introduced. Ordered types can be used to model stack-based memory allocation (contrast with linear types which can be used to model heap-based memory allocation). Without the exchange property, an object may only be used when at the top of the modelled stack, after which it is popped off resulting in every variable being used exactly once in the order it was introduced.
+
+## Object language
+A language undergoing definition is called an object language, while the language we use to discuss it is called a meta language.
 
 ## Phenomenon
 In metaphysics, the *noumenon* is a posited object or event that exists independently of human sense or perception. The term noumenon is generally used in relation to the term **phenomenon**, which refers to anything that can be apprehended by, or is an object of, the senses.
@@ -326,13 +398,19 @@ A premise is a statement that an argument claims will induce or justify a conclu
 ## Primitive notion
 In mathematics, a primitive notion is an undefined concept, not defined in terms of previously defined concepts, to be taken for granted. It lacks a proof, and in that regard it's analogous to an axiom of a formal system (axioms don't require proof). Sometimes the primitive notions cannot be avoided because we need to start somewhere lest regress into downward spiral of definitions, forever defining concept in terms of previously defined concept, which also need definition in terms of previous ones, and so on, ad nauseum. Sometimes a concept just doesn't have a formal definition (e.g. "set").
 
+## Primitive recursion
+The primitive recursion operator, `ρ(f, g) = h`, takes two primitive recursive functions `f` and `g`, and constructs another primitive recursive function, `h`, defined recursively in terms of `f` (handles the base case) and `g` (handles the recursive case).
+
+## Primitive recursive functions
+The primitive recursive functions are the least class of functions on the natural numbers containing the constant (`K`, κ, const), successor (`σ`, S, succ), and projection functions (`π`, proj), closed under generalized composition (`∘`) and the rule of primitive recursion (`ρ`).
+
 ## Proof by exhaustion
 Proof by exhaustion (aka proof by cases, proof by case analysis, complete induction, brute force method) is a method of mathematical proof in which the statement to be proved is split into a finite number of cases or sets of equivalent cases and each type of case is checked to see if the proposition in question holds. This is a method of direct proof.
 
 ## Proper class
 In von Neumann-Bernays-Gödel (NBG) set theory, proper class is an entity that is not a member of another entity.
 
-# Propositions
+## Propositions
 Propositions are declarative sentences that have a truth value.
 
 ## Propositional logic
@@ -379,6 +457,9 @@ The truth value of synthetic propositions depends on how their meaning relates t
 
 <!-- #region t-x -->
 
+## Term
+In the strict sense a term is one of the fundamental forms used to define a language. For example, untyped lambda calculus has three fundamental forms: variables, application and abstraction. Any lambda expression can be represented as a tree rooted at the node that can only be one of these three forms. In untyped LC, "term" and "expression" are used interchangeably, but in the calculi with additional syntactic categories (e.g. types), "expression" is used to refer to all sorts of *syntactic phrases* (including term phrases, type phrases, kind phrases, etc.), reserving "term" for the more specialized sense of phrases representing computations, i.e. phrases that can be substituted for metavariables.
+
 ## Theorem
 A theorem is a statement that has been proven on the basis of previously established statements (other theorems) and generally accepted statements (axioms). It is a logical consequence of the axioms.
 
@@ -396,6 +477,9 @@ A Turing machine that is able to simulate any other TM is called a universal Tur
 
 ## Validity
 In logic, an argument is valid iff it takes a form that makes it impossible for the premises to be true and the conclusion nevertheless to be false. It is not required that a valid argument have premises that are actually true, but to have premises that, if they were true, would guarantee the truth of the argument's conclusion.
+
+## Value
+The results of evaluation are values - i.e. forms of the language that cannot be reduced any further and which are, at least in the simple languages, constants (e.g. Booleans, natural numbers, etc.). Complex languages have a more complicated notion of value. Run-time errors are also forms that cannot be reduced further but they are not values, but special forms. Also, it is possible that a language contains forms which are neither values, nor errors, but which nevertheless cannot be reduced further - these are called *diverging expressions*. Some languages may equate diverging forms with run-time errors and and other failures, bundling them together under the value/type called *bottom* (bottom is then a special value added to each type; a type extended with a bottom is called a *lifted type*, so functions over that type can be total).
 
 ## Weakening
 The weakening rule, one of the structural rules that operate directly on the structure of a deduction system, states that the hypotheses or conclusion of a sequent may be extended with additional members and still remain valid.

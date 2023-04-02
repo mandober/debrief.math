@@ -1,0 +1,53 @@
+# Inverse
+
+The Axiom of Invertability:
+
+`∃ā ∈ S. ∀a ∈ S. !∃ϵ ∈ S. a ⨀ ā = ϵ = ā ⨀ a`
+
+```js
+∃ā ∈ S.
+ ∀a ∈ S.
+  !∃ϵ ∈ S.
+    a ⨀ ā = ϵ = ā ⨀ a
+```
+
+Combining an element with its inverse gives back the identity element.
+
+```js
+// A = (S, 1, ⨀)
+
+A₁ = (ℕ, 0, +):
+  0 + x = x = x + 0
+
+A₂ = (ℕ, 1, ⨯):
+  1 ⨯ x = x = x ⨯ 1
+
+A₃ = ([A], 1 = "", ++):
+  "" ++ x = x = x ++ ""
+
+A₄ = (function-space, 1 = id, ∘):
+  id ∘ f = f = f ∘ id
+```
+
+
+
+## Alt repr
+
+```js
+∃ a⁻¹ ∈ S.
+ ∀ a ∈ S.
+  !∃ ϵ ∈ S.
+            a ⨀ a⁻¹ = ϵ = a⁻¹ ⨀ a
+```
+
+`a⁻¹`
+
+a̒  aͬ  a︥ 
+
+ā  a̅  a︥   aͬ   a᷊   a͆
+
+ȧ   ả   å   ǎ   a̍   a̎   a̒  a̔  a̐   a̚  a̛  
+a̽   a͛   a͑   a͐    a̫  a﹡   a⃰   aʶ  a⃚
+
+
+a⁻¹  a'  a′  a❜  a¡

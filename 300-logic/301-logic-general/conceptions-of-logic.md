@@ -2,9 +2,7 @@
 
 https://en.wikipedia.org/wiki/Conceptions_of_logic
 
-The history of logic as a subject has been characterised by many disputes over what the topic deals with (as a result the main article, "Logic", been hesitant to commit to a particular definition of logic).
-
-This page surveys various definitions of the subject that have appeared over the centuries through to modern times, and puts them in context as reflecting rival conceptions of the subject.
+The history of logic as a subject has been characterised by many disputes over what the topic deals with. This page surveys various definitions of the subject that have appeared over the centuries through to modern times, and puts them in context as reflecting rival conceptions of the subject.
 
 ## Rival conceptions of logic
 

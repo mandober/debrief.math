@@ -1,0 +1,41 @@
+# Exercises
+
+# Exercise 1
+
+Reduce 
+`(λxyz.xyz) ω I x`
+
+`(λxyz.xyz) (λx.xx) (λx.x) x`
+
+
+
+```
+    redex (application)
+┌────────────┴────────────┐
+(λxyz.xyz) (λx.xx) (λx.x) x
+└───┬────┘ │     │ │    │ │
+   abs     └─┬───┘ │    │ │
+            arg¹   └─┬──┘ │
+                    arg²  │
+                         arg³
+
+
+  (λxyz.xyz) (λx.xx) (λx.x) x
+= (λxyz. x y z) (λx.xx) (λx.x) x
+= (λyz.(λx.xx) y z) (λx.x) x
+= (λz.(λx.xx) (λx.x) z) x
+= ((λx.xx) (λx.x) x)
+- (λx.xx) (λx.x) x
+= (λx.x x) (λy.y) x
+= (λx.(λy.y) x) x
+- (λy.y) x
+= x
+```
+
+
+
+
+┌───┴──┐   ┌────────┴────────┐
+
+└──┬───┘   └────────┬────────┘
+└┴┘─┌┬┐│├┼┤

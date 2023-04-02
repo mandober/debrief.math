@@ -1,125 +1,33 @@
 # Math :: Abbreviations
 
-<!-- TOC -->
+## ∵
+The symbol `∵` is used mostly in logic to mean "because", but it is also abused in general text so as to elide making errors by constantly writing "becasue".
 
-- [ADT](#adt)
-- [AC](#ac)
-- [BHK interpretation](#bhk-interpretation)
-- [CHI](#chi)
-- [CoC](#coc)
-- [CIC](#cic)
-- [CL](#cl)
-- [IL](#il)
-- [LC](#lc)
-- [LEM](#lem)
-- [EFQ](#efq)
-- [FOL](#fol)
-- [GLB](#glb)
-- [HOL](#hol)
-- [LUB](#lub)
-- [NBG](#nbg)
-- [LNC](#lnc)
-- [PA](#pa)
-- [PER](#per)
-- [PL](#pl)
-- [PRF](#prf)
-- [Poset](#poset)
-- [SOL](#sol)
-- [STLC](#stlc)
-- [TM](#tm)
-- [Toset](#toset)
-- [UTM](#utm)
-- [ZF](#zf)
-- [ZFC](#zfc)
+## ∴
+The symbol `∴` is used in logic to mean "therefore" (usually placed before the conclusion). It is sufficiently well-known to justify its abuse in the general setting.
 
-<!-- /TOC -->
-
-
-## ADT
-1. Abstract data type
-2. Algebraic data type
-
-## AC
-Axiom of Choice
-
-## BHK interpretation
-Brouwer-Heyting-Kolmogorov interpretation of intuitionistic logic
+## corr.
+correspondence. 
+(Synonyms: isomorphism; correlation, similarity, resemblance, comparability, compatibility, agreement, consistency, congruity, conformity, uniformity, harmony, affinity, accordance, accord, concurrence)
 
 ## CHI
-Curry-Howard isomorphism (correspondence, equivalence)
+Curry-Howard isomorphism
 
-## CoC
-The Calculus of Constructions
+## Densem
+Denotational semantics
 
-## CIC
-The Calculus of Inductive Constructions
+## FP
+Functional Programming
 
-## CL
-Combinational logic (Classic logic is never abbreviated)
+## FPL
+Functional Programming Language
 
-## IL
-Intuitionistic logic
-
-## LC
-Lambda Calculus
-
-## LEM
-Law of Excluded Middle (Latin: tertium non datur)
-
-## EFQ
-The Principle of Explosion (Latin: ex falso quodlibet)
-
-## FOL
-First-order Logic
-
-## GLB
-Greatest lower bound, infimum
-
-## HOL
-Higher-order logic
-
-## LUB
-Least upper bound, supremum
-
-## NBG
-Von Neumann-Bernays-Gödel set theory
-
-## LNC
-The Law of Non-Contradiction
+## incl.
+including
 
 ## PA
-1. Peano Axioms
-2. Peano Arithmetic
-
-## PER
-Partial Equivalence Relation
+1. Peano Arithmetic
+2. Peano Axioms
 
 ## PL
-Programming language
-
-## PRF
-Primitive Recursive Function
-
-## Poset
-Partially ordered set
-
-## SOL
-Second-Order Logic
-
-## STLC
-Simply-Typed Lambda Calculus
-
-## TM
-Turing Machine
-
-## Toset
-Totally ordered set
-
-## UTM
-Universal Turing Machine
-
-## ZF
-Zermelo-Fraenkel set theory (without the axiom of choice)
-
-## ZFC
-Zermelo-Fraenkel set theory with the axiom of choice
+Programming Language

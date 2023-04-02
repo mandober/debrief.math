@@ -2,67 +2,95 @@
 
 https://cs.odu.edu/~toida/nerzic/content/function/properties_of_jections.html
 
-Properties of surjections, injections and bijections.
+1. Here, injections and surjections mean *injective-only* (i) and *surjective-only* (s) functions.
+2. Surjections (s), injections (i) and bijections (b) are collectively called *trajections*.
+3. Functions (f) are either regular or trajections.
+
+
+## Compositions of trajections
+
+1. Bijections acts as units when composed with other functions - whether pre or post composed, they do not change the kind of the other function:
+- a bijection remains a bijection:   `b ∘ b = b`
+- an injection remains an injection: `b ∘ i = i = i ∘ b`
+- a surjection remains a surjection: `b ∘ s = s = s ∘ b`
+- a function remains a function:     `b ∘ f = f = f ∘ b`
+
+
+
+## Composition of the same kinds
+
+```js
+sur ∘ sur ~~> sur
+inj ∘ inj ~~> inj
+bij ∘ bij ~~> bij
+```
+
+- A surjection covers the whole codomain and, more importantly, it collapses domain elements. Thus, composing two surjections will give a function that collapses the elements even more.
+
+- Composing two injections produces an injection
+
+
+
+## Composition: same with same
+composing
+
+```js
+surj ∘ inj ~~> function
+        ↓
+unmapped codomain element(s):
+this composition cannot be surjective!
+```
+
+
+b ∘ s = s
+i ∘ s = s
+s ∘ s = s
+
+b ∘ i = i
+i ∘ i = i
+s ∘ i = f    (s ∘ i ≠ s not a surj but only a function, in general)
+
+b ∘ b = b
+i ∘ b = i
+s ∘ b = s
+
+
+
+- pre- or post-composing a surjection with any function, gives a surjection
+- pre- or post-composing an injection with a bijection, gives an injection
+
+- composition of surjection and any function, gives a surjection
+- composition of injection and bijection, gives an injection
+
+- composition of surjections gives more surjective functions (more collapse)
+- surjections collapse elements and with that loose information
+- the essential properties of surjections:
+  - sometimes the emphasis is on the coverage of the entire codomain
+  - sometimes it is that more than 1 dom element maps the same cod element
+
+
 
 Legend
-* ϕ = plain old function
-* s = surjection
-* i = injection
+* f = plain old function
 * b = bijection
-* _ = any of the above
+* i = injection
+* s = surjection
+* x = any of the above
+
+`b ⊆ i ⊆ s ⊆ f ⊆ R`
 
 
-- all _ are functions
-
-`B ⊆ I ⊆ S ⊆ F`
-
-`b ⊆ i ⊆ s ⊆ ϕ`
-`β ⊆ ι ⊆ σ ⊆ ϕ`
-
-
-
-
-* function   |> 
-* surjection |> surjection = surjection
-* injection  |> _         = bijection
-* bijection  |> bijection = bijection
-
-- `_ ∘ s --> s` whether `_` is ϕ, s, i, b
-- `_ ∘ i --> i` whether `_` is ϕ, s, i, b
-- `_ ∘ b --> b` whether `_` is ϕ, s, i, b
-
-
-```
-_ ∘ s --> s     s |> _ ---> s
-
-ϕ ∘ s --> s     s |> s ---> s
-s ∘ s --> s     s |> s ---> s
-i ∘ s --> s     s |> i ---> s
-b ∘ s --> s     s |> b ---> s
-
-ϕ ∘ i --> i
-i ∘ i --> i     i |> i ---> i
-s ∘ i --> i
-b ∘ i --> i
-
-
-✔ ϕ ∘ b --> s            b |> ϕ ---> s (ϕ is treated as a surjection)
-✔ s ∘ b --> s            b |> s ---> s
-✔ i ∘ b --> b            b |> i ---> b
-✔ b ∘ b --> b            b |> b ---> b
-```
-
-
-Below, let `f : A -> B` and `g : B -> C`
 
 ## Composition of surjections is a surjection
+
+Let `f : A -> B` and `g : B -> C`
 
 Property 1:
 - if `f` and `g` are surjections then `g ∘ f` is a surjection.
 - `s ∘ s --> s`
 
 Proof:
-- Let `c` be an arbitrary element in `C`, `c ∈ C`
+- Let `c` be an arbitrary element in `C`
 - since `g` is a surjection, there is an element `b ∈ B` such that `c = g(b)`
 - since `f` is a surjection, there is an element `a ∈ A` such that `b = f(a)`
 - Hence by the definition of composite function, `c = g(f(a)) = (g ∘ f)(a)`

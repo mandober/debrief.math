@@ -1,0 +1,36 @@
+# cob = country-of-birth
+# pob = place-of-birth
+# yg  = year-graduated
+# yob = year-of-birth
+# yod = year-of-death
+# wiki = wiki-link-prefix, https://en.wikipedia.org/wiki/
+# wiki-suffix, slug of the title of the wiki page
+# 
+- mathematicians:
+  - mathematician:
+    - id: 0
+      - name:
+        - common  : Al-Khwarizmi
+        - full    : Muhammad ibn Musa al-Khwarizmi
+        - sorted  : Al-Khwarizmi
+      - lifespan:
+        - place: Persia (Iran)
+        - pob: 780
+        - dod: 850
+      - wiki-suffix: Muhammad_ibn_Musa_al-Khwarizmi
+    - id: 1
+      - name: Georg Cantor
+      - full: Georg Ferdinand Ludwig Philipp Cantor
+      - place: Germany
+      - dob: 1845
+      - dod: 1918
+      - wiki: Georg_Cantor
+
+
+    - id: 
+      - name: 
+      - full: 
+      - place: 
+      - dob: 
+      - dod: 
+      - wiki: 

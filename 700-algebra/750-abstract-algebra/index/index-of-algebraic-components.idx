@@ -1,0 +1,122 @@
+# Index of algebraic components
+
+## Prolog
+
+An algebraic structure is a carrier set endowed with a set of operations and relations, all of which work together to uphold a set of prescribed axioms.
+
+From this description, we can already discern the 3 major components of any algebraic structure:
+1. a carrier set
+  - distiguished elements
+    - absolute distiguished elements
+    - relative distiguished elements
+  - uniqueness property of absolute elements
+2. a set of operations
+  - functions
+  - relations
+3. a set of axioms
+
+
+1. The first component of an algebra is a single (afaik) **carrier set**, the elements of which are any mathematical objects. Often, this is a numeric set (ℝ, ℤ, ℤ/3ℤ, etc.), but it may be any other (Boolean set, space, matrix, vector, etc.).
+
+*Distiguished elements* in a carrier set are the elements that exhibit special behavior or properties when participating in certain operations.
+
+A distiguished element is *absolute* when there is only one element in a set that exhibits some special set of properties.
+
+The identity element is a distiguished element because it is special, and it is absolute because it is unique - there is only one such element per carrier set. It is special because only the identity element has the special property: when combined with any other element in an operation, it leaves the other element unchanged.
+
+The *Axiom of Identity*,    
+`∀a ∈ S. ∃ϵ ∈ S`. ϵ ⨀ a = a = a ⨀ ϵ    
+highlights its special status: 
+it first universally quantifies all elements `a` of the set, 
+and then existentially quantifies a unique element `ϵ` 
+because it is unique with regards to the entire set. 
+That is, each element in the set has the same identity element.
+
+Compare it with the *Axiom of Invertability*,    
+`∃a⁻¹ ∈ S. ∀a ∈ S`. a ⨀ a⁻¹ = ϵ = a⁻¹ ⨀ a    
+that first existentially quantifies the inverses of elements, `a⁻¹`, 
+and then universally quantifies all elements `a`.   
+That is, each element in the set has its own inverse element.
+
+
+2. The second component of an algebra is the **set of operations** or actions which endow the carrier set. Here the operations subsume both functions and relations, although they could also be treated separately if needed.
+
+3. The third component of an algebra is the **set of axioms** that both the carrier set (that is, its elements) and the set of operations need to uphold. Here the term "axioms" serves as an umbrella term that subsumes the laws, principles, identities and properties.
+
+Note: Optionally, all the names of these components of algebras may be prefixed with the adjective *"algebraic"*, yielding the terms such as *algebraic component*, *algebraic property*, *algebraic operation*, *algebraic identity*, and such. They may be used to emphasize their association to a particular algebra, or when viewed in terms of an algebra, or when referring to algebraic components in general. However, functions and relations are excepted from this rule - the longer phrases like "functions over an algebra" and "relations of an algebra" are used instead (never "algebraic relation" or "algebraic function").
+
+
+
+
+What follows is an index of algebraic components, that is, the names of the entities arising in abstract algebra.
+
+## Index
+
+An algebraic structure or an algebra consists of
+1. a carrier set
+2. a set of operations
+  - functions
+  - relations
+3. a set of axioms
+
+Algebraic components
+- algebraic structure
+  - *synonyms*: algebraic structure, algebra
+1. carrier set
+  - *synonyms*: {carrier, underlying, algebraic} set
+  - elements of the carrier set
+    - regular elements
+      - distiguished elements (identity, zero, inverses, …)
+        - special unique elements (0, 1)
+2. attached operations
+  - *synonyms*: {algebraic, endowed, attached} {operation, action}
+  - kinds of operations
+    - functions
+      - arity of functions: nullary, unary, binary
+      - nullary fns give the special unique element
+      - unary fns produce distiguished elements (1, 0, inverses, …)
+      - binary fns combine two elements to produce a resulting element
+    - relations
+      - arity of relations: mostly binary
+      - binary rels compare two elements to produce a truth value (Boolean)
+3. axioms
+  - axioms subsume: laws, principles, identities, properties
+  - the axioms
+    - The Axiom of Closure (or totality)
+    - The Axiom of Associativity
+    - The Axiom of Identity
+  - laws
+  - principles
+  - identities
+  - properties
+
+
+
+carrier set
+endowed operation
+set of operations
+operations on an algebra
+functions on an algebra
+relations of an algebra
+algebraic axioms
+
+
+## unsorted
+
+
+carrier set
+underlying set
+endowed set
+algebraic operation
+functions over an algebra
+relations of an algebra
+axioms
+algebraic entities
+algebraic components
+algebraic structure
+algebra
+set of operations
+operations on an algebra
+functions on an algebra
+relations of an algebra
+algebraic axioms

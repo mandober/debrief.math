@@ -1,0 +1,66 @@
+# disjoint union
+
+## The motive
+
+Set union joins two sets into one, collapsing possible duplicates of elements. 
+
+A set is a collection of unique elements, i.e. it is multiplicity-agnostic, so the multiplicity of each element is lost (and reset to 1).
+
+In contrast, there is a multiset, which is a collection that allows multiple copies of the same onject, e.g. `M = {a, b³, c²}`. If converted into a plain set, `M` becomes `{a, b, c}`, showing that the information about the multiplicities of elements is lost.
+
+
+origin of elements, as well as the information about their multiplicity.
+
+Disjoint union preserves this information by tagging the elements of the sets before joining them.
+
+```js
+A = {0,1}
+B = {1,2}
+
+// union:
+A ⋃ B = {0,1} ⋃ {1,2} = {0,1,2}
+
+//disjoint union:
+A ⨄ B = { (0,L),(1,L) } ⋃ { (1,R),(2,R) } = {(0,L),(1,L), (1,R),(2,R)}
+// with the index (tag) set:
+I = {L,R}
+```
+
+
+
+
+
+
+
+## Def
+
+Disjoint union: given sets `Aᵢ`, where `i` ranges over some index set `I`, we first construct the coproduct, `Aᵢ × {i}`, and then perform union of the resulting tagged (indexed) sets, `⋃ Aᵢ`.
+
+```
+index set I = ℕ
+i = [0, 1, …]
+sets = Aᵢ
+
+A₀ × {0} = { (a₀⁰, 0), (a₀¹, 0), (a₀², 0), …, (a₀ⁿ, 0) }
+A₁ × {1} = { (a₁⁰, 1), (a₁¹, 1), (a₁², 1), …, (a₁ⁿ, 1) }
+A₂ × {1} = { (a₂⁰, 2), (a₂¹, 2), (a₂², 2), …, (a₂ⁿ, 2) }
+…
+A ₙ × {n} = { (a ₙ⁰, n), (a ₙ¹, n), (a ₙ², n), …, (a ₙⁿ, n) }
+-------- =
+⋃ Aᵢʲ
+```
+
+
+`Aᵢ × {L} ⋃ B × {R}`
+
+In the binary case, the disjoint union of sets `A` and `B` is the union of their respective tagged Cartesian products. So, we first tag (index) each set using a 2-set as a tag or index. If the tagging is `{L, R}`, we use one of the elements, say `L`, to tag the set `A`, denoted `A × {L}`; and the other element, `R` to tag the set `B`, denoted `B × {R}`. Finally, we perform the regular union operation on the resulting sets:
+
+`A × {L} ⋃ B × {R}`
+
+
+A tagged Cartesian product is the operation of making sure set elements remain distinct
+
+
+
+
+A tag is a singleton set that ensures that all the elements (components) stay distinct. So, `A × {0}` is a set `A = {a,b,c}` tagged by a `0`, producing the set {(a,0),(b,0),(c,0)}

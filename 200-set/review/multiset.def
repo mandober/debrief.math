@@ -1,0 +1,9 @@
+# multiset
+
+Multiset is an order-agnostic collection like set, but as opposed to sets, it treats multiple copies of the same object as separate elements; that is, it has the notion of multiplicity. Multiple copies of the same element are not collapsed into one object, but may be summed up to represent the multiplicity count (denoted as a power) of that element.
+
+`M = {a,b,a,c,a,b} = {a,a,a,b,b,c} = {a³,b²,c}`
+
+- `M = {a³, b², c}` converted into a set becomes `S = {a, b, c}`
+- Cardinality: `|M| = 6` and `|S| = 3`
+- in an impl, deleting an element decreases its multiplicity count; so, completely removing an element from a set may be modeled by setting its count to zero, `x⁰`, without actually removing it.

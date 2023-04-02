@@ -1,0 +1,36 @@
+# Lambda calculus :: Programming idioms
+
+- Encoding primitive data types
+  - Booleans
+    - TRUE  := λx.λy.x
+    - FALSE := λx.λy.y
+  - Logical connectives and operations
+    - NOT := λp.p FALSE TRUE
+    - AND := λp.λq.p q p
+    - OR  := λp.λq.p p q
+    - IFTHENELSE := λp.λa.λb.p a b
+  - Natural numbers (zero, succ)
+    - Arithmetic operations
+    - ISZERO := λn.n (λx.FALSE) TRUE
+    - LEQ := λm.λn.ISZERO (SUB m n)
+    - PRED := λn.n (λg.λk.ISZERO (g 1) k (PLUS (g k) 1)) (λv.0) 0
+    - ADD
+    - MUL
+    - POW
+    - SUB
+    - LE?
+    - PRED
+- Encoding compound data types
+  - pair
+  - list
+    - PAIR := λx y f. f x y
+    - NULL  := λp. p (λx.λy.FALSE)
+    - FIRST  := λp. p (λa b. a)
+    - SECOND := λp. p (λa b. b)
+    - NIL    := λx. TRUE                            end-of-list element
+    - Φ := λx.PAIR (SECOND x) (SUCC (SECOND x))     shift-and-increment
+    - PRED := λn.FIRST (n Φ (PAIR 0 0))
+    - HEAD
+    - TAIL
+- Additional programming techniques
+  - Named constants

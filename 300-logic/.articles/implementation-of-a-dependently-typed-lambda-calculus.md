@@ -1,50 +1,33 @@
----
-downloaded:       2021-11-14
-author:           
-page-url:         http://augustss.blogspot.com/2007/10/simpler-easier-in-recent-paper-simply.html
-page-title:       Things that amuse me
-article-title:    Things that amuse me
-article-length:   20622
-article-created:  {Date-Creation-yyyymmdd}
-article-modified: {Date-Revision-yyyymmdd}
-desc:             {description}
----
-# Things that amuse me
+# An Implementation of a Dependently Typed Lambda Calculus
+http://augustss.blogspot.com/2007/10/simpler-easier-in-recent-paper-simply.html
+2021-11-14
 
-In a recent paper, Simply Easy! (An Implementation of a Dependently Typed Lambda Calculus), the authors argue that type checking a dependently typed language is easy.  I agree whole-heartedly, it doesn't have to be difficult at all.  But I don't think the paper presents the easiest way to do it.
+## Simpler, Easier!
 
-So here is my take on how to write a simple dependent type checker.
+In a recent paper, [Simply Easy! (An Implementation of a Dependently Typed Lambda Calculus)][1], the authors argue that type checking a dependently typed language is easy. I agree whole-heartedly, it doesn't have to be difficult at all. But I don't think the paper presents the easiest way to do it. So here is my take on how to write a simple dependent type checker. (There's nothing new here, and the authors of the paper are undoubtedly familiar with all of it).
 
-(There's nothing new here, and the authors of the paper are undoubtedly familiar with all of it.)
-### Simpler, Easier!
+## Untyped lambda calculus
 
-In a recent paper, [Simply Easy! (An Implementation of a Dependently Typed Lambda Calculus)][1], the authors argue that type checking a dependently typed language is easy. I agree whole-heartedly, it doesn't have to be difficult at all. But I don't think the paper presents the easiest way to do it. So here is my take on how to write a simple dependent type checker. (There's nothing new here, and the authors of the paper are undoubtedly familiar with all of it.)
+I'll start by implementing the [untyped lambda calculus][2] first.
 
-### First, the [untyped lambda calculus][2].
+ULC is a very simple language with just three constructs: variables, applications, and lambda expressions, i.e. *x*, *e e*, *λx.e*. For example, `(λx.λy.x)(λz.z)`.
 
-I'll start by implementing the untyped lambda calculus. It's a very simple language with just three constructs: variables, applications, and lambda expressions, i.e.,
+In Haskell I'll use strings to represent variables names; it's simple and easy.
 
-*x* *e e* *λx.e*
-
-For example, *(λx.λy.x)(λz.z)*. In Haskell I'll use strings to represent variables names; it's simple and easy.
-
+```hs
 type Sym = String
 
 data Expr
-        = Var Sym
-        | App Expr Expr
-        | Lam Sym Expr
-        deriving (Eq, Read, Show)
+  = Var Sym
+  | App Expr Expr
+  | Lam Sym Expr
+  deriving (Eq, Read, Show)
 
-The example above represented by
-
+-- (λx.λy.x)(λz.z)
 App (Lam "x" $ Lam "y" $ Var "x") (Lam "z" $ Var "z")
+```
 
-. What do we want to do with the
-
-Expr
-
-type? Well, evaluating an expression seems like the thing we need. Now, there are many degrees of evaluation to choose from, Weak Head Normal Form, Head Normal Form, Normal Form, etc., etc. They differ in exactly where there might be reducible expression lingering. To evaluate lambda expression the most important step is β-reduction. A β-reduction step can be performed anywhere a function meets an argument, i.e., an application where the function is on λ form, a.k.a. a redex.
+What do we want to do with the `Expr` type? Well, evaluating an expression seems like the thing we need. Now, there are many degrees of evaluation to choose from, Weak Head Normal Form, Head Normal Form, Normal Form, etc., etc. They differ in exactly where there might be reducible expression lingering. To evaluate lambda expression the most important step is β-reduction. A β-reduction step can be performed anywhere a function meets an argument, i.e., an application where the function is on λ form, a.k.a. a redex.
 
 *(λx.e)a* reduces to *e*\[*x:=a*\]
 

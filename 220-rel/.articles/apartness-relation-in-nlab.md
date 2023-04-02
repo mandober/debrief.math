@@ -1,61 +1,38 @@
----
-downloaded:       2021-12-11
-page-url:         https://ncatlab.org/nlab/show/apartness+relation
-page-title:       apartness relation in nLab
-article-title:    apartness relation in nLab
----
-# apartness relation in nLab
+# Apartness relation in nLab
 
-Redirected from "apartness relations".
-Redirected from "apartness relations".
+https://ncatlab.org/nlab/show/apartness+relation
 
-Apartness relations
+Relations
+- [relation][1]
+- [internal relation][2]
+- [Rel][3]
+- [bicategory of relations][4]
+- [allegory][5]
+- [reflexive][6], [irreflexive][7]
+- [symmetric][8], [antisymmetric][9], [asymmetric][10]
+- [transitive][11], [comparison][12]
+- left and right [euclidean][13]
+- [total][14], [connected][15]
+- [extensional][16], [well-founded][17] relations
+- [functional relations][18]
+- [entire relations][19]
+- [equivalence relations][20], [congruence][21]
+- [apartness relations][22]
+- [simple graph][23]
+- [2-congruence][24]
+- [(n,r)-congruence][25]
 
-### Context
 
-#### Relations
+## Idea
 
-__[relation][1]__, [internal relation][2]
-
-__[Rel][3]__, [bicategory of relations][4], [allegory][5]
-
--   [reflexive][6], [irreflexive][7]
-    
--   [symmetric][8], [antisymmetric][9] [asymmetric][10]
-    
--   [transitive][11], [comparison][12];
-    
--   left and right [euclidean][13];
-    
--   [total][14], [connected][15]
-    
--   [extensional][16], [well-founded][17] relations.
-    
--   [functional relations][18],
-    
--   [entire relations][19],
-    
--   [equivalence relations][20], [congruence][21]
-    
--   [apartness relations][22]
-    
--   [simple graph][23]
-    
-
--   [2-congruence][24]
-    
--   [(n,r)-congruence][25]
-    
-
-## 1\. Idea
-
-An *apartness relation* is a [binary relation][26] that, instead of saying when two things are the same (as an [equivalence relation][27]), states when two things are different – an [inequality relation][28].
+An *apartness relation* is a [binary relation][26] that, instead of saying when two things are the same (as an [equivalence relation][27]), states when two things are different - an [inequality relation][28].
 
 Apartness relations are most used in [constructive mathematics][29]; in [classical mathematics][30], equivalence relations can take their place (mediated by [negation][31]).
 
-The apartness relations that we discuss here are sometimes called __point–point apartness__, to distinguish this from the related concepts of *set–set* or *point–set* apartness relations; see [proximity space][32] and [apartness space][33] (respectively) for these.
+The apartness relations that we discuss here are sometimes called __point-point apartness__, to distinguish this from the related concepts of *set-set* or *point-set* apartness relations; see [proximity space][32] and [apartness space][33] (respectively) for these.
 
-## 2\. Definitions
+
+## Definition
 
 ### Abstract
 
@@ -149,11 +126,11 @@ For the first claim, therefore, it remains to show that the three axioms of an e
 
 Now, the quotient in LocLoc of such an an equivalence relation in particular comes equipped with a surjective locale map from XX. Thus, it is a spatial locale and can be regarded as a topology on the set XX. Moreover, quotients in LocLoc are constructed as [equalizers][130] in FrmFrm, so we have to compute the equalizer of the two maps O(X)\=P(X)→O(CU)O(X) = P(X) \\to O(\\mathsf{C}U), where O(CU)O(\\mathsf{C}U) is the frame of opens of CU\\mathsf{C}U regarded as a locale in its own right. Equivalently, this means the equalizer of the two maps P(X)→π iP(X×X)→j CUP(X×X)P(X) \\xrightarrow{\\pi\_i} P(X\\times X) \\xrightarrow{j\_{\\mathsf{C}U}} P(X\\times X), where j CUj\_{\\mathsf{C}U} is the [nucleus][131] corresponding to CU\\mathsf{C}U.
 
-Now by definition, j CU(V)\=V∪Uj\_{\\mathsf{C}U}(V) = V\\cup U. Thus, the elements of this equalizer — which is to say, the opens in the locale quotient — are subsets VV of XX such that (V×X)∪U\=(X×V)∪U(V\\times X) \\cup U = (X\\times V) \\cup U. Reexpressed in terms of #\\#, that means that for any x,y∈Xx,y\\in X we have (x∈V∨x#y)⇔(y∈V∨x#y)(x\\in V \\vee x\\#y) \\iff (y\\in V \\vee x\\#y). But since #\\# is symmetric, this is equivalent to the unidirectional implication (x∈V∨x#y)→(y∈V∨x#y)(x\\in V \\vee x\\#y) \\to (y\\in V \\vee x\\#y), and since x#yx\\#y always implies itself, this is equivalent to x∈V→(y∈V∨x#y)x\\in V \\to (y\\in V \\vee x\\#y), which is precisely the condition defining the open sets in the apartness topology above. ▮
+Now by definition, j CU(V)\=V∪Uj\_{\\mathsf{C}U}(V) = V\\cup U. Thus, the elements of this equalizer - which is to say, the opens in the locale quotient - are subsets VV of XX such that (V×X)∪U\=(X×V)∪U(V\\times X) \\cup U = (X\\times V) \\cup U. Reexpressed in terms of #\\#, that means that for any x,y∈Xx,y\\in X we have (x∈V∨x#y)⇔(y∈V∨x#y)(x\\in V \\vee x\\#y) \\iff (y\\in V \\vee x\\#y). But since #\\# is symmetric, this is equivalent to the unidirectional implication (x∈V∨x#y)→(y∈V∨x#y)(x\\in V \\vee x\\#y) \\to (y\\in V \\vee x\\#y), and since x#yx\\#y always implies itself, this is equivalent to x∈V→(y∈V∨x#y)x\\in V \\to (y\\in V \\vee x\\#y), which is precisely the condition defining the open sets in the apartness topology above. ▮
 
 Recall that the negation of an apartness relation on XX is an equivalence relation on the *set* XX. This is the spatial part of the above closed localic equivalence relation, which in general (constructively) need not be itself spatial. The apartness relation is tight just when this spatial part is the diagonal. (By contrast, to say that the closed localic equivalence relation is *itself* the diagonal is to say that the discrete locale XX is [Hausdorff][132], which is only true if XX has [decidable equality][133].)
 
-Another characterization of the #\\#\-open sets is that UU is #\\#\-open if U×X⊆(X×U)∪W #U\\times X \\subseteq (X\\times U) \\cup W\_\\#, where W #W\_\\# is #\\# regarded as a subset of X×XX\\times X. Rephrased in terms of complementary closed sublocales, this says that CU\\mathsf{C}U is “closed under the equivalence relation” dual to #\\#. Thus, the closed sublocales of XX with its #\\#\-topology (i.e. the formal complements of #\\#\-open sets) correspond precisely to the closed sublocales of XX (the formal complements of arbitrary subsets of XX) that respect this equivalence relation.
+Another characterization of the #\\#\-open sets is that UU is #\\#\-open if U×X⊆(X×U)∪W #U\\times X \\subseteq (X\\times U) \\cup W\_\\#, where W #W\_\\# is #\\# regarded as a subset of X×XX\\times X. Rephrased in terms of complementary closed sublocales, this says that CU\\mathsf{C}U is "closed under the equivalence relation" dual to #\\#. Thus, the closed sublocales of XX with its #\\#\-topology (i.e. the formal complements of #\\#\-open sets) correspond precisely to the closed sublocales of XX (the formal complements of arbitrary subsets of XX) that respect this equivalence relation.
 
 As a partial converse to the above theorem, if XX is a [localically strongly Hausdorff][134] topological space, meaning that its diagonal is a strongly closed sublocale, then the pullback of this diagonal to the discrete locale on the set of points of XX is a closed localic equivalence relation, hence an apartness, whose ≠\\ne\-topology refines the given topology. See [this theorem][135]. If we are given an apartness relation ≠\\ne, it is unclear whether the ≠\\ne\-topology is localically strongly Hausdorff; but if it is, then the apartness relation resulting from this topology is stronger than the given ≠\\ne.
 
@@ -165,17 +142,17 @@ The various subsets that appear in algebra (such as [subgroups][139], [ideals][1
 
 [Prime ideals][143] are even more interesting. A two-sided antiideal AA (so also satisfying that y∈Ay \\in A whenever xy∈Ax y \\in A) is *antiprime* (or simply *prime* if no confusion is expected) if 1∈A1 \\in A and xy∈Ax y \\in A whenever x,y∈Ax, y \\in A. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [integral domain][144] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
 
-The localic perspective on apartness relations extends naturally to anti-algebra: an antiideal is the same as a *closed* ideal in a discrete localic ring that respects the closed equivalence relation corresponding to ≠\\ne. Equivalently, this is a closed ideal of the ≠\\ne\-topology regarded as a (non-discrete) localic ring. The spatial part of this closed localic ideal is then the ordinary ideal complementary to the antiideal, and so on. Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal AA is antiprime exactly when its corresponding closed localic ideal CA\\mathsf{C}A is “prime” in an appropriate internal sense in [Loc][145], namely that m \*(CA)⊆(CA×R)∪(R×CA)m^\*(\\mathsf{C}A) \\subseteq (\\mathsf{C}A \\times R) \\cup (R\\times \\mathsf{C}A), where m:R×R→Rm:R\\times R\\to R is the multiplication. The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn’t commute with unions.
+The localic perspective on apartness relations extends naturally to anti-algebra: an antiideal is the same as a *closed* ideal in a discrete localic ring that respects the closed equivalence relation corresponding to ≠\\ne. Equivalently, this is a closed ideal of the ≠\\ne\-topology regarded as a (non-discrete) localic ring. The spatial part of this closed localic ideal is then the ordinary ideal complementary to the antiideal, and so on. Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal AA is antiprime exactly when its corresponding closed localic ideal CA\\mathsf{C}A is "prime" in an appropriate internal sense in [Loc][145], namely that m \*(CA)⊆(CA×R)∪(R×CA)m^\*(\\mathsf{C}A) \\subseteq (\\mathsf{C}A \\times R) \\cup (R\\times \\mathsf{C}A), where m:R×R→Rm:R\\times R\\to R is the multiplication. The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn't commute with unions.
 
-For more about apartness algebra, see [antisubalgebra][146].
+For more about apartness algebra, see [antisubalgebra][146]
+- [inequality relation][147]
+  - [denial inequality][148]
+- [antisubalgebra][149]
 
--   [inequality relation][147]
-    
-    -   [denial inequality][148]
--   [antisubalgebra][149]
-    
 
-## 7\. References
+
+
+## References
 
 According to [Troelstra and van Dalen][150]:
 
@@ -185,11 +162,11 @@ According to [Troelstra and van Dalen][150]:
     
 -   [Arend Heyting][154], *Intuïtionistische Axiomatiek der Projectieve Meetkunde* (Dutch), Ph.D. Thesis, 1925
     
--   [Errett Bishop][155]‘s *Foundations of Constructive Analysis* (1967) uses apartness for the real numbers and more general metric spaces.
+-   [Errett Bishop][155]'s *Foundations of Constructive Analysis* (1967) uses apartness for the real numbers and more general metric spaces.
     
--   The 1985 edition with Douglas Bridges, *Constructive Analysis*, includes the general definition of apartness relation, there called an “inequality relation” (though in many other sources, as here, an [inequality relation][156] need not satisfy comparison).
+-   The 1985 edition with Douglas Bridges, *Constructive Analysis*, includes the general definition of apartness relation, there called an "inequality relation" (though in many other sources, as here, an [inequality relation][156] need not satisfy comparison).
     
--   Anne Troelstra's and Dirk van Dalen's *Constructivism in Mathematics* (1988) uses apartness for the reals (volume 1), and general apartness relations in algebra (volume 2, chapter 8). They say “preapartness” and “apartness” instead of “apartness” and “tight apartness” respectively.
+-   Anne Troelstra's and Dirk van Dalen's *Constructivism in Mathematics* (1988) uses apartness for the reals (volume 1), and general apartness relations in algebra (volume 2, chapter 8). They say "preapartness" and "apartness" instead of "apartness" and "tight apartness" respectively.
     
 -   Apartness plays a minimal role in *A Course in Constructive Algebra* (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg.
     

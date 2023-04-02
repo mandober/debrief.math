@@ -1,0 +1,90 @@
+# Lambda calculus :: Indices
+
+- Lambda terms
+  - abs
+  - app
+  - var
+    - occurrences of a var in abs
+      - binding occurrences
+        - exactly 1 occurrences in the lambda head (aka formal parameter)
+      - applied occurrences
+        - bound
+          - 0 or more occurrences in the lambda body (aka actual parameter)
+        - free
+          - 0 or more occurrences in the lambda body
+          - parameter bound in some external scope
+    - occurrences of a var in app
+      - in app, left lambda term is abs, right is an arg
+      - var may be the argument itself
+      - or appear within the arg M
+        - important if var `x` is free or not in arg `M`, `x ∉ FV(M)`
+
+- Lambda rules (axioms)
+  - conversions
+    - α-conversion
+      - α-equivalence
+    - η-conversion
+      - η-expansion
+      - η-contraction
+  - reductions
+    - β-reduction
+  - (other rules)
+    - δ-rule
+    - ζ-rule
+
+
+- Type inference
+  - types a la Church
+    - exlicit typing
+    - type checking - types are just read off
+    - each term has exactly 1 type
+  - types a la Curry
+    - implicit typing
+    - types are inferred
+    - each term has exactly at least 1 type
+    - in HM, each term has exactly 1 principal type
+    - in general, undecidable beyond System F
+
+- Reduction strategies
+  - applicative order
+    - rightmost innermost
+    - evaluate args before app
+  - normal order
+    - leftmost outermost
+    - do not evaluate args before app
+  - strict
+    - eager
+    - call-by-value
+  - non-strict
+    - lazy
+    - call-by-name
+      - call-by-name w/sharing
+      - call-by-need
+
+- Normal forms
+  - beta normal form
+  - head normal form
+  - weak-head normal form
+
+- Encoding schemes
+  - Church encoding
+    - Church Booleans
+    - Church Numbers (Church Numerals)
+      - Church Naturals
+        - Rosser's predecessor via pairs, O(n)
+      - Arithmetic ops
+      - Church Integers
+      - Church Rationals
+    - Church ADTs
+      - Church Pair
+      - Church List
+        - tail is O(n)
+  - Scott encoding
+    - Scott Naturals
+    - Scott List
+    - Scott ADTs
+  - Encoding numbers (naturals)
+    - Church Naturals
+    - Scott Naturals
+    - Parigot Naturals
+    - Alt-encoded naturals

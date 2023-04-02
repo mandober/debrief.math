@@ -1,0 +1,104 @@
+# Index :: Models of computation
+
+The first formal model of computation was Lambda Calculus, created by Alonzo Church in 1936. In the April of 1936, Church published `An Unsolvable Problem of Elementary Number Theory`, while Turing published `On Computable Numbers, with an Application to the Entscheidungsproblem` 8 months later, in the January of 1937.
+
+Models of Computation
+- Lambda Calculus (LC), 1936, Alonzo Church
+- Turing machine (TM), 1937, Alan Turing
+- Primitive Recursive Function (PRF), Kurt Gödel
+- General Recursive Function (GRF), Kurt Gödel
+- recursive functions, by Stephen Kleene
+- production systems
+  - Post's production systems, by Emile Post
+  - Markov's production systems
+
+
+Models of Computation
+  - Sequential models
+    - Turing machines (TMs)
+      - Universal Turing Machine (UTM)
+    - register machines
+    - finite state machines
+    - Post machines
+      - Post-Turing machines
+      - tag machines
+    - pushdown automata
+    - random-access machines
+  - Functional models
+    - lambda calculus
+    - rewriting
+    - combinatory logic
+    - abstract rewriting systems
+    - general recursive functions
+    - μ-recursive functions
+  - Concurrent models
+    - actor model
+    - cellular automaton
+    - Kahn process networks
+    - logic gates and digital circuits
+    - synchronous data flow
+    - Petri nets
+    - proof nets
+    - Interaction nets
+  - Models of computation - variants
+    - deterministic vs nondeterministic
+    - expressive power
+    - primitive operations with unit cost
+    - unit-cost operations
+    - synchronicity
+    - synchronous vs asynchronous
+    - seq vs parallel
+    - blocking
+    - fairness
+    - bounded vs unbounded
+  - (types)
+    - machines
+    - decision trees
+    - rewrite systems
+    - recursive functions
+  - (more)
+    - Stack machine (0-operand machine)
+    - Accumulator machine (1-operand machine)
+    - Register machine (2, 3, … operand machine)
+    - Random-access machine
+    - Cell-probe model
+    - Robertson-Webb query model
+  - (notions)
+    - Chomsky hierarchy
+    - Turing completeness
+    - abstract machines
+    - decision tree models
+
+
+
+
+
+
+## Models of computation - Timeline
+
+Many models of computation have been proposed and they all have a notion of discrete time steps.
+
+- *λ-calculus*
+  was proposed by Alonzo Church in 1941. The λ-calculus enables one to speak of functions from sets of functions to sets of functions
+- *Turing Machine*
+  was proposed by Alan Turing in 1936
+- *Post systems*
+  were proposed by Emil Post in 1943. They are a generalization of Grammars
+- *Wang machines*
+  were proposed by Hao Wang in 1957
+- *Markov Algorithms*
+  were proposed by Andrei Andreivich Markov in the 1940's
+- *Register machines*
+  were proposed by Abraham Robinson and Calvin Elgot in the 1960's. They resemble an actual computer more than most models.
+- *Random Access Machines*
+  were proposed by Steven Cook and Robert Rechow in the 1970's. They resemble an actual computer more than most models.
+
+
+Timeline
+- 1936 λ-calculus by Alonzo Church
+- 1937 TM by Alan Turing
+- 1943 Post system by Emil Post
+- 1940's Markov algorithms by Andrei Andreivich Markov
+- 1957 Wang machine by Hao Wang
+- 1960's Register machines by Abraham Robinson and Calvin Elgot
+- 1970's Random Access Machines by Steven Cook and Robert Rechow
