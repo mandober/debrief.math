@@ -1,6 +1,6 @@
-# disjoint union
+# Disjoint union
 
-## The motive
+## Rationale
 
 Set union joins two sets into one, collapsing possible duplicates of elements. 
 

@@ -1,0 +1,25 @@
+# Mathematical constructivism
+
+[Finitism](https://en.wikipedia.org/wiki/Finitism)
+[Ultraintuitionism](https://en.wikipedia.org/wiki/Ultraintuitionism)
+[Constructivist analysis](https://en.wikipedia.org/wiki/Constructivist_analysis)
+[Nonconstructive proof](https://en.wikipedia.org/wiki/Nonconstructive_proof)
+[Existence theorem](https://en.wikipedia.org/wiki/Existence_theorem)
+[Luitzen Egbertus Jan Brouwer](https://en.wikipedia.org/wiki/Luitzen_Egbertus_Jan_Brouwer)
+[Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
+[Intuitionistic type theory](https://en.wikipedia.org/wiki/Intuitionistic_type_theory)
+
+[Church-Rosser theorem](https://en.wikipedia.org/wiki/Church%E2%80%93Rosser_theorem)
+[Computability logic](https://en.wikipedia.org/wiki/Computability_logic)
+[Computable measure theory](https://en.wikipedia.org/wiki/Computable_measure_theory)
+[Curry-Howard isomorphism](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_isomorphism)
+[Introduction to topos theory](https://en.wikipedia.org/wiki/Introduction_to_topos_theory)
+[LF (logical framework)](https://en.wikipedia.org/wiki/LF_(logical_framework))
+[Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
+[Lambda cube](https://en.wikipedia.org/wiki/Lambda_cube)
+[Simply typed lambda calculus](https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus)
+[System F](https://en.wikipedia.org/wiki/System_F)
+[Type theory](https://en.wikipedia.org/wiki/Type_theory)
+[Typed lambda calculus](https://en.wikipedia.org/wiki/Typed_lambda_calculus)
+
+[Calculus of constructions](https://en.wikipedia.org/wiki/Calculus_of_constructions)

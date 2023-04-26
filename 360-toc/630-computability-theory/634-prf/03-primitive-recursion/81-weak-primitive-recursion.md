@@ -27,14 +27,20 @@ h(S y, x̅) = g(     h(y,x̅), x̅)  -- rec case: (3) iteration
 
 
 -- primitive recursion
-h(  0, x̅) = f(x̅)
-h(S y, x̅) = g(y, h(y,x̅), x̅)
+h    0  x̅ = f x̅
+h (S y) x̅ = g y     x̅ (h y x̅)
 --            ↑
---           difference
+--           all the differences below are related to the rec-arg (y)
 
 -- weak primitive recursion
-h(  0, x̅) = f(x̅)
-h(S y, x̅) = g(S y, h(y,x̅), x̅)
---            ↑
---           difference
+h    0  x̅ = f x̅
+h (S y) x̅ = g (S y) x̅ (h y x̅)
+--            ↑↑↑↑↑
+--           difference: (S y) instead of y
+
+-- iteration
+h    0  x̅ = f x̅
+h (S y) x̅ = g       x̅ (h y x̅)
+--            ↑↑↑↑
+--           difference: no param y or S(y) at all!
 ```

@@ -1,4 +1,4 @@
-# Glossary of Relation theory
+# Relation theory :: Glossary
 
 ⊰ ⨟ ⨾ ⊱ ⫴ ⫻ ☂ ⛱ Ꝕ ꝕ 🗪 ❏ ★ Ʀ
 
@@ -16,9 +16,6 @@ Greatest lower bound, infimum
 
 ## LUB
 Least upper bound, supremum
-
-
-
 
 ## Aliorelative relation
 see Irreflexive relation

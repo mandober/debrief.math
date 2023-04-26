@@ -42,6 +42,7 @@
 - [Totality](#totality)
 - [Typability problem](#typability-problem)
 - [Typecase](#typecase)
+- [Type system](#type-system)
 - [Uniqueness of identity proofs](#uniqueness-of-identity-proofs)
 - [Unit type](#unit-type)
 - [Variance](#variance)
@@ -166,6 +167,8 @@ Notational equality is equality by abbreviation, e.g. `1 : nat ::= suc 0`, that 
 ## Observational type theory
 Observational Type Theory (OTT) combines beneficial aspects of Intensional and Extensional Type Theory. It separates definitional equality, decidable as in ITT, and a substitutive propositional equality, capturing extensional equality of functions, as in ETT.
 
+What is called observational type theory (OTT) is a flavor of type theory in between extensional type theory and intensional type theory.
+
 ## Overloading
 An overloaded function has several different versions all with the same name, where the language picks the right one to call by examining the types of its arguments at each call site.
 
@@ -205,6 +208,9 @@ In type theory, but also its practical aspects like in type system and compiler 
 
 ## Typecase
 Typecase refers to any runtime test that checks types. Several other names for this feature exist: `instanceof`, downcasting, matching on types.
+
+## Type system
+A type system is a formal system in which every term has a property called type, which defines a term's meaning, as well as operations that may be performed on it.
 
 ## Uniqueness of identity proofs
 Uniqueness of identity proofs (UIP): any two proofs of the same propositional equality are themselves propositionally equal.

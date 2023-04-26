@@ -8,36 +8,36 @@ There are many different possibilities for formulating the judgmental structure 
 
 >Contexts
 
-  * __Γ 𝑐𝑜𝑛𝑡𝑒𝑥𝑡__   
+  * __Γ context__   
     means that `Γ` is a context.
 
 >Types
 
-  * __Γ ⊢ A 𝑡𝑦𝑝𝑒__   
+  * __Γ ⊢ A Type__   
     means that `A` is a type in context `Γ`,   
     presupposing:   
-    - `Γ 𝑐𝑜𝑛𝑡𝑒𝑥𝑡`
+    - `Γ context`
 
-  * __Γ ⊢ A ≡ B 𝑡𝑦𝑝𝑒__    
+  * __Γ ⊢ A ≡ B Type__    
     means that `A` and `B` are equal types in context `Γ`,   
     presupposing:   
-    - `Γ 𝑐𝑜𝑛𝑡𝑒𝑥𝑡`    
-    - `Γ : A 𝑡𝑦𝑝𝑒`    
-    - `Γ : B 𝑡𝑦𝑝𝑒`
+    - `Γ context`    
+    - `Γ ⊢ A Type`    
+    - `Γ ⊢ B Type`
 
 >Terms
 
   * __Γ ⊢ a : A__    
     means that `a` is an term of type `A` in context `Γ`,   
     presupposing:    
-    - `Γ 𝑐𝑜𝑛𝑡𝑒𝑥𝑡`   
-    - `Γ : A 𝑡𝑦𝑝𝑒`
+    - `Γ context`   
+    - `Γ ⊢ A Type`
 
   * __Γ ⊢ a ≡ b : A__   
     means `a` and `b` are equal terms of type `A` in context `Γ`  
     presupposing:    
-    - `Γ 𝑐𝑜𝑛𝑡𝑒𝑥𝑡`   
-    - `Γ ⊢ A 𝑡𝑦𝑝𝑒`   
+    - `Γ context`   
+    - `Γ ⊢ A Type`   
     - `Γ ⊢ a : A`    
     - `Γ ⊢ b : A`    
 
@@ -47,8 +47,8 @@ There are many different possibilities for formulating the judgmental structure 
 Each presupposition expresses a pair of invariants on a form of judgment. Using the form of judgment `Γ ⊢ a : A` as an example, these two invariants are
 
 1. If you can derive   `Γ ⊢ a : A`   
-   then you can derive `Γ ⊢ A 𝑡𝑦𝑝𝑒`.
+   then you can derive `Γ ⊢ A Type`
 
 2. If you can derive   `Γ ⊢ a : A`   
-   and you can derive  `Γ ⊢ A ≡ B 𝑡𝑦𝑝𝑒`, then you must   
-   be able to derive   `Γ ⊢ a : B`.
+   and you can derive  `Γ ⊢ A ≡ B Type`, then you must   
+   be able to derive   `Γ ⊢ a : B`

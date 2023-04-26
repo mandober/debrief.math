@@ -1,0 +1,194 @@
+# Inference rules
+
+## ℕ
+
+```hs agda
+                               n : ℕ
+----------------      ----------------------
+     0 : ℕ                   S n : ℕ
+
+data ℕ : Set where
+  zero : ℕ
+  suc  : ℕ → ℕ
+```
+
+## Predicate EVEN
+
+```hs agda
+                             p : even n
+----------------      -------------------------
+even-z : even 0       even-s p : even (S (S 0))
+
+
+data even : ℕ → Set where
+  even-z : even zero
+  even-s : {n : ℕ} → even n → even (suc (suc n))
+```
+
+## Simple EQUALITY on ℕ
+
+```hs agda
+                               m ≣ n
+---------------- BC   ------------------------- IC
+      0 ≣ 0                  S m ≣ S n
+
+
+                n ≣ m           n ≣ m    m ≣ k
+------ REFL   ---------- SYM    ---------------- TRANS
+n ≣ n         S n ≣ S n             n ≣ k
+
+
+-- 1️⃣ Equality on ℕ expressed as a Boolean-valued function.
+--    Returns Boolean (truth) values.
+--    Informational content: 1 bit
+_≣_ : ℕ → ℕ → Bool
+0     ≣ 0     = true
+0     ≣ suc y = false
+suc x ≣ 0     = false
+suc x ≣ suc y = x ≣ y
+
+
+-- 2️⃣ Equality on ℕ expressed by returning the type ⊤
+--    if the numbers are equal or the type ⊥ otherwise.
+--    Returns types, not values! 🔺
+--    Informational content: 1 bit
+_≣ᵗ_ : ℕ → ℕ → Set
+0     ≣ᵗ 0     = ⊤
+0     ≣ᵗ suc y = ⊥
+suc x ≣ᵗ 0     = ⊥
+suc x ≣ᵗ suc y = x ≣ᵗ y
+```
+
+## EQUALITY predicate on ℕ
+
+```hs agda
+                            p : n ≡ᴺ m
+----------------      ----------------------
+z≡ᴺz : 0 ≡ᴺ 0          s≡ᴺs p : S n ≡ᴺ S m
+
+
+                        p : n ≡ᴺ m        p : n ≡ᴺ m    q : m ≡ᴺ k
+----------------    -----------------     ------------------------
+≡ᴺ-refl : n ≡ᴺ n    ≡ᴺ-sym p : m ≡ᴺ n      ≡ᴺ-trans p q : n ≡ᴺ k
+
+
+-- 3️⃣ Equality (observational equality) on ℕ as a specialization
+--    of the general equality predicate, i.e. of the Identity type.
+data _≡ᴺ_ : ℕ → ℕ → Set where
+  z≡ᴺz :                          0 ≡ᴺ 0
+  s≡ᴺs : {n m : ℕ} → n ≡ᴺ m → suc n ≡ᴺ suc m
+
+
+-- 4️⃣ Identity type (for reference)
+data _≡_ {A : Set} (x : A) : A → Set where
+  refl : x ≡ x
+```
+
+Identity type dispenses with the two inference rules about equality; in fact, this set of two inference rule express the equality only for the ℕ type, not for any type in general. An alternative set of inference rules about the equality for the ℕ type contains just a single rule that states that any number `n` is equal to itself, `n = n`, along with the assumption that `n : ℕ`.
+
+```hs
+n : ℕ
+-----
+n ≡ n
+```
+
+It is this rule that the Identity type translates, in fact, the generalization of this rule so as to refer to any term of any type. So, first we need to make assumptions that `A` is a type, and that variables `x` and `y` denote two terms of the type `A`; then, we conclude that `x` and `y` are actually equal, i.e. they are the same term, `x` (or `y`).
+
+Judgement that two values (of some type) are equal:
+
+```hs
+A : Type   x y : A
+-------------------
+      x ≡ y
+
+Γ ⊢ A Type   Γ ⊢ x y : A
+-------------------------
+     Γ ⊢ x ≡ y
+
+
+Γ ⊢ a ≡ b : A
+
+
+Γ ⊢ a ≡ᴀ b
+
+
+-- Identity type
+data _≡_ {A : Set} (x : A) : A → Set where
+  refl : x ≡ x
+```
+
+We can compare the equality on ℕ obtained through the use of the `≡` (identity type as a generic predicate) and the use of `≡ᴺ` (equality predicate specialized to ℕ):
+
+```agda hs
+1≡ᴺ1 : 1 ≡ᴺ 1
+1≡ᴺ1 = s≡ᴺs z≡ᴺz
+
+2≡ᴺ2 : 2 ≡ᴺ 2
+2≡ᴺ2 = s≡ᴺs (s≡ᴺs z≡ᴺz)
+
+-- vs
+
+1≡1 : 1 ≡ 1
+1≡1 = refl
+
+2≡2 : 2 ≡ 2
+2≡2 = refl
+```
+
+✨ This shows that the proofs like `1≡ᴺ1` and `2≡ᴺ2` obtained with `≡ᴺ` (equality predicate specialized to ℕ) are much more useful than the proofs like `1≡1` and `2≡2`, obtained with `≡` (aka identity type as a generic predicate).
+
+The proof like `1≡ᴺ1` has richer structure and contains more information; it actually contains the exact sequence of rules used to obtain the proof, as opposed to the corresponding proof `1≡1` which just contains the term `refl`, asdoes any other proof of equality of naturals using `≡` (i.e. they all contain just a single term, `refl`).
+
+Although this seemed initially surprising, come to think about it - it really should be. After all, it is quite logical that a predicate specialized to `ℕ` knows more about `ℕ` than a generic predicate.
+
+
+
+## LESS THAN OR EQUAL relation on ℕ
+
+```hs agda
+                           p : n ≤ m
+----------------      ----------------------
+z≤s : 0 ≤ S m          s≤s p : S n ≤ S m
+```
+
+## Predicate "is not 0"
+
+```hs agda
+                          p : n ≠0
+----------------      ----------------------
+s≠0 : suc n ≠0            s≤s p : suc n ≠0
+
+
+data _≠0 : ℕ → Set where
+  suc≠0 : {n : ℕ} → suc n ≠0
+```
+
+## Addition
+
+Inference rules for judgments about equality.
+
+```hs agda
+
+    n : ℕ                  m + n  =  p
+----------------      ----------------------
+0 + n  =  n              S m + n  =  S p
+
+
+-- definition of addition in Agda
+_+_ : ℕ → ℕ → ℕ
+0       + n = n
+(suc m) + n = suc (m + n)
+```
+
+It seems that the inference rule concerning operations correspond to computation rules (as opposed to corresponding to intro or elim rules). Instead of naming the rules (e.g. `z≤s : 0 ≤ suc n`), they state which equations hold (they have `=` instad of `:`).
+
+```hs agda
+
+    n : ℕ                  p  =  m + n
+---------------      ----------------------
+  n = 0 + n              S p  =  S m + n
+
+    n : ℕ                  p  :  n ≤ m
+---------------      ----------------------
+z≤s : 0 ≤ S n          s≤s p  :  S n ≤ S m
+```

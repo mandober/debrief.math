@@ -1,4 +1,4 @@
-# Set Theory ∷ Glossary
+# Set Theory :: Glossary
 
 https://en.wikipedia.org/wiki/Glossary_of_set_theory
 

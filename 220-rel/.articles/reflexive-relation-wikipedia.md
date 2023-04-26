@@ -55,7 +55,7 @@ A reflexive relation on a nonempty set ![X](https://wikimedia.org/api/rest_v1/me
 
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/GreaterThan.png/200px-GreaterThan.png)][31]
 
-__Examples of reflexive relations include:__
+__Examples of reflexive relations include:__
 
 -   "is equal to" ([equality][32])
 -   "is a [subset][33] of" (set inclusion)
@@ -245,19 +245,19 @@ Authors in [philosophical logic][64] often use different terminology. Reflexive 
 
 1.  __[^][68]__ Levy 1979:74
 2.  __[^][69]__ Relational Mathematics, 2010
-3.  __[^][70]__ This term is due to [C S Peirce][71], see [Bertrand Russell][72] (Apr 1920). [*Introduction to Mathematical Philosophy*][73] (PDF) (2nd ed.). London: George Allen & Unwin, Ltd. (Online corrected edition, Feb 2010). Here: p. 32. Russel also introduces two equivalent terms *to be contained in* or *imply diversity*.
+3.  __[^][70]__ This term is due to [C S Peirce][71], see [Bertrand Russell][72] (Apr 1920). [*Introduction to Mathematical Philosophy*][73] (PDF) (2nd ed.). London: George Allen & Unwin, Ltd. (Online corrected edition, Feb 2010). Here: p. 32. Russel also introduces two equivalent terms *to be contained in* or *imply diversity*.
 4.  __[^][74]__ The [Encyclopedia Britannica][75] calls this property quasi-reflexivity.
 5.  __[^][76]__ Fonseca de Oliveira, J. N., & Pereira Cunha Rodrigues, C. D. J. (2004). Transposing Relations: From Maybe Functions to Hash Tables. In Mathematics of Program Construction (p. 337).
 6.  __[^][77]__ On-Line Encyclopedia of Integer Sequences [A053763][78]
-7.  __[^][79]__ Alan Hausman; Howard Kahane; Paul Tidman (2013). *Logic and Philosophy — A Modern Introduction*. Wadsworth. [ISBN][80] [1-133-05000-X][81]. Here: p.327-328
-8.  __[^][82]__ D.S. Clarke; Richard Behling (1998). *Deductive Logic — An Introduction to Evaluation Techniques and Logical Theory*. University Press of America. [ISBN][83] [0-7618-0922-8][84]. Here: p.187
+7.  __[^][79]__ Alan Hausman; Howard Kahane; Paul Tidman (2013). *Logic and Philosophy - A Modern Introduction*. Wadsworth. [ISBN][80] [1-133-05000-X][81]. Here: p.327-328
+8.  __[^][82]__ D.S. Clarke; Richard Behling (1998). *Deductive Logic - An Introduction to Evaluation Techniques and Logical Theory*. University Press of America. [ISBN][83] [0-7618-0922-8][84]. Here: p.187
 
 ## References\[[edit][85]\]
 
--   Levy, A. (1979) *Basic Set Theory*, Perspectives in Mathematical Logic, Springer-Verlag. Reprinted 2002, Dover. [ISBN][86] [0-486-42079-5][87]
--   Lidl, R. and Pilz, G. (1998). *Applied abstract algebra*, [Undergraduate Texts in Mathematics][88], Springer-Verlag. [ISBN][89] [0-387-98290-6][90]
--   Quine, W. V. (1951). *Mathematical Logic*, Revised Edition. Reprinted 2003, Harvard University Press. [ISBN][91] [0-674-55451-5][92]
--   Gunther Schmidt, 2010. *Relational Mathematics*. Cambridge University Press, [ISBN][93] [978-0-521-76268-7][94].
+-   Levy, A. (1979) *Basic Set Theory*, Perspectives in Mathematical Logic, Springer-Verlag. Reprinted 2002, Dover. [ISBN][86] [0-486-42079-5][87]
+-   Lidl, R. and Pilz, G. (1998). *Applied abstract algebra*, [Undergraduate Texts in Mathematics][88], Springer-Verlag. [ISBN][89] [0-387-98290-6][90]
+-   Quine, W. V. (1951). *Mathematical Logic*, Revised Edition. Reprinted 2003, Harvard University Press. [ISBN][91] [0-674-55451-5][92]
+-   Gunther Schmidt, 2010. *Relational Mathematics*. Cambridge University Press, [ISBN][93] [978-0-521-76268-7][94].
 
 ## External links\[[edit][95]\]
 

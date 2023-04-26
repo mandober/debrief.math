@@ -13,7 +13,6 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [BHK interpretation](#bhk-interpretation)
 - [CHI](#chi)
 - [Order in logic](#order-in-logic)
-- [ZOL](#zol)
 - [FOL](#fol)
 - [Abel Prize](#abel-prize)
 - [Abel's test](#abels-test)
@@ -123,6 +122,7 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [Well-defined expression](#well-defined-expression)
 - [Well-defined function](#well-defined-function)
 - [Well-defined relation](#well-defined-relation)
+- [Zeroth-order logic](#zeroth-order-logic)
 
 <!-- /TOC -->
 
@@ -140,8 +140,6 @@ Curry-Howard isomorphism, aka propositions-as-types or proofs-as-programs. Cruci
 - SOL: for all predicates (properties, relations)
 - HOL: for all …
 
-## ZOL
-Zeroth-order logic: vars range over shit.
 
 ## FOL
 In FOL, "first-order" means that variables range only over the individuals that comprise the doamin of discorse (individuals make the first order or sort). In SOL, vars range over properties as well.
@@ -162,7 +160,13 @@ Absolute value, Measure of the magnitude of a real number, complex number, or ve
 An abstract machine is a theoretical model of a computer hardware or software system used in automata theory.
 
 ## Abstraction
-Abstraction is the process in which the previously studied and well-understood details (of the studied object or concept) are going through the deliberate simplification as the process of understanding moves from the lower to higher levels, toward the totality. In math, abstraction is the process of extracting the underlying *essence* of a *mathematical concept*, then *generalizing* it so it has wider utility.
+An abstraction or an abstract entity is a general concept formed by extracting common features from a set of related samples (examples, individuals).
+
+Abstraction is the process in which the details of a well-understood object or concept are deliberately "forgotten" in order to simplify it and thenceforth regard it as a new, standalone (independent of its parts, freestanding) entity.
+
+As the process of understanding a concept (object) moves from the low-level details that describe it thouroughly, towards the high-level view of that concept in its totality, the concept is thus simplified.
+
+Abstraction is the process of extracting the essence of a concept, and then generalizing it so it has a wider utility.
 
 ## Accident
 In philosophy, *essence* is the property that makes an entity what it fundamentally is, which it has by necessity, without which it loses its identity. Essence is contrasted with **accident** - a property that the entity has contingently, without which it still retains its identity.
@@ -284,7 +288,12 @@ Fuzzy logic is a form of many-valued logic in which the truth values of variable
 The grammar of a language can be presented on several ways (BNF notation, inference rules, generating listing, etc.), and its can be specified by induction over the terms of that language.
 
 ## Generalization
-A generalization is the formulation of general concepts from specific instances by abstracting common properties. Generalizations posit the existence of a domain or set of elements, as well as one or more common characteristics shared by those elements (thus creating a conceptual model). As such, they are the essential basis of all valid deductive inferences. The process of verification is necessary to determine whether a generalization holds true for any given situation.
+Generalization is the formulation of general concepts from specific instances by abstracting common properties. Generalizations posit the existence of a domain or set of elements, as well as one or more common characteristics shared by those elements (thus creating a conceptual model). As such, they are the essential basis of all valid deductive inferences. The process of verification is necessary to determine whether a generalization holds true for any given situation.
+
+Generalization is the process (or act) of generalizing, which is the process of deriving or inducing a broad principle (conception, summary) from particulars (details).
+
+(generalizability, generalizable, generalizer)
+
 
 ## iff
 Bijection is a logic connective, usually read "if and only if" and used to mark two statements as logically equivalent, symbolically denoted as `p <-> q`. Two statements are logically equivalent if the former implies the latter and if the latter implies the former, `(p -> q ⋀ q -> p) -> (p <-> q)`
@@ -499,5 +508,13 @@ A function is well defined if it gives the same result when the representation o
 ## Well-defined relation
 If `~` is an equivalence relation on `X`, and `P(x)` is a property of elements of `X`, such that whenever `x ~ y`, `P(x)` is true if `P(y)` is true, then the property `P` is said to be well-defined (or a class invariant) under the relation `~`.
 
+## Zeroth-order logic
+
+A zeroth-order logic (ZOL) is a somewhat artificial member on the first-, second-, and higher-order sequence of logics that differ from each other in entities they allow the quantification over.
+
+Namely, first-order logic (FOL) allows quantification only over individuals in the domain of discourse, while second-order logic extends this to also allow it over sets. ZOL is position between propositional logic, that has no notion of quantification at all, and FOL. However, some authors use ZOL as a mere synonym for propositional logic, while others consider it its extension with constants, funcitons and relations on non-Boolean values. Every zeroth-order language in this broader sense is complete and compact (as is every propositional logic).
 
 <!-- #endregion -->
+
+completeness of propositional logic
+compactness of propositional logic

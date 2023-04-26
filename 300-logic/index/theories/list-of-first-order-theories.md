@@ -2,7 +2,7 @@
 
 https://en.wikipedia.org/wiki/List_of_first-order_theories
 
-In first-order logic, a first-order theory is given by a set of axioms in a particular formal language. This is a list of common first-order theories and their properties.
+In FOL, a first-order theory is given by a set of axioms in a particular formal language. This is a list of common first-order theories and their properties.
 
 Contents
 - Preliminaries

@@ -135,7 +135,7 @@ The [objects][77] are [sets][78], the [morphisms][79] from AA to BB are the bina
 
 The interesting definition is [composition][81]
 
-Defintion 4.1. If RR is a relation from AA to BB and SS is a relation from BB to CC, then their *composite relation* – written S∘RS \\circ R or R;SR;S – from AA to CC is defined as follows:
+Defintion 4.1. If RR is a relation from AA to BB and SS is a relation from BB to CC, then their *composite relation* - written S∘RS \\circ R or R;SR;S - from AA to CC is defined as follows:
 
 (a,c)∈R;S⇔∃b:B,(a,b)∈R∧(b,c)∈S.(a,c) \\in R;S \\;\\Leftrightarrow\\; \\exists b: B,\\; (a,b) \\in R \\;\\wedge\\; (b,c) \\in S.
 
@@ -147,7 +147,7 @@ As a [function][88] may be seen as a functional, entire relation, so the categor
 
 ### The quasitopos of endorelations
 
-Endorelations on sets are the objects of the [quasitopos][94] __EndoRelEndoRel__ or __BinBin__. It is a [reflective subcategory][95] of [Quiv][96] the [presheaf topos][97] of quivers and its morphisms are quiver morphisms. Endorelations are the [separated presheaves][98] for the [double negation topology][99] on QuivQuiv. “Separated” here translates to a quiver having at most one arc between pairs of verticies. The [reflector][100] Quiv→EndoRelQuiv \\to EndoRel collapses parallel arcs together. Such quivers might also be called __singular__ or __simple__ though sometimes “simple” also means “no loops”.
+Endorelations on sets are the objects of the [quasitopos][94] __EndoRelEndoRel__ or __BinBin__. It is a [reflective subcategory][95] of [Quiv][96] the [presheaf topos][97] of quivers and its morphisms are quiver morphisms. Endorelations are the [separated presheaves][98] for the [double negation topology][99] on QuivQuiv. "Separated" here translates to a quiver having at most one arc between pairs of verticies. The [reflector][100] Quiv→EndoRelQuiv \\to EndoRel collapses parallel arcs together. Such quivers might also be called __singular__ or __simple__ though sometimes "simple" also means "no loops".
 
 #### Relation closures as reflexive subcategories of EndoRelEndoRel
 

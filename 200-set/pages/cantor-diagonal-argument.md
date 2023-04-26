@@ -2,18 +2,15 @@
 
 https://en.wikipedia.org/wiki/Cantor_diagonal_argument
 
-In set theory, **Cantor's diagonal argument**, 
-  aka 
-  the diagonalisation argument, 
-  the diagonal slash argument, 
-  the anti-diagonal argument, 
-  the diagonal method, 
-  the Cantor's diagonalization proof, 
-was published in 1891 by Georg Cantor 
-as a mathematical proof 
-that there are infinite sets 
-which cannot be put into a bijection 
-with the set of natural numbers.
+Cantor's diagonal argument, aka
+- the diagonalization argument
+- the diagonal slash argument
+- the anti-diagonal argument
+- the diagonal method
+- Cantor's diagonalization proof
+
+>**Cantor's diagonal argument**, published in 1891 by Georg Cantor, is a mathematical proof that there are infinite sets which cannot be put into a bijection with the set of the natural numbers.
+
 
 Such sets are now known as *uncountable sets*, and the size of infinite sets is now treated by the *Theory Of Cardinal Numbers* which Cantor began.
 

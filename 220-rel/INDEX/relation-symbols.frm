@@ -1,14 +1,327 @@
 # Relations ∷ Symbols
 
-- `~` a generic relation, i.e. `a ~ b` is `aGb` or `(a,b) ∈ G`
+- `~`   generic relation; `a ~ b` aka `(a,b) ∈ ~`
+
+- Equality and equivalence relations
+  - `=`     IS EQUAL TO, `x = y`, EQ
+  - `≠`     IS NOT EQUAL TO, `x ≠ y`, NE
+  - `≡`     IDENTICAL TO
+  - `≢`     NOT IDENTICAL TO
+  - `⩧`     IDENTICAL WITH DOT ABOVE
+  - `≣`     STRICTLY EQUIVALENT TO
+  - `⧥`     IDENTICAL TO AND SLANTED PARALLEL
+  - `≝`     EQUAL TO BY DEFINITION
+  - `≅`     isomorphism, APPROXIMATELY EQUAL TO
+  - `≔`     COLON EQUALS
+  - `≕`     EQUALS COLON
+  - `≘`     CORRESPONDS TO
+  - `≐`     APPROACHES THE LIMIT
+  - `≖`     RING IN EQUAL TO
+  - `≗`     RING EQUAL TO
+  - `≙`     ESTIMATES
+  - `≚`     EQUIANGULAR TO
+  - `≛`     STAR EQUALS
+  - `≜`     DELTA EQUAL TO
+  - `≞`     MEASURED BY
+  - `≟`     QUESTIONED EQUAL TO
+  - `≒`     APPROXIMATELY EQUAL TO OR THE IMAGE OF
+  - `≓`     IMAGE OF OR APPROXIMATELY EQUAL TO
+  - `≍`   EQUIVALENT TO
+  - `≭`   NOT EQUIVALENT TO
+  - `≑`   GEOMETRICALLY EQUAL TO
+  - `≎`   GEOMETRICALLY EQUIVALENT TO
+
+- Geometric relations
+  - `≚`   EQUIANGULAR TO
+  - `≑`   GEOMETRICALLY EQUAL TO
+  - `≎`   GEOMETRICALLY EQUIVALENT TO
+  - `∺`   GEOMETRIC PROPORTION
 
 
-- `=`   EQ, "is equal to", x = y
-- `≠`   NE
-- `<=`  LE
-- `<`   LT
-- `>=`  GE
-- `>`   GT
-- `⊆`   set inclusion (containment) relation: "is a subset of", x ⊆ y
-- `∈`   set membership relation: "is a memeber of", x ∈ y
-- `∣`    divisibility, `a ∣ b`, `a ∤ b` , a ∣ b -> m ∈ Z. ma <= b
+Inequalities
+- `≤`   LESS THAN OR EQUAL TO, `x ≤ y`, LE
+- `<`   LESS THAN, `x < y`, LT
+- `≥`   GREATER THAN OR EQUAL TO, `x ≥ y`, GE
+- `>`   GREATER THAN, `x > y`, GT
+- `≪ ` MUCH LESS-THAN
+- `⋘`  VERY MUCH LESS-THAN
+- `≰`   NEITHER LESS-THAN NOR EQUAL TO
+- `≮ `  NOT LESS-THAN
+- `≱`   NEITHER GREATER-THAN NOR EQUAL TO
+- `≯ `  NOT GREATER-THAN
+- `≫ ` MUCH GREATER-THAN
+- `⋙` VERY MUCH GREATER-THAN
+- `≲`  LESS-THAN OR EQUIVALENT TO
+- `≳`  GREATER-THAN OR EQUIVALENT TO
+- `≴`  NEITHER LESS-THAN NOR EQUIVALENT TO
+- `≵`  NEITHER GREATER-THAN NOR EQUIVALENT TO
+- `≸`  NEITHER LESS-THAN NOR GREATER-THAN
+- `≹`  NEITHER GREATER-THAN NOR LESS-THAN
+- `≶`  LESS-THAN OR GREATER-THAN
+- `≷`  GREATER-THAN OR LESS-THAN
+- `⋚`  LESS-THAN EQUAL TO OR GREATER-THAN
+- `⋛`  GREATER-THAN EQUAL TO OR LESS-THAN
+- `⋜`  EQUAL TO OR LESS-THAN
+- `⋝`  EQUAL TO OR GREATER-THAN
+- `≦`  LESS-THAN OVER EQUAL TO
+- `≨`  LESS-THAN BUT NOT EQUAL TO
+- `≧`  GREATER-THAN OVER EQUAL TO
+- `≩`  GREATER-THAN BUT NOT EQUAL TO
+
+
+- Set membership
+  - `∈`   ELEMENT OF,                 `x ∈ X`
+  - `∉`   NOT AN ELEMENT OF,          `x ∉ Y`
+  - `∋`   CONTAINS AS MEMBER,         `X ∋ x`
+  - `∌`   DOES NOT CONTAIN AS MEMBER, `Y ∌ x`
+  - `∊`   SMALL ELEMENT OF
+  - `⋲`     ELEMENT OF WITH LONG HORIZONTAL STROKE
+  - `⋳`     ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+  - `⋴`     SMALL ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+  - `⋵`     ELEMENT OF WITH DOT ABOVE
+  - `⋶`     ELEMENT OF WITH OVERBAR
+  - `⋷`     SMALL ELEMENT OF WITH OVERBAR
+  - `⋸`     ELEMENT OF WITH UNDERBAR
+  - `⋹`     ELEMENT OF WITH TWO HORIZONTAL STROKES
+  - `⋿`     Z NOTATION BAG MEMBERSHIP
+  - `∍`   SMALL CONTAINS AS MEMBER
+  - `⋺`     CONTAINS WITH LONG HORIZONTAL STROKE
+  - `⋻`     CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+  - `⋼`     SMALL CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+  - `⋽`     CONTAINS WITH OVERBAR
+  - `⋾`     SMALL CONTAINS WITH OVERBAR
+
+- Set inclusion
+  - `⊂` SUBSET OF
+  - `⊄`   NOT A SUBSET OF
+  - `⊆`   SUBSET OF OR EQUAL TO, set inclusion, containment relation, `x ⊆ y`
+  - `⊈`   NEITHER A SUBSET OF NOR EQUAL TO
+  - `⊊`   SUBSET OF WITH NOT EQUAL TO
+  - `⟈`   REVERSE SOLIDUS PRECEDING SUBSET
+  - `⟃`   OPEN SUBSET
+  - `⋐`   DOUBLE SUBSET
+  - `⥹`   SUBSET ABOVE RIGHTWARDS ARROW
+  - `⫏`   CLOSED SUBSET
+  - `⫑`   CLOSED SUBSET OR EQUAL TO
+  - `⥺`   LEFTWARDS ARROW THROUGH SUBSET
+  - `⊃`  SUPERSET OF
+  - `⊅`   NOT A SUPERSET OF
+  - `⊇`   SUPERSET OF OR EQUAL TO
+  - `⊉`   NEITHER A SUPERSET OF NOR EQUAL TO
+  - `⊋`   SUPERSET OF WITH NOT EQUAL TO
+  - `⟉`   SUPERSET PRECEDING SOLIDUS
+  - `⟄`   OPEN SUPERSET
+  - `⋑`   DOUBLE SUPERSET
+  - `⥻`   SUPERSET ABOVE LEFTWARDS ARROW
+  - `⫐`   CLOSED SUPERSET
+  - `⫒`   CLOSED SUPERSET OR EQUAL TO
+
+- Set covering
+  - `⋖`   covering relation, `x ⋖ y`, y is a cover of x, LESS-THAN WITH DOT
+  - `⋗`   covering relation, GREATER-THAN WITH DOT
+
+
+- Relations on numbers, `a ∣ b -> ∃m ∈ ℤ. a * m = b`
+  - `∣`   divisibility relation, `a ∣ b`, DIVIDES
+  - `∤`   divisibility relation, `a ∤ b`, DOES NOT DIVIDE
+
+Relations on ordered sets:
+  (indicate whether an object precedes or succeeds another)
+- Precedence relations
+  - `⊰`   PRECEDES UNDER RELATION
+  - `⊱`   PRECEDES UNDER RELATION
+  - `≺`   PRECEDES
+  - `⊀`     DOES NOT PRECEDE
+  - `≻`   SUCCEEDS
+  - `⊁`     DOES NOT SUCCEED
+  - `≼`   PRECEDES OR EQUAL TO
+  - `⋠`     DOES NOT PRECEDE OR EQUAL
+  - `≽`   SUCCEEDS OR EQUAL TO
+  - `⋡`     DOES NOT SUCCEED OR EQUAL
+  - `≾`   PRECEDES OR EQUIVALENT TO
+  - `≿`   SUCCEEDS OR EQUIVALENT TO
+  - `⋞`   EQUAL TO OR PRECEDES
+  - `⋟`   EQUAL TO OR SUCCEEDS
+  - `⋦`   LESS-THAN BUT NOT EQUIVALENT TO
+  - `⋧`   GREATER-THAN BUT NOT EQUIVALENT TO
+  - `⋨`   PRECEDES BUT NOT EQUIVALENT TO
+  - `⋩`   SUCCEEDS BUT NOT EQUIVALENT TO
+  - `⪯`   PRECEDES ABOVE SINGLE-LINE EQUALS SIGN
+  - `⪱`   PRECEDES ABOVE SINGLE-LINE NOT EQUAL TO
+  - `⪳`   PRECEDES ABOVE EQUALS SIGN
+  - `⪵`   PRECEDES ABOVE NOT EQUAL TO
+  - `⪷`   PRECEDES ABOVE ALMOST EQUAL TO
+  - `⪹`   PRECEDES ABOVE NOT ALMOST EQUAL TO
+  - `⪻`  DOUBLE PRECEDES
+
+- Parallelism
+  - `∥`     PARALLEL TO
+  - `∦`     NOT PARALLEL TO
+  - `⫲`     PARALLEL WITH HORIZONTAL STROKE
+  - `⫳`     PARALLEL WITH TILDE OPERATOR
+  - `⋕`     EQUAL AND PARALLEL TO
+  - `⧣`     EQUALS SIGN AND SLANTED PARALLEL
+  - `⧤`     EQUALS SIGN AND SLANTED PARALLEL WITH TILDE ABOVE
+  - `⧥`     IDENTICAL TO AND SLANTED PARALLEL
+
+Group theory
+- `⊲` NORMAL SUBGROUP OF
+- `⋪`   NOT NORMAL SUBGROUP OF
+- `⋬`   NOT NORMAL SUBGROUP OF OR EQUAL TO
+- `⊴`   NORMAL SUBGROUP OF OR EQUAL TO
+- `⊳` CONTAINS AS NORMAL SUBGROUP
+- `⋫`   DOES NOT CONTAIN AS NORMAL SUBGROUP
+- `⋭`   DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL
+- `⊵`   CONTAINS AS NORMAL SUBGROUP OR EQUAL TO
+
+Image
+- `⊏`   SQUARE IMAGE OF
+- `⋢`   NOT SQUARE IMAGE OF OR EQUAL TO
+- `⋤`   SQUARE IMAGE OF OR NOT EQUAL TO
+- `⊑`   SQUARE IMAGE OF OR EQUAL TO
+- `⊐`   SQUARE ORIGINAL OF
+- `⊒`   SQUARE ORIGINAL OF OR EQUAL TO
+- `⋣`   NOT SQUARE ORIGINAL OF OR EQUAL TO
+- `⋥`   SQUARE ORIGINAL OF OR NOT EQUAL TO
+- `⊔`   SQUARE CUP
+- `⊓`   SQUARE CAP
+- `⊷`   IMAGE OF
+- `⊶`   ORIGINAL OF
+
+Misc relations
+- `≬ `    BETWEEN
+
+Logic relations
+- `⊤`    DOWN TACK
+- `⊥`    UP TACK
+- `⊢`    RIGHT TACK
+- `⊣`    LEFT TACK
+- `⊦`  ASSERTION
+- `⊩`  FORCES
+- `⊬`  DOES NOT PROVE
+- `⊮`  DOES NOT FORCE
+- `⊪`  TRIPLE VERTICAL BAR RIGHT TURNSTILE
+- `⊧`  MODELS
+- `⊨`  TRUE
+- `⊭`  NOT TRUE
+- `⊫`  DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE
+- `⊯`  NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE
+
+
+
+---
+
+Operations:
+- `⋔`   PITCHFORK
+- `⊺`   INTERCALATE
+- `⊸`   MULTIMAP
+- `⊻`   XOR
+- `⊼`   NAND
+- `⊽`   NOR
+- `⊾`   RIGHT ANGLE WITH ARC
+- `⊿`   RIGHT TRIANGLE
+- `⊌`   MULTISET
+- `⊍`   MULTISET MULTIPLICATION
+- `⊎`   MULTISET UNION
+- `⊞`   SQUARED PLUS
+- `⊟`   SQUARED MINUS
+- `⊠`   SQUARED TIMES
+- `⊡`   SQUARED DOT OPERATOR
+- `⊕`   CIRCLED PLUS
+- `⊖`   CIRCLED MINUS
+- `⊗`   CIRCLED TIMES
+- `⊘`   CIRCLED DIVISION SLASH
+- `⊙`   CIRCLED DOT OPERATOR
+- `⊚`   CIRCLED RING OPERATOR
+- `⊛`   CIRCLED ASTERISK OPERATOR
+- `⊜`   CIRCLED EQUALS
+- `⊝`   CIRCLED DASH
+- `⋎`    CURLY LOGICAL OR
+- `⋏`    CURLY LOGICAL AND
+- `⋀`   N-ARY LOGICAL AND
+- `⋁`   N-ARY LOGICAL OR
+- `⋂`   N-ARY INTERSECTION
+- `⋃`   N-ARY UNION
+- `⋄`   DIAMOND OPERATOR
+- `⋅`   DOT OPERATOR
+- `⋆`   STAR OPERATOR
+- `⋇`   DIVISION TIMES
+- `∀`     FOR ALL
+- `∁`     COMPLEMENT
+- `∂`     PARTIAL DIFFERENTIAL
+- `∃`     THERE EXISTS
+- `∄`     THERE DOES NOT EXIST
+- `∅`     EMPTY SET
+- `∆`     INCREMENT
+- `∇`     NABLA
+- `⋮`   VERTICAL ELLIPSIS
+- `⋯`  MIDLINE HORIZONTAL ELLIPSIS
+- `⋰`  UP RIGHT DIAGONAL ELLIPSIS
+- `⋱`  DOWN RIGHT DIAGONAL ELLIPSIS
+- `⋈`   BOWTIE
+- `⋉`   LEFT NORMAL FACTOR SEMIDIRECT PRODUCT
+- `⋊`   RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT
+- `⋋`   LEFT SEMIDIRECT PRODUCT
+- `⋌`   RIGHT SEMIDIRECT PRODUCT
+- `∻`     HOMOTHETIC
+- `∼`     TILDE OPERATOR
+- `≁`     NOT TILDE
+- `∽`     REVERSED TILDE
+- `≀`     WREATH PRODUCT
+- `∾`     INVERTED LAZY S
+- `∿`     SINE WAVE
+- `≋`     TRIPLE TILDE
+- `≂`     MINUS TILDE
+- `⋍`     REVERSED TILDE EQUALS
+- `≃`     ASYMPTOTICALLY EQUAL TO
+- `≄`     NOT ASYMPTOTICALLY EQUAL TO
+- `≅`     APPROXIMATELY EQUAL TO
+- `≆`     APPROXIMATELY BUT NOT ACTUALLY EQUAL TO
+- `≇`     NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
+- `≈`     ALMOST EQUAL TO
+- `≉`     NOT ALMOST EQUAL TO
+- `≊`     ALMOST EQUAL OR EQUAL TO
+- `≌`     ALL EQUAL TO
+- `≍`     EQUIVALENT TO
+- `≏`     DIFFERENCE BETWEEN
+- `∸`     DOT MINUS
+- `∹`     EXCESS
+- `−`     MINUS SIGN
+- `∓`     MINUS-OR-PLUS SIGN
+- `∔`     DOT PLUS
+- `∗`     ASTERISK OPERATOR
+- `∘`     RING OPERATOR
+- `∙`     BULLET OPERATOR
+- `∝`     PROPORTIONAL TO
+
+- `∏`     N-ARY PRODUCT
+- `∐`     N-ARY COPRODUCT
+- `∑`     N-ARY SUMMATION
+- `∴`     THEREFORE
+- `∵`     BECAUSE
+- `∷`     PROPORTION
+- `∶`     RATIO
+- `∎`     END OF PROOF
+- `∞`     INFINITY
+- `∟`     RIGHT ANGLE
+- `∠`     ANGLE
+- `∡`     MEASURED ANGLE
+- `∢`     SPHERICAL ANGLE
+- `∧`     LOGICAL AND
+- `∨`     LOGICAL OR
+- `∩`     INTERSECTION
+- `∪`     UNION
+- `∖`     SET MINUS
+- `∕`     DIVISION SLASH
+- `√`     SQUARE ROOT
+- `∛`     CUBE ROOT
+- `∜`     FOURTH ROOT
+- `∫`     INTEGRAL
+- `∬`     DOUBLE INTEGRAL
+- `∭`     TRIPLE INTEGRAL
+- `∮`     CONTOUR INTEGRAL
+- `∯`     SURFACE INTEGRAL
+- `∰`     VOLUME INTEGRAL
+- `∱`     CLOCKWISE INTEGRAL
+- `∲`     CLOCKWISE CONTOUR INTEGRAL
+- `∳`     ANTICLOCKWISE CONTOUR INTEGRAL

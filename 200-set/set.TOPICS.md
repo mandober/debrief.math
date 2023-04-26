@@ -1,9 +1,9 @@
-# Set Theory: TOPICS
+# Set Theory :: (meta) :: TOPICS
 
 https://en.wikipedia.org/wiki/List_of_set_theory_topics
 
 
-- Set fundamentals
+- *Set fundamentals*
   - Memebership
   - Inclusion
     - Subset
@@ -11,7 +11,7 @@ https://en.wikipedia.org/wiki/List_of_set_theory_topics
     - Superset
     - Powerset
   - Fundamental sets
-- Set operations
+- *Set operations*
     - Union
     - Intersection
     - Difference
@@ -22,34 +22,39 @@ https://en.wikipedia.org/wiki/List_of_set_theory_topics
     - Cartesian product
     - Ordered pair
     - n-tuples
-  - Set paradoxes
-    - Cantor's paradox
-    - Russell's paradox
-  - Set Cardinality
-    - Finite sets
-      - Countable Finite Sets
-      - Uncountable Finite Sets
-    - Infinite sets
-      - Countable Infinite Sets
-      - Uncountable Infinite Sets
-  - Reduction
-  - Equinumerousity
-  - Comparing sets
-  - Set theory
-    - Non-axiomatic theory
-    - Axiomatic theory
-  - Set theories
-    - Naive set theories
-    - Axiomatic set theories
-      - ZFC Axioms:
-        1. Axiom of Extensionality
-        2. Axiom of Regularity (Axiom of Foundation)
-        3. Axiom Schema of Specification
-        4. Axiom of Pairing
-        5. Axiom of Union
-        6. Axiom Schema of Replacement
-        7. Axiom of Infinity
-        8. Axiom of Power Set
-        9. Well-ordering theorem
-      - Axiom of Empty Set
-      - Axiom of Choice
+- Set paradoxes
+  - Cantor's paradox
+  - Russell's paradox
+- Set Cardinality
+  - Finite sets
+    - Countable Finite Sets
+    - Uncountable Finite Sets
+  - Infinite sets
+    - Countable Infinite Sets
+    - Uncountable Infinite Sets
+- Reduction
+- Equinumerousity
+- Comparing sets
+
+- set-theory-classification
+  - factors of classification
+  - Naive set theories
+  - Axiomatic set theories
+    - standard
+    - non-standard
+    - conservative extensions of ZF
+    - non-conservative extensions of ZF
+    - more classes according to features
+
+- set-theory-axioms
+  - Axiom of Extensionality
+  - Axiom of Regularity (Axiom of Foundation)
+  - Axiom Schema of Specification
+  - Axiom of Pairing
+  - Axiom of Union
+  - Axiom Schema of Replacement
+  - Axiom of Infinity
+  - Axiom of Power Set
+  - Well-ordering theorem
+  - Axiom of Empty Set
+  - Axiom of Choice

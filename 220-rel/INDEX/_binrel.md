@@ -1,7 +1,5 @@
 # Binary relation
 
-
-
 ## List of properties
 Important properties that a binary relation may have include:
 - reflexivity, irreflexivity, coreflexivity

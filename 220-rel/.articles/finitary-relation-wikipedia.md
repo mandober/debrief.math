@@ -88,21 +88,21 @@ In 1970, [Edgar Codd][67] proposed a [relational model][68] for [databases][69],
 
 ## Bibliography\[[edit][74]\]
 
--   [Codd, Edgar Frank][75] (1990). [*The Relational Model for Database Management: Version 2*][76] (PDF). Boston: [Addison-Wesley][77]. [ISBN][78] [978-0201141924][79].
+-   [Codd, Edgar Frank][75] (1990). [*The Relational Model for Database Management: Version 2*][76] (PDF). Boston: [Addison-Wesley][77]. [ISBN][78] [978-0201141924][79].
 -   [Bourbaki, N.][80] (1994) *Elements of the History of Mathematics*, John Meldrum, trans. Springer-Verlag.
 -   [Carnap, Rudolf][81] (1958) *Introduction to Symbolic Logic with Applications*. Dover Publications.
 -   [Halmos, P.R.][82] (1960) *Naive Set Theory*. Princeton NJ: D. Van Nostrand Company.
 -   [Lawvere, F.W.][83], and R. Rosebrugh (2003) *Sets for Mathematics*, Cambridge Univ. Press.
--   [Lewis, C.I.][84] (1918) [A Survey of Symbolic Logic][85], Chapter 3: Applications of the Boole—Schröder Algebra, via [Internet Archive][86]
+-   [Lewis, C.I.][84] (1918) [A Survey of Symbolic Logic][85], Chapter 3: Applications of the Boole-Schröder Algebra, via [Internet Archive][86]
 -   [Lucas, J. R.][87] (1999) *Conceptual Roots of Mathematics*. Routledge.
--   [Maddux, R.D.][88] (2006) *Relation Algebras*, vol. 150 in 'Studies in Logic and the Foundations of Mathematics'. Elsevier Science.
+-   [Maddux, R.D.][88] (2006) *Relation Algebras*, vol. 150 in 'Studies in Logic and the Foundations of Mathematics'. Elsevier Science.
 -   Merrill, Dan D. (1990) *Augustus De Morgan and the logic of relations*. Kluwer.
--   [Peirce, C.S.][89] (1870), "Description of a Notation for the Logic of Relatives, Resulting from an Amplification of the Conceptions of Boole's Calculus of Logic", *Memoirs of the American Academy of Arts and Sciences* 9, 317–78, 1870. Reprinted, *Collected Papers* CP 3.45–149, *Chronological Edition* CE 2, 359–429.
+-   [Peirce, C.S.][89] (1870), "Description of a Notation for the Logic of Relatives, Resulting from an Amplification of the Conceptions of Boole's Calculus of Logic", *Memoirs of the American Academy of Arts and Sciences* 9, 317-78, 1870. Reprinted, *Collected Papers* CP 3.45-149, *Chronological Edition* CE 2, 359-429.
 -   [Peirce, C.S.][90] (1984) *Writings of Charles S. Peirce: A Chronological Edition, Volume 2, 1867-1871*. Peirce Edition Project, eds. Indiana University Press.
 -   [Russell, Bertrand][91] (1903/1938) *[The Principles of Mathematics, 2nd ed.][92]* Cambridge Univ. Press.
 -   [Suppes, Patrick][93] (1960/1972) *Axiomatic Set Theory*. Dover Publications.
 -   [Tarski, A.][94] (1956/1983) *Logic, Semantics, Metamathematics, Papers from 1923 to 1938*, J.H. Woodger, trans. 1st edition, Oxford University Press. 2nd edition, J. Corcoran, ed. Indianapolis IN: Hackett Publishing.
--   [Ulam, S.M.][95] and [Bednarek, A.R.][96] (1990), "On the Theory of Relational Structures and Schemata for Parallel Computation", pp. 477–508 in A.R. Bednarek and Françoise Ulam (eds.), *Analogies Between Analogies: The Mathematical Reports of S.M. Ulam and His Los Alamos Collaborators*, University of California Press, Berkeley, CA.
+-   [Ulam, S.M.][95] and [Bednarek, A.R.][96] (1990), "On the Theory of Relational Structures and Schemata for Parallel Computation", pp. 477-508 in A.R. Bednarek and Françoise Ulam (eds.), *Analogies Between Analogies: The Mathematical Reports of S.M. Ulam and His Los Alamos Collaborators*, University of California Press, Berkeley, CA.
 -   [Ulam, S.M.][97] (1990) *Analogies Between Analogies: The Mathematical Reports of S.M. Ulam and His Los Alamos Collaborators* in A.R. Bednarek and Françoise Ulam, eds., University of California Press.
 -   [Roland Fraïssé][98] (2000) \[1986\] *Theory of Relations*, North Holland
 

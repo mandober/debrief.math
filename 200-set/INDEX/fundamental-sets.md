@@ -1,48 +1,51 @@
-# Fundamental sets
+# Set theory :: Index :: Fundamental sets
 
-Numbers are classified into sets according to their properties:
-* the set of natural numbers
-* the set of integers
-* the set of rational numbers
-* the set of real numbers
-* the set of complex numbers
+This is an enumeration of sets considered to be fundamental in mathematics. As such they have a name, and most have a symbol uniquely associated with them.
+
+- Fundamental sets
+  - General sets
+    - the empty set, `∅`
+    - the universal set, `𝓤`
+    - the powerset, `𝒫(S)`
+  - Number sets
+    - Basic number sets
+      - `𝔹`, the Boolean domain
+      - `ℕ`, the set of natural numbers
+      - `ℤ`, the set of integers
+      - `ℚ`, the set of rational numbers
+      - `ℝ`, the set of real numbers
+      - `ℂ`, the set of complex numbers
+    - Extended basic number sets
+      - `ℍ`, the set of Hamiltonian numbers
+      - `𝕆`, the set of octinion numbers
+    - Other number sets
+      - `ℙ`, the set of prime numbers
+      - `𝔸`, the set of algebraic numbers
+
+    - All number sets and derived sets
+      - the set of natural numbers, `ℕ`, ℕ = {0,1,2,…}
+        - the set of positive natural numbers, `ℕᐩ`, ℕ ∖ {0}
+        - the set of whole numbers, `𝕎` (usually, 𝕎 = ℕᐩ)
+        - the set of prime numbers, `ℙ`
+        - the set of composite numbers, ℕ ∖ ℙ
+      - the set of integers, `ℤ` (from German 'Zahlen')
+        - the set of odd numbers
+        - the set of even numbers
+        - the set of mod `m` numbers, `ℤ/mℤ`
+          - the set of mod 2 numbers, `ℤ/2ℤ`
+          - the set of mod 3 numbers, `ℤ/3ℤ`
+        - the set of positive integers, `ℤᐩ`
+        - the set of negative integers, `ℤ⁻`
+        - the set of non-negative integers, `ℤᐩ ∪ {0}`
+        - the set of non-positive integers, `ℤ⁻ ∪ {0}`
+        - ℤ ∪ {⁻∞, ᐩ∞}
+      - the set of rational numbers, `ℚ` (from 'quotient')
+        - `ℚ = {p/q : p ∈ ℤ, q ∈ ℕ }`
+        - ℚ ∪ {⁻∞, ᐩ∞}
+      - the set of real numbers, `ℝ`
+        - ℝ ∪ {⁻∞, ᐩ∞}
+      - the set of complex numbers, `ℂ`
+        - `ℂ = {a,b,i | a,b ∈ ℝ} i = √-1`
 
 
-
-The most fundamental number sets have their own unique identifier:
-* 𝔹, the set of the Booleans, $$\mathbb{B}$$
-* ℕ, the set of the natural numbers, $$\mathbb{N}$$
-* ℤ, the set of the integers, $$\mathbb{Z}$$ (from ger. Zahl "number")
-* ℚ, the set of the rational numbers, $$\mathbb{Q}$$ (from quotient)
-* ℝ, the set of the real numbers, $$\mathbb{R}$$
-* ℂ, the set of the complex numbers, $$\mathbb{C}$$
-* ℍ, the set of the quaternions, $$\mathbb{H}$$
-* 𝕆, the set of the octonions, $$\mathbb{O}$$
-* Their relation: $$\varnothing\subset \mathbb{N}\subset \mathbb{Z}\subset \mathbb{Q}\subset \mathbb{R} \subset \mathbb{C}$$
-
-
-
-and these number sets, being so fundamental in mathematics, that each has a name and a special symbol to denote it.
-
-Each number set is infinite, but the set of natural numbers, the set of integers and the set of rational numbers is countably infinite, while the set of real numbers and the set of complex numbers numbers are bigger, uncountable, infinities.
-
-
-- $$\mathbb{B}$$ is the finite set of boolean values (or Boolean domain)    
-  $$\quad \{\bot,\top\}$$ or $$\{F,T\}$$ or $$\{0,1\}$$
-- $$\mathbb{N}$$ is countable infinite set of natural numbers     
-  $$\quad \mathbb{N}=\{0,1,2,3,\dots\}$$
-- $$\mathbb{Z}$$ is countable infinite set of integers     
-  $$\quad \mathbb{Z}=\{\dots,-2,-1,0,1,2,\dots\}$$.     
-- $$\mathbb{Q}$$ is countable infinite set of rational numbers     
-  $$\quad \{p/q : p \in\mathbb{Z}, q\in \mathbb{N}\land q\neq 0\}$$
-- $$\mathbb{R}$$ is uncountable infinite set of real numbers.    
-  It has various kinds of infinities.
-- $$\mathbb{C}$$ is uncountable infinite set of complex numbers    
-  $$\quad \{a,b\,i:a,b\in\mathbb{R}\}, \quad i=\sqrt{-1}$$
-
-Inclusion relation of number sets:
-$$\mathbb{N}\subseteq \mathbb{Z}\subseteq \mathbb{Q}\subseteq \mathbb{R} \subseteq \mathbb{C} \subseteq \mathbb{H}$$
-
-N⊆Z⊆Q⊆R⊆C⊆H
-
-N ⊆ Z ⊆ Q ⊆ R ⊆ C ⊆ H
+The inclusion relation of number sets: `𝔹 ⊆ ℕ ⊆ ℤ ⊆ ℚ ⊆ ℝ ⊆ ℂ ⊆ ℍ ⊆ 𝕆`

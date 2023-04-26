@@ -65,21 +65,21 @@ Proofs
 
 ## References\[[edit][55]\]
 
-1.  __[^][56]__ Clapham, Christopher; Nicholson, James (2014-09-18). "connected". [*The Concise Oxford Dictionary of Mathematics*][57]. Oxford University Press. [ISBN][58] [978-0-19-967959-1][59]. Retrieved 2021-04-12.
-2.  __[^][60]__ Nievergelt, Yves (2015-10-13). [*Logic, Mathematics, and Computer Science: Modern Foundations with Practical Applications*][61]. Springer. p. 182. [ISBN][62] [978-1-4939-3223-8][63].
-3.  __[^][64]__ Causey, Robert L. (1994). *Logic, Sets, and Recursion*. Jones & Bartlett Learning. [ISBN][65] [0-86720-463-X][66]., p. 135
+1.  __[^][56]__ Clapham, Christopher; Nicholson, James (2014-09-18). "connected". [*The Concise Oxford Dictionary of Mathematics*][57]. Oxford University Press. [ISBN][58] [978-0-19-967959-1][59]. Retrieved 2021-04-12.
+2.  __[^][60]__ Nievergelt, Yves (2015-10-13). [*Logic, Mathematics, and Computer Science: Modern Foundations with Practical Applications*][61]. Springer. p. 182. [ISBN][62] [978-1-4939-3223-8][63].
+3.  __[^][64]__ Causey, Robert L. (1994). *Logic, Sets, and Recursion*. Jones & Bartlett Learning. [ISBN][65] [0-86720-463-X][66]., p. 135
 4.  __[^][67]__ Paul R. Halmos (1968). *Naive Set Theory*. Princeton: Nostrand. Here: Ch.14. Halmos gives the names of reflexivity, anti-symmetry, and transitivity, but not of connectedness.
-5.  __[^][68]__ Patrick Cousot (1990). "Methods and Logics for Proving Programs". In Jan van Leeuwen (ed.). *Formal Models and Semantics*. Handbook of Theoretical Computer Science. __B__. Elsevier. pp. 841–993. [ISBN][69] [0-444-88074-7][70]. Here: Sect.6.3, p.878
-6.  ^ [*__a__*][71] [*__b__*][72] Aliprantis, Charalambos D.; Border, Kim C. (2007-05-02). *Infinite Dimensional Analysis: A Hitchhiker's Guide*. Springer. [ISBN][73] [978-3-540-32696-0][74]., p. 6
-7.  __[^][75]__ Makinson, David (2012-02-27). *Sets, Logic and Maths for Computing*. Springer. [ISBN][76] [978-1-4471-2500-6][77]., p. 50
+5.  __[^][68]__ Patrick Cousot (1990). "Methods and Logics for Proving Programs". In Jan van Leeuwen (ed.). *Formal Models and Semantics*. Handbook of Theoretical Computer Science. __B__. Elsevier. pp. 841-993. [ISBN][69] [0-444-88074-7][70]. Here: Sect.6.3, p.878
+6.  ^ [*__a__*][71] [*__b__*][72] Aliprantis, Charalambos D.; Border, Kim C. (2007-05-02). *Infinite Dimensional Analysis: A Hitchhiker's Guide*. Springer. [ISBN][73] [978-3-540-32696-0][74]., p. 6
+7.  __[^][75]__ Makinson, David (2012-02-27). *Sets, Logic and Maths for Computing*. Springer. [ISBN][76] [978-1-4471-2500-6][77]., p. 50
 8.  __[^][78]__ [Whitehead, Alfred North][79]; [Russell, Bertrand][80] (1910). [*Principia Mathematica*][81]. Cambridge: Cambridge University Press.CS1 maint: date and year ([link][82])
 9.  __[^][83]__ Wall, Robert E. (1974). *Introduction to Mathematical Linguistics*. Prentice-Hall. page 114.
 10.  __[^][84]__ Carl Pollard. ["Relations and Functions"][85] (PDF). Ohio State University. Retrieved 2018-05-28. Page 7.
-11.  __[^][86]__ Kunen, Kenneth (2009). *The Foundations of Mathematics*. College Publications. [ISBN][87] [978-1-904987-14-7][88]. p. 24
-12.  __[^][89]__ Fishburn, Peter C. (2015-03-08). [*The Theory of Social Choice*][90]. Princeton University Press. p. 72. [ISBN][91] [978-1-4008-6833-9][92].
-13.  __[^][93]__ Roberts, Fred S. (2009-03-12). *Measurement Theory: Volume 7: With Applications to Decisionmaking, Utility, and the Social Sciences*. Cambridge University Press. [ISBN][94] [978-0-521-10243-8][95]. page 29
-14.  ^ [*__a__*][96] [*__b__*][97] [*__c__*][98] [Schmidt, Gunther][99]; Ströhlein, Thomas (1993). [*Relations and Graphs: Discrete Mathematics for Computer Scientists*][100]. Berlin: Springer. [ISBN][101] [978-3-642-77970-1][102].
-15.  __[^][103]__ Ganter, Bernhard; Wille, Rudolf (2012-12-06). *Formal Concept Analysis: Mathematical Foundations*. Springer Science & Business Media. [ISBN][104] [978-3-642-59830-2][105]. p. 86
+11.  __[^][86]__ Kunen, Kenneth (2009). *The Foundations of Mathematics*. College Publications. [ISBN][87] [978-1-904987-14-7][88]. p. 24
+12.  __[^][89]__ Fishburn, Peter C. (2015-03-08). [*The Theory of Social Choice*][90]. Princeton University Press. p. 72. [ISBN][91] [978-1-4008-6833-9][92].
+13.  __[^][93]__ Roberts, Fred S. (2009-03-12). *Measurement Theory: Volume 7: With Applications to Decisionmaking, Utility, and the Social Sciences*. Cambridge University Press. [ISBN][94] [978-0-521-10243-8][95]. page 29
+14.  ^ [*__a__*][96] [*__b__*][97] [*__c__*][98] [Schmidt, Gunther][99]; Ströhlein, Thomas (1993). [*Relations and Graphs: Discrete Mathematics for Computer Scientists*][100]. Berlin: Springer. [ISBN][101] [978-3-642-77970-1][102].
+15.  __[^][103]__ Ganter, Bernhard; Wille, Rudolf (2012-12-06). *Formal Concept Analysis: Mathematical Foundations*. Springer Science & Business Media. [ISBN][104] [978-3-642-59830-2][105]. p. 86
 16.  __[^][106]__ Jochen Burghardt (Jun 2018). Simple Laws about Nonprominent Properties of Binary Relations (Technical Report). [arXiv][107]:[1806.05036][108]. [Bibcode][109]:[2018arXiv180605036B][110]. Lemma 8.2, p.8.
 
 [1]: https://en.wikipedia.org/w/index.php?title=Connex_relation&redirect=no "Connex relation"

@@ -1,0 +1,61 @@
+# TT features
+
+- type classes
+- type-checking
+- reflection
+- tactics
+- termination
+  - positive data types
+  - negative data types
+- parametricity, colors (erasure)
+- Sized types
+- Sized dependent types
+- Telescopes
+- hidden/named arguments
+- Proof/instance search and unification
+- meta-theorems
+  - presuppositionality
+  - inversion
+  - admissibility of substitution
+  - function extensionality
+- Equality
+  - identity types
+  - equality reflection
+  - judgmental equalities
+  - def equalities
+  - J-eliminator (aka path induction)
+  - equivalence
+  - isomorphism
+  - embedding
+- predicativity
+- universes
+  - `Setω`
+  - `SSet`
+  - `SSetω`
+  - universe comulativity
+- function extensionality
+- propositions, Prop
+  - truncation of propositions
+  - subsingleton types
+- dependent pattern-matching
+- copatterns
+- coinduction
+- hott agda
+  - fibrations
+  - set quotient
+  - axiom K
+  - circle
+  - point, path, …
+  - topology
+    - Hopf fibration
+    - cohomology groups
+- cubical agda
+  - `{-# OPTIONS --cubical #-}`
+  - hprop
+  - interval (pre-)type
+  - higher inductive types
+  - Glue types
+  - Kan operations
+  - J-eliminator (aka path induction)
+  - transport
+  - Univalence Axiom - Univalence theorem since provable in cubical

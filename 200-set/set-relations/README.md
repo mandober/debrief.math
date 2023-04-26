@@ -1,9 +1,6 @@
 # Set relations
 
-- Sets
-  - Set properties and relations
-    - Set properties
-    - Set relations
+Relations between or on sets
 
 - Set properties
   - cardinality

@@ -1,0 +1,28 @@
+# list-of-mathematical-theories
+
+- set theory
+  - relation theory
+  - order theory
+  - domain theory
+  - function theory
+- representation theory
+  - group theory
+  - ring theory
+  - field theory
+  - lattice theory
+- character theory
+- proof theory
+- model theory
+- theory of computation
+  - computability theory
+    - recursion theory
+  - automata theory
+  - formal language theory
+    - programming language theory
+- probability theory
+  - queueing theory
+- wheel theory
+- type theory
+- game theory
+- knot theory
+- control Theory

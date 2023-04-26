@@ -138,8 +138,8 @@ The complement of the [converse relation][137]  is the converse of the complemen
 If  the complement has the following properties:
 
 -   If a relation is symmetric, then so is the complement.
--   The complement of a reflexive relation is irreflexive—and vice versa.
--   The complement of a [strict weak order][138] is a total preorder—and vice versa.
+-   The complement of a reflexive relation is irreflexive-and vice versa.
+-   The complement of a [strict weak order][138] is a total preorder-and vice versa.
 
 ### Restriction\[[edit][139]\]
 
@@ -167,7 +167,7 @@ Certain mathematical "relations", such as "equal to", "subset of", and "member o
 
 In most mathematical contexts, references to the relations of equality, membership and subset are harmless because they can be understood implicitly to be restricted to some set in the context. The usual work-around to this problem is to select a "large enough" set *A*, that contains all the objects of interest, and work with the restriction =*A* instead of =. Similarly, the "subset of" relation  needs to be restricted to have domain and codomain P(*A*) (the power set of a specific set *A*): the resulting set relation can be denoted by  Also, the "member of" relation needs to be restricted to have domain *A* and codomain P(*A*) to obtain a binary relation  that is a set. Bertrand Russell has shown that assuming  to be defined over all sets leads to a [contradiction][174] in naive set theory.
 
-Another solution to this problem is to use a set theory with proper classes, such as [NBG][175] or [Morse–Kelley set theory][176], and allow the domain and codomain (and so the graph) to be [proper classes][177]: in such a theory, equality, membership, and subset are binary relations without special comment. (A minor modification needs to be made to the concept of the ordered triple (*X*, *Y*, *G*), as normally a proper class cannot be a member of an ordered tuple; or of course one can identify the binary relation with its graph in this context.)[\[23\]][178] With this definition one can for instance define a binary relation over every set and its power set.
+Another solution to this problem is to use a set theory with proper classes, such as [NBG][175] or [Morse-Kelley set theory][176], and allow the domain and codomain (and so the graph) to be [proper classes][177]: in such a theory, equality, membership, and subset are binary relations without special comment. (A minor modification needs to be made to the concept of the ordered triple (*X*, *Y*, *G*), as normally a proper class cannot be a member of an ordered tuple; or of course one can identify the binary relation with its graph in this context.)[\[23\]][178] With this definition one can for instance define a binary relation over every set and its power set.
 
 ## Homogeneous relation\[[edit][179]\]
 
@@ -299,7 +299,7 @@ Given two sets *A* and *B*, the set of binary relations between them  can be equ
 
 > There is a pleasant symmetry in Wagner's work between heaps, semiheaps, and generalised heaps on the one hand, and groups, semigroups, and generalised groups on the other. Essentially, the various types of semiheaps appear whenever we consider binary relations (and partial one-one mappings) between *different* sets *A* and *B*, while the various types of semigroups appear in the case where *A* = *B*.
 > 
-> — Christopher Hollings, "Mathematics across the Iron Curtain: a history of the algebraic theory of semigroups"[\[47\]][296]
+> - Christopher Hollings, "Mathematics across the Iron Curtain: a history of the algebraic theory of semigroups"[\[47\]][296]
 
 ## See also\[[edit][297]\]
 
@@ -310,67 +310,67 @@ Given two sets *A* and *B*, the set of binary relations between them  can be equ
 ## References\[[edit][302]\]
 
 1.  **[^][303]** Meyer, Albert (17 November 2021). ["MIT 6.042J Math for Computer Science, Lecture 3T, Slide 2"][304] (PDF).
-2.  ^ [Jump up to: ***a***][305] [***b***][306] [***c***][307] [***d***][308] [***e***][309] [***f***][310] [***g***][311] [***h***][312] Codd, Edgar Frank (June 1970). ["A Relational Model of Data for Large Shared Data Banks"][313] (PDF). *Communications of the ACM*. **13** (6): 377–387. [doi][314]:[10.1145/362384.362685][315]. [S2CID][316] [207549016][317]. Retrieved 2020-04-29.
-3.  **[^][318]** ["Relation definition – Math Insight"][319]. *mathinsight.org*. Retrieved 2019-12-11.
+2.  ^ [Jump up to: ***a***][305] [***b***][306] [***c***][307] [***d***][308] [***e***][309] [***f***][310] [***g***][311] [***h***][312] Codd, Edgar Frank (June 1970). ["A Relational Model of Data for Large Shared Data Banks"][313] (PDF). *Communications of the ACM*. **13** (6): 377-387. [doi][314]:[10.1145/362384.362685][315]. [S2CID][316] [207549016][317]. Retrieved 2020-04-29.
+3.  **[^][318]** ["Relation definition - Math Insight"][319]. *mathinsight.org*. Retrieved 2019-12-11.
 4.  ^ [Jump up to: ***a***][320] [***b***][321] [Ernst Schröder][322] (1895) [Algebra und Logic der Relative][323], via [Internet Archive][324]
 5.  ^ [Jump up to: ***a***][325] [***b***][326] [C. I. Lewis][327] (1918) [A Survey of Symbolic Logic][328] , pages 269 to 279, via internet Archive
-6.  ^ [Jump up to: ***a***][329] [***b***][330] [***c***][331] [Gunther Schmidt][332], 2010. *Relational Mathematics*. Cambridge University Press, [ISBN][333] [978-0-521-76268-7][334], Chapt. 5
-7.  **[^][335]** Jacobson, Nathan (2009), [Basic Algebra II (2nd ed.)][336] § 2.1.
+6.  ^ [Jump up to: ***a***][329] [***b***][330] [***c***][331] [Gunther Schmidt][332], 2010. *Relational Mathematics*. Cambridge University Press, [ISBN][333] [978-0-521-76268-7][334], Chapt. 5
+7.  **[^][335]** Jacobson, Nathan (2009), [Basic Algebra II (2nd ed.)][336] § 2.1.
 8.  **[^][337]** [Enderton 1977][338], Ch 3. pg. 40
-9.  **[^][339]** Hans Hermes (1973). *Introduction to Mathematical Logic*. Hochschultext (Springer-Verlag). London: Springer. [ISBN][340] [3540058192][341]. [ISSN][342] [1431-4657][343]. Sect.II.§1.1.4
-10.  **[^][344]** [Suppes, Patrick][345] (1972) \[originally published by D. van Nostrand Company in 1960\]. [*Axiomatic Set Theory*][346]. Dover. [ISBN][347] [0-486-61630-4][348].
-11.  **[^][349]** [Smullyan, Raymond M.][350]; Fitting, Melvin (2010) \[revised and corrected republication of the work originally published in 1996 by Oxford University Press, New York\]. *Set Theory and the Continuum Problem*. Dover. [ISBN][351] [978-0-486-47484-7][352].
-12.  **[^][353]** [Levy, Azriel][354] (2002) \[republication of the work published by Springer-Verlag, Berlin, Heidelberg and New York in 1979\]. *Basic Set Theory*. Dover. [ISBN][355] [0-486-42079-5][356].
-13.  **[^][357]** [Schmidt, Gunther][358]; Ströhlein, Thomas (2012). [*Relations and Graphs: Discrete Mathematics for Computer Scientists*][359]. Springer Science & Business Media. Definition 4.1.1. [ISBN][360] [978-3-642-77968-8][361].
-14.  **[^][362]** [Christodoulos A. Floudas][363]; Panos M. Pardalos (2008). [*Encyclopedia of Optimization*][364] (2nd ed.). Springer Science & Business Media. pp. 299–300. [ISBN][365] [978-0-387-74758-3][366].
-15.  ^ [Jump up to: ***a***][367] [***b***][368] [***c***][369] Michael Winter (2007). *Goguen Categories: A Categorical Approach to L-fuzzy Relations*. Springer. pp. x–xi. [ISBN][370] [978-1-4020-6164-6][371].
+9.  **[^][339]** Hans Hermes (1973). *Introduction to Mathematical Logic*. Hochschultext (Springer-Verlag). London: Springer. [ISBN][340] [3540058192][341]. [ISSN][342] [1431-4657][343]. Sect.II.§1.1.4
+10.  **[^][344]** [Suppes, Patrick][345] (1972) \[originally published by D. van Nostrand Company in 1960\]. [*Axiomatic Set Theory*][346]. Dover. [ISBN][347] [0-486-61630-4][348].
+11.  **[^][349]** [Smullyan, Raymond M.][350]; Fitting, Melvin (2010) \[revised and corrected republication of the work originally published in 1996 by Oxford University Press, New York\]. *Set Theory and the Continuum Problem*. Dover. [ISBN][351] [978-0-486-47484-7][352].
+12.  **[^][353]** [Levy, Azriel][354] (2002) \[republication of the work published by Springer-Verlag, Berlin, Heidelberg and New York in 1979\]. *Basic Set Theory*. Dover. [ISBN][355] [0-486-42079-5][356].
+13.  **[^][357]** [Schmidt, Gunther][358]; Ströhlein, Thomas (2012). [*Relations and Graphs: Discrete Mathematics for Computer Scientists*][359]. Springer Science & Business Media. Definition 4.1.1. [ISBN][360] [978-3-642-77968-8][361].
+14.  **[^][362]** [Christodoulos A. Floudas][363]; Panos M. Pardalos (2008). [*Encyclopedia of Optimization*][364] (2nd ed.). Springer Science & Business Media. pp. 299-300. [ISBN][365] [978-0-387-74758-3][366].
+15.  ^ [Jump up to: ***a***][367] [***b***][368] [***c***][369] Michael Winter (2007). *Goguen Categories: A Categorical Approach to L-fuzzy Relations*. Springer. pp. x-xi. [ISBN][370] [978-1-4020-6164-6][371].
 16.  **[^][372]** [][373] [Relative simultaneity][374] at Wikibooks
-17.  **[^][375]** Beth, Thomas; [Jungnickel, Dieter][376]; [Lenz, Hanfried][377] (1986). *Design Theory*. [Cambridge University Press][378]. p. 15.. 2nd ed. (1999) [ISBN][379] [978-0-521-44432-3][380]
-18.  ^ [Jump up to: ***a***][381] [***b***][382] [***c***][383] [***d***][384] Kilp, Knauer and Mikhalev: p. 3. The same four definitions appear in the following:
+17.  **[^][375]** Beth, Thomas; [Jungnickel, Dieter][376]; [Lenz, Hanfried][377] (1986). *Design Theory*. [Cambridge University Press][378]. p. 15.. 2nd ed. (1999) [ISBN][379] [978-0-521-44432-3][380]
+18.  ^ [Jump up to: ***a***][381] [***b***][382] [***c***][383] [***d***][384] Kilp, Knauer and Mikhalev: p. 3. The same four definitions appear in the following:
     
-    -   Peter J. Pahl; Rudolf Damrath (2001). *Mathematical Foundations of Computational Engineering: A Handbook*. Springer Science & Business Media. p. 506. [ISBN][385] [978-3-540-67995-0][386].
-    -   [Eike Best][387] (1996). *Semantics of Sequential and Parallel Programs*. Prentice Hall. pp. 19–21. [ISBN][388] [978-0-13-460643-9][389].
-    -   Robert-Christoph Riemann (1999). *Modelling of Concurrent Systems: Structural and Semantical Methods in the High Level Petri Net Calculus*. Herbert Utz Verlag. pp. 21–22. [ISBN][390] [978-3-89675-629-9][391].
+    -   Peter J. Pahl; Rudolf Damrath (2001). *Mathematical Foundations of Computational Engineering: A Handbook*. Springer Science & Business Media. p. 506. [ISBN][385] [978-3-540-67995-0][386].
+    -   [Eike Best][387] (1996). *Semantics of Sequential and Parallel Programs*. Prentice Hall. pp. 19-21. [ISBN][388] [978-0-13-460643-9][389].
+    -   Robert-Christoph Riemann (1999). *Modelling of Concurrent Systems: Structural and Semantical Methods in the High Level Petri Net Calculus*. Herbert Utz Verlag. pp. 21-22. [ISBN][390] [978-3-89675-629-9][391].
     
-19.  **[^][392]** Mäs, Stephan (2007), "Reasoning on Spatial Semantic Integrity Constraints", *Spatial Information Theory: 8th International Conference, COSIT 2007, Melbourne, Australia, September 19–23, 2007, Proceedings*, Lecture Notes in Computer Science, **4736**, Springer, pp. 285–302, [doi][393]:[10.1007/978-3-540-74788-8\_18][394]
-20.  **[^][395]** Yao, Y.Y.; Wong, S.K.M. (1995). ["Generalization of rough sets using relationships between attribute values"][396] (PDF). *Proceedings of the 2nd Annual Joint Conference on Information Sciences*: 30–33..
-21.  **[^][397]** [John C. Baez][398] (6 Nov 2001). ["quantum mechanics over a commutative rig"][399]. [Newsgroup][400]: [sci.physics.research][401]. [Usenet:][402] [9s87n0$iv5@gap.cco.caltech.edu][403]. Retrieved November 25, 2018.
-22.  **[^][404]** Droste, M., & Kuich, W. (2009). Semirings and Formal Power Series. *Handbook of Weighted Automata*, 3–28. [doi][405]:[10.1007/978-3-642-01492-5\_1][406], pp. 7-10
-23.  **[^][407]** [Tarski, Alfred][408]; Givant, Steven (1987). [*A formalization of set theory without variables*][409]. American Mathematical Society. p. [3][410]. [ISBN][411] [0-8218-1041-3][412].
-24.  **[^][413]** M. E. Müller (2012). *Relational Knowledge Discovery*. Cambridge University Press. p. 22. [ISBN][414] [978-0-521-19021-3][415].
-25.  **[^][416]** Peter J. Pahl; Rudolf Damrath (2001). *Mathematical Foundations of Computational Engineering: A Handbook*. Springer Science & Business Media. p. 496. [ISBN][417] [978-3-540-67995-0][418].
-26.  **[^][419]** Smith, Douglas; Eggen, Maurice; St. Andre, Richard (2006), *A Transition to Advanced Mathematics* (6th ed.), Brooks/Cole, p. 160, [ISBN][420] [0-534-39900-2][421]
-27.  **[^][422]** Nievergelt, Yves (2002), *Foundations of Logic and Mathematics: Applications to Computer Science and Cryptography*, Springer-Verlag, p. [158][423].
-28.  **[^][424]** Flaška, V.; Ježek, J.; Kepka, T.; Kortelainen, J. (2007). [*Transitive Closures of Binary Relations I*][425] (PDF). Prague: School of Mathematics – Physics Charles University. p. 1. Archived from [the original][426] (PDF) on 2013-11-02. Lemma 1.1 (iv). This source refers to asymmetric relations as "strictly antisymmetric".
-29.  **[^][427]** Joseph G. Rosenstein, *Linear orderings*, Academic Press, 1982, [ISBN][428] [0-12-597680-1][429], p. 4
-30.  ^ [Jump up to: ***a***][430] [***b***][431] [Schmidt, Gunther][432]; Ströhlein, Thomas (2012). [*Relations and Graphs: Discrete Mathematics for Computer Scientists*][433]. Springer Science & Business Media. p. 77. [ISBN][434] [978-3-642-77968-8][435].
-31.  **[^][436]** G. Schmidt, Claudia Haltensperger, and Michael Winter (1997) "Heterogeneous relation algebra", chapter 3 (pages 37 to 53) in *Relational Methods in Computer Science*, Advances in Computer Science, [Springer books][437] [ISBN][438] [3-211-82971-7][439]
-32.  **[^][440]** [R. Berghammer][441] & M. Winter (2013) "Decomposition of relations on concept lattices", [Fundamenta Informaticae][442] 126(1): 37–82 [doi][443]:[10.3233/FI-2013-871][444]
-33.  **[^][445]** Ki Hang Kim (1982) *Boolean Matrix Theory and Applications*, page 37, [Marcel Dekker][446] [ISBN][447] [0-8247-1788-0][448]
+19.  **[^][392]** Mäs, Stephan (2007), "Reasoning on Spatial Semantic Integrity Constraints", *Spatial Information Theory: 8th International Conference, COSIT 2007, Melbourne, Australia, September 19-23, 2007, Proceedings*, Lecture Notes in Computer Science, **4736**, Springer, pp. 285-302, [doi][393]:[10.1007/978-3-540-74788-8\_18][394]
+20.  **[^][395]** Yao, Y.Y.; Wong, S.K.M. (1995). ["Generalization of rough sets using relationships between attribute values"][396] (PDF). *Proceedings of the 2nd Annual Joint Conference on Information Sciences*: 30-33..
+21.  **[^][397]** [John C. Baez][398] (6 Nov 2001). ["quantum mechanics over a commutative rig"][399]. [Newsgroup][400]: [sci.physics.research][401]. [Usenet:][402] [9s87n0$iv5@gap.cco.caltech.edu][403]. Retrieved November 25, 2018.
+22.  **[^][404]** Droste, M., & Kuich, W. (2009). Semirings and Formal Power Series. *Handbook of Weighted Automata*, 3-28. [doi][405]:[10.1007/978-3-642-01492-5\_1][406], pp. 7-10
+23.  **[^][407]** [Tarski, Alfred][408]; Givant, Steven (1987). [*A formalization of set theory without variables*][409]. American Mathematical Society. p. [3][410]. [ISBN][411] [0-8218-1041-3][412].
+24.  **[^][413]** M. E. Müller (2012). *Relational Knowledge Discovery*. Cambridge University Press. p. 22. [ISBN][414] [978-0-521-19021-3][415].
+25.  **[^][416]** Peter J. Pahl; Rudolf Damrath (2001). *Mathematical Foundations of Computational Engineering: A Handbook*. Springer Science & Business Media. p. 496. [ISBN][417] [978-3-540-67995-0][418].
+26.  **[^][419]** Smith, Douglas; Eggen, Maurice; St. Andre, Richard (2006), *A Transition to Advanced Mathematics* (6th ed.), Brooks/Cole, p. 160, [ISBN][420] [0-534-39900-2][421]
+27.  **[^][422]** Nievergelt, Yves (2002), *Foundations of Logic and Mathematics: Applications to Computer Science and Cryptography*, Springer-Verlag, p. [158][423].
+28.  **[^][424]** Flaška, V.; Ježek, J.; Kepka, T.; Kortelainen, J. (2007). [*Transitive Closures of Binary Relations I*][425] (PDF). Prague: School of Mathematics - Physics Charles University. p. 1. Archived from [the original][426] (PDF) on 2013-11-02. Lemma 1.1 (iv). This source refers to asymmetric relations as "strictly antisymmetric".
+29.  **[^][427]** Joseph G. Rosenstein, *Linear orderings*, Academic Press, 1982, [ISBN][428] [0-12-597680-1][429], p. 4
+30.  ^ [Jump up to: ***a***][430] [***b***][431] [Schmidt, Gunther][432]; Ströhlein, Thomas (2012). [*Relations and Graphs: Discrete Mathematics for Computer Scientists*][433]. Springer Science & Business Media. p. 77. [ISBN][434] [978-3-642-77968-8][435].
+31.  **[^][436]** G. Schmidt, Claudia Haltensperger, and Michael Winter (1997) "Heterogeneous relation algebra", chapter 3 (pages 37 to 53) in *Relational Methods in Computer Science*, Advances in Computer Science, [Springer books][437] [ISBN][438] [3-211-82971-7][439]
+32.  **[^][440]** [R. Berghammer][441] & M. Winter (2013) "Decomposition of relations on concept lattices", [Fundamenta Informaticae][442] 126(1): 37-82 [doi][443]:[10.3233/FI-2013-871][444]
+33.  **[^][445]** Ki Hang Kim (1982) *Boolean Matrix Theory and Applications*, page 37, [Marcel Dekker][446] [ISBN][447] [0-8247-1788-0][448]
 34.  **[^][449]** Ali Jaoua, Rehab Duwairi, Samir Elloumi, and Sadok Ben Yahia (2009) "Data mining, reasoning and incremental information retrieval through non enlargeable rectangular relation coverage", pages 199 to 210 in *Relations and Kleene algebras in computer science*, [Lecture Notes in Computer Science][450] 5827, Springer [MR][451][2781235][452]
-35.  **[^][453]** [Jacques Riguet][454] (1950) "Quelques proprietes des relations difonctionelles", *Comptes Rendus* 230: 1999–2000
-36.  **[^][455]** Chris Brink; Wolfram Kahl; Gunther Schmidt (1997). *Relational Methods in Computer Science*. Springer Science & Business Media. p. 200. [ISBN][456] [978-3-211-82971-4][457].
-37.  **[^][458]** Ali Jaoua, Nadin Belkhiter, Habib Ounalli, and Theodore Moukam (1997) "Databases", pages 197–210 in *Relational Methods in Computer Science*, edited by Chris Brink, Wolfram Kahl, and [Gunther Schmidt][459], [Springer Science & Business Media][460] [ISBN][461] [978-3-211-82971-4][462]
-38.  **[^][463]** Gumm, H. P.; Zarrad, M. (2014). "Coalgebraic Simulations and Congruences". *Coalgebraic Methods in Computer Science*. [Lecture Notes in Computer Science][464]. **8446**. p. 118. [doi][465]:[10.1007/978-3-662-44124-4\_7][466]. [ISBN][467] [978-3-662-44123-7][468].
-39.  **[^][469]** [Julius Richard Büchi][470] (1989). *Finite Automata, Their Algebras and Grammars: Towards a Theory of Formal Expressions*. Springer Science & Business Media. pp. 35–37. [ISBN][471] [978-1-4613-8853-1][472].
+35.  **[^][453]** [Jacques Riguet][454] (1950) "Quelques proprietes des relations difonctionelles", *Comptes Rendus* 230: 1999-2000
+36.  **[^][455]** Chris Brink; Wolfram Kahl; Gunther Schmidt (1997). *Relational Methods in Computer Science*. Springer Science & Business Media. p. 200. [ISBN][456] [978-3-211-82971-4][457].
+37.  **[^][458]** Ali Jaoua, Nadin Belkhiter, Habib Ounalli, and Theodore Moukam (1997) "Databases", pages 197-210 in *Relational Methods in Computer Science*, edited by Chris Brink, Wolfram Kahl, and [Gunther Schmidt][459], [Springer Science & Business Media][460] [ISBN][461] [978-3-211-82971-4][462]
+38.  **[^][463]** Gumm, H. P.; Zarrad, M. (2014). "Coalgebraic Simulations and Congruences". *Coalgebraic Methods in Computer Science*. [Lecture Notes in Computer Science][464]. **8446**. p. 118. [doi][465]:[10.1007/978-3-662-44124-4\_7][466]. [ISBN][467] [978-3-662-44123-7][468].
+39.  **[^][469]** [Julius Richard Büchi][470] (1989). *Finite Automata, Their Algebras and Grammars: Towards a Theory of Formal Expressions*. Springer Science & Business Media. pp. 35-37. [ISBN][471] [978-1-4613-8853-1][472].
 40.  **[^][473]** J. Riguet (1951) "Les relations de Ferrers", [Comptes Rendus][474] 232: 1729,30
-41.  **[^][475]** Georg Aumann (1971). ["Kontakt-Relationen"][476]. *Sitzungsberichte der mathematisch-physikalischen Klasse der Bayerischen Akademie der Wissenschaften München*. **1970** (II): 67–77.
+41.  **[^][475]** Georg Aumann (1971). ["Kontakt-Relationen"][476]. *Sitzungsberichte der mathematisch-physikalischen Klasse der Bayerischen Akademie der Wissenschaften München*. **1970** (II): 67-77.
 42.  **[^][477]** Anne K. Steiner (1970) [Review:*Kontakt-Relationen*][478] from [Mathematical Reviews][479]
-43.  ^ [Jump up to: ***a***][480] [***b***][481] [***c***][482] [Gunther Schmidt][483] (2011) *Relational Mathematics*, pages 211−15, [Cambridge University Press][484] [ISBN][485] [978-0-521-76268-7][486]
+43.  ^ [Jump up to: ***a***][480] [***b***][481] [***c***][482] [Gunther Schmidt][483] (2011) *Relational Mathematics*, pages 211−15, [Cambridge University Press][484] [ISBN][485] [978-0-521-76268-7][486]
 44.  **[^][487]** In this context, the symbol  does not mean "[set difference][488]".
 45.  **[^][489]** [Viktor Wagner][490] (1953) "The theory of generalised heaps and generalised groups", [Matematicheskii Sbornik][491] 32(74): 545 to 632 [MR][492][0059267][493]
-46.  **[^][494]** C.D. Hollings & M.V. Lawson (2017) *Wagner’s Theory of Generalised Heaps*, [Springer books][495] [ISBN][496] [978-3-319-63620-7][497] [MR][498][3729305][499]
-47.  **[^][500]** Christopher Hollings (2014) *Mathematics across the Iron Curtain: a history of the algebraic theory of semigroups*, page 265, History of Mathematics 41, [American Mathematical Society][501] [ISBN][502] [978-1-4704-1493-1][503]
+46.  **[^][494]** C.D. Hollings & M.V. Lawson (2017) *Wagner's Theory of Generalised Heaps*, [Springer books][495] [ISBN][496] [978-3-319-63620-7][497] [MR][498][3729305][499]
+47.  **[^][500]** Christopher Hollings (2014) *Mathematics across the Iron Curtain: a history of the algebraic theory of semigroups*, page 265, History of Mathematics 41, [American Mathematical Society][501] [ISBN][502] [978-1-4704-1493-1][503]
 
 ## Bibliography\[[edit][504]\]
 
--   [Schmidt, Gunther][505]; Ströhlein, Thomas (2012). ["Chapter 3: Heterogeneous relations"][506]. *Relations and Graphs: Discrete Mathematics for Computer Scientists*. Springer Science & Business Media. [ISBN][507] [978-3-642-77968-8][508].
+-   [Schmidt, Gunther][505]; Ströhlein, Thomas (2012). ["Chapter 3: Heterogeneous relations"][506]. *Relations and Graphs: Discrete Mathematics for Computer Scientists*. Springer Science & Business Media. [ISBN][507] [978-3-642-77968-8][508].
 -   [Ernst Schröder][509] (1895) [Algebra der Logik, Band III][510], via [Internet Archive][511]
--   [Codd, Edgar Frank][512] (1990). [*The Relational Model for Database Management: Version 2*][513] (PDF). Boston: [Addison-Wesley][514]. [ISBN][515] [978-0201141924][516].
--   [Enderton, Herbert][517] (1977). *Elements of Set Theory*. Boston: [Academic Press][518]. [ISBN][519] [978-0-12-238440-0][520].
--   Kilp, Mati; Knauer, Ulrich; Mikhalev, Alexander (2000). *Monoids, Acts and Categories: with Applications to Wreath Products and Graphs*. Berlin: [De Gruyter][521]. [ISBN][522] [978-3-11-015248-7][523].
--   [Peirce, Charles Sanders][524] (1873). ["Description of a Notation for the Logic of Relatives, Resulting from an Amplification of the Conceptions of Boole's Calculus of Logic"][525]. *Memoirs of the American Academy of Arts and Sciences*. **9** (2): 317–178. [doi][526]:[10.2307/25058006][527]. [hdl][528]:[2027/hvd.32044019561034][529]. [JSTOR][530] [25058006][531]. Retrieved 2020-05-05.
--   [Schmidt, Gunther][532] (2010). [*Relational Mathematics*][533]. Cambridge: [Cambridge University Press][534]. [ISBN][535] [978-0-521-76268-7][536].
+-   [Codd, Edgar Frank][512] (1990). [*The Relational Model for Database Management: Version 2*][513] (PDF). Boston: [Addison-Wesley][514]. [ISBN][515] [978-0201141924][516].
+-   [Enderton, Herbert][517] (1977). *Elements of Set Theory*. Boston: [Academic Press][518]. [ISBN][519] [978-0-12-238440-0][520].
+-   Kilp, Mati; Knauer, Ulrich; Mikhalev, Alexander (2000). *Monoids, Acts and Categories: with Applications to Wreath Products and Graphs*. Berlin: [De Gruyter][521]. [ISBN][522] [978-3-11-015248-7][523].
+-   [Peirce, Charles Sanders][524] (1873). ["Description of a Notation for the Logic of Relatives, Resulting from an Amplification of the Conceptions of Boole's Calculus of Logic"][525]. *Memoirs of the American Academy of Arts and Sciences*. **9** (2): 317-178. [doi][526]:[10.2307/25058006][527]. [hdl][528]:[2027/hvd.32044019561034][529]. [JSTOR][530] [25058006][531]. Retrieved 2020-05-05.
+-   [Schmidt, Gunther][532] (2010). [*Relational Mathematics*][533]. Cambridge: [Cambridge University Press][534]. [ISBN][535] [978-0-521-76268-7][536].
 
 ## External links\[[edit][537]\]
 
@@ -551,8 +551,8 @@ Given two sets *A* and *B*, the set of binary relations between them  can be equ
 [172]: https://en.wikipedia.org/w/index.php?title=Binary_relation&action=edit&section=12 "Edit section: Sets versus classes"
 [173]: https://en.wikipedia.org/wiki/Axiomatic_set_theory "Axiomatic set theory"
 [174]: https://en.wikipedia.org/wiki/Russell%27s_paradox "Russell's paradox"
-[175]: https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory "Von Neumann–Bernays–Gödel set theory"
-[176]: https://en.wikipedia.org/wiki/Morse%E2%80%93Kelley_set_theory "Morse–Kelley set theory"
+[175]: https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory "Von Neumann-Bernays-Gödel set theory"
+[176]: https://en.wikipedia.org/wiki/Morse%E2%80%93Kelley_set_theory "Morse-Kelley set theory"
 [177]: https://en.wikipedia.org/wiki/Proper_class "Proper class"
 [178]: https://en.wikipedia.org/wiki/Binary_relation#cite_note-24
 [179]: https://en.wikipedia.org/w/index.php?title=Binary_relation&action=edit&section=13 "Edit section: Homogeneous relation"

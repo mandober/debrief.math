@@ -1,4 +1,4 @@
-# Relations
+# Relation theory
 
 - Relations
   - finitary relation
@@ -11,5 +11,3 @@
 - Antisymmetry
 - Asymmetry
 - Transitivity
-
----

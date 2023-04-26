@@ -28,11 +28,11 @@ Five primitive operators of Codd's algebra are the *[selection][14]*, the *[proj
 
 The relational algebra uses [set union][20], [set difference][21], and [Cartesian product][22] from [set theory][23], but adds additional constraints to these operators.
 
-For set union and set difference, the two [relations][24] involved must be *union-compatible*—that is, the two relations must have the same set of attributes. Because [set intersection][25] is defined in terms of set union and set difference, the two relations involved in set intersection must also be union-compatible.
+For set union and set difference, the two [relations][24] involved must be *union-compatible*-that is, the two relations must have the same set of attributes. Because [set intersection][25] is defined in terms of set union and set difference, the two relations involved in set intersection must also be union-compatible.
 
-For the Cartesian product to be defined, the two relations involved must have disjoint headers—that is, they must not have a common attribute name.
+For the Cartesian product to be defined, the two relations involved must have disjoint headers-that is, they must not have a common attribute name.
 
-In addition, the Cartesian product is defined differently from the one in [set][26] theory in the sense that tuples are considered to be "shallow" for the purposes of the operation. That is, the Cartesian product of a set of *n*\-tuples with a set of *m*\-tuples yields a set of "flattened" (*n* + *m*)\-tuples (whereas basic set theory would have prescribed a set of 2-tuples, each containing an *n*\-tuple and an *m*\-tuple). More formally, *R* × *S* is defined as follows:
+In addition, the Cartesian product is defined differently from the one in [set][26] theory in the sense that tuples are considered to be "shallow" for the purposes of the operation. That is, the Cartesian product of a set of *n*\-tuples with a set of *m*\-tuples yields a set of "flattened" (*n* + *m*)\-tuples (whereas basic set theory would have prescribed a set of 2-tuples, each containing an *n*\-tuple and an *m*\-tuple). More formally, *R* × *S* is defined as follows:
 
 ![R\times S:=\{(r_{1},r_{2},\dots ,r_{n},s_{1},s_{2},\dots ,s_{m})|(r_{1},r_{2},\dots ,r_{n})\in R,(s_{1},s_{2},\dots ,s_{m})\in S\}](https://wikimedia.org/api/rest_v1/media/math/render/svg/fa3f152025b960f99a213cee14a6ca793e4f5cf1)
 
@@ -124,7 +124,7 @@ Production
 
 Charles
 
-*Employee* ⋈ *Dept*
+*Employee* ⋈ *Dept*
 
 Name
 
@@ -364,7 +364,7 @@ Production
 
 More formally the semantics of the semijoin can be defined as follows:
 
-*R* ⋉ *S* = { *t* : *t* ∈ *R* ∧ ∃*s* ∈ *S*(*Fun* (*t* ∪ *s*)) }
+*R* ⋉ *S* = { *t* : *t* ∈ *R* ∧ ∃*s* ∈ *S*(*Fun* (*t* ∪ *s*)) }
 
 where *Fun*(*r*) is as in the definition of natural join.
 
@@ -450,11 +450,11 @@ Finance
 
 The antijoin is formally defined as follows:
 
-*R* ▷ *S* = { *t* : *t* ∈ *R* ∧ ¬∃*s* ∈ *S*(*Fun* (*t* ∪ *s*)) }
+*R* ▷ *S* = { *t* : *t* ∈ *R* ∧ ¬∃*s* ∈ *S*(*Fun* (*t* ∪ *s*)) }
 
 or
 
-*R* ▷ *S* = { *t* : *t* ∈ *R*, there is no tuple *s* of *S* that satisfies *Fun* (*t* ∪ *s*) }
+*R* ▷ *S* = { *t* : *t* ∈ *R*, there is no tuple *s* of *S* that satisfies *Fun* (*t* ∪ *s*) }
 
 where *Fun* (*t* ∪ *s*) is as in the definition of natural join.
 
@@ -518,7 +518,7 @@ Sarah
 
 If *DBProject* contains all the tasks of the Database project, then the result of the division above contains exactly the students who have completed both of the tasks in the Database project. More formally the semantics of the division is defined as follows:
 
-*R* ÷ *S* = { *t*\[*a*1,...,*a**n*\] : *t* ∈ *R* ∧ ∀*s* ∈ *S* ( (*t*\[*a*1,...,*a**n*\] ∪ *s*) ∈ *R*) }
+*R* ÷ *S* = { *t*\[*a*1,...,*a**n*\] : *t* ∈ *R* ∧ ∀*s* ∈ *S* ( (*t*\[*a*1,...,*a**n*\] ∪ *s*) ∈ *R*) }
 
 __(6)__
 
@@ -526,13 +526,13 @@ where {*a*1,...,*a**n*} is the set of attribute names unique to *R* and *t*\[*a*
 
 The simulation of the division with the basic operations is as follows. We assume that *a*1,...,*a**n* are the attribute names unique to *R* and *b*1,...,*b**m* are the attribute names of *S*. In the first step we project *R* on its unique attribute names and construct all combinations with tuples in *S*:
 
-*T* := π*a*1,...,*a**n*(*R*) × *S*
+*T* := π*a*1,...,*a**n*(*R*) × *S*
 
 In the prior example, T would represent a table such that every Student (because Student is the unique key / attribute of the Completed table) is combined with every given Task. So Eugene, for instance, would have two rows, Eugene → Database1 and Eugene → Database2 in T.
 
 EG: First, let's pretend that "Completed" has a third attribute called "grade". It's unwanted baggage here, so we must project it off always. In fact in this step we can drop 'Task' from R as well; the multiply puts it back on.
 
-*T* := πStudent(*R*) × *S* // This gives us every possible desired combination, including those that don't actually exist in R, and excluding others (eg Fred | compiler1, which is not a desired combination)
+*T* := πStudent(*R*) × *S* // This gives us every possible desired combination, including those that don't actually exist in R, and excluding others (eg Fred | compiler1, which is not a desired combination)
 
 *T*
 
@@ -568,13 +568,13 @@ In the next step we subtract *R* from *T*
 
 [relation][73]:
 
-*U* := *T* − *R*
+*U* := *T* − *R*
 
 In *U* we have the possible combinations that "could have" been in *R*, but weren't.
 
-EG: Again with projections — *T* and *R* need to have identical attribute names/headers.
+EG: Again with projections - *T* and *R* need to have identical attribute names/headers.
 
-*U* := *T* − πStudent,Task(*R*) // This gives us a "what's missing" list.
+*U* := *T* − πStudent,Task(*R*) // This gives us a "what's missing" list.
 
 *T*
 
@@ -654,17 +654,17 @@ So if we now take the projection on the attribute names unique to *R*
 
 then we have the restrictions of the tuples in *R* for which not all combinations with tuples in *S* were present in *R*:
 
-*V* := π*a*1,...,*a**n*(*U*)
+*V* := π*a*1,...,*a**n*(*U*)
 
 EG: Project *U* down to just the attribute(s) in question (Student)
 
-*V* := πStudent(*U*)
+*V* := πStudent(*U*)
 
 So what remains to be done is take the projection of *R* on its unique attribute names and subtract those in *V*:
 
-*W* := π*a*1,...,*a**n*(*R*) − *V*
+*W* := π*a*1,...,*a**n*(*R*) − *V*
 
-EG: *W* := πStudent(*R*) − *V*.
+EG: *W* := πStudent(*R*) − *V*.
 
 πStudent(*R*)
 
@@ -1189,38 +1189,38 @@ Even the query language of [SQL][137] is loosely based on a relational algebra, 
 
 ## References\[[edit][146]\]
 
-1.  __[^][147]__ Silberschatz, Abraham; Henry F. Korth; S. Sudarshan (2020). *Database system concepts* (Seventh ed.). New York. p. 56. [ISBN][148] [978-0-07-802215-9][149]. [OCLC][150] [1080554130][151].
+1.  __[^][147]__ Silberschatz, Abraham; Henry F. Korth; S. Sudarshan (2020). *Database system concepts* (Seventh ed.). New York. p. 56. [ISBN][148] [978-0-07-802215-9][149]. [OCLC][150] [1080554130][151].
 2.  __[^][152]__ In [Unicode][153], the bowtie symbol is ⋈ (U+22C8).
 3.  __[^][154]__ In [Unicode][155], the ltimes symbol is ⋉ (U+22C9). The rtimes symbol is ⋊ (U+22CA)
-4.  __[^][156]__ [Codd, E.F.][157] (June 1970). "A Relational Model of Data for Large Shared Data Banks". *[Communications of the ACM][158]*. __13__ (6): 377–387. [doi][159]:[10.1145/362384.362685][160].
+4.  __[^][156]__ [Codd, E.F.][157] (June 1970). "A Relational Model of Data for Large Shared Data Banks". *[Communications of the ACM][158]*. __13__ (6): 377-387. [doi][159]:[10.1145/362384.362685][160].
 5.  __[^][161]__ In [Unicode][162], the Antijoin symbol is ▷ (U+25B7).
-6.  __[^][163]__ M. Tamer Özsu; Patrick Valduriez (2011). [*Principles of Distributed Database Systems*][164] (3rd ed.). Springer. p. 46. [ISBN][165] [978-1-4419-8833-1][166].
-7.  __[^][167]__ Patrick O'Neil; [Elizabeth O'Neil][168] (2001). [*Database: Principles, Programming, and Performance, Second Edition*][169]. Morgan Kaufmann. p. 120. [ISBN][170] [978-1-55860-438-4][171].
+6.  __[^][163]__ M. Tamer Özsu; Patrick Valduriez (2011). [*Principles of Distributed Database Systems*][164] (3rd ed.). Springer. p. 46. [ISBN][165] [978-1-4419-8833-1][166].
+7.  __[^][167]__ Patrick O'Neil; [Elizabeth O'Neil][168] (2001). [*Database: Principles, Programming, and Performance, Second Edition*][169]. Morgan Kaufmann. p. 120. [ISBN][170] [978-1-55860-438-4][171].
 8.  __[^][172]__ In [Unicode][173], the Left outer join symbol is ⟕ (U+27D5).
 9.  __[^][174]__ In [Unicode][175], the Right outer join symbol is ⟖ (U+27D6).
 10.  __[^][176]__ In [Unicode][177], the Full Outer join symbol is ⟗ (U+27D7).
-11.  __[^][178]__ C. J. Date (2011). [*SQL and Relational Theory: How to Write Accurate SQL Code*][179]. O'Reilly Media, Inc. pp. 133–135. [ISBN][180] [978-1-4493-1974-8][181].
-12.  ^ [Jump up to: *__a__*][182] [*__b__*][183] Hector Garcia-Molina; Jeffrey D. Ullman; Jennifer Widom (2009). *Database systems: the complete book* (2nd ed.). Pearson Prentice Hall. [ISBN][184] [978-0-13-187325-4][185].
-13.  __[^][186]__ Garcia-Molina, Hector; Ullman, Jeffrey D.; Widom, Jennifer (2009). *DATABASE SYSTEMS The Complete Book*. Upper Saddle River, New Jersey 07458: Pearson Education, Inc. p. 218. [ISBN][187] [9780136067016][188].CS1 maint: location ([link][189])
-14.  __[^][190]__ Aho, Alfred V.; Jeffrey D. Ullman (1979). "Universality of data retrieval languages". *Proceedings of the 6th ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages*: 110–119. [doi][191]:[10.1145/567752.567763][192].
+11.  __[^][178]__ C. J. Date (2011). [*SQL and Relational Theory: How to Write Accurate SQL Code*][179]. O'Reilly Media, Inc. pp. 133-135. [ISBN][180] [978-1-4493-1974-8][181].
+12.  ^ [Jump up to: *__a__*][182] [*__b__*][183] Hector Garcia-Molina; Jeffrey D. Ullman; Jennifer Widom (2009). *Database systems: the complete book* (2nd ed.). Pearson Prentice Hall. [ISBN][184] [978-0-13-187325-4][185].
+13.  __[^][186]__ Garcia-Molina, Hector; Ullman, Jeffrey D.; Widom, Jennifer (2009). *DATABASE SYSTEMS The Complete Book*. Upper Saddle River, New Jersey 07458: Pearson Education, Inc. p. 218. [ISBN][187] [9780136067016][188].CS1 maint: location ([link][189])
+14.  __[^][190]__ Aho, Alfred V.; Jeffrey D. Ullman (1979). "Universality of data retrieval languages". *Proceedings of the 6th ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages*: 110-119. [doi][191]:[10.1145/567752.567763][192].
 15.  __[^][193]__ C. J. Date. ["Edgar F. Codd - A.M. Turing Award Laureate"][194]. *amturing.acm.org*. Retrieved 2020-12-27.
 
 ## Further reading\[[edit][195]\]
 
 Practically any academic textbook on databases has a detailed treatment of the classic relational algebra.
 
--   [Imieliński, T.][196]; Lipski, W. (1984). ["The relational model of data and cylindric algebras"][197]. *[Journal of Computer and System Sciences][198]*. __28__: 80–102. [doi][199]:[10.1016/0022-0000(84)90077-1][200]. (For relationship with [cylindric algebras][201]).
+-   [Imieliński, T.][196]; Lipski, W. (1984). ["The relational model of data and cylindric algebras"][197]. *[Journal of Computer and System Sciences][198]*. __28__: 80-102. [doi][199]:[10.1016/0022-0000(84)90077-1][200]. (For relationship with [cylindric algebras][201]).
 
 ## External links\[[edit][202]\]
 
 -   [RAT. Software Relational Algebra Translator to SQL][203]
 -   [Lecture Videos: Relational Algebra Processing][204] - An introduction to how database systems process relational algebra
--   [Lecture Notes: Relational Algebra][205] – A quick tutorial to adapt SQL queries into relational algebra
--   [Relational – A graphic implementation of the relational algebra][206]
+-   [Lecture Notes: Relational Algebra][205] - A quick tutorial to adapt SQL queries into relational algebra
+-   [Relational - A graphic implementation of the relational algebra][206]
 -   [Query Optimization][207] (Page deleted; Closest alternatives: [Standford Query Optimization 2][208], [Microsoft research Query Optimization in relational systems][209], [Stanford paper: Query Optimization][210])This paper is an introduction into the use of the relational algebra in optimizing queries, and includes numerous citations for more in-depth study.
 -   [Relational Algebra System for Oracle and Microsoft SQL Server][211]
--   [Pireal – An experimental educational tool for working with Relational Algebra][212]
--   [DES – An educational tool for working with Relational Algebra and other formal languages][213]
+-   [Pireal - An experimental educational tool for working with Relational Algebra][212]
+-   [DES - An educational tool for working with Relational Algebra and other formal languages][213]
 -   [RelaX - Relational Algebra Calculator][214] (open-source software available as an online service without registration)
 -   [RA: A Relational Algebra Interpreter][215]
 -   [Translating SQL to Relational Algebra][216]

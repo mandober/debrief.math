@@ -1,5 +1,33 @@
 # Order Theory :: TODO
 
+
+
+https://en.wikipedia.org/wiki/Equivalence_class#quotient_set
+https://en.wikipedia.org/wiki/Covering_relation
+https://en.wikipedia.org/wiki/Comparability
+https://en.wikipedia.org/wiki/Transitive_reduction
+https://en.wikipedia.org/wiki/Dense_order
+https://en.wikipedia.org/wiki/Ternary_relation
+https://en.wikipedia.org/wiki/Linear_extension
+https://en.wikipedia.org/wiki/Product_order
+https://en.wikipedia.org/wiki/Reflexive_closure
+https://en.wikipedia.org/wiki/Symmetric_closure
+https://en.wikipedia.org/wiki/Star_product
+https://en.wikipedia.org/wiki/Series-parallel_partial_order
+https://en.wikipedia.org/wiki/Antichain
+https://en.wikipedia.org/wiki/Cofinal_(mathematics)
+https://en.wikipedia.org/wiki/Cofinality
+https://en.wikipedia.org/wiki/Duality_(order_theory)
+https://en.wikipedia.org/wiki/Ideal_(order_theory)
+https://en.wikipedia.org/wiki/Order_embedding
+https://en.wikipedia.org/wiki/Monotonic_function
+https://en.wikipedia.org/wiki/Order_isomorphism
+https://en.wikipedia.org/wiki/Order_type
+https://en.wikipedia.org/wiki/Upper_set
+
+https://www.cs.odu.edu/~toida/nerzic/content/logic/prop_logic/proposition/proposition.html
+
+
 https://en.wikipedia.org/wiki/Alexandrov_topology
 https://en.wikipedia.org/wiki/Algebraic_poset
 https://en.wikipedia.org/wiki/Algebraic_poset

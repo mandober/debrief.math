@@ -18,7 +18,13 @@
 
 ## Preamble
 
-Martin-Löf Type Theory (MLTT), Constructive Type Theory (CTT), and Intuitionistic Type Theory (ITT) are synonymous terms. There is not one concrete theory, or even a few, but many variants, differing in a set of supported features, but all related in the fact that they are constructive (i.e. intuitionistic) approaches to type theory. Moreover, Martin-Lof himself has published many papers, some introducing new type theories, some correcting versions of the previously published ones, e.g. after Girard showed a paritcular version of MLTT (with type-in-type) inconsistent, Martin-Löf has published a revised and improved version. So, MLTT, CTT and ITT are the names that refer to the same family of type theories that all agree on this foundational aspect (that is, constructivism), leaving other, more or less equally important, aspects underdefined.
+Martin-Löf Type Theory (MLTT), Constructive Type Theory (CTT), and Intuitionistic Type Theory (ITT) are synonymous terms.
+
+There is not one concrete theory, or even a few, but many variants, differing in a set of supported features, but all related in the fact that they are constructive (i.e. intuitionistic) approaches to type theory.
+
+Moreover, Martin-Lof himself has published many papers, some introducing new type theories, some correcting versions of the previously published ones, e.g. after Girard showed a paritcular version of MLTT (with type-in-type) inconsistent, Martin-Löf has published a revised and improved version.
+
+So, MLTT, CTT and ITT are the names that refer to the same family of type theories that all agree on this foundational aspect (that is, constructivism), leaving other, more or less equally important, aspects underdefined.
 
 # Martin Lof type theory
 
@@ -51,7 +57,11 @@ There are multiple versions of the MLTT - Martin-Löf proposed both its intensio
 
 ## Design
 
-Martin-Löf designed the type theory on the principles of mathematical constructivism. Constructivism requires that an (existence) proofs contain a witnessing element or a term that serves as evidince or justification to the proven proposition. Since propositions are treated as types, a proven proposition must be an inhabited type, so it contains at least one term (element, value) that can witness the proven fact (represent the proof, serve as evidence). This approach (called constructivism) does not recognize proofs (especially existential proofs) that cannot produce a witness. Thus, any proof of the proposition "there exists a prime greater than 1000" must identify a specific number that is both prime and greater than 1000.
+Martin-Löf designed the type theory on the principles of mathematical constructivism. Constructivism requires that proofs contain a witnessing element, or a term that serves as evidince or justification for the proven proposition.
+
+Since propositions are treated as types, a proven proposition must be an inhabited type, so it contains at least one term (element, value) that can witness the proven fact (represent the proof, serve as evidence).
+
+This, constructive, approach to math does not recognize proofs - especially existential proofs - that cannot produce a witness. For example, a proof of the proposition "there exists a prime greater than 1000" must identify a specific number that is both prime and greater than 1000.
 
 In TT, sigma type may be used to convey such information, since the terms of a sigma type are pairs: a witness (as the first component) and the conditions that a witness must satisfy (in the second component), with the second depending on the value of the first component. In general, sigma type are used to represent existential propositions, while pi types are used to represent universal propositions.
 

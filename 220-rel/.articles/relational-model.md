@@ -13,6 +13,7 @@ desc:             {description}
 
 Can be viewed as a generalization of the procedural model in the
 following sense.
+
 ## 1 Relational Model
 
 Can be viewed as a generalization of the procedural model in the following sense.
@@ -86,7 +87,7 @@ A theorem prover has limited power. It can prove only the theorems which are tru
 
 So we restrict the axiom forms in the language. For example, __Prolog__ is based on __Horn Clauses__. These are axioms of the form
 
-∀ x1, …, xk ⋅ a1 ∧ a2 ∧ … ∧ an –> a.
+∀ x1, …, xk ⋅ a1 ∧ a2 ∧ … ∧ an -> a.
 
 where all the variables in the axioms are bound. There is an efficient theorem prover for Horn Clauses using an algorithm known as __resolution__.
 
