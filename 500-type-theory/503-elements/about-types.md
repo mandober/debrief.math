@@ -1,18 +1,20 @@
 # Types
 
-* Types were conceived as a way to avoid set-theoretical paradoxes.
+* *Types* were conceived as a way to avoid set-theoretical paradoxes. By assigning a type to sets, an infinite hierarchy of sets can be formed such that a set at level (type) 0 can only be contained by a set at level 1. This was a solution by Russell to prevent his paradox.
 
-* A type system is a formal system in which every term has a property called "type", which defines a term's meaning, as well as operations that may be performed on it.
+>A **type system** is a formal system in which every *term* has a property called *type* which defines the term's meaning and operations it supports.
 
-* A *data type* is a collection of values used for computations.
 
-* *Typification*, a process of creating standard (typical) social construction based on standard assumptions
-
-* In model theory, a *type is an object* that describes how a collection of elements in a mathematical structure might *behave*.
+* A *data type* or *datatype* or *type* is a collection of values used for computations.
 
 * A *data structure* is a data organization, management and storage format that enables efficient access and modification of data.
 * A data structure is a collection of data, plus relations between the data, plus the applicable operations.
 * A data structure is an algebraic structure about data.
+
+
+
+* In model theory, a *type is an object* that describes how a collection of elements in a mathematical structure might *behave*.
+
 
 * *Typology* is the study of types or the systematic classification of the types of something according to their common characteristics. Typology is the act of finding, counting and classification facts with the help of eyes, other senses and logic. Typology may refer to:
 - Typology in linguistics classifies languages wrt to their structural features

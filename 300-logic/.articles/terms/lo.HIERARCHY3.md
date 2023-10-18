@@ -1,1 +1,0 @@
-# Hierarchy of Propositional Logic

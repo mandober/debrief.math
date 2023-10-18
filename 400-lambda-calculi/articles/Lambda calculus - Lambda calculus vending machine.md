@@ -1,17 +1,10 @@
 ---
 downloaded:       2021-10-16
-author:           
 page-url:         https://crypto.stanford.edu/~blynn/lambda/pts.html
 page-title:       Lambda calculus - Lambda calculus vending machine
-article-title:    Lambda calculus - Lambda calculus vending machine
-article-length:   27021
-article-created:  {Date-Creation-yyyymmdd}
-article-modified: {Date-Revision-yyyymmdd}
-desc:             {description}
 ---
 # Lambda calculus - Lambda calculus vending machine
 
-All-natural numbers.
 All-natural numbers.
 
 Select spec:
@@ -43,6 +36,8 @@ Known as: λC, CC, CoC, λPω. The calculus of constructions.
 Write code:
 
 Enjoy!
+
+
 
 How do we create the above? We begin with a humbler goal: to augment [System Fω][1] with an abstraction that maps terms to types.
 

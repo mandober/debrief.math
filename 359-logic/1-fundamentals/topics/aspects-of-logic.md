@@ -1,0 +1,40 @@
+# Logic :: Fundamentals
+
+- Logic
+  - 0. Orientation
+  - 1. Introduction
+    - Introduction to Logic
+    - History of Logic
+    - Philosophical Logic
+    - Mathematical Logic
+  - 2. Fundamental Concepts
+    - Basic notions
+    - Classical Logic
+    - Non-classical Logic
+    - Formal logic
+    - Informal logic
+    - Symbolic logic
+    - Logical Reasoning
+    - Natural Languages
+  - 3. **Aspects of logic**
+    - Logic and philosophy
+      - Logic as a mechanism of reasoning
+      - Kinds of reasoning
+      - Mechanization of human reasoning
+    - Logic and reasoning
+      - Logic and natural languages
+      - Logic as a universal language (Lebnitz)
+      - Logic as the language of deduction
+    - Logic and mathematics
+      - Logic as a formal language
+      - Logic as a symbolic language
+    - Logic and computer science
+      - Canonization of human knowledge
+      - DB of all human knowledge
+      - Small core, derive the rest
+      - Computer-assisted querying of the db
+      - Teaching logic to computers
+      - Teaching people to reson correctly
+        - Logical fallicies
+      - Teaching deductive resoning to computers
+      - Logic as a language of human to computer interaction

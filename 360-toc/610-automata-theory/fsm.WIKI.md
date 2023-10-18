@@ -6,6 +6,14 @@ https://en.wikipedia.org/wiki/Finite-state_machine
 https://en.wikipedia.org/wiki/Model_of_computation
 https://en.wikipedia.org/wiki/Abstract_machine
 
+https://en.wikipedia.org/wiki/Powerset_construction
+https://en.wikipedia.org/wiki/Arden%27s_rule
+https://en.wikipedia.org/wiki/Kleene%27s_algorithm
+https://en.wikipedia.org/wiki/Thompson%27s_construction
+https://en.wikipedia.org/wiki/Regular_expression
+https://en.wikipedia.org/wiki/Regular_grammar
+https://en.wikipedia.org/wiki/Regular_language
+https://en.wikipedia.org/wiki/Induction_of_regular_languages
 
 https://en.wikipedia.org/wiki/Deterministic_finite_automaton
 https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton

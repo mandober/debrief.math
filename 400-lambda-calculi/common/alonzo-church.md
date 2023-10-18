@@ -23,6 +23,13 @@ Church's contributions:
 - Church thesis
 - Church-Turing thesis
 - Frege-Church ontology
++ Alonzo Church's *Restricted Recursive Arithmetic* (RRA)
+
+
+
+* Alonzo Church's *Restricted Recursive Arithmetic* (RRA)
+https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/some-results-in-churchs-restricted-recursive-arithmetic1/2E30E62B552649937A0E6E9F5EC48F9E
+Alonzo Church has proposed a system of "restricted recursive arithmetic" for the analysis of computer circuits which include time delays and feedback. Restricted recursive arithmetic, which will be referred to as RRA, was introduced by Church in this Journal, vol. 20 (1955), pp. 286-287, in a review of an article by Edmund C. Berkeley. It is the purpose of this paper to present some results which have been found for the system RRA.
 
 
 ## Alonzo Church

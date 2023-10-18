@@ -1,0 +1,9 @@
+# Laws of thought
+
+https://en.wikipedia.org/wiki/Law_of_thought
+
+**The laws of thought** are fundamental axiomatic rules upon which rational discourse itself is often considered to be based.
+
+The formulation and clarification of such rules have a long tradition in the history of philosophy and logic. Generally they are taken as laws that guide and underlie thinking, thoughts, expressions, discussions, etc. However, such classical ideas are often questioned or rejected in more recent developments, such as intuitionistic logic, dialetheism and fuzzy logic.
+
+According to the 1999 Cambridge Dictionary of Philosophy, laws of thought are laws by which or in accordance with which valid thought proceeds, or that justify valid inference, or to which all valid deduction is reducible. Laws of thought are rules that apply without exception to any subject matter of thought, etc.; sometimes they are said to be the object of logic[further explanation needed]. The term, rarely used in exactly the same sense by different authors, has long been associated with three equally ambiguous expressions: the law of identity (ID), the law of contradiction (or non-contradiction; NC), and the law of excluded middle (EM). Sometimes, these three expressions are taken as propositions of formal ontology having the widest possible subject matter, propositions that apply to entities as such: (ID), everything is (i.e., is identical to) itself; (NC) no thing having a given quality also has the negative of that quality (e.g., no even number is non-even); (EM) every thing either has a given quality or has the negative of that quality (e.g., every number is either even or non-even). Equally common in older works is the use of these expressions for principles of metalogic about propositions: (ID) every proposition implies itself; (NC) no proposition is both true and false; (EM) every proposition is either true or false.

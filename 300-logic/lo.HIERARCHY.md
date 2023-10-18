@@ -1,26 +1,60 @@
-# Logic ∷ Hierarchy
+# Logic :: Hierarchy
 
-* Logical Reasoning
-  - Logical reasoning
-  - Deductive reasoning
-  - Inductive reasoning
-  - Abductive reasoning
-  - Critical reasoning
-  - Mathematical reasoning
-  - Rigorous argumentation
-  - Logical fallacy
-  - Logical inference
-  - Analogical reasoning
-  - Legal reasoning
-  - Moral reasoning
-  - Defeasible reasoning
-  - Paraconsistent reasoning
-  - Probabilistic reasoning
-  - Statistical reasoning
-  - Non-demonstrative reasoning
-  - Monotonic Reasoning
-  - Non-Monotonic Reasoning
+* Reasoning
+  - cognition
+  - cognition bias
+  - reason, reasoning
+  - logical reasoning
+  - logical fallacy
+  - logical inference
 
+* Types of reasoning
+  - logical reasoning
+    - deductive reasoning
+    - inductive reasoning
+    - abductive reasoning
+  - fallacious reasoning
+  - mathematical reasoning
+  - rigorous argumentation
+  - critical thinking
+  - defeasible reasoning
+  - paraconsistent reasoning
+  - probabilistic reasoning
+  - analogical reasoning
+  - monotonic reasoning
+  - non-monotonic reasoning
+
+* Argument
+  - argumentation
+  - inference
+  - part of argument
+    - premise, hypothesis
+    - conclusion
+  - syllogism, syllogistic argument
+    - minor premise
+    - major premise
+    - conclusion
+  - declarative sentence, statement, claim
+  - proposition
+    - has truth value
+  - properties of deductive arguments
+    - necessity
+    - necessary truth
+    - true in all possible worlds
+    - validity
+    - soundness
+    - logical necessity
+    - logical consequence
+    - entailment
+  - properties of inductive arguments
+    - contingency
+    - possible truth, probability
+    - true in some possible worlds
+
+
+
+
+==================================
 
 * Formal logics
   - informal logic
@@ -118,23 +152,3 @@
   - formal language
   - metalanguage
   - object language
-
-* Properties
-  - soundness
-  - completeness
-
-* Proof theory
-
-* Argumentation
-  - argument
-  - proposition
-  - syllogism
-    - minor premise
-    - major premise
-    - conclusion
-  - premise
-  - hypothesis
-  - conclusion
-
-
----

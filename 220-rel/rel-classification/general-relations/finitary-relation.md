@@ -2,21 +2,7 @@
 
 https://en.wikipedia.org/wiki/Finitary_relation
 
-A finitary relation over sets `X₁, …, Xₙ`, 
-is a subset of the Cartesian product `X₁ ⨯ ⋯ ⨯ Xₙ`.
 
-That is, it is a set of `n`-tuples, `(x₁, ⋯, xₙ)`, 
-consisting of elements `xᵢ ∈ Xᵢ`.
-
-
-
-
-
-containing `k` many 
-
-
-
-(where `n,k ∈ ℕ`) 
 
 
 `{ (x₁¹, …, xₙ¹), …, (x₁ᵏ, …, xₙᵏ) }`, 
@@ -27,7 +13,6 @@ i.e. `x₁ʲ ∈ X₁`, `x₂ʲ ∈ X₂`, …, `xₙʲ ∈ Xₙ` (where `i = [1
 
 
 
-A relation typically represents an association between the tuple's elements. For example, a relation "`x` is divisible by `y` and `z`", `y+z|x`, consists of a set of 3-tuples, such that when substituted to `x`, `y` and `z`, respectively, make the sentence true.
 
 The non-negative integer n giving the number of "places" in the relation is called the arity, adicity or degree of the relation. A relation with n "places" is variously called an n-ary relation, an n-adic relation or a relation of degree n. Relations with a finite number of places are called finitary relations (or simply relations if the context is clear). It is also possible to generalize the concept to infinitary relations with infinite sequences.[5]
 

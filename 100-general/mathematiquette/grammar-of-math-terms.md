@@ -104,7 +104,10 @@ e.g.
 - The man was overcome by sadness when he lost his home.
 
 
-## Newfangled terms
+## Nominalization
+https://en.wikipedia.org/wiki/Nominalization
+
+Making up nouns from verbs.
 
 - generalizability
   general∙iz∙ability

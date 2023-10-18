@@ -23,12 +23,17 @@ https://hoogle.haskell.org/?hoogle=second
 
 
 
-Embeds
+Pascals triangle embeds/represents
+- rows
+  - each row is a power of 2: 0th row is 0, 1st is 1
+  - rows numbering starts from 0
+  - nth row contains n+1 elements
 - binomial coefficients
+  - each row lists the coefficients of a polynomial, axⁿ + cxⁿ⁻¹yⁿ⁻¹ + … + zyⁿ
 - binimial distribution
-- number of samples of size k from n objects
+  - number of samples of size k from n objects, n-choose-k
+  - 12-choose-5 is given by the 6th element in the 12th row
 - ⁿCₖ or `n-choose-k` for 0 <= k <= n
-- powers of two
 - superset
 - partiations of a set
 - number of elements in the powerset

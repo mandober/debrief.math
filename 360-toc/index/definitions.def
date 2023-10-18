@@ -1,0 +1,22 @@
+# Definitions
+
+
+
+- a language, L
+- an alphabet, Σ, is a finite set of symbols of language
+
+
+NFA (Q, Σ, δ, S, F), initial states S, 
+DFA (Q, Σ, δ, q₀, F), initial state q₀, 
+- a finite set of states `Q`
+- an alphabet `Σ` is a set of symbols
+- transition function `δ`
+- start state `q₀`, s.t. q₀ ∈ Q
+- accepting states `F` s.t. F ⊆ Q
+
+L = { w ∈ {0,1}⋆ : |w| ≡ 0 (mod 2) }
+
+Σ∗ 
+A language: any set of strings L ⊆ Σ∗
+
+Regular language: 

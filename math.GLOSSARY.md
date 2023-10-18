@@ -58,6 +58,7 @@ https://mathworld.wolfram.com/topics/Terminology.html
 - [Grammar](#grammar)
 - [Generalization](#generalization)
 - [iff](#iff)
+- [Incompleteness theorem](#incompleteness-theorem)
 - [Independence](#independence)
 - [Informal logic](#informal-logic)
 - [Inference rules](#inference-rules)
@@ -297,6 +298,9 @@ Generalization is the process (or act) of generalizing, which is the process of 
 
 ## iff
 Bijection is a logic connective, usually read "if and only if" and used to mark two statements as logically equivalent, symbolically denoted as `p <-> q`. Two statements are logically equivalent if the former implies the latter and if the latter implies the former, `(p -> q ⋀ q -> p) -> (p <-> q)`
+
+## Incompleteness theorem
+Kurt Gödel showed that neither the system of "Principia Mathematica" (which he specifically investigated for that paper) nor any other *consistent system of primitive recursive arithmetic* is able to determine (within that system) its own consistency. Said systems cannot determine if every proposition that can be formulated in the system is decidable; it is undecidable whether the proposition or its negation is provable within the system.
 
 ## Independence
 In mathematical logic, independence is the unprovability of a sentence from other sentences.

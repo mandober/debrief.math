@@ -1,4 +1,4 @@
-# Set Theory :: (meta) :: TOPICS
+# Set Theory :: TOPICS
 
 https://en.wikipedia.org/wiki/List_of_set_theory_topics
 

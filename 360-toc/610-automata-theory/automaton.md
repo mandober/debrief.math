@@ -1,11 +1,66 @@
 # Automaton
-https://en.wikipedia.org/wiki/Automata_theory#Automata
 
-General definition of *automaton* (p. automata), which restricts a broader definition of system to one viewed as acting in discrete time-steps, with its state behavior and outputs defined at each step by unchanging functions of only its state and input.
+https://en.wikipedia.org/wiki/Automata_theory#Automata
+https://en.wikipedia.org/wiki/Automaton
+https://en.wikipedia.org/wiki/Automaton_(disambiguation)
+
+>An automaton is a self-operating machine.
+
+In mathematics, CS, and particulary automata theory, an **automaton** (pl. automata) is an abstract machine, a mathematical model of computation (a mathematical model of computer hardware and software).
+
+A **finite-state automaton** or **finite-state machine** is a type of automaton with a finite set of states.
+
+The two dimensions of great importance to different models of computation and abstract machines: finiteness and determinism.
+
+*Finiteness* is manifested in a finite number of components that comprise these machines. For example, a finite-state machine has a finite set of states, a finite number of transitions, and it recognizes a language that is composed of strings of symbols from a finite alphabet.
+
+*Determinism* is another property and a factor of classification of abstract machines into deterministic and nondeterministic types.
+
+*Deterministic machines* are completely specified and every operation proceeds in a defined, expected manner. Each step of operation is defined and depends only on known parameters. There is no uncertainty, ambiguity, or the need to make choices. For example, a DFA has a single initial state, and for each state the transition to the next state is defined for each input symbol. Whatever state the machine is in, it knows what to do next on whatever input symbol it receives. Each transition depends solely on the current state and the current input symbol, and they are all determined, being specified in advanced.
+
+Besides finiteness and determinism, automata are also (sub)classified by their capability to remember things, to maintain memory. For example, adding memory to finite-state automata gives rise to push-down automata. The memory is realized a stack, so a PDA can use it to push and pop symbols onto it.
+
+On the opposite end of the specturm of finiteness is Turing machine, which is defined to have an infinite tape used for reading symbols from it or writing symbols to it.
+
 
 ## Informal description
 
-An automaton runs when it is given some *sequence of inputs* in discrete (individual) time steps or steps. An automaton processes one input picked from a set of symbols or letters, which is called an *input alphabet*. The symbols received by the automaton as input at any step are a *sequence of symbols called words*. An automaton has a *set of states*. At each moment during a run of the automaton, the automaton is in one of its states. When the automaton receives new input it *transitions to another state* based on a *transition function that takes the previous state and current input symbol as params*.
+An automaton consists of a (finite) set of states, where each state specifies transitions to other states which depend only on the current state and the current input symbol. That is, the output at each step is defined by an unchanging function that takes a pair of the current state and current input symbol and indicates the next state the automaton needs to transition into. The automaton is initially in the specific state, called the start state, as explicitly defined. A step consists of feeding an input symbol to the transition function (along with the current state) which then spits out the state to move into (on that particular symbol). Each transition consumes one input character. When all input characters are consumed, the state the automaton finds itself will either be marked as accepting or not. If it is one of the accepting states, then the input string (as a whole) is recognized by the automaton; otherwise, the string is rejected.
+
+## Informal description II
+
+An automaton is defined in terms of:
+- a finite set of states `Q`
+- an alphabet `Σ` is a set of symbols
+- transition function `δ`
+- start state `q₀`, s.t. q₀ ∈ Q
+- accepting states `F` s.t. F ⊆ Q
+
+A regular language `L` over an alphabet `Σ` of symbols (characters) may be defined in terms of the strings an automaton `M` accepts, `L(M)`. 
+
+
+`L = { w ∈ {0,1}⋆ : |w| ≡ 0 (mod 2) }`
+
+
+
+The fact that string `w` belongs to the language 
+ `L`, w ∈ L
+
+
+
+e.g. `Σ = {0,1}`, so a char `x ∈ Σ` may be x=0 or x=1; 
+Also, `Σ⋆` is the set of all possible bitstrings, 
+and string `w` is in `Σ⋆` if `w ∈ Σ⋆`. 
+String `w` of length `k` can be decomposed into chars, `c₀c₁…cₖ` all of which are in `Σ`. 
+however 
+
+
+
+An automaton runs when it is fed a sequence of symbols, called a string, `w`, which is comprised of characters (symbols) in the specified alphabet `Σ`.
+
+inputs in discrete (individual) steps (or time steps).
+
+An automaton processes one input picked from a set of symbols or letters, which is called an *input alphabet*. The symbols received by the automaton as input at any step are a *sequence of symbols called words*. An automaton has a *set of states*. At each moment during a run of the automaton, the automaton is in one of its states. When the automaton receives new input it *transitions to another state* based on a *transition function that takes the previous state and current input symbol as params*.
 
 At the same time, another function called the *output function* produces symbols from the *output alphabet*, also according to *the previous state and current input symbol*. The automaton reads the symbols of the input word and transitions between states until the word is read completely, if it is finite in length, at which point the automaton halts. A state at which the automaton halts is called *the final state*.
 

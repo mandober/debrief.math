@@ -5,10 +5,20 @@ https://en.wikipedia.org/wiki/Addition
 - one of the four basic operations of arithmetic
 - objects to be added are collectively referred to as terms, addends, summands
 - rare use: in `a + b`, `a` is the augend, `b` is the addend
-- plus sign "+" is a skewed ligature of the Latin "et" (Et -> & -> +)
-- addition is interpreted as combining sets, extending lengths
+- plus sign "+" is a skewed ligature of the Latin "et" (`Et` -> `&` -> `+`)
+- addition is interpreted as combining sets, or extending lengths
 
-The sum a + b can be interpreted as a binary operation that combines a and b, in an algebraic sense, or it can be interpreted as the addition of b more units to a. Under the latter interpretation, the parts of a sum a + b play asymmetric roles, and the operation a + b is viewed as applying the unary operation +b to a. Instead of calling both a and b addends, it is more appropriate to call a the augend in this case, since a plays a passive role. The unary view is also useful when discussing subtraction, because each unary addition operation has an inverse unary subtraction operation, and vice versa.
+# Interpretations of addition
+
+*The binary view* of the sum `a + b` is the algebraic interpretation of addition as a binary operation that combines `a` and `b`.
+
+λ(a,b). a + b
+
+*The unary view* of the sum `a + b` is interpreted as the addition of `b` more units to `a`. Under this interpretation, the parts of the sum `a + b` play asymmetric roles: operation `a + b` is viewed as applying the unary operation `+b` to `a`. Instead of calling both `a` and `b` *addends*, it is more appropriate to call `a` the *augend* in this case, since `a` plays a passive role. The unary view is also useful when discussing subtraction, because each unary addition operation has an inverse unary subtraction operation, and vice versa, `a + b = a + (+b)` vs `a + (-b) = a - b`.
+
+λa.λb. a + b
+
+
 
 ## Properties
 
@@ -19,22 +29,22 @@ Properties
 - Successor
 
 
-Commutativity
+* Commutativity
 The fact that addition is commutative is known as the "commutative law of addition" or "commutative property of addition".
 
-Associativity
+* Associativity
 When addition is used together with other operations, the order of operations becomes important. In the standard order of operations, addition is a lower priority than exponentiation, nth roots, multiplication and division, but is given equal priority to subtraction.
 
-Identity
+* Identity
 When adding zero to any number, the quantity does not change; zero is the identity element for addition, also known as the additive identity.
 
-Successor
+* Successor
 The value of a + b can also be seen as the bth successor of a, making addition iterated succession.
 
-Misc:
-* The ordering is preserved under addition of the same number:   
+Misc properties
+- The ordering is preserved under addition of the same number:   
 `∀abc. a < b -> a + c < b + c`
-* Given any two distinct elements, the larger is the smaller plus another:    
+- Given any two distinct elements, the larger is the smaller plus another:    
 `∀ab. a < b -> ∃!c. a + c = b`
 
 
@@ -58,11 +68,31 @@ To prove the usual properties of addition, one must first define addition for th
 
 ### Addition of integers
 
-The simplest conception of an integer is that it consists of an absolute value (which is a natural number) and a sign (generally either positive or negative). The integer zero is a special third case, being neither positive nor negative. The corresponding definition of addition must proceed by cases: for an integer n, let |n| be its absolute value. Let a and b be integers.
-- If either a or b is zero, treat it as an identity
-- If a and b are both positive, define a + b = |a| + |b|
-- If a and b are both negative, define a + b = −(|a| + |b|)
-- If a and b have different signs, define a + b to be the difference between |a| and |b|, with the sign of the term whose absolute value is larger.
+The simplest conception of an integer is that it consists of an absolute value (which is a natural number) and a sign (generally either positive or negative). The integer zero is a special third case, being neither positive nor negative.
+
+    | z > 0      + |z|
+z = | z < 0      - |z|
+    | z = 0        0
+
+The corresponding definition of addition, `a + b`, must proceed by cases. 
+Let `|n|` be the absolute value of an integer `n`, and `a` and `b` be integers:
+
+- If either `a` or `b` is 0, treat addition as the identity: 
+  - if a = 0 then a + 0 = a
+  - if b = 0 then 0 + b = b
+
+- If `a` and `b` are both positive, define `a + b = |a| + |b|`
+  - if a > 0 and b > 0 then a + b = |a| + |b|
+
+- If `a` and `b` are both negative, define `a + b = −(|a| + |b|)`
+  - if a < 0 and b < 0 then a + b = -(|a| + |b|)
+
+- If `a` and `b` have different signs, define `a + b` to be the difference between `|a|` and `|b|`, with the sign of the term whose absolute value is larger.
+  - sgn (n) = n < 0 ? -1 : n > 0 ? 1 : 0
+  - s = sgn (max(|a|, |b|))
+  - if a > 0 and b < 0 then s * (|a| - |b|)
+  - if a < 0 and b > 0 then s * (|a| - |b|)
+
 
 Although this definition can be useful for concrete problems, the number of cases to consider complicates proofs unnecessarily. So the following method is commonly used for defining integers. It is based on the remark that every integer is the difference of two natural integers and that two such differences, a-b and c-d are equal iff `a + d = b + c`. So, one can define formally the integers as the equivalence classes of ordered pairs of natural numbers under the equivalence relation: `(a, b) ~ (c, d) <=> a + d = b + c`. The equivalence class of (a, b) contains either (a-b, 0) if a ≥ b, or (0, b-a) otherwise. If n is a natural number, one can denote +n the equivalence class of (n, 0), and by -n the equivalence class of (0, n). This allows identifying the natural number n with the equivalence class +n.
 

@@ -1,6 +1,6 @@
 # Backus-Naur Form (BNF)
 
-- Backus–Naur form (BNF) or Backus normal form (BNF)
+- Backus-Naur form (BNF) or Backus normal form (BNF)
 - BNF is a notation technique for context-free grammars
 - used to concisely describe the syntax of (programming) languages, etc.
 - variants: extended BNF (EBNF), augmented BNF (ABNF)

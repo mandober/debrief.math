@@ -1,5 +1,3 @@
-article-status : complete
----
 # Proof procedure
 
 https://en.wikipedia.org/wiki/Proof_procedure

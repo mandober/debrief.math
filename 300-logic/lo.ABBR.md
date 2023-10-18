@@ -1,21 +1,34 @@
 # Logic: Abbreviations
 
+<!-- TOC -->
 
+- [BHK](#bhk)
+- [CHI](#chi)
+- [EFQ](#efq)
+- [FOL](#fol)
+- [HOL](#hol)
+- [IL](#il)
+- [LEM](#lem)
+- [LID](#lid)
+- [LNC](#lnc)
+- [PA](#pa)
+- [PNF](#pnf)
+- [POB](#pob)
+- [QL](#ql)
+- [SL](#sl)
+- [SOL](#sol)
+- [wff](#wff)
+
+<!-- /TOC -->
 
 ## BHK
-Brouwer-Heyting-Kolmogorov interpretation of intuitionistic logic
+Brouwer-Heyting-Kolmogorov interpretation (of intuitionistic logic)
 
 ## CHI
-Curry-Howard isomorphism (correspondence, equivalence); aka, propositions as types, proofs as programs.
+Curry-Howard isomorphism (propositions-as-types, proofs-as-programs)
 
-## CL
-Combinational logic
-
-## CIC
-The calculus of inductive constructions
-
-## CoC
-The calculus of constructions
+## EFQ
+Ex falso quodlibet (the principle of explosion)
 
 ## FOL
 First-order logic
@@ -26,48 +39,33 @@ Higher-order logic
 ## IL
 Intuitionistic logic
 
-## LNC
-The law of non-contradiction.
-`¬(p ⋀ ¬p)`; it is logically equivalent to the LEM: `¬(p ⋀ ¬p) = ¬p ⋁ p = p -> p`.
-
 ## LEM
-The law of the excluded middle, *tertium non datur*
+The law of excluded middle (tertium non datur)
 
-## EFQ
-The principle of explosion, *ex falso quodlibet*
-
-## FOL
-First-order Logic
-
-## HOL
-Higher-order logic
+## LID
+The law of identity
 
 ## LNC
-The Law of Non-Contradiction
-
-
-## LEM
-The law of excluded middle
+The law of non-contradiction
 
 ## PA
-First-order Peano arithmetic.
-
-## QL
-Quantificational logic (predicate logic)
+1. Peano Axioms
+2. (first-order) Peano Arithmetic
 
 ## PNF
 Prenex normal form
+
+## POB
+The principle of bivalence
+
+## QL
+Quantificational logic (predicate logic)
 
 ## SL
 Sentential logic (propositional logic)
 
 ## SOL
-Second-Order Logic
+Second-order logic
 
 ## wff
-Well-formed formula.
-
-
-## PA
-1. Peano Axioms
-2. Peano Arithmetic
+Well-formed formula
