@@ -6,9 +6,9 @@ The symbol `∵` is used mostly in logic to mean "because", but it is also abuse
 ## ∴
 The symbol `∴` is used in logic to mean "therefore" (usually placed before the conclusion). It is sufficiently well-known to justify its abuse in the general setting.
 
-## corr.
-correspondence. 
-(Synonyms: isomorphism; correlation, similarity, resemblance, comparability, compatibility, agreement, consistency, congruity, conformity, uniformity, harmony, affinity, accordance, accord, concurrence)
+## corr
+correspondence, `≅`
+(synonyms: isomorphism; correlation, similarity, resemblance, comparability, compatibility, agreement, consistency, congruity, conformity, uniformity, harmony, affinity, accordance, accord, concurrence)
 
 ## CHI
 Curry-Howard isomorphism
@@ -16,18 +16,13 @@ Curry-Howard isomorphism
 ## Densem
 Denotational semantics
 
-## FP
-Functional Programming
-
-## FPL
-Functional Programming Language
-
-## incl.
-including
-
 ## PA
 1. Peano Arithmetic
 2. Peano Axioms
 
 ## PL
 Programming Language
+
+## STEM
+Science, technology, engineering and mathematics. 
+e.g. "a list of STEM symbols"

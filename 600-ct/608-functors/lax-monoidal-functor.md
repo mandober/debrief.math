@@ -1,0 +1,1 @@
+# Lax monoidal functor

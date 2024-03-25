@@ -1,0 +1,50 @@
+# Arithmetic operations
+
+- Arithmetic operations
+  - 4 elementary operations
+    - 2 primary operations
+      - `+` addition: addendum + addens = sum
+      - `×` multiplication: factor × multiplier = product
+    - 2 operations in terms of these
+      - `-` subtraction: minuend - subtrahend = difference
+        - subtraction in terms of addition: x - y = x + (-y)
+        - subtraction is addition with the inverted (negated) subtrahend
+      - `÷` division: nominator ÷ denominator = quotient
+        - division in terms of multiplication: x ÷ y = x × 1/y
+        - division is mul with the inverted (reciprocal) factor
+
+- iteration
+  - successor, x + 1
+  - predecessor, x - 1
+  - addition: x + y iterate +1 y times on x
+  - mul: iterated addition, x × n = x + x + … + x (n times)
+    - n is a multiplier, n ∈ ℤ
+- additional operations
+    - exponentiation, power
+      - square,      `x²`, x to the second power
+      - cube,        `x³`, x to the third power
+      - n-sqaure-x,  `xⁿ`, x to the n-th power
+    - root
+      - square root, `√x`
+      - cube root,   `∛x`
+      - fourth root, `∜x`
+      - nth-root,    `ⁿ√x`, n is the radix, x is the radical
+    - logarithm
+      - log₂ or lg
+      - log₁₀ or log
+      - logₑ or ln
+    - percentage
+    - signum
+    - absolute value
+    - inverses
+      - inverse of x is `-x`, additive inverse
+      - reciprocal of x is `1/x`, multiplicative inverse
+  * Hyperoperations
+    - Hyperop-0, successor                             `x+1`
+    - Hyperop-1, addition                              `x+y`
+    - Hyperop-2, multiplication,                       `x∙y`
+    - Hyperop-3, exponentiation, `x ↑ y`,              `xʸ`
+    - Hyperop-4, tetratiation,   `x ↑↑ y`,   `x ↑² y`, `ʸx`
+    - Hyperop-5, pentation,      `x ↑↑↑ y`,  `x ↑³ y`
+    - Hyperop-6, hexation,       `x ↑↑↑↑ y`, `x ↑⁴ y`
+    - Hyperop-n,                             `x ↑ⁿ y`

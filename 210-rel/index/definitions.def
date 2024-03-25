@@ -1,0 +1,20 @@
+# Definitions
+
+A relation `R` on a (finite or infinite) family of sets `𝓕 = {A₀,…,Aₙ}` is a subset of the Cartesian product, `A₀ × … × Aₙ`.
+
+In fact, any set of ordered pairs can be understood as a relation, since elements of ordered pairs come from known (identifiable) sets.
+
+
+
+
+
+(Def) A **homogenerous binary relation on a set `A`** is a subset of `A×A`, `R ⊆ A×A`, or equivalently, an element in `𝒫(A×A)`.
+
+
+
+
+`R ⊆ A₀×…×Aₙ`, or, equivalently, an element in the powerset of their product, `R ∈ 𝒫(A₀×…×Aₙ)`.
+
+
+- x ~ y ≝ ⟨x, y⟩ ∈ (~)
+- x ≁ y ≝ ⟨x, y⟩ ∉ (~)

@@ -1,1 +1,0 @@
-# Theorems for empty set

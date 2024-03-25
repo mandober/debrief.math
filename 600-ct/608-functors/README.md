@@ -1,0 +1,36 @@
+# Types of Functors
+
+- by variance
+  - covariant functor: Functor
+  - contravariant functor
+  - covariant applicative functor: Applicative
+  - contravariant applicative functor: Divisible Contravariant Functor
+  - bifunctor (covariant in both args)
+  - profunctor (covariant in one, contravariant in other arg)
+- by fidelity
+  - identity functor
+  - full functor
+  - faithful functor
+  - fully faithful functor
+  - forgetful functor
+  - constant functor
+
+- endofunctor
+- inverse functor
+- hom-functor
+- representable functor
+- powerset functor
+- pointed functor
+- distributive functor
+- monoidal functor
+  - applicative functor
+  - monad (endofunctor + additional structure)
+  - lax monoidal functor
+  - free applicative functor
+- Covariant functor
+- Functor
+- contravariant functor
+- covariant applicative functor
+- Applicative
+- contravariant applicative functor
+- Divisible Contravariant Functor

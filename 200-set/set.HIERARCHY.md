@@ -1,215 +1,385 @@
 # Set Theory :: Hierarchy
 
-- General
-  - History of set theory
-  - Cantor's notion of set
-  - Defining math in terms of sets
-  - Sets as FOM
-  - Arise of axiomatic set theories
-  - ZFC prevails
-  - Set vs other theories in FOM
+* General introduction
+* Informal introduction
+* Set types
+* Naive set theory
+* Set theories
+* Axiomatic set theories
+* Advanced topics
+* Beyond sets
 
-- Naive considerations of sets
-  - Naive appraoches
-  - Set as a collection
-  - Set properties
-  - universal set containing all others?
-  - paradoxes arising
-  - approaches to avoiding paradoxes
-  - have produced numerous set theories
-  - Defining Peano numbers in terms of sets
-  - Defining math in terms of sets
+===============================================================================
 
+* General introduction
+  * History of set theory
+    - The FOM
+    - Georg Cantor
+    - Gottlieb Frege
+    - Bernard Russel
+    - Principia mathematica
+  - General
+    - Cantor's notion of set
+    - Defining math in terms of sets
+    - Sets as FOM
+    - Arise of axiomatic set theories
+    - ZFC prevails
+    - Set vs other theories in FOM
+  * Informal introduction
+    - A perspective on sets
+    - Set as a mathematical primitive
+    - Set theory as FOM
+    - The issue of self-containment
+    - Infinite descending chains
+  - Mathematics and set theory
+    - implementation of mathematics in set theory
+    - set theoretical implementation of ℕ
+    - set theory as the FOM
+  - Subfields of set theory
+    - set theory
+    - relation theory
+    - order theory
+    - domain theory
+    - function theory
+    - representation theory
+  - Sets as primitive mathematical objects
+    - set is a primitive mathematical object
+    - sets are mathematical object in their own right
+    - set as a collection of mathematical objects
+    - set as a container - set containing other sets
+    - set as an element - set contained in another set
 
-- Set notation
-  - specifying sets
-  - *intensional* representation
-    - specification in natural language
-  - *extensional* representation
-    - roster
-    - set-builder notation, aka set comprehension
+* Fundamental number sets
+  - 𝔹 The set of Boolean values
+  - ℕ The set of natural numbers
+    - ℕᐩ The set of naturals excluding 0
+    - ℕ₀ The set of naturals including 0
+    - ℙ The set of prime numbers
+    - 𝔼ᐩ The set of even naturals
+    - 𝕆ᐩ The set of odd naturals
+  - ℤ The set of integers
+    - ℤᐩ The set of positive (nonnegative) integers
+    - ℤ⁻ The set of negative (nonpositive) integers
+    - ℤ⋆ The set of integers excluding 0, ℤ ∖ {0}
+    - 𝔼 The set of even integers
+    - 𝕆 The set of odd integers
+  - ℚ The set of rational numbers
+    - ℚᐩ The set of positive rational numbers
+  - ℝ The set of real numbers
+  - ℂ The set of complex numbers
+  - ℍ The set of quaternions
+  - 𝕊 The set of sedenions
+  - 𝕆 The set of octonions
+  * Other number sets
+    - 𝔸 The set of algebraic numbers
+    - 𝕀 The set of imaginary numbers
 
-- Set notions
-  - extensionality
-  - intensionality
-  - cardinality
-  - equality
-
-- Set equality
-  - intensional equality
-  - extensional equality
-  - equal sets
-  - equivalent sets
-  - equivalence relation
-  - isomorphisms
-  - equinumerousity
-
-- Set cardinality
-  - equinumerousity
-  - finite sets
-    - the empty set
-    - nonempty set
-    - singleton set
-  - infinite sets
-    - countable
-    - uncountable
-
-- Set construction
-  - set properties
-  - set operations
-  - set relations
-  - set functions
-
-- Set operations
-  - complement (inverse): `A' = A⁻¹`
-  - union, `A ⋃ B`
-  - disjoint union, 
-  - intersection, `A ⋂ B`
-  - difference, `A \ B`
-  - Set complement (negation), `A'`
-  - Cartesian product, `A ⨯ B`, `A ⨯ A = A²`
-  - Set partitioning
-  - Set covering
-
-- Universal set
-  - found in non-standard variants of set theory
-  - class, subclass, proper subclass
-  - 𝓤 is a proper class (always a set, never an element)
-  - 𝓤 contains everything
-  - ∅ contains nothing
-  - Relations between the universal and empty set
-    - `𝓤 ⋃ ∅ = 𝓤`, `𝓤 ⋂ ∅ = ∅`, `𝓤 ∖ ∅ = 𝓤`, `𝓤' = ∅`, `∅' = 𝓤`
-  - Relations between the universal and any set
-    - `𝓤 ⋃ A = 𝓤`, `𝓤 ⋂ A = A`, `𝓤 ∖ A = A'`, `𝓤 = A ⋃ A'`
-
-
-
-- Set constructions
-  - the empty set
-  - singleton
+* Set types
+  - subset, superset, proper
+  - subclass, superclass, proper
+  - pure set (set containing only urelements)
+  - pure class (class containing only sets)
+  - conglomerate
+  - urelement
+  - universe
+  - disjoint sets
+  - pairwise disjoint sets
+  - overlapping sets
+  - empty set
+  - nonempty set, inhabited set
+  - singleton set
   - unordered pair
   - ordered pair
-  - Number of proper subsets
-  - Bell Numbers
-  - Natural numbers in terms of sets
-  - ordered pairs
-  - union
-  - intersection
-  - complement
+  - k-element set
   - powerset
-  - set family
-  - indexed set family
-
-
-- Set relations
-  - membership relation
-  - inclusion relation
-  - disjoint sets
-    - pair-wise disjoint sets
-  - overlapping sets
-    - subset (superset)
-      - powerset
-    - proper subset (proper superset)
-- ordered pair
-  - Cartesian product
+  - equivalence class
+  - quotient set
+  - inductive set
+  - equinumerous sets
+  - finite set
+    - bounded set
+    - unbounded set
+  - infinite set
+    - Dedekind-infinite set
+    - infinitely countable set
+    - infinitely uncountable set
+    - countable sets, enumerable set
+    - uncountable sets, innumerable set
   - family of sets
     - indexed set
     - indexing set
-    - index
-
-- Set predicates
-  - is empty
-  - is subset/superset
-  - is proper subset/superset
-  - is set
-  - is urelement
-  - is element
-  - are disjoint
-  - are overlapping
-  - is product
-  - is sum
-
-- Fundamental types of sets
-  - the empty set
-  - non-empty sets
-  - finite sets
-  - infinite sets
-  - singleton set
-  - indexed set
-  - set of prdered pairs
-  - class: set containing sets only
-  - pure set: set containing urelements only
-
-- Fundamental number sets
-  - ℕ The set of natural numbers
-  - ℤ The set of integers
-  - ℚ The set of rational numbers
-  - ℝ The set of real numbers
-  - ℂ The set of complex numbers
+    - indexed family of sets
+  - compact set
+  - supercomplete set (transitive + swollen)
+    - transitive set
+    - swollen set
+  - ordered set (set + ordering relation)
+  - well-ordered set
+  - fuzzy set
+  - amorphous
+  - hereditarily set
+    - hereditarily finite set
+  - filter
+    - prefilters
+    - base filter
+    - subbase filter
+    - ultrafilter
+  - computable
+  - decidable
+  - recursive
 
 
+* Naive set theory
+  * Basic concepts
+    - object
+    - element, member
+    - set
+    - subset
+    - powerset
+    - nested sets
+    - urelement
+    - class
+    - proper class
+    - universe
+    - Venn diagram
+    - Euler diagram
+  * Naive appraoch
+    - Set as a collection
+    - Set properties
+    - universal set containing all others?
+    - paradoxes arising
+    - approaches to avoiding paradoxes
+    - have produced numerous set theories
+    - Defining Peano numbers in terms of sets
+    - Defining math in terms of sets
+    - the empty set, ∅
+    - universe, 𝒰
+  * Set notation
+    - Types of notation
+      - rooster specification
+      - set-builder notation, set comprehension notation
+      - semantic specification
+    - Set comprehension
+      - unrestricted set comprehension
+      - restricted set comprehension
+      - comprehension axioms in naive set theory
+      - intensional representation
+      - extensional representation
+  * Set properties
+    - unordered collection
+    - uniqueness of elements
+    - well-ordering
+    - all finite sets are enumerable sets
+  * Basic relations
+    - set membership
+    - set inclusion
+      - inclusion relation
+      - strict inclusion relation
+    - overlapping sets
+    - disjoint sets
+    - pairwise disjoint sets
+    - set equality relation
+    - set equivalence relation
+    - set isomorphism
+    - compactness
+  * Set equality
+    - intensional equality
+    - extensional equality
+    - equinumerosity
+    - equipotency
+  * Cardinality
+    - equality of sets
+    - equal sets
+    - equivalent sets
+    - equinumerous sets
+    - unordered pair
+    - ordered pair
+    - finite set
+      - empty set
+      - singleton set
+      - unordered pair
+      - nonempty set
+    - universe
+    - infinite set
+      - infinite countable set
+      - infinite uncountable set
+    - using bijections
+  * Set operations
+    - set pairing, {A, B}
+    - ordered pair, (a, b) := {{a}, {a,b}}
+      - n-tuples, (a, b,c,d,e,…) :=
+        - right-associative: (((((a, b),c),d),e),…)
+        - left-associative: (a, (b,(c,(d,(e,…)))))
+    - set union, A ∪ B
+      - n-ary set union, ⋃{Sᵢ}
+    - set disjoint union, A ⊌ B
+      - n-ary set disjoint union, ⨄{Sᵢ}
+    - set intersection, A ∩ B
+      - n-ary set intersection, ⋂{Sᵢ}
+    - relative differences, set differences, A ∖ B, B ⊝ A
+    - symmetric difference, A Δ B
+    - set compliment, A̅
+    - powerset, 𝒫(A)
+    - Carthesian product, A ⨯ B
+      - n-ary Carthesian product, ∏ Aᵢ = A₀ ⨯ A₁ ⨯ … ⨯ Aₙ
+  * Set identities
+    - De Morgan's laws
+    - Algebra of sets
+  * Set constructions
+    - family of sets, {S₀, S₁, …, Sₙ}
+    - indexed set, {Sᵢ}{ᵢ∊ɪ}
+    - indexed family of sets
+    - set partitioning
+    - equivalence classes, [x]~
+    - quotient sets, [x]
+    - set covering
+      - set cover
+      - overcover
+      - minimal cover
+      - compactness
 
-## Mathematics and set theory
+* Set combinatorics
+  - number of subsets
+  - number of proper subsets
+  - number of ordered pairs
+  - number of relations
+  - number of functions
+  - number of bijections
+  - number of injections
+  - number of surjections
+  - number of partial functions
+  - number of reflexive relations
+  - number of symmetric relations
+  - number of transitive relations
 
-- Mathematics and set theory
-  - implementation of mathematics in set theory
-  - set theoretical implementation of ℕ
-  - set theory as the FOM
+* Set theories
+  - Naive set theory
+  - Axiomatic set theory
+  * ZF set theory (standard)
+    - standard set theory
+    - non-standard set theory
+    - conservative extensions of ZF
+    - non-conservative extensions of ZF
+  * Set paradoxes (antymonies)
+    - Richard's paradox (semantics)
+    - Berry's paradox
+    - Russell's paradox
+  * Set axioms
+    - Axiom of ZF set theory
+      - Axiom of the Empty Set (AE)
+      - Axiom of Pairing (AP)
+      - Axiom of Union
+      - Axiom of the Powerset
+      - Axiom of Replacement
+      - Axiom of Foundation
+      - Axiom of Choice (AC)
+    - Axiom of other set theories
+    - Axiom of Comprehension
+    - Axiom of Restriction
+    - Axiom of Extension
+    - Axiom of Specification
 
-- History of set theory
-  - Georg Cantor
-  - Frege
-  - Russell
-
-- Set paradoxes
-  - Richard's paradox
-  - Russell's paradox
-
-- Types of set theories
-  - naive set theory
-  - axiomatic set theory
-  - standard variants
-  - non-standard variants
-
-- Axioms of various set theories
-  - Axiom of Extension
-  - Axiom of Separation
-    - Axiom schema of Specification
-    - Subset Axiom Schema
-  - Axiom of the Empty Set (assert ∅ exists)
-  - Axiom of Pairing, A and A = {A, A} = {A}
-  - Axiom of Choice, AC
-
-
-- List of axiomatic set theories
-  - Theory of Types by Russell and Whitehead
-  - ZF set theory
-  - ZFC set theory
-  - NF, New Foundations, 1937, Quine, simplification of Russell's Type Theory
-  - ML, Mathematical Logic: 1940, Quine's extension of NF, introduces Classes
-  - MK, Morse-Kelley
-  - NBG, von Neumann-Bernays-Gödel
-  - Zermelo's
-  - Kripke-Platek
+* Axiomatic set theories
+  - Zermelo-Fraenkel (ZF) set theory
+  - Zermelo-Fraenkel with the Axiom of choice (ZFC)
+  - Theory of Types by Russell and Whitehead in PM
+  - New Foundations (NF), 1937, Quine, simplification of Russell's Type Theory
+  - Mathematical Logic: 1940, Quine's extension of NF, introduces Classes
+  - Morse-Kelley (MK) set theory
+  - vonNeumann-Bernays-Gödel (NBG) set theory
+  - Zermelo (Z) set theory
+  - Kripke-Platek (KP) set theory
   - General set theory that Burgess (2005) calls "ST"
   - CUS Church's set theory
   - Positive Set Theory (school around Roland Hinnion @Universite Bruxelles)
   - Bernays set theory
 
+* Advanced
+  - characteristic function
+  - Bell number
+  - well-ordering
+  - reflection principle
+  - equaliser
+  - kernel
+  - set hierarchies
+  - set universes
+    - von Neumann universe
+    - Grothendick universe
+  - filters
+  - ultrafilters
+  - transfinite induction
+  - transfinite recursion
+  - Axiom of Choice
+  - Zorn's Lemma
 
-- Set algebras
-  - Monoid, `(S, ⋃, ∅)`
-  - Monoid, `(S, ⋂, ∅)`
-  - Group, `(S, ⋃, ∅)`, complement as inverse S' = S⁻¹
-  - Group, `(S, ⋂, ∅)`, complement as inverse
+  - forcing [scary!]
+  * Mathematical constructions in terms of sets
+    - construction of naturals
+    - construction of integers
+    - construction of rationals
+    - construction of reals
+      - Cauchy sequence
+      - Dedekind cut
+  * Theorems re sets
+    - Cantor's Theorem
+    - Cantor's diagonalization argument
+    - Zorn's Lemma
+    - Schröder-Bernstein Theorem
+    - Continuum hypothesis
+    - Rice's theorem
+  * Cardinal numbers
+    - continuum
+    - cardinal arithmetic
+    - cardinal numbers
+    - `ℵ₀`
+    - `ω`, number after all cardinals
+  * Ordinal numbers
+    - ordinal number ,`α`
+    - well-ordering principle
+    - well-ordered set
+    - infinite descent
+    - infinite chain of self-containment
+    - set of ordinal numbers
+    - ordinal arithmetic
+    - transfinite recursion
 
-- Axioms of set algebras
-  - set axioms, identities, laws, principles
-  - closure
-  - associativity
-  - identity (∅)
-  - inverse (complement)
-  - idempotency
-  - absorption, annihilation, domination
-  - commutativity
-  - distributivity
+
+* Beyond sets
+  - Primitive mathematical collections
+  - Properties of collections
+    - ordering
+    - ordered collection
+    - unordered collection
+    - uniqueness vs multiplicity (of elements)
+    - uniqueness
+    - unique elements in collection
+    - nonunique elements in collection, multiplicity
+  * Types of collections
+    - set             (unordered,    unique)
+    - bag, multiset   (unordered, nonunique)
+    - list, sequence  (  ordered, nonunique)
+    - unique list     (  ordered,    unique)
+    - multiset, bag
+    - multiplicity
+    - list
+    - sequence
+    - series
+  * Further topics
+    - relations
+    - orders
+    - functions
+    - algebras
+    - Algebra of sets
+    - Axioms of algebras of sets
+      - axioms, identities, laws, principles, properties
+      - closure
+      - associativity
+      - commutativity
+      - identity
+      - distributivity
+      - idempotency
+      - inverse, complement
+      - absorption, annihilation
+      - domination, cancellation
+
+===============================================================================

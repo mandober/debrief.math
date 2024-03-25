@@ -1,5 +1,36 @@
 # Set theory :: FAQ
 
+## Which set
+
+What set is `{(a, b) | a ∈ A ∧ b ∈ B}`?
+
+In set-builder notation, variables should be universally quantified, so for both `a` and `b` it is: ∀a(a ∈ A) and ∀b(b ∈ B), which then makes this set a Catrtesian product. However, the same notation is given for any relation from A to B, R ⊆ A⨯B which would imply existential quantification of both variables: 
+`{(a, b) | ∃a∃b(a ∈ A ∧ b ∈ B)}`
+vs
+`{(a, b) | ∀a∀b(a ∈ A ∧ b ∈ B)}`
+
+∀A ∀B (∃C (∀a ∀b (a ∈ A ∧ b ∈ B) ⇒ ⟨a, b⟩ ∈ C))
+∀A ∀B ∃C ((∀a ∈ A ∧ ∀b ∈ B) ⇒ ⟨a, b⟩ ∈ C)
+
+It's better to write relations as a truth set `T` that makes `R(a, b)` true:
+`{(a, b) ∈ A×B | R(a, b)}`
+then
+- if R(a, b) is false for every a ∈ A and for every b ∈ B, then T = ∅
+- if R(a, b) is true  for every a ∈ A and for every b ∈ B, then T = A×B
+- if R(a, b) is true  for some  a ∈ A and for some  b ∈ B, then T ⊆ A×B
+- if R(a, b) is true  for every a ∈ A and for some  b ∈ B, then T : A → B iff 
+  (a₀, b₀) ∈ T and (a₀, b₁) ∈ T then b₀ = b₁
+
+
+## Computability of infinite sets
+
+A wealth of problems of interest have the following form: given a set `K` and a property `P`, check whether or not all elements of `K` satisfy `P`.
+
+We say that K is exhaustible if this problem can be algorithmically solved in finite time, for any decidable property p, uniformly in p.
+
+Thus, the input of the algorithm is p and the output is the truth value of the statement that all elements of K satisfy p.
+
+
 
 ## Selecting distinct set elements
 

@@ -11,8 +11,7 @@ Thus, the axioms of ZF refer exclusively to **pure sets**, and prevent its model
 
 
 
-* Set theory
-https://en.wikipedia.org/wiki/Set_theory
+
 
 * Mathematical object
 https://en.wikipedia.org/wiki/Mathematical_object
@@ -20,22 +19,11 @@ https://en.wikipedia.org/wiki/Mathematical_object
 * Domain of discourse
 https://en.wikipedia.org/wiki/Domain_of_discourse#Universe_of_discourse
 
-* Hereditary set
-https://en.wikipedia.org/wiki/Hereditary_set
-
-* Urelement
-https://en.wikipedia.org/wiki/Urelement
-
 * Class (set theory)
 https://en.wikipedia.org/wiki/Class_(set_theory)
 
 * Universal set
 https://en.wikipedia.org/wiki/Universal_set
-
-
-
-* Zermelo-Fraenkel set theory
-https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory
 
 * Axiomatic system
 https://en.wikipedia.org/wiki/Axiomatic_system
@@ -45,8 +33,3 @@ https://en.wikipedia.org/wiki/Axiom_of_empty_set
 
 * Axiom schema of specification
 https://en.wikipedia.org/wiki/Axiom_schema_of_specification#Unrestricted_comprehension
-
-
-
-* Conservative extension
-https://en.wikipedia.org/wiki/Conservative_extension

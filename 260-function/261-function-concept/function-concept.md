@@ -43,11 +43,11 @@ https://en.wikipedia.org/wiki/Variable_(mathematics)
 
 Other specific names for variables are:
 
-An unknown is a variable in an equation which has to be solved for.
-An indeterminate is a symbol, commonly called variable, that appears in a polynomial or a formal power series. Formally speaking, an indeterminate is not a variable, but a constant in the polynomial ring or the ring of formal power series. However, because of the strong relationship between polynomials or power series and the functions that they define, many authors consider indeterminates as a special kind of variables.
-A parameter is a quantity (usually a number) which is a part of the input of a problem, and remains constant during the whole solution of this problem. For example, in mechanics the mass and the size of a solid body are parameters for the study of its movement. In computer science, parameter has a different meaning and denotes an argument of a function.
-Free variables and bound variables
-A random variable is a kind of variable that is used in probability theory and its applications.
+- An *unknown* is a variable in an equation which has to be solved for.
+- An *indeterminate* is a symbol, commonly called variable, that appears in a polynomial or a formal power series. Formally speaking, an indeterminate is not a variable, but a constant in the polynomial ring or the ring of formal power series. However, because of the strong relationship between polynomials or power series and the functions that they define, many authors consider indeterminates as a special kind of variables.
+- A *parameter* is a quantity (usually a number) which is a part of the input of a problem, and remains constant during the whole solution of this problem. For example, in mechanics the mass and the size of a solid body are parameters for the study of its movement. In computer science, parameter has a different meaning and denotes an argument of a function.
+- *Free variables* and *bound variables*
+
 All these denominations of variables are of semantic nature, and the way of computing with them (syntax) is the same for all.
 
 ---

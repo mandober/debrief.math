@@ -1,1 +1,0 @@
-# Axioms of set theory

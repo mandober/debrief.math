@@ -1,0 +1,140 @@
+# Relations :: Index :: Symbols
+
+name                      | canonical | short    | symbol
+--------------------------|-----------|---------:|--------
+Reflexive                 | REFL      |    refl  | `⥀`
+Non-reflexive             | NONREFL   | nonrefl  | `⥀̶`
+Irreflexive               | IRREFL    |  irrefl  |
+Non-irreflexive           | NONIRRE   | nirrefl  |
+Coreflexive               | COREF     |  corefl  | 
+Quasi-reflexive           | QREF      |   qrefl  | 
+quasi-reflexive left      | QREFL     |  lqrefl  | 
+quasi-reflexive right     | QREFR     |  rqrefl  | 
+Symmetric                 | SYMM      |          | `⇆`, `🗘`
+Asymmetric                | ASYM      |          | 
+Antisymmetric             | TSYM      |          | 
+Transitive                | TRANS     |          | `⮔`
+Intransitive              | INTR      |          |
+Quasitransitive           | QTRANS    |          |
+quasi-transitive left     | QTRANSL   |          |
+quasi-transitive right    | QTRANSR   |          |
+Connected,  total         | CONN      | conn     | `↭`
+Strongly-connected        | SCONN     | sconn    |
+Serial,     left-total    | SERI      |          |
+Functional, right-unique  | FUNC      |          |
+Injective                 | INJE      |          | >->
+Surjective                | SURJ      |          | ->>
+Set-like                  | SETL      |          |
+Euclidean                 | EUCL      |          |
+Euclidean left            |           |          |
+Euclidean right           |           |          |
+Dichotomous               | DICH      |          |
+Trichotomous              | TRIC      |          |
+
+CLOCKWISE CLOSED CIRCLE ARROW                     | 0x2941 | ⥁
+ANTICLOCKWISE CLOSED CIRCLE ARROW                 | 0x2940 | ⥀
+CLOCKWISE GAPPED CIRCLE ARROW                     | 0x27f3 | ⟳
+ANTICLOCKWISE GAPPED CIRCLE ARROW                 | 0x27f2 | ⟲
+CLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW       | 0x2b6e | ⭮
+ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW   | 0x2b6f | ⭯
+CLOCKWISE OPEN CIRCLE ARROW                       | 0x21bb | ↻
+ANTICLOCKWISE OPEN CIRCLE ARROW                   | 0x21ba | ↺
+
+
+⮔
+⟳ ⟲
+↻ ↺
+↷ ↶
+↩ ↪
+↔ ↝ ↯ ↭
+⇴ ⇿ ⇾ ⇽ ⇷ ⇸
+🗘 🔄
+⇌ ⇋
+⇆ ⇄ ⇉ ⇇ ⇈ ⇊ ⇵ ⇅
+⇶ ⇛
+⮏ ⮎ ⮍ ⮌
+⭯ ⭮
+⨑
+⥁ ⥀
+⤿ ⤾ ⤽ ⤼ ⤻ ⤺ ⤹ ⤸
+
+∢ ⊀ ≺ ≮ 
+⋱ ⋮ ⋯
+≁
+⊊
+
+- Not a superscript comma but good enough: `⁽ˣ⋅ʸ⁾`
+- good for distinguishing left and right composition:
+  ---------
+  f : A → B
+  g : B → C
+  ---------
+  all mean: `g (f x)`
+  ---------
+  x & f & g
+  x |> f |> g
+  f |> g
+  ---------
+  g ∘ f
+  (g ∘ f)(x) = g(f(x))
+  ---------
+  f;g
+  ---------
+  ⥀ (ccw) is LTR composition, `g ⥀ f`
+  ---------
+  g : B → C
+  h : B → C
+  ⥁ (cw) is RTL composition
+
+  f ⥁ g and g ⥀ f
+  ⟳ ⟲
+  ⭮ ⭯
+  ↻ ↺
+
+
+```hs
+f : A → B
+g : B → C
+h : C → D
+j : D → A
+
+[A→ᶠ→B]
+[B→ᵍ→C]
+[C→ʰ→D]
+[D→ʲ→A]
+
+-->
+
+[A--ᶠᵍʰᵏʲ->B]
+
+
+[D→j→A] -> [C→h→D]
+[B→g→C] -> [A→f→B]
+
+
+
+g . f :: A→C
+f;g :: A→C
+
+h . g . f
+
+-- Haskell composition (← LRT composition)
+--          g           f        x
+g . f :: (b -> c) -> (a -> b) -> a -> c
+g . f = \x -> g (f x)
+
+-- ← LTR (in reverse) composition
+-- f `LTR` g = g (f x)
+g ⥀ f :: (b -> c) -> (a -> b) -> a -> c
+g ⥀ f = g . f
+
+-- → RTL (straight) composition
+-- g `RTL` f = g (f x)
+
+f ⥁ g :: (a -> b) -> (b -> c) -> a -> c
+(f ⥁ g) x = g (f x)
+(f ⥁ g) x = x |> f |> g
+f ⥁ g = x |> f |> g
+g;f = g (f x)
+(g ⥀ f) x = g (f x)
+```

@@ -1,0 +1,13 @@
+# CT :: General :: What category theory is about
+
+Category theory is a relatively young branch of mathematics, stemming from algebraic topology, and designed to describe various structural concepts from different mathematical fields in a uniform way. Indeed, category theory provides a bag of concepts (and theorems about those concepts) that form an abstraction of many concrete concepts in diverse branches of mathematics, including computing science. Hence it will come as no surprise that the concepts of category theory form an abstraction of many concepts that play a role in algorithmics.
+
+Quoting C. A. Hoare: "Category theory is quite the most general and abstract branch of pure mathematics. The corollary of a high degree of generality and abstraction is that *the theory gives almost no assistance in solving the more specific problems* within any of the subdisciplines to which it applies. It is a tool for the generalist, of little benefit to the practitioner". Hence it will come as no surprise that, for algorithmics too, category is mainly useful for theory development; hardly for individual program derivation.
+
+Quoting Asperti and Longo: "Category theory is a mathematical jargon. Many different formalisms and structures may be proposed for what is essentially the same concept; the categorical language and approach may simplify through abstraction, display the generality of concepts, and help to formulate uniform definitions".
+
+Quoting Scott: "Category theory offers a pure theory of functions, not a theory of functions derived from sets". It should also be added that the language of categories facilitates an elegant style of expression and derivation of proofs based on equational reasoning. For use in algorithmics, this happens to be reasoning at the function level without the need (or possibility) to introduce arguments explicitly, which is a hailmark of the so-called *point-free style*. The categorical formulations often suggest and facilitate generalization, much more so than the set-theoretic formulations.
+
+Category theory has established itself as the youngest branch of mathematics, studied as a tool to be applied to a subject of interest, until it becomes the main object of interest then gets studied for its own sake. One should not confuse the potential benefits that category theory may bring to other theories with the difficulty and complexity, and fun, of doing *pure category theory*, as a form of lartpourlartism ("l'art pour l'art").
+
+Despite the occasional resemblance to masturbation, at least the basic concepts of CT should be instilled as they seem to quickly spread into other areas of mathematics, especially into type theory and topology, and the cross between them.

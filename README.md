@@ -18,6 +18,7 @@ Lo-fi collection of notes about mathematics, mostly originating from Wikipedia; 
 
 Topics include: the foundations of mathematics, set theory, relation theory, order theory, domain theory, function theory, graph theory, mathematical logic, proof theory, lambda calculi, type theory, abstract algebra, category theory. Fields belonging to both math and CS (Theory of Computation, in particular) span across both debrief.math and debrief.cs debrief/debris.
 
+⭐★
 
 #### Topics
 

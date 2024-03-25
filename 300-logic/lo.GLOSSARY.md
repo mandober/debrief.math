@@ -30,9 +30,11 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Deductive system](#deductive-system)
 - [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
+- [Deviant logics](#deviant-logics)
 - [Dialetheism](#dialetheism)
 - [Elementary theory](#elementary-theory)
 - [Equiconsistent](#equiconsistent)
+- [Extended logics](#extended-logics)
 - [Extension](#extension)
 - [Extensionality](#extensionality)
 - [Extremal clause](#extremal-clause)
@@ -50,7 +52,6 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Identity - Law of identity](#identity---law-of-identity)
 - [Identity - Quine's dictum](#identity---quines-dictum)
 - [Identity of indiscernibles](#identity-of-indiscernibles)
-- [iff](#iff)
 - [Immediate inference](#immediate-inference)
 - [Informal logic](#informal-logic)
 - [Law of non-contradiction](#law-of-non-contradiction)
@@ -124,11 +125,13 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 Absoluteness is a property of a formula. A formula is said to be absolute if it has the same truth value in each class of structures/models.
 
 ## Ampliative
-Ampliative (from Latin *ampliare*, "to enlarge") is a term used mainly in logic, meaning "extending" or "adding to that which is already known".
-This term was often used by medieval logicians in the analyses of the temporal content of their subject terms. There were 3 rules outlined in its usage: 1) Common terms in a sentence only represent present things when they stand with a non-ampliating verb about the present; 2) A common term standing in a sentence with a verb about the past is able to stand for present and past things; 3) The common term standing with a verb about the future can indifferently stand for present and future things.
+Ampliative (from Latin "ampliare" meaning "to enlarge") is a term used mainly in logic, meaning "extending" or "adding to that which is already known". This term was often used by medieval logicians in the analyses of the temporal content of their subject terms. There were 3 rules outlined in its usage: 
+1. Common terms in a sentence only represent present things when they stand with a non-ampliating verb about the present.
+2. A common term standing in a sentence with a verb about the past is able to stand for present and past things.
+3. The common term standing with a verb about the future can indifferently stand for present and future things.
 
 ## Ancestral logic
-Ancestral logic is the extension of FOL with a transitive closure operation (the transitive closure of a binary relation R on a set X is the smallest relation on X that contains R and is transitive).
+Ancestral logic is an *extension of FOL* with a *transitive closure* operation. A transitive closure of a binary relation R on a set X is the smallest relation on X that contains R and is transitive (figuring out a way to compliment a relation so it is transitive is tricky).
 
 ## Anti-psychologism
 Anti-psychologism or *logical objectivism* is the conviction that the rules of logic are mind-independent. *Objectivism* is a philosophical system created by Ayn Rand that declares real knowledge to be metaphysically objective. *Moral objectivism* or *moral realism*, the meta-ethical position that ethical sentences express factual propositions about robust or mind-independent features of the world, and that some such propositions are true.
@@ -149,7 +152,8 @@ An axiom or postulate is a statement considered to always be true  that serves a
 Biconditional (bidirectional implication, bijection) is a logical connective, symbolized by `⟺` or `<->`, and usually read "if and only if", that marks two logical formulas as being logically equivalent, symbolically `p ⟺ q`. Two formulas are logically equivalent if they imply each other, `p ⟺ q ≡ (p → q) ⋀ (q → p)`. Here, `⟺` denotes logical equality, while `≡` denotes syntactic equality (although they are frequently used interchangeably).
 
 ## Bijection
-In logic, bijection is synonymous with biconditional. But in general math, bijection is a function or relation that is injective, `(dom = ran) < cod`, and surjective, `dom > (cod = ran)`.
+- In logic, bijection is synonymous with biconditional (`⇔`).
+- In math, bijection is a function that is injective and surjective.
 
 ## Bivalence
 Bivalence is the property of two-value logics. The phrase "classically bivalent" sometimes also implies LEM although the two principles are distinct. A logic may admit LEM without being bivalent, and a logic may be bivalent without admitting LEM (intuitionistic logic).
@@ -216,6 +220,25 @@ like a declaration of the name of variable that will be later used (and identifi
 
 binds a variable to 
 
+## Classical logic
+
+https://en.wikipedia.org/wiki/Classical_logic
+
+Classical logic (standard logic or Frege-Russell logic) is the intensively studied and most widely used class of deductive logic. Classical logic has had much influence on analytic philosophy.
+
+Each logical system in this class shares characteristic properties such as
+- The law of excluded middle (LEM)
+- Double negation elimination (DNE)
+- The law of noncontradiction (LNC)
+- The principle of explosion (EFQ)
+- Monotonicity of entailment
+- Idempotency of entailment
+- Commutativity of conjunction
+- De Morgan duality: every logical operator is dual to another
+- The bivalence of truth: most semantics of classical logic are bivalent
+
+While not entailed by the preceding conditions, contemporary discussions of classical logic normally only include propositional and first-order logics. In other words, the overwhelming majority of time spent studying classical logic has been spent studying specifically propositional and first-order logic, as opposed to the other forms of classical logic.
+
 ## Closed-world assumption
 Closed-world assumption is a view that pressuposes that a statement that is true is also known to be true, and a statement not known to be true is false.
 
@@ -245,6 +268,21 @@ Defeasible inference is a kind of inference in which reasoners draw tentative co
 ## Defeasible reasoning
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
 
+## Deviant logics
+https://en.wikipedia.org/wiki/Deviant_logics
+
+Deviant logics, in contrast to extended logics, reject some of the fundamental principles of classical logic and are often seen as its rivals.
+
+*Intuitionistic logic* is based on the idea that truth depends on verification through a proof. This leads it to reject certain rules of inference found in classical logic that are not compatible with this assumption.
+
+*Free logic* modifies classical logic in order to avoid existential presuppositions associated with the use of possibly empty singular terms, like names and definite descriptions. 
+
+*Many-valued logics* allow additional truth values besides true and false. They thereby reject the principle of bivalence of truth. 
+
+*Paraconsistent logics* are logical systems able to deal with contradictions. They do so by avoiding the principle of explosion found in classical logic.
+
+*Relevance logic* is a prominent form of paraconsistent logic. It rejects the purely truth-functional interpretation of the material conditional by introducing the additional requirement of relevance: for the conditional to be true, its antecedent has to be relevant to its consequent.
+
 ## Dialetheism
 Dialetheism is a view in phylosophy of logic which accepts the existence of contradictory propositions, i.e. proposition that are both true and false. More precisely, it is the belief that there can be a true statement whose negation is also true. Such statements are called "true contradictions", dialetheia, or nondualisms.
 
@@ -253,6 +291,23 @@ In mathematical logic, an elementary theory is a theory that involves axioms usi
 
 ## Equiconsistent
 In mathematical logic, two theories are equiconsistent if the consistency of one theory implies the consistency of the other theory, and vice versa. In this case, they are, roughly speaking, "as consistent as each other".
+
+## Extended logics
+https://en.wikipedia.org/wiki/Extended_logics
+
+Extended logics are logical systems that are based on classical logic and its rules of inference, but extend it to new fields by introducing new logical symbols and the corresponding rules of inference governing these symbols.
+
+In the case of *alethic modal logic*, these new symbols are used to express not just what is true simpliciter, but also what is possibly or necessarily true.
+
+It is often combined with *possible worlds semantics*, which holds that a proposition is possibly true if it is true in some possible world while it is necessarily true if it is true in all possible worlds.
+
+*Deontic logic* pertains to ethics and provides a formal treatment of ethical notions, such as obligation and permission.
+
+*Temporal logic* formalizes temporal relations between propositions. This includes ideas like whether something is true at some time or all the time and whether it is true in the future or in the past.
+
+*Epistemic logic* belongs to epistemology. It can be used to express not just what is the case but also what someone believes or knows to be the case. Its rules of inference articulate what follows from the fact that someone has these kinds of mental states.
+
+*Higher-order logics* do not directly apply classical logic to certain new sub-fields within philosophy but generalize it by allowing quantification not just over individuals but also over predicates.
 
 ## Extension
 The extension of a predicate (a truth-valued function) is the set of tuples of values that, used as arguments, satisfy the predicate. Such a set of tuples is a relation.
@@ -310,9 +365,6 @@ The Quine's dictum says: No entity without identity! To know a type of objects i
 
 ## Identity of indiscernibles
 Leibniz's notion of equality: given any `x` and `y`, `x = y` iff given any predicate `P`, `P(x)` = `P(y)`, `∀xy(x ≡ y ⇔ ∀P(Px ≡ Py))`.
-
-## iff
-see Biconditional
 
 ## Immediate inference
 Immediate inference is the operation of drawing an inference from a single premise; an inference drawn from a single premise.

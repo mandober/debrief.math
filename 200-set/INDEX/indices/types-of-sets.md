@@ -3,7 +3,6 @@
 Enumerations of types of sets, classifications of sets related entities, opposing pairs and other factors of division.
 
 
-
 - Classification of sets
   - named sets
   - fundamental sets

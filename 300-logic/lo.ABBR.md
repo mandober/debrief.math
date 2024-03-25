@@ -3,69 +3,97 @@
 <!-- TOC -->
 
 - [BHK](#bhk)
+- [CD](#cd)
 - [CHI](#chi)
+- [DP](#dp)
+- [DD](#dd)
+- [DS](#ds)
 - [EFQ](#efq)
 - [FOL](#fol)
 - [HOL](#hol)
+- [HS](#hs)
 - [IL](#il)
+- [IP](#ip)
 - [LEM](#lem)
 - [LID](#lid)
 - [LNC](#lnc)
+- [MP](#mp)
+- [MT](#mt)
 - [PA](#pa)
 - [PNF](#pnf)
-- [POB](#pob)
+- [RAA](#raa)
 - [QL](#ql)
 - [SL](#sl)
-- [SOL](#sol)
-- [wff](#wff)
+- [WFF](#wff)
 
 <!-- /TOC -->
 
 ## BHK
-Brouwer-Heyting-Kolmogorov interpretation (of intuitionistic logic)
+Brouwer-Heyting-Kolmogorov interpretation
+
+## CD
+Constructive Dilemma (p → q, r → s, p ∨ r ⊢ q ∨ s)
 
 ## CHI
-Curry-Howard isomorphism (propositions-as-types, proofs-as-programs)
+Curry-Howard isomorphism
+
+## DP
+Direct Proof
+
+## DD
+Destructive Dilemma (p → q, r → s, ¬q ∨ ¬s ⊢ ¬p ∨ ¬r)
+
+## DS
+Disjunctive Syllogism (p ∨ q, ¬p ⊢ q)
 
 ## EFQ
-Ex falso quodlibet (the principle of explosion)
+Ex Falso Quodlibet (the principle of explosion), i.e. p ∧ ¬p ⊢ q, anything follows from contradiction.
 
 ## FOL
-First-order logic
+First-Order Logic
 
 ## HOL
-Higher-order logic
+Higher-Order Logic
+
+## HS
+Hypothetical Syllogism (p → q, q → r ⊢ p → r)
 
 ## IL
-Intuitionistic logic
+Intuitionistic Logic
+
+## IP
+Indirect Proof
 
 ## LEM
-The law of excluded middle (tertium non datur)
+Law of Excluded Middle (p ∨ ¬p)
 
 ## LID
-The law of identity
+Law of Identity (p = p)
 
 ## LNC
-The law of non-contradiction
+Law of Non-Contradiction ¬(p ∧ ¬p)
+
+## MP
+Modus Ponens (p → q, p ⊢ q)
+
+## MT
+Modus Tolens (p → q, ¬q ⊢ ¬p)
 
 ## PA
 1. Peano Axioms
 2. (first-order) Peano Arithmetic
 
 ## PNF
-Prenex normal form
+Prenex Normal Form (placing all quantifiers in prefix position)
 
-## POB
-The principle of bivalence
+## RAA
+Reductio Ad Absurdum, ¬q ⇒ (p ∧ ¬p) ⊢ q, i.e. assuming a formula ¬q and then deriving a contradiction, allows you to conclude q.
 
 ## QL
-Quantificational logic (predicate logic)
+Quantificational logic (abbreviation mostly used for predicate logic)
 
 ## SL
-Sentential logic (propositional logic)
+Sentential logic (abbreviation mostly used for propositional logic)
 
-## SOL
-Second-order logic
-
-## wff
-Well-formed formula
+## WFF
+Well-Formed Formula

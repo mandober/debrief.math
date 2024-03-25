@@ -1,0 +1,68 @@
+# Symbols
+
+- `C`                 A category C, consisting of Ob(C) and Ar(C)
+- `Ob(C)`             Collection of objects in C
+- `Hom(C), Ar(C)`     Collection of morphisms in C
+- `a,b,c ∈ Ob(C)`     Some objects in C
+- `Set`               Category of sets (as obj) and functions (as arrows)
+- `Hom(a,b)`          Hom-set - a set of morphisms from `a` to `b`
+  - Hom(a,b) ⊆ Hom(C)
+- `f : a -> b`        A single morphism from `a` to `b`
+  - f ∈ Hom(C)
+  - f ∈ Hom(a,b)
+- `g ∘ f`             Composition of morphisms
+  - g : b -> c        Another morphism, from `b` to `c`
+  - h : a -> c        Composed morphism, from `a` to `c`
+  - h = g ∘ f
+  - h ∈ Hom(a,c)
+- `1ᵃ : a -> a`       The identity morphism on `a`
+  - 1ᵃ ∈ Hom(C)
+  - 1ᵃ ∈ Hom(a,a)
+- `Hom(a,a)`          A set of endomorphisms on `a`
+  - Hom(a,a) ⊆ Hom(C)
+  - 1ᵃ ∈ Hom(a,a)
+  - e₁ : a -> a       An endomorphism (not identity) on `a`
+- `𝟘`                 The inital object in a category (if it has one)
+  - ∀x.x ∈ Ob(C) ⇒ `∃! absurd : 𝟘 -> x`
+  - 𝟘 ∈? Ob(C)        Not generally true for an arbitrary cat C
+  - 𝟘 ∈ Ob(Set)       In Set, 𝟘 is ∅
+- `𝟙` or `()`         The terminal object in a category (if it has one)
+  - 𝟙 or 1 is the terminal object in any cat that has a terminal object
+  - in Set, 𝟙 is the object, but also a singleton set, 𝟙 = {⋆}, `⋆ = ()`
+  - ∀x.x ∈ Ob(C) ⇒ `∃! unit : x -> 𝟙`
+  - 𝟙 ∈? Ob(C)        Not generally true for an arbitrary cat C
+  - 𝟙 ∈ Ob(Set)       In Set, 𝟙 is {⋆} (a singleton set)
+  - ∀S.S ∈ Ob(Set) ⇒ `el : 𝟙 -> x`, i.e. "element picker/selector"
+  - there is an |S| number of `el` arrows:
+  - S ∈ Ob(Set) and S = {x,y}, then
+    - `x : 𝟙 -> S`
+    - `x _ = x`      picks the element `x` ∈ S, so we also write `x : 1 -> x`
+    - `y : 𝟙 -> S`
+    - `y _ = y`      picks the element `y` ∈ S, so we also write `y : 1 -> y`
+    - Categorically, we do not talk about an element `x`, but about the arrow that "selects" it, `x : 𝟙 -> x`, thus, `x ≅ 𝟙 -> x`, i.e. an element `x` is the same thing as a function from unit to it, `1 -> x`.
+- `F : C -> D`        A functor from cat C to cat D
+- `E : C -> C`        An endofunctor from cat C to cat D
+- `I : C -> C`        The identity functor on cat C
+- `Δᵣ : C -> D`       A constant functor as determined by the obj `r` in D
+- `F(a) = F a`        F maps an obj `a` in C to an obj `F a` in D
+  - `a ⟼ F a`        is the image in D of an obj `a` in C under a functor F
+  - `F(f) = F f`      F maps an arr `f` in C to an arr `F f` in D
+  - `f ⟼ F f`        is the image in D of an arr `f` in C under a functor F
+  - `f : a -> b`      An arrow f is lifted into arrow `F a -> F b`
+- `α : F ⇒ G`         A NT α is a mapping from functor F to functor G
+  - F : C -> D
+  - G : C -> D
+  - αᵃ : F b -> G b   A component of a NT `α` at an object `a` in C
+  - αᵇ : F b -> G b   A component of a NT `α` at an object `b` in C
+- `ι : F -> F`        An identity NT `ι` from a functor F to itself
+- `ν ∘ η`             Vertical composition of NTs `ν` and `η`
+- `ν ⊕ η`            Horizontal composition of NTs `ν` and `η`
+- `a ~~> b`           A Kleisli arrow in C is impl as `a -> T b` in K
+- `Cᴼᴾ`               Opposite category of C
+  - f : a -> b        An arrow `f` in C
+  - f⁻¹ : b -> a        becomes an inverse arrow `f⁻¹` in Cᴼᴾ
+  - g ∘ f             Composition of arrows in C
+  - f ∘ g               becomes reversed in Cᴼᴾ
+  - F : C -> D        A covariant functor from C
+  - F : Cᴼᴾ -> D        is a contravariant functor from Cᴼᴾ
+- a ≅ b              Objects `a` and `b` are isomorphic

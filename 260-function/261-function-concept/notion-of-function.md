@@ -3,6 +3,7 @@
 The problem is that math didn't complete the minimal set of requirements before a relation may consider itself a function. The biggest omission was leaving out, or being flexible with the specification of a codomain.
 
 
+
 leaves many things unspecified or even ambiguous when it comes to functions, which may be frustrating in situations when a topic common to both math and PLs is discussed. The notion of functions is a prime example of a topic that is not well-defined neither in math itself, nor in many PLs. Like different mathematicians have different notion of functions, so each programming language has its own, ever slightly different from another PL, view of functions.
 
 In math, the most general form of a function is denoted by `f(x) = y`.

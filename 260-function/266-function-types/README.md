@@ -24,6 +24,10 @@ Kinds of functions
 - total-recursive-function
 - types-of-functions
 - μ-recursive-function
+- Boolean function
+- Boolean-valued function
+- Multi-valued function
+
 
 ----
 

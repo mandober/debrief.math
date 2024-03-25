@@ -1,1 +1,0 @@
-# Uses of category theory
