@@ -1,0 +1,78 @@
+# Inference rules of constructive logic
+
+- `A prop` (judgement that `A` is a proposition)
+- `A true` (judgement that `A` is true, which presupposes that `A prop`)
+
+Inference rules
+- formation    (F): assert `prop`s
+- introduction (I): deal with `true` props
+- elimination  (E): deal with `true` props
+
+Logical connectives
+- conjunction
+  - 1 F rule with 2 premises
+  - 1 I rule with 2 premises
+  - 2 E rules
+- truth
+  - 1 F rule with 0 premises
+  - 1 I rule with 0 premises
+  - 0 E rules
+- implication
+  - 1 F rule with 2 premises
+  - 1 I rule with 2 premises
+  - 1 E rule
+- disjunction
+  - 1 F rule with 2 premises
+  - 2 I rules
+  - 1 E rules with 3 premises
+- falsity
+  - 1 F rule
+  - 0 I rules
+  - 1 E rule (with 1 premise instead of 3 like ∨)
+
+
+
+```hs
+Conjunction.
+
+A prop   B prop       A true   B true       A ∧ B true       A ∧ B true
+---------------- ∧F   --------------- ∧I    ---------- ∧E₁   ---------- ∧E₂
+   A ∧ B prop            A ∧ B true           A true           B true
+
+
+Truth.
+
+------- ⊤F    ------- ⊤I
+⊤ prop        ⊤ true
+
+
+Implication.
+                           ------ ᵘ
+                           A true
+                              ⁞
+A prop   B prop            B true           A ⇒ B true   A true
+---------------- ⇒F     ----------- ⇒Iᵘ    -------------------- ⇒E
+  A ⇒ B prop            A ⇒ B true                B true
+
+
+Disjunction.
+
+A prop   B prop         A true           B true
+--------------- ∨F    ---------- ∨I₁   ---------- ∨I₂
+  A ∨ B prop          A ∨ B true       A ∨ B true
+
+
+              ------ ᵘ  ------ ʷ
+              A true    B true
+                 ⁞         ⁞
+A ∨ B true    C true    C true
+-------------------------------- ∨Eᵘʷ
+               C true
+
+
+Falsity.
+
+                  ⊥ true
+------- ⊥F        -------- ⊥E
+⊥ prop            C true
+```

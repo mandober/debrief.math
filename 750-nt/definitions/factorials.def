@@ -1,0 +1,193 @@
+# Factorial-like and triangular numbers
+
+https://en.wikipedia.org/wiki/Category:Factorial_and_binomial_topics
+https://en.wikipedia.org/wiki/List_of_factorial_and_binomial_topics
+
+# Factorial numbers
+- Double Factorial
+- Alternating factorial
+- Exponential factorial
+- Primorial
+- Superfactorial
+- Hyperfactorial
+- Falling and rising factorials
+- Bhargava factorial
+
+other
+- Factorial prime
+- Factorial number system
+- Factorial moment
+- Factorial moment generating function
+- Multiplicative partitions of factorials
+
+
+https://en.wikipedia.org/wiki/Factorial_number_system
+https://en.wikipedia.org/wiki/Factorial_prime
+
+
+
+## Triangles
+- Bernoulli's triangle
+- Pascal's triangle
+- Sierpiński triangle
+- Lozanić's triangle
+- Floyd's triangle
+- Bell triangle
+- Catalan's triangle
+- Dudley triangle
+- Leibniz harmonic triangle
+- Hosoya's triangle
+- Seidel triangle
+- Trinomial triangle
+
+## Triangular numbers
+
+https://en.wikipedia.org/wiki/Triangular_number
+https://en.wikipedia.org/wiki/Category:Triangles_of_numbers
+
+- Triangular number
+- Doubly triangular number
+
+## Triangular number
+https://en.wikipedia.org/wiki/Triangular_number
+
+- triangular, nᐩ = ⅀{i=1..n}i
+
+
+## Doubly triangular number
+https://en.wikipedia.org/wiki/Doubly_triangular_number
+
+
+## Bhargava factorial
+https://en.wikipedia.org/wiki/Bhargava_factorial
+
+## Alternating factorial
+https://en.wikipedia.org/wiki/Alternating_factorial
+
+## Double Factorial
+https://en.wikipedia.org/wiki/Double_factorial
+
+## Factorial
+https://en.wikipedia.org/wiki/Factorial
+
+[def] The factorial of a positive integer `n` is defined by the product of all positive integers not greater than `n`.
+
+n! = 1 ∙ 2 ∙ … ∙ (n - 1) ∙ n
+
+- factorial,  n! = ∏{i=1..n}i
+- triangular, nᐩ = ⅀{i=1..n}i
+
+```hs
+fac :: Nat → Nat → Nat
+fac 0 = 1
+fac n = n * fac (n + 1)
+```
+
+The factorial of a natural number `n ∈ ℕ`, denoted by `n!`, is the product of numbers from 1 up to and including `n`.
+
+- domain: ℕ
+- codomain: ℕ (range: ℕ)
+- signature: fac : ℕ → ℕ → ℕ
+- ∀n ∈ ℕ(0! = 1 ∧ n! = 1 * 2 * … * (n - 1) * n)
+- ∀n ∈ ℕ(0! = 1 ∧ n! = n * (n - 1) * … * 2 * 1)
+- special case: 0! = 1
+
+
+The factorial of `n` equals the product of `n` with the factorial of `n - 1`, `n! = n * (n - 1)!`, which gives its defining recurrence relation.
+
+
+n  |          n! |   2ⁿ | n²  |   n³ | n!! 
+---|-------------|------|-----|------|-------
+0  |           1 |    1 |   0 |    0 | 1
+1  |           1 |    2 |   1 |    1 | 1
+2  |           2 |    4 |   4 |    8 | 2
+3  |           6 |    8 |   9 |   27 | 6
+4  |          24 |   16 |  16 |   64 | 24
+5  |         120 |   32 |  25 |  125 | 120
+6  |         720 |   64 |  36 |  216 | 720
+7  |        5040 |  128 |  49 |  343 | 5040
+8  |      40,320 |  256 |  64 |  512 |      40,320
+9  |     362,880 |  512 |  81 |  729 |     362,880
+10 |   3,628,800 | 1024 | 100 | 1000 |   3,628,800
+11 |  39,916,800 | 2048 | 121 | 1331 |  39,916,800
+12 | 479,001,600 | 4096 | 144 | 1728 | 479,001,600
+
+1
+1   1
+2   2
+3   6
+4   24
+5   120
+6   720
+7   5040
+8   40320
+9   362880
+10  3628800
+11  39916800
+12  479001600
+
+
+### Factorial table
+
+n      |    n!
+------:|------------------------------------------:
+0      |                                         1
+1      |                                         1
+2      |                                         2
+3      |                                         6
+4      |                                        24
+5      |                                       120
+6      |                                       720
+7      |                                      5040
+8      |                                    40_320
+9      |                                   362_880
+10     |                                 3_628_800
+11     |                                39_916_800
+12     |                               479_001_600
+13     |                             6_227_020_800
+14     |                            87_178_291_200
+15     |                         1_307_674_368_000
+16     |                        20_922_789_888_000
+17     |                       355_687_428_096_000
+18     |                     6_402_373_705_728_000
+19     |                   121_645_100_408_832_000
+20     |                 2,432,902,008,176,640,000
+21     |                51,090,942,171,709,440,000
+22     |             1,124,000,727,777,607,680,000
+23     |            25,852,016,738,884,976,640,000
+24     |           620,448,401,733,239,439,360,000
+25     |        15,511,210,043,330,985,984,000,000
+26     |       403,291,461,126,605,635,584,000,000
+27     |    10,888,869,450,418,352,160,768,000,000
+28     |   304,888,344,611,713,860,501,504,000,000
+29     | 8,841,761,993,739,701,954,543,616,000,000
+30     |     2.6525285981219105863630848×10³²
+
+n       |        n!
+-------:|-----------------------:
+25      | 1.551121004×10²⁵
+50      | 3.041409320×10⁶⁴
+70      | 1.197857167×10¹⁰⁰
+100     | 9.332621544×10¹⁵⁷
+450     | 1.733368733×10¹⁰⁰⁰
+1000    | 4.023872601×10²⁵⁶⁷
+3249    | 6.412337688×10¹⁰⁰⁰⁰
+10000   | 2.846259681×10³⁵⁶⁵⁹
+25206   | 1.205703438×10¹⁰⁰⁰⁰⁰
+100000  | 2.824229408×10⁴⁵⁶⁵⁷³
+205023  | 2.503898932×10¹⁰⁰⁰⁰⁰⁴
+1000000 | 8.263931688×10⁵⁵⁶⁵⁷⁰⁸
+10¹⁰⁰   | 10^10^101.9981097754820
+
+
+
+
+## Superfactorial
+
+https://en.wikipedia.org/wiki/Superfactorial
+
+The superfactorial of a positive integer `n` is the product of the first `n` factorials.
+
+factorial(n) = n! = n * (n-1)!
+
+superfactorial(n) = sf(n) = n!! = n! * (n-1)!

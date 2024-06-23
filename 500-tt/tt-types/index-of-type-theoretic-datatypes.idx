@@ -1,0 +1,112 @@
+# Type theory :: Index of data types in type theory
+
+Preliminary list of types and their classes. 
+Dump it all but keep it type theoretic copacetic.
+
+- type family
+- algebraic data types
+- generalized algebraic data types
+- polynomial data types
+- primitive data types
+- compound data types
+- algebraic data type
+- empty type,       `𝟘`
+- unit type,        `𝟙`
+- sum type,         `+`, `⊎`
+- product type,     `⨯`
+- exponential type, `→`
+- quotient type
+- identity type,      `=ᴀ=`, if (a b : A) then `a =ᴀ= b` or `Idᴀ a b`
+- equality type,      `≡`,   if (a b : A) then `a ≡ b`
+- recursive type,     `μ`,   μLa = 1 + a ⨯ La
+- inductive type,    W-type
+- dependent sum,     Σ-type
+- dependent product, Π-type
+- indexed type
+- universe types
+- small types
+- large types
+- pi type
+- sigma type
+- coproduct type
+- unit type
+- void type
+- nat type (type of natural numbers)
+- conat type (type of co-natural numbers)
+- bool type (type of Booleans)
+- type of propositions
+- primitive data types
+- Well-founded Recursive Definitions
+- base types
+- ground types
+- library types
+- sized types (e.g. Agda)
+- truncated types (?) truncated type-propositions (?)
+- proof-carrying types (code)
+- phantom types
+- propositions as types
+- relevant type
+- affine type
+- linear type
+- erasable type
+- erased type
+- proof type
+- equality as type
+- equivalence as type
+- dependent type
+- nondependent type
+- binary product type
+- binary sum type
+- void type
+- empty type
+- 𝟘 type
+- 𝟙 type
+- 𝔹 type
+- ℕ type
+- function type
+- builtin data types
+- compound data types
+- generalized algebraic data types
+- polynomial data types
+- algebraic data types
+- sum types
+- product types
+- extra-special types
+- identity types
+- inductive types
+- coinductive types
+- recursive types
+- corecursive types
+- recursor type
+- uniqueness type
+- session type
+- refinement type
+- quotient type
+- equality type
+- path type
+- record type
+- top type
+- W-type
+- bottom type
+- interpreted type
+- uninterpreted type
+- data type
+- inductive data type
+- parameterized data type (param are same for all data ctors)
+- indexed data type (type family) (indices vary for data ctors)
+- parameterized and indexed data types (e.g. identity)
+- algebraic data types
+- 0-type, 𝟘, empty type
+- 1-type, 𝟙, unit type, singleton type, , (⋆ : 𝟙), () :: ()
+- 2-type, 𝟚, (Boolean)
+- sum type
+- product type
+- Dependent types
+- sigma type, Σ, dependent sum type
+- pi type, Π, dependent product type, dependent function type
+- dependent function type, `Π (x : A) B x`
+- identity (equality) type, `≡`
+- universe type, `𝒰`
+- universe hierarchy, 𝒰₀ : 𝒰₁ : 𝒰₂ : … : 𝒰ω
+- abstract data type
+- opaque data type

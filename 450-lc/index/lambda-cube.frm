@@ -1,5 +1,30 @@
 # Lambda cube
 
+Calculi of the lambda cube with dependencies between their 3 sorts:
+
+sort| (✱, ✱) | dep1    | dep2    | dep3    | notes
+----|---------|---------|---------|---------|-------------------------
+λ→  | (✱, ✱) |         |         |         |   term → term
+λ2  | (✱, ✱) | (◻, ✱) |         |         | + type → term
+λP  | (✱, ✱) | (✱, ◻) |         |         | + term → type
+λP2 | (✱, ✱) | (◻, ✱) | (✱, ◻) |         |
+λω  | (✱, ✱) | (◻, ◻) |         |         | + type → type
+λω  | (✱, ✱) | (◻, ✱) | (◻, ◻) |         |
+λPω | (✱, ✱) | (✱, ◻) | (◻, ◻) |         |
+λPω | (✱, ✱) | (◻, ✱) | (✱, ◻) | (◻, ◻) |
+
+Lambda calculi have 2 sorts: `✱` (terms) and `◻` (types), 
+`◻ : ✱` or `✱ : ◻`?
+
+- (✱, ✱) term → term, types,            dependency `✱ : ✱`
+- (◻, ✱) type → term, polymorphism,     dependency `◻ : ✱`
+- (✱, ◻) term → type, dependent types,  dependency `✱ : ◻`
+- (◻, ◻) type → type, type ctors,       dependency `◻ : ◻`
+
+With 3 sorts, the dependency is usually: `✱ : ◻ : △`, i.e. `✱ : ◻` and `◻ : △`
+where, e.g. ✱ terms, ◻ types, △ kinds.
+
+
 ## Names
 
 - λ-cube² = { λ͢   λ͢²  λ͢ω̱  λ͢Π   λ͢²ω  λ͢²Π  λ͢Πω  λ͢²Πω }

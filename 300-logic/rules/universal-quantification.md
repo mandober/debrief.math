@@ -1,0 +1,6 @@
+# Universal quantification
+
+```
+
+
+```

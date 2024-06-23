@@ -74,10 +74,10 @@ Homotopy type theory
 Intuitionistic Propositional Logic
 
 ## LEM
-The law of the excluded middle, `P ∨ ¬P`
+The law of excluded middle, `P ∨ ¬P`
 
 ## LNC
-The law of non-contradiction, `¬(P ∧ ¬P)`
+The law of (non)contradiction, `¬(P ∧ ¬P)`
 
 ## MLTT
 Martin-Löf type theory

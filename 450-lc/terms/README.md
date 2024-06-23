@@ -1,5 +1,19 @@
 # λ-calculus
 
+
+- [BGK conjecture](./bgk-conjecture.md)
+- [binary-lambda-calculus](./binary-lambda-calculus.md)
+- [church-rosser-theorem](./church-rosser-theorem.md)
+- [churchs-and-currys-formalisms](./churchs-and-currys-formalisms.md)
+- [currys-paradox](./currys-paradox.md)
+- [de-bruijn-notation](./de-bruijn-notation.md)
+- [deductive-lambda-calculus](./deductive-lambda-calculus.md)
+- [kleene-rosser-paradox](./kleene-rosser-paradox.md)
+- [lambda-lifting](./lambda-lifting.md)
+- [let-binding-in-lambda-calculus](./let-binding-in-lambda-calculus.md)
+- [recursion-in-lc](./recursion-in-lc.md)
+
+
 * Encoding of (algebraic) data types in λ-calculus
   - algebraic data type encoding
   - Church encoding

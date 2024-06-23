@@ -2,14 +2,11 @@
 
 https://en.wikipedia.org/wiki/Abstract_machine
 
-An **abstract machine** is a theoretical computer used for defining a model of computation. Abstract machines are 'machines' because they permit step-by-step execution of programs; they are 'abstract' because they omit many details of real hardware.
+An **abstract machine** is a theoretical computer used for defining a model of computation. Abstract machines are 'machines' because they permit step-by-step execution of programs; they are 'abstract' because they omit many details of real hardware. Turing machine is the well-known example of an abstract machine.
 
-A typical abstract machine is defined in terms of input, output, and the set of operations that turn input into output.
+A typical abstract machine is defined in terms of input, output, and the set of operations that turn the input into output.
 
-Abstraction of computing processes is used in both the computer science and computer engineering and usually assumes a discrete time paradigm. In theory of computation, abstract machines are often used in thought experiments regarding computability, or to analyze the complexity of algorithms.
-
-
-The best-known example of an abstract machine is the Turing machine.
+Abstractions of computing processes are useful both in computer science and computer engineering, and usually assumes a discrete time paradigm. In theory of computation, abstract machines are often used in thought experiments regarding computability, or to analyze the complexity of algorithms.
 
 *Abstract data types* (ADT) can be specified in terms of their operational semantics on an abstract machine. For example, a stack can be specified in terms of operations on an abstract machine with an array of memory.
 

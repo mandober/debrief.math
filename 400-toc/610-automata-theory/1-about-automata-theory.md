@@ -1,0 +1,9 @@
+# TOC :: AT :: About automata theory
+
+*Automata theory* defines various automata as models of computation. 
+
+The topic usually starts by describing *finite state automata* (FSA) which are a type of automata with a finite set of states and the computation proceeds through state transitions. For example, formal language recognizers are automata that can take a string as input and determine whether that string belongs to some formal language. *Deterministic finite automata* (DFA) is a subtype of this model of computation characterized by complete determinism - the computation is always "forced" as there is always exactly one thing to do. *Nondeterministic finite automata* (NFA) does not have that feature, so it introduces a choice according to which the computation proceeds. Remarkably, the equivalence between these two models of computation was established, so a DFA can be converted to a NFA and vice versa. *Regular expressions* are also discussed here, because they are also found to be equivalent to finite automata. Implementing an efficient regexp engine in some programming language is usually acheived by coding it as a FSA. RegExp discussed here are the "proper" regexps, as imagined by people like Kleene, not the modern augmented regexps with many additional features like backtracking that bring them out of the naive regexp land. The distinguishing property of these models of computation (DFA, NFA, and regexp) is the lack of memory - these automata have no way to track things except via state transitions - they have no memory.
+
+The capability of memory is usually implemented as a stack, so the more advanced are the stack-based or push-down automata.
+
+*Cellular automata* are also discrete model of computation. They consists of a regular grid of cells, each in one of a finite number of states.

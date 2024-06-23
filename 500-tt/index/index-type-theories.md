@@ -1,31 +1,31 @@
-# Index of type theories
+# Type theory :: Index :: List of type theories
 
 - Russell's theory of types
-  - Ramified type theory
-  - Stratified type theory
-- Church's type theory
-  - type theory a la Church
-  - type theory a la Curry
-- Martin-Lof type theory
-  + Constructive type theory
-  + Intuitionistic type theory
-  - Martin-Lof dependent type theory
+- Ramified type theory
+- Stratified type theory
 - Simple type theory
+- Church's simple type theory (tt of STLC)
+- type theory à la Church: typing à la Church, explicit typing
+- type theory à la Curry: typing à la Curry, implicit typing
+- Martin-Löf type theories
+  - Martin-Löf type theory
+    - = Intuitionistic type theory
+    - = Constructive type theory
+  - Martin-Lof dependent type theory
 - Cubical type theory
 - Observational type theory
 - Setoid type theory
+- Dependent type theory
 - Calculus of constructions
 - Quantitative type theory
-- Dependent type theory
-+ Intensional type theory
-+ Extensional type theory
-+ Predicative type theory
-+ Impredicative type theory
+- Predicative type theory
+- Impredicative type theory
+- Intensional type theory
+- Extensional type theory
+- propositionally extensional type theory
+- homotopy type theory
+- cubical type theory
 
-* Flavors
+- Flavors
   - {im,}predicativity
   - {ex,in}tensionality
-
-propositionally extensional type theory
-homotopy type theory
-Cubical type theory

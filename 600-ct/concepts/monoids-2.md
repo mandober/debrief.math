@@ -1,5 +1,10 @@
 # Monoid
 
+https://en.wikipedia.org/wiki/Monad_(category_theory)
+https://en.wikipedia.org/wiki/Monoid_(category_theory)
+https://en.wikipedia.org/wiki/Monoidal_category
+
+
 Monoids are data types that can be instantiated empty and be combined together without losing any information.
 - "instantiated empty" = they have identity element
 - "combined" = they have a binary operation that must be associative

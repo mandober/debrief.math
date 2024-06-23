@@ -2,27 +2,23 @@
 
 - name: `debrief.math`
 - repo: https://github.com/mandober/debrief.math
-- desc: lo-fi math notes. Debris of debriefs.
-- from: 🚌🚏🐀👜
-- part: of the debrief.* series
-- book: https://mandober.gitbook.io/math-debrief/ (out of sync)
+- desc: lo-fi math notes
+- auth: 🚌🚏🐀👜
 
+## About
 
-### About
+"Donnie, you're out of your element!" lo-fi collection of math notes.
 
-Lo-fi math notes collection.
+Largely scrubbed from Wikipedia. An unremarkable copypasta of articles intended to be consulted never again. Otherwise, each subsequent visit should digests the content further, compressing the topics down to their bare essentials, provided internalization kicks in.
 
-Lo-fi collection of notes about mathematics.
+Topics: the foundations of mathematics, mathematical logic, proof theory, set theory, relation theory, order theory, domain theory, function theory, graph theory, lambda calculi, type theory, abstract algebra, category theory.
 
-Lo-fi collection of notes about mathematics, mostly originating from Wikipedia; in fact, an unremarkable copypasta of articles intended to be consulted never again; otherwise, the intention is that each visit to a page condenses its contents furter by distilling the subject down to the most significant bits of information.
+Classification of topics is still a hard problem. Topics belonging to both math and CS (theory of computation and programming language theory in particular) span across both math and cs tiers. Should consolidate multiple copies in one place.
 
-Topics include: the foundations of mathematics, set theory, relation theory, order theory, domain theory, function theory, graph theory, mathematical logic, proof theory, lambda calculi, type theory, abstract algebra, category theory. Fields belonging to both math and CS (Theory of Computation, in particular) span across both debrief.math and debrief.cs debrief/debris.
+## Topics
 
-⭐★
-
-#### Topics
-
-* `FM` Foundations of Mathematics
+* <kbd>FM</kbd> Foundations of Mathematics
+* <kbd>PM</kbd> Phylosophy of Mathematics
 * `ST` Set Theory
 * `RT` Relation Theory
 * `OT` Order Theory
@@ -37,7 +33,7 @@ Topics include: the foundations of mathematics, set theory, relation theory, ord
 * `TC` Theory of Computation
 
 
-#### Biased endorsements
+## Dubious endorsements
 
 * *"Endorsement of a particularly sensational, violent concept of mathematics that provokes and reflects the pervasive sense of embittered anger, confusing restlessness, socio-sexual frustration or otherwise derived alienation endured by a generation of disenfranchised devs, amidst the declining interests in denotational semantics and overall program correctness, smack right in the bug-ridden sigh of our times."* -- Simon Ferocious
 
@@ -47,37 +43,48 @@ Topics include: the foundations of mathematics, set theory, relation theory, ord
 
 * _"Huius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet."_ -- F-Monk
 
-* *...a pre-eminently peerless stinker* -- drich
+* *...a preeminently peerless pile of 💩* -- drich
 
------------------------------------------------------------------------------
+----------------------------------------------------------------
+<style 
+div, body {
+  font-family: "Fira Code, sans serif"
+}
+>
+</style>
 
-#### Related
 
-The debrief series:
+## Debriefs
 - math
 - cs
-- pls
 - haskell
-- rust
-- js
-- tech, apps, shell, linux, web
-- linguistics, sci, research
-- ~~frobnicated~~
+- tech (apps, shell, linux, web, pls, rust, js)
+- linguistics, research
 - hierarchy and hierarchical issues
-- ~~certain~~ topic bleed across realms
+- certain topic bleed across tiers
 
 
-#### Methodology
+## Methodology
 
-┌─ The method: ──────────┐    
-│○ (verbatim) copypasta  │    
-│┌ ○ digest <─────────┐  │    
-││ ○ destill          │  │    
-││ ○ instill          │  │    
-│└>[repeat until]─────┘  │    
-│○ pure info left        │    
-└────────────────────────┘    
+```
+┌─ The method ─────────────┐
+│∙ copypasta               │
+│ ┌ ∙ digest ←───────┐     │
+│ │ ∙ destill        │     │
+│ │ ∙ instill        │     │
+│ └→ do until ───────┘     │
+│∙ pure informational cack │left
+└──────────────────────────┘
+```
 
-⟳ minimal verbosity    
-⟳ maximum digestion    
-⟳ optimal debrief      
+- [x] verbatim
+- [x] unclear
+- [ ] unfathomable
+- [x] cryptic
+- [ ] inscrutable
+- [x] finicky
+- [ ] Greek to me
+- [ ] maximum risk
+- [x] what a waster
+- [ ] minimum reward
+- [x] charade you are

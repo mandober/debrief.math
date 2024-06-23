@@ -1,5 +1,10 @@
 # Monomorphism
 
+- epimorphism ~ surjection ~ full functor
+- monomorphism ~ injection ~ faithful functor
+- isomorphism ~ bijection ~ fully faithful functor
+
+
 ## Summary
 
 - monomorphism, monic

@@ -27,7 +27,7 @@ https://en.wikipedia.org/wiki/State_machine_replication
 https://en.wikipedia.org/wiki/State_pattern
 https://en.wikipedia.org/wiki/Thompson%27s_construction
 https://en.wikipedia.org/wiki/Transition_system
-
+https://en.wikipedia.org/wiki/Learning_automaton
 
 
 

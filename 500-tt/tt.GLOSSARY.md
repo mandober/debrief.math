@@ -1,10 +1,14 @@
 # Type Theory :: GLOSSARY
 
+https://twelf.org/wiki/glossary/
+
 <!-- TOC -->
 
 - [Abstract data type](#abstract-data-type)
+- [Abstract syntax](#abstract-syntax)
 - [A-normal form](#a-normal-form)
 - [Bivalence](#bivalence)
+- [Compositional type theory](#compositional-type-theory)
 - [Computational equality](#computational-equality)
 - [Constructive mathematics](#constructive-mathematics)
 - [Constructive type theory](#constructive-type-theory)
@@ -25,6 +29,7 @@
 - [Lambda abstraction](#lambda-abstraction)
 - [Law of Excluded Middle](#law-of-excluded-middle)
 - [Law of non-contradiction](#law-of-non-contradiction)
+- [Logicism](#logicism)
 - [Martin-Löf type theory](#martin-löf-type-theory)
 - [Mutation](#mutation)
 - [Negative recursion](#negative-recursion)
@@ -43,6 +48,7 @@
 - [Typability problem](#typability-problem)
 - [Typecase](#typecase)
 - [Type system](#type-system)
+- [Typing rule](#typing-rule)
 - [Uniqueness of identity proofs](#uniqueness-of-identity-proofs)
 - [Unit type](#unit-type)
 - [Variance](#variance)
@@ -53,11 +59,17 @@
 ## Abstract data type
 An abstract data type (ADT) is a type whose implementation details are hidden. The type may in fact be implemented directly as another type, but this fact is not exposed. What is exposed, is an interface, i.e. a set of vetted operations made available to the users to create and manipulate the values of the type.
 
+## Abstract syntax
+The abstract syntax of a programming language is an unambiguous representation of the syntax of a language; most compilers and most language definitions work in terms of the abstract syntax of a language as opposed to the concrete syntax (aka surface syntax) of a language, which is what the programmer actually writes down.
+
 ## A-normal form
 A-normal form (ANF) is an intermediate representation, mainly associated with FP compilers. A-normal form is a representation of a program that restricts function args to be trivial, that is, the args may be either constants or literals - most importantly, evaluating any arg must halt immediately. A-normal form is an alternative to CSP representation - compared to CSP, ANF makes the code easier to reason about.
 
 ## Bivalence
 Bivalence is a property of logics, that is, the principle of bivalence states that truth values are two-valued (i.e. true and false). Many logics are based on this principle and are thus called two-valued logics. Admitting only two truth values, classical math also relies on bivalence, meaning that a proposition is always considered either true or false, not neither, nor both. This also implies the LEM, `P ∨ ¬P`, and LNC, `¬(P ∧ ¬P)`, principles, enabling the proof methods like the proof by contradiction.
+
+## Compositional type theory
+An expression is well-typed only when its subexpressions are.
 
 ## Computational equality
 If two terms reduce (compute) to the same term, they are computationally equal.
@@ -148,6 +160,9 @@ The law of the excluded middle (LEM), `P ∨ ¬P`, states that a proposition is 
 ## Law of non-contradiction
 The law of non-contradiction (LNC) states that a proposition cannot be both true and not true at the same time, usually expressed as `¬(P ∧ ¬P)`, which is just a variation of LEM since `¬(P ∧ ¬P) ≡ P ∨ ¬P`.
 
+## Logicism
+Logicism is the view that truths of arithmetic can be derived from logical laws. Frege was the first great champion of logicism, and he thought that logic is based on certain principles, including the principle of bivalence - a meaningful proposition is determinately true or false.
+
 ## Martin-Löf type theory
 Intuitionistic type theory (ITT) or Martin-Löf type theory (MLTT) is a type theory and an alternative foundation of mathematics, created by Per Martin-Löf, a Swedish mathematician and philosopher, who published it in 1972. He continued the improvement and investigations into the theory in his subsequent papers published in the following years.
 
@@ -210,7 +225,12 @@ In type theory, but also its practical aspects like in type system and compiler 
 Typecase refers to any runtime test that checks types. Several other names for this feature exist: `instanceof`, downcasting, matching on types.
 
 ## Type system
-A type system is a formal system in which every term has a property called type, which defines a term's meaning, as well as operations that may be performed on it.
+A type system is a formal system in which every term has a property called type, which defines the term's meaning, as well as operations that may be performed on it.
+
+## Typing rule
+A typing rule is a rule of inference that describes how a type system assigns a type to syntactic constructions.
+
+Typing rules specify the structure of a typing relation that relates syntactic terms to their types.
 
 ## Uniqueness of identity proofs
 Uniqueness of identity proofs (UIP): any two proofs of the same propositional equality are themselves propositionally equal.
@@ -219,4 +239,14 @@ Uniqueness of identity proofs (UIP): any two proofs of the same propositional eq
 Empty types must not be confused with unit types (Haskell's `()`, C's `void`): empty types are uninhabited (no values), but unit types (or singleton types) have a single inhabitant (a single value).
 
 ## Variance
-Types (type ctors) that take type parameters (like `List a`) may have a subtyping relationships that depend on the subtyping relationships of their parameters: for instance, `List a` is a subtype of `List b` only if `a` is a subtype of `b`. The manner in which the parameter's subtyping affects the whole type's subtyping is called variance.
+Type systems that support some notion of subtyping (even as a type order) need to consider the notion of variance.
+
+The manner in which a type parameter's subtyping affects the whole type's subtyping is called variance.
+
+Type ctors give rise to a subtyping relation that depends on the subtyping relations of their type parameters. 
+
+In OO, it is a relation between parent and child classes (such classes induce a subtyping relation - a child is a subtype of the parent class).
+
+In FP, parameterized type ctors (like `List a`) give rise to a notion of subtyping and variance. 
+
+Variance is how subtyping between more complex types relates to subtyping between their components. For example, if type `a` is a subtype of type `b`, then it is reasonable to expect that `List a` is a subtype of `List b`. This would be an example of covariance (subtyping goes in the same direction). Almost all type ctors are *covariant* in the same sense as the 'List' type ctor. Function type ctor (→) is the only complicated type ctor: in general, it is *contravariant* in the input type and covariant in the output type. However, if the same type parameter appears in both positions, then (→) is *invariant*.

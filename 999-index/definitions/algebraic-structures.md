@@ -1,17 +1,14 @@
-# Alg structs
+# Algebraic structures
 
-magma
-semigroup
-monoid
-group
-abelian group
-
-field
-
-ring
-rng
-rig
-semiring
-
-lattice
-semi-lattice
+- magma
+- semigroup
+- monoid
+- group
+- abelian group
+- field
+- ring
+- rng
+- rig
+- semiring
+- lattice
+- semi-lattice

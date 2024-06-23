@@ -1,6 +1,35 @@
-A relation between two sets is a collection of ordered pairs containing one object from each set. If the object x is from the first set and the object y is from the second set, then the objects are said to be related if the ordered pair (x,y) is in the relation.
+# Relation
 
-A function is a type of relation. But, a relation is allowed to have the object x in the first set to be related to more than one object in the second set. So a relation may not be represented by a function machine, because, given the object x to the input of the machine, the machine couldn't spit out a unique output object that is paired to x.
+Relations model associations between objects.
+
+A **binary relation** between two sets `A` and `B` is a subset of their Cartesian product, `R ⊆ A×B`. Equivelently, it is an element in the powerset of their Cartesian product: `R ∈ 𝒫(A×B)`. Therefore, a relation is a set of ordered pairs.
+
+    A×B = { (a, b) | ∀a ∈ A, ∀b ∈ B }
+    R ⊆ A×B = { (a, b) | a ∈ A, b ∈ B }
+
+Set `A` is called the *source* set or *domain* of the relation R, and set `B` is called the *target* set or *codomain*.
+
+If element `x ∈ A` and `y ∈ B` are `R`-related then the pair `(x,y) ∈ R`, which is also denoted by `xRy`.
+
+Since a binary relation, between sets `A` and `B`, allows any domain elements to be associated with more then one codomain element, it cannot be represented by a regular function, `f : A → B`, which can only return a single element. However, it may be represented by a special function that returns sets instead of single elements, `f' : A → 𝒫(B)`, where `𝒫(B)` is a set of all subsets of codomain set `B`. So, for each unique input element `x ∈ A`, this function `f'` returns a subset of `B`, namely, the subset of those elements that are associated with `x`.
+
+Normally, a function `f` maps elements to elements: x₀ ⟼ y₀. But this special function *maps elements to sets*:
+- x₀ ⟼ {y₁, y₃}
+- x₁ ⟼ {y₂, y₄, y₅}
+
+
+Binary relations
+- heterogeneous relation: `R ⊆ A × B`
+- homogeneous relation: `R ⊆ A²`
+- universal relation: `R = A × B`
+- empty relation: `R ⊆ A × B` and `R = ∅`
+
+Homogeneous binary relations, `R ⊆ A²`
+- identity relation, I = { (a, a) | a ∈ A }
+
+
+
+An equivalence relation that respect the algebraic structure is called a **congruence relation**.
 
 
 

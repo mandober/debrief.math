@@ -1,12 +1,9 @@
 # List of functors
 
-Functors
-- functor, F : C → D
-- covariant is another name for functor
-- contravariant, F : Cᵒᵖ → D
-- cofunctor (functor is its own inverse)
-
 - Functors by variance
+  - functor (covariant functor)
+  - contravariant functor, F : Cᵒᵖ → D
+  - cofunctor: functor is its own inverse
   - covariant functor, cofunctor (aka functor)
   - contravariant functor
   - bifunctors
@@ -24,18 +21,18 @@ Functors
 
 Functors and functor related terms
 - functor
-- covariant functor, cofunctor (aka functor)
+- covariant functor
 - contravariant functor
 - functoriality
 - identity functor
+- endofunctor
 - constant functor
 - bifunctor
 - profunctor
 - forgetful functor
-- endofunctor
+- representable functor
 - power-set functor
 - dual-set functor
-- monad (endofunctor with some additional structure)
 - faithful functor (injective)
 - full functor (surjective)
 - full faithful functor (bijective)

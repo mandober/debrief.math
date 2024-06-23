@@ -19,9 +19,9 @@ TOC studies *decidability* and *tractability* of computing problems, within diff
 Although established in mathematics in the early XX century, long before the invention of computers, today, the TOC is split between mathematics and theoretical computer science.
 
 TOC is divided into 3 major branches:
-- automata theory and formal languages
-- computability theory (ex recursion theory)
-- (computational) complexity theory
+- Automata theory and Formal Language Theory (AT&FLT)
+- Computability theory (CT), formerly called Recursion Theory
+- Computational complexity theory (CCT)
 
 ## Models of computation
 

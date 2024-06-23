@@ -1,6 +1,8 @@
 # TOC :: TERMS
 
 
+
+
 theory of computation
   model of computation
     finite vs infinite models of computation

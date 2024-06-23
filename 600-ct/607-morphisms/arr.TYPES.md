@@ -1,9 +1,11 @@
 # Types of morphisms
 
-- morphism, arrow
+- morphism (structure-preserving map like functor and NT)
 - identity morphism
 - endomorphism
-- isomorphism
-- automorphism (endo + iso)
+- homomorphism
 - monomorphism (inj)
 - epimorphism (surj)
+- isomorphism
+- automorphism = endomorphism + isomorphism
+- idempotent morphism

@@ -1,5 +1,11 @@
 # Epimorphism
+
 https://ncatlab.org/nlab/show/epimorphism
+
+- epimorphism ~ surjection ~ full functor
+- monomorphism ~ injection ~ faithful functor
+- isomorphism ~ bijection ~ fully faithful functor
+
 
 ## Idea
 In category theory, the concept of epimorphism is a generalization or strengthening of the concept of surjective functions on sets (epimorphisms in `Set` are precisely the surjective functions). The dual concept of epimorphism is monomorphism (which is related to the concept of injective functions).

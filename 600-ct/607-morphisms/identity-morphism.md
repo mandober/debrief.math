@@ -1,6 +1,13 @@
 # Identity morphism
 
-**Identity morphism** is a map from an object back to itself. Each object in a category must have a unique identity morphism:
+- Identity morphism is a map from an object back to itself.
+- Identity morphism maps an object to itself.
+- Identity morphism is a unique morphism among endomorphisms.
+- Identity morphism is a unique element in the hom-set of (endo)morphisms from an object to itself: in C, `∀a ∈ Ob(C).  ∃!idₐ : a -> a`, and `idₐ ∈ Hom(a,a)`.
+- An object may have many endomorphisms, but only one of them is the identity.
+
+
+Each object in a category must have a unique *identity morphism*:
 
 >∀x.x ∈ Ob(C) ⇒ ∃! 1ˣ : x -> x
 

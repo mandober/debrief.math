@@ -1,31 +1,36 @@
-# 400 :: Lambda Calculi
+# 450 Lambda Calculi
 
-This section, `340-lambda-calculus`, starts with a general introduction of lambda calculus, circumstances, rationale and historical background.
+This section, `450-lc`, starts with a general introduction to lambda calculus, rationale for inventing it and its historical background.
 
-Since the untyped LC is the foundation of all other extensions of LC, it is thoroughly examined, particularly empasizing the factors that contributing the most to the further classification of this system, which include: approaches to avoid name capture substitution, reduction strategies (order of reduction, call by …), extensions of the basic rules (δ-rule, ζ-rule, ϵ-rule, …), lamba lifting and dropping, methodologies for implementing variable binding (naive, HOAS, PHOAS, De Bruijn indices, De Bruijn levels, locally nameless, …).
+Lambda calculus as a field of mathematics is (in the least) interlaced with the fields of mathematics logic, type theory and theory of computation (to which it belongs being a formal language), as well as to the theory of programming in computer science (since many programming languages are based on lambda calculus).
 
-The other logical part of the section deals with typed λ-calculi, exploring numerous typing features and extensions.
+Lambda calculi can first be divided into untyped and types, with the former making the foundation of all other variants and extensions.
 
+Factors contributing to the further classification of lambda calculi include:
+- type system (polymorphic, type ctors, dependent types)
+- order of evaluation
+- reduction strategy
+- name binding(naive, HOAS, PHOAS, deBruijn indices, deBruijn levels, locally nameless, final tagless, etc.)
+- dealing with substitution (direct, environment)
+- extensions of basic rules (δ-rule, ζ-rule, ϵ-rule, …)
+- lamba lifting
+- lamba dropping
 
+## Fundamentals
 
-* Prereq
-  - math functions
+- mathematical function
   - anatomy of a function
-  - declaration
-  - definition
-  - calling
-  - vars, params, args
-    - formal parameter
-    - actual param
-    - arg
+  - function application
 
-* Lambda Calculus (general)
+- Lambda calculus
   - history
   - original Church's formalism
   - Curry's paradox
   - Church's other versions
   - untyped lambda calculus
   - typed lambda calculi
+  - typing à la Church
+  - typing à la Curry
 
 * Untyped Lambda Calculus
   - λ-calculus specification

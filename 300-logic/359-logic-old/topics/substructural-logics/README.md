@@ -1,1 +1,0 @@
-# Logic :: Topics :: Substructural logics

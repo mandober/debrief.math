@@ -1,0 +1,112 @@
+# List of mathematical disciplines
+
+List of mathematical disciplines 
+(with or without the term "theory" in their name)
+
+- pure math
+- applied math
+
+- quantity (numbers)
+- space
+- structures
+- change
+
+
+
+
+- set theory
+  - relation theory
+  - order theory
+  - domain theory
+  - function theory
+- number theory
+  - arithmetic
+  - logarithms
+  - complex numbers
+  - transfinite numbers
+  - fermat's last theorem
+- combinatorics
+  - graph theory
+  - partition theory
+- cryptography
+- algebra
+  - elementary algebra
+  - abstract algebra
+  - univesal algebra
+  - boolean algebra
+  - heyting algebra
+  - representation theory
+  - group theory
+  - ring theory
+  - field theory
+  - lattice theory
+  - model theory
+- geometry
+  - trigonometry
+  - fractal geometry
+  - euclidean geometry
+  - non-euclidean geometry
+  - fractal geometry
+  - measure theory
+  - differential geometry
+  - topology
+    - Algebraic Topology
+    - homotopy
+- mathematical logic
+  - proof theory
+  - model theory
+- theory of computation
+  - automata theory
+  - formal language theory
+    - programming language theory
+  - computability theory
+  - complexity theory
+    - recursion theory
+- probability theory
+  - bayesian theory
+  - queueing theory
+- game theory
+- category theory
+- type theory
+  - homotopy type theory
+  - cubical type theory
+- calculus
+  - differential calculus, differential equations
+  - Partial Differential Equations
+  - vector calculus
+  - Functional Analysis
+  - Galois Theory
+  - fourier transform
+  - Fourier Series
+  - linear algebra
+    - vector theory
+    - matrix theory
+    - matroid theory
+    - tensor theory
+  - dynamical systems
+  - chaos theory
+  - complex analysis
+- information theory
+  - coding theory
+  - character theory
+- wheel theory
+- knot theory
+- system theory
+- control theory
+- Stochastic Processes
+- percolation theory
+- numerical analysis
+- statistics
+- optimization
+- cs
+- foundations of math
+  - philosophy of math
+  - metamathematics
+  - mathematical logic
+  - set theory
+  - proof theory
+  - type theory
+  - category theory
+- Discrete Mathematics
+- real analysis
+- complex analysis

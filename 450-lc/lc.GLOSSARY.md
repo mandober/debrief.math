@@ -194,7 +194,19 @@ Stricly, the phrase "lambda term" should be used when refering to the three elem
 The process of applying a function to an argument means substituting all the application occurrences of the formal parameter, in a function's body, with the argument, in a way that avoids name clashes with existing identifiers (names of variables); e.g. `(λx.λy.x) y` is `λz.y`, not `λy.y` with `y` captured.
 
 ## Normal form
-In abstract rewriting, an exp is in normal form if it cannot be rewritten any further, i.e. if it's irreducible. Depending on a rewriting system, an object may be rewriten to several normal forms or none at all. Many properties of rewriting systems relate to normal forms.
+In abstract rewriting, an exp is in normal form if it cannot be rewritten any further, i.e. if it's irreducible. Depending on a rewriting system, an object may be rewriten to several normal forms or none at all.
+
+Stated formally, if `(A, →)` is an abstract rewriting system, `x ∈ A` is in normal form if no `y ∈ A` exists such that `x → y`, i.e. `x` is an irreducible term.
+
+An object `a` is *weakly normalizing* if there exists at least one particular sequence of rewrites starting from `a` that eventually yields a normal form. A rewriting system has the weak normalization property or is weakly normalizing (WN) if every object is weakly normalizing.
+
+An object `a` is *strongly normalizing* if every sequence of rewrites starting from `a` eventually terminates with a normal form. An abstract rewriting system is strongly normalizing, terminating, noetherian, or has the strong normalization property (SN), if each of its objects is strongly normalizing.
+
+A rewriting system has the *normal form property* (NF) if for all objects `a` and normal forms `b`, `b` can be reached from `a` by a series of rewrites and inverse rewrites only if `a` reduces to `b`.
+
+A rewriting system has the *unique normal form property* (UN) if for all normal forms `a,b ∈ S`, `a` can be reached from `b` by a series of rewrites and inverse rewrites only if `a` is equal to `b`.
+
+A rewriting system has the *unique normal form property with respect to reduction* (UN→) if for every term reducing to normal forms `a` and `b`, `a` is equal to `b`.
 
 ## Parigot numerals
 The Parigot numerals is an encoding of natural numbers in λ-calculus that improves upon both Church's and Scott's schemes by representing numbers as the Scott-encoded list of Church-encoded naturals.

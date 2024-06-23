@@ -16,6 +16,7 @@ https://en.wikipedia.org/wiki/Category:Science_timelines
 https://en.wikipedia.org/wiki/Approximations_of_π
 https://en.wikipedia.org/wiki/Approximations_of_%CF%80
 
+https://en.wikipedia.org/wiki/Timeline_of_historic_inventions
 ## History
 
 https://en.wikipedia.org/wiki/Ancient_Egyptian_mathematics

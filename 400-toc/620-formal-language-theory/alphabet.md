@@ -2,13 +2,11 @@
 
 https://en.wikipedia.org/wiki/Alphabet_(formal_languages)
 
-
 - formal language
 - formal language theory
 - string (word)
 - symbol (letter)
 - alphabet
-
 
 In formal language theory, a **string** is a finite sequence of symbols, formed by concatenating the elements of an underlying base set; this base set is called the *alphabet of a string*.
 

@@ -1,0 +1,85 @@
+# Lattice examples
+
+## Divisibility lattice
+
+Let `n` be a positive integer and let [n] be the set of positive divisors of `n`. Then `([n], lcm, gcd)` is a lattice. For example, n = 24 is depicted below.
+
+```
+  24
+ ⟋  ⟍
+8     12
+│   ⟋ │
+│ ⟋   │
+4     6
+│   ⟋ │
+│ ⟋   │
+2     3
+  ⟍ ⟋
+   1
+```
+
+## Non-distributive lattice
+
+```
+      1
+    ⟋ │ ⟍
+  ⟋   │   ⟍
+a     b     c
+  ⟍   │   ⟋
+    ⟍ │ ⟋
+      0
+```
+
+
+## Linear order of tosets
+
+```
+┬ greatest = maximum = maximal
+│
+│
+│
+┴ least = minimum = minimal
+```
+
+
+
+## 1
+
+```
+    24
+  ⟋   ⟍
+8       12       35
+  ⟍   ⟋   ⟍      │
+    4       3    7
+    │
+    2
+```
+
+## 2
+
+```
+   a
+ ⟋  ⟍
+b     c
+│   ⟋ │
+│ ⟋   │
+d     e       f
+  ⟍ ⟋  ⟍      │
+   g     h    i
+```
+
+## 3
+
+```
+   a
+ ⟋  ⟍
+b     c
+│   ⟋ │
+│ ⟋   │
+d     e
+│   ⟋ │
+│ ⟋   │
+f     g       k
+  ⟍ ⟋  ⟍      │
+   h     i    j
+```

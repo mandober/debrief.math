@@ -1,0 +1,25 @@
+# LC :: Papers and books
+
+- [A call-by-name lambda-calculus machine](./a-call-by-name-lambda-calculus-machine.md), Jean-Louis Krivine, 2006
+- [A call-by-need lambda calculus](./a-call-by-need-lambda-calculus.md), Zena Ariola, Matthias Felleisen, John Maraist, M. Odersky, P. Wadler, 1995
+- [Alternative method of encoding the natural numbers](./alternative-encoding-of-natural-numbers.md)
+- [Automatic synthesis of typed lambda-programs on term algebras](./automatic-synthesis-of-typed-lambda-programs-on-term-algebras.md)
+- [Böhm-Berarducci encoding](./bohm-berarducci.md)
+- [Church encoding of data types considered harmful for implementations](./church-encoding-considered-harmful.md), Pieter Koopman, Rinus Plasmeijer, Jan Martin Jansen. *Functional Pearl*
+- [Church numerals, twice!](./church-numerals-twice.md), Ralf Hinze, 2005. *Theoretical pearl*
+- [The Church-Scott representation of inductive and coinductive data](./church-scott-representation-of-inductive-and-coinductive-data.md), Herman Geuvers, 2014
+- [Comprehensive Encoding of Data Types and Algorithms in the λ-calculus](./comprehensive-encoding-of-data-types.md), Jan Martin Jansen, Rinus Plasmeijer, Pieter Koopman, 2010
+- [Definitional Interpreters for Higher-Order Programming Languages](./definitional-interpreters-for-higher-order-programming-languages.md), John C. Reynolds, 1972
+- [Efficient lambda encodings for Mendler-style coinductive types in Cedille](./Efficient_lambda_encodings_for_Mendler-style_coinductive_types.md), Christopher Jenkins, Aaron Stump, Larry Diehl, 2020
+- [Embedded-Iterators Encoding](./embedded-iterators-encoding.md), Stump-Fu, 2014
+- [Encoding Data in Lambda Calculus: An Introduction](./encoding-data-in-lambda-calculus.md), Frank (Peng) Fu, 2017
+- [Inductive and coinductive types with iteration and recursion](./inductive-and-coinductive-types-with-iteration-and-recursion.md), Herman Geuvers, 1992
+- [The Lambda Calculus - Stanford Encyclopedia of Philosophy](./lambda-calculus-sep.md)
+- [Lambda-definition of function(al)s by normal forms](./lambda-definition-of-functionals.md), Corrado Böhm, Adolfo Piperno, Stefano Guerrini, 1994
+- [Lambda encodings in type theory](./lambda-encodings-in-type-theory.md), Peng Fu, 2014
+- [Limits of computability](./limits-of-computability-by-helmut-brandl.md), Helmut Brandl
+- [Natural Numbers as Church Numerals](./natural-numbers-as-church-numerals.md)
+- [Programming with proofs: a second order type theory](./programming-with-proofs.md), Michel Parigot, 1988
+- [Recursive types in polymorphic lambda calculus](./recursive-types-in-polymorphic-lc.md), 1999, Philip Wadler
+- [Types for the Scott numerals](./types-for-the-scott-numerals.md), M. Abadi, L. Cardelli, G. Plotkin, 1993
+- [The visitor pattern is essentially the same thing as Church encoding](./visitor-pattern-and-church-encoding.md), 2021

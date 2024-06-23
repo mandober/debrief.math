@@ -1,6 +1,6 @@
 # Scott Encoded Numbers
 
-`Encoding Data in Lambda Calculus: An Introduction - Frank (Peng) Fu, 2017`
+`Encoding Data in Lambda Calculus: An Introduction` - Frank (Peng) Fu, 2017
 
 
 

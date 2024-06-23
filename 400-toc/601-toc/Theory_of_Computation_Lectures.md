@@ -39,8 +39,8 @@ DFA
 - PROOF: regular languages closed under union
 - PROOF: regular languages closed under intersection
 - Number of final states in product construction
-- DFA's product construction ruins everything
-- Regular operations
+- DFA's product construction: minimality and reachability
+- *Regular operations*
 - Q: The star of ANY unary language is regular?
 - Exercise: All languages are regular (spot the proof errors)
 - Exercise: Are there DFAs for concatenation and star?

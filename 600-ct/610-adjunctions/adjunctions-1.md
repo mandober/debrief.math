@@ -1,5 +1,35 @@
 # Adjunctions
 
+## Adjunction class in Haskell
+
+```hs
+class (Functor f, Functor g) => Adjunction f g where
+  leftAdjunct  :: (f a -> b) -> (a -> g b)
+  rightAdjunct :: (a -> g b) -> (f a -> b)
+
+instance Adjunction (, s) (s ->) where
+  leftAdjunct = curry
+  rightAdjunct = uncurry
+
+-- (a , b)    → c ≡ a → (b →  c)
+--    ↑↑↑                ↑↑↑
+--     f  a   → c ≡ a →   g  c
+
+
+-- ----------------------------------------------------------------------------
+class (Functor f, Representable u) => Adjunction f u | f -> u, u -> f where
+  unit         :: a -> u (f a)
+  counit       :: f (u a) -> a
+  leftAdjunct  :: (f a -> b) -> (a -> u b)
+  rightAdjunct :: (a -> u b) -> (f a -> b)
+```
+
+The laws of adjunctions:
+- leftAdjunct . rightAdjunct = id
+- rightAdjunct . leftAdjunct = id
+
+
+
 ## It is all about morphisms
 
 https://bartoszmilewski.com/2015/11/17/its-all-about-morphisms/

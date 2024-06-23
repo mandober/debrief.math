@@ -124,10 +124,10 @@ The empty category is a category without objects. It is the same thing as the em
 An endomorphism is a morphism on the same object. Each object has at least one endomorphism - its identity morphism. In general, "endo" is a Greek prefix indicating adjectives like "homogeneous", "within the same (entity)".
 
 ## Endofunctor
-An endofunctor is a functor between the same category. Identity functor is an endofunctor.
+An endofunctor is a functor a category to itself. Identity functor is a unique endofunctor.
 
 ## Epimorphism
-A morphism `f` is an epimorphism if `g = h` whenever `g ∘ f = h ∘ f`. It generalizes surjections. Epimorphism is a dual concept of monomorphism.
+An epimorphism is a morphism that generalizes surjective functions. It is the dual to monomorphism that generalizes injective functions. Formally, a morphism `e` is epi if `g ∘ e = h ∘ e ==> g = h`.
 
 ## Faithful functor
 A functor is faithful if it is injective when restricted to each hom-set. Being faithful is the concept of injectivity related to functors.
@@ -138,7 +138,7 @@ Let `F : A → B` be a functor.
 3. The functor `F` is called **essentially surjective** if for any object `y ∈ Ob(B)` there exists an object `x ∈ Ob(A)` such that `F(x)` is isomorphic to `y` in `B`.
 
 ## Finite category
-A category is finite if it has only finitely many morphisms. A category with two objects `a` and `b` and two arrows, `f : a -> b` and `g : b -> a`, may be interpreted as an infinite category with an infinite number of arrows, composing as `g∘f`, `g∘f∘g∘f`, `g∘f∘g∘f∘g∘f`, … But if we stipulate the equality `g∘f = 1ᵃ`, then it is a finite category.
+A category is finite if it has finitely many morphisms. A category with two objects `a` and `b` and two arrows, `f : a -> b` and `g : b -> a`, may be interpreted as an infinite category with an infinite number of arrows composed as `g∘f`, `g∘f∘g∘f`, `g∘f∘g∘f∘g∘f`, etc. However, if we stipulate the equality `g ∘ f = 1ᵃ`, then it is a finite category.
 
 ## Fully faithful functor
 A functor that is both faithful and full. Being fully faithful is the concept of bijection related to functors.
@@ -200,7 +200,7 @@ A metagraph is purely axiomatic, and does not use set theory; for example, the o
 A graph is an interpretation of a metagraph within set theory. 
 
 ## Monomorphism
-A morphism `f` is a monomorphism if `g = h` whenever `f ∘ g = f ∘ h`. It generalizes injections. Monomorphism is a dual concept of epimorphism.
+A monomorphism is a morphism that generalizes injective functions. It is the dual to epimorphism that generalizes surjective functions. Formally, a morphism `m` is mono if `m ∘ g = m ∘ h ==> g = h`.
 
 ## Morphism
 Morphisms, or arrows, are the bona-fide elements of categories, with objects (appearing as structureless blobs) serving only as something for the arrows to hang off of. Seen as relations, arrows qualify objects: an object is completely determined by the totality of relations with other objects in a category. Morphisms are generalization of functions, or better yet, relations. Both morphisms and objects are relative roles: as the abstraction level increases, arrows become objects and arrows between arrows become morphisms; even higher up, categories become objects and functors become morphisms, and so one.

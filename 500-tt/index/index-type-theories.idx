@@ -1,0 +1,119 @@
+# Type theory :: Index :: Type Theories
+
+Lambda calculi
+- System U
+- λ→, STLC
+- λ2, System F
+- λ⍹
+- λΠ
+- λ2ω
+- λ2Π
+- λωΠ
+- λC, λ2ωΠ, Calculus of constructions
+- $UTT_Σ$
+- λ*, Naïve type theory (has Type : Type axiom)
+
+Systems
+- System F
+- System Fω
+- System U
+
+Type Theories
+- MLTT  Martin-Löf type theory
+- ITT   Intuitionistic Type Theory
+- ITT   Intensional Type Theory
+- ETT   Extensional Type Theory
+- OTT   Observational Type Theory
+- CTT   Constructive Type Theory
+- UTT   Zhaohui Luo's unified theory of dependent types
+- QTT   quantitative type theory
+- first-order logic
+- first-order logical theory
+- first-order minimal logic
+- equational logic
+- constructive type theory
+- Calculus of Inductive Constructions
+- natural deduction style
+- Tarski-Grothendieck set theory
+- ZFC set theory
+
+
+Features
+- dependent type system 
+- linear type system 
+- propositions-as-types paradigm
+- tactics language
+- universe hierarchy, sorts, levels
+- universe polymorphism
+- type classes as records
+- type instances
+- implicit arguments, implicit type variables
+- telescopes
+- power to express program specifications
+- Termination checking
+- standard library
+- effect systems
+
+Programming constructs
+- data types
+  - algebraic data types (ADT)
+  - generalized algebraic data types (GADT)
+  - inductive data types
+  - parameterized data types
+  - indexed data types
+  - existential types
+- pattern matching
+  - patterns
+  - co-patterns
+  - forced patterns
+  - absurd pattern
+  - dependently typed pattern matching
+- records
+- modules
+  - parameterized modules
+- surface syntax
+  - Haskell-like syntax
+  - two-dimensional, natural deduction style syntax
+  - proofs written in FP style
+  - reliance on Unicode
+- syntactic constructs
+  - let-expression
+  - where-clause
+  - with-clause
+  - if-construct
+  - rewrite construct
+
+
+
+Equality
+- definitional (judgemental) equality 
+- propositional equality
+- Lebnitz equality
+- substitutive propositional equality
+- UiP (uniquenss of identity proofs)
+- equality (identity) types
+- type equivalence defined in terms of the types' normal forms
+
+
+[1]: Computation and reasoning: a type theory for computer science, 1994, Luo, Zhaohui
+
+
+
+Two-dimensional, natural-deduction-style syntax of Epigram (oh, the horror):
+
+```
+     (         !       (           !   (   n : Nat   !
+data !---------! where !-----------! ; !-------------!
+     ! Nat : * )       ! zero : Nat)   ! suc n : Nat )
+
+
+                                      n : Nat
+data -------  where  ----------   -----------
+     Nat : *         zero : Nat   suc n : Nat
+
+
+data Nat : * where
+  zero : Nat
+  suc  : (n : Nat) → (suc n : Nat)
+  suc  : Nat → Nat
+```

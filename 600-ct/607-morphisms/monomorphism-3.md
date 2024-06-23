@@ -1,5 +1,10 @@
 # Monomorphism
 
+- epimorphism ~ surjection ~ full functor
+- monomorphism ~ injection ~ faithful functor
+- isomorphism ~ bijection ~ fully faithful functor
+
+
 When we reason about sets and functions, we are often interested in functions with special properties such as being *injective* (into, one-to-one), *surjective* (onto), or *bijective* (into and onto, one-to-one correspondence, invertable, isomorphism). Appropriate analogues of these concepts also play an important role in categorical reasoning.
 
 [definition] An arrow `m : B -> C` in a category C is a **monomorphism** (or monic) if, for any pair of arrows `g,h : A -> B` in C, the equality `m ∘ g = m ∘ h` implies `g = h`.

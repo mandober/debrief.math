@@ -1,0 +1,32 @@
+# Type theory :: Index :: System X
+
+- STLC
+  - functions from terms to terms
+- System F
+  - polymorphic lambda calculus
+  - λ2, second-order lambda calculus
+  - formalizes parametric polymorphism
+  - functions from types to terms
+  - strongly normalizing
+  - corresponds to a fragment of second-order intuitionistic logic that uses only universal quantification
+  -  type inference (without explicit type annotations) is undecidable
+- System Fω
+  - functions from types to types where the argument (and result) may be of any order.
+- System F$_{<:}$
+  - extension of system F with subtyping
+- System U
+- System μ
+- System F with Type Equality Coercions
+- System f-omega with equirecursive types for datatype-generic ...
+- Higher-order modules in System Fω and Haskell
+- Relating System F and λ2
+- System FC
+
+- λ→, Simply typed lambda calculus
+- λ2, System F
+- λ⍹, System F⍹
+- λP, λΠ, Lambda-P
+- λω, System Fω
+- λC, CoC
+  - Calculus of constructions
+  - functions from terms to types

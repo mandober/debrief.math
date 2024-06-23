@@ -2,6 +2,11 @@
 
 https://en.wikipedia.org/wiki/Monomorphism
 
+- epimorphism ~ surjection ~ full functor
+- monomorphism ~ injection ~ faithful functor
+- isomorphism ~ bijection ~ fully faithful functor
+
+
 (n. monomorphism, mono; adj. monic.)
 
 A morphism `f: X → Y` is called a monomorphism 

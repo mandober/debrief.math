@@ -8,6 +8,7 @@ https://en.wikipedia.org/wiki/Glossary_of_order_theory
 https://en.wikipedia.org/wiki/Glossary_of_computer_science
 https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
 https://en.wikipedia.org/wiki/Glossary_of_electrical_and_electronics_engineering
+https://en.wikipedia.org/wiki/Glossary_of_areas_of_mathematics
 
 <!-- TOC -->
 
@@ -39,6 +40,7 @@ https://en.wikipedia.org/wiki/Glossary_of_electrical_and_electronics_engineering
 - [Primitive notion](#primitive-notion)
 - [Propositions](#propositions)
 - [Rules of inference](#rules-of-inference)
+- [Supertask](#supertask)
 - [Trinitarianism](#trinitarianism)
 - [Truth value](#truth-value)
 - [Value](#value)
@@ -48,24 +50,27 @@ https://en.wikipedia.org/wiki/Glossary_of_electrical_and_electronics_engineering
 <!-- /TOC -->
 
 ## Abel Prize
-Abel Prize, award granted annually for research in mathematics, in commemoration of the XIX century Norwegian mathematician Niels Henrik Abel. The Niels Henrik Abel Memorial Fund was established in 2002, and it is administered by the Norwegian Ministry of Education and Research.
+Abel Prize is an award granted annually for research in mathematics in commemoration of the XIX century Norwegian mathematician Niels Henrik Abel. The "Niels Henrik Abel Memorial Fund" was established in 2002, and it is administered by the Norwegian Ministry of Education and Research.
 
 ## Abstraction
-Abstraction is the process by which the irrelevant details are removed in order to expose the underlying structure.
+Abstraction is the process by which an object is stripped of all irrelevant details in order to expose its underlying structure. Abstraction is reached by extracting the common features from a set of related examples. Abstraction is the process in which the details of a well-understood object are deliberately "forgotten" in order to simplify it and then regard it as a new entity independent of its parts.
 
 ## Algebra
 1. Algebra, branch of mathematics in which arithmetical operations and formal manipulations are applied to abstract symbols rather than specific numbers.
-2. An algebra, or an algebraic structure, is a mathematical structure consisting of a carrier set that is endowed with additional structure, upholding a set of axioms.
+2. An algebra or an algebraic structure is a mathematical structure consisting of a carrier set endowed with additional structure and a set of axioms.
+
 
 ## Algorithm
-Algorithm is a systematic procedure that produces, in a finite number of steps, the answer to a query (or a solution to a problem).
+Algorithm is a systematic procedure that produces in a finite number of steps a solution to a query/problem.
 
 The name derives from the Latin translation ("Algoritmi de numero Indorum") of the IX century treatise on arithmetic by the mathematician Al-Khwarizmi (Al-Khwarizmi ~> Al-gwaritmi ~> Al-goritmi ~> Al-go-rithm). (rithm vs rhythm)
 
-Many mathematical terms beginning with "al-" have arabic origin (algebra, alcohol, alcaloid).
+Many mathematical terms beginning with "al-" have arabic origin   
+al-gebra, al-cohol, al-caloid, Al-geebra, Al-gezira, Al-Khwarizmi, 
+al-fred, offred, oftalmolog
 
 ## Analysis
-Analysis is a branch of mathematics that deals with *continuous change* and with certain general types of processes that have emerged from the study of continuous change, such as *limits*, *differentiation* and *integration*.
+Mathematical Analysis, as a branch of mathematics, deals with continuous change and with general types of processes emerged from it, such as limits, differentiation and integration.
 
 ## Axiom
 An *axiom* or a *postulate* is a statement, taken to be true, that serves as an initial premise (a starting point) for further reasoning and argumentation.
@@ -179,10 +184,11 @@ Rules of inference include conjunction introduction, `∧I`, conjunction elimina
 
 Rules of inference are a part of the broader category of *transformation rules*, which also includes *rules of replacement* comprised of substitutions by identity, De Morgan's laws, transposition, material implication, exportation, tautology, etc.
 
-## Trinitarianism
-Trinitarianism is a name given to the correspondence (isomorphism) between logic, type theory and category theory.
+## Supertask
+A procedure that requires carrying out an infinite number of actions (tasks) in a finite amount of time.
 
-Similar correspondences go under names: BHK interpretation, propositions-as-types, proofs-as-programs, Curry-Howard isomorphism (CHI), Curry-Howard-Lambek isomorphism.
+## Trinitarianism
+Trinitarianism is another name for the correspondence between logic, type theory and category theory, otherwise known as the Curry-Howard-Lambek isomorphism.
 
 ## Truth value
 Truth value, or logical value, is a value indicating the relation of a proposition and the "general, objective" truth.

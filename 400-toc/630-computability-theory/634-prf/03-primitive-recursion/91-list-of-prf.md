@@ -1,0 +1,38 @@
+# The list of primitive recursive functions
+
+- zero (constant) function, `z` or `ζ` (variadic)
+  - ζ(1) = 0
+  - ζ(1,2) = 0
+  - ζ(1,2,3,…) = 0
+- successor, `s` or `σ` (definitly unary)
+  - σ(0) = 1, σ(1) = 2, …, σ(n) = n+1
+  - σ(Z) = S Z, σ(S Z) = S (S Z), …, σ(S(…(S Z)…)) = S (S(…(S Z)…))
+- projections, `π` (variadic)
+  - π₁¹(x) = x
+  - π₀¹(x) = ?, π₀⁰(x) = ?, π₁⁰(x) = ?
+  - π₁²(x, y) = x
+  - π₂²(x, y) = y
+  - π₂³(x, y) = ?, π₂⁰(x, y) = ?
+- addition
+- mul
+- exp
+- monus
+- abs
+- absolute difference
+- predecessor
+- factorial
+- primality testing
+- nth prime
+- divisibility, x-divides-y
+- EQ
+- LE
+- LT
+- GE
+- GT
+- α(x), `(== 0)`, isZero predicate
+- floor
+- integer division (with flooring)
+- pairing function (x,y)
+- Gödel's numbers, aka pairing function, `ℕᵏ → ℕ`, from k-tuples to nats
+- `Lt(x)` where x = [a₁, …, aₙ]
++ projection, index `([a₁, …, aₙ])ᵢ`

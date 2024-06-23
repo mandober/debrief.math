@@ -4,28 +4,55 @@ https://en.wikipedia.org/wiki/Timeline_of_mathematics
 https://en.wikipedia.org/wiki/History_of_mathematics
 https://en.wikipedia.org/wiki/History_of_mathematical_notation
 
+The timeline of math is divided here into 3 stages corresponding to the stages in the development of mathematical notation:
+- rhetorical, before 1000 BCE 
+  calculations are described only verbally
+- syncopated, 1000 BCE - 1000 CE 
+  symbolic notation for quantities and arithmetic
+- symbolic, from 1000 CE 
+  comprehensive notational systems for formulas is the standard
 
-The timeline of math is divided here into 3 stages, corresponding to stages in the development of mathematical notation:
-- rhetorical: math calculations are described only verbally.
-- syncopated: quantities and arithmetic gain symbolic representation.
-- symbolic: comprehensive notational systems for formulas is the standard.
+```
+        1000 BCE                     1000 CE
+<--------------|----------x-----------|-------------->
+   rhetorical        syncopated          symbolic
+```
+
+
+X    XI  XII  XIII XIV   XV   XVI  XVII XVIII XIX XX XXI
+┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────
+
+
+└ ┴ ┘ ┌ ┬ ┐ ├ ┼ ┤ ─ │ ╌ ┄ ┈ ╎ ┆ ┊ ╴ ╵ ╶  ╷ ⟍ ⟋
+
+
+
+1912  ┼ 
+      │
+      │
+      │
+      │
+      │
+      │
+      ┼
 
 
 ```
-<<< Rhetorical | Syncopated | Symbolic >>>
+
                |            |
                |  I   | II  |
                |      |     |          |
 BCE          -10      1    10         15    16    17    18    19    20    21   CE
 <--------------|------|-----|----------|-----|-----|-----|-----|-----|-----|-->
-          |     |    |          |             Modern          |Contemporary
+
+          |     |    |          |             Modern          Contemporary
           |     |    |          |
 1         |  2  |  3 |     4    |   5     6     7     8     9     10    11
 ```
 
 Stages
 - I Rhetorical stage,             `stage < -1000`
-  - 1. x < Before 1000 BCE
+  - 1.0 x < Before 1000 BCE
 - II Syncopated stage,    `-1000 < stage <  1000`
   - 2.1 1st millennium BCE
   - 2.2 1st millennium CE
@@ -76,58 +103,32 @@ Stages
 
 ### 1st millennium BCE
 
-- ~ 1000 BCE 
-  Egypt, unit fractions and interpolation tables to approximate the values of the other fractions.
-- first half of the 1st millennium BCE 
-  Vedic India, Yajnavalkya, in his Shatapatha Brahmana, describes the motions of the Sun and the Moon, and advances a 95-year cycle to synchronize the motions of the Sun and the Moon.
-- 800 BCE 
-  Baudhayana, author of the Baudhayana Shulba Sutra, a Vedic Sanskrit geometric text, contains quadratic equations, and calculates the square root of two correctly to five decimal places.
-- ~ 8th century BCE 
-  Yajur Veda, one of the four Hindu Vedas: the earliest concept of infinity "if you remove/add a part from infinity, what remains is infinity still".
-- 1046 BCE to 256 BCE 
-  China, Zhoubi Suanjing, arithmetic, geometric algorithms, proofs.
-- 624 BCE - 546 BCE 
-  Greece, Thales of Miletus has various theorems attributed to him.
-- ~ 600 BCE 
-  Greece, the other Vedic "Sulba Sutras" ("rule of chords" in Sanskrit) use Pythagorean triples, contain of a number of geometrical proofs, π ~ 3.16.
-- second half of 1st millennium BCE 
-  China, `Lo Shu Square`, the unique normal magic square of order 3,
-- 530 BCE 
-  Greece, Pythagoras studies propositional geometry and vibrating lyre strings; his gang discovers the irrationality of the square root of 2.
-- c. 500 BCE 
-  Indian grammarian Pānini writes the Astadhyayi: contains the use of metarules, transformations and recursion, originally for the purpose of systematizing the grammar of Sanskrit.
-- 470 BCE - 410 BCE 
-  Greece, Hippocrates of Chios utilizes lunes to square the circle.
-- 490 BCE - 430 BCE 
-  Greece, Zeno of Elea: Zeno's paradoxes
-- 5th century BCE 
-  India, Apastamba, author of the Apastamba Sulba Sutra, another Vedic Sanskrit geometric text, attempts to square the circle; calculates the square root of 2 correct to 5 decimal places.
-- ~ 400 BCE 
-  India, Jaina mathematicians write the Surya Prajinapti, a mathematical text classifying all numbers into 3 sets: enumerable, innumerable and infinite. He recognises 5 infinities: infinite in one and two directions, infinite in area, infinite everywhere, and infinite perpetually.
-- 370 BCE 
-  Greece, Eudoxus states the method of exhaustion for area determination.
-- 350 BCE 
-  Greece, Aristotle discusses logical reasoning in Organon.
-- 4th century BCE 
-  Indian texts use the Sanskrit word "Shunya" to refer to the concept of "void" (zero).
-- 4th century BCE 
-  China, Counting rods
-- 330 BCE 
-  China, the earliest known work on Chinese geometry, the Mo Jing, is compiled.
-- 300 BCE 
-  India, Jain mathematicians in India write the Bhagabati Sutra, which contains the earliest information on combinations.
-- 300 BCE 
-  **300 BCE Euclid's Elements**, geometry as an axiomatic system, proves the infinitude of prime numbers and presents the Euclidean algorithm; he states the law of reflection in Catoptrics, and he proves the fundamental theorem of arithmetic.
-- c. 300 BCE 
-  India, Brahmi numerals (ancestor of the common modern base 10 numeral system)
-- 370 BCE - 300 BCE 
-  Greece, Eudemus of Rhodes works on histories of arithmetic, geometry and astronomy now lost.
-- 300 BCE 
-  Mesopotamia, the Babylonians invent the earliest calculator, the abacus.
-- c. 300 BCE 
-  Indian mathematician Pingala writes the Chhandah-shastra, which contains the first Indian use of zero as a digit (indicated by a dot) and also presents a description of a binary numeral system, along with the first use of Fibonacci numbers and Pascal's triangle.
-- 260 BCE 
-  Greece, *Archimedes* proved that the value of π lies between 3 + 1/7 (approx. 3.1429) and 3 + 10/71 (approx. 3.1408), that the area of a circle was equal to π multiplied by the square of the radius of the circle and that the area enclosed by a parabola and a straight line is 4/3 multiplied by the area of a triangle with equal base and height. He also gave a very accurate estimate of the value of the square root of 3.
+- ~ 1000 BCE Egypt, unit fractions and interpolation tables to approximate the values of the other fractions.
+- first half of the 1st millennium BCE: Vedic India, Yajnavalkya, in his Shatapatha Brahmana, describes the motions of the Sun and the Moon, and advances a 95-year cycle to synchronize the motions of the Sun and the Moon.
+- 800 BCE Baudhayana, author of the Baudhayana Shulba Sutra, a Vedic Sanskrit geometric text, contains quadratic equations, and calculates the square root of two correctly to five decimal places.
+- ~ 8th century BCE Yajur Veda, one of the four Hindu Vedas: the earliest concept of infinity "if you remove/add a part from infinity, what remains is infinity still".
+- 1046 BCE to 256 BCE China, Zhoubi Suanjing, arithmetic, geometric algorithms, proofs.
+- 624 BCE - 546 BCE Greece, Thales of Miletus has various theorems attributed to him.
+- ~ 600 BCE Greece, the other Vedic "Sulba Sutras" ("rule of chords" in Sanskrit) use Pythagorean triples, contain of a number of geometrical proofs, π ~ 3.16.
+- second half of 1st millennium BCE: China, "Lo Shu Square", the unique normal magic square of order 3
+- 530 BCE Greece, Pythagoras studies propositional geometry and vibrating lyre strings; his gang discovers the irrationality of √2.
+- c. 500 BCE Indian grammarian Pānini writes the Astadhyayi: contains the use of metarules, transformations and recursion, originally for the purpose of systematizing the grammar of Sanskrit.
+- 470 BCE - 410 BCE Greece, Hippocrates of Chios utilizes lunes to square the circle.
+- 490 BCE - 430 BCE Greece, Zeno of Elea: *Zeno's paradoxes*
+- 5th century BCE India, Apastamba, author of the Apastamba Sulba Sutra, another Vedic Sanskrit geometric text, attempts to square the circle; calculates the square root of 2 correct to 5 decimal places.
+- ~ 400 BCE India, Jaina mathematicians write the Surya Prajinapti, a mathematical text classifying all numbers into 3 sets: *enumerable*, *innumerable* and *infinite*. He recognises 5 infinities: infinite in one and two directions, infinite in area, infinite everywhere, and infinite perpetually.
+- 370 BCE Greece, Eudoxus states the *method of exhaustion* for area determination.
+- 350 BCE Greece, *Aristotle* discusses logical reasoning in Organon.
+- 4th century BCE Indian texts use the Sanskrit word "Shunya" to refer to the concept of "void" (zero).
+- 4th century BCE China, Counting rods
+- 330 BCE China, the earliest known work on Chinese geometry, the Mo Jing, is compiled.
+- 300 BCE India, Jain mathematicians in India write the Bhagabati Sutra, which contains the earliest information on combinations.
+- 300 BCE *Euclid's Elements*, geometry as an axiomatic system, proves the infinitude of prime numbers and presents the Euclidean algorithm; states the law of reflection in Catoptrics, proves the *fundamental theorem of arithmetic*.
+- c. 300 BCE India, Brahmi numerals (ancestor of the common modern base 10 numeral system)
+- 370 BCE - 300 BCE Greece, Eudemus of Rhodes works on histories of arithmetic, geometry and astronomy now lost.
+- 300 BCE Mesopotamia, Babylonians invent *abacus*.
+- c. 300 BCE Indian mathematician Pingala writes the Chhandah-shastra, which contains the first Indian use of *zero* as a digit (indicated by a dot) and also presents a description of a *binary numeral system*, along with the first use of *Fibonacci numbers* and *Pascal's triangle*.
+- 260 BCE Greece, *Archimedes* proved that the value of `π` lies between 3 + 1/7 (approx. 3.1429) and 3 + 10/71 (approx. 3.1408), that circle area is `2πr`; that area enclosed by a parabola and a straight line is 4/3 multiplied by the area of a triangle with equal base and height. He also gave a very accurate estimate of the value of the square root of 3.
 - c. 250 BCE 
   late Olmecs had already begun to use a true zero (a shell glyph) several centuries before Ptolemy's text The New World.
 - 240 BCE 
@@ -229,29 +230,6 @@ Stages
   Mesopotamia, Al-Batani extended the Indian concepts of sine and cosine to other trigonometrical ratios, like tangent, secant and their inverse functions.
   Derived the formulae: {\displaystyle \sin \alpha =\tan \alpha /{\sqrt {1+\tan ^{2}\alpha }}}\sin \alpha =\tan \alpha /{\sqrt  {1+\tan ^{2}\alpha }} and {\displaystyle \cos \alpha =1/{\sqrt {1+\tan ^{2}\alpha }}}\cos \alpha =1/{\sqrt  {1+\tan ^{2}\alpha }}.
 
-
-
-## Symbolic stage
-
-### 10th to 15th century
-
-### 15th century
-
-### Modern times
-
-### 16th century
-
-### 17th century
-
-### 18th century
-
-### 19th century
-
-### Contemporary times
-
-### 20th century
-
-### 21st century
 
 
 

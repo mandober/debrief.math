@@ -5,6 +5,7 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 <!-- TOC -->
 
 - [Absoluteness](#absoluteness)
+- [Admissible rule of inference](#admissible-rule-of-inference)
 - [Ampliative](#ampliative)
 - [Ancestral logic](#ancestral-logic)
 - [Anti-psychologism](#anti-psychologism)
@@ -21,22 +22,30 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Boolean logic vs Propositional logic](#boolean-logic-vs-propositional-logic)
 - [Bound variable](#bound-variable)
 - [Binding occurrence](#binding-occurrence)
+- [Classical logic](#classical-logic)
 - [Closed-world assumption](#closed-world-assumption)
 - [Cogent](#cogent)
 - [Collation](#collation)
+- [Compactness theorem](#compactness-theorem)
+- [Completeness](#completeness)
 - [Conjecture](#conjecture)
 - [Constants symbols](#constants-symbols)
 - [Contingency](#contingency)
+- [Decidability](#decidability)
 - [Deductive system](#deductive-system)
 - [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
+- [Derivable rule of inference](#derivable-rule-of-inference)
 - [Deviant logics](#deviant-logics)
 - [Dialetheism](#dialetheism)
+- [Domain of discourse](#domain-of-discourse)
 - [Elementary theory](#elementary-theory)
+- [Entailment](#entailment)
+- [Entailment vs implication](#entailment-vs-implication)
 - [Equiconsistent](#equiconsistent)
 - [Extended logics](#extended-logics)
 - [Extension](#extension)
-- [Extensionality](#extensionality)
+- [Extensionality principle](#extensionality-principle)
 - [Extremal clause](#extremal-clause)
 - [Fallacy](#fallacy)
 - [First-order logic](#first-order-logic)
@@ -45,8 +54,9 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Formal system](#formal-system)
 - [Formula](#formula)
 - [Free variable](#free-variable)
-- [Truth-functional](#truth-functional)
+- [Function symbol](#function-symbol)
 - [Fuzzy logic](#fuzzy-logic)
+- [Herbrand's Theorem](#herbrands-theorem)
 - [Higher-order logic](#higher-order-logic)
 - [Identity](#identity)
 - [Identity - Law of identity](#identity---law-of-identity)
@@ -54,17 +64,22 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Identity of indiscernibles](#identity-of-indiscernibles)
 - [Immediate inference](#immediate-inference)
 - [Informal logic](#informal-logic)
+- [Interpretation](#interpretation)
 - [Law of non-contradiction](#law-of-non-contradiction)
 - [Law of Identity](#law-of-identity)
 - [Law of excluded middle](#law-of-excluded-middle)
 - [Laws of thought](#laws-of-thought)
+- [Lindström's theorem](#lindströms-theorem)
 - [Logic](#logic)
-- [Logical Connectives](#logical-connectives)
-- [Logical Consequence](#logical-consequence)
-- [Logical Form](#logical-form)
-- [Logical Framework](#logical-framework)
+- [Logical connectives](#logical-connectives)
+- [Logical constant](#logical-constant)
+- [Logical consequence](#logical-consequence)
+- [Logical form](#logical-form)
+- [Logical framework](#logical-framework)
 - [Logical positivism](#logical-positivism)
-- [Logical Truth](#logical-truth)
+- [Logical truth](#logical-truth)
+- [Logical equivalence](#logical-equivalence)
+- [Material equivalence](#material-equivalence)
 - [Mathematical logic](#mathematical-logic)
 - [Metalogic](#metalogic)
 - [Metatheorem](#metatheorem)
@@ -73,6 +88,7 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Natural deduction](#natural-deduction)
 - [Necessity and sufficiency](#necessity-and-sufficiency)
 - [Non-classical logic](#non-classical-logic)
+- [Non-logical symbol](#non-logical-symbol)
 - [Objectivism](#objectivism)
 - [Occurrence typing](#occurrence-typing)
 - [Ontological commitment](#ontological-commitment)
@@ -86,16 +102,21 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Primitive notion](#primitive-notion)
 - [Primitive symbol](#primitive-symbol)
 - [Principle of bivalence](#principle-of-bivalence)
+- [Proof](#proof)
 - [Proof by exhaustion](#proof-by-exhaustion)
 - [Proof calculus](#proof-calculus)
 - [Proof system](#proof-system)
-- [Propositions](#propositions)
-- [Propositional logic](#propositional-logic)
 - [Proposition](#proposition)
+- [Propositional logic](#propositional-logic)
+- [Proposition](#proposition-1)
 - [Psychologism](#psychologism)
 - [Rule of inference](#rule-of-inference)
+- [Satisfiability](#satisfiability)
 - [Second-order Logic](#second-order-logic)
 - [Semantics](#semantics)
+- [Sentence](#sentence)
+- [Signature](#signature)
+- [Skolemization](#skolemization)
 - [Statement](#statement)
 - [Strict conditional](#strict-conditional)
 - [Substitution](#substitution)
@@ -106,9 +127,12 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [System of logic](#system-of-logic)
 - [Tacit assumption](#tacit-assumption)
 - [Theorem](#theorem)
+- [Term](#term)
 - [Term logic](#term-logic)
 - [Traditional logic](#traditional-logic)
+- [Truthmaker](#truthmaker)
 - [Truth value](#truth-value)
+- [Truth-functional logical connective](#truth-functional-logical-connective)
 - [Unique name assumption](#unique-name-assumption)
 - [Universally valid](#universally-valid)
 - [Universal-existential normal form](#universal-existential-normal-form)
@@ -123,6 +147,9 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 
 ## Absoluteness
 Absoluteness is a property of a formula. A formula is said to be absolute if it has the same truth value in each class of structures/models.
+
+## Admissible rule of inference
+An inference rule is admissible when all of its instances satisfy the property: if the premises are derivable, then the conclusion is derivable.
 
 ## Ampliative
 Ampliative (from Latin "ampliare" meaning "to enlarge") is a term used mainly in logic, meaning "extending" or "adding to that which is already known". This term was often used by medieval logicians in the analyses of the temporal content of their subject terms. There were 3 rules outlined in its usage: 
@@ -250,6 +277,12 @@ Appealing to the intellect or powers of reasoning.
 ## Collation
 Collation is a generalization of a word (string of symbols from an alphabet) as a means to present information in a structured manner. A collation is a structured alignment with certain placeholders that underpins the construction of a formal language. These placeholders may then be replaced by elements of an alphabet (symbols) of the language. A collation in the alphabet is one where all placeholders are replaced by symbols from that alphabet.
 
+## Compactness theorem
+In mathematical logic, the compactness theorem states that a set of first-order sentences has a model if and only if every finite subset of it has a model. This theorem is an important tool in model theory, as it provides a useful (but generally not effective) method for constructing models of any set of sentences that is finitely consistent.
+
+## Completeness
+In mathematical logic and metalogic, a formal system is called complete with respect to a particular property if every formula having the property can be derived using that system, i.e. is one of its theorems; otherwise the system is said to be incomplete.
+
 ## Conjecture
 An unproved statement that is believed true is called a conjecture. To be considered a conjecture, a statement must usually be proposed publicly, at which point the name of the proponent may be attached to the conjecture, as with Goldbach's conjecture. Other famous conjectures include the Collatz conjecture and the Riemann hypothesis. On the other hand, Fermat's Last Theorem has always been known by that name, even before it was proved; it was never known as "Fermat's conjecture".
 
@@ -259,6 +292,15 @@ Logical constants (constant symbols) are strings of symbols that (are interprete
 ## Contingency
 In philosophy and logic, contingency is the status of propositions that are neither true under every possible valuation (i.e. not tautologies), nor false under every possible valuation (i.e. not contradictions). A contingent proposition is neither necessarily true nor necessarily false.
 
+## Decidability
+In logic, a true/false decision problem is decidable if there exists an effective method for deriving the correct answer.
+
+In 1929, Mojżesz Presburger showed that the first-order theory of the natural numbers with addition and equality (now called Presburger arithmetic) is decidable and gave an algorithm that could determine if a given sentence in the language was true or false.
+
+Zeroth-order logic (propositional logic) is decidable, whereas first-order and higher-order logic are not.
+
+Logical systems are decidable if membership in their set of logically valid formulas (or theorems) can be effectively determined.
+
 ## Deductive system
 A deductive system for a logic, aka a *deductive apparatus* or *a logic*, is a set of logical axioms (or axiom schemata) and inference rules that are used to derive theorems within that system, and that determine which sequences of formulas constitute valid proofs.
 
@@ -267,6 +309,9 @@ Defeasible inference is a kind of inference in which reasoners draw tentative co
 
 ## Defeasible reasoning
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
+
+## Derivable rule of inference
+A rule of inference R is derivable it there is a derivation tree whose leaves are the premises of R (and possibly applications of the assumption rule), and its conclusion is the conclusion of R.
 
 ## Deviant logics
 https://en.wikipedia.org/wiki/Deviant_logics
@@ -286,8 +331,17 @@ Deviant logics, in contrast to extended logics, reject some of the fundamental p
 ## Dialetheism
 Dialetheism is a view in phylosophy of logic which accepts the existence of contradictory propositions, i.e. proposition that are both true and false. More precisely, it is the belief that there can be a true statement whose negation is also true. Such statements are called "true contradictions", dialetheia, or nondualisms.
 
+## Domain of discourse
+The domain of discourse (aka the universe of discourse, universal set, or simply universe), is the set of terms (individuals, entities) over which variables range.
+
 ## Elementary theory
 In mathematical logic, an elementary theory is a theory that involves axioms using only finitary first-order logic, without reference to set theory or using any axioms which have consistency strength equal to set theory.
+
+## Entailment
+Entailment or logical consequence is a fundamental concept in logic which describes the relation between statements that hold true when one statement logically follows from one or more statements (premises). A valid logical argument is one in which the conclusion is entailed by the premises, because the conclusion is the consequence of the premises.
+
+## Entailment vs implication
+What is the real difference between entailment `⊢` and implication `⇒` when we can (sorta) convert `⊢` to `⇒` and vice versa. In fact, they are quite different. Entailment constructs a judgement and is always at the "top level" so to speak, it cannot be nested. Implication constructs a formula, and it can be nested, and can appear in sub-formulas. The main difference is that entailment is a meta-theoretical notion, whereas implication is internal to logic.
 
 ## Equiconsistent
 In mathematical logic, two theories are equiconsistent if the consistency of one theory implies the consistency of the other theory, and vice versa. In this case, they are, roughly speaking, "as consistent as each other".
@@ -310,10 +364,14 @@ It is often combined with *possible worlds semantics*, which holds that a propos
 *Higher-order logics* do not directly apply classical logic to certain new sub-fields within philosophy but generalize it by allowing quantification not just over individuals but also over predicates.
 
 ## Extension
-The extension of a predicate (a truth-valued function) is the set of tuples of values that, used as arguments, satisfy the predicate. Such a set of tuples is a relation.
+An extension of a predicate is the set of tuples (of values) that when used as arguments satisfy the predicate. Such a set of tuples is a relation.
 
-## Extensionality
-Extensionality refers to principles that judge objects to be equal if they have the same external properties, as opposed to intensionality, which is concerned with whether the internal definitions of objects are the same. There are many predicates that are intensionally different but extensionally identical. For example, the expressions, 2+4 and 2*3, are extensionally equal (from outside), but intensionality different (from within).
+## Extensionality principle
+Extensionality principle judges objects as equal if they have the same external properties, as opposed to intensionality, which is concerned with whether the internal definitions of objects are the same. There are many examples of predicates that are intensionally different but extensionally identical; e.g. expressions 2+4 and 2*3 are extensionally equal but intensionality different.
+
+Extensionality principle deems two functions equal if they produce the same output given the same input (regardless how each is implemented - which would be important for intensionality).
+
+Extensionality principle holds in mathematics in general because computational content is rarely considered, unlike in computer science where e.g. proof assistants must consider such aspects; Agda proof assistant does not have the extensionality principle by default because even if two fucntions are the same (according to this principle), they are rarely identical in computatinal aspects (one is more performative or uses less memoery, etc.); however, Agda allow postulating extensionality in order to proof equality of functions.
 
 ## Extremal clause
 The last clause of a structurally-inductive definition that specifies that nothing else, apart from the given rules, falls within the scope of the definition. For example, following a series of clauses that define wffs (e.g. if `p` and `q` are wffs then so is `p ⋀ q`, and such), the extremal clause will proclaim that no other formula is a wffs.
@@ -322,32 +380,43 @@ The last clause of a structurally-inductive definition that specifies that nothi
 A fallacy is a logically incorrect way of reasoning, that undermines the legal arguments in order to paint them as logically invalid and unsound. A fallacy is the use of faulty metods of reasoning whether by accident or deliberately. A fallacious argument may deceive by appearing to be better than it really is. Fallacies are often committed intentionally to manipulate or persuade by deception.
 
 ## First-order logic
-Predicate logic uses quantified variables over objects and allows the use of sentences that contain variables. This distinguishes it from propositional logic, which does not use quantifiers or relations. In first-order theories, predicates are often associated with sets.
+Predicate logic uses quantified variables over elements in the domain of discourse (DOD), and allows sentences that contain variables. This distinguishes it from propositional logic, which does not use quantifiers or relations (predicates) working with entire sentences as units. In first-order theories, predicates are often associated with sets, but in a first-order predicate vars are quantified only over individual elements - not over sets. Vars in a second-order predicate, however, can range over a set (of sets). Vars in higher-order predicates can range over sets of sets of sets, and so on.
 
 ## Formal language
-A formal language is a language that is defined by a formal system. Like languages in linguistics, formal languages generally have two aspects, syntax and semantics (sometimes also the third aspect, pragmatics). The syntax of a language is what the language looks like; formally, it is the set of possible expressions that are valid statements in the language. The semantics of a language defines the meaning of the statements of the language.
+A formal language is a language defined by a formal system. Like natural languages, formal languages generally have 3 aspects - syntax, semantics and pragmatics. The syntax of a language is what the language looks like; formally, it is the set of all possible legal statements. Semantics defines the meaning of the statements of the language. Pragmatics deals with the use of languages.
 
 ## Formal logic
-Formal logic is the study of inference with purely formal content. An inference possesses a purely formal content if it can be expressed as a particular application of a wholly abstract rule i.e. a rule that is not about any particular thing or property.
+Formal logic is the study of inference of purely formal content; an inference has a purely formal content if it can be expressed as a particular application of an abstract rule, i.e. a rule that is not about any particular thing or property, usually denoted with symbols that lack immediate interpretation. Symbolic logic is mostly synonymous with formal logic, althought the former term puts more emphasis on the use of symbols, while the later highlights formalizational aspects of logic.
 
 ## Formal system
-A formal system is an abstract structure used for inferring theorems, starting from the set of axioms and according to a set of inference rules. This set of inference rules is the logical calculus of the formal system. A formal system may represent a well-defined system of abstract thought. There are various formal systems. For example, Hilbert-style calculi are characterized by favoring axioms over the rules of inference, as contrasted by sequent calculi. The term *formalism* is sometimes used as a near synonym for formal system, but it also refers to a style of notation (e.g. Fitch notation or Fitch formalism).
+A formal system (of logic) is an abstract structure used for inferring theorems starting from the set of axioms and acting according to the set of inference rules. A formal system may represent a well-defined system of abstract thought. The set of inference rules is the logical calculus of the formal system.
+
+The term "formalism" is sometimes used as a near synonym for formal system, but it also refers to a style of notation, like the Fitch-style notation or Fitch formalism.
+
+There are various formal systems, most prominent of which are Hilbert-style calculi and Genzen-style calculi. The former are characterized by having many axioms and only one (or a few) inference rules. The latter have a few axioms and many inference rules.
 
 ## Formula
-The symbols of a formal language comprise its alphabet, and the combinations of the symbols produce formulas. However, since most such productions are gobbledygook, the formal grammar specifies how to recognize and build only the well-formed statements, i.e. the well-formed formulas.
+A formal language in a formal system of logic is build as strings of symbols takes form an alphabet. In a broad sense, a formula is any sentence build from the characters, however gobbledygook. In a strict sense, formulas, or, in a more precise sense, well-formed formulas, are only those strings recognized by the formal grammar of the formal language (which discardes all the ill-formed formulas/strings and admits only the well-formed ones). Usually, the term "formula" is used in the latter sense, but to emphasize the well-formedness the abbreviation "wff" is also used.
+
+In mathematical logic, a term denotes a mathematical object while a formula denotes a mathematical fact. In particular, terms appear as components of a formula.
 
 ## Free variable
-A free variable is a variable that has only an application occurrence without a corresponding binding occurence anywhere within its scope.
+A free variable is a variable that occurs in a (sub)formula without its binder also being in the same scope. Variables are bound by quantifiers (∀ and ∃), so in the formula `∀x.P(x)`, the first occurrence of `x` is its binding occurence, and the second its applied occuurrence; considering this entir formula, `x` evidently appears bound, but if we focus only on a subformula `P(x)`, in it `x` appears free. Thus, being free or bound is often a relative question. An application occurrence of a variable is free if its corresponding binding occurence is not visible is that scope (subforula).
 
-An application occurrence of a variable is called free if it is not scoped under the variable's binding occurence .
-
-has all of its application occurrences in the same scope as its binding occurrence.
-
-## Truth-functional
-A logical connective is truth-functional if the truth value of a compound sentence is a function of the truth-value of its sub-sentences; i.e. if the truth value of the compound sentence can be determined from its atoms. A class of connectives is truth-functional if each of its members is.
+## Function symbol
+In logic, a function symbol or functional predicate is a logical symbol that may be applied to an object term to produce another object term. In a model, a function symbol will be modelled by a function.
 
 ## Fuzzy logic
 Fuzzy logic is a form of many-valued logic in which the truth values of variables may be any real number between 0 and 1. It is employed to handle the concept of partial truth, where the truth value may range between completely true and completely false. By contrast, in Boolean logic, the truth values of variables may only be the integer values 0 or 1.
+
+## Herbrand's Theorem
+In its simplest form, the Herbrand's Theorem states, that for every valid existential formula `∃x.F(x)` there is a finite set of terms `{t₁, …, tₖ}` such that the quantifier-free disjunction `F(t₁) ∨ … ∨ F(tₖ)` is a tautology.
+
+(sure, existential formula is a disjunction of all elements in the DOD; universal formula is a conjunction of all DOD elements)
+
+∃x.Px = ⋁ aᵢ = a₁ ∨ a₂ ∨ … ∨ aₙ
+
+Less formally, the theorem states that a formula `A` in prenex form containing only existential quantifiers is provable (valid) in first-order logic if and only if a disjunction composed of substitution instances of the quantifier-free subformula of `A` is a tautology (propositionally derivable).
 
 ## Higher-order logic
 In HOL, quantification is also allowed over other language entities besides variables; second-order logic allows quantification over predicates. HOL allows quantification over variables, predicates, functions, relations, then over the sets of these entities, then over the sets of sets of these entities, and so on.
@@ -372,6 +441,9 @@ Immediate inference is the operation of drawing an inference from a single premi
 ## Informal logic
 Informal logic is the study of natural language arguments. The study of fallacies is an important branch of informal logic. Since much informal argument is not strictly speaking deductive, on some conceptions of logic, informal logic is not logic at all.
 
+## Interpretation
+An interpretation is an assignment of meaning to the symbols of a formal language. Many formal languages used in mathematics, logic, and theoretical computer science are defined in solely syntactic terms, and as such do not have any meaning until they are given some interpretation. The general study of interpretations of formal languages is called formal semantics.
+
 ## Law of non-contradiction
 The law of non-contradiction (LNC) states that a proposition cannot be simoultaneously true and false, `¬(p ⋀ ¬p)` (it denies the case where a proposition `p` is both true and false, which makes `p` a contradiction). LNC is the cornerstone of classical logic, but it is rejected in intuitionistic logic. LNC is logically equivalent to the LEM, i.e. `¬(p ⋀ ¬p) ≡ ¬p ⋁ p` and to the law of identity, `¬(p ⋀ ¬p) ≡ p -> p`.
 
@@ -394,28 +466,44 @@ LEM doesn't allow for any other possibility (like 'unknown' or N/A). LEM is the 
 ## Laws of thought
 Laws of thought are the 3 fundamental laws, *the law of identity*, *the law of non-contradiction* and *the law of excluded middle*, often considered as the basis of rational discourse itself. These rules have been known and accepted in logic for centuries, until the modern logicians placed them under detailed scrutiny, which resulted in inventions of new kinds of logic that exercised strict control regarding the three fundamental laws.
 
+## Lindström's theorem
+In mathematical logic, Lindström's theorem (named after Swedish logician Per Lindström, who published it in 1969) states that first-order logic is the strongest logic (satisfying certain conditions, e.g. closure under classical negation) having both the (countable) compactness property and the (downward) Löwenheim-Skolem property.
+
 ## Logic
 Logic is the study of rules of inference that allow deriving a conclusion from premises.
 
-## Logical Connectives
-Logical connectives (logical operators) are symbols or words used to connect sentences in a grammatically valid way, such that the value of the compound sentence produced depends only on that of the original sentences and on the meaning of the connective. Logical connectives include negation (¬), conjunction (∧), inclusive disjunction (∨), exclusive disjunction (⊕), biconditional (⇔), implication (⇒), NAND (↑), NOR (↓), sometimes even parentheses.
+## Logical connectives
+Logical connectives or logical operators are symbols or strings used to connect logical formulas in a grammatically valid way, such that the value of the compound formula depends only on the values of comprising formulas and on the meaning of the connective.
 
-## Logical Consequence
+Logical connectives include negation (¬), conjunction (∧), inclusive disjunction (∨), exclusive disjunction (⊕), biconditional (⇔), implication (⇒), NAND (↑), NOR (↓), etc.
+
+## Logical constant
+A logical constant (aka logical symbol or constant symbol) of a formal language is a symbol that has the same semantic value under every interpretation of that language. Two important types of logical constants are logical connectives and logical quantifiers. The equality predicate (=) is also treated as a logical constant in many systems of logic.
+
+## Logical consequence
 Logical consequence (also **entailment**) is a fundamental concept in logic, which describes the relationship between statements that hold true when one statement logically follows from one or more statements. A valid logical argument is one in which the conclusion is entailed by the premises, because the conclusion is the consequence of the premises.
 
-## Logical Form
+## Logical form
 A logical form of a syntactic expression is a precisely-specified semantic version of that expression in a formal system. Informally, the logical form attempts to formalize a possibly ambiguous statement into a statement with a precise, unambiguous logical interpretation with respect to a formal system.
 
 The concept of logical form is central to logic: the validity of an argument is determined by its logical form, not by its content. A logical form of a syntactic expression is a precisely specified semantic version of that expression in a formal system. It is the formalization of possibly ambiguous statements from a natural language into, often symbolic, statements with precise unambiguous interpretation - their logical form.
 
-## Logical Framework
+## Logical framework
 Logical Framework provides a means to define a logic as a signature in a higher-order type theory in such a way that provability of a formula in the original logic reduces to a type inhabitation problem in the framework type theory.
 
 ## Logical positivism
 The positivist view was that a statement about the world could be meaningful iff it is either empirically verifiable or it can be shown to be true through logical analysis of its symbols.
 
-## Logical Truth
-Logical truth is one of the most fundamental concepts in logic, and there are different theories on its nature. A logical truth is a statement which is true, and remains true under all reinterpretations of its components other than its logical constants.
+## Logical truth
+Logical truth, one of the most fundamental concepts in logic, is a statement which is true regardless of the truth or falsity of its constituent parts (propositions). In other words, a logical truth is a statement which is not only true, but one which is true under all interpretations of its logical components. Thus, a logical truth like "if p, then p" (p ⇒ p) is a tautology.
+
+## Logical equivalence
+In logic, statements P and Q are said to be logically equivalent if they have the same truth value in every model.
+
+The logical equivalence of P and Q may be stated as P ≡ Q. The statement P ⇔ Q is more attached to material equivalence, so proper interpretation would depend on the context. Logical equivalence is different from material equivalence, although the two concepts are intrinsically related.
+
+## Material equivalence
+In logic, "if and only if" ("iff") is paraphrased by the biconditional, a logical connective between statements. The biconditional is true in two cases, where either both statements are true or both are false. The connective is biconditional (a statement of material equivalence), and can be likened to the standard material conditional ("only if", equal to "if ... then") combined with its reverse ("if"); hence the name.
 
 ## Mathematical logic
 Mathematical logic is an extension of symbolic logic into other areas, in particular to the study of model theory, proof theory, set theory, and computability (recursion) theory.
@@ -447,6 +535,11 @@ In logic, necessity and sufficiency are terms used to describe an implicational 
 ## Non-classical logic
 Non-classical logics (and sometimes alternative logics) are formal systems that differ in a significant way from standard logical systems such as propositional and predicate logic. There are several ways in which this is done, including by way of extensions, deviations, and variations.
 
+## Non-logical symbol
+In logic, the formal languages used to create expressions consist of symbols, which can be broadly divided into constants and variables. The constants of a language can further be divided into logical symbols and non-logical symbols (sometimes also called logical and non-logical constants).
+
+The non-logical symbols of a language of first-order logic consist of predicates and individual constants. These include symbols that, in an interpretation, may stand for individual constants, variables, functions, or predicates. A language of first-order logic is a formal language over the alphabet consisting of its non-logical symbols and its logical symbols. The latter include logical connectives, quantifiers, and variables that stand for statements.
+
 ## Objectivism
 Objectivism is a philosophical system created by Ayn Rand that declares real knowledge to be metaphysically objective. *Moral objectivism* or *moral realism*, the meta-ethical position that ethical sentences express factual propositions about robust or mind-independent features of the world, and that some such propositions are true. *Anti-psychologism* or *logical objectivism* is the conviction that the rules of logic are mind-independent.
 
@@ -466,6 +559,8 @@ Understood in a narrow sense, philosophical logic is the area of philosophy that
 Following the developments in formal logic with symbolic logic in the late nineteenth century and mathematical logic in the twentieth, topics traditionally treated by logic not being part of formal logic have tended to be termed either philosophy of logic or philosophical logic if no longer simply logic. Compared to the history of logic the demarcation between philosophy of logic and philosophical logic is of recent coinage and not always entirely clear.
 
 ## Predicate
+In logic, a predicate is a symbol that represents a property or a relation. For instance, in the first-order formula `P(a)`, the symbol `P` is a predicate that applies to the individual constant `a`. Similarly, in the formula `R(a,b)`, the symbol `R` is a predicate that applies to the individual constants `a` and `b`.
+
 A predicate is a statement that takes argument variables, which range over the elements of the domain of discourse, and maps them to a truth value. In the case there are two such input variables, such a predicate is called a (binary) predicate or a (binary) relation. A unary predicate is often called a property. Predicates of larger arity may also be called relations.
 
 If a predicate `P` marks the property "is divisible by 2", then `P(x)` is a statement of one variable `x`. However, the DOD must be specified so we know what individuals this variable ranges over. For example, if used inside a set builder notation like `𝔼 = { x | ∀x ∈ ℕ. P(x) }`, it indicates that a natural number `x` belongs to the set `𝔼` if `P(x)` holds.
@@ -488,6 +583,9 @@ Primitive symbols comprise the alphabet of a formal language. The "primitive" qu
 ## Principle of bivalence
 The principle of bivalence states that every proposition has exactly one of the two truth value - it is either true or false.
 
+## Proof
+A proof is sufficient evidence or a sufficient argument for the truth of a proposition. In any area of mathematics defined by a set of axioms (assumptions), a proof is an argument establishing a theorem of that area via accepted rules of inference starting from the axioms and from other previously established theorems. The subject of logic, in particular proof theory, formalizes and studies the notion of formal proof.
+
 ## Proof by exhaustion
 Proof by exhaustion (aka proof by cases, proof by case analysis, complete induction, brute force method) is a method of mathematical proof in which the statement to be proved is split into a finite number of cases or sets of equivalent cases and each type of case is checked to see if the proposition in question holds. This is a method of direct proof.
 
@@ -497,7 +595,7 @@ In mathematical logic, a proof calculus or a proof system is built to prove stat
 ## Proof system
 In mathematical logic, a proof calculus or a proof system is built to prove statements. A proof system includes these components: *Language* - the set of formulas admitted by the system (e.g propositional logic or FOL); *Rules of inference* - list of rules that can be employed to prove theorems from axioms and theorems; *Axioms* - formulas in the language assumed to be valid. All theorems are derived from axioms.
 
-## Propositions
+## Proposition
 Propositions are declarative sentences that have a truth value.
 
 ## Propositional logic
@@ -512,11 +610,23 @@ The explanation or derivation of mathematical or logical laws in terms of psycho
 ## Rule of inference
 Rules of inference are syntactical transformation rules which one can use to infer a conclusion from a premise to create an argument. A set of rules can be used to infer any valid conclusion if it is complete, while never inferring an invalid conclusion, if it is sound.
 
+## Satisfiability
+In mathematical logic, a formula is satisfiable if it is true under some assignment of values to its variables. For example, the formula x+3=y is satisfiable because it is true when x=3 and y=6, while the formula x+1=x is not satisfiable over the integers. The dual concept to satisfiability is validity.
+
 ## Second-order Logic
-Second-order logic is an extension of first-order logic, which itself is an extension of propositional logic. Second-order logic is in turn extended by higher-order logic and type theory. First-order logic quantifies only variables that range over individuals (elements of the domain of discourse), second-order logic additionally quantifies over relations.
+Second-order logic is an extension of first-order logic, which itself is an extension of propositional logic. Second-order logic is in turn extended by higher-order logic and type theory. First-order logic quantifies only variables that range over individuals (elements of the domain of discourse), second-order logic additionally quantifies over relations, and allows quantification over sets, functions, and other variables.
 
 ## Semantics
 Semantics, by contrast to syntax, has meaning as its primary concern. It is the study of the truth, reference, and linguistic meaning that can attach to linguistic expressions.
+
+## Sentence
+In mathematical logic, a sentence (or closed formula) of a predicate logic is a Boolean-valued well-formed formula with no free variables. A sentence can be viewed as expressing a proposition, something that must be true or false.
+
+## Signature
+In mathematical logic, a signature lists and describes the non-logical symbols of a formal language.
+
+## Skolemization
+In mathematical logic, a formula of first-order logic is in Skolem normal form if it is in prenex normal form with only universal first-order quantifiers.
 
 ## Statement
 In logic, the term statement is variously understood to mean either: (a) a meaningful declarative sentence that is true or false, or (b) the assertion that is made by a true or false declarative sentence.In the latter case, a statement is distinct from a sentence in that a sentence is only one formulation of a statement, whereas there may be many other formulations expressing the same statement.
@@ -525,7 +635,7 @@ In logic, the term statement is variously understood to mean either: (a) a meani
 In logic, a strict conditional (strict implication) is a conditional governed by a modal operator, that is, a logical connective of modal logic. It is logically equivalent to the material conditional of classical logic, combined with the necessity operator from modal logic.
 
 ## Substitution
-Substitution is a fundamental concept in logic. A substitution is a syntactic transformation on formal expressions.
+Substitution is a fundamental concept in logic. A substitution is a syntactic transformation on formal expressions. To apply a substitution to an expression means to consistently replace its variable, or placeholder, symbols with other expressions.
 
 ## Syllogisms
 A syllogism is a kind of logical argument where a quantified statement of a specific form (the conclusion) is inferred from two other quantified statements (the premises). It is a logical argument where one starts with premises and reaches a conclusion. A syllogism is a kind of logical argument that applies deductive reasoning to arrive at a conclusion based on two or more propositions that are asserted or assumed to be true. In its earliest form, defined by Aristotle, from the combination of a general statement (the major premise) and a specific statement (the minor premise), a conclusion is deduced.
@@ -548,14 +658,25 @@ A tacit or implicit assumption is an assumption that underlies a logical argumen
 ## Theorem
 A theorem is a statement that has been proven on the basis of previously established statements (other theorems) and generally accepted statements (axioms). It is a logical consequence of the axioms.
 
+## Term
+In mathematical logic, a term denotes a mathematical object while a formula denotes a mathematical fact. In particular, terms appear as components of a formula. This is analogous to natural language, where a noun phrase refers to an object and a whole sentence refers to a fact.
+
 ## Term logic
 Term logic (traditional logic, syllogistic logic, Aristotelian logic) is a system of formal logic mainly concerned with the syllogistic forms of deduction that is based on Aristotle and includes some of the changes and elaborations made by the Stoics and the Scholastics.
 
 ## Traditional logic
 see Term logic
 
+## Truthmaker
+The metaphysical notion of truthmaking is a relation which holds between a truth and some entity in the world, in virtue of which that truth is true.
+
+There is a number of ways in which a state or fact can be said to be a truthmaker for a sentence. It can simply necessitate the sentence; or it can necessitate the sentence while being partially relevant to its truth; or it can necessitate the sentence while being wholly relevant to its truth. An exact truthmaker for A is a state which, as well as guaranteeing A's truth, is wholly relevant to it.
+
 ## Truth value
 A truth value of a proposition is something that is up for discussion. A truth value (or logical value) is a value indicating the relation of a proposition to the truth. A proposition has a truth value if it evaluates to true or false (in bivalence logics). However, there are many non-binary systems of logic, that have 3 (false, unknown, true) or more truth values. In fuzzy logic, for instance, truth value is represented by a real number in the inteval (0,1).
+
+## Truth-functional logical connective
+A logical connective is truth-functional if the truth value of a compound sentence is a function of the truth-value of its sub-sentences; i.e. if the truth value of the compound sentence can be determined from its atoms. A class of connectives is truth-functional if each of its members is.
 
 ## Unique name assumption
 Unique name assumption is a simplifying assumption made in some ontology languages and description logics. In logics with the unique name assumption, different names always refer to different entities in the world.
@@ -567,7 +688,9 @@ Valid in every structure that satisfies a particular set of axioms.
 It is a special case of the prenex normal form where every universal quantifier precedes any existential quantifier.
 
 ## Validity
-In logic, an argument is valid iff it takes a form that makes it impossible for the premises to be true and the conclusion nevertheless to be false. It is not required that a valid argument have premises that are actually true, but to have premises that, if they were true, would guarantee the truth of the argument's conclusion.
+The dual concept to satisfiability is validity: a (logic) formula is valid if every assignment of values to its vars makes the formula true. For example, x+3=3+x is valid over the integers, but x+3=y is not.
+
+An argument is valid iff it takes a form that makes it impossible for the premises to be true and the conclusion nevertheless to be false. It is not required that a valid argument have premises that are actually true, but to have premises that, if they were true, would guarantee the truth of the argument's conclusion.
 
 ## Variable symbols
 Variables are used as placeholders for quantifying over objects.

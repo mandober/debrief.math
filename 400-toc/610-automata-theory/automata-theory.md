@@ -2,14 +2,11 @@
 
 https://en.wikipedia.org/wiki/Automata_theory
 
-**Automata theory** is the study of *abstract machines* and *automata*, as well as the *computational problems* that can be solved using them.
+Automata theory (AT) is the study of *abstract machines* and *automata*, and of the *computational problems* that can be solved using them.
 
+Automata theory defines various automata, each of which is a distinct model of computation. AT studies and classifies them by efficiency and computational power, although Theory of Computation, as its parent field, enumerates all the computation models spread out across mathematics (models of computation are mostly associated and described to ToC, particularly Automata theory, but some mathematical fields define their own models of computation, for example, logic and algebra have some).
 
-
-Automata theory defines various automata, which are also distinct models of computation. It studies them and classifies them by efficiency and computational power, although Theory of Computation, its parent field, enumerates all the computation models spread out across mathematics (models of computation are mostly described in ToC, particularly in Automata theory and Formal language theory, but some are also associated to logic, algebra).
-
-Automata theory is closely related to Formal Language Theory; in fact, their parent field, Theory of Computation, lists them together as one of its 3 major subfields, along with *Computability theory* and *Complexity theory*.
-
+Automata theory are Formal Language Theory are closely related, and are often considered together, as one field.
 
 ## Automata
 

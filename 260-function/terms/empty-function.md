@@ -1,5 +1,13 @@
 # Empty function
 
+The empty function arises from partiality which allows some domain elements not to participate in the relation. A curious question is just how many elements may fail to participate in a relation for it to still be consider a partial function? Can all domain elements fail to associate? In fact, they can; if all domain elements fail to participate in a relation, we get an empty function.
+
+Under the view of functions as sets, the graph of function is what defines a fucntion and therefore there is only one empty function. But under the stricter definition of a function where a function is determined not only by its graph but by the domain and codomain set as well, there are many empty functions.
+
+The empty function also arises from enumerability, where the empty set is considered to be denumerable - its members are enumerated exactly by the empty function.
+
+---
+
 For every set `X`, there is a unique function, called the **empty function**, from the empty set to `X`. The graph of an empty function is the empty set.
 
 `∀X ∈ 𝙎𝙚𝙩. void : ∅ → X`

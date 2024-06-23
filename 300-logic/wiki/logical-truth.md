@@ -6,24 +6,15 @@ This article is about propositions which are logically true. For the logical pro
 https://plato.stanford.edu/entries/truth/
 https://plato.stanford.edu/entries/logical-truth/
 
+## Logical truth
 
-
-Logical truth is one of the most fundamental concepts in logic. Broadly speaking, **logical truth** is a property of the statement which is true regardless of the truth value of its constituent propositions.
-
-In other words, a logical truth is a statement which is not only true, but true under all interpretations of its logical components (other than its logical constants). 
-
-Thus, logical truths such as `P -> P` (if P, then P) can be considered *tautologies*.
+Logical truth, one of the most fundamental concepts in logic, is a property of the statement which is true regardless of the truth value of its constituent propositions. In other words, a logical truth is a statement which is not only true, but true under all interpretations of its logical components. Thus, a logical truth such as `P ⇒ P` is a tautology.
 
 Logical truths are thought to be the simplest case of statements which are *analytically true* - in other words, *true by definition*.
 
-All of *philosophical logic* can be thought of as providing accounts of the *nature of logical truth*, as well as *logical consequence* [^1].
+All of [philosophical logic] can be thought of as providing accounts of the nature of logical truth, as well as [logical consequence].
 
-[^1]: "Philosophy of logic", Willard Van Orman Quine
-
-
->Logical truths are generally considered to be necessarily true.
-
-This is to say that they are such that no situation could arise in which they could fail to be true. The view that logical statements are necessarily true is sometimes treated as equivalent to saying that logical truths are true in all possible worlds.
+Logical truths are generally considered to be *necessarily true*. This is to say that they are such that no situation could arise in which they could fail to be true. The view that logical statements are necessarily true is sometimes treated as equivalent to saying that logical truths are true in all possible worlds.
 
 However, the question of whether any statements are necessarily true remains the subject of continued debate.
 

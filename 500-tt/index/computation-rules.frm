@@ -1,4 +1,4 @@
-# Type theory :: Computation rules
+# Type theory :: Index :: Computation rules
 
 ```hs
             fst (p, q) -->> p
@@ -53,4 +53,14 @@ trec (Bnode n u v) c f -->> f n u v (trec u c f) (trec v c f)
                  fix g -->> g (fix g)
 
              xifʸᶻ b d -->> b[d⟼y, λw. (xifʸᶻ b w)⟼z]
+```
+
+## Continuations
+
+```hs
+____________________________________________
+k ▷ letcc{τ}(x.e) --> k ▷ [cont(k) / x]e
+
+___________________________________________
+k; throw{τ}(v; -) ◁ cont(k') --> k' ◁ v
 ```

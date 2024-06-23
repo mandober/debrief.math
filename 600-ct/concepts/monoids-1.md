@@ -1,5 +1,13 @@
 # Monoid
 
+https://en.wikipedia.org/wiki/Monad_(category_theory)
+https://en.wikipedia.org/wiki/Monoid_(category_theory)
+https://en.wikipedia.org/wiki/Monoidal_category
+
+https://www.youtube.com/watch?v=PH-OhkrXXvA
+
+https://blog.juliosong.com/linguistics/mathematics/category-theory-notes-4/
+
 A category having a single object is a monoid. Note that the number of arrows is not a requirement for a placement among monoidal categories. On one extreme of the spectrum is a trivial category made of the lonely object and its identity arrow. It really is a category because it has the identity arrow and the composition of morphisms is the operation of composing the identity arrow with itself, which is an associative operation.
 
 

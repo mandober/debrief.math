@@ -211,7 +211,7 @@ The term "logic" (pl. logics) can also be used in a slightly different sense as 
 
 There are disagreements about what exactly makes a formal system a logic. For example, it has been suggested that only *logically complete systems*, like first-order logic, qualify as logics. For such reasons, some theorists deny that *higher-order logics* are logics in this strict sense.
 
-## Informal logic​
+## Informal logic
 
 When understood in a wide sense, logic encompasses both formal and informal logic. *Informal logic* uses non-formal criteria and standards to analyze and assess the correctness of arguments. Its main focus is on *everyday discourse*.
 
@@ -254,9 +254,9 @@ Further approaches focus on the discussion of logical topics with or without for
 
 ## Basic concepts
 
-### Premises, conclusions, and truth​
+### Premises, conclusions, and truth
 
-#### Premises and conclusions​
+#### Premises and conclusions
 
 *Premises* and *conclusions* are the basic parts of *inferences* or *arguments* and therefore play a central role in logic. In the case of a *valid inference* or a *correct argument*, the conclusion follows from the premises, or in other words, the premises support the conclusion.
 
@@ -287,7 +287,7 @@ For complex propositions formed using *truth-functional propositional connective
 
 However, this relation is more complicated in the case of simple propositions and their subpropositional parts. These subpropositional parts have meanings of their own, like referring to objects or classes of objects. Whether the simple proposition they form is true depends on their relation to reality, i.e. what the objects they refer to are like. This topic is studied by *theories of reference*.
 
-#### Logical truth​
+#### Logical truth
 
 Some complex propositions are true independently of the substantive meanings of their parts. For example, the complex proposition "if Mars is red, then Mars is red" is true independent of whether its parts, i.e. the simple proposition "Mars is red", are true or false.
 
@@ -295,7 +295,7 @@ In such cases, the truth is called a *logical truth*: a proposition is logically
 
 This means that it is true under all *interpretations* of its *non-logical terms*. In some modal logics, this means that the proposition is true in all *possible worlds*. Some theorists define logic as the study of logical truths.
 
-#### Truth tables​
+#### Truth tables
 
 *Truth tables* can be used to show how logical connectives work or how the truth of complex propositions depends on their parts. They have a column for each input variable. Each row corresponds to one possible combination of the truth values these variables can take. The final columns present the truth values of the corresponding expressions as determined by the input values.
 
@@ -365,7 +365,7 @@ Because of this feature, it is often asserted that
 
 But this point is not always accepted since it would mean, for example, that most of mathematics is uninformative. A different characterization distinguishes between *surface and depth information*. On this view, deductive inferences are uninformative on the depth level, but can be highly informative on the surface level, as is the case for mathematical proofs.
 
-#### Ampliative​ arguments
+#### Ampliative arguments
 
 >*Ampliative arguments* are arguments whose conclusions contain additional information not found in their premises.
 
@@ -423,7 +423,7 @@ This distinction does not just apply to logic but also to games. In chess, for e
 
 A third type of rules concerns **empirical descriptive rules**. They belong to the field of psychology and generalize how people actually draw inferences. It has been argued that logicians should give more emphasis to strategic rules since they are highly relevant for effective reasoning.
 
-### Formal systems​
+### Formal systems
 
 A **formal system of logic** consists of a *formal language* together with a set of *axioms* and a *proof system* used to draw inferences from these axioms.
 
@@ -451,15 +451,15 @@ Aristotelian logic encompasses a great variety of topics. They include metaphysi
 
 Aristotelian logic differs from predicate logic in that the subject is either universal, particular, indefinite, or singular. For example, the term "all humans" is a universal subject in the proposition "all humans are mortal". A similar proposition could be formed by replacing it with the particular term "some humans", the indefinite term "a human", or the singular term "Socrates". In predicate logic, on the other hand, universal and particular propositions would be expressed by using a quantifier and two predicates. Another key difference is that Aristotelian logic only includes predicates for simple properties of entities. But it lacks predicates corresponding to relations between entities. The predicate can be linked to the subject in two ways: either by affirming it or by denying it. For example, the proposition "Socrates is not a cat" involves the denial of the predicate "cat" to the subject "Socrates". Using combinations of subjects and predicates, a great variety of propositions and syllogisms can be formed. Syllogisms are characterized by the fact that the premises are linked to each other and to the conclusion by sharing one predicate in each case. Thus, these three propositions contain three predicates, referred to as major term, minor term, and middle term. The central aspect of Aristotelian logic involves classifying all possible syllogisms into valid and invalid arguments according to how the propositions are formed. For example, the syllogism "all men are mortal; Socrates is a man; therefore Socrates is mortal" is valid. The syllogism "all cats are mortal; Socrates is mortal; therefore Socrates is a cat", on the other hand, is invalid.
 
-### Classical​
+### Classical
 
 Classical logic is distinct from traditional or Aristotelian logic. It encompasses propositional logic and first-order logic. It is "classical" in the sense that it is based on basic logical intuitions shared by most logicians. These intuitions include the law of excluded middle, the double negation elimination, the principle of explosion, and the bivalence of truth. It was originally developed to analyze mathematical arguments and was only later applied to other fields as well. Because of this focus on mathematics, it does not include logical vocabulary relevant to many other topics of philosophical importance. Examples of concepts it overlooks are the contrast between necessity and possibility and the problem of ethical obligation and permission. Similarly, it does not address the relations between past, present, and future. Such issues are addressed by extended logics. They build on the basic intuitions of classical logic and expand it by introducing new logical vocabulary. This way, the exact logical approach is applied to fields like ethics or epistemology that lie beyond the scope of mathematics.
 
-### Propositional logic​
+### Propositional logic
 
 Propositional logic comprises formal systems in which formulae are built from atomic propositions using logical connectives. For instance, propositional logic represents the conjunction of two atomic propositions 𝑃𝑃 and 𝑄𝑄 as the complex formula 𝑃∧𝑄𝑃∧𝑄. Unlike predicate logic where terms and predicates are the smallest units, propositional logic takes full propositions with truth values as its most basic component. Thus, propositional logics can only represent logical relationships that arise from the way complex propositions are built from simpler ones. But it cannot represent inferences that results from the inner structure of a proposition.
 
-### First-order logic​
+### First-order logic
 
 First-order logic includes the same propositional connectives as propositional logic but differs from it because it articulates the internal structure of propositions. This happens through devices such as singular terms, which refer to particular objects, predicates, which refer to properties and relations, and quantifiers, which treat notions like "some" and "all". For example, to express the proposition "this raven is black", one may use the predicate 𝐵𝐵 for the property "black" and the singular term 𝑟𝑟 referring to the raven to form the expression 𝐵(𝑟)𝐵(𝑟). To express that some objects are black, the existential quantifier ∃∃ is combined with the variable 𝑥𝑥 to form the proposition ∃𝑥𝐵(𝑥)∃𝑥𝐵(𝑥). First-order logic contains various rules of inference that determine how expressions articulated this way can form valid arguments, for example, that one may infer ∃𝑥𝐵(𝑥)∃𝑥𝐵(𝑥) from 𝐵(𝑟)𝐵(𝑟).
 
@@ -469,17 +469,17 @@ The development of first-order logic is usually attributed to Gottlob Frege. The
 
 Extended logics are logical systems that accept the basic principles of classical logic. They introduce additional symbols and principles to apply it to fields like metaphysics, ethics, and epistemology.
 
-### Modal logic​
+### Modal logic
 
 Modal logic is an extension of classical logic. In its original form, sometimes called "alethic modal logic", it introduces two new symbols: ◊◊ expresses that something is possible while ◻◻ expresses that something is necessary. For example, if the formula 𝐵(𝑠)𝐵(𝑠) stands for the sentence "Socrates is a banker" then the formula ◊𝐵(𝑠)◊𝐵(𝑠) articulates the sentence "It is possible that Socrates is a banker". To include these symbols in the logical formalism, modal logic introduces new rules of inference that govern what role they play in inferences. One rule of inference states that, if something is necessary, then it is also possible. This means that ◊𝐴◊𝐴 follows from ◻𝐴◻𝐴. Another principle states that if a proposition is necessary then its negation is impossible and vice versa. This means that ◻𝐴◻𝐴 is equivalent to ¬◊¬𝐴¬◊¬𝐴.
 
 Other forms of modal logic introduce similar symbols but associate different meanings with them to apply modal logic to other fields. For example, deontic logic concerns the field of ethics and introduces symbols to express the ideas of obligation and permission, i.e. to describe whether an agent has to perform a certain action or is allowed to perform it. The modal operators in temporal modal logic articulate temporal relations. They can be used to express, for example, that something happened at one time or that something is happening all the time. In epistemology, epistemic modal logic is used to represent the ideas of knowing something in contrast to merely believing it to be the case.
 
-### Higher order logic​
+### Higher order logic
 
 Higher-order logics extend classical logic not by using modal operators but by introducing new forms of quantification. Quantifiers correspond to terms like "all" or "some". In classical first-order logic, quantifiers are only applied to individuals. The formula "∃𝑥(𝐴𝑝𝑝𝑙𝑒(𝑥)∧𝑆𝑤𝑒𝑒𝑡(𝑥))∃𝑥(𝐴𝑝𝑝𝑙𝑒(𝑥)∧𝑆𝑤𝑒𝑒𝑡(𝑥))" (some apples are sweet) is an example of the existential quantifier "∃∃" applied to the individual variable "𝑥𝑥". In higher-order logics, quantification is also allowed over predicates. This increases its expressive power. For example, to express the idea that Mary and John share some qualities, one could use the formula "∃𝑄(𝑄(𝑚𝑎𝑟𝑦)∧𝑄(𝑗𝑜ℎ𝑛))∃𝑄(𝑄(𝑚𝑎𝑟𝑦)∧𝑄(𝑗𝑜ℎ𝑛))". In this case, the existential quantifier is applied to the predicate variable "𝑄𝑄". The added expressive power is especially useful for mathematics since it allows for more succinct formulations of mathematical theories. But it has drawbacks in regard to its meta-logical properties and ontological implications, which is why first-order logic is still more commonly used.
 
-### Deviant​
+### Deviant
 
 *Deviant logics* are logical systems that reject some of the basic intuitions of classical logic. Because of this, they are usually seen not as its supplements but as its rivals. Deviant logical systems differ from each other either because they reject different classical intuitions or because they propose different alternatives to the same issue.
 
@@ -489,7 +489,7 @@ Higher-order logics extend classical logic not by using modal operators but by i
 
 *Paraconsistent logics* are logical systems that can deal with contradictions. They are formulated to avoid the principle of explosion: for them, it is not the case that anything follows from a contradiction. They are often motivated by dialetheism, the view that contradictions are real or that reality itself is contradictory. Graham Priest is an influential contemporary proponent of this position and similar views have been ascribed to Georg Wilhelm Friedrich Hegel.
 
-## Informal​ logic
+## Informal logic
 
 Informal logic is usually carried out in a less systematic way. It often focuses on more specific issues, like investigating a particular type of fallacy or studying a certain aspect of argumentation. Nonetheless, some frameworks of informal logic have also been presented that try to provide a systematic characterization of the correctness of arguments.
 
@@ -497,19 +497,19 @@ The pragmatic or dialogical approach to informal logic sees arguments as speech 
 
 The epistemic approach to informal logic, on the other hand, focuses on the epistemic role of arguments. It is based on the idea that arguments aim to increase our knowledge. They achieve this by linking justified beliefs to beliefs that are not yet justified. Correct arguments succeed at expanding knowledge while fallacies are epistemic failures: they do not justify the belief in their conclusion. In this sense, logical normativity consists in epistemic success or rationality. For example, the fallacy of begging the question is a fallacy because it fails to provide independent justification for its conclusion, even though it is deductively valid. The Bayesian approach is one example of an epistemic approach. Central to Bayesianism is not just whether the agent believes something but the degree to which they believe it, the so-called credence. Degrees of belief are seen as subjective probabilities in the believed proposition, i.e. as how certain the agent is that the proposition is true. On this view, reasoning can be interpreted as a process of changing one's credences, often in reaction to new incoming information. Correct reasoning, and the arguments it is based on, follows the laws of probability, for example, the principle of conditionalization. Bad or irrational reasoning, on the other hand, violates these laws.
 
-## Areas of research​
+## Areas of research
 
 Logic is studied in various fields. In many cases, this is done by applying its formal method to specific topics outside its scope, like to ethics or computer science. In other cases, logic itself is made the subject of research in another discipline. This can happen in diverse ways. For instance, it can involve investigating the philosophical assumptions linked to the basic concepts used by logicians. Other ways include interpreting and analyzing logic through mathematical structures as well as studying and comparing abstract properties of formal logical systems.
 
-### Philosophy of logic and philosophical logic​
+### Philosophy of logic and philosophical logic
 
 Philosophy of logic is the philosophical discipline studying the scope and nature of logic. It examines many presuppositions implicit in logic, like how to define its basic concepts or the metaphysical assumptions associated with them. It is also concerned with how to classify the logical systems and considers the ontological commitments they incur. Philosophical logic is one of the areas within the philosophy of logic. It studies the application of logical methods to philosophical problems in fields like metaphysics, ethics, and epistemology. This application usually happens in the form of extended or deviant logical systems.
 
-### Metalogic​
+### Metalogic
 
 Metalogic is the field of inquiry studying the properties of formal logical systems. For example, when a new formal system is developed, metalogicians may study it to determine which formulas can be proven in it. They may also study whether an algorithm could be developed to find a proof for each formula and whether every provable formula in it is a tautology. Finally, they may compare it to other logical systems to understand its distinctive features. A key issue in metalogic concerns the relation between syntax and semantics. The syntactic rules of a formal system determine how to deduce conclusions from premises, i.e. how to formulate proofs. The semantics of a formal system governs which sentences are true and which ones are false. This determines the validity of arguments since, for valid arguments, it is impossible for the premises to be true and the conclusion to be false. The relation between syntax and semantics concerns issues like whether every valid argument is provable and whether every provable argument is valid. Metalogicians also study whether logical systems are complete, sound, and consistent. They are interested in whether the systems are decidable and what expressive power they have. Metalogicians usually rely heavily on abstract mathematical reasoning when examining and formulating metalogical proofs. This way, they aim to arrive at precise and general conclusions on these topics.
 
-### Mathematical logic​
+### Mathematical logic
 
 The term "mathematical logic" is sometimes used as a synonym of "formal logic". But in a more restricted sense, it refers to the study of logic within mathematics. Major subareas include model theory, proof theory, set theory, and computability theory. Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic. However, it can also include attempts to use logic to analyze mathematical reasoning or to establish logic-based foundations of mathematics. The latter was a major concern in early 20th century mathematical logic, which pursued the program of logicism pioneered by philosopher-logicians such as Gottlob Frege, Alfred North Whitehead and Bertrand Russell. Mathematical theories were supposed to be logical tautologies, and the programme was to show this by means of a reduction of mathematics to logic. Many attempts to realize this programme failed, from the crippling of Frege's project in his Grundgesetze by Russell's paradox, to the defeat of Hilbert's program by Gödel's incompleteness theorems.
 
@@ -517,21 +517,21 @@ Set theory originated in the study of the infinite by Georg Cantor, and it has b
 
 Computability theory is the branch of mathematical logic that studies effective procedures to solve calculation problems. An example is the problem of finding a mechanical procedure that can decide for any positive integer whether it is a prime number. One of its main goals is to understand whether it is possible to solve a given problem using an algorithm. Computability theory uses various theoretical tools and models, such as Turing machines, to explore this issue.
 
-### Computational logic​
+### Computational logic
 
 Computational logic is the branch of logic and computer science that studies how to implement mathematical reasoning and logical formalisms using computers. This includes, for example, automatic theorem provers, which employ rules of inference to construct a proof step by step from a set of premises to the intended conclusion without human intervention. Logic programming languages are designed specifically to express facts using logical formulas and to draw inferences from these facts. For example, Prolog is a logic programming language based on predicate logic. Computer scientists also apply concepts from logic to problems in computing. The works of Claude Shannon were influential in this regard. He showed how Boolean logic can be used to understand and implement computer circuits. This can be achieved using electronic logic gates, i.e. electronic circuits with one or more inputs and usually one output. The truth values of propositions are represented by voltage levels. This way, logic functions can be simulated by applying the corresponding voltages to the inputs of the circuit and determining the value of the function by measuring the voltage of the output.
 
-### Formal semantics of natural language​
+### Formal semantics of natural language
 
 Formal semantics is a subfield of logic, linguistics, and the philosophy of language. The discipline of semantics studies the meaning of language. Formal semantics uses formal tools from the fields of symbolic logic and mathematics to give precise theories of the meaning of natural language expressions. It understands meaning usually in relation to truth conditions, i.e. it examines in which situations a sentence would be true or false. One of its central methodological assumptions is the principle of compositionality. It states that the meaning of a complex expression is determined by the meanings of its parts and how they are combined. For example, the meaning of the verb phrase "walk and sing" depends on the meanings of the individual expressions "walk" and "sing". Many theories in formal semantics rely on model theory. This means that they employ set theory to construct a model and then interpret the meanings of expression in relation to the elements in this model. For example, the term "walk" may be interpreted as the set of all individuals in the model that share the property of walking. Early influential theorists in this field were Richard Montague and Barbara Partee, who focused their analysis on the English language.
 
-### Epistemology of logic​
+### Epistemology of logic
 
 The epistemology of logic studies how one knows that an argument is valid or that a proposition is logically true. This includes questions like how to justify that modus ponens is a valid rule of inference or that contradictions are false. The traditionally dominant view is that this form of logical understanding belongs to knowledge a priori. In this regard, it is often argued that the mind has a special faculty to examine relations between pure ideas and that this faculty is also responsible for apprehending logical truths. A similar approach understands the rules of logic in terms of linguistic conventions. On this view, the laws of logic are trivial since they are true by definition: they just express the meanings of the logical vocabulary.
 
 Some theorists, like Hilary Putnam and Penelope Maddy, object to the view that logic is knowable a priori. They hold instead that logical truths depend on the empirical world. This is usually combined with the claim that the laws of logic express universal regularities found in the structural features of the world. According to this view, they may be explored by studying general patterns of the fundamental sciences. For example, it has been argued that certain insights of quantum mechanics refute the principle of distributivity in classical logic, which states that the formula 𝐴∧(𝐵∨𝐶)𝐴∧(𝐵∨𝐶) is equivalent to (𝐴∧𝐵)∨(𝐴∧𝐶)(𝐴∧𝐵)∨(𝐴∧𝐶). This claim can be used as an empirical argument for the thesis that quantum logic is the correct logical system and should replace classical logic.
 
-## History​
+## History
 
 Logic was developed independently in several cultures during antiquity. One major early contributor was Aristotle, who developed term logic in his Organon and Prior Analytics. He was responsible for the introduction of the hypothetical syllogism and temporal modal logic. Further innovations include inductive logic as well as the discussion of new logical concepts such as terms, predicables, syllogisms, and propositions. Aristotelian logic was highly regarded in classical and medieval times, both in Europe and the Middle East. It remained in wide use in the West until the early 19th century. It has now been superseded by later work, though many of its key insights are still present in modern systems of logic.
 

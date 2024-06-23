@@ -1,0 +1,34 @@
+# Math :: Functions :: TERMS
+
+- function notion
+  - relation
+  - functional constraints
+    - functional relation
+    - functional property
+    - left-unique property
+    - right-serial property
+  - all about functions in mathematics
+  - anatomy of functions
+    - notation
+    - examples
+    - sorts/types of functions
+    - function value
+    - formal parameters
+    - function body
+    - function name
+    - named function
+    - anonymous function
+    - lambda function
+    - domain
+    - codomain
+    - range
+    - image
+    - preimage
+    - graph of function
+  - pure
+  - total
+  - partial
+  - injective
+  - surjective
+  - bijective
+  - composition

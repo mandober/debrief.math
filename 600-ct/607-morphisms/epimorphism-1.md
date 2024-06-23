@@ -1,5 +1,10 @@
 # Epimorphism
 
+- epimorphism ~ surjection ~ full functor
+- monomorphism ~ injection ~ faithful functor
+- isomorphism ~ bijection ~ fully faithful functor
+
+
 # Endomorphism
 
 https://en.wikipedia.org/wiki/Endomorphism
