@@ -1,13 +1,5 @@
 # Elliptic curve factorization
 
-
-
-
-
-
-
-
-
 ## Links
 
 - https://asecuritysite.com/primes/elf
