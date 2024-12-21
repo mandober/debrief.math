@@ -2,211 +2,120 @@
 
 https://en.wikipedia.org/wiki/Modular_arithmetic
 
-## Terms
-
-modular arithmetic
-modulus
-wrap-around operation, wrap-around addition
-congruence relation
-
-
-## Modular arithmetic
-
-Modular Arithmetic (MA) is a special system of integer arithmetic, where integers exhibit the wrap-around behavior after reaching a certain value, called *modulus*.
+Modular Arithmetic (MA) is a special system of integer arithmetic, where integers exhibit a wrap-around behavior after reaching a certain value, called the *modulus*.
 
 The modern approach to MA was developed by Carl Friedrich Gauss in his book "Disquisitiones Arithmeticae" from 1801.
 
-An example of MA, familiar to everone is the 24-hour clock, where the hours wrap around after reaching 23. Addition in this system also wraps around, such that if it's 19 o'clock, then 8 hours later is 3 o'clock, for 27 ≡ 3 (mod 12).
+An example of MA, familiar to everone is the 24-hour clock, where the hours wrap around after reaching 23. Addition in this system also wraps around, such that if it's 19 o'clock, then 8 hours later is 3 o'clock as 27 ≡ 3 (mod 12).
 
-The essence of modular arithmetic is the *congruence relation*, which is an *equivalence relation*, that relates two integers with the same property: they have the same remainder when divided by the same modulus.
+## Contents
 
-The congruence relation is denoted by `a ≡ b (mod m)` 
-meaning that `a` is congruent to `b` modulo `m`.
+1. Congruence
+  1.1. Examples
+2. Basic properties
+3. Advanced properties
+4. Congruence classes
+5. Residue systems
+  5.1. Reduced residue systems
+  5.2. Covering systems
+6. Integers modulo m
+7. Applications
+8. Computational complexity
 
 
-```
-all vars are integers, ∀_ ∈ ℤ
-=============
-a ≡ b (mod m)
-=============
-if m > 1 => m | (a - b)
-         => ∃k. km = a - b
-a = bk + m
-b = ak + m
+## 1. Congruence
 
-a - m = bk
-b - m = ak
+Given an integer `m ≥ 1`, called a modulus, two integers `a` and `b` are said to be *congruent modulo `m`*, if `m` is a *divisor of their difference*; that is, if there is an integer `k` such that
 
-r = a / m = b / m
+`a ≡ b (mod m)` implies `a − b = km` i.e. `a = km + b`
 
-km = a - b
-k = (a - b) / m
-```
+Congruence modulo `m` is a **congruence relation**, meaning that it is an *equivalence relation* that is compatible with the operations of addition, subtraction, and multiplication.
 
-`a ≡ b (mod m)`, where `∀_ ∈ ℤ`, means:
-* `a / m = r = b / m`
-  a and b have the same remainder, r, when divided by m
-* a = kb + m
-  a - m = kb
-* b = ka + m
-  b - m = ab
-* a = km + b
-* km = a - b
-* a ≡ b (mod m) => m|(a − b)
+Congruence modulo `m` is denoted
 
+    a ≡ b (mod m)
 
-- (∀m ∈ ℤ. m > 1). (∀ab ∈ ℤ). `a ≡ b (mod m) => m|(a − b)`
-- (∀m ∈ ℤ. m > 1). (∀ab ∈ ℤ). (∃k ∈ ℤ). `k * m = a - b`
-- congruence relation: `a ≡ b (mod n)`"a is congruent to b modulo m"
-- congruence relation: `a = kn + b` alt notation for congruence relation
-- a (mod n)
-- 5 (mod 7) ≠ 5 (mod 6) [...aren't-they-different-types?]
+The parentheses mean that `(mod m)` applies to the entire equation, not just to the right-hand side (here, `b`).
 
+This notation is not to be confused with the notation `b mod m` (without parentheses), which refers to the *modulo operation*, `b % m`, that returns the remainder of `b` when divided by `m`; that is, `b mod m` denotes the unique integer `r` such that `0 ≤ r < m` and `r ≡ b (mod m)`.
 
-## Modular arithmetic
+`b mod m` or `b % m` means `r ≡ b (mod m)` where `0 ≤ r < m`
 
-Given a modulus `m`, where `m ∈ ℤ ∧ m > 1`, two integers `a` and `b` are said to be **congruent modulo m** if `m` is a divisor of their difference, i.e. if there exists an integer `k` such that `a − b = kn`, denoted:
+Note: remainder `r` pertaining to Euclidean division is defined to always be a positive integer, **`r ∈ ℕ ∧ 0 ≤ r < m`**, which means the quotient `q` gets to be weird (somebody has to); e.g. `-7 ÷ 4 = (-2, 1)`, rather then the maybe expected `(-1, -3)`; for -2∙4 + 1 = -8 + 1 = -7, but so is -1∙4 + (-3) = -4 - 3 = -7. In fact, so is (-3, ) `-3 ∙ 4 + 1 = -8 + 1 = -7`
 
-> (∀m ∈ ℤ. m > 1). (∀ab ∈ ℤ). (∃k ∈ ℤ). k * m = a - b
+n ÷ d = (q, r) as n = dq + r
+for n = -7, d = 4
+( q,  r) are:   q d   r               n
+( 1,-11) since  1∙4 +⁻11 =   4 -11 = -7
+( 0, -7) since  0∙4 + ⁻7 =   0 - 7 = -7
+(-1, -3) since -1∙4 + ⁻3 =  -4 - 3 = -7
+(-2,  1) since -2∙4 +  1 =  -8 + 1 = -7
+(-3,  5) since -3∙4 +  x = -12 + 5 = -7
 
-> (∀m ∈ ℤ. m > 1). (∀ab ∈ ℤ). a ≡ b (mod m) => m|(a − b)
+for n = 7, d = -4
+(-1,  3) since -1∙-4 +  3 = 4 + 3 = 7
+(-2, -1) since -2∙-4 + ⁻1 = 8 - 1 = 7
 
 
-Two distinct moduli form incompatible classes of integers, for example `5 (mod 7)` ≠ `5 (mod 6)` ! Therefore, a modulus enforces a certain type constraint. Before, there were ℤ, now there are ℤ/m ℤ.
+To remove this ambiguity and multiple solutions, it was decided that remainder `r` must always be positive and also less then the divider, `0 ≤ r < m`.
 
-- a ≡ b (mod n) -> n ∣ a−b
-- that is, a − b = kn (for some integer k) such that a = kn + b
-- Euclidean division: n/m = (q, r) that is n = mq + r
+Should remainder `r` be less then *divider* `d`, or less then quotient, `q`?
+- 0 ≤ r < d
+- 0 ≤ r < q
+in `n = dq + r`
 
-## Congruence
+- quotient  q is `q = n ÷ d` where `÷` is integer division, `0 ≤ r < d`
+- remainder r is `r = n % d` where `%` is modulo operation, `0 ≤ r < d`
 
-**Congruence modulo `n`** is a congruence relation, a sort of *equivalence relation*, compatible with addition, subtraction and multiplication. Congruence modulo `n` is denoted `a ≡ b (mod n)`.
+r = {0, 1, …, d-1}
 
-The parentheses in the notation mean that the `(mod n)` part applies to the entire equation, not just to the RHS. This notation is not to be confused with `b mod n`, i.e. parentheses-less, which is the **modulo operation**.
+Had `r = d` then `n = qd + r` would mean `n = qd + d` i.e. `n = d(q + 1)`, that is, the result would be the successor of the quotion with no remainder.
 
-`a = b mod n` denotes the unique integer `a` so `0 <= a < n` and `a ≡ b (mod n)`, that is, the remainder of `b` when divided by `n`.
+Congruence relation may be rewritten as
 
+    a = km + b
 
-By the way, Euclidean division is `n = mq + r` such that 
-`m != 0` and `n,m,q ∈ ℤ` and `r ∈ ℕ` and `0 <= r < q` 
-where `m` is a divisor, `q` a quotient (multiplier), `r` a remainder 
-of dividing `n` with `m`.
+explicitly showing its relationship with *Euclidean division*. 
 
-`n/m = (q, r)` i.e. `n = mq + r`
+    n ÷ d = (q, r) such that n = dq + r
 
+However, `b` here need not be the remainder in the division of `a` by `m`. Rather, `a ≡ b (mod m)` asserts that `a` and `b` have the same remainder when divided by `m`. That is,
 
-## Properties of congruence relation
+    a = pm + r   =>   a ÷ m = (p, r)
+    b = qm + r   =>   b ÷ m = (q, r)
 
-The congruence relation satisfies all the conditions of an equivalence relation:
-- Reflexivity  :       a ≡ a (mod n)
-- Symmetry     : ∀abn. b ≡ a (mod n) --> a ≡ b (mod n) 
-- Transitivity :       a ≡ b (mod n)  ∧  b ≡ c (mod n) --> a ≡ c (mod n)
+where `0 ≤ r < m`. Then `r` is their common remainder.
 
-a ≡ b (mod n) ->
-- compatibility with *translation*    : ∀k ∈ ℤ. a+k ≡ b+k (mod n)
-- compatibility with *scaling*        : ∀k ∈ ℤ.  ak ≡ bk  (mod n)
-- compatibility with *exponentiation* : ∀k ∈ ℕᐩ. aᵏ  ≡ bᵏ (mod n)
-- compatibility with polynomial evaluation:  p(a) ≡ p(b) (mod n)
-  for any polynomial p(x) with integer coefficients
+We recover the previous relation, `a − b = km`, by subtracting these two expressions and setting `k = p − q`.
 
-a₁ ≡ b₁ (mod n) ∧ a₂ ≡ b₂ (mod n) -->
-- compatibility with *addition*       : a₁+a₂ ≡ b₁+b₂ (mod n)
-- compatibility with *subtraction*    : a₁-a₂ ≡ b₁-b₂ (mod n)
-- compatibility with *multiplication* : a₁a₂  ≡ b₁b₂  (mod n)
+    a = pm + r
+    b = qm + r
+    a - b = (pm + r) - (qm + r)
+    a - b = pm + r - qm - r
+    a - b = pm - qm
+    a - b = m(p - q)
+    a - b = mk
 
-[TBC...]
 
+Because the congruence modulo `m` is defined by the divisibility by `m` and because -1 is a unit in the ring of integers, a number is divisible by `-m` exactly if it is divisible by `m`. This means that every non-zero integer `m` may be taken as modulus (although modulus is typically as positive integer).
 
-## Congruence classes
+`a ≡ b (mod -5)` vs `a ≡ b (mod 5)`
 
-Like any congruence relation, congruence modulo 𝓷 is an equivalence relation, and the equivalence class of the integer 𝓪, denoted by $$\bar{a_n}$$, is the set {… , 𝓪 − 2𝓷, 𝓪 − 𝓷, 𝓪, 𝓪 + 𝓷, 𝓪 + 2𝓷, …}
+### 1.1 Examples
 
-This set, consisting of all the integers congruent to 𝓪 modulo 𝓷, is called the *congruence class* (also residue or residue class) of the integer 𝓪 modulo 𝓷. When the modulus 𝓷 is known from the context, that residue may also be denoted [𝓪].
+In `modulus 12`, one can assert that `38 ≡ 14 (mod 12)` because the difference is 38 − 14 = 24 = 2×12, a multiple of 12. Equivalently, 38 and 14 have the same remainder 2 when divided by 12.
 
-## Residue systems
+The definition of congruence also applies to negative values. For example:
 
-Each residue class modulo 𝓷 may be represented by any one of its members, although we usually represent each residue class by the smallest nonnegative integer which belongs to that class (since this is the proper remainder which results from division).
-
-Any two members of different residue classes modulo 𝓷 are *incongruent* modulo 𝓷. Furthermore, every integer belongs to exactly one residue class modulo 𝓷.
-
-The set of integers {0, 1, 2, …, 𝓷 − 1} is called the **least residue system modulo 𝓷**. Any set of 𝓷 integers, no two of which are congruent modulo 𝓷, is called a complete residue system modulo 𝓷.
-
-(...)
-
-
-## Modulo operation
-
-https://en.wikipedia.org/wiki/Modulo_operation
-
-**Modulo operation** returns the signed remainder of a division, called the *modulus of the operation*, after one number is divided by another.
-
-Given two positive numbers a and n, a mod n is the remainder of the Euclidean division of a by n, where a is the dividend and n is the divisor.
-
-The modulo operation is to be distinguished from the symbol `mod`, which refers to the modulus (or divisor) one is operating from, as in 9 ≡ 21 (mod 12).
-
-For example, 5 mod 2 = 1 since 5/2 = (q:2, r:1)
-
-Although typically performed with a and n both being integers, many computing systems now allow other types of numeric operands. The range of numbers for an integer modulo of n is 0 to n−1 inclusive (a mod 1 is always 0; a mod 0 is undefined).
-
-When either a or n is negative, the naive definition breaks down, and PL differ in how these values are defined.
-
-```
-a mod 1 = 0
-a mod 0 = ⊥ (undefined, division by zero)
-```
-
-In math, the result of the modulo operation is an *equivalence class* and the smallest non-negative integer that belongs to that class is chosen as the class representative, being referred to as the **least positive residue**.
-
-Almost everywhere, the quotient q and the remainder r of a divided by n satisfy the following conditions: q ∈ ℤ, n = mq + r, |r| < |n|
-
-
-```
--------------------
-n   m    q  r
--------------------
-n / m = (q, r)
-8 / 3 = (2, 3)      ɹ == ɯ :ɹoɹɹǝ
-8 / 3 = (2, 2)
-
-
--------------------
-n = m x  q + r
-7 = 3 x  5 + 2   ✔
--------------------
-|n| > |r|
-|7| > |2|        ✔
--------------------
-
-a dividend
-n divisor
-
-a/n = (q, r)
-a mod n = r
-a  %  n = r
-
-```
-
-
-
-
-(...)
-
-
-## Modular exponentiation
-
-https://en.wikipedia.org/wiki/Modular_exponentiation
-
-Modular exponentiation is a type of exponentiation performed over a modulus. 
-
-The operation of modular exponentiation calculates the remainder when an integer 𝓫 (the base) raised to the 𝓮ᵗʰ power (the exponent), 𝓫ᵉ, is divided by a positive integer 𝓶 (the modulus).
-
-In symbols, given base 𝓫, exponent e, and modulus 𝓶, the modular exponentiation 𝓬 is: 𝓬 = 𝓫ᵉ mod 𝓶. From the definition of 𝓬, it follows that 0 ≤ 𝓬 < 𝓶.
-
-(...)
-
-
-## References
-
-- https://betterexplained.com/articles/fun-with-modular-arithmetic/
-- http://www-groups.mcs.st-andrews.ac.uk/~john/MT4517/Lectures/L6.html
-- https://web.archive.org/web/20151127195438/http://thales.math.uqam.ca/~rowland/investigations/modulararithmetic.html
+(−3 ≡ -8 ≡ 7 ≡ 2) (mod 5)
+
+
+## 2. Basic properties
+## 3. Advanced properties
+## 4. Congruence classes
+## 5. Residue systems
+### 5.1. Reduced residue systems
+### 5.2. Covering systems
+## 6. Integers modulo m
+## 7. Applications
+## 8. Computational complexity
