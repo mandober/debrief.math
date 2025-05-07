@@ -297,23 +297,17 @@ The basic lambda calculus may be used to model booleans, [arithmetic][129], data
 
 There are several possible ways to define the [natural numbers][131] in lambda calculus, but by far the most common are the [Church numerals][132], which can be defined as follows:
 
-0 := λ*f*.λ*x*.*x*
-
-1 := λ*f*.λ*x*.*f* *x*
-
-2 := λ*f*.λ*x*.*f* (*f* *x*)
-
-3 := λ*f*.λ*x*.*f* (*f* (*f* *x*))
+    0 := λf.λx.x
+    1 := λf.λx.f x
+    2 := λf.λx.f (f x)
+    3 := λf.λx.f (f (f x))
 
 and so on. Or using the alternative syntax presented above in *[Notation][133]*:
 
-0 := λ*fx*.*x*
-
-1 := λ*fx*.*f* *x*
-
-2 := λ*fx*.*f* (*f* *x*)
-
-3 := λ*fx*.*f* (*f* (*f* *x*))
+    0 := λfx.x
+    1 := λfx.f x
+    2 := λfx.f (f x)
+    3 := λfx.f (f (f x))
 
 A Church numeral is a [higher-order function][134]-it takes a single-argument function *f*, and returns another single-argument function. The Church numeral *n* is a function that takes a function *f* as argument and returns the *n*\-th composition of *f*, i.e. the function *f* composed with itself *n* times. This is denoted *f*(*n*) and is in fact the *n*\-th power of *f* (considered as an operator); *f*(0) is defined to be the identity function. Such repeated compositions (of a single function *f*) obey the [laws of exponents][135], which is why these numerals can be used for arithmetic. (In Church's original lambda calculus, the formal parameter of a lambda expression was required to occur at least once in the function body, which made the above definition of 0 impossible.)
 
@@ -325,11 +319,11 @@ By varying what is being repeated, and varying what argument that function being
 
 We can define a successor function, which takes a Church numeral *n* and returns *n* + 1 by adding another application of *f*, where '(mf)x' means the function 'f' is applied 'm' times on 'x':
 
-SUCC := λ*n*.λ*f*.λ*x*.*f* (*n* *f* *x*)
+SUCC := λn.λf.λx.f (n f x)
 
-Because the *m*\-th composition of *f* composed with the *n*\-th composition of *f* gives the *m*+*n*\-th composition of *f*, addition can be defined as follows:
+Because the m\-th composition of f composed with the n\-th composition of f gives the m+n\-th composition of f, addition can be defined as follows:
 
-PLUS := λ*m*.λ*n*.λ*f*.λ*x*.*m* *f* (*n* *f* *x*)
+PLUS := λm.λn.λf.λx.m f (n f x)
 
 PLUS can be thought of as a function taking two natural numbers as arguments and returning a natural number; it can be verified that
 

@@ -1,0 +1,21 @@
+# Elements of a mathematical theory
+
+- figuring out the central concept
+- idetifying mathematical objects
+- figuring out what can be defined and what must be a primitive
+- central concept usually must be introduced as a primitive notion
+- primitive notions are unavoidable due to infinite regress of definitions
+- a cut must be made at some point lest define things forever
+- turtless all the way down
+- and also to avoid vicious circle of circluslar definitions
+- primitives: set (set theory), point (geometry), number (number theories)
+- after introducing the priitie objects, we come up with a set of axioms
+- axioms are stated in the lang of formal logic, usually in FOL
+- there's a tendency to use the leaset complex logic system capable of descibing all the axiom; i.e. no need to use second-order logic if first-order predicate logic is sufficient.
+- axioms introduce the basic relations between the primitives
+- primitives and axioms do not require a proof; introduced liberarly.
+- before, axioms were intuitive truths everyone would accept
+- today, axioms do not have that obligation and can be anything
+- today, a theory is a conditional body of knowledge: if one accepts the axioms, they they must accept the derived statements (which all have proofs)
+- that is, math is not concerned anymore that axioms are univesal truths; things that are intuitively true, or obvious from experience. Objects that math theories deal with have become too abstract for that anyway.
+- however, one one accepts the axioms, they must accept the derivided statements because each is derived from the axioms or other derived statements according to logical reasoning and the ambient system of logic. Once you accepot the axioms, you can't object anymore (unless you found a mistake in the proof, which also happens). But if we restrict ourselves to established theories that have been independently verified numerous times - once we accepts the axioms, we must accept the rest of the theory.

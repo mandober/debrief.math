@@ -1,0 +1,42 @@
+# Curves
+
+- smooth curve
+- projective curve
+- algebraic curve
+- curve of genus one
+- plane algebraic curve
+- continuity
+  - cusp
+  - self-intersection
+  - singularity
+    - singular curve
+    - non-singular curve
+    - nonsingular plane curve of genus one
+- projective plane
+  - unique point at infinity
+  - real projective plane
+  - complex projective plane
+  - 3D projective space
+- abelian variety
+- elliptic functions
+- elliptic curves
+  - used in A. Wiles's proof of Fermat's Last Theorem
+  - applications in elliptic curve cryptography (ECC)
+  - applications in integer factorization
+- elliptic integral
+- ellipse has genus zero
+- projective conic
+- real elliptic curves
+- shape invariant
+- hyperbolic plane
+- Minkowski hyperboloid
+- quadric surface
+- Steiner ellipses
+- orientation-preserving collineation
+- orthogonal trajectories
+- locus relative (to two foci)
+- elliptic curve sum of two Steiner ellipses
+- hyperboloid
+- trajectory curve
+- complex elliptic curve is a torus
+- complex ellipse is a sphere

@@ -1,11 +1,16 @@
-# Algebra ∷ Hierarchy
+# Algebra :: Hierarchy
 
-* Algebra
-  - Elementary Algebra
-  - Abstract Algebra
-  - Universal Algebra
-  - Linear Algebra
-  - Multilinear Algebra
+* Algebra                 ᴀʟ   🤺
+  - Elementary Algebra    ‥ᴇᴀ
+  - Abstract Algebra      ᴀʟ⋅ᴀᴀ
+  - Universal Algebra     ᴀʟ.ᴜᴀ
+  - Linear Algebra        ᴀʟ.ʟᴀ
+  - Multilinear Algebra   ᴀʟ˙ᴍᴀ
+
+
+
+
+
 
 * Elementary Algebra
   - Arithmetics

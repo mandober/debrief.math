@@ -9,7 +9,7 @@ https://en.wikipedia.org/wiki/Combination
 - binomial theorem
 - Pascal's triangle
 
-A combination is a selection of items from a set that has distinct members, such that the order of selection does not matter (unlike permutations where the order matters).
+* A **combination** is a selection of items from a set that has distinct members, such that the order of selection does not matter (unlike permutations where the order matters).
 
 For example, given 3 fruits, say an apple, an orange and a pear, there are 3 combinations of 2 that can be drawn from this set.
 

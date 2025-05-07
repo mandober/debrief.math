@@ -15,6 +15,9 @@ In order theory, the *greatest element* (dual of the least element) of a subset 
 ## Least element
 In order theory, the *least element* (dual of the greatest element) of a subset S of a partially ordered set is an element of S that is smaller than every other element of S.
 
+## Logarithmically convex
+A function is logarithmically convex if its logarithm is convex, i.e. the second derivative of its logarithm is positive.
+
 ## Maximum
 In set theory, the maximum of a set is the greatest element in the set. Unbounded infinite sets, such as ℝ, have no maximum.
 

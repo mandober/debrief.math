@@ -12,6 +12,7 @@
 - [General recursive function](#general-recursive-function)
 - [Fixpoint](#fixpoint)
 - [Function](#function)
+- [Functions-as-values](#functions-as-values)
 - [Function value](#function-value)
 - [Function signature](#function-signature)
 - [Knaster-Tarski theorem](#knaster-tarski-theorem)
@@ -31,6 +32,8 @@ Algebra of functions deals with the arithmetic operations of the functions. For 
 ## Boolean function
 A function whose both domain and codomain is the Boolean set. In logic, such functions are called truth or logical functions. In its general form, an n-ary Boolean function's signature is `f : 𝔹ⁿ → 𝔹`.
 
+A Boolean function is a function whose arguments and result assume values from the Boolean domain, i.e. a two-element set, usually, `{T,F}` or `{0,1}`. Unary `f: 𝔹 → 𝔹`, binary `g: 𝔹 ⨯ 𝔹 → 𝔹` or `g: 𝔹² → 𝔹` or `g: 𝔹 → 𝔹 → 𝔹`, and in general `h: 𝔹ⁿ → 𝔹`.
+
 ## Boolean-valued function
 A function with a Boolean codomain, `f : A → 𝔹` (where `A` is ant set). More generally, an X-valued function is intended to rely the fact that the codomain of the function is X (e.g. real-valued function, integer-valued function).
 
@@ -44,7 +47,7 @@ A combination is a selection of items from a set that has distinct members, such
 For a total function, the domain is equal to its domain of definition, but these two differ for partial functions. A partial function `f : A -> B` is not defined over its whole domain `A`; if a subset `S ⊆ A` collects all the elements of `A` for which `f` is defined, then the subset `S` induces a total function, `f' : S -> B`. And the subset `S` is then called *the domain of definition* of the original, partial, function `f`.
 
 ## Empty function
-The empty function arises from partiality which allows some domain elements not to participate in the relation. If all domain elements fail to participate we get an empty function. Under the view of functions as sets, the graph of function is what defines a fucntion and therefore there is only one empty function. But under the stricter definition of a function where a function is determined not only by its graph but by the domain and codomain set as well, there are many empty functions.
+The empty function arises from partiality which allows some domain elements not to participate in the relation. If all domain elements fail to participate we get an empty function. Under the view of functions as sets, the graph of function is what defines a function and therefore there is only one empty function. But under the stricter definition of a function where a function is determined not only by its graph but by the domain and codomain set as well, there are many empty functions.
 
 The empty function also arises from enumerability, where the empty set is considered to be denumerable - its members are enumerated exactly by the empty function.
 
@@ -57,7 +60,15 @@ Fixpoint or fix point of a function `f : A → A` is an input `x₀ ∈ A` such 
 ## Function
 A function is a functional relation, meaning that a relation to qualify as a function it has to possess two properties. The first property is absolutely essential: an element of the domain cannot be associated with two distinct elements of the codomain, or such relation is not a function. Relations that have this property (right-unique relations) are *partial functions*. Of relations that are partial functions, *total functions* are those that have the second property (left-total relations): all elements in the domain of a relation must participate in the relation (must be associated with some element of the codomain).
 
+## Functions-as-values
+Functions-as-values means treating *function definitions* (lambda abstractions) as bona-fide values: allowing to pass a function as an argument into another function, and/or to return a function (function definition) from another function. Functions-as-values is a crucial property of lambda calculus, but is not otherwise much used in math in general.
+
+The concept of function-as-a-value is a very different kind of value compared to a *function value*: the latter just means the value that the function returned (returns), but the former means treating functions (function definitions) as first-class values, so they may be 
+
 ## Function value
+Function value is a value that a function will eventually return when it is applied to an argument of appropriate type. We cannot which concrete value will that be, only the type of the return value, read off from the function's type signature. The phrase "function value" is often paraphrased as, e.g. "Boolean-valued function", which means a function that takes some unknown type but returns a Boolean value. On the other hand, "Boolean function" means a function that both takes and returns a Boolean. There is no generally accepted phrase that is used to signify just the input type of a function while leaving the return type open ("Boolean-taking function" seems fine, but it's not lore).
+
+
 Unapplied functions do not have a simple (flat, base) value (although sometimes functions themselves are considered as values, but this is a special case). When a function `f : A → B` is applied to an appropriate input - which must be an element in the domain set `A`, we get the expression `f(x)`, where `x ∈ A`. This expression denotes the function application - it means the function `f` is applied to an input `x` - and it evaluates to a value (fingers crossed), which is usually denoted by `y`, which is an element of the codomain `B`, such that `f(x) = y`. Here, the variable `y` has the same value as the expression `f(x)` - they both denote the same element (value) in `B` - that element is the value of `f` at `x`.
 
 ## Function signature

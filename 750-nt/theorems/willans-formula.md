@@ -7,7 +7,7 @@ Willan's formula is a formula that calculates the n-th prime number. It takes a 
 ```js
                       ⎢  ⎛                   n                    ⎞ 1/n ⎥
                       ⎢  ⎜ -------------------------------------- ⎟     ⎥
-p_n = 1 + ∑ {i=1..2ⁿ} ⎢  ⎜            ⎢ ⎛     (j − 1)! + 1   ⎞² ⎥ ⎟     ⎥
+pɴ  = 1 + ∑ {i=1..2ⁿ} ⎢  ⎜            ⎢ ⎛     (j − 1)! + 1   ⎞² ⎥ ⎟     ⎥
                       ⎢  ⎜ ∑ {j=1..i} ⎢ ⎢ cos ------------ π ⎢  ⎢ ⎟     ⎥
                       ⎣  ⎝            ⎣ ⎝           j        ⎠  ⎦ ⎠     ⎦
 ```

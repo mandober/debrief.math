@@ -1,0 +1,59 @@
+# Operations
+
+Operations
+- addition
+  - operator: `+`
+  - arity: 2
+  - commutativity: yes
+  - associativity: left
+  - identity: 0
+  - precedence: 3 (low)
+  - fixity: infix
+  - domains:
+    - ℕ², ℤ², ℚ², ℝ², ℂ²
+    - (ℕ × ℕ) → ℕ ≡ ℕ² → ℕ ≅ ℕ → (ℕ → ℕ)
+    - (ℕ × ℕ) × (ℕ × ℕ) → ℕ×ℕ ≅ ℕ² × ℕ² → ℕ²
+    - (a,b) + (c,d) = (a+c, b+d)
+  - closure:
+    - ℕ×ℕ → ℕ
+    - ℤ×ℤ → ℤ
+    - ℚ×ℚ → ℚ
+    - ℝ×ℝ → ℝ
+    - ℂ×ℂ → ℂ
+- subtraction
+  - operator: `-`
+  - arity: 2
+  - commutativity: no
+    - a - b ≠ b - a
+  - associativity: no
+    - (a - b) - c ≠ a - (b - c)
+    - (3 - 5) - 2 = -2 - 2 = -4
+    - 3 - (5 - 2) = 3 - 3 = 0
+    - 3 - 5 + 2 = -2 + 2 = 0
+  - precedence: 3 (low)
+  - fixity: infix
+  - domains:
+    - ℕ², ℤ², ℚ², ℝ², ℂ²
+  - closure:
+    - ℕ: no
+    - ℤ: yes
+    - ℚ: yes
+    - ℝ: yes
+    - ℂ: yes
+
+  - `×`
+    - (×) : ℕ × ℕ → ℕ
+    - (×) : (ℕ × ℕ) × (ℕ × ℕ) → ℕ
+    - (a, b) × (c, d) = (ac, bd)
+  - `÷`
+- Additional operations
+  - `√◌`
+  - `ʳ√◌`
+  - `^`, `◌ⁿ`, xⁿ, x^n
+- Extra operations
+  - `|x|` abs
+  - `[x]` truncate
+  - `[x]` ceil
+  - `[x]` floor
+  - sg(x), sign(x)
+  - `x!` factorial

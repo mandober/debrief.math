@@ -1,0 +1,21 @@
+# Function as X
+
+- function as a formula
+- function as a rule
+- function as a set
+- function as a set of ordered pairs
+- function as a relation
+- function as an n-tuple
+- function as a table
+- function as a graph
+- function as a operation
+- function as a map
+- function as a single-valued map
+- function as a multi-valued map
+- function as a correspondence
+- function as a machine
+- function as a black box
+- function as a procedure
+- function as an algorithm
+- function as an infinite series
+- function as a sequence

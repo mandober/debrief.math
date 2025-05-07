@@ -1,7 +1,19 @@
 # Function Theory :: Hierarchy
 
+- The concept of function
+- History of function concept
+- Functions in math
+- Functions in CS
+- function anatomy
+- function properties
+- function types
+- function interpretations
+- function vs equation
+- functions are polynomials
+
+
 * Function theory
-  - function concepts
+  - function concept
   - function elements
   - function properties
   - function operations

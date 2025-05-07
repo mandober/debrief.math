@@ -1,0 +1,142 @@
+# Precalculus topics
+
+- functions
+  - what is a function
+  - function domain and range
+  - graphing functions in a coordinate system
+    - function's graph, the graph of a function
+    - function's curve, the curve of a function
+    - function test: vertical line test (y-intercept)
+    - injection test: horizontal line test (x-intercept)
+  - function interpretations
+    - function as a set
+    - function as a relation
+    - function as a set of ordered pairs
+    - function as a map
+    - function as a table
+    - function as a rule
+    - function as a machine (black box)
+    - function as equation
+    - implicit function
+    - explicit function
+  - transformations
+  - evaluating functions
+    - evaluating piecewise functions
+  - graphing piecewise functions
+  - monotonicity
+    - monotonic functions
+    - monotonically increasing functions
+    - monotonically decreasing functions
+  - critical points
+    - extrema
+      - relative (local) maximum
+      - relative (local) minimum
+      - absolute (global) maximum
+      - absolute (global) minimum
+  - identifying domain and range of a function from a graph
+  - radicals
+  - fractions
+  - square roots
+  - interval
+    - interval notation
+  - difference quotient
+  - operations on functions
+    - composite functions
+    - how to evaluate composite functions using function tables
+    - composition of functions
+    - decomposing functions
+  - even and odd functions (graphs and algebraically)
+    - even functions 
+    - odd functions
+    - neither even nor odd functions
+  - properties of functions
+    - symmetrical functions
+- linear functions
+  - average rate of change of a function over an interval
+  - inverse functions
+    - how to find the inverse of a function
+    - verifying inverse functions
+    - graphing inverse functions
+  - testing if we have a function
+    - vertical line test
+    - horizontal line test for injections (one-to-one) functions
+  - transformations of functions
+  - functions and graphs
+  - the weird graph of `y = x²`
+  - distance formula
+    - distance between a point and a line in 2d and 3d
+    - midpoint formula
+- Complex numbers
+  - imaginary numbers
+  - graphing complex numbers
+  - absolute value of complex numbers
+  - adding and subtracting complex numbers
+  - multiplying complex numbers
+  - dividing complex numbers
+  - simplifying complex numbers
+  - solving equations with complex numbers
+  - complex numbers - practice problems
+  - complex numbers - basic operations
+- Graphing quadratic functions using transformations
+  - how to find vertex of a parabola: standard form, factored and vertex form
+  - graphing quadratic functions using a data table
+  - graphing quadratic functions in vertex form
+  - graphing quadratic functions in standard form using x and y intercepts
+  - maximum and minimum value word problems - quadratic equations
+  - graphing quadratic functions in vertex and standard form
+  - axis of symmetry
+  - word problems
+  - writing quadratic equations in vertex form and standard form given 3 points
+  - writing quadratic equations in standard form given the solution
+  - quadratic equations multiple choice practice problems
+  - solving quadratic equations with exponents
+  - how to graph polynomial functions using end behavior, multiplicity and zeros
+  - how to graph polynomial functions, membership
+  - intermediate value theorem explained, to find zeros, roots or c value
+- Polynomials
+  - long division with polynomials
+  - how to use synthetic division on any polynomial
+  - synthetic division of polynomials
+  - remainder theorem and synthetic division of polynomials
+  - factoring trinomials
+  - factor theorem and synthetic division of polynomial functions
+  - finding all zeros of a polynomial function using the rational zero theorem
+  - how to find the real and imaginary solutions of polynomial equations
+  - solving polynomial equations by factoring and using synthetic division
+  - solving polynomial equations using goal seek in excel
+  - writing polynomial functions with given zeros
+  - Descartes' rule of signs
+  - solving polynomial inequalities
+- Asymptote
+  - vertical asymptote of a function
+  - horizontal asymptotes of rational functions
+  - slant asymptotes of rational functions
+  - graphing rational fns w/asymptotes through transformations 
+  - graphing advanced rational fns with asymptotes and holes w/transformations
+  - rational inequalities
+  - direct inverse and joint variation word problems
+- logarithms
+  - writing logarithmic equations in exponential form
+  - change of base formula
+  - properties of logarithms
+  - expanding logarithmic expressions
+  - condensing logarithmic expressions
+  - natural logarithms
+- exponential equations
+  - exponential equations
+  - exponential functions
+  - graphing exponential equations
+  - graphing exponential functions
+  - solving exponential equations
+  - solving exponential equations in quadratic form
+  - the quadratic formula
+  - using logarithms
+- logarithmic equations
+  - logarithmic equations
+  - solving logarithmic equations
+  - solving logarithmic equations with different bases
+  - natural logarithm
+  - number `e`
+  - graphing logarithmic functions
+  - compound interest word problem
+  - population growth word problem

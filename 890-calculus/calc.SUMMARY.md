@@ -1,6 +1,18 @@
 # Calculus :: SUMMARY
 
-Terms
+## Dubious corner
+
+1. Evaluating a limit will produce different answers depending on the time we evaluate it. Isn't that a little dubious?
+
+2. Da fuck is the exact intention of expressing equations, functions really, in terms of y rather then x. y is just the output value, depending on some input x, but the function is still f(x) = y. It seems strange to refer to it as y(x)? Oh, yeah… the worst thing is when some authors use both y(x) and f(x) and stuff both in a notation, even though f(x) = y?! So then there's some kind of difference between f(x) and y and y(x)?! Also, wtf do they always use f(x) to refer to a function named f? f alone is enough; f is the name of the function, not f(x) for suck's sake! In the wild and as a practical example: in desmos, if you want to assign the function f(x) previously defined, to another function, i.e. to give it an alias, you can't do `g = f` - only `g(x) = f(x)` works. In fact, I have never witness anywhere that a function is referred to by its name, as in `f`; there's always a bloody param trailling, as in `f(x)`.
+
+3. **Notation** and the **names of various parts and intermediate exp**. For example, what exactly is the *antiderivative* in `⎰f(x)dx`? Can it be pointed at? Ok, then, what is the part `f(x)` called - it is called an *integrand*, right? Does the part `f(x)dx` have a name, or the part `⎰f(x)`? The first step of eval a definite integral produces the *antiderivative* (right?) which is (in one notation system) placed between the brackets, `[F(x)]ₐᵇ`, with the bound on the side. Alt notation used is `F(x)|ₐᵇ`. Everything seems clear here, except the change of case - so we are definitely using the change of case as a way to denote that this is the antiderivative (right, this is what it is?) of the *integrand*? So the antiderivative of the integrand `f(x)` is `F(x)`. And the derivative of function `f(x)` is denoted `f′x` or `d/dx f(x)`. Ok, so after evaluating the integral, we get an antiderivative `F(x)`, which we place in brackets with bounds on the side. Then we plug in the bounds, `F(b) - F(a)`, yes? Which gives us the final answer. Guess, there's also no name for the form `F(b) - F(a)`?
+
+4. **Notation, part 2**: What do `dx`, `du`, `dy`, `df` really really mean and  represent?! It is said they are just notation… notation my ass. Since they are obviously more then notation, what are they rights - what manipulations are allowed exactly?! What can we do with these fockers. One thing we can do is move, e.g. a `dx` to the other side of an equation like it's a bona fide term. Does it change the sign when it swaps sides? Ok, then, jsut this: what can we do with them? Can I get a complete list of available/allowed maneuvers, please? Pay attention: *Why let these notations (or whatever they are) become mysterious?* Why not have a list and state exactly what they mean, in what situation?
+
+
+## Terms
+
 - 2-d Cartesian coordinate system
   - unit
   - a point (x, y)

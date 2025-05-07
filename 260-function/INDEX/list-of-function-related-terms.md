@@ -1,0 +1,90 @@
+# Function theory :: Index :: List of function-related terms
+
+- function declaration 
+  - function prototype
+- function definition
+  - function specification
+  - function abstraction
+  - function implementation
+- function signature
+  - function type signature
+  - function type (different types like ℕ v ℤ v ℝ)
+  - function kind (different kinds: set v class v powerset)
+  - set-valued function, A → B
+    - regular functions like f : ℤ → ℝ 
+      - take an integer, i.e. a single element of ℤ (1)
+      - return a real number, i.e. a single element of ℝ (0)
+      - 1 ⟼ 0
+  - powerset-valued function, A → 𝒫(A)
+    - irregular functions like f : ℤ → {ℝ}
+      - take an integer value, i.e. a single element of ℤ (1)
+      - may return multiple elements of ℝ a single value ({0,1})
+      - 0 ⟼ {0}, 1 ⟼ {1,-1}, 2 ⟼ {-4,4}
+      - these functions can model relations
+      - as a domain element may be associated to multiple codomain elements
+  - Boolean function, 𝔹 → 𝔹
+  - Boolean-valued function, A → 𝔹
+  - ℕ-valued function, A → ℕ
+- function head
+  - function parameter
+  - function parameter list
+  - function arity
+    - nullary
+    - unary
+    - binary
+    - ternary
+    - polyadic
+  - positional parameter
+  - bound variable
+  - free variable
+  - name binding
+    - name binder
+    - name binding site
+    - variable binding occurrence
+    - variable binder
+    - variable binding site
+- function body
+    - variable application occurrence
+- function input/output
+  - function application
+    - applying a function
+    - applying a function to an argument
+    - binding argument to parameter
+  - function arguments
+    - function argument (single, bare arg)
+    - function argument list (args in a tuple)
+    - function input
+    - function argument
+    - positional arguments
+    - arguments bound by position to parameters
+  - function value
+    - function return value
+    - function return type
+    - function output
+- higher-order functions
+  - functional
+- functions in set-theoretic terms
+  - function as relation
+    - set-valued function (can model any relation)
+    - right-unique (essential property)
+    - left-total (only required for total funs)
+  - function as set
+  - function as mapping
+    - (A, f, B)
+  - function's graph
+  - domain
+    - function's domain
+    - total function
+    - partial function
+    - undefined value
+    - restricted domain
+    - preimage
+  - codomain
+    - function's codomain
+    - range ⊆ codomain
+    - image
+  - pair
+  - ordered pair
+    - first component (unique)
+    - second component
+  - set of ordered pair

@@ -1,0 +1,233 @@
+# Calculus subfields
+
+- History of calculus
+  - Adequality
+  - Brook Taylor
+  - Colin Maclaurin
+  - Generality of algebra
+  - Gottfried Wilhelm Leibniz
+  - Infinitesimal
+  - Infinitesimal calculus
+  - Isaac Newton
+  - Fluxion
+  - Law of Continuity
+  - Leonhard Euler
+  - Method of Fluxions
+  - The Method of Mechanical Theorems
+- Precalculus
+  - Binomial theorem
+  - Concave function
+  - Continuous function
+  - Factorial
+  - Finite difference
+  - Free variables and bound variables
+  - Graph of a function
+  - Linear function
+  - Radian
+  - Rolle's theorem
+  - Secant
+  - Slope
+  - Tangent
+  - Limits
+  - Sequence
+  - Series
+  - Infinity
+  - graphing, plotting
+  - curves
+  - coordinate system
+    - polar
+  - equations, inequality
+- Limits
+  - Indeterminate form
+  - Limit of a function
+  - One-sided limit
+  - Limit of a sequence
+  - Order of approximation
+  - (ε, δ)-definition of limit
+- Differential calculus
+  - Derivative
+  - Second derivative
+  - Partial derivative
+  - Differential
+  - Differential operator
+  - Mean value theorem
+  - Notation
+    - Legrange's notation
+    - Leibniz's notation
+    - Newton's notation
+  - Rules of differentiation
+    - Linearity of differentiation
+    - Power
+    - Sum
+    - Chain
+    - L'Hôpital's
+    - Product
+    - General Leibniz's rule
+    - Quotient
+  - Other techniques
+    - Implicit differentiation
+    - Inverse functions and differentiation
+    - Logarithmic derivative
+    - Related rates
+  - Stationary points
+    - First derivative test
+    - Second derivative test
+    - Extreme value theorem
+    - Maximum and minimum
+  - Further applications
+    - Newton's method
+    - Taylor's theorem
+  - Differential equation
+    - Ordinary differential equation
+    - Partial differential equation
+    - Stochastic differential equation
+- Integral calculus
+  - Antiderivative
+  - Arc length
+  - Riemann integral
+  - Basic properties
+  - Constant of integration
+  - Fundamental theorem of calculus
+    - Differentiating under the integral sign, Leibniz integral rule 
+  - Integration by parts
+  - Integration by substitution
+    - Trigonometric substitution
+    - Euler substitution
+    - Tangent half-angle substitution
+  - Partial fractions in integration
+    - Quadratic integral
+  - Trapezoidal rule
+  - Volumes
+    - Washer method, Disc integration
+    - Shell method, Shell integration
+  - Integral equation
+  - Integro-differential equation
+- Vector calculus
+  - Derivatives
+  - Curl
+  - Directional derivative
+  - Divergence
+  - Gradient
+  - Laplacian, Laplace operator
+  - Basic theorems
+    - Fundamental Theorem of Line Integrals
+    - Green's theorem
+    - Stokes' theorem
+    - Gauss' theorem, Divergence theorem
+- Multivariable calculus
+  - Divergence theorem
+  - Geometric calculus
+  - Hessian matrix
+  - Jacobian matrix and determinant
+  - Lagrange multiplier
+  - Line integral
+  - Matrix calculus
+  - Multiple integral
+  - Partial derivative
+  - Surface integral
+  - Volume integral
+  - Advanced topics
+    - Differential forms
+    - Exterior derivative
+    - Generalized Stokes' theorem
+    - Tensor calculus
+- Sequences and series
+  - Arithmetico-geometric sequence
+    - arithmetic sequence, arithmetic progression
+    - geometric sequence, geometric progression
+  - Types of series
+    - Alternating series
+    - Binomial series
+    - Fourier series
+    - Geometric series
+    - Harmonic series
+    - Infinite series
+    - Power series
+      - Maclaurin series
+      - Taylor series
+    - Telescoping series
+  - Tests of convergence
+    - Abel's test of convergence
+    - Alternating series test of convergence
+    - Cauchy condensation test of convergence
+    - Direct comparison test of convergence
+    - Dirichlet's test of convergence
+    - Integral test of convergence
+    - Limit comparison test of convergence
+    - Term test of convergence
+    - Root test of convergence
+    - Ratio test of convergence
+- Special functions and numbers
+  - Bernoulli number
+  - mathematical constant `e`
+  - Exponential function, `eˣ`
+  - Natural logarithm
+  - Stirling's approximation (asymptotic approximation of factorials)
+- Lists
+  - Lists of integrals
+    - List of integrals of rational functions
+    - List of integrals of irrational functions
+    - List of integrals of exponential functions
+    - List of integrals of logarithmic functions
+    - List of integrals of trigonometric functions
+    - List of integrals of inverse trigonometric functions
+    - List of integrals of hyperbolic functions
+    - List of integrals of inverse hyperbolic functions
+    - Integral of the secant function
+    - Integral of secant cubed
+  - List of limits
+  - List of derivatives
+- Miscellaneous topics
+  - Complex calculus
+    - Contour integral
+  - Differential geometry
+    - Manifold
+    - Curvature
+    - Differential geometry of curves
+    - Differential geometry of surfaces
+    - Tensor
+  - Euler-Maclaurin formula
+  - Gabriel's horn
+  - Integration Bee
+  - Proof that 22/7 exceeds π
+  - Regiomontanus' angle maximization problem
+  - Steinmetz solid
+- Major topics in mathematical analysis
+  - Calculus:
+    - Integration
+    - Differentiation
+    - Differential equations
+      - ordinary differential equations
+      - partial differential equations
+      - stochastic differential equations
+    - Fundamental theorem of calculus
+    - Calculus of variations
+    - Vector calculus
+    - Tensor calculus
+    - Matrix calculus
+    - Lists of integrals
+    - Table of derivatives
+  - Real analysis
+  - Complex analysis
+  - Hypercomplex analysis
+    - quaternionic analysis
+  - Functional analysis
+  - Fourier analysis
+  - Least-squares spectral analysis
+  - Harmonic analysis
+  - P-adic analysis
+    - P-adic numbers
+  - Measure theory
+  - Representation theory
+  - Functions
+    - Continuous function
+    - Special functions
+  - Limit
+  - Series
+  - Infinity
+
+
+
+
+
+*Adequality* is a technique developed by Pierre de Fermat in his treatise "Methodus ad disquirendam maximam et minimam" (a treatise in Latin circulated in France c. 1636 ) to calculate maxima and minima of functions, tangents to curves, area, center of mass, least action, and other problems in calculus. According to André Weil (1973), Fermat introduces the technical term "adaequalitas", "adaequare", etc., which he says he has borrowed from Diophantus. As Diophantus V.11 shows, it means an *approximate equality*, and this is indeed how Fermat explains the word in one of his later writings. Diophantus coined the word "παρισότης" (parisotēs) to refer to an approximate equality. Claude Gaspard Bachet de Méziriac translated Diophantus's Greek word into Latin as "adaequalitas". Paul Tannery's French translation of Fermat's Latin treatises used the words "adéquation" and "adégaler".

@@ -1,0 +1,208 @@
+# Calculus
+by Michel van Biezen
+
+## Calculus 1
+- 1. Derivatives
+- 2. Derivatives Of Trigonometric Functions
+- 3. Word Problems With Differentials
+- 4. Slope, Concavity, Max, Min, And Inflection Point
+- 5. Max Min Problems
+- 6. Newton'S Method
+- 7. Integration Basics
+- 8. Integration By Substitution
+- 9. Integration By Parts
+- 10. Partial Fractions
+- 11. Finding The Area Under The Curve
+- 12. Derivatives And Related Rates
+- 13. Rate Of Change
+- 14. Derivative Applications
+- 15. L'Hospital'S Rule
+- 501. Derivative Of E^X And Lnx
+
+## Calculus 2
+
+- 0. What Is Integration?
+- 1. Integration Basics
+- 2. Integration By Substitution
+- 3. Integration By Parts
+- 4. Integration By Partial Fractions
+- 5. Finding The Area Under The Curve
+- 6. Finding The Area Between Curves
+- 7. Finding Volume By Rotating An Area
+- 8. Integrating Trig Functions
+- 9. Trig Substitution
+- 10. Polar Coordinates
+- 11. Complex Numbers & Functions
+- 12. Work Applications
+- 13. Improper Integrals
+- 14. Infinite Sequences And Series
+- 15. How Do You Integrate?
+- 16. Hyperbolic Functions
+- 17. Parametric Equations
+
+## Calculus 3
+
+- 1. Integration: Double Integrals
+- 2. Equations Of Lines & Planes
+- 3. Partial Derivative
+- 4. Vector Calculus In 2D
+- 5. Triple Integrals
+- 6. Line Integrals
+- 7. Green'S Theorem
+- 8. Divergence And Curl
+- 10. Tensors
+- 301. Motion In A Plane
+- 302. Graphing In 3-D Basic Shapes
+- 303. Vector Calculus In 3-D
+
+
+## Differential Equations
+
+- 1. Introduction
+- 2. First-order solutions
+- 3. First-order reducible to separable forms
+- 4. Exact differentials
+- 5. First order integrating factors
+- 6. First-order linear
+- 7. First-order variation of parameters
+- 8. First-order linear applications
+- 9. Second-order introduction
+- 10. Second-order complete overview
+
+https://www.youtube.com/playlist?list=PLX2gX-ftPVXV10J9jL1Lb46pPQVgBbL4Q
+
+- 1. Introduction
+  - 1. what is a differential equation?
+  - 2. real situations represented in differential equations
+  - 3. the solution of a differential equation - ex. 1
+  - 4. the solution of a differential equation - ex. 2
+  - 5. real example of a differential equation - 1
+  - 6. real example of a differential equation - 2
+  - 7. real example of a differential eq - 3 bernoulli's eq.
+  - 8. infinite number of solutions
+  - 9. general solution vs particular solution
+  - 10. what are slope fields and solution curves - 1?
+  - 11. what are slope fields and solution curves - 2?
+  - 12. types 1, 2, 3 of first order differential equations
+  - 13. types 4, 5, 6 of first order differential equations*
+  - 14. second order differential eqn. linear vs non-linear
+  - 15. second order differential eqn. linear homogeneous
+  - 16. 2nd order differential eqn. linear non-homogeneous
+- 2. First order solutions
+  - 1. separation of variables: example 1
+  - 2. separation of variables: example 2
+  - 3. separation of variables: example 3
+  - 4. separation of variables with initial value
+  - 5. separation of variables: newton's law of cooling
+  - 6. separation of variables with initial value
+  - 7. how to calculate earth's escape velocity
+  - 8. how to calculate parachutist's terminal speed
+- 3. First order: reducible to separable forms
+  - 1. Introduction
+  - 2. Example 1: 2Xyy'-Y^2+ X^2=0
+  - 3. Example 2: Xy'= X+Y
+  - 4. Example 3
+- 4. Exact differentials
+  - (nothing yet)
+- 5. 1st order: integrating factor
+  - 1. Introduction
+  - 2. Example Of Homogenous Equation
+  - 3. General Solution Of The Non-Homogenous Eqn.
+  - 4. Example 1 Of Non-Homogenous Form
+  - 5. Example 2 Of Non-Homogenous Form
+  - 6. Example 3 Of Non-Homogenous Form
+  - 7. Example 4 Of Non-Homogenous Form
+  - 8. Example 5 Of Non-Homogenous Form
+  - 9. Example 5 Of Non-Homogenous Form
+- 6. 1st Order Variation of Parameters
+  - 1. Theory
+  - 2. Example 1
+  - 3. Example 2
+  - 4. Example 3
+- 7. 1st Order Linear. Applications
+  - 1. Voltage Drop Of Electric Circuit
+  - 2. I(T)=? Of The Rl Circuit
+  - 3. I(T)=? Of The Rl Circuit
+  - 4. I(T)=? Of The Rc Circuit
+- 8. First-order linear applications
+  - (none yet)
+- 9. 2nd Order Introduction
+  - 1. Introduction
+  - 2. Homogeneous: Special Case #1
+  - 3. Homogeneous: Special Case #2
+  - 4. The Fundamental Theory
+  - 5. Homogeneous With Constant Coefficients
+  - 6. Homogeneous With Constant Coefficients Ex. 1
+  - 7. Homogeneous With Constant Coefficients Ex. 2
+  - 8. Homogeneous With Constant Coeff: Another Look
+  - 9. Homogeneous With Constant Coeff: Free Oscillator
+- 10. 2nd Order, a complete overview
+  - 1. Overview
+  - 2. The Characteristic Equation
+  - 3. The Harmonic Oscillator
+  - 4. The Mechanical - Electrical Equivalence
+  - 5. Linear Vs Non-Linear 2Nd Order Diff. Eqn.
+  - 6. The Superposition Principle
+  - 7. The Superposition Principle: Example
+  - 8. The Initial Value Problem
+  - 9. The Initial Value Problem: Example 1
+  - 10. The Initial Value Problem: Example 2
+  - 11. The Linearly Independent Solution
+  - 12. The Linearly Independent Sol.: Checked With Wronskian
+  - 13. Wronskian Test For Independence
+  - 14. The Characteristic Eqn. - 2 Real Roots: Ex. 1
+  - 15. The Characteristic Eqn. - 2 Real Roots: Ex. 2
+  - 16. The Characteristic Eqn. - 2 Real Roots: Ex. 3
+  - 17. The Characteristic Eqn. - Real Repeated Roots
+  - 18. The Chara. Eqn. - Real Repeated Roots: Initial Cond.
+  - 19. Find The Original Diff. Eqn. Given General Sol.: 1
+  - 20. Find The Original Diff. Eqn. Given General Sol.: 2
+  - 21. Constant Coeff. W/ Complex Roots: Another Look
+  - 22. Constant Coeff. W/ Complex Roots: Example 1
+  - 23. Constant Coeff. W/ Complex Roots: Example 2
+  - 24. Constant Coeff. W/ Complex Roots: Example 3
+  - 25. Constant Coeff. W/ Complex Roots: Example 4
+  - 26. General Solution Y(T)=? When Y-Term Is Missing
+  - 27. General Solution Y(T)=? When Y-Term Is Missing Ex.
+  - 28. Y(T)=? When Y-Term Is Missing; Summary
+  - 29. Initial Value Problem Vs Boundary Value Problem
+  - 30. Initial Value Problem
+  - 31. General Approach To Find Y(T)=? (Missing Y-Term)
+  - 32. Abel'S Theorem
+  - 33. Abel'S Theorem: Example
+  - 34. Summary Of Solution (2Nd Order Homogen D. E.)
+  - 35. Summary Of Solution: Ex. Case 1
+  - 36. Summary Of Solution: Ex. Case 2 B^2-4Ac=0
+  - 37. Summary Of Solution: Ex. Case 3
+  - 38. Sovling Non-Homog. 2Nd Ord. Diff. Eqn. Overview
+  - 39. Method Of Undetermined Coefficient
+  - 40. Method Of Undetermined Coefficient: Ex. 1
+  - 41. Method Of Undetermined Coefficient: Ex. 2
+  - 42. Method Of Undetermined Coefficient: Ex. 3
+  - 43. General Principle Of Superposition
+  - 44. Method Of Undetermined Coefficients
+  - 45. Method Of Undetermined Coefficients: G(T)=Sums
+  - 46. Method Of Undetermined Coefficients: Part 1
+  - 47. Method Of Undetermined Coefficients: Part 2
+  - 48. Method Of Undetermined Coefficients: G(T)=Prod.
+  - 49. Method Of Variation Of Parameters
+  - 50. Method Of Variation Of Parameters: Part 1/4
+  - 51. Method Of Variation Of Parameters: Part 2/4
+  - 52. Method Of Variation Of Parameters: Part 3/4
+  - 53. Method Of Variation Of Parameters: Part 4/4
+  - 54. Method Of Variation Of Parameters: Ex. 1
+  - 55. Method Of Undetermine Coeff.: Ex.
+  - 56. Method Of Variation Of Parameters: Ex. 2
+  - 57. Method Of Variation Of Parameters: Ex. 3
+  - 58. Method Of Variation Of Parameters: Ex. 4
+  - 59. Laplace Transform (Homog. Eqn.)
+  - 60. Laplace Transform (Non-Homog. Eqn.)
+  - 61. Methods To Solve Diff. Eqn. W/ Variable Coeff.
+  - 62. Missing Y-Term W/ Variable Coeff. (Homog. Eq)
+  - 63. Missing Y-Term W/ Variable Coeff (Non-Homog)
+  - 64. Reduction Method - General Method
+  - 65. Reduction Method: Example
+  - 66. Euler Eqn. (Cauchy Eqn.) General Case
+  - 67. Euler Eqn. (Cauchy Eqn.): Ex. 1
+  - 68. Euler Eqn. (Cauchy Eqn.): Ex. 2
+  - 69. Euler Eqn. (Cauchy Eqn.): Ex. 3

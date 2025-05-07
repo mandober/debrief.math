@@ -2,12 +2,14 @@
 
 https://en.wikipedia.org/wiki/Combinatorics
 
-Combinatorics is an area of mathematics primarily concerned with counting, both as a means and an end in obtaining results, and certain properties of finite structures. It is closely related to many other areas of mathematics and has many applications ranging from logic to statistical physics and from evolutionary biology to computer science.
+Combinatorics is an area of mathematics primarily concerned with counting, both as a means and an end in obtaining results, and certain properties of finite structures.
+
+Combinatorics is closely related to many other areas of mathematics and has many applications ranging from logic to statistical physics and from evolutionary biology to computer science.
 
 The full scope of combinatorics is not universally agreed upon because it crosses so many mathematical subdivisions. Insofar as an area can be described by the types of problems it addresses, combinatorics is involved with:
-- the enumeration of specified structures (configurations) of finite systems
-- the existence of such structures that satisfy certain given criteria
-- the construction of these structures
+- enumeration of specified structures (configurations) of finite systems
+- existence of such structures that satisfy certain given criteria
+- construction of these structures
 - optimization: finding the most optimal structure or solution
 
 Leon Mirsky has said: "combinatorics is a range of linked studies which have something in common and yet diverge widely in their objectives, their methods, and the degree of coherence they have attained".
@@ -20,11 +22,11 @@ Many combinatorial questions have historically been considered in isolation, giv
 
 In the later XX century, however, powerful and general theoretical methods were developed, making combinatorics into an independent branch of mathematics in its own right.
 
-One of the oldest and most accessible parts of combinatorics is graph theory, which by itself has numerous natural connections to other areas.
+One of the oldest and most accessible parts of combinatorics is *graph theory*, which by itself has numerous natural connections to other areas.
 
 Combinatorics is used frequently in computer science to obtain formulas and estimates in the analysis of algorithms.
 
-A mathematician who studies combinatorics is called a combinatorialist.
+A mathematician who studies combinatorics is called a *combinatorialist*.
 
 ## Contents
 

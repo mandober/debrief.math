@@ -1,0 +1,11 @@
+# Referencing a function
+
+## Generically
+
+Functions are one of the rare mathematical constructs that may be referred to completely generically. The notation `f(x)` is used to denote an arbitrary, thus generic, function. It's definition is not important, yet we are still able to do many things with just the `f(x)`. Technically, `f(x)` is the head of a function that shows us the name of the function and its arity, and even the name of the parameter (although that is not important). It is what is called a *prototype* or *function declaration* in some programming languages, although those languages usually also require the typing information to be included, primarily the type of input and the return value type. In programming languages, type information may be stated inlined with other elements of the function's head, or it may be stated separately. In math, the type is usually given separately; `f : A → B` is probably the most generic type suitable for the function prototype `f(x)` since `A` and `B` may stand for anything, but typically sets. However, even this generic type is not needed to discuss functions in the most genertic way possible by only using the `f(x)` notation.
+
+For instance, we can denote the first derivative of function `f(x)` by `f′(x)`, which is another generic function, although less so since it is derived from the first.
+
+In programming languages, the application of a previously defined function `f` being applied to an agument like 5 is denoted `f(5)` or `f 5`. *Function calls* like these never stand alone as that would call the function but discard the value it returns. Rather, these expressions are used in some way, like being assigned to a variable, e.g. `r = f(5)`.
+
+In math, on the other hand, *function application* may also be denoted the same way, as e.g. `f(-1)`, and it also never appears as a standalone expression. But unlike in programming, in math, it is followed by performing the actual substitution (there's no interpreter to do it for us), so it typically occcur as `f(-1) = 3(-1)³ + 4(-1)² + 2(-1) + 1`, and gets further reduced. When the function `f` is applied to an argument like -1, the substitution of `x` for -1 is performed throughout the function body.

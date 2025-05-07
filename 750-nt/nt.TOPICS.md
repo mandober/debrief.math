@@ -1,0 +1,34 @@
+# Number Theory: Topics
+
+Number Theory
+  - Fields
+    - Algebraic number theory
+    - Analytic number theory
+    - Geometric number theory
+    - Computational number theory
+    - Transcendental number theory
+    - Diophantine geometry
+    - Arithmetic combinatorics
+    - Arithmetic geometry
+    - Arithmetic topology
+    - Arithmetic dynamics
+  - Key concepts
+    - Numbers
+    - Natural numbers
+    - Prime numbers
+    - Rational numbers
+    - Irrational numbers
+    - Algebraic numbers
+    - Transcendental numbers
+    - p-adic numbers
+    - Arithmetic
+    - Modular arithmetic
+    - Chinese remainder theorem
+    - Arithmetic functions
+  - Advanced concepts
+    - Quadratic forms
+    - Modular forms
+    - L-functions
+    - Diophantine equations
+    - Diophantine approximation
+    - Continued fractions

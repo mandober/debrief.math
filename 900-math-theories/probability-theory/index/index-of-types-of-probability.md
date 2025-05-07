@@ -1,0 +1,23 @@
+# Probability Theory :: Index :: Types of probability
+
+- joint probability, `P(A ∩ B)`
+- conditional probability, `P(A|B)`
+- Physical probability
+- Objective probability
+- Frequency probability
+- Propensity probability
+- Evidential probability
+- Bayesian probability
+- Classical probability
+- Subjective probability
+- Logical probability
+- Epistemic probability
+- Inductive probability
+- Prediction
+- Axiomatic probability
+- a prior probability
+- a posteriori probability
+- reference probability
+- Marginal probability
+- quantum probability
+- free probability

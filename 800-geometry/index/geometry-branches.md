@@ -1,0 +1,57 @@
+# Geometry :: Index :: Types and branches of geometry
+
+- Absolute geometry
+- Affine geometry
+- Algebraic geometry
+- analytic geometry (opp. synthetic)
+- Birational geometry
+- Cartesian geometry
+- Combinatorial geometry
+- Complex geometry
+- Computational geometry
+- Conformal geometry
+- Constructive solid geometry
+- Contact geometry
+- Convex geometry
+- Coordinate geometry
+- Desarguesian geometry
+- Descriptive geometry
+- Differential geometry
+- Digital geometry
+- Discrete geometry
+- Distance geometry
+- Elliptic geometry
+- Enumerative geometry
+- Epipolar geometry
+- Euclidean geometry (opp. non-Euclidean)
+- finite geometry
+- Finite geometry
+- Geometries with Archimedian property 
+- Geometries without Archimedian property, non-Archimedian geometry
+- Geometry of numbers
+- Hyperbolic geometry
+- Incidence geometry
+- Information geometry
+- Integral geometry
+- Inversive geometry
+- Klein geometry
+- Lie sphere geometry
+- metric geometry
+- non-Desarguesian geometry
+- Non-Euclidean geometry (opp. Euclidean)
+- Numerical geometry
+- Ordered geometry
+- Parabolic geometry
+- Plane geometry (syn.)
+- Projective geometry
+- Quantum geometry
+- Riemannian geometry
+- Ruppeiner geometry
+- Spherical geometry
+- Symplectic geometry
+- synthetic geometry (opp. analytic)
+- Systolic geometry
+- Taxicab geometry
+- Toric geometry
+- Transformation geometry
+- Tropical geometry

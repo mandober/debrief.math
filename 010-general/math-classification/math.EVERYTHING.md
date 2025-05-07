@@ -1,0 +1,152 @@
+# Math :: EVERYTHING
+
+- Math in general
+  - Elements of mathematics
+  - Language of mathematics
+    - mathematical symbol
+    - mathematical expression
+    - mathematical definition
+    - mathematical formula
+      - mathematical term
+      - mathematical function
+        - mathematical operation
+        - mathematical operator
+      - mathematical constant, literal
+      - mathematical variables
+        - unknowns
+        - coefficients
+        - parameters
+    - mathematical statement, assertion, proposition
+    - mathematical equation
+      - equality
+      - inequation
+      - relation
+      - equals sign
+      - relational signs
+      - balancing an equation
+      - manipulating equations
+      - general types of equations
+        - identity
+        - conditional equation
+      - solving equation
+        - applying function to both sides
+        - left-hand side
+        - right-hand side
+        - solution to an equation
+        - instantiation of variables
+        - substitution
+    - mathematical equality
+    - mathematical inequality
+    - mathematical practice
+      - invented or discoved
+    - mathematical concept
+    - mathematical theory
+      - mathematical theorem
+      - mathematical axiom
+      - mathematical primitive
+      - mathematical objects
+- Commons
+  - Collections
+- Classification
+  - mathematical areas
+  - mathematical fields
+  - mathematical disciplines
+  - mathematical outline
+    - mathematical hierarchy
+    - mathematical tree
+    - mathematical topics
+    - mathematical subjects
+  - mathematical calculi
+  - mathematical theories
+  - Groups, Classes, Categories
+    - Discerete mathematics
+    - Mathematical logic
+    - Analysis
+      - Calculus
+      - Mathematical Analysis
+      - Functional Analysis
+      - Numerical Analysis
+      - Real Analysis
+      - Complex Analysis
+- Foundations
+  - History of mathematics
+  - Development of mathematics
+    - patterns
+    - abstraction
+    - generalization
+    - analysis
+    - decomposition
+    - synthesis
+    - composition
+    - rigor
+    - turtles all the way down
+    - evolution of axioms
+    - axiomatization
+  - Phylosophy of mathematics
+    - Schools of mathematics
+      - Platonism
+      - Realism
+      - Formalism
+      - Logicism
+      - Symbolism
+    - Paradigms
+      - Classic
+      - Constructive
+      - Axiomatic
+  - Foundations of mathematics
+- Discerete mathematics
+  - Set theory
+  - Relation theory
+  - Function theory
+  - Domain theory
+  - Order theory
+  - Graph theory
+  - Probability theory
+- Geometry
+  - Trig
+  - Analytic geometry
+  - Coordinate system
+  - graphing, plotting
+  - curves
+- representation theory
+- operator theory
+- Topology
+- Number theory
+  - Arithmetics
+  - Numbers
+  - Numerals
+  - Combinatorics
+  - Permutations
+- Algebra
+  - Elementary Algebra
+  - Abstract Algebra
+  - Linear Algebra
+  - Universal Algebra
+  - Boolean Algebra
+- Mathematical Logic
+  - Logic systems
+    - Propositional logic
+    - Predicate logic
+    - FOL
+    - HOL
+  - Proof theory
+  - Model theory
+  - Reverse math
+  - Lambda calculus
+  - Combinatory logic
+- Type theory
+- Category theory
+- Theory of computation
+  - Computation theory
+  - Automata theory
+  - Formal languages
+  - Complexity theory
+- Computer Science
+- Statistics
+- Measure theory
+- Game theory
+- Chaos theory
+- Calculus
+  - Differential
+  - Integral
+  - Differential equations

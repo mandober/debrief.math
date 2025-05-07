@@ -2,17 +2,31 @@
 
 https://en.wikipedia.org/wiki/List_of_types_of_functions
 
-Types of functions
-- by value
-  - Boolean function, 𝔹 → 𝔹
-  - Boolean-valued function, A → 𝔹
-  - ℕ-valued function, A → ℕ
+Types of functions: criteria, factors, properties of/for division
+- properties:
+  - arity
+  - input value
+  - output value, function value, X-valued function
+
+Functions by I/O
+- input: argument ∈ domain
+- output: return value ∈ codomain (range ⊆ codomain)
+
+Functions by value (by output)
+- `T`-valued function (fn returning type `X`: (sub)set, class, powerset, …)
+  - set-valued function, A → B
   - powerset valued function, A → 𝒫(A)
-- by arity
-  - nullary function
-  - unary function
-  - binry function
-  - n-ary function
+
+- Boolean function, 𝔹 → 𝔹
+- Boolean-valued function, A → 𝔹
+- ℕ-valued function, A → ℕ
+
+Functions by arity
+- nullary function
+- unary function
+- binry function
+- polyadic (n-ary) function
+
 - total function
 - partial function
 - injection

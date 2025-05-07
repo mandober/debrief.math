@@ -1,0 +1,61 @@
+# Equations
+
+```js
+ _________
+⎷ 1 + x²
+
+
+
+// exercise
+∫ (4x² + 3x³) / x² dx = 
+∫ (4x²/x² + 3x³/x²) dx = 
+∫ (4x²/x²) dx + ∫ (3x³/x²) dx = 
+∫ 4 dx + ∫ 3x dx =
+4 x + 3/2 x² + C
+∎
+
+// exercise
+∫ 15/x dx =
+15 ∫ 1x dx =
+15 ln |x| + C
+∎
+
+// exercise
+∫ 1/(1+x²) dx =
+arctan x + C
+∎
+
+// exercise
+(1/(1+x²))′ = 
+((1+x²)⁻¹)′ =         use chain rule (fg)′ = f′g + fg′ with f(x)=x⁻¹, g(x)=1+x²
+−g⁻² × (1 + x²)′ = 
+−g⁻² 2x = 
+−(1+x²)⁻² 2x = 
+-2x (1+x²)⁻² = 
+-2 (1+x²)⁻² x = 
+-2x/(1+x²)² =             expand using (a + b)² = a² + 2ab + b²
+−2x/(1+2x²+x⁴)
+∎
+
+// exercise
+∫ (1/(1+x²)) dx =         use the property: ∫ 1/(a²+x²)dx = 1/a arctan(x/a)
+
+// exercise
+∫ (1/(a²+x²)) dx =        u-subst, u=a dv=
+∫ 1/a(u²+1) du =
+
+
+1/a arctan(x/a) + C
+∎
+
+// exercise
+(1/(a² + x²))′ =
+((a² + x²)⁻¹)′ =              Apply the chain rule: f(x)=x⁻¹, g(x)=a²+x²
+−g⁻² × (a² + x²)′ = 
+−(a²+x²)⁻² × (a² + x²)′ = 
+−(a²+x²)⁻² × (a² + x²)′ = 
+−(a²+x²)⁻² 2x = 
+−2x(a² + x²)⁻² = 
+−2x/(a² + x²)² = 
+∎
+```

@@ -2,7 +2,22 @@
 
 https://en.wikipedia.org/wiki/Equaliser_(mathematics)
 
-An equaliser is a *set of arguments* where two or more *functions* have equal values. *An equaliser is the solution set of an equation*. In certain contexts, a difference kernel is the equaliser of exactly two functions.
+An **equaliser** is a *set of arguments* where two or more functions have equal values.
+
+An equaliser is the solution set of an equation. In certain contexts, a *difference kernel* is the equaliser of exactly two functions.
+
+Ingedients
+- two functions `f` and `g` with the same domain `A`
+- there is a subset of domain A, `S ⊆ A`, such that
+- two functions agree on all values in S, `∀x ∈ S ⇔ f(x) = g(x)`
+- then the subset `S` is called an equaliser of `f` and `g`, `Eq(f,g) = S`
+
+Given two functions with the same domain `A`, if there is a subset `S ⊆ A` such that `∀s(s ∈ S ⇒ f(s) = g(s))`, then the subset `S` is the equaliser of the two functions.
+
+    f,g : A → B. ∃S ⊆ A. ∀x(x ∈ S ⇒ f x = g x)
+
+    Eq(f,g) := { s ∈ S | S ⊆ A, f(s) = g(s) }
+
 
 ## Definitions
 
@@ -12,20 +27,15 @@ Let `X` and `Y` be sets. Let `f` and `g` be functions, both from `X` to `Y`. The
 `Eq(f,g)` := `{ x ∈ X | f(x) = g(x) }`
 
 ```js
-// for example
-X = { a, b, c, d, e }
-Y = { a, b, c, d }
-
-f : X → Y = { a ⟼ c, b ⟼ b, c ⟼ d, d ⟼ d, e ⟼ d }
-g : X → Y = { a ⟼ c, b ⟼ d, c ⟼ d, d ⟼ c, e ⟼ c }
-//            ^^^^^^          ^^^^^^
-
-eq(f,g) = { a, c }
+f : ℤ → ℕ, f(x) = x²
+g : ℤ → ℕ, g(x) = x⁴
+Eq(x², x⁴) = {-1,0,1}, and {-1,0,1} ⊆ ℤ
 ```
 
 The equaliser may be denoted `Eq(f,g)` or `eq(f,g)`. In informal contexts, the notation `{f=g}` is common.
 
-The definition above used two functions f and g, but there is no need to restrict to only two functions, or even to only finitely many functions. 
+
+The definition above used two functions `f` and `g`, but there is no need to restrict to only two functions, or even to only finitely many functions. 
 
 In general, if `F` is a set of functions from `X` to `Y`, then the equaliser of the members of `F` is the set of elements `x ∈ X` such that, given any two members `f` and `g` of `F`, `f(x) = g(x)` in `Y`. Symbolically:
 

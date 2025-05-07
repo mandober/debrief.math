@@ -1,0 +1,110 @@
+
+
+- Almgren-Pitts min-max theory
+- Analytic Number Theory
+- Approximation theory
+- Arakelov theory
+- Asymptotic theory
+- Automata Theory
+- Axiomatic Set Theory
+- Bag Theory
+- Bass-Serre theory
+- Bifurcation theory
+- Braid theory
+- Brill-Noether theory
+- Catastrophe theory
+- Category Theory
+- Chaos theory
+- Character theory
+- Choquet theory
+- Class field theory
+- Cobordism theory
+- Coding theory
+- Cohomology theory
+- Computability Theory
+- Continuum theory
+- Control theory
+- Decision theory
+- Deformation theory
+- Dempster-Shafer theory
+- Dimension theory
+- Distribution theory
+- Domain Theory
+- Dual number theory
+- Dynamical systems theory
+- Eigenvalue Theory
+- Eigenvector Theory
+- Elimination theory
+- Equational Theory
+- Ergodic theory
+- Extremal graph theory
+- Field theory
+- Formal Language Theory
+- Function Theory
+- Galois theory
+- Game theory
+- Gauge Theory
+- Graph theory
+- Group theory
+- Hodge theory
+- Homology theory
+- Homotopy theory
+- Ideal theory
+- Index theory
+- Information theory
+- Intersection theory (branche of algebraic geometry)
+- Invariant theory
+- Iwasawa theory
+- Knot theory
+- K-theory
+- L-theory
+- M-theory
+- Lattice theory
+- Lie theory
+- Measure theory
+- Model theory
+- Module theory
+- Morse theory
+- Multiset Theory
+- Network Theory
+- Nevanlinna theory
+- Number theory
+- Obstruction theory
+- Operator theory
+- Operad theory
+- Order theory
+- Percolation theory
+- Perturbation theory
+- Potential theory
+- Probability theory
+- Programming Language Theory
+- Proof theory
+- Queue theory
+- Ramsey theory
+- Random matrix theory
+- Recursion Theory
+- Relation Theory
+- Representation theory
+- Ring theory
+- Scheme theory
+- Semigroup theory
+- Set theory
+- Shape theory
+- Sheaf theory
+- Sieve theory
+- Singularity theory
+- Soliton theory
+- Spectral theory
+- String theory
+- Sturm-Liouville theory
+- Surgery theory
+- Teichmüller theory
+- Theory of calculus
+- Theory of computation
+- Theory of equations
+- Theory of statistics
+- Topos theory
+- Transcendental number theory
+- Twistor theory
+- Type theory
+- Wheel theory

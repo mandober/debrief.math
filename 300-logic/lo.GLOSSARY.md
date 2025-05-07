@@ -5,7 +5,6 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 <!-- TOC -->
 
 - [Absoluteness](#absoluteness)
-- [Admissible rule of inference](#admissible-rule-of-inference)
 - [Ampliative](#ampliative)
 - [Ancestral logic](#ancestral-logic)
 - [Anti-psychologism](#anti-psychologism)
@@ -16,26 +15,23 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Biconditional](#biconditional)
 - [Bijection](#bijection)
 - [Bivalence](#bivalence)
-- [Boolean function](#boolean-function)
 - [Boolean logic](#boolean-logic)
 - [Boolean algebra](#boolean-algebra)
-- [Boolean logic vs Propositional logic](#boolean-logic-vs-propositional-logic)
 - [Bound variable](#bound-variable)
 - [Binding occurrence](#binding-occurrence)
 - [Classical logic](#classical-logic)
 - [Closed-world assumption](#closed-world-assumption)
 - [Cogent](#cogent)
-- [Collation](#collation)
 - [Compactness theorem](#compactness-theorem)
 - [Completeness](#completeness)
 - [Conjecture](#conjecture)
 - [Constants symbols](#constants-symbols)
 - [Contingency](#contingency)
+- [Compositionality](#compositionality)
+- [Comprehension](#comprehension)
 - [Decidability](#decidability)
 - [Deductive system](#deductive-system)
-- [Defeasible inference](#defeasible-inference)
 - [Defeasible reasoning](#defeasible-reasoning)
-- [Derivable rule of inference](#derivable-rule-of-inference)
 - [Deviant logics](#deviant-logics)
 - [Dialetheism](#dialetheism)
 - [Domain of discourse](#domain-of-discourse)
@@ -62,7 +58,6 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Identity - Law of identity](#identity---law-of-identity)
 - [Identity - Quine's dictum](#identity---quines-dictum)
 - [Identity of indiscernibles](#identity-of-indiscernibles)
-- [Immediate inference](#immediate-inference)
 - [Informal logic](#informal-logic)
 - [Interpretation](#interpretation)
 - [Law of non-contradiction](#law-of-non-contradiction)
@@ -120,6 +115,7 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Statement](#statement)
 - [Strict conditional](#strict-conditional)
 - [Substitution](#substitution)
+- [Supertask](#supertask)
 - [Syllogisms](#syllogisms)
 - [Syllogistic logic](#syllogistic-logic)
 - [Symbolic logic](#symbolic-logic)
@@ -130,9 +126,9 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 - [Term](#term)
 - [Term logic](#term-logic)
 - [Traditional logic](#traditional-logic)
-- [Truthmaker](#truthmaker)
+- [Trinitarianism](#trinitarianism)
 - [Truth value](#truth-value)
-- [Truth-functional logical connective](#truth-functional-logical-connective)
+- [Truthmaker](#truthmaker)
 - [Unique name assumption](#unique-name-assumption)
 - [Universally valid](#universally-valid)
 - [Universal-existential normal form](#universal-existential-normal-form)
@@ -147,9 +143,6 @@ https://en.wiktionary.org/wiki/Appendix:Glossary_of_logic
 
 ## Absoluteness
 Absoluteness is a property of a formula. A formula is said to be absolute if it has the same truth value in each class of structures/models.
-
-## Admissible rule of inference
-An inference rule is admissible when all of its instances satisfy the property: if the premises are derivable, then the conclusion is derivable.
 
 ## Ampliative
 Ampliative (from Latin "ampliare" meaning "to enlarge") is a term used mainly in logic, meaning "extending" or "adding to that which is already known". This term was often used by medieval logicians in the analyses of the temporal content of their subject terms. There were 3 rules outlined in its usage: 
@@ -185,17 +178,11 @@ Biconditional (bidirectional implication, bijection) is a logical connective, sy
 ## Bivalence
 Bivalence is the property of two-value logics. The phrase "classically bivalent" sometimes also implies LEM although the two principles are distinct. A logic may admit LEM without being bivalent, and a logic may be bivalent without admitting LEM (intuitionistic logic).
 
-## Boolean function
-A Boolean function is a function whose arguments and result assume values from the Boolean domain, i.e. a two-element set, usually, `{T,F}` or `{0,1}`. Unary `f: 𝔹 → 𝔹`, binary `g: 𝔹 ⨯ 𝔹 → 𝔹` or `g: 𝔹² → 𝔹` or `g: 𝔹 → 𝔹 → 𝔹`, and in general `h: 𝔹ⁿ → 𝔹`.
-
 ## Boolean logic
 Boolean algebra is the branch of algebra where values of variables are the truth values 'true' and 'false' and the operators are logical connectives. Boolean algebra is a formal way of describing logical operations, in the same way that elementary algebra describes numerical operations. Boolean algebra was introduced by George Boole in 1847.
 
 ## Boolean algebra
 Propositional logic may be reinterpreted from a viewpoint of algebra, in which case the system is called Boolean algebra (BA). Boolean algebra is an algebraic system on the Boolean domain, `𝔹 = {0, 1}`. A logical statement (a proposition) in propositional logic is regarded as an expression in Boolean algebra. Applications of inference rules to derive a theorem in logic are similar to transformations or manipulations of expressions in algebra. In BA, we can manipulate logical statements as algebraic expressions systematically.
-
-## Boolean logic vs Propositional logic
-
 
 ## Bound variable
 A bound variable has all of its application occurrences in the scope that is visible (accessible) from its binding occurrence (i.e. from its binding site).
@@ -274,9 +261,6 @@ adj. comparative more cogent, superlative most cogent.
 Reasonable and convincing; based on evidence. 
 Appealing to the intellect or powers of reasoning.
 
-## Collation
-Collation is a generalization of a word (string of symbols from an alphabet) as a means to present information in a structured manner. A collation is a structured alignment with certain placeholders that underpins the construction of a formal language. These placeholders may then be replaced by elements of an alphabet (symbols) of the language. A collation in the alphabet is one where all placeholders are replaced by symbols from that alphabet.
-
 ## Compactness theorem
 In mathematical logic, the compactness theorem states that a set of first-order sentences has a model if and only if every finite subset of it has a model. This theorem is an important tool in model theory, as it provides a useful (but generally not effective) method for constructing models of any set of sentences that is finitely consistent.
 
@@ -292,6 +276,12 @@ Logical constants (constant symbols) are strings of symbols that (are interprete
 ## Contingency
 In philosophy and logic, contingency is the status of propositions that are neither true under every possible valuation (i.e. not tautologies), nor false under every possible valuation (i.e. not contradictions). A contingent proposition is neither necessarily true nor necessarily false.
 
+## Compositionality
+In semantics and mathematical logic, the principle of compositionality states that the meaning of an expression is determined by the meanings of the subexpressions, along with the rules of how to combine them. This principle is also called "Frege's principle", because Frege is widely credited for its first modern formulation, even though the principle was never explicitly stated by Frege, and it was arguably already assumed by Boole.
+
+## Comprehension
+A comprehension is a set of all intensions. In logic, the *comprehension* of an object is the *totality of intensions*; it is the set of all its properties, qualities, attributes, characteristics, marks, etc. A term's comprehension contains the totality of intensions that are pertinent to the context of a given discussion. This is the correct terminology to reference the entirety of object's intensions, but informally the term "intension" is used to refer to both, a particular intension, as well to the comprehension.
+
 ## Decidability
 In logic, a true/false decision problem is decidable if there exists an effective method for deriving the correct answer.
 
@@ -304,14 +294,8 @@ Logical systems are decidable if membership in their set of logically valid form
 ## Deductive system
 A deductive system for a logic, aka a *deductive apparatus* or *a logic*, is a set of logical axioms (or axiom schemata) and inference rules that are used to derive theorems within that system, and that determine which sequences of formulas constitute valid proofs.
 
-## Defeasible inference
-Defeasible inference is a kind of inference in which reasoners draw tentative conclusions, reserving the right to retract their conclusions based on further evidence.
-
 ## Defeasible reasoning
 Defeasible reasoning is rationally compelling but deductively invalid kind of reasoning.
-
-## Derivable rule of inference
-A rule of inference R is derivable it there is a derivation tree whose leaves are the premises of R (and possibly applications of the assumption rule), and its conclusion is the conclusion of R.
 
 ## Deviant logics
 https://en.wikipedia.org/wiki/Deviant_logics
@@ -435,9 +419,6 @@ The Quine's dictum says: No entity without identity! To know a type of objects i
 ## Identity of indiscernibles
 Leibniz's notion of equality: given any `x` and `y`, `x = y` iff given any predicate `P`, `P(x)` = `P(y)`, `∀xy(x ≡ y ⇔ ∀P(Px ≡ Py))`.
 
-## Immediate inference
-Immediate inference is the operation of drawing an inference from a single premise; an inference drawn from a single premise.
-
 ## Informal logic
 Informal logic is the study of natural language arguments. The study of fallacies is an important branch of informal logic. Since much informal argument is not strictly speaking deductive, on some conceptions of logic, informal logic is not logic at all.
 
@@ -476,6 +457,9 @@ Logic is the study of rules of inference that allow deriving a conclusion from p
 Logical connectives or logical operators are symbols or strings used to connect logical formulas in a grammatically valid way, such that the value of the compound formula depends only on the values of comprising formulas and on the meaning of the connective.
 
 Logical connectives include negation (¬), conjunction (∧), inclusive disjunction (∨), exclusive disjunction (⊕), biconditional (⇔), implication (⇒), NAND (↑), NOR (↓), etc.
+
+A logical connective is *truth-functional* if the truth value of a compound sentence is a function of the truth-value of its sub-sentences; i.e. if the truth value of the compound sentence can be determined from its atoms. A class of connectives is truth-functional if each of its members is.
+
 
 ## Logical constant
 A logical constant (aka logical symbol or constant symbol) of a formal language is a symbol that has the same semantic value under every interpretation of that language. Two important types of logical constants are logical connectives and logical quantifiers. The equality predicate (=) is also treated as a logical constant in many systems of logic.
@@ -608,7 +592,10 @@ Propositions (declarative sentences, statements) occur in both natural and forma
 The explanation or derivation of mathematical or logical laws in terms of psychological facts. Psychologism is a family of philosophical positions, according to which certain psychological notions play a central role in grounding or explaining certain non-psychological notions. Psychologism is a view or doctrine that a theory of psychology or ideas forms the basis of an account of metaphysics, epistemology, or meaning. John Stuart Mill was accused by Edmund Husserl of being an advocate of a type of logical psychologism, although this may not have been the case. Psychologism was notably criticized by Gottlob Frege in his anti-psychologistic work "The Foundations of Arithmetic", and many of his works and essays, including his review of Husserl's "Philosophy of Arithmetic". Husserl, in the first volume of his "Logical Investigations", called "The Prolegomena of Pure Logic", criticized psychologism thoroughly and sought to distance himself from it. Frege's arguments were largely ignored, while Husserl's were widely discussed.
 
 ## Rule of inference
-Rules of inference are syntactical transformation rules which one can use to infer a conclusion from a premise to create an argument. A set of rules can be used to infer any valid conclusion if it is complete, while never inferring an invalid conclusion, if it is sound.
+Rules of inference are syntactical transformation rules which one can use to infer a conclusion from a premise to create an argument. A set of rules can be used to infer any valid conclusion if it is complete, while never inferring an invalid conclusion, if it is sound. An inference rule is *admissible* when all of its instances satisfy the property: if the premises are derivable, then the conclusion is *derivable*. *Immediate inference* is the operation of drawing an inference from a single premise; an inference drawn from a single premise.
+
+*Defeasible inference* is a kind of inference in which reasoners draw tentative conclusions, reserving the right to retract their conclusions based on further evidence.
+
 
 ## Satisfiability
 In mathematical logic, a formula is satisfiable if it is true under some assignment of values to its variables. For example, the formula x+3=y is satisfiable because it is true when x=3 and y=6, while the formula x+1=x is not satisfiable over the integers. The dual concept to satisfiability is validity.
@@ -636,6 +623,9 @@ In logic, a strict conditional (strict implication) is a conditional governed by
 
 ## Substitution
 Substitution is a fundamental concept in logic. A substitution is a syntactic transformation on formal expressions. To apply a substitution to an expression means to consistently replace its variable, or placeholder, symbols with other expressions.
+
+## Supertask
+A procedure that requires carrying out an infinite number of actions (tasks) in a finite amount of time.
 
 ## Syllogisms
 A syllogism is a kind of logical argument where a quantified statement of a specific form (the conclusion) is inferred from two other quantified statements (the premises). It is a logical argument where one starts with premises and reaches a conclusion. A syllogism is a kind of logical argument that applies deductive reasoning to arrive at a conclusion based on two or more propositions that are asserted or assumed to be true. In its earliest form, defined by Aristotle, from the combination of a general statement (the major premise) and a specific statement (the minor premise), a conclusion is deduced.
@@ -667,16 +657,22 @@ Term logic (traditional logic, syllogistic logic, Aristotelian logic) is a syste
 ## Traditional logic
 see Term logic
 
-## Truthmaker
-The metaphysical notion of truthmaking is a relation which holds between a truth and some entity in the world, in virtue of which that truth is true.
-
-There is a number of ways in which a state or fact can be said to be a truthmaker for a sentence. It can simply necessitate the sentence; or it can necessitate the sentence while being partially relevant to its truth; or it can necessitate the sentence while being wholly relevant to its truth. An exact truthmaker for A is a state which, as well as guaranteeing A's truth, is wholly relevant to it.
+## Trinitarianism
+Trinitarianism is another name for the correspondence between logic, type theory and category theory, otherwise known as the Curry-Howard-Lambek isomorphism.
 
 ## Truth value
 A truth value of a proposition is something that is up for discussion. A truth value (or logical value) is a value indicating the relation of a proposition to the truth. A proposition has a truth value if it evaluates to true or false (in bivalence logics). However, there are many non-binary systems of logic, that have 3 (false, unknown, true) or more truth values. In fuzzy logic, for instance, truth value is represented by a real number in the inteval (0,1).
 
-## Truth-functional logical connective
-A logical connective is truth-functional if the truth value of a compound sentence is a function of the truth-value of its sub-sentences; i.e. if the truth value of the compound sentence can be determined from its atoms. A class of connectives is truth-functional if each of its members is.
+Truth value, or logical value, is a value indicating the relation of a proposition and the "general, objective" truth.
+
+A proposition is a statement that has a truth value - it can be evaluated to be true or false.
+
+A proposition is true if what it claims or represents is aligned (compatible) with the objective reality.
+
+## Truthmaker
+The metaphysical notion of truthmaking is a relation which holds between a truth and some entity in the world, in virtue of which that truth is true.
+
+There is a number of ways in which a state or fact can be said to be a truthmaker for a sentence. It can simply necessitate the sentence; or it can necessitate the sentence while being partially relevant to its truth; or it can necessitate the sentence while being wholly relevant to its truth. An exact truthmaker for A is a state which, as well as guaranteeing A's truth, is wholly relevant to it.
 
 ## Unique name assumption
 Unique name assumption is a simplifying assumption made in some ontology languages and description logics. In logics with the unique name assumption, different names always refer to different entities in the world.

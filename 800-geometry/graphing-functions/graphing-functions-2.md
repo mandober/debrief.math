@@ -1,0 +1,34 @@
+# Graphing functions
+
+- vertical line test checks if a curve is a fn
+- horizontal line test checks if a curve is an injection
+- a function has 0 or 1 y-intercept
+- a function may have many x-intercepts (sin has ∞ of x-intercepts)
+- x-intercepts are zeros of a function (polynomial)
+- polynomials may be functions
+- functions: constant, linear, quadratic, quartic, …
+- line equations are functions
+- line equation must have an x- and y-intercept (unless H/V line)
+- horizontal line, y = k, is a function without the x-intercept
+- unless k=0 (so y=0), in which case it has ∞ of x-intercepts
+- vertical line, x = k, has undefined slope and is not a function
+- some (implicit) equations are implicit functions
+- not all equations are functions
+- determine points of interest: intercepts
+- determine critical points:
+  - local and global minima
+  - local and global maxima
+  - inflection points
+- even, odd, neither even nor odd functions
+  - even:    `f(-x) =  f(x)`; x² as f(-2) = f(2)
+  - odd:     `f(-x) = -f(x)`; x³ as f(-2) = -f(2)
+  - neither: `f(-x) ≠ -f(x)` nor `f(-x) ≠ f(x)`
+- determine domain and range of the function
+- piecewise functions
+- continuity
+- differentiability
+- monotonicity: increasing or decreasing
+- first derivative test: monotonicity
+- second derivative test: concavity
+- limit of a function
+- increasing, decreasing and constant functions

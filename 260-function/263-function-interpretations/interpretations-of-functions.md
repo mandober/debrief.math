@@ -1,6 +1,10 @@
 # Interpretations of functions
 
-The notion of a function has different interpretations depending on the encompassing theory.
+The notion of function has different interpretations depending on the enclosing field and framework. Functions are primarily used in pure mathematics and computer science.
+
+Functions used in math, known as *mathematical functions*, are very different from things that are referred to as functions in programming in various programming languages.
+
+
 
 In mathematics
   - Relation theory

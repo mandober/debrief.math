@@ -1,0 +1,3 @@
+## Predefined functions - library of functions
+
+Math is not a programming language, so there is no standard library, nor are there *built-in and always available functions*. Despite that, all "existing" functions are treated exactly as such. On a rare occasion will the author remind its readers of the definition of a particular function; it might happen for vaguely defined functions, or as a genuine reminder, just to keep an eye on it. In practice, any time we do math, we have at our disposal all the functions that were ever defined, at any point in time, anywhere; maybe we should tighten this statement and say *all the published function* instead.
