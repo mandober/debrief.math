@@ -3,6 +3,11 @@
 All function types or kinds (alphabetically)
 https://en.wikipedia.org/wiki/List_of_types_of_functions
 
+*smooth function* has continuous derivatives up to a desired order over some domain.
+*Infinitely differentiable function* is a continuous function that may be differentiated any number of times. Many functions during the corse of repeated differentiation will hit 0 at some point, after which all subsequent derivatives will be 0.
+*continuous function*: a continuous function of a single variable can be plotted as a single continuous line with no abrupt bends or breaks.
+
+
 additive function: preserves addition: f (x + y) = f (x) + f (y)
 Multiplicative function: preserves multiplication: f (xy) = f (x)f (y)
 set function (whose input is a set)

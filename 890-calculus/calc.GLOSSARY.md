@@ -1,7 +1,53 @@
 # Calculus :: GLOSSARY
 
+<!-- TOC -->
+
+- [Δx](#δx)
+- [dx](#dx)
+- [Antiderivative](#antiderivative)
+- [Asymptote](#asymptote)
+- [Calculus](#calculus)
+- [Calculus of variations](#calculus-of-variations)
+- [Critical point](#critical-point)
+- [Complex Analysis](#complex-analysis)
+- [Continuous function](#continuous-function)
+- [Constant of integration](#constant-of-integration)
+- [Curve](#curve)
+- [Dependent variable](#dependent-variable)
+- [Derivative](#derivative)
+- [Differentiation](#differentiation)
+- [Differential](#differential)
+- [Differential equations](#differential-equations)
+- [Differential algebra](#differential-algebra)
+- [Differentiable function](#differentiable-function)
+- [Fractional calculus](#fractional-calculus)
+- [Function](#function)
+- [Functional analysis](#functional-analysis)
+- [Fundamental theorem of calculus](#fundamental-theorem-of-calculus)
+- [Integral Transforms](#integral-transforms)
+- [Indefinite integral](#indefinite-integral)
+- [Independent variable](#independent-variable)
+- [Interval](#interval)
+- [Intercept](#intercept)
+- [Lamina](#lamina)
+- [Line](#line)
+- [Mathematical analysis](#mathematical-analysis)
+- [Method of exhaustion](#method-of-exhaustion)
+- [Real analysis](#real-analysis)
+- [Relation](#relation)
+- [Rolle's theorem](#rolles-theorem)
+- [Slope](#slope)
+
+<!-- /TOC -->
+
+## Δx
+`Δx` represents the (absolute) difference between two input values (relevant to of some function in the context). If we have fixed an input value of interest `x₀`, then we can vary the other input value by a quantity `h`, leaving that other point to be determined by `x₀ + h`. `Δx` stands for any difference between two inputs, big or small, but in the context of calculus, it represents a difference that keeps decreasing as `h` tends to 0. In this sense, `Δx` is similar to `dx`.
+
+## dx
+`dx` (and other variables like `dt`, `dy`) is called a *differential*, and it occurs in differential equations. `dx` represents the difference between two input values of some function (in context), but unlike `Δx` which may be of any size, `dx` is so small (yet larger then 0) it belongs to a kind of numbers called *infinitesimals*.
+
 ## Antiderivative
-An antiderivative is the result of integration. In fact it is called a general antiderivative since it represents a whole family of functions.
+An antiderivative is the function resulting from solving an indefinite integral. That function is also called a general antiderivative since it comes trailling the constant of integration that represents a whole family of functions with different constant terms (all of which are subsumed by adding the constant `+ C` to the solution). However, differentiating this function makes any constant term collapse to zero.
 
 ## Asymptote
 An asymptote is an imaginary line in the (Cartesian) coordinate system that the graph of function approaches (but never touches) as the function value tends to infinity. The distance between a function's graph and an asymptote keeps closing in as both tend to infinity, but never reaches zero. There are horizontal, vertical and oblique asymptotes.
@@ -16,10 +62,13 @@ The calculus of variations (or variational calculus) is a field of mathematical 
 Critical points (Critical numbers or values) are points in the graph of a function where the derivative is either zero or undefined. Critical points include extrema (minimum and maximum), inflection points, x- and y-intercepts.
 
 ## Complex Analysis
-Complex Analysis is a part of math dealing with complex numbers and functions of complex variables. It is mostly used to emphasize the use of complex numbers as opposed to real numbers.
+Complex Analysis is a part of math dealing with complex numbers and functions of complex variables. It emphasizes its concern with complex numbers as opposed to reals which are the subject of Real Analysis.
 
 ## Continuous function
 A continuous function is a function without discontinuity in the form of jumps and asymptotes.
+
+## Constant of integration
+The constant of integration, often denoted by `C`, is a constant term added to an antiderivative of a function `f` to indicate that the indefinite integral of `f(x)` - i.e. the set of all antiderivatives of `f` - on a connected domain, is only defined up to an additive constant. This constant expresses an ambiguity inherent in the construction of antiderivatives.
 
 ## Curve
 A curve is a shape plotted in the 2D Cartesian coordinate plane. Broadly, a curve can be any geometric shape, including straight lines. In a more narrow sense, curves are generally the graphs of functions or defined by equations, excluding straight lines.
@@ -53,12 +102,6 @@ A function of a real variable, `f : ℝ → ℝ`, is differentiable at a point d
 
 A function is said to be differentiable over an interval (an interval is a subset of its domain). This implies that a function need not be differentiable everywhere, but sometimes it is enough if it is differentiable over an interval of interest (then we say that it is differentiable over that interval).
 
-## Δx
-`Δx` represents the (absolute) difference between two input values (relevant to of some function in the context). If we have fixed an input value of interest `x₀`, then we can vary the other input value by a quantity `h`, leaving that other point to be determined by `x₀ + h`. `Δx` stands for any difference between two inputs, big or small, but in the context of calculus, it represents a difference that keeps decreasing as `h` tends to 0. In this sense, `Δx` is similar to `dx`.
-
-## dx
-`dx` (and other variables like `dt`, `dy`) is called a *differential*, and it occurs in differential equations. `dx` represents the difference between two input values of some function (in context), but unlike `Δx` which may be of any size, `dx` is so small (yet larger then 0) it belongs to a kind of numbers called *infinitesimals*.
-
 ## Fractional calculus
 Fractional calculus is a branch of mathematical analysis that studies the several different possibilities of defining real number powers or complex number powers of the differentiation operator `D`.
 
@@ -67,8 +110,15 @@ A function is a special kind of relation. A unary function is a binary relation,
 
 Functions are very important in calculus; we often plot their graphs as curves in the coordinate plane, then aim to find the tangent lines related to some point on the curve. We also often want to know the area under a curve defined by some function, or the area between two curves. Functions are their curves have many properties we are interested in, such as interceptions, extrema, inflection and other crictical points. If nothing else, we want to plot functions so we can visualize them.
 
-## Integral
+## Functional analysis
+Functional analysis is a part of Mathematical Analysis concerned with functions.
 
+## Fundamental theorem of calculus
+The First Fundamental Theorem Of Calculus
+: A theorem that links the concept of differentiating a function (calculating its slopes, or rate of change, at every point on its domain) with the concept of integrating a function (calculating the area under its graph, or cumulative effect of small contributions). The two operations are each other's inverses.
+
+The Second Fundamental Theorem Of Calculus
+: The definite integral of a function over a closed interval where the function is Riemann integrable is equal to the difference between the values of an antiderivative evaluated at the endpoints of the interval.
 
 ## Integral Transforms
 Integral transforms are linear mathematical operators that act on functions to alter the domain. Transforms are used to make certain integrals and differential equations easier to solve algebraically. There are many types of integral transforms with a wide variety of uses, including image and signal processing, physics, engineering, statistics and mathematical analysis.
@@ -95,10 +145,9 @@ In geometery, lamina is a collective noun for flat 2D objects with no thickness 
 ## Line
 A line is a 1D geometric object consisting of an infinite set of points. In the coordinate plane, a line may be defined in several ways, perphaps the most intuitively via two distinct points that it intersects. Another common way to define a line is using the slope-intercept form, `y = mx + b`, where `m` is the slope of the line, and `b` is the y-intercept, while `(x, y)` coordinates make up the set of all points belonging to the line.
 
-## Complex analysis
-## Functional analysis
+
 ## Mathematical analysis
-Mathematical analysis includes calculus and more…
+Mathematical analysis further develops concepts of calculus, limits, series, sequences.
 
 ## Method of exhaustion
 The method of exhaustion was an integral-like limiting process used by Archimedes to compute the area and volume of 2D lamina (2D objects) and 3D solids.

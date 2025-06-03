@@ -1,0 +1,8 @@
+# Derivations of formulas re differentiation
+
+## Deriving the formula for `ln` with linear argument
+
+```js
+// derivative of ln
+ln′(x) = 1/x
+```

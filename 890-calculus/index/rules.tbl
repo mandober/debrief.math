@@ -1,0 +1,93 @@
+# Differentiation and Integration :: Rules and Tables
+
+
+
+
+## Constant
+
+### Constant Differentiation
+
+- f(x) = 0 ⇒ f′(x) = (0)′ = 0
+- f(x) = 1 ⇒ f′(x) = (1)′ = 0
+- f(x) = 2 ⇒ f′(x) = (2)′ = 0
+- f(x) = 3 ⇒ f′(x) = (3)′ = 0
+- f(x) = π ⇒ f′(x) = (π)′ = 0
+- f(x) = e ⇒ f′(x) = (e)′ = 0
+> f(x) = k ⇒ f′(x) = (k)′ = 0
+
+
+- (x)′ = 1
+- (2x)′ = 2
+- (3x)′ = 3
+- `(kx)′ = k`
+
+
+### Constant Integration
+
+- ∫ 0 dx = 0
+
+- ∫ dx = ∫ 1 dx = x + C
+- ∫ dv = ∫ 1 dv = v + C
+- ∫ dw = ∫ 1 dw = w + C
+
+- ∫ 2 dx = 2x + C
+- ∫ π dx = πx + C
+- ∫ e dx = ex + C
+
+## Trig
+
+
+### Trig Differentiation
+
+```
+⁻⁻sin(x) ----ᵈᵈˣ----> cos(x)
+  ↑                  │
+  │                  │ᵈᵈˣ
+  │ᵈᵈˣ                │
+  │                  ↓
+-cos(x) <---ᵈᵈˣ---- -sin(x)
+```
+
+
+-sin(x) → -cos(x) → -(-sin(x))
+
+
+- sin′(x) =  cos(x)
+- cos′(x) = -sin(x)
+
+### Trig Integration
+
+```
+sin(x) <----∫---- ⁻⁻cos(x)
+  │                  ↑
+  │∫                 │
+  │                  │∫
+  ↓                  │
+-cos(x) ----∫----> -sin(x)
+```
+
+
+- ∫ sin(x) dx = -cos(x)
+- ∫ cos(x) dx =  sin(x)
+
+- ∫ sin(x)    dx =     -cos(ax)
+- ∫ sin(ax)   dx = -1/a cos(ax)
+- ∫ sin(ax+b) dx = -1/a cos(ax+b)
+
+- ∫ cos(x)    dx =     sin(x)
+- ∫ cos(ax)   dx = 1/a sin(ax)
+- ∫ cos(ax+b) dx = 1/a sin(ax+b)
+
+## Log
+
+### Logarithmic Differentiation
+
+- ln'(x)    =     1/x
+- ln'(ax)   = a ∙ 1/ax   = a/ax
+- ln'(ax+b) = a ∙ 1/ax+b = a/ax+b
+
+### Logarithmic Integration
+
+- ∫ ln(x) dx = x∙ln|x| - x + C = `x ln(x) - x + C`
+
+- ∫ ln(ax) dx = x ∙ ln|ax| - x + C = `x ln|ax| - x + C`

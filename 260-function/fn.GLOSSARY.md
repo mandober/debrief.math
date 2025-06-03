@@ -7,6 +7,8 @@
 - [Boolean-valued function](#boolean-valued-function)
 - [Brouwer's fixpoint theorem](#brouwers-fixpoint-theorem)
 - [Combination](#combination)
+- [Continuous function](#continuous-function)
+- [Discontinuous function](#discontinuous-function)
 - [Domain of definition](#domain-of-definition)
 - [Empty function](#empty-function)
 - [General recursive function](#general-recursive-function)
@@ -15,6 +17,7 @@
 - [Functions-as-values](#functions-as-values)
 - [Function value](#function-value)
 - [Function signature](#function-signature)
+- [Infinitely differentiable function](#infinitely-differentiable-function)
 - [Knaster-Tarski theorem](#knaster-tarski-theorem)
 - [μ-recursive function](#μ-recursive-function)
 - [Total recursive function](#total-recursive-function)
@@ -23,6 +26,8 @@
 - [Permutation](#permutation)
 - [Primitive recursive functions](#primitive-recursive-functions)
 - [Total function](#total-function)
+- [Smooth function](#smooth-function)
+- [Smoothing function](#smoothing-function)
 
 <!-- /TOC -->
 
@@ -42,6 +47,18 @@ States that any continuous function from a closed ball into itself in Euclidean 
 
 ## Combination
 A combination is a selection of items from a set that has distinct members, such that the order of selection does not matter (unlike permutations).
+
+## Continuous function
+A continuous function of a single variable can be plotted in a coordinate system (usually 2D Cartesian coordinate system) as a single continuous line with no abrupt bends or edges, or breaks (discontinuities).
+
+A continuous function is such that a small variation of the argument induces a small variation of the function's value. This implies the absence of abrupt jumps and changes in value, called *discontinuities*.
+
+More precisely, a function is continuous if arbitrarily small changes in its value can be assured by restricting to sufficiently small changes of its argument.
+
+Until the 19th century, mathematicians largely relied on intuitive notions of continuity and considered only continuous functions. The *epsilon-delta definition of a limit* was introduced to formalize the definition of *continuity*.
+
+## Discontinuous function
+A discontinuous function is a function that is not continuous.
 
 ## Domain of definition
 For a total function, the domain is equal to its domain of definition, but these two differ for partial functions. A partial function `f : A -> B` is not defined over its whole domain `A`; if a subset `S ⊆ A` collects all the elements of `A` for which `f` is defined, then the subset `S` induces a total function, `f' : S -> B`. And the subset `S` is then called *the domain of definition* of the original, partial, function `f`.
@@ -85,6 +102,9 @@ For example, a ternary function with the same domains (all 3 inputs come form th
 
 Although it is rare that functions return more than one output, that single input can sometimes be a compund value. However, in such cases, the signature also has to change to reflect it. Functions that return a collection of elements do not have a standard or even uniform notation. Some authors annotate a function that returns a list of Booleans as `f : 𝔹 → 𝔹*`, while others would use `f : 𝔹 → [𝔹]`. Functions that return a set are sporadically denoted as `f : ℕ → 𝒫(ℕ)`, `f : ℕ → ℤ ∖ {0}` and similar, using braces in the codomain to suggest set-valued functions.
 
+## Infinitely differentiable function
+is a continuous function that may be differentiated any number of times. Many functions during the corse of repeated differentiation will hit 0 at some point, after which all subsequent derivatives will be 0.
+
 ## Knaster-Tarski theorem
 The Knaster-Tarski theorem says that any order-preserving function on a complete lattice has a complete lattice of fixpoints.
 
@@ -116,3 +136,9 @@ Primitive recursive functions (PRFs) are total functions constructed from the 3 
 
 ## Total function
 A function defined on its entire domain (on all elements in the domain) is a total function. That is, a function that always produces an answer (value) on any input (argument) is total. Total functions always terminate. Being undefined on some input value or not terminating on some inputs makes for a partial function. Primitive recursive functions are a set of total functions guaranteed to terminate.
+
+## Smooth function
+A smooth function is a continuous function that has continuous derivatives up to the target order (up to an `n`-order derivative) over some domain. It is a function that is continuous everywhere or, at least, along that (restricted) domain. The function needs to be infinitely differentiable as well, and all its derivatives need to be smooth functions.
+
+## Smoothing function
+is a computational method used to improve the signal-to-noise ratio by empirically designing a filter tailored to the frequency characteristics of noise and signal frequencies, often preferred for its computational simplicity in instrument manufacturing.

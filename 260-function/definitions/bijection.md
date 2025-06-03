@@ -1,1 +1,0 @@
-# Function Theory :: Definitions :: Bijection

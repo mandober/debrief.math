@@ -17,6 +17,5 @@ tangens
 
 unit circle
 - cos²θ + sin²θ = 1
-- cos²θ + sin²θ = 1
 - sin²θ = 1 - cos²θ
 - cos²θ = 1 - sin²θ

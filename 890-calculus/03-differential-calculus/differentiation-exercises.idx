@@ -1,0 +1,92 @@
+# Differentiation exrecises
+
+```js
+/* Power rule */
+(xⁿ)′ = nxⁿ⁻¹
+
+/* power functions */
+(x²)′ = 2x
+(x³)′ = 3x
+(2x³)′ = 6x²
+(3x⁴)′ = 12x³
+
+/* constants */
+(0)′ = 0
+(1)′ = 0
+(2)′ = 0
+(k)′ = 0 for all constants `k`
+
+(x)′ = 1
+
+(ax)′ = a
+(ax+b)′ = a
+(x+b)′ = a
+```
+
+## Exercise 1a
+
+```js
+ln′(x) = 1/x
+```
+
+## Exercise 1b
+
+```js
+ln′(ax) = 1/x
+
+ln′(ax)
+= a ∙ 1/ax
+= a/ax
+= 1/x
+```
+
+## Exercise 1c
+
+```js
+ln′(ax+b) = a/ax+b
+```
+
+## Exercise 2
+
+To get the derivative of `h(x) = 1/ax`, realize that it is a composition of two functions, `f(x) = x⁻²` and `g(x) = ax`, such that `(f ∘ g)(x) = f(g(x)) = f(`
+
+- f(x) = x⁻¹ = (1/)
+- g(x) = ax  = (a*)
+- h(x) = (f ∘ g)(x) = f(g(x))
+- ((1/) ∘ (a*))(x) = (1/)((a*)(x)) = (1/)(a∙x) = 1/ax
+- (λx.ax)(x) = ax
+- (λx.x⁻²)(ax) = (ax)⁻²
+- x --|g|--> ax --|f|--> (ax)⁻²
+- x |> ax |> (ax)⁻²
+
+So we first apply `g` to an arg `x` to get `ax`. Then we apply `f` to `ax` to get `(ax)⁻²`. Thus, to differentiate this, we use the chain rule.
+
+>(f ∘ g)′ = (f′ ∘ g) ∙ g′
+
+- f(x) = x⁻¹, f′(x) = -1x⁻²
+- g(x) = ax, g′(x) = a
+- h′(x) = -1(ax)⁻² ∙ a = -a(ax)⁻² = -a/a²x² = -1/ax²
+
+```js
+(1/ax)′
+= ((ax)⁻¹)′      // use chain rule: (f ∘ g)′ = (f′ ∘ g) ∙ g′
+= -1(ax)⁻² ∙ a  // f(x) = x⁻², g(x) = ax
+= -a(ax)⁻²      // (f ∘ g)x = f(g(x)) = f(ax) = (ax)⁻²
+= -a ∙ 1/(ax)²  // x |> ax |> (ax)⁻²
+= -a ∙ 1/a²x²
+= -a/a²x²
+= -1/ax²
+```
+
+## Exercise 3
+
+```js
+ln′(ax+b) = a ∙ 1/ax+b = a/ax+b
+```
+
+
+## Exercise 1
+
+```js
+
+```

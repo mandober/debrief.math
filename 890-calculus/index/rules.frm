@@ -1,4 +1,7 @@
-# Rules and Tables
+# Differentiation and Integration :: Rules and Tables
+
+
+
 
 ## Derivatives
 
@@ -9,12 +12,12 @@ x             | 1                 | ℝ
 1 - x         | -1                | ℝ
 xⁿ, n ∈ ℤ⃰     | nxⁿ⁻¹             | ℝ
 xᵃ, a ∈ ℝ     | axᵃ⁻¹             | (0, ∞)
-aˣ, a > 0     | aˣln(a)           | ℝ
+aˣ, a>0,a≠0   | aˣln(a)           | ℝ
 a^f(x), a>0   | a^f(x)ln(a)f′(x)  | ℝ
 xˣ            | xˣ(1+ln(x))       | (0, ∞)
 sin(x)        | cos(x)            | ℝ
 sin(f x)      | cos(f x)f′x       | ℝ
-cos(x)        | sin(x)            | ℝ
+cos(x)        | -sin(x)           | ℝ
 cos(f x)      | sin(f x)f′x       | ℝ
 tan(x)        | sec²(x)           | ℝ \ { (n+1⁄2)π | n ∈ ℤ } ⁽¹⁾
 tan(f x)      | sec²(f x)f′x      | ℝ \ { (n+1⁄2)π | n ∈ ℤ } ⁽¹⁾
@@ -143,8 +146,18 @@ Equation          | Derivative                 | Antiderivative
  sec(x)tan(x)     |                            | sec(x)
  sec²(x)          |                            | tan(x)
  csc(x)cot(x)     |                            |−csc(x)
+ cot(x)           | -csc²x                     |
+ sec(x)           | sec(x)tan(x)               |
  csc²(x)          |                            |−cot(x)
  csc(x)           | -csc(x)cot(x)              | 
+
+
+
+```js
+// co- prexied trig fns are negative
+sin′x = cosx        tan′x = sec²(x)           cot′x = -csc²(x)
+cos′x = -sinx       sec′x = sec(x)tan(x)      csc′x = -csc(x)cot(x)
+```
 
 
 
@@ -153,7 +166,7 @@ Equation          | Derivative                 | Antiderivative
 - differentiation : d/dx sin(x)
 - derivative      : cos(x)
 - integral        : ∫ sin(x) dx
-- antiderivative  : cos(x) + C
+- antiderivative  : -cos(x) + C
 
 `cos(x)`
 - function        : f(x) = cos(x)
@@ -194,6 +207,33 @@ arccos(ax)       |                            | x arccos(ax) - 1/a ln(1+a²x²
                   = x arcsin(ax) + 1/a √(1 − a²x²)
 
 
+## Rational functions
+
+## Radical functions
+
+Formula for radical functions with linear radicand.
+
+>∫ ʳ√(ax+b)ⁿ dx = 1/a ⋅ r/(n+r) ⋅ (ax+b)ᵏ + C
+
+```js
+∫ ʳ√(ax+b)ⁿ dx
+= ∫ (ax+b)ⁿ′ʳ dx
+= 1/a ⋅ k⁻¹ ⋅ (ax+b)ᵏ
+= 1/a ⋅ r/(n+r) ⋅ (ax+b)ᵏ
+
+    let k = n/r + 1
+        k = (n+r)/r
+    let k⁻¹ = r/(n+r)
+```
+
+Example
+
+```js
+∫ ³√(2x+1) dx
+= 1/2 ⋅ 3/4 ⋅ (2x+1)⁴′³ + C
+= 3/8 (2x+1)⁴′³ + C
+```
+
 ## Hyperbolic functions
 
 
@@ -209,14 +249,17 @@ eˣ               | eˣ                         | eˣ
 e⁻ˣ              |−e⁻ˣ                        |−e⁻ˣ
 e²ˣ              | 2e²ˣ                       | e²ˣ/2
 eᵏˣ              | keᵏˣ                       | eᵏˣ/k
-e⁻³ˣ             | 3e⁻³ˣ                      | 1/3e³ˣ
+e⁻³ˣ             | 3e⁻³ˣ                      | 3 ⋅ -1/3 ⋅ e⁻³ˣ
 
 
 ## Logarithmic functions
 
 Equation         | Derivative                 | Antiderivative
------------------|----------------------------|------------------------
-ln(x)            | 1/x                        | x ln x − x
+-----------------|----------------------------|-------------------------------
+ln(ax+b)         | a/ax+b                     | (ax+b) ⋅ ln|ax+b| - (ax+b) + C
+ln(u)            | u′/u                        | u ln|u| − u + C
+ln(x)            | 1/x                        | x ln|x| − x + C
+1/x = x⁻¹        | -x⁻²                       | ln|x| + C
 
 
 

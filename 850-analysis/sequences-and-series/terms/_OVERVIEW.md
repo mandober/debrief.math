@@ -1,0 +1,85 @@
+# Sequences and series - overview
+
+Sequences and series
+- Integer sequences
+  - Basic sequences
+    - Arithmetic sequence
+    - Geometric sequence
+    - Harmonic sequence
+    - Square number
+    - Cubic number
+    - Factorial
+    - Powers
+      - Powers of 2
+      - Powers of 3
+      - Powers of 4
+      - Powers of 10
+    - Reciprocals of powers
+      - Reciprocals of powers of 2
+      - Reciprocals of powers of 3
+      - Reciprocals of powers of 4
+      - Reciprocals of powers of 10
+  - Advanced sequences
+    - List of OEIS sequences
+      https://en.wikipedia.org/wiki/List_of_OEIS_sequences
+    - Complete sequence
+    - Fibonacci sequence
+    - Figurate number
+    - Heptagonal number
+    - Hexagonal number
+    - Pentagonal number
+    - Polygonal number
+    - Triangular number array
+    - Lucas number
+    - Pell number
+- Properties of sequences
+  - Cauchy sequence
+  - Monotonic function
+  - Periodic sequence
+- Properties of series
+  - Series types
+    - Alternating series
+    - Convergent series
+    - Divergent series
+    - Telescoping series
+  - Convergence types
+    - Absolute convergence
+    - Conditional convergence
+    - Uniform convergence
+- Explicit series
+  - Convergent series
+    - Reciprocals of powers of 2 (1/2 + 1/4 + 1/8 + 1/16 + ⋯)
+    - Alternating reciprocals of powers of 2 (1/2 − 1/4 + 1/8 − 1/16 + ⋯)
+    - Reciprocals of powers of 4 (1/4 + 1/16 + 1/64 + 1/256 + ⋯)
+    - Riemann zeta function (1 + 1⁄2ˢ + 1⁄3ˢ + ⋯)
+  - Divergent series
+    - 1 + 1 + 1 + 1 + ⋯
+      https://en.wikipedia.org/wiki/1_%2B_1_%2B_1_%2B_1_%2B_%E2%8B%AF
+    - 1 − 1 + 1 − 1 + ⋯ (Grandi's series)
+      https://en.wikipedia.org/wiki/Grandi%27s_series
+    - 1 + 2 + 3 + 4 + ⋯ (natural numbers)
+    - 1 − 2 + 3 − 4 + ⋯ (alternating natural numbers)
+    - 1 + 2 + 4 + 8 + ⋯ (powers of 2)
+    - 1 − 2 + 4 − 8 + ⋯ (alternating powers of 2)
+    - Infinite arithmetic series
+    - 1 − 1 + 2 − 6 + 24 − 120 + ⋯ (alternating factorials)
+    - 1 + 1/2 + 1/3 + 1/4 + ⋯ (harmonic series)
+    - 2 + 3 + 5 + 7 + 11 + ⋯ (primes)
+    - 1/2 + 1/3 + 1/5 + 1/7 + 1/11 + ⋯ (inverses of primes)
+- Kinds of series
+  - Taylor series
+  - Power series
+  - Formal power series
+  - Laurent series
+  - Puiseux series
+  - Dirichlet series
+  - Trigonometric series
+  - Fourier series
+  - Generating series
+- Hypergeometric series
+  - Generalized hypergeometric series
+  - Hypergeometric function of a matrix argument
+  - Lauricella hypergeometric series
+  - Modular hypergeometric series
+  - Riemann's differential equation
+  - Theta hypergeometric series

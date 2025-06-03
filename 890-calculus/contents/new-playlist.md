@@ -1,0 +1,339 @@
+# New Calculus playlist
+
+https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv
+New Calculus Video Playlist - Playlist 331 videos, 7,236,503 views
+
+## Contents
+
+- Calculus
+  - 1 Calculus 1 Review - Basic Introduction
+  - 2 Calculus - Recommended Textbooks
+- Functions
+  - 3 Functions
+  - 4 Vertical line test
+  - 5 Domain and range of a function from a graph
+  - 6 Evaluating piecewise functions
+  - 7 Increasing and decreasing functions
+  - 8 Even and odd functions, properties and symmetry
+  - 9 Linear functions
+- Function Graphs
+  - 10 Graph absolute value functions - domain and range
+  - 11 Graph quadratic functions using a data table
+  - 12 Graph piecewise functions
+  - 13 Graph polynomial functions using end behavior, multiplicity and zeros
+  - 14 Graph radical functions and determine the domain and range
+  - 15 Graph rational fns with transformations with v- and h-asymptotes
+  - 16 Graph logarithmic functions
+  - 17 Graph exponential functions
+- Function Operations
+  - 18 Function Operations
+  - 19 Composite Functions
+  - 20 Introduction to Inverse Functions,
+  - 21 Horizontal Line Test and One to One Functions
+- Logarithms
+  - 22 Properties of logarithms
+  - 23 Natural logarithms
+  - 24 Solving exponential equations
+  - 25 Solving logarithmic equations
+  - 26 Logarithms - practice problems
+- Limits
+  - 27 Calculus 1 - Introduction to Limits
+  - 28 Introduction to Limits
+  - 29 Properties of Limits
+  - 30 Limit of a Polynomial Function
+  - 31 Evaluate Limits From a Graph
+  - 32 Evaluating Limits By Factoring
+  - 33 Limits of Rational Functions - Fractions and Square Roots
+  - 34 Limits
+  - 35 Evaluating Limits With Fractions and Square Roots
+  - 36 How To Evaluate Limits of Radical Functions
+  - 37 Limits and Absolute Value
+  - 38 Limits of Exponential Functions
+  - 39 Limits of Trigonometric Functions
+  - 40 Infinite Limits and Vertical Asymptotes
+  - 41 Find The Limit At Infinity
+  - 42 Limits of Inverse Trigonometric Functions
+  - 43 Limit Formulas
+  - 44 Limits at Infinity With Radicals and Fractional Exponents
+  - 45 Limits at Infinity and Horizontal Asymptotes
+  - 46 Limits and Logarithms
+  - 47 Logarithms, Euler's Number
+  - 48 Squeeze theorem
+  - 49 Greatest integer function with limits and graphs
+  - 50 Limits of logarithmic functions
+  - 51 Limits of natural logarithmic functions
+  - 52 Intermediate value theorem
+- Continuity
+  - 53 Continuity, point-, infinite- and jump discontinuity, non/removable
+  - 54 Piecewise Functions - Limits and Continuity
+  - 55 3 Step Continuity Test, Discontinuity, Piecewise Functions and Limits
+  - 56 Continuity and Differentiability
+  - 57 Find The Limit of a Composite Function Given Two Graphs
+  - 58 Find The Limit of a Composite Function
+  - 59 Limits and Continuity
+- Derivatives
+  - 60 The Power Rule For Derivatives
+  - 61 The Constant Multiple Rule For Derivatives
+  - 62 Derivatives of Polynomial Functions
+  - 63 Definition of the Derivative
+  - 64 The Constant Rule For Derivatives
+  - 65 Derivatives of Trigonometric Functions
+  - 66 Derivative of Sine and Cosine Functions
+  - 67 Alternate Form of The Limit Definition of the Derivative
+  - 68 Limits and Derivatives
+  - 69 Find The Equation of Tangent Line With Derivatives
+  - 70 Find The Equation of Tangent Line Using Derivatives
+  - 71 Find The Point Where Graph has Horizontal Tangent Lines Using Derivatives
+  - 72 Find The Equation of the Normal Line
+  - 73 Find The Equation of a Secant Line
+  - 74 Instantaneous Rate of Change
+  - 75 Average Velocity and Instantaneous Velocity
+  - 76 Derivatives of Rational Functions
+  - 77 Derivatives of Radical Functions
+  - 78 Find The Derivative of a Fraction
+  - 79 Product Rule For Derivatives
+  - 80 Product Rule With 3 Functions - Derivatives
+  - 81 Product Rule With 4 Functions - Derivatives
+  - 82 Quotient Rule For Derivatives
+  - 83 The Reciprocal Rule and The Quotient Rule
+  - 84 Chain Rule For Finding Derivatives
+  - 85 How To Find The Derivative of some trig fns
+  - 86 Chain Rule
+  - 87 Derivative Using The Chain Rule
+  - 88 Simplifying Derivatives
+  - 89 Higher Order Derivatives
+  - 90 Implicit Differentiation
+  - 91 Derivatives of Inverse Trigonometric Functions
+  - 92 Derivatives of Exponential Functions
+  - 93 Derivative of Logarithmic Functions
+  - 94 Introduction to Logarithmic Differentiation
+  - 95 Logarithmic Differentiation Formula
+  - 96 Finding Derivatives Using Logarithms
+  - 97 Derivatives of Inverse Functions
+  - 98 Basic Differentiation Rules For Derivatives
+  - 99 Differentiation Formulas
+  - 100 Basic Introduction of Derivatives
+- Related Rates
+  - 101 Introduction to Related Rates
+  - 102 Derivative Notations in Calculus
+  - 103 Related Rate Problems: Volume, Surface Area and Diagonal Length of Cube
+  - 104 Related Rates: Balloon and Melting Snowball, Surface Area and Vol
+  - 105 Related Rates - Gravel Dumped Into Conical Tank Problem
+  - 106 Related Rates - Area of a Triangle
+  - 107 Related Rates - The Ladder Problem
+  - 108 Related Rates - Distance Problems - Application of Derivatives
+  - 109 Related Rates - Airplane Problems
+  - 110 Related Rates - The Shadow Problem
+  - 111 Related Rates - The Baseball Diamond Problem
+  - 112 Related Rates - Angle of Elevation Problem
+- Hyperbolic Trig Functions
+  - 113 Hyperbolic Trig Functions
+  - 114 The Graphs of Hyperbolic Trig Functions
+  - 115 Evaluating Hyperbolic Trig Functions
+  - 116 Hyperbolic Trig Identities
+  - 117 Verifying Hyperbolic Trig Identities
+  - 118 Evaluating Inverse Hyperbolic Functions
+  - 119 Graphs of Inverse Hyperbolic Functions
+  - 120 Derivatives of Hyperbolic Functions
+  - 121 Derivatives of Inverse Hyperbolic Functions
+  - 122 Integral of Hyperbolic Functions
+  - 123 Limits of Hyperbolic Functions
+  - 124 Linearization of a Function Using Tangent Line Approximations
+  - 125 Differentials and Derivatives - Local Linearization
+  - 126 Estimating Function Values Using Differentials and Local Linearization
+  - 127 Math without calculator
+- Extrema
+  - 128 Extreme Value Theorem
+  - 129 Finding Critical Numbers
+  - 130 Finding Local max and Minimum Values of Function - Relative Extrema
+  - 131 Fermat's Theorem - Application of Derivatives
+  - 132 Finding Absolute Maximum and Minimum Values - Absolute Extrema
+  - 133 Application of Derivatives - Formulas and Notes
+  - 134 Rolle's Theorem
+  - 135 Mean Value Theorem
+  - 136 Increasing and Decreasing Functions
+  - 137 First Derivative Test
+  - 138 Concavity, Inflection Points, and Second Derivative
+  - 139 Second Derivative Test
+  - 140 L'hopital's rule
+  - 141 Curve Sketching - Graphing Functions Using Derivatives
+  - 142 Newton's Method
+  - 143 Optimization Problems
+  - 144 Marginal Cost and Average Total Cost
+  - 145 Marginal Cost, Marginal Revenue, and Marginal Profit
+- Antiderivatives
+  - 146 Antiderivatives
+  - 147 Basic integration problems
+  - 148 Basic integration formulas
+  - 149 Indefinite integral
+  - 150 Definite integral
+  - 151 Definite integral
+  - 152 Properties of definite integrals
+  - 153 Riemann sums: left endpoints and right endpoints
+  - 154 Riemann sums and midpoint rule
+  - 155 Summation formulas and sigma notation
+  - 156 Finding area using the limit definition and sigma notation
+  - 157 Evaluating definite integrals using geometry
+  - 158 Integral of absolute value
+  - 159 Fundamental theorem of calculus, part 1
+  - 160 Fundamental theorem of calculus, part 2
+  - 161 Net change theorem word problems
+  - 162 Find solutions of DE given initial conditions
+  - 163 Rectilinear motion problems: distance, displ, vel, speed and acc
+  - 164 Integrate using u-sub
+  - 165 Integrating exponential functions by substitution
+  - 166 u-sub with definite integrals
+  - 167 Integration and antiderivatives
+  - 168 Area under the curve using definite integrals
+  - 169 Area between two curves
+  - 170 Area bounded by three curves using definite integrals
+  - 171 Disk and washer method
+  - 172 Shell method - volume of revolution
+  - 173 Volumes using cross sections
+  - 174 Average value of a function over an interval
+  - 175 Mean value theorem for integrals
+  - 176 Work problems
+  - 177 Applications of integration formula
+  - 178 Calculus 1 review
+- Integration By Parts
+  - 179 Integration by parts
+  - 180 Indefinite integral
+  - 181 IBP - Tabular method
+  - 182 IBP - Formula derivation
+  - 183 IBP - Integral of exp(sinx) form
+  - 184 Integration by parts
+  - 185 Trigonometric integrals
+  - 186 Basic integration formulas of trig functions
+  - 187 Reduction formulas for integration
+  - 188 Integral of sinx cosx
+  - 189 Trigonometric substitution
+  - 190 Trigonometric substitution
+  - 191 Integration formulas for trig substitution
+- Integration
+  - 192 Integration of rational functions into log by subst and long division
+  - 193 Integration by partial fractions
+  - 194 Integration by partial fractions
+  - 195 Integration of rational functions by completing the square
+  - 196 Integration by tables
+  - 197 Indefinite integral of special rational functions using the table of integrals formula sheet
+  - 198 Integration into inverse trigonometric functions using substitution
+  - 199 Indefinite integral of inverse trig functions
+  - 200 Integral of logarithmic functions
+  - 201 Indefinite integral of 7^lnx
+  - 202 Trapezoidal rule
+  - 203 Simpson's rule and numerical integration
+  - 204 Improper integrals - convergence and divergence
+  - 205 Arc length calculus problems
+  - 206 Surface area of revolution by integration explained, calculus problems, integral formula, examples
+  - 207 Moment, center of mass, and centroid
+  - 208 Center of mass and centroid problems
+  - 209 Hydrostatic force problems
+  - 210 Probability density functions
+  - 211 Normal distribution and probability problems
+  - 212 Initial value problem
+- Differential Equations
+  - 213 Separable First Order Differential Equations
+  - 214 Slope Fields
+  - 215 Exponential Growth and Decay Calculus, Relative Growth Rate, Differential Equations, Word Problems
+  - 216 Newton's Law of Cooling Calculus, Example Problems, Differential Equations
+  - 217 Logistic Growth Function and Differential Equations
+  - 218 Homogeneous Differential Equations
+  - 219 First Order Linear Differential Equations
+  - 220 Bernoulli's Equation For Differential Equations
+- Sequences and Series
+  - 221 Converging and Diverging Sequences Using Limits
+  - 222 Monotonic Sequences and Bounded Sequences
+  - 223 Absolute Value Theorem For Sequences
+  - 224 Squeeze Theorem For Sequences
+  - 225 Geometric Series and Geometric Sequences
+  - 226 Find The Sum of a Geometric Series
+  - 227 Find Sum of a Finite Geometric Series
+  - 228 Finding The Sum of an Infinite Geometric Series
+  - 229 Convergence and Divergence
+  - 230 Divergence Test For Series
+  - 231 Harmonic Series
+  - 232 Telescoping Series
+  - 233 Integral Test For Convergence and Divergence of Series
+  - 234 Remainder Estimate For The Integral Test
+  - 235 P-series
+  - 236 Direct Comparison Test
+  - 237 Limit Comparison Test
+  - 238 Alternating Series Test
+  - 239 Alternate Series Estimation Theorem
+  - 240 Absolute Convergence, Conditional Convergence, and Divergence
+  - 241 Ratio Test
+  - 242 Root Test
+  - 243 Geometric Series, P-Series, Ratio Test, Root Test, Alternating Series, Integral Test
+  - 244 Taylor Polynomials and Maclaurin Polynomials With Approximations
+  - 245 Taylor's Remainder Theorem
+  - 246 Power Series - Finding The Radius and Interval of Convergence
+  - 247 Power Series - Differentiation and Integration
+  - 248 Power Series - Representation of Functions
+  - 249 Finding Power Series By Differentiation
+  - 250 Power Series Representation By Integration
+  - 251 Power Series Representation With Natural Logarithms
+  - 252 Taylor Series and Maclaurin Series
+  - 253 Binomial Series
+- Parametric Equations
+  - 254 Parametric Equations Introduction, Eliminating The Paremeter t, Graphing Plane Curves, Precalculus
+  - 255 Derivatives of Parametric Functions
+  - 256 Tangent Lines of Parametric Curves
+  - 257 Second Derivatives of Parametric Equations With Concavity
+  - 258 Differentiation of Parametric Curves - Finding The Third Derivative
+  - 259 Horizontal Tangent Lines and Vertical Tangent Lines of Parametric Functions 2
+  - 260 Area of Parametric Curves
+  - 261 Arc Length of Parametric Curves
+  - 262 Surface Area of Revolution of Parametric Equations: X-axis and Y-axis
+  - 263 Polar Coordinates Basic Introduction, Conversion to Rectangular, How to Plot Points, Negative R Valu
+  - 264 Polar Equations to Rectangular Equations, Precalculus, Examples and Practice Problems
+  - 265 Rectangular Equation to Polar Equations, Precalculus, Examples and Practice Problems
+  - 266 Graph Polar Equations
+  - 267 Tangent Line Equations, Slope, and Derivatives In Polar Form 2
+  - 268 Horizontal Tangent Lines and Vertical Tangent Lines In Polar Form
+  - 269 Finding Area In Polar Coordinates
+  - 270 Finding Area Bounded By Two Polar Curves
+  - 271 Arc Length of Polar Curves
+  - 272 Surface Area of Revolution of Polar Curves
+  - 273 Writing Equations of Ellipses In Standard Form and Graphing Ellipses - Conic Sections
+  - 274 Eccentricity of an Ellipse
+  - 275 Area of an Ellipse
+  - 276 Circumference of an Ellipse
+  - 277 Hyperbolas - Conic Sections
+  - 278 Finding The Focus and Directrix of a Parabola - Conic Sections
+  - 279 Polar Equations of Conic Sections In Polar Coordinates
+  - 280 Calculus 2 Final Exam Review
+  - 281 Calculus 2 Final Exam Review
+  - 282 Calculus 2 Final Exam Review
+- Vector Calculus
+  - 283 Plotting Points In a Three Dimensional Coordinate System
+  - 284 Find The Distance Between 2 Points In 3D Space
+  - 285 Find The Equation of a Sphere, Center, and Radius Given The Endpoints of its Diameter
+  - 286 Calculus 3 - Intro To Vectors
+  - 287 Calculus 3 - The Dot Product
+  - 288 Finding The Angle Between Two Vectors 3
+  - 289 Are The Two Vectors Parallel, Orthogonal, or Neither?
+  - 290 Calculus 3 - Direction Cosines and Direction Angles of a Vector
+  - 291 Calculus 3 - Vector Projections and Orthogonal Components
+  - 292 Cross Product of Two Vectors Explained!
+  - 293 Area of a Parallelogram Using Two Vectors and The Cross Product
+  - 294 Volume of a Parallelepiped Using The Triple Scalar Product Calculus 3
+  - 295 Find The Vector Equation of a Line and Symmetric and Parametric Equations
+  - 296 Find The Equation of a Plane Given a Point and Perpendicular Normal Vector
+  - 297 Find The Equation of a Plane Given Three Points
+  - 298 Find The Point Where a Line Intersects a Plane
+  - 299 Find The Angle Between Two Planes
+  - 300 Find The Distance Between a Point and a Plane
+- Multivariable Calculus
+  - 301 Chain Rule With Partial Derivatives 
+  - 302 Implicit Differentiation With Partial Derivatives w Implicit Fn Theorem
+  - 303 Find The Directional Derivative and The Gradient Vector
+  - 304 Limits of Multivariable Functions
+  - 305 Double Integrals
+  - 306 Local Extrema, Critical Points, Saddle Points of Multivariable Fns
+  - 307 Absolute Maximum and Minimum Values of Multivariable Functions
+  - 308 Lagrange Multipliers
+  - 309 Triple Integrals
+- Second-order Linear Differential Equations
+  - 310 Second Order Linear Differential Equations
+  - 311 Method of Undetermined Coefficients - Nonhomogeneous 2nd Order DE
+  - 312 Variation of Parameters - Nonhomogeneous Second Order DE

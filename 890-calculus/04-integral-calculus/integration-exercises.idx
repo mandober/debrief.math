@@ -1,0 +1,298 @@
+# Integration :: Exercises
+
+1. ∫ sin(3x) dx = -1/3 sin(3x)
+1. ∫ ln(x)/x³ dx = = -1/2x² ln(x) - 1/4x² + C
+1. ∫ x eˣ dx = eˣ(x-1) + C
+1. ∫ x²e³ˣ dx = 3⁄4x⁴ + C
+
+
+## Exercise 0: exponentials with linear base
+
+>bˣ = eˣ ˡⁿ⁽ᵇ⁾
+
+>∫ xⁿ dx = xⁿᐩ¹/n+1 + C
+
+Ex. 1
+
+```js
+// Ex. 
+∫ (x + c)        dx =  x²/2         + cx + C
+∫ (ax + c)       dx = ax²/2         + cx + C
+∫ (ax² + c)      dx = ax³/3         + cx + C
+∫ (ax² + bx + c) dx = ax³/3 + bx²/2 + cx + C
+
+
+// Ex.
+d/dx (ax)³   = 3(ax)²   ⋅ a = 3a(ax)²
+d/dx (ax+b)³ = 3(ax+b)² ⋅ a = 3a(ax+b)²
+
+// Ex.
+∫ (ax)² dx = ∫ a²x² dx = a² ∫ x² dx = a²x³/3 + C
+∫ (ax)³ dx = ∫ a³x³ dx = a³ ∫ x³ dx = a³x⁴/4 + C
+∫ (ax)ⁿ dx = ∫ aⁿxⁿ dx = aⁿ ∫ xⁿ dx = aⁿxⁿᐩ¹/n+1 + C
+
+
+// Ex.
+∫ 3a(ax+b)² dx = (ax+b)³ + C
+    u = ax+b
+    du = a dx
+    dx = du/a
+= ∫ 3au² du/a
+= 3 ∫ u² du
+= 3 u³/3
+= u³
+= (ax+b)³ + C
+
+// Ex.
+∫ (ax+b)² dx == (ax+b)³/3a + C == 1/3a (ax+b)³ + C
+    u = ax+b
+    du = a dx
+    dx = du/a
+= ∫ u² du/a
+= 1/a ∫ u² du
+= 1/a ⋅ u³/3
+= u³/3a
+= (ax+b)³/3a + C
+
+// Ex.
+∫ (ax+b)³ dx == (ax+b)⁴/4a + C == 1/4a (ax+b)⁴ + C
+    u = ax+b
+    du = a dx
+    dx = du/a
+= ∫ u³ du/a
+= 1/a ∫ u³ du
+= 1/a ⋅ u⁴/4
+= u⁴/4a
+= (ax+b)⁴/4a + C
+
+// Ex.
+∫ (ax+b)⁴ dx == (ax+b)⁵/5a + C == 1/5a (ax+b)⁵ + C
+    u = ax+b
+    du = a dx
+    dx = du/a
+= ∫ u⁴ du/a
+= 1/a ∫ u⁴ du
+= 1/a ⋅ u⁵/5
+= u⁵/5a
+= (ax+b)⁵/5a + C
+
+
+
+
+// Ex.
+∫ av⁰ dv = ∫ a  dv = av¹/1 + C = av + C
+∫ ax⁰ dx = ∫ a  dx = ax¹/1 + C = ax + C
+∫ ax¹ dx = ∫ ax dx = ax²/2 + C
+∫ ax² dx           = ax³/3 + C
+∫ ax³ dx           = ax⁴/4 + C
+// Ex.
+∫  x³ dx           =  x⁴/4 + C
+∫  x² dx           =  x³/3 + C
+∫  x¹ dx = ∫ x dx  =  x²/2 + C
+∫  x⁰ dx = ∫ 1 dx  = ∫ dx = x + C
+// Ex.
+∫ x⁻¹ dx = ∫ 1/x dx = ln|x| + C
+// Ex.
+∫ x⁻² dx = x⁻¹/-1 = -1/x   + C
+∫ x⁻³ dx = x⁻²/-2 = -1/2x² + C
+∫ x⁻⁴ dx = x⁻³/-3 = -1/3x³ + C
+```
+
+Ex. 2
+
+```js
+∫ bˣ dx
+= ∫ exp(ln(bˣ)) dx
+= ∫ exp(x ln(b)) dx
+
+```
+
+Ex. 3
+
+```js
+∫ (ax+b)ⁿ dx
+```
+
+
+## Exercise 1: sin with a linear arg
+
+```js
+∫ sin(3x) dx = -1/3 sin(3x)
+// sin has linear arg - use the formula:
+// ∫ sin(ax+b) dx = -1/a sin(ax+b)
+```
+
+## Exercise 2: IBP, ln
+
+```js
+∫ ln(x)/x³ dx
+
+    u = ln(x)
+    du = 1/x dx
+    dx = x du
+
+    dv = x⁻³ dx
+    ∫ dv = ∫ x⁻³ dx
+    v = x⁻²/-2
+    v = -1/2x²
+
+∫ u dv = uv - ∫ v du
+= ln(x) (-1/2x²) - ∫ (-1/2x²) 1/x dx
+= -1/2x² ln(x) + ∫ 1/2 ⋅ x⁻³ dx
+= -1/2x² ln(x) + 1⁄2 ∫ x⁻³ dx
+= -1/2x² ln(x) + 1⁄2 x⁻²/-2
+= -1/2x² ln(x) - 1/4x² + C
+```
+
+## Exercise 3: IBP, exp
+
+```js
+∫ x eˣ dx
+
+    u = x
+    du/dx = 1
+    du = dx
+
+    dv = eˣ dx
+    v = eˣ
+
+= x eˣ - ∫ eˣ dx
+= x eˣ - eˣ + C
+= eˣ(x-1) + C
+```
+
+## Exercise 4: IBP, exp
+
+```js
+∫ e³ˣ x² dx
+
+/* take 1 */
+∫ e³ˣ x² dx
+
+    u = 3x      x = u/3
+    du = 3dx
+    dx = du/3
+
+= ∫ eᵘ ⋅ (u/3)² ⋅ 1/3 ⋅ du
+= 1/3 ∫ eᵘ ⋅ u²/3² ⋅ du
+= 1/3 ∫ eᵘ ⋅ u²/9 ⋅ du
+= 1/3 ∫ eᵘ ⋅ u² ⋅ 1/9 ⋅ du
+= 1/27 ∫ eᵘ ⋅ u² ⋅ du
+= 1/27 ∫ e³ˣ ⋅ (3x)² ⋅ 3 dx
+= 3/27 ∫ e³ˣ ⋅ 9x² ⋅ dx
+= 27/27 ∫ e³ˣ ⋅ x² ⋅ dx
+= ∫ e³ˣ ⋅ x² ⋅ dx
+// same as the initial integral
+
+/* take 2 */
+∫ e³ˣ ⋅ x² ⋅ dx
+
+    u = e³ˣ
+    du = 1/3 e³ˣ dx
+
+    dv = x² dx
+    v = x³/3
+
+= u v - ∫ v du
+= e³ˣ x³/3 - ∫ x³/3 ⋅ 1/3 ⋅ e³ˣ ⋅ dx
+= 1/3 x e³ˣ - 1/3 ∫ 1/3 ⋅ x³ ⋅ e³ˣ ⋅ dx
+= 1/3 x e³ˣ - 1/9 ∫ x³ ⋅ e³ˣ ⋅ dx
+// worse then the initial integral
+
+/* take 3 */
+∫ x²e³ˣ dx
+
+    u = x²
+    du = 2xdx
+
+    dv = e³ˣ dx
+    v = 1/3 e³ˣ
+
+= x² ⋅ 1/3 e³ˣ - ∫ 1/3 e³ˣ ⋅ 2x dx
+= 1/3 x² e³ˣ - ∫ x 2/3e³ˣ dx
+
+    u = x
+    du = dx
+
+    dv = 2/3 e³ˣ dx
+    v = 1/3 2/3 e³ˣ
+    v = 2/9 e³ˣ
+
+= 1/3 x² e³ˣ - ∫ x 2/3e³ˣ dx
+                 u dv
+= 1/3 x² e³ˣ - ∫ x 2/3e³ˣ dx
+= 1/3 x² e³ˣ - x 2/9 e³ˣ - ∫ 2/9 e³ˣ dx
+= 1/3 x² e³ˣ - 2/9 x e³ˣ - 2/27 e³ˣ + C
+= 1⁄3e³ˣ(x² - 2⁄3x - 2⁄9) + C
+```
+
+## Exercise 5: Careful with IBP
+
+```js
+∫ x³ exp(x²) dx
+// if we pick u = x³, then dv = exp(x²) dx
+// which we don't know how to integrate
+// so we have to be clever and pick
+    u = x³        dv = exp(x²) dx
+
+
+∫ x² x exp(x²) dx
+
+    u = x²        dv = x exp(x²) dx
+
+```
+
+
+## Exercise 6: IBP, sin
+
+```js
+∫ x² sin(3x) dx
+
+```
+
+## Exercise: ln(ax+b)
+
+```js
+∫ ln(ax+b) dx
+
+    u = ln(ax+b)          v = x
+    du = a/ax+b           dv = dx
+```
+
+## Exercise
+
+```js
+∫ ln(x)/√x dx
+= ∫ ln(x) ⋅ x⁻¹′² dx
+= ∫ x⁻¹′² ⋅ ln(x) dx
+
+    let u = ln(x)
+        du = 1/x dx
+
+    let dv = x⁻¹′² dx
+        v = x¹′²/1⁄2 = 2x¹′²
+
+∫ u dv
+= u       v    - ∫ v    du
+= ln(x) ⋅ 2x¹′² - ∫ 2x¹′² 1/x dx
+= 2x¹′² ln(x) - 2 ∫ x¹′²/x dx
+= 2x¹′² ln(x) - 2 ∫ x¹′²/x¹ dx
+= 2x¹′² ln(x) - 2 ∫ x¹′²⁻¹ dx
+= 2x¹′² ln(x) - 2 ∫ x⁻¹′² dx
+= 2x¹′² ln(x) - 2 ⋅ 2x¹′²
+= ln(x) 2x¹′² - 4x¹′² + C
+= 2 x¹′² (ln(x) - 2) + C
+= 2 ⋅ √x ⋅ (ln(x) - 2) + C
+```
+
+## Exercise
+
+```js
+∫ (3x² + 8x + 2)e⁻⁵ˣ dx
+```
+
+## Exercise
+
+```js
+
+```

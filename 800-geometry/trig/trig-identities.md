@@ -7,7 +7,7 @@ Euler's identity
 - eⁱˣ = cos(x) + 𝒾 sin(x)
 
 Pythagorean identities
-- cos²θ + sin²θ = 1                                   (PY1)
+- cos²x + sin²x = 1                                   (PY1)
 
 
 Sum identities
@@ -15,40 +15,48 @@ Sum identities
 - cos(α + β) = cos(α)cos(β) - sin(α)sin(β)            (S2)
 
 Double angle (sum identities when α = β)
-- sin(2α) = 2sin(α)cos(α)         (follows from S1)
-- cos(2α) = 1 - 2sin²(α)
-+ cos(2α) = 2cos²(α) - 1          (follows from PR2)
+- sin(2x) = 2sin(x)cos(x)         (follows from S1)
+- cos(2x) = 1 - 2sin²(x)
+          = 2cos²(x) - 1          (follows from PR2)
+- cos(2x) = cos²(x) - sin²(x) 
+          = cos(x)cos(x) - sin(x)sin(x)
 
 Power reduction
-- sin²(α) = (1 - cos(2α)) / 2     (PR1)
-- cos²(α) = (1 + cos(2α)) / 2     (PR2)
+- sin²(x) = (1 - cos(2x)) / 2     (PR1)
+- cos²(x) = (1 + cos(2x)) / 2     (PR2)
 
 
 
-```
-sin(α + α) = sin(α)cos(α) + sin(α)cos(α)
-sin(2α) = sin(α)cos(α) + sin(α)cos(α)
-sin(2α) = 2sin(α)cos(α)
---------------------------------------------------------
-cos(α + α) = cos(α)cos(α) - sin(α)sin(α)
-cos(2α) = cos(α)cos(α) - sin(α)sin(α)
-cos(2α) = cos²(α) - sin²(α)
-cos(2α) = 1 - 2sin²(α)
-cos(2α) = 2cos²(α) - 1
---------------------------------------------------------
-cos²θ + sin²θ = 1
-sin²θ = 1 - cos²θ
-cos²θ = 1 - sin²θ
---------------------------------------------------------
-cos(2α) = 1 - 2sin²(α)
-2sin²(α) = 1 - cos(2α)
-sin²(α) = (1 - cos(2α)) / 2
---------------------------------------------------------
-cos²(α) = (1 + cos(2α)) / 2
-2cos²(α) = 1 + cos(2α)
-2cos²(α) - cos(2α) = 1
-1 - 2cos²(α) = -cos(2α)
-cos(2α) = 2cos²(α) - 1
+```js
+sin(x+x) =
+= sin(2x)
+= sin(x)cos(x) + sin(x)cos(x)
+= 2sin(x)cos(x)
+
+// --------------------------------------------------------
+cos(x+x) =
+= cos(2x)
+= cos(x)cos(x) - sin(x)sin(x)
+= cos²(x) - sin²(x)
+= 1 - 2sin²(x)
+= 2cos²(x) - 1
+
+// --------------------------------------------------------
+cos²x + sin²x = 1
+sin²x = 1 - cos²x
+cos²x = 1 - sin²x
+
+// --------------------------------------------------------
+cos(2x) = 1 - 2sin²(x)
+2sin²(x) = 1 - cos(2x)
+sin²(x) = (1 - cos(2x)) / 2
+
+// --------------------------------------------------------
+cos²(x) = (1 + cos(2x)) / 2
+2cos²(x) = 1 + cos(2x)
+2cos²(x) - cos(2x) = 1
+1 - 2cos²(x) = -cos(2x)
+cos(2x) = 2cos²(x) - 1
 ```
 
 
